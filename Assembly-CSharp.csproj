@@ -49,8 +49,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/Camera.cs" />
-    <Compile Include="Assets/Scripts/attackArea.cs" />
-    <Compile Include="Assets/Scripts/attack.cs" />
     <Compile Include="Assets/Scripts/playemovement.cs" />
   </ItemGroup>
   <ItemGroup>
