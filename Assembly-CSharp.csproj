@@ -49,6 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/Camera.cs" />
+    <Compile Include="Assets/Scripts/attack.cs" />
+    <Compile Include="Assets/Scripts/enemyattack.cs" />
+    <Compile Include="Assets/Scripts/healthsystem.cs" />
     <Compile Include="Assets/Scripts/playemovement.cs" />
   </ItemGroup>
   <ItemGroup>
