@@ -8,11 +8,14 @@ public class HealthSystem : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+        Debug.Log(gameObject.name + " health initialized at " + currentHealth);
     }
 
     public void TakeDamage(float amount)
     {
         currentHealth -= amount;
+        Debug.Log(gameObject.name + " took " + amount + " damage. Remaining health: " + currentHealth);
+
         if (currentHealth <= 0)
         {
             Die();
@@ -21,6 +24,7 @@ public class HealthSystem : MonoBehaviour
 
     void Die()
     {
+        Debug.Log(gameObject.name + " died.");
         Destroy(gameObject);
     }
 }
