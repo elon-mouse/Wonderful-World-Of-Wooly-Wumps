@@ -1,4 +1,0 @@
-/Users/arman/My-project/Temp/obj/Assembly-CSharp/Assembly-CSharp.csproj.AssemblyReference.cache
-/Users/arman/My-project/Temp/obj/Assembly-CSharp/Assembly-CSharp.GeneratedMSBuildEditorConfig.editorconfig
-/Users/arman/My-project/Temp/obj/Assembly-CSharp/Assembly-CSharp.csproj.CoreCompileInputs.cache
-/Users/arman/My-project/Temp/obj/Assembly-CSharp/Assembly-CSharp.sourcelink.json
