@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/arman/Wonderful-World-Of-Wooly-Wumps/Temp/Burst/burst-aotkjtc14cc.wev/47d28318d3a564e4986a0120507a3350.bundle'
+relocations:
+  - { offset: 0x1E, size: 0x8, addend: 0x0, symName: '_Unity.Burst.Intrinsics.X86.DoSetCSRTrampoline(int bits) -> void_bccf02d8801b0db00bbdd0d36548b759 from Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0x50, symBinAddr: 0x488, symSize: 0x10 }
+  - { offset: 0x2B, size: 0x8, addend: 0x0, symName: '_Unity.Burst.Intrinsics.X86.DoSetCSRTrampoline(int bits) -> void_bccf02d8801b0db00bbdd0d36548b759 from Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0x50, symBinAddr: 0x488, symSize: 0x10 }
+  - { offset: 0x5A, size: 0x8, addend: 0x0, symName: '_Unity.Burst.Intrinsics.X86.DoGetCSRTrampoline() -> int_bccf02d8801b0db00bbdd0d36548b759 from Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0x50, symBinAddr: 0x4E8, symSize: 0x14 }
+  - { offset: 0x67, size: 0x8, addend: 0x0, symName: '_Unity.Burst.Intrinsics.X86.DoGetCSRTrampoline() -> int_bccf02d8801b0db00bbdd0d36548b759 from Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null', symObjAddr: 0x50, symBinAddr: 0x4E8, symSize: 0x14 }
+...

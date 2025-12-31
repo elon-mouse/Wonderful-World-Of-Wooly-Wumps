@@ -2685,3 +2685,145 @@ Memory consumption went from 163.7 MB to 160.2 MB.
 Total: 9.390625 ms (FindLiveObjects: 0.531375 ms CreateObjectMapping: 0.823250 ms MarkObjects: 5.930792 ms  DeleteObjects: 2.104583 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (1.9 MB). Loaded Objects now: 8469.
+Memory consumption went from 148.5 MB to 146.7 MB.
+Total: 79.365542 ms (FindLiveObjects: 0.540083 ms CreateObjectMapping: 0.134208 ms MarkObjects: 77.364500 ms  DeleteObjects: 1.326000 ms)
+
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a segv while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Native stacktrace:
+=================================================================
+	0x161d8138c - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_dump_native_crash_info
+	0x161d4360c - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_handle_native_crash
+	0x161ccbe10 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Frameworks/MonoBleedingEdge/MonoEmbedRuntime/osx/libmonobdwgc-2.0.dylib : mono_sigsegv_signal_handler_debug
+	0x1a03a7744 - /usr/lib/system/libsystem_platform.dylib : _sigtramp
+	0x102e36844 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _ZNK4core13base_hash_setINS_4pairIKNS_12basic_stringIcNS_20StringStorageDefaultIcEEEEN8keywords12LocalKeywordELb1EEENS_9hash_pairINS_4hashINS_16basic_string_refIcEEEES5_EENS_10equal_pairINSt3__18equal_toISD_EES5_EEE6lookupIS5_SK_EEPNSL_4nodeERKT_RKT0_
+	0x102e32ba0 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _ZNK8keywords10LocalSpace4FindERKN4core12basic_stringIcNS1_20StringStorageDefaultIcEEEE
+	0x102e32a84 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _ZN8keywords12KeywordRemap4InitERKNS_10LocalSpaceES3_
+	0x102e4ea88 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _ZN9ShaderLab9IntShader15ResolveFallbackERKNS_16SerializedShaderEP6ShaderRN4core6vectorI4PPtrIS4_ENS6_9allocatorIS9_Lm0EEEEEb
+	0x102dcf750 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _ZN9ShaderLab9IntShader36CreateFromSerializedShaderMainThreadEPS0_RKNS_16SerializedShaderERN4core6vectorI4PPtrI6ShaderENS5_9allocatorIS9_Lm0EEEEEbPS8_
+	0x102dd37b8 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _Z36ShaderFromSerializedShaderMainThreadPN9ShaderLab9IntShaderEPKNS_16SerializedShaderERN4core6vectorI4PPtrI6ShaderENS5_9allocatorIS9_Lm0EEEEEbPS8_
+	0x104bdfc38 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _ZN6Shader20CreateFromParsedFormEv
+	0x104bdfe94 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _ZN6Shader13AwakeFromLoadE17AwakeFromLoadMode
+	0x10319ced8 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _ZN18AwakeFromLoadQueue28InvokePersistentManagerAwakeEPNS_4ItemEj17AwakeFromLoadModeb
+	0x10319c910 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _ZN18AwakeFromLoadQueue41PersistentManagerSingleQueueAwakeFromLoadEi17AwakeFromLoadMode
+	0x10319c550 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _ZN18AwakeFromLoadQueue39PersistentManagerAwakeFromLoad_NoChecksE17AwakeFromLoadMode
+	0x10316f630 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager27IntegrateAllThreadedObjectsEv
+	0x103170788 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager38LoadAndIntegrateAllPreallocatedObjectsENS_9LockFlagsE
+	0x103172900 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager11LoadObjectsEPK8EntityIdib
+	0x1047d12f4 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _Z15ReloadInstancesRKN4core6vectorI8EntityIdNS_9allocatorIS1_Lm0EEEEERKNS_8hash_mapIS1_17ScriptingGCHandleNS_4hashIS1_EENSt3__18equal_toIS1_EEEE
+	0x1047d33a0 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _Z19ReloadAssetIfLoadedRK9UnityGUID
+	0x1047949f0 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : ___ZZN23AssetImportWorkerClient13HandleMessageERK14PrepareMessageENK3$_4clEv_block_invoke
+	0x1a01faad4 - /usr/lib/system/libdispatch.dylib : _dispatch_client_callout
+	0x1a01f0a18 - /usr/lib/system/libdispatch.dylib : _dispatch_async_and_wait_invoke
+	0x1a01faad4 - /usr/lib/system/libdispatch.dylib : _dispatch_client_callout
+	0x1a02180d0 - /usr/lib/system/libdispatch.dylib : _dispatch_main_queue_drain.cold.5
+	0x1a01eff48 - /usr/lib/system/libdispatch.dylib : _dispatch_main_queue_drain
+	0x1a01efe84 - /usr/lib/system/libdispatch.dylib : _dispatch_main_queue_callback_4CF
+	0x1a0466990 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+	0x1a043b7ec - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRunLoopRun
+	0x1a04f5e34 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : _CFRunLoopRunSpecificWithOptions
+	0x1acf2b790 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : RunCurrentEventLoopInMode
+	0x1acf2eab8 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : ReceiveNextEventCommon
+	0x1ad0b8b64 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : _BlockUntilNextEventMatchingListInMode
+	0x1a4d54b5c - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : _DPSBlockUntilNextEventMatchingListInMode
+	0x1a484ee48 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : _DPSNextEvent
+	0x1a5319d0c - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+	0x1a5319a18 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSEventRouting) nextEventMatchingMask:untilDate:inMode:dequeue:]
+	0x1a4847780 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication run]
+	0x1a48336dc - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : NSApplicationMain
+	0x105361b14 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : _Z10EditorMainiPPKc
+	0x105361e74 - /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity : main
+	0x19ffd5d54 - /usr/lib/dyld : start
+
+=================================================================
+	Telemetry Dumper:
+=================================================================
+Pkilling 0x6236319744x from 0x8810916928x
+Pkilling 0x6144258048x from 0x8810916928x
+Pkilling 0x6144831488x from 0x8810916928x
+Pkilling 0x6158757888x from 0x8810916928x
+Pkilling 0x6134509568x from 0x8810916928x
+Pkilling 0x6143684608x from 0x8810916928x
+Pkilling 0x6160904192x from 0x8810916928x
+Entering thread summarizer pause from 0x8810916928x
+Finished thread summarizer pause from 0x8810916928x.
+Failed to create breadcrumb file (null)/crash_hash_0x0
+
+Waiting for dumping threads to resume
+debugger-agent: Unable to listen on 42
+
+=================================================================
+	External Debugger Dump:
+=================================================================
+
+=================================================================
+	Basic Fault Address Reporting
+=================================================================
+Memory around native instruction pointer (0x102e36860):0x102e36850  8a 02 40 f9 6c f1 7d d3 8c 01 0b cb 40 01 0c 8b  ..@.l.}.....@...
+0x102e36860  0c 00 40 b9 9f 01 09 6b e1 03 00 54 6e 7e 40 39  ..@....k...Tn~@9
+0x102e36870  f1 03 80 52 2f 02 0e cb 6d 0a 40 f9 df 01 01 71  ...R/...m.@....q
+0x102e36880  f0 31 8d 9a 01 9c 40 39 31 02 01 cb 02 0c 40 f9  .1....@91.....@.
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================
+Obtained 38 stack frames.
+#0  0x00000102e36860 in core::base_hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char>> const, keywords::LocalKeyword, true>, core::hash_pair<core::hash<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>, core::equal_pair<std::__1::equal_to<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>>::node* core::base_hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char>> const, keywords::LocalKeyword, true>, core::hash_pair<core::hash<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>, core::equal_pair<std::__1::equal_to<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>>::lookup<core::basic_string<char, core::StringStorageDefault<char>>, core::equal_pair<std::__1::equal_to<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>>(core::basic_string<char, core::StringStorageDefault<char>> const&, core::equal_pair<std::__1::equal_to<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>> const&) const
+#1  0x00000102e32ba0 in keywords::LocalSpace::Find(core::basic_string<char, core::StringStorageDefault<char>> const&) const
+#2  0x00000102e32a84 in keywords::KeywordRemap::Init(keywords::LocalSpace const&, keywords::LocalSpace const&)
+#3  0x00000102e4ea88 in ShaderLab::IntShader::ResolveFallback(ShaderLab::SerializedShader const&, Shader*, core::vector<PPtr<Shader>, core::allocator<PPtr<Shader>, 0ul>>&, bool)
+#4  0x00000102dcf750 in ShaderLab::IntShader::CreateFromSerializedShaderMainThread(ShaderLab::IntShader*, ShaderLab::SerializedShader const&, core::vector<PPtr<Shader>, core::allocator<PPtr<Shader>, 0ul>>&, bool, Shader*)
+#5  0x00000102dd37b8 in ShaderFromSerializedShaderMainThread(ShaderLab::IntShader*, ShaderLab::SerializedShader const*, core::vector<PPtr<Shader>, core::allocator<PPtr<Shader>, 0ul>>&, bool, Shader*)
+#6  0x00000104bdfc38 in Shader::CreateFromParsedForm()
+#7  0x00000104bdfe94 in Shader::AwakeFromLoad(AwakeFromLoadMode)
+#8  0x0000010319ced8 in AwakeFromLoadQueue::InvokePersistentManagerAwake(AwakeFromLoadQueue::Item*, unsigned int, AwakeFromLoadMode, bool)
+#9  0x0000010319c910 in AwakeFromLoadQueue::PersistentManagerSingleQueueAwakeFromLoad(int, AwakeFromLoadMode)
+#10 0x0000010319c550 in AwakeFromLoadQueue::PersistentManagerAwakeFromLoad_NoChecks(AwakeFromLoadMode)
+#11 0x0000010316f630 in PersistentManager::IntegrateAllThreadedObjects()
+#12 0x00000103170788 in PersistentManager::LoadAndIntegrateAllPreallocatedObjects(PersistentManager::LockFlags)
+#13 0x00000103172900 in PersistentManager::LoadObjects(EntityId const*, int, bool)
+#14 0x000001047d12f4 in ReloadInstances(core::vector<EntityId, core::allocator<EntityId, 0ul>> const&, core::hash_map<EntityId, ScriptingGCHandle, core::hash<EntityId>, std::__1::equal_to<EntityId>> const&)
+#15 0x000001047d33a0 in ReloadAssetIfLoaded(UnityGUID const&)
+#16 0x000001047949f0 in invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_4::operator()() const
+#17 0x000001a01faad4 in _dispatch_client_callout
+#18 0x000001a01f0a18 in _dispatch_async_and_wait_invoke
+#19 0x000001a01faad4 in _dispatch_client_callout
+#20 0x000001a02180d0 in _dispatch_main_queue_drain.cold.5
+#21 0x000001a01eff48 in _dispatch_main_queue_drain
+#22 0x000001a01efe84 in _dispatch_main_queue_callback_4CF
+#23 0x000001a0466990 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+#24 0x000001a043b7ec in __CFRunLoopRun
+#25 0x000001a04f5e34 in _CFRunLoopRunSpecificWithOptions
+#26 0x000001acf2b790 in RunCurrentEventLoopInMode
+#27 0x000001acf2eab8 in ReceiveNextEventCommon
+#28 0x000001ad0b8b64 in _BlockUntilNextEventMatchingListInMode
+#29 0x000001a4d54b5c in _DPSBlockUntilNextEventMatchingListInMode
+#30 0x000001a484ee48 in _DPSNextEvent
+#31 0x000001a5319d0c in -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#32 0x000001a5319a18 in -[NSApplication(NSEventRouting) nextEventMatchingMask:untilDate:inMode:dequeue:]
+#33 0x000001a4847780 in -[NSApplication run]
+#34 0x000001a48336dc in NSApplicationMain
+#35 0x00000105361b14 in EditorMain(int, char const**)
+#36 0x00000105361e74 in main
+#37 0x0000019ffd5d54 in start
