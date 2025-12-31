@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/arman/My-project/Packages/manifest.json
+    m_FilePath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638958205550000000
-    m_Hash: 10608082
+      ticks: 639027488250000000
+    m_Hash: 1931084476
   m_LockFileStatus:
-    m_FilePath: /Users/arman/My-project/Packages/packages-lock.json
+    m_FilePath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638958205630000000
-    m_Hash: 2294451765
+      ticks: 639027488250000000
+    m_Hash: 1507219328
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: /Users/arman/My-project/Packages
+m_ProjectPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Packages
 m_EditorVersion: 6000.2.7f2 (2b518236b676)
 m_ResolvedPackages:
 - packageId: com.unity.2d.animation@12.0.2
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 12.0.2
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.2d.animation@34e0443c58ed
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.animation@34e0443c58ed
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -164,6 +164,7 @@ m_ResolvedPackages:
     - 9.1.3
     - 9.2.0
     - 9.2.1
+    - 9.2.2
     - 10.0.0-pre.1
     - 10.0.0-pre.2
     - 10.0.0
@@ -177,16 +178,22 @@ m_ResolvedPackages:
     - 10.1.4
     - 10.2.0
     - 10.2.1
+    - 10.2.2
     - 11.0.0
     - 12.0.0
     - 12.0.1
     - 12.0.2
+    - 12.0.3
     - 13.0.0
     - 13.0.1
+    - 13.0.2
     - 14.0.0
+    - 14.0.1
+    - 14.0.2
     compatible:
     - 12.0.2
-    recommended: 12.0.2
+    - 12.0.3
+    recommended: 12.0.3
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
@@ -291,7 +298,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.2
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.2d.aseprite@dca42b450aa1
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.aseprite@dca42b450aa1
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -440,7 +447,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 11.0.1
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.2d.psdimporter@0adcab25a8fd
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.psdimporter@0adcab25a8fd
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -532,6 +539,7 @@ m_ResolvedPackages:
     - 8.0.5
     - 8.1.0
     - 8.1.1
+    - 8.1.2
     - 9.0.0-pre.1
     - 9.0.0-pre.2
     - 9.0.0
@@ -539,16 +547,21 @@ m_ResolvedPackages:
     - 9.0.2
     - 9.0.3
     - 9.1.0
+    - 9.1.1
     - 10.0.0
     - 10.1.0
     - 10.1.1
     - 11.0.0
     - 11.0.1
+    - 11.0.2
     - 12.0.0
+    - 12.0.1
     - 13.0.0
+    - 13.0.1
     compatible:
     - 11.0.1
-    recommended: 11.0.1
+    - 11.0.2
+    recommended: 11.0.2
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
@@ -646,7 +659,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.2d.sprite@331abd9a1e2f
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.sprite@331abd9a1e2f
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -726,7 +739,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 12.0.1
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.2d.spriteshape@1d246726c231
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.spriteshape@1d246726c231
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -839,11 +852,13 @@ m_ResolvedPackages:
     - 11.0.0
     - 12.0.0
     - 12.0.1
+    - 12.0.2
     - 13.0.0
     - 14.0.0
     compatible:
     - 12.0.1
-    recommended: 12.0.1
+    - 12.0.2
+    recommended: 12.0.2
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
@@ -939,7 +954,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.2d.tilemap@aa5f5491174d
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.tilemap@aa5f5491174d
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -1038,7 +1053,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 5.0.1
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.2d.tilemap.extras@2338d989ff2a
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.tilemap.extras@2338d989ff2a
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -1110,12 +1125,16 @@ m_ResolvedPackages:
     - 4.3.1
     - 5.0.0
     - 5.0.1
+    - 5.0.2
     - 6.0.0
     - 6.0.1
+    - 7.0.0-exp.1
     - 7.0.0
+    - 8.0.0-exp.1
     compatible:
     - 5.0.1
-    recommended: 5.0.1
+    - 5.0.2
+    recommended: 5.0.2
     deprecated: []
   dependencies:
   - name: com.unity.2d.tilemap
@@ -1200,7 +1219,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.9.3
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.collab-proxy@ab839cc7d2ad
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.collab-proxy@ab839cc7d2ad
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -1299,9 +1318,15 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.3
     - 2.10.0
+    - 2.10.1
+    - 2.10.2
+    - 2.11.2
     compatible:
     - 2.9.3
     - 2.10.0
+    - 2.10.1
+    - 2.10.2
+    - 2.11.2
     recommended: 2.9.3
     deprecated: []
   dependencies: []
@@ -1373,12 +1398,96 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.device-simulator.devices@1.0.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.1
+  source: 1
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.device-simulator.devices@2af643ceec84
+  assetPath: Packages/com.unity.device-simulator.devices
+  name: com.unity.device-simulator.devices
+  displayName: Device Simulator Devices
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: This package contains additional devices for the Device Simulator.
+    Each device has a complete device definition and includes a device overlay. After
+    you install this package, the additional devices are immediately available in
+    the Device Simulator.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.4
+    - 1.0.0
+    - 1.0.1
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    recommended: 1.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638971856908020000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.device-simulator.devices.git
+    revision: 2e1ffaaea0624daf91ee6c76906fd119dbd584c6
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 2af643ceec844f09b4ee3406553b2470148f8301
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2022.1.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.ide.rider@3.0.38
   testable: 0
   isDirectDependency: 1
   version: 3.0.38
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.ide.rider@1f60b3138684
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -1509,7 +1618,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.23
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -1551,10 +1660,12 @@ m_ResolvedPackages:
     - 2.0.22
     - 2.0.23
     - 2.0.25
+    - 2.0.26
     compatible:
     - 2.0.23
     - 2.0.25
-    recommended: 2.0.25
+    - 2.0.26
+    recommended: 2.0.26
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -1627,7 +1738,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.2
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -1700,9 +1811,13 @@ m_ResolvedPackages:
     - 1.14.1
     - 1.14.2
     - 1.15.0
+    - 1.16.0
+    - 1.17.0
     compatible:
     - 1.14.2
     - 1.15.0
+    - 1.16.0
+    - 1.17.0
     recommended: 1.14.2
     deprecated: []
   dependencies:
@@ -1787,7 +1902,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -1878,12 +1993,240 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.purchasing@5.1.2
+  testable: 0
+  isDirectDependency: 1
+  version: 5.1.2
+  source: 1
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.purchasing@6d21c7e374c4
+  assetPath: Packages/com.unity.purchasing
+  name: com.unity.purchasing
+  displayName: In-App Purchasing
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "Unity In-App Purchasing (IAP) allows you to sell digital content
+    within your application. This package provides a unified API for handling in-app
+    purchases across multiple platforms, including the Apple App Store and Google
+    Play Store. Unity IAP simplifies implementing and managing purchases for different
+    stores.\n\nFeatures:\n\n \u25AA A single API to access all supported stores,
+    making it easier to manage your in-game economy.\n \u25AA Automatic integration
+    with Unity Analytics for monitoring revenue and purchase data across platforms.\n
+    \u25AA Supports iOS, Mac, tvOS, and Google Play.\n \u25AA Client-side receipt
+    validation for Apple Store and Google Play.\n\nTo enable In-App Purchasing, install
+    the package and open the Services window (Window > General > Services).\n\nUpgrade
+    notes:\nThis release is a major update to the IAP package. Review the included
+    sample for a complete example of how to use the new version. Upgrading is recommended
+    to take advantage of the latest improvements and features."
+  errors: []
+  versions:
+    all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.6
+    - 0.0.7
+    - 0.0.8
+    - 0.0.9
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 0.0.17
+    - 0.0.18
+    - 0.0.19
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
+    - 2.0.5
+    - 2.0.6
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.1
+    - 3.2.2
+    - 3.2.3
+    - 4.0.0
+    - 4.0.3
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.1.3
+    - 4.1.4
+    - 4.1.5
+    - 4.2.0-pre.1
+    - 4.2.0-pre.2
+    - 4.2.1
+    - 4.3.0
+    - 4.4.0
+    - 4.4.1
+    - 4.5.0
+    - 4.5.1
+    - 4.5.2
+    - 4.6.0
+    - 4.7.0
+    - 4.8.0
+    - 4.9.2
+    - 4.9.3
+    - 4.9.4
+    - 4.10.0
+    - 4.11.0
+    - 4.12.0
+    - 4.12.1-pre.1
+    - 4.12.1-pre.3
+    - 4.12.1-pre.4
+    - 4.12.1
+    - 4.12.2
+    - 4.13.0
+    - 4.13.1
+    - 4.13.2
+    - 4.14.0
+    - 4.14.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    compatible:
+    - 4.12.2
+    - 4.13.0
+    - 4.13.1
+    - 4.13.2
+    - 4.14.0
+    - 4.14.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    recommended: 5.0.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.14.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.14.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - purchasing
+  - iap
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 0
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639021350814870000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.purchasing@5.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git
+    revision: 4a0a1572736abfe80e252614aa7b34cf40f81118
+    path: 
+  unityLifecycle:
+    version: 4.12.2
+    nextVersion: 5.0.0-pre.5
+    recommendedVersion: 5.0.0
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n- Added support for Unity 6.5+ build compatibility.\n\n###
+    Fixed\n- Apple - Fixed `OnPurchaseFailed` invoked with `DuplicateTransaction`
+    a few seconds after confirming a renewed subscription.\n- Apple - Fixed macOS
+    native bundle failing to load on macOS 11.x when using StoreKit 1.","gameService":{"groupName":"Monetize","groupIndex":4,"configurePath":"Project/Services/In-App
+    Purchasing","genericDashboardUrl":"https://dashboard.unity3d.com/","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/v2/dashboards/revenue","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"}}'
+  assetStore:
+    productId: 
+  fingerprint: 6d21c7e374c47f7e76512a13618d2605901ded4c
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 4.12.2
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.render-pipelines.universal@17.2.0
   testable: 0
   isDirectDependency: 1
   version: 17.2.0
   source: 2
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.render-pipelines.universal@ba467ec059b9
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.render-pipelines.universal@ba467ec059b9
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -2010,7 +2353,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.0
   source: 2
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.test-framework@d97b7cd61ded
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.test-framework@d97b7cd61ded
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -2100,7 +2443,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.9
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.timeline@6b9e48457ddb
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.timeline@6b9e48457ddb
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -2204,9 +2547,11 @@ m_ResolvedPackages:
     - 1.8.7
     - 1.8.8
     - 1.8.9
+    - 1.8.10
     compatible:
     - 1.8.9
-    recommended: 1.8.9
+    - 1.8.10
+    recommended: 1.8.10
     deprecated: []
   dependencies:
   - name: com.unity.modules.audio
@@ -2298,7 +2643,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.ugui@f250afc9b68d
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.ugui@f250afc9b68d
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -2394,7 +2739,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.7
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.visualscripting@6279e2b7c485
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.visualscripting@6279e2b7c485
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -5294,7 +5639,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.ext.nunit@031a54704bff
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -5374,7 +5719,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.2.0
   source: 2
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -5500,7 +5845,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.2.0
   source: 2
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.shadergraph@41211273cdd1
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.shadergraph@41211273cdd1
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -5616,7 +5961,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.render-pipelines.universal-config@8dc1aab4af1d
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.render-pipelines.universal-config@8dc1aab4af1d
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -5719,12 +6064,146 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.services.core@1.14.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.14.0
+  source: 1
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.services.core@9e81a5e38245
+  assetPath: Packages/com.unity.services.core
+  name: com.unity.services.core
+  displayName: Services Core
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'This package defines common components used by multiple Game Service
+    packages.
+
+    These are standardized and aim to unify the overall experience
+    of working with Game Services SDK.'
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
+    - 1.1.0-pre.69
+    - 1.2.0
+    - 1.3.1
+    - 1.3.2
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    - 1.7.0
+    - 1.7.1
+    - 1.8.1
+    - 1.8.2
+    - 1.9.0
+    - 1.10.1
+    - 1.11.0
+    - 1.12.0
+    - 1.12.1
+    - 1.12.2
+    - 1.12.4
+    - 1.12.5
+    - 1.13.0
+    - 1.14.0
+    - 1.15.1
+    - 1.15.2
+    - 1.16.0
+    compatible:
+    - 1.14.0
+    - 1.15.1
+    - 1.15.2
+    - 1.16.0
+    recommended: 1.16.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638684041320270000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.14/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: 64962022211031c9e26ceec024d3587ea8e05a17
+    path: 
+  unityLifecycle:
+    version: 1.14.0
+    nextVersion: 
+    recommendedVersion: 1.16.0
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n\n- Added `ServicesInitialization` monobehaviour
+    to manage services in the scene authoring.\n- Added `ServicesBehaviour` abstract
+    monobehaviour as a base for behaviours built on top of services.\n- Added unique
+    identifier for custom service registry creation (`UnityServices.CreateServices`).\n-
+    Added custom services registries dictionary in `UnityServices.Services`.\n- Added
+    `GetIdentifier()` method to `IUnityServices` interface with a default implementation.\n\n###
+    Changed\n\n- Updated the minimum supported Editor version to 2021.3."}'
+  assetStore:
+    productId: 
+  fingerprint: 9e81a5e382457b799480b311ce51187be99abbbf
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.14.0
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.2d.common@11.0.1
   testable: 0
   isDirectDependency: 0
   version: 11.0.1
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.2d.common@dd402daace1b
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.common@dd402daace1b
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -5810,6 +6289,7 @@ m_ResolvedPackages:
     - 12.0.0
     - 12.0.1
     - 13.0.0
+    - 13.0.1
     compatible:
     - 11.0.1
     recommended: 11.0.1
@@ -5902,7 +6382,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.mathematics@8017b507cc74
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.mathematics@8017b507cc74
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -6003,7 +6483,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.5.7
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.collections@d49facba0036
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.collections@d49facba0036
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -6096,12 +6576,14 @@ m_ResolvedPackages:
     - 2.6.0-pre.3
     - 2.6.0-pre.4
     - 2.6.2
+    - 2.6.3
     compatible:
     - 2.5.7
     - 2.6.0-exp.2
     - 2.6.0-pre.3
     - 2.6.0-pre.4
     - 2.6.2
+    - 2.6.3
     recommended: 2.5.7
     deprecated: []
   dependencies:
@@ -6195,7 +6677,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.3
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.searcher@1e17ce91558d
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.searcher@1e17ce91558d
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -6294,7 +6776,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.25
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.burst@1df634d836b8
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.burst@1df634d836b8
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -6449,9 +6931,13 @@ m_ResolvedPackages:
     - 1.8.23
     - 1.8.24
     - 1.8.25
+    - 1.8.26
+    - 1.8.27
     compatible:
     - 1.8.25
-    recommended: 1.8.25
+    - 1.8.26
+    - 1.8.27
+    recommended: 1.8.27
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -6528,7 +7014,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.rendering.light-transport@2c9279f90d7c
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.rendering.light-transport@2c9279f90d7c
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -6629,12 +7115,115 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.nuget.newtonsoft-json@3.2.1
+  testable: 0
+  isDirectDependency: 0
+  version: 3.2.1
+  source: 1
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0
+  assetPath: Packages/com.unity.nuget.newtonsoft-json
+  name: com.unity.nuget.newtonsoft-json
+  displayName: Newtonsoft Json
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
+    synced to version 13.0.2.
+
+
+    This package is used for advanced json serialization
+    and deserialization. Most Unity users will be better suited using the existing
+    json tools built into Unity.
+
+    To avoid assembly clashes, please use this
+    package if you intend to use Newtonsoft Json.'
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.0
+    - 3.2.1
+    - 3.2.2
+    compatible:
+    - 3.2.1
+    - 3.2.2
+    recommended: 3.2.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638186318800000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: d8e49aef8979bef617144382052ec2f479645eaf
+    path: 
+  unityLifecycle:
+    version: 3.2.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"* Fixed Newtonsoft DLL when compiling with netstandard
+    2.0."}'
+  assetStore:
+    productId: 
+  fingerprint: 74deb55db2a0c29ddfda576608bcb86abbd13ee6
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 3.2.1
+    minimumUnityVersion: 2018.4.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.nuget.mono-cecil@1.11.5
   testable: 0
   isDirectDependency: 0
   version: 1.11.5
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -6729,7 +7318,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.0
   source: 1
-  resolvedPath: /Users/arman/My-project/Library/PackageCache/com.unity.test-framework.performance@0840f58e4562
+  resolvedPath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.test-framework.performance@0840f58e4562
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API

@@ -128,6 +128,13 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"/Applications/Unity/Hub/Editor/6000.2.7f2/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.2.7f2/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.2.7f2/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.2.7f2/PlaybackEngines/iOSSupport/UnityEditor.Apple.Extensions.Common.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.2.7f2/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.2.7f2/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.2.7f2/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll"
@@ -390,6 +397,7 @@
 -r:"Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll"
 -r:"Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.dll"
+-r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
