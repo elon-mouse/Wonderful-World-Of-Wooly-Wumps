@@ -38,3 +38,24 @@ The following packages were added:
   com.unity.modules.xr@1.0.0
   com.unity.modules.accessibility@1.0.0
   com.unity.multiplayer.center@1.0.0
+
+=== Wed Dec 31 11:23:58 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.modules.adaptiveperformance@1.0.0
+  com.unity.modules.vectorgraphics@1.0.0
+The following packages were updated:
+  com.unity.2d.animation from version 12.0.2 to 13.0.2
+  com.unity.2d.aseprite from version 2.0.2 to 3.0.1
+  com.unity.2d.psdimporter from version 11.0.1 to 12.0.1
+  com.unity.2d.spriteshape from version 12.0.1 to 13.0.0
+  com.unity.2d.tilemap.extras from version 5.0.1 to 6.0.1
+  com.unity.collab-proxy from version 2.9.3 to 2.10.2
+  com.unity.ide.visualstudio from version 2.0.23 to 2.0.25
+  com.unity.inputsystem from version 1.14.2 to 1.17.0
+  com.unity.multiplayer.center from version 1.0.0 to 1.0.1
+  com.unity.render-pipelines.universal from version 17.2.0 to 17.3.0
+  com.unity.visualscripting from version 1.9.7 to 1.9.9

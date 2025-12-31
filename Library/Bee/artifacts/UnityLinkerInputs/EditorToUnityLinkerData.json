@@ -239,13 +239,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "UnityConnectSettings",
-            "fullManagedTypeName": "UnityEditor.UnityConnectSettings",
-            "moduleName": "UnityConnect",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "VFXManager",
             "fullManagedTypeName": "UnityEditor.VFXManager",
             "moduleName": "VFX",
@@ -2034,6 +2027,14 @@
             "baseModule": "Core"
         },
         {
+            "name": "RenderAs2D",
+            "qualifiedName": "RenderAs2D",
+            "nativeNamespace": "",
+            "module": "RenderAs2D",
+            "baseName": "Renderer",
+            "baseModule": "Core"
+        },
+        {
             "name": "SkinnedMeshRenderer",
             "qualifiedName": "SkinnedMeshRenderer",
             "nativeNamespace": "",
@@ -2290,14 +2291,6 @@
             "baseModule": "Editor"
         },
         {
-            "name": "C4DImporter",
-            "qualifiedName": "C4DImporter",
-            "nativeNamespace": "",
-            "module": "Core",
-            "baseName": "AssetImporter",
-            "baseModule": "Editor"
-        },
-        {
             "name": "ComputeShaderImporter",
             "qualifiedName": "ComputeShaderImporter",
             "nativeNamespace": "",
@@ -2541,7 +2534,7 @@
             "name": "VideoClipImporter",
             "qualifiedName": "VideoClipImporter",
             "nativeNamespace": "",
-            "module": "Editor",
+            "module": "VideoEditor",
             "baseName": "AssetImporter",
             "baseModule": "Editor"
         },
@@ -2686,6 +2679,14 @@
             "qualifiedName": "BillboardAsset",
             "nativeNamespace": "",
             "module": "Core",
+            "baseName": "NamedObject",
+            "baseModule": "Core"
+        },
+        {
+            "name": "BlobObject",
+            "qualifiedName": "BlobObject",
+            "nativeNamespace": "",
+            "module": "Animation",
             "baseName": "NamedObject",
             "baseModule": "Core"
         },
@@ -3803,13 +3804,17 @@
         }
     ],
     "forceIncludeModules": [
-        "Insights"
+        "PhysicsBackendPhysX"
     ],
     "forceExcludeModules": [
         "AMD",
+        "AR",
         "ClusterInput",
         "ClusterRenderer",
+        "Hierarchy",
+        "Insights",
         "NVIDIA",
         "VirtualTexturing"
-    ]
+    ],
+    "dynamicModuleDependencies": []
 }

@@ -1,91 +1,101 @@
 {
   "context": {
     "projectPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Packages",
-    "unityVersion": "6000.2.7f2"
+    "unityVersion": "6000.3.2f1"
   },
   "inputs": [
     "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Packages/manifest.json",
     "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Packages/packages-lock.json",
-    "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
+    "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
-    "com.unity.2d.animation@12.0.2": {
+    "com.unity.2d.animation@13.0.2": {
       "name": "com.unity.2d.animation",
       "displayName": "2D Animation",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.animation@34e0443c58ed",
-      "fingerprint": "34e0443c58ed65e66d21023245d2862e066ab2e7",
-      "editorCompatibility": "6000.2.0b4",
-      "version": "12.0.2",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.animation@3c53dae92956",
+      "fingerprint": "3c53dae9295646dd95f73b885ea361caab35fbd4",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "13.0.2",
       "source": "registry",
       "testable": false
     },
-    "com.unity.2d.aseprite@2.0.2": {
+    "com.unity.2d.aseprite@3.0.1": {
       "name": "com.unity.2d.aseprite",
       "displayName": "2D Aseprite Importer",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.aseprite@dca42b450aa1",
-      "fingerprint": "dca42b450aa1933467340cfd7bce324ddf7b06b2",
-      "editorCompatibility": "6000.2.0a10",
-      "version": "2.0.2",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.aseprite@809e3a168ff7",
+      "fingerprint": "809e3a168ff77eff802b4b24c10cf6254618245a",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "3.0.1",
       "source": "registry",
       "testable": false
     },
-    "com.unity.2d.psdimporter@11.0.1": {
+    "com.unity.2d.psdimporter@12.0.1": {
       "name": "com.unity.2d.psdimporter",
       "displayName": "2D PSD Importer",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.psdimporter@0adcab25a8fd",
-      "fingerprint": "0adcab25a8fd3537d5829f344f6e2aa236d0cf8e",
-      "editorCompatibility": "6000.2.0a10",
-      "version": "11.0.1",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.psdimporter@9abe0f7cac7e",
+      "fingerprint": "9abe0f7cac7effda42d93c33a6c35134cca1bee3",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "12.0.1",
       "source": "registry",
       "testable": false
     },
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.sprite@331abd9a1e2f",
-      "fingerprint": "331abd9a1e2ff424a1ef2626e16936071ab7ce3d",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.sprite@82f01c8c75ca",
+      "fingerprint": "82f01c8c75ca2d707990e8dc249b71ab7d1aa33e",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.2d.spriteshape@12.0.1": {
+    "com.unity.2d.spriteshape@13.0.0": {
       "name": "com.unity.2d.spriteshape",
       "displayName": "2D SpriteShape",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.spriteshape@1d246726c231",
-      "fingerprint": "1d246726c2316e2e6dd7d2aefba54ec6640affa9",
-      "editorCompatibility": "6000.2.0a10",
-      "version": "12.0.1",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.spriteshape@0738bab11647",
+      "fingerprint": "0738bab116473980325be8cdb7c3c42ab6961778",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "13.0.0",
       "source": "registry",
       "testable": false
     },
     "com.unity.2d.tilemap@1.0.0": {
       "name": "com.unity.2d.tilemap",
       "displayName": "2D Tilemap Editor",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.tilemap@aa5f5491174d",
-      "fingerprint": "aa5f5491174d692ae7c6327102931ff1f46f7d2a",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.tilemap@28bd01071fd5",
+      "fingerprint": "28bd01071fd506c5971fc0dec78c4d32c10f1024",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.2d.tilemap.extras@5.0.1": {
+    "com.unity.2d.tilemap.extras@6.0.1": {
       "name": "com.unity.2d.tilemap.extras",
       "displayName": "2D Tilemap Extras",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.tilemap.extras@2338d989ff2a",
-      "fingerprint": "2338d989ff2aec99e03da44e42ae2faf1ebc037d",
-      "editorCompatibility": "6000.2.0a10",
-      "version": "5.0.1",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.tilemap.extras@3dde84bf3867",
+      "fingerprint": "3dde84bf38677b4165ad5f568b353d4ba942d63c",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "6.0.1",
       "source": "registry",
       "testable": false
     },
-    "com.unity.collab-proxy@2.9.3": {
+    "com.unity.collab-proxy@2.10.2": {
       "name": "com.unity.collab-proxy",
       "displayName": "Unity Version Control",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.collab-proxy@ab839cc7d2ad",
-      "fingerprint": "ab839cc7d2adf143e5378baf46edc31cbc5d84f7",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9",
+      "fingerprint": "3351acaba9c9f7fc41d4b2404fc11c55d01ab0ad",
       "editorCompatibility": "2021.3.0f1",
-      "version": "2.9.3",
+      "version": "2.10.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.dedicated-server@2.0.1": {
+      "name": "com.unity.dedicated-server",
+      "displayName": "Dedicated Server",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.dedicated-server@e57e4159ddaa",
+      "fingerprint": "e57e4159ddaafca5953684412e807996fbef8279",
+      "editorCompatibility": "6000.3.0a5",
+      "version": "2.0.1",
       "source": "registry",
       "testable": false
     },
@@ -109,33 +119,33 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.ide.visualstudio@2.0.23": {
+    "com.unity.ide.visualstudio@2.0.25": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13",
-      "fingerprint": "198cdf337d13c83ca953581515630d66b779e92b",
-      "editorCompatibility": "2019.4.25f1",
-      "version": "2.0.23",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.ide.visualstudio@74aa435fc4bb",
+      "fingerprint": "74aa435fc4bb41890f400130ec80f271d1292fd4",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "2.0.25",
       "source": "registry",
       "testable": false
     },
-    "com.unity.inputsystem@1.14.2": {
+    "com.unity.inputsystem@1.17.0": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5",
-      "fingerprint": "be6c4fd0abf5b9b45f956b97294032a67f3c2f4d",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.14.2",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.inputsystem@02433b2481ab",
+      "fingerprint": "02433b2481abc5c0063956fdc211f3d8c777447f",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.17.0",
       "source": "registry",
       "testable": false
     },
-    "com.unity.multiplayer.center@1.0.0": {
+    "com.unity.multiplayer.center@1.0.1": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546",
-      "fingerprint": "f3fb577b3546594b97b8cc34307cd621f60f1c73",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a",
+      "fingerprint": "f01f4ba8d00afa4e957bddf0fcd1612a564401ff",
       "editorCompatibility": "6000.0.0a1",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "builtin",
       "testable": false
     },
@@ -149,21 +159,41 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.render-pipelines.universal@17.2.0": {
+    "com.unity.render-pipelines.universal@17.3.0": {
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal Render Pipeline",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.render-pipelines.universal@ba467ec059b9",
-      "fingerprint": "ba467ec059b9444af425a4ea974a270a376fc261",
-      "editorCompatibility": "6000.2.0a1",
-      "version": "17.2.0",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.render-pipelines.universal@66e99ffa09c7",
+      "fingerprint": "66e99ffa09c79634ca0cee3b85e3b9f6cdf88c0e",
+      "editorCompatibility": "6000.3.0a1",
+      "version": "17.3.0",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.sdk.linux-x86_64@1.0.2": {
+      "name": "com.unity.sdk.linux-x86_64",
+      "displayName": "Sysroot Linux x64",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.sdk.linux-x86_64@2410622f0a67",
+      "fingerprint": "2410622f0a67a23451d409ded90d7e9cf8059d61",
+      "editorCompatibility": "6000.3.0b8",
+      "version": "1.0.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.services.cloud-build@2.0.6": {
+      "name": "com.unity.services.cloud-build",
+      "displayName": "Build Automation",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.services.cloud-build@8193a1137e9f",
+      "fingerprint": "8193a1137e9f1b77d3329a8ee5ae0211e856e7ff",
+      "editorCompatibility": "6000.1.0a10",
+      "version": "2.0.6",
+      "source": "registry",
       "testable": false
     },
     "com.unity.test-framework@1.6.0": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.test-framework@d97b7cd61ded",
-      "fingerprint": "d97b7cd61dedd05f0fbaa425a40bd39d098f5cfc",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d",
+      "fingerprint": "0b7a23ab2e1d74441a5afdffa63f417929756957",
       "editorCompatibility": "6000.0.44f1",
       "version": "1.6.0",
       "source": "builtin",
@@ -179,30 +209,48 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.toolchain.macos-arm64-linux@1.0.2": {
+      "name": "com.unity.toolchain.macos-arm64-linux",
+      "displayName": "Toolchain MacOS Arm64 Host for Linux Targets",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.toolchain.macos-arm64-linux@ba8c694565f6",
+      "fingerprint": "ba8c694565f67fa0515fdf54e500af20d6b5d15b",
+      "editorCompatibility": "6000.3.0b8",
+      "version": "1.0.2",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.ugui@f250afc9b68d",
-      "fingerprint": "f250afc9b68ddb0d3ebf8e3274ec22b51a03153c",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.ugui@52e65280e89e",
+      "fingerprint": "52e65280e89ee09a5b287dc793f9464bcd213b41",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.visualscripting@1.9.7": {
+    "com.unity.visualscripting@1.9.9": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.visualscripting@6279e2b7c485",
-      "fingerprint": "6279e2b7c4858e56cca7f367cd38c49ef66778c9",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.visualscripting@191c0d7e3b69",
+      "fingerprint": "191c0d7e3b69bc0df1b6fed3a997c4c3a765ef6a",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.9.7",
+      "version": "1.9.9",
       "source": "registry",
       "testable": false
     },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.adaptiveperformance@1.0.0": {
+      "name": "com.unity.modules.adaptiveperformance",
+      "displayName": "Adaptive Performance",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.adaptiveperformance",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -210,7 +258,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -218,7 +266,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -226,7 +274,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -234,7 +282,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -242,7 +290,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -250,7 +298,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -258,7 +306,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.director",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -266,7 +314,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -274,7 +322,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -282,7 +330,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -290,7 +338,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -298,7 +346,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -306,7 +354,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -314,7 +362,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -322,7 +370,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -330,7 +378,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -338,7 +386,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -346,7 +394,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -354,7 +402,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -362,7 +410,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -370,7 +418,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -378,7 +426,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -386,7 +434,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -394,7 +442,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -402,7 +450,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -410,7 +458,15 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.vectorgraphics@1.0.0": {
+      "name": "com.unity.modules.vectorgraphics",
+      "displayName": "Vector Graphics",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vectorgraphics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -418,7 +474,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -426,7 +482,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.video",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -434,7 +490,7 @@
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
       "displayName": "VR",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -442,7 +498,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -450,7 +506,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -458,7 +514,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -466,38 +522,68 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.sysroot.base@1.0.2": {
+      "name": "com.unity.sysroot.base",
+      "displayName": "Sysroot Base",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.sysroot.base@5dc361c24ca9",
+      "fingerprint": "5dc361c24ca955600d93b0ff9dfea0c2a853732e",
+      "editorCompatibility": "6000.3.0b8",
+      "version": "1.0.2",
+      "source": "registry",
       "testable": false
     },
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.ext.nunit@031a54704bff",
-      "fingerprint": "031a54704bffe39e6a0324909f8eaa4565bdebf2",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.ext.nunit@d8c07649098d",
+      "fingerprint": "d8c07649098d3936da4c8ab500960c1776b44592",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.render-pipelines.core@17.2.0": {
+    "com.unity.services.core@1.16.0": {
+      "name": "com.unity.services.core",
+      "displayName": "Services Core",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.services.core@8ba50f624741",
+      "fingerprint": "8ba50f62474188022a50a78f721a5d30dfba0c3e",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.16.0",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.nuget.newtonsoft-json@3.2.2": {
+      "name": "com.unity.nuget.newtonsoft-json",
+      "displayName": "Newtonsoft Json",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64",
+      "fingerprint": "4dfd81071c6475bb9c114f920bfb4e3fc5e28c6a",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "3.2.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.render-pipelines.core@17.3.0": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82",
-      "fingerprint": "67f868dbad82414b67a47161bdeffad5498e1cc0",
-      "editorCompatibility": "6000.2.0a1",
-      "version": "17.2.0",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.render-pipelines.core@ce86d16dfe9d",
+      "fingerprint": "ce86d16dfe9d627973eff1e9329caf16c648363c",
+      "editorCompatibility": "6000.3.0a1",
+      "version": "17.3.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.shadergraph@17.2.0": {
+    "com.unity.shadergraph@17.3.0": {
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.shadergraph@41211273cdd1",
-      "fingerprint": "41211273cdd1ec56cc330555ecc5be38b9ea2055",
-      "editorCompatibility": "6000.2.0a1",
-      "version": "17.2.0",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.shadergraph@3cfe1d1f3f8c",
+      "fingerprint": "3cfe1d1f3f8cb2a422448449ea422fa1a226fded",
+      "editorCompatibility": "6000.3.0a1",
+      "version": "17.3.0",
       "source": "builtin",
       "testable": false
     },
@@ -511,93 +597,63 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.services.core@1.14.0": {
-      "name": "com.unity.services.core",
-      "displayName": "Services Core",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.services.core@9e81a5e38245",
-      "fingerprint": "9e81a5e382457b799480b311ce51187be99abbbf",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.14.0",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.2d.common@11.0.1": {
+    "com.unity.2d.common@12.0.1": {
       "name": "com.unity.2d.common",
       "displayName": "2D Common",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.common@dd402daace1b",
-      "fingerprint": "dd402daace1b7dbeb70cb9e7ae044cc4b10f989a",
-      "editorCompatibility": "6000.2.0a9",
-      "version": "11.0.1",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.2d.common@51e9484895c4",
+      "fingerprint": "51e9484895c4b91b39650e3ee34a014a63860080",
+      "editorCompatibility": "6000.3.0a1",
+      "version": "12.0.1",
       "source": "registry",
       "testable": false
     },
-    "com.unity.mathematics@1.3.2": {
+    "com.unity.mathematics@1.3.3": {
       "name": "com.unity.mathematics",
       "displayName": "Mathematics",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.mathematics@8017b507cc74",
-      "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.mathematics@19a9377c4ffa",
+      "fingerprint": "19a9377c4ffa59370edad3e6a34e4445529badde",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.3.2",
+      "version": "1.3.3",
       "source": "registry",
       "testable": false
     },
-    "com.unity.collections@2.5.7": {
+    "com.unity.collections@2.6.2": {
       "name": "com.unity.collections",
       "displayName": "Collections",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.collections@d49facba0036",
-      "fingerprint": "d49facba0036aa0e1508296262f9d93b44d1ab3b",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.collections@aea9d3bd5e19",
+      "fingerprint": "aea9d3bd5e19f2a90fc3a39919974a5f3613a159",
       "editorCompatibility": "2022.3.20f1",
-      "version": "2.5.7",
+      "version": "2.6.2",
       "source": "registry",
       "testable": false
     },
-    "com.unity.searcher@4.9.3": {
+    "com.unity.searcher@4.9.4": {
       "name": "com.unity.searcher",
       "displayName": "Searcher",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.searcher@1e17ce91558d",
-      "fingerprint": "1e17ce91558d1d9127554adc03d275f39a7466a2",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.searcher@d45a78918735",
+      "fingerprint": "d45a78918735dd5b1de2247c6e3567c60aa24115",
       "editorCompatibility": "2019.1.0a1",
-      "version": "4.9.3",
+      "version": "4.9.4",
       "source": "registry",
       "testable": false
     },
-    "com.unity.burst@1.8.25": {
+    "com.unity.burst@1.8.26": {
       "name": "com.unity.burst",
       "displayName": "Burst",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.burst@1df634d836b8",
-      "fingerprint": "1df634d836b8106f13dc82401a91b336d615a874",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.burst@21aa83e7fd8f",
+      "fingerprint": "21aa83e7fd8fcc79eafc5f662d434afb183153d6",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.8.25",
+      "version": "1.8.26",
       "source": "registry",
       "testable": false
     },
-    "com.unity.rendering.light-transport@1.0.1": {
-      "name": "com.unity.rendering.light-transport",
-      "displayName": "Unity Light Transport Library",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.rendering.light-transport@2c9279f90d7c",
-      "fingerprint": "2c9279f90d7c8dfb6e76e3f90b6b3be1cafabfbc",
-      "editorCompatibility": "2023.3.0b1",
-      "version": "1.0.1",
-      "source": "builtin",
-      "testable": false
-    },
-    "com.unity.nuget.newtonsoft-json@3.2.1": {
-      "name": "com.unity.nuget.newtonsoft-json",
-      "displayName": "Newtonsoft Json",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0",
-      "fingerprint": "74deb55db2a0c29ddfda576608bcb86abbd13ee6",
-      "editorCompatibility": "2018.4.0a1",
-      "version": "3.2.1",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.nuget.mono-cecil@1.11.5": {
+    "com.unity.nuget.mono-cecil@1.11.6": {
       "name": "com.unity.nuget.mono-cecil",
       "displayName": "Mono Cecil",
-      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb",
-      "fingerprint": "d78732e851eb42273c8e4d97993d3a94b207e570",
+      "resolvedPath": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff",
+      "fingerprint": "ecb9724e46fff855c46a4f37f0a3377a3cfffc06",
       "editorCompatibility": "2019.4.0a1",
-      "version": "1.11.5",
+      "version": "1.11.6",
       "source": "registry",
       "testable": false
     },

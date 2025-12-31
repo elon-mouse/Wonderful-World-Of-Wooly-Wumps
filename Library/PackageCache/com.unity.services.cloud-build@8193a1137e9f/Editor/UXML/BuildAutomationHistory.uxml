@@ -1,0 +1,53 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:uba="Unity.Services.CloudBuild.Editor.Components" editor-extension-mode="True">
+    <ui:VisualElement name="HistorySection" style="flex-grow: 1;">
+        <ui:VisualElement name="FreeTierBanner" style="flex-direction: row; align-items: center; padding: 8px; border-bottom: 1px solid rgb(224, 224, 224); display: none;">
+            <ui:VisualElement name="ExclamationIcon" style="width: 16px; height: 16px; background-color: rgb(211, 47, 47); border-radius: 50%; margin-right: 8px; display: flex; justify-content: center; align-items: center;">
+                <ui:Label text="!" style="color: white; font-size: 12px; font-weight: bold;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; align-items: center;">
+                <ui:Label name="InfoBannerText" text="You have used all your free build minutes. Upgrade your plan to continue build operations." style="margin-right: 4px;" />
+                <ui:Label name="PricingLink" text="&lt;u&gt;See pricing and consumption estimates.&lt;/u&gt;" class="hyperlink" />
+            </ui:VisualElement>
+            <ui:Button text="Upgrade" name="UpgradeButton" style="padding: 4px 12px; border-radius: 3px;" />
+        </ui:VisualElement>
+        <ui:VisualElement class="cloud-build-history-container" style="flex-direction: column; flex-grow: 1;">
+            <uie:Toolbar name="HistoryMenu" style="flex-grow: 0;">
+                <uie:ToolbarButton name="ClearFiltersButton" />
+                <uba:BuildAutomationToolbarSelectionMenu text="Status" name="StatusFilter" style="flex-grow: 0;" />
+                <uba:BuildAutomationToolbarSelectionMenu text="Platform" name="PlatformFilter" style="flex-grow: 0;" />
+                <uba:BuildAutomationToolbarSelectionMenu text="Build Profile" name="ProfileFilter" style="flex-grow: 0;" />
+                <uba:BuildAutomationToolbarSelectionMenu text="Display" name="DisplayFilter" style="flex-grow: 0;" />
+                <uie:ToolbarSpacer name="Spacer" style="flex-grow: 2;" />
+                <uie:ToolbarSearchField name="HistorySearch" />
+                <uie:ToolbarButton name="RefreshButton" />
+                <uie:ToolbarMenu name="SettingsMenu" class="settings_menu" />
+            </uie:Toolbar>
+            <ui:VisualElement style="flex-grow: 1;">
+                <ui:MultiColumnListView fixed-item-height="32" name="HistoryTable" show-alternating-row-backgrounds="All" show-bound-collection-size="false" selection-type="None" class="the-uxml-multi-column-listview">
+                    <ui:Columns>
+                        <ui:Column name="index" title="Status &amp; #" width="12%" cell-template="project://database/Packages/com.unity.services.cloud-build/Editor/UXML/HistoryCells/IndexHistoryCell.uxml" />
+                        <ui:Column name="profile" title="Build Profile" width="14%" />
+                        <ui:Column name="platform" title="Platform" width="12%" cell-template="project://database/Packages/com.unity.services.cloud-build/Editor/UXML/HistoryCells/PlatformHistoryCell.uxml?fileID=9197481963319205126&amp;guid=a2dc14fd753645aebb829f7fae069a82&amp;type=3#PlatformHistoryCell" />
+                        <ui:Column name="user" title="User" width="10%" />
+                        <ui:Column name="changeset" title="Changeset" width="10%" />
+                        <ui:Column name="branch" title="Branch" width="10%" />
+                        <ui:Column name="startedAt" title="Build Time" width="8%" />
+                        <ui:Column name="finishedAt" title="Completion Time" width="8%" />
+                        <ui:Column name="downloads" title="Artifacts" width="8%" />
+                        <ui:Column name="logs" title="Logs" width="8%" />
+                    </ui:Columns>
+                </ui:MultiColumnListView>
+            </ui:VisualElement>
+            <uie:Toolbar name="HistoryFooter" style="height: 32px; align-self: auto; align-items: center; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px; flex-grow: 0;">
+                <ui:Label text="0 Items Selected" name="ItemsSelectedLabel" style="height: 100%; -unity-text-align: middle-left;" />
+                <ui:Button text="Cancel Builds" name="CancelButton" enabled="false" style="height: 20px; padding-right: 14px; padding-left: 16px;" />
+                <ui:Button text="Delete" name="DeleteButton" enabled="false" style="height: 20px; padding-right: 14px; padding-left: 14px;" />
+                <uie:ToolbarSpacer style="flex-grow: 1;" />
+                <ui:DropdownField label="Builds per page: " name="builds-per-page" />
+                <ui:TextElement name="builds-page-info" />
+                <ui:Button name="PageBack" style="width: auto; height: auto; min-width: auto; max-width: none; max-height: none; min-height: auto;" />
+                <ui:Button name="NextPage" style="width: auto; height: auto;" />
+            </uie:Toolbar>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

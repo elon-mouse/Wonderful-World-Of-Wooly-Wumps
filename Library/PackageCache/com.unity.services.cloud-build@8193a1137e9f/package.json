@@ -1,0 +1,44 @@
+{
+  "name": "com.unity.services.cloud-build",
+  "displayName": "Build Automation",
+  "version": "2.0.6",
+  "unity": "6000.1",
+  "unityRelease": "0a10",
+  "_upm": {
+    "gameService": {
+      "genericDashboardUrl": "https://unity.com/solutions/ci-cd",
+      "projectDashboardUrl": "https://dashboard.unity3d.com/organizations/{0}/projects/{1}/cloud-build/history",
+      "projectDashboardUrlType": "OrganizationKeyAndProjectGuid"
+    },
+    "supportedPlatforms": [
+      "Android",
+      "iOS",
+      "Linux",
+      "Mac",
+      "PC",
+      "WebGL",
+      "Windows 8 Universal",
+      "Windows 10 Universal"
+    ],
+    "changelog": "### Added\n- Added the ability to manually refresh the Build Automation settings in the Build Profile window after connecting to Unity Cloud\n\n### Modified\n- Fixed an issue where the Cloud Build History page was failing to properly render\n- Fixed an issue where an error was displayed in the terminal when Cloud Build credentials had not been defined\n\n### Modified\n- Fixed ThrowNullReferenceException when changing between build profiles by adding CancellationToken support"
+  },
+  "description": "Integrate with Unity Build Automation \n\nThis package provides services to build and distribute your applications.",
+  "dependencies": {
+    "com.unity.services.core": "1.7.0",
+    "com.unity.nuget.newtonsoft-json": "3.0.2",
+    "com.unity.collab-proxy": "2.6.0"
+  },
+  "relatedPackages": {
+    "com.unity.services.cloud-build.tests": "2.0.6"
+  },
+  "upmCi": {
+    "footprint": "bacda80d9acdca63d51047855451e79900343852"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.cloud-build@2.0/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+    "type": "git",
+    "revision": "3d07ef15faff678b5f7b6f8d58a13fd60fa9d855"
+  },
+  "_fingerprint": "8193a1137e9f1b77d3329a8ee5ae0211e856e7ff"
+}

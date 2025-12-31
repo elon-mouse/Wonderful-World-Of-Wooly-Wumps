@@ -1,0 +1,7 @@
+.custom-player-settings-info-helpbox > Label {
+    flex-grow: 1;
+}
+.custom-player-settings-info-helpbox {
+    margin-left: -15px;
+    margin-right: -6px;
+}

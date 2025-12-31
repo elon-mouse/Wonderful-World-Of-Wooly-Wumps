@@ -1,0 +1,44 @@
+{
+  "name": "com.unity.2d.common",
+  "displayName": "2D Common",
+  "version": "12.0.1",
+  "unity": "6000.3",
+  "description": "2D Common is a package that contains shared functionalities that are used by most of the other 2D packages.",
+  "keywords": [
+    "2d"
+  ],
+  "category": "2D",
+  "dependencies": {
+    "com.unity.collections": "2.4.3",
+    "com.unity.2d.sprite": "1.0.0",
+    "com.unity.mathematics": "1.1.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.burst": "1.8.4"
+  },
+  "samples": [
+    {
+      "displayName": "Sprite Atlas Samples",
+      "description": "Samples to get started with SpriteAtlas",
+      "path": "Samples~/SpriteAtlas"
+    }
+  ],
+  "relatedPackages": {
+    "com.unity.2d.common.tests": "12.0.1"
+  },
+  "unityRelease": "0a1",
+  "_upm": {
+    "changelog": "### Added\n- Added internal access for the Aseprite Importer.\n- Added retrieving of texture storage size."
+  },
+  "upmCi": {
+    "footprint": "eea538d13f36cd9ff7a8d9faa87b9dc407125ae4"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.2d.common@12.0/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/2d.git",
+    "type": "git",
+    "revision": "0f527ad8312724fd801fb3b317d1f4be2f019652"
+  },
+  "_fingerprint": "51e9484895c4b91b39650e3ee34a014a63860080"
+}

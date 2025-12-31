@@ -1,0 +1,3 @@
+<root name="" element-id="224" assign-type="None" type="Unity.Android.Gradle.LocalPropertiesFile" base-type="Unity.Android.Gradle.BaseBlock" is-default="false" dependencies="">
+  <element name="" element-id="228" assign-type="None" raw-value="sdk.dir=/Applications/Unity/Hub/Editor/6000.3.2f1/PlaybackEngines/AndroidPlayer/SDK" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
+</root>

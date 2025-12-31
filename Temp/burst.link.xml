@@ -8,25 +8,20 @@
   </type>
  </assembly>
  <assembly fullname="Unity.Collections">
-  <type fullname="Unity.Collections.AllocatorManager">
-   <method name=".cctor"/>
-  </type>
   <type fullname="Unity.Collections.AllocatorManager.SharedStatics.TableEntry">
    <method name=".cctor"/>
   </type>
   <type fullname="Unity.Jobs.LowLevel.Unsafe.JobsUtility">
    <method name="get_ThreadIndexCount"/>
   </type>
-  <type fullname="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
-   <method name="MallocTracked"/>
+  <type fullname="Unity.Collections.AllocatorManager">
+   <method name=".cctor"/>
   </type>
   <type fullname="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
    <method name="FreeTracked"/>
   </type>
- </assembly>
- <assembly fullname="Unity.RenderPipelines.GPUDriven.Runtime">
-  <type fullname="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
-   <method name="Malloc"/>
+  <type fullname="Unity.Collections.AllocatorManager.SharedStatics.IsAutoDispose">
+   <method name=".cctor"/>
   </type>
  </assembly>
  <assembly fullname="Unity.RenderPipelines.Universal.Runtime">
@@ -35,8 +30,11 @@
   </type>
  </assembly>
  <assembly fullname="UnityEngine.CoreModule">
-  <type fullname="UnityEngine.Rendering.GPUDrivenProcessor">
-   <method name="ClassifyMaterialsImpl_Injected"/>
+  <type fullname="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
+   <method name="MallocTracked"/>
+  </type>
+  <type fullname="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
+   <method name="FreeTracked"/>
   </type>
   <type fullname="Unity.Jobs.LowLevel.Unsafe.JobsUtility">
    <method name="GetWorkStealingRange"/>
@@ -48,18 +46,6 @@
    <method name="GetSortedTransformAccess"/>
   </type>
   <type fullname="UnityEngine.Jobs.TransformAccess">
-   <method name="GetWorldToLocalMatrix"/>
-  </type>
-  <type fullname="UnityEngine.Rendering.BatchRendererGroup">
-   <method name="OcclusionTestAABB_Injected"/>
-  </type>
-  <type fullname="UnityEngine.Jobs.TransformAccess">
-   <method name="GetLocalToWorldMatrix"/>
-  </type>
-  <type fullname="UnityEngine.LightProbesQuery">
-   <method name="CalculateInterpolatedLightAndOcclusionProbes"/>
-  </type>
-  <type fullname="UnityEngine.Jobs.TransformAccess">
    <method name="GetPosition"/>
   </type>
   <type fullname="UnityEngine.Jobs.TransformAccess">
@@ -68,11 +54,11 @@
   <type fullname="UnityEngine.Jobs.TransformAccess">
    <method name="GetLocalScale"/>
   </type>
-  <type fullname="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
-   <method name="MallocTracked"/>
+  <type fullname="UnityEngine.Jobs.TransformAccess">
+   <method name="GetLocalToWorldMatrix"/>
   </type>
-  <type fullname="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
-   <method name="FreeTracked"/>
+  <type fullname="UnityEngine.Matrix4x4">
+   <method name="GetRotation_Injected"/>
   </type>
   <type fullname="UnityEngine.U2D.Clipper2D">
    <method name="Internal_Execute_Cleanup"/>
@@ -85,6 +71,21 @@
   </type>
   <type fullname="UnityEngine.U2D.Clipper2D">
    <method name="Internal_Execute_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Rendering.GPUDrivenProcessor">
+   <method name="ClassifyMaterialsImpl_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Jobs.TransformAccess">
+   <method name="GetWorldToLocalMatrix"/>
+  </type>
+  <type fullname="UnityEngine.Rendering.BatchRendererGroup">
+   <method name="OcclusionTestAABB_Injected"/>
+  </type>
+  <type fullname="UnityEngine.LightProbesQuery">
+   <method name="CalculateInterpolatedLightAndOcclusionProbes"/>
+  </type>
+  <type fullname="Unity.Collections.LowLevel.Unsafe.UnsafeUtility">
+   <method name="Malloc"/>
   </type>
  </assembly>
 </linker>

@@ -1,0 +1,79 @@
+apply plugin: 'com.android.library'
+apply from: '../shared/keepUnitySymbols.gradle'
+apply from: '../shared/common.gradle'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.core:core:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.games:games-activity:3.0.5'
+    implementation 'androidx.games:games-frame-pacing:2.1.2'
+}
+
+android {
+    namespace "com.unity3d.player"
+    ndkPath "/Applications/Unity/Hub/Editor/6000.3.2f1/PlaybackEngines/AndroidPlayer/NDK"
+    ndkVersion "27.2.12479018"
+    compileSdk 36
+    buildToolsVersion = "36.0.0"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    defaultConfig {
+        consumerProguardFiles "proguard-unity.txt"
+        versionName "1.0"
+        minSdk 25
+        targetSdk 36
+        versionCode 1
+
+        ndk {
+            abiFilters "arm64-v8a"
+            debugSymbolLevel "none"
+        }
+
+        externalNativeBuild {
+            cmake {
+                arguments "-DANDROID_STL=c++_shared", "-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON"
+            }
+        }
+    }
+
+    lint {
+        abortOnError false
+    }
+
+    androidResources {
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp'] + unityStreamingAssets.tokenize(', ')
+    }
+
+    packaging {
+        jniLibs {
+            useLegacyPackaging true
+        }
+    }
+}
+
+
+android.externalNativeBuild {
+    cmake {
+        version "3.22.1"
+        // Workaround for CMake long path issue on Windows, place CMake intermediate files next to Unity project
+        buildStagingDirectory "${unityProjectPath}/.utmp"
+        path "src/main/cpp/CMakeLists.txt"
+    }
+}
+android.buildFeatures {
+    prefab true
+}
+// Dependencies for "com.unity.purchasing". This section is automatically generated.
+afterEvaluate {
+    dependencies {
+        implementation 'com.android.billingclient:billing:8.0.0'
+    }
+}
+// End of dependencies for "com.unity.purchasing".

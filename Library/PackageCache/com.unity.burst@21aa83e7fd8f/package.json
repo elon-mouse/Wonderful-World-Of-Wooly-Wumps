@@ -1,0 +1,27 @@
+{
+  "name": "com.unity.burst",
+  "displayName": "Burst",
+  "version": "1.8.26",
+  "unity": "2021.3",
+  "description": "Burst is a compiler that translates from IL/.NET bytecode to highly optimized native code using LLVM.",
+  "dependencies": {
+    "com.unity.mathematics": "1.2.1",
+    "com.unity.modules.jsonserialize": "1.0.0"
+  },
+  "relatedPackages": {
+    "com.unity.burst.tests": "1.8.26"
+  },
+  "_upm": {
+    "changelog": "### Added\n- Enable Burst on Web Platform\n- Enabled Apple Hardened Runtime for Burst runtime libraries.\n- Burst now supports `typeof` comparison - e.g. `if (typeof(int) == typeof(T))`. `GetType()` remains invalid in Burst-compiled code, and all other members on `Type` instances remain invalid, but equality (`==`) and inequality (`!=`) are now supported for types created via `typeof`. These comparisons compile to compile-time constants.\n\n### Removed\n\n### Changed\n\n### Fixed\n- An issue where the rendering in the inspector would break down on Very large listings.\n- Fixed Windows runtime executable digital signatures, eliminating any false-positive antivirus hits.\n- [PLAT-15945](https://jira.unity3d.com/browse/PLAT-15945): Embedded Linux target triplets for Editor version 6.4\n- Fix crash during inlining optimisation. Ensure inlines are removed when they are no longer valid.\n\n### Known Issues\n\n### Purpose"
+  },
+  "upmCi": {
+    "footprint": "1426109d69ef514ac8d9fdc5685a009208c0812e"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/burst.git",
+    "type": "git",
+    "revision": "78a5cce909c0faf2e0a4f984fdf94e27f8b0745b"
+  },
+  "_fingerprint": "21aa83e7fd8fcc79eafc5f662d434afb183153d6"
+}

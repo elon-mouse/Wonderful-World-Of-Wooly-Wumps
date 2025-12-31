@@ -1,0 +1,19 @@
+{
+    "name": "Unity.Toolchain.Macos-arm64-Linux.EditorTests",
+    "references": [
+        "Unity.Toolchain.Editor",
+        "Unity.Sysroot",
+        "Unity.Toolchain.Macos-arm64-Linux",
+        "Unity.SysrootPackage.Editor"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

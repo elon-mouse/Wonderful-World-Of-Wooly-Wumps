@@ -1,5 +1,5 @@
 {
-    "totalSettings": 29,
+    "totalSettings": 32,
     "totalSettingsOnPlayer": 12,
     "settings": [
         {
@@ -144,6 +144,21 @@
         },
         {
             "type": "UnityEngine.Rendering.RenderingDebuggerRuntimeResources, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "isAvailableInPlayerBuild": false,
+            "strippersDefined": false
+        },
+        {
+            "type": "UnityEngine.Rendering.UnifiedRayTracing.RayTracingRenderPipelineResources, Unity.UnifiedRayTracing.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "isAvailableInPlayerBuild": false,
+            "strippersDefined": false
+        },
+        {
+            "type": "UnityEngine.Rendering.Universal.OnTilePostProcessResource, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "isAvailableInPlayerBuild": false,
+            "strippersDefined": true
+        },
+        {
+            "type": "UnityEngine.Rendering.URPReflectionProbeSettings, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
             "isAvailableInPlayerBuild": false,
             "strippersDefined": false
         }

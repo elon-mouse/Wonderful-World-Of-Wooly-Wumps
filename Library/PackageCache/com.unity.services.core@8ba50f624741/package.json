@@ -1,0 +1,28 @@
+{
+  "name": "com.unity.services.core",
+  "displayName": "Services Core",
+  "version": "1.16.0",
+  "unity": "2022.3",
+  "description": "This package defines common components used by multiple Game Service packages.\nThese are standardized and aim to unify the overall experience of working with Game Services SDK.",
+  "dependencies": {
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.unity.modules.androidjni": "1.0.0"
+  },
+  "relatedPackages": {
+    "com.unity.services.core.tests": "1.16.0"
+  },
+  "_upm": {
+    "changelog": "### Changed\n* Upgrading base unity version support to 2022.3\n\n### Added\n- Adding environment button in the main toolbar for Unity 6.3. Right-click the main toolbar and select `Services/Environment` to activate.\n\n### Fixed\n\n- Fixed an issue where errors would continuously be logged when unlinking a project in the Services tab\n- Fixed an issue where the Popup for Project Linking would close when chooisng the `Open Project Settings` option\n- Fixed compilation issue in 2022.3.10f1 and lower"
+  },
+  "upmCi": {
+    "footprint": "c9179f0b74e8cb0ea6666df510bec5cdfa5a629e"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.services.core@1.16/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+    "type": "git",
+    "revision": "1b63a99d4899b6cf84a11901c8d66ec8369dc3b4"
+  },
+  "_fingerprint": "8ba50f62474188022a50a78f721a5d30dfba0c3e"
+}

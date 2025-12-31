@@ -1,0 +1,10 @@
+{
+    "name": "Unity.Toolchain.Macos-arm64-Linux",
+    "references": [
+        "Unity.SysrootPackage.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}
