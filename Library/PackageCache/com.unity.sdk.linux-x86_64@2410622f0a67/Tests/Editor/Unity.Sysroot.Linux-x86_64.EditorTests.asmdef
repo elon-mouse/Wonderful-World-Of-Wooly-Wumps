@@ -1,0 +1,18 @@
+{
+    "name": "Unity.Sysroot.Linux_x86_64.EditorTests",
+    "references": [
+        "Unity.SysrootPackage.Editor",
+        "Unity.Sysroot.Linux.x86_64",
+        "Unity.Sysroot.Linux_x86_64"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

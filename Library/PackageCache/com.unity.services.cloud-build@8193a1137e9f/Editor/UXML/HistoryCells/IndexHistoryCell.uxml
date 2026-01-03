@@ -1,0 +1,7 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" editor-extension-mode="True">
+    <engine:VisualElement style="flex-grow: 1; flex-direction: row; padding-left: 4px" class="history-cell">
+        <engine:Toggle name="buildSelector" />
+        <engine:Image name="statusIcon" style="width: 20; height: 20; margin-left: 6; margin-right: 6"/>
+        <engine:Label text="Label" name="statusLabel" />
+    </engine:VisualElement>
+</engine:UXML>

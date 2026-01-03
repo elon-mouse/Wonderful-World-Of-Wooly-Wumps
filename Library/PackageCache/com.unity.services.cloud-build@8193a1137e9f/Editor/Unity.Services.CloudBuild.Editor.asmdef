@@ -1,0 +1,22 @@
+{
+    "name": "Unity.Services.CloudBuild.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Services.Core.Editor",
+        "Unity.Services.Core",
+        "Unity.Services.Core.Internal"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_2022_1_OR_NEWER"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

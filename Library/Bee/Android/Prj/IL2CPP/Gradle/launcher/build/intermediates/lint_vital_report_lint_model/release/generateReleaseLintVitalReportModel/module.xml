@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher"
+    name=":launcher"
+    type="APP"
+    maven="Gradle:launcher:unspecified"
+    agpVersion="8.10.0"
+    buildFolder="build"
+    bootClassPath="/Applications/Unity/Hub/Editor/6000.3.2f1/PlaybackEngines/AndroidPlayer/SDK/platforms/android-36/android.jar:/Applications/Unity/Hub/Editor/6000.3.2f1/PlaybackEngines/AndroidPlayer/SDK/build-tools/36.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-36"
+    neverShrinking="true">
+  <lintOptions
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

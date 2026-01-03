@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+
+namespace UnityEngine.U2D.IK
+{
+    public partial class IKManager2D : MonoBehaviour
+    {
+#if UNITY_EDITOR
+        [Serializable]
+        internal struct SolverEditorData
+        {
+            public Color color;
+            public bool showGizmo;
+            public static SolverEditorData defaultValue => new SolverEditorData() { color = Color.green, showGizmo = true };
+        }
+
+        [SerializeField] private List<SolverEditorData> m_SolverEditorData = new List<SolverEditorData>();
+
+        void OnEditorDataValidate()
+        {
+            int solverDataLength = m_SolverEditorData.Count;
+            for (int i = solverDataLength; i < m_Solvers.Count; ++i)
+            {
+                AddSolverEditorData();
+            }
+        }
+
+        void AddSolverEditorData()
+        {
+            m_SolverEditorData.Add(new SolverEditorData()
+            {
+                color = Color.green,
+                showGizmo = true
+            });
+        }
+
+        void RemoveSolverEditorData(Solver2D solver)
+        {
+            int index = m_Solvers.FindIndex(x => x == solver);
+            if (index >= 0)
+                m_SolverEditorData.RemoveAt(index);
+        }
+
+        internal IList<SolverEditorData> FindSolverEditorDataList()
+        {
+            OnEditorDataValidate();
+            return m_SolverEditorData;
+        }
+
+#else
+        void OnEditorDataValidate() { }
+        void AddSolverEditorData() { }
+        void RemoveSolverEditorData(Solver2D solver) { }
+#endif
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.DefaultCompany.Myproject.launcher-mergeReleaseResources-22:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/release/packageReleaseResources/values-v31/values-v31.xml",
+                    "from": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,618",
+                        "endLines": "8,15",
+                        "endColumns": "10,10",
+                        "endOffsets": "613,1178"
+                    }
+                }
+            ]
+        }
+    ]
+}

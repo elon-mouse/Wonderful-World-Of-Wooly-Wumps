@@ -1,0 +1,80 @@
+Adding elements from Unity
+--------------------------------------------------
+
+Adding elements from /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Tools/XCode/com.unity.modules.insights.xcprivacy
+	NSPrivacyCollectedDataTypes:
+		0:
+			NSPrivacyCollectedDataType:
+				NSPrivacyCollectedDataTypeUserID
+			NSPrivacyCollectedDataTypeLinked:
+				True
+			NSPrivacyCollectedDataTypePurposes:
+				0:
+					NSPrivacyCollectedDataTypePurposeAppFunctionality
+			NSPrivacyCollectedDataTypeTracking:
+				False
+		1:
+			NSPrivacyCollectedDataType:
+				NSPrivacyCollectedDataTypeProductInteraction
+			NSPrivacyCollectedDataTypeLinked:
+				True
+			NSPrivacyCollectedDataTypePurposes:
+				0:
+					NSPrivacyCollectedDataTypePurposeAppFunctionality
+			NSPrivacyCollectedDataTypeTracking:
+				False
+		2:
+			NSPrivacyCollectedDataType:
+				NSPrivacyCollectedDataTypePerformanceData
+			NSPrivacyCollectedDataTypeLinked:
+				True
+			NSPrivacyCollectedDataTypePurposes:
+				0:
+					NSPrivacyCollectedDataTypePurposeAppFunctionality
+			NSPrivacyCollectedDataTypeTracking:
+				False
+		3:
+			NSPrivacyCollectedDataType:
+				NSPrivacyCollectedDataTypeCrashData
+			NSPrivacyCollectedDataTypeLinked:
+				True
+			NSPrivacyCollectedDataTypePurposes:
+				0:
+					NSPrivacyCollectedDataTypePurposeAppFunctionality
+			NSPrivacyCollectedDataTypeTracking:
+				False
+		4:
+			NSPrivacyCollectedDataType:
+				NSPrivacyCollectedDataTypeOtherDiagnosticData
+			NSPrivacyCollectedDataTypeLinked:
+				True
+			NSPrivacyCollectedDataTypePurposes:
+				0:
+					NSPrivacyCollectedDataTypePurposeAppFunctionality
+			NSPrivacyCollectedDataTypeTracking:
+				False
+		5:
+			NSPrivacyCollectedDataType:
+				NSPrivacyCollectedDataTypeOtherUsageData
+			NSPrivacyCollectedDataTypeLinked:
+				True
+			NSPrivacyCollectedDataTypePurposes:
+				0:
+					NSPrivacyCollectedDataTypePurposeAppFunctionality
+			NSPrivacyCollectedDataTypeTracking:
+				False
+
+--------------------------------------------------
+
+Adding elements from Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/PrivacyInfo.xcprivacy
+	NSPrivacyAccessedAPITypes:
+		0:
+			NSPrivacyAccessedAPIType:
+				NSPrivacyAccessedAPICategoryUserDefaults
+			NSPrivacyAccessedAPITypeReasons:
+				0:
+					CA92.1
+
+	NSPrivacyTracking:
+		False
+

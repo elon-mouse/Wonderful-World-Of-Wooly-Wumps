@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 56f9df60a30f6a241aadcceef4b7569f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261317
+  packageName: Virtual Joystick Pack
+  packageVersion: 1.1.7
+  assetPath: Assets/VirtualJoystick/Prefabs/Vertical Joystick/Vertical Joystick.prefab
+  uploadId: 822286

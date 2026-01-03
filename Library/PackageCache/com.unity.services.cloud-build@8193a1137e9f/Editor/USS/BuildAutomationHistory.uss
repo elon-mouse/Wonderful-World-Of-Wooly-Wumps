@@ -1,0 +1,31 @@
+.history-cell {
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+
+.history-cell-label {
+    padding-left: 8px;
+    height: 100%;
+    -unity-text-align: middle-left;
+}
+
+.empty-build-list {
+    height: 100%;
+    -unity-text-align: middle-center;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.empty-build-list-header {
+    -unity-font-style: bold;
+    padding-bottom: 4px;
+}
+
+.hyperlink {
+    color: #1E88E5;
+}
+
+.hyperlink:hover {
+    color: #1565C0;
+}

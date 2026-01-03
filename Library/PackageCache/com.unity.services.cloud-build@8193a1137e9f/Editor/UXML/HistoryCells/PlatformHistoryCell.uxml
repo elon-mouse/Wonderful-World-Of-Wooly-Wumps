@@ -1,0 +1,7 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" editor-extension-mode="True">
+    <engine:VisualElement style="flex-grow: 1; flex-direction: row; padding-left: 4px" class="history-cell">
+        <engine:Image name="platformIcon" style="width: 20; height: 20; margin-left: 4"/>
+        <engine:Image name="serverIcon" style="width: 20; height: 20; margin-left: 4"/>
+        <engine:Label text="Label" name="platformLabel" />
+    </engine:VisualElement>
+</engine:UXML>

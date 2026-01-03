@@ -1,0 +1,8 @@
+/Users/arman/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/3905n3e4/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/arman/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/3905n3e4/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/arman/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/3905n3e4/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/arman/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/3905n3e4/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/arman/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/3905n3e4/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
+/Users/arman/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/3905n3e4/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/arman/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/3905n3e4/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+/Users/arman/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/3905n3e4/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

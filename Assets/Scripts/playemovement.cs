@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using Terresquall;
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpingPower;
     void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
+        horizontal = VirtualJoystick.GetAxisRaw("Horizontal");
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {

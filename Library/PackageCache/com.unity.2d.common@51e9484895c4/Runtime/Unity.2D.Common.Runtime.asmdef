@@ -1,0 +1,10 @@
+{
+    "name": "Unity.2D.Common.Runtime",
+    "references": [
+        "Unity.Mathematics",
+        "Unity.Collections"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true
+}

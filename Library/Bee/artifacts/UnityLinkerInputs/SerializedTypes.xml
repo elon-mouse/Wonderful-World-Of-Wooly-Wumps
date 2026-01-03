@@ -48,6 +48,7 @@
 		<type fullname="UnityEngine.Rendering.Universal.Light2DBlendStyle" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Universal.Runtime">
+		<type fullname="UnityEngine.Rendering.Universal.BloomFilterModeParameter" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.DepthOfFieldModeParameter" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.DownscaleParameter" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.FilmGrainLookupParameter" preserve="nothing" serialized="true"/>
@@ -55,6 +56,7 @@
 		<type fullname="UnityEngine.Rendering.Universal.MotionBlurModeParameter" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.MotionBlurQualityParameter" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.NeutralRangeReductionModeParameter" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Rendering.Universal.OnTilePostProcessResource" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.PostProcessData/ShaderResources" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.PostProcessData/TextureResources" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.Renderer2DResources" preserve="nothing" serialized="true"/>
@@ -77,6 +79,10 @@
 		<type fullname="UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeXRResources" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.URPDefaultVolumeProfileSettings" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.URPShaderStrippingSetting" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Rendering.URPReflectionProbeSettings" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.UnifiedRayTracing.Runtime">
+		<type fullname="UnityEngine.Rendering.UnifiedRayTracing.RayTracingRenderPipelineResources" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="UnityEngine.CoreModule">
 		<type fullname="UnityEngine.Bounds" preserve="nothing" serialized="true"/>

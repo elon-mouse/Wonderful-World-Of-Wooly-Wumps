@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns="UnityEngine.UIElements" editor-extension-mode="True">
+    <ui:VisualElement class="foldout-container" style="flex-direction: column;">
+        <ui:DropdownField label="Operating System" name="operating-system-dropdown" tooltip="The operating system to build your project on" />
+        <ui:DropdownField label="XCode Version" name="xcode-dropdown" tooltip="The Xcode version used to build your project (if applicable)" />
+        <ui:DropdownField label="Android SDK Version" name="android-dropdown" tooltip="The Android SDK version used to build your project (if applicable)" />
+        <ui:DropdownField label="Unity Architecture" name="architecture-dropdown" tooltip="The CPU architecture that the Unity Version used to build your project is compiled for. Only available if building on a Mac Silicon based operating system" />
+        <ui:VisualElement name="machine-type-container" style="flex-grow: 1; flex-direction: row;">
+            <ui:DropdownField label="Machine Type" name="machine-type-dropdown" tooltip="The specifications for the Machine used to build your project" style="flex-grow: 1;" />
+            <ui:Button name="machine-type-info-button" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 2px; margin-right: 0px; margin-bottom: 2px; margin-left: 0; background-color: rgba(188, 188, 188, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

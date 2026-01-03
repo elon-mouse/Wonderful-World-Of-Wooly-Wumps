@@ -1,0 +1,184 @@
+.project-settings-title-container,
+.project-settings-section-container {
+    padding:4px 4px 4px 8px;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+.separator {
+    margin-top:5px;
+    margin-bottom:5px;
+    height:2px;
+}
+
+.attempt-header {
+    align-items: center;
+}
+
+.label-container {
+    white-space:normal;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.cloudbuild #LearnMore {
+    margin-right:8px;
+    align-self:flex-end;
+}
+
+.cloudbuild .service-icon {
+    background-image:resource("Builtin Skins/Shared/Images/ServicesWindow-ServiceIcon-Build.png");
+}
+
+.cloud-build-history-footer {
+    padding-top:5px;
+    padding-right:8px;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+.cloud-progress .cloud-history-progress {
+    -unity-text-align:middle-center;
+    font-size:18px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.target-container-title {
+    margin:10px 0px 10px 8px;
+    font-size:16px;
+}
+
+.target-entry {
+    flex-direction:row;
+    padding:5px 8px 5px 8px;
+}
+
+.target-entry .title {
+    flex-grow:1;
+    -unity-text-align:middle-left;
+}
+
+.target-entry .build-button {
+    align-self:flex-end;
+}
+
+.target-footer {
+    padding-top:5px;
+    padding-right:8px;
+    flex-direction:column;
+    align-self: center;
+}
+
+#StartUsingCloudBuild {
+    margin-left:8px;
+    white-space:nowrap;
+}
+
+#PollFooter {
+    display:none;
+}
+
+.cloud-build-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.active-profile-image {
+    align-items: flex-start;
+    margin: 10px;
+    padding:7px;
+    background-color: black;
+    border-width: 1px;
+    border-radius: 10%;
+    width: 48px;
+    height: 48px;
+}
+
+.active-profile-info {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+.active-profile-name {
+    font-size: 16px;
+    -unity-font-style: bold;
+}
+
+.active-profile-section {
+    flex-direction: row;
+}
+
+.active-profile-platform {
+
+}
+
+.configuration-header {
+    -unity-font-style: bold;
+}
+
+.configuration-section {
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.build-configuration-foldout {
+    flex-direction: column;
+}
+
+.foldout-container {
+    flex-direction: row;
+}
+
+.foldout-element {
+    flex-direction: row;
+}
+
+.foldout-title-column {
+    flex-direction: column;
+}
+
+.foldout-title{
+    margin-left: 5px;
+    margin-top: 5px;
+    align-self: flex-start;
+    -unity-text-align: lower-right ;
+}
+
+.foldout-details-column {
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.foldout-dropdown {
+
+}
+
+.foldout-button {
+
+}
+
+.foldout-element-title{
+    margin-left: 5px;
+    margin: 5px;
+}
+
+.foldout-element-text {
+    margin-top: 5px;
+}
+
+.foldout-element-image {
+    display: none;
+}
+
+.cloud-build-help-box {
+    display: none;
+}
+
+.settings_menu > .unity-toolbar-menu__arrow {
+    display: none;
+}

@@ -26,6 +26,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.DedicatedServer.MultiplayerRoles.Editor.dll:
+    - Unity.Multiplayer.Editor.ContentSelectionSettings
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
@@ -179,6 +181,8 @@ ScriptsOnlyBuild:
     Unity.RenderPipelines.Universal.2D.Runtime:
     - UnityEngine.Rendering.Universal.Light2DBlendStyle
     Unity.RenderPipelines.Universal.Runtime:
+    - UnityEngine.Rendering.URPReflectionProbeSettings
+    - UnityEngine.Rendering.Universal.BloomFilterModeParameter
     - UnityEngine.Rendering.Universal.DepthOfFieldModeParameter
     - UnityEngine.Rendering.Universal.DownscaleParameter
     - UnityEngine.Rendering.Universal.FilmGrainLookupParameter
@@ -186,6 +190,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.MotionBlurModeParameter
     - UnityEngine.Rendering.Universal.MotionBlurQualityParameter
     - UnityEngine.Rendering.Universal.NeutralRangeReductionModeParameter
+    - UnityEngine.Rendering.Universal.OnTilePostProcessResource
     - UnityEngine.Rendering.Universal.PostProcessData/ShaderResources
     - UnityEngine.Rendering.Universal.PostProcessData/TextureResources
     - UnityEngine.Rendering.Universal.RenderGraphSettings
@@ -208,6 +213,8 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeTextures
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeXRResources
     - UnityEngine.Rendering.Universal.UniversalRendererResources
+    Unity.UnifiedRayTracing.Runtime:
+    - UnityEngine.Rendering.UnifiedRayTracing.RayTracingRenderPipelineResources
     UnityEngine.CoreModule:
     - UnityEngine.Bounds
     - UnityEngine.Events.ArgumentCache
@@ -240,35 +247,35 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: OnScrollbarClicked
   - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
     methodName: OnDecrement
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
     methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
@@ -301,133 +308,133 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 32448}
+      Script: {instanceID: 36434}
     - Class: 114
-      Script: {instanceID: 32728}
+      Script: {instanceID: 42004}
     - Class: 114
-      Script: {instanceID: 32778}
+      Script: {instanceID: 36394}
     - Class: 114
-      Script: {instanceID: 32870}
+      Script: {instanceID: 36954}
     - Class: 114
-      Script: {instanceID: 32910}
+      Script: {instanceID: 43842}
     - Class: 114
-      Script: {instanceID: 33160}
+      Script: {instanceID: 43636}
     - Class: 114
-      Script: {instanceID: 33286}
+      Script: {instanceID: 38440}
     - Class: 114
-      Script: {instanceID: 33356}
+      Script: {instanceID: 42232}
     - Class: 114
-      Script: {instanceID: 33442}
+      Script: {instanceID: 39306}
     - Class: 114
-      Script: {instanceID: 33500}
+      Script: {instanceID: 37862}
     - Class: 114
-      Script: {instanceID: 33640}
+      Script: {instanceID: 39166}
     - Class: 114
-      Script: {instanceID: 33922}
+      Script: {instanceID: 48742}
     - Class: 114
-      Script: {instanceID: 34156}
+      Script: {instanceID: 40638}
     - Class: 114
-      Script: {instanceID: 34534}
+      Script: {instanceID: 47266}
     - Class: 114
-      Script: {instanceID: 34598}
+      Script: {instanceID: 43642}
     - Class: 114
-      Script: {instanceID: 34648}
+      Script: {instanceID: 36288}
     - Class: 114
-      Script: {instanceID: 34768}
+      Script: {instanceID: 47506}
     - Class: 114
-      Script: {instanceID: 35012}
+      Script: {instanceID: 45716}
     - Class: 114
-      Script: {instanceID: 35108}
+      Script: {instanceID: 42256}
     - Class: 114
-      Script: {instanceID: 35148}
+      Script: {instanceID: 39124}
     - Class: 114
-      Script: {instanceID: 35208}
+      Script: {instanceID: 49194}
     - Class: 114
-      Script: {instanceID: 35238}
+      Script: {instanceID: 42522}
     - Class: 114
-      Script: {instanceID: 35274}
+      Script: {instanceID: 38982}
     - Class: 114
-      Script: {instanceID: 35396}
+      Script: {instanceID: 42158}
     - Class: 114
-      Script: {instanceID: 36216}
+      Script: {instanceID: 42376}
     - Class: 114
-      Script: {instanceID: 36546}
+      Script: {instanceID: 36870}
     - Class: 114
-      Script: {instanceID: 36556}
+      Script: {instanceID: 39090}
     - Class: 114
-      Script: {instanceID: 37328}
+      Script: {instanceID: 37120}
     - Class: 114
-      Script: {instanceID: 37384}
+      Script: {instanceID: 47442}
     - Class: 114
-      Script: {instanceID: 37420}
+      Script: {instanceID: 38588}
     - Class: 114
-      Script: {instanceID: 37676}
+      Script: {instanceID: 35916}
     - Class: 114
-      Script: {instanceID: 37712}
+      Script: {instanceID: 41544}
     - Class: 114
-      Script: {instanceID: 37842}
+      Script: {instanceID: 36228}
     - Class: 114
-      Script: {instanceID: 37910}
+      Script: {instanceID: 38310}
     - Class: 114
-      Script: {instanceID: 37926}
+      Script: {instanceID: 43708}
     - Class: 114
-      Script: {instanceID: 38024}
+      Script: {instanceID: 47844}
     - Class: 114
-      Script: {instanceID: 38144}
+      Script: {instanceID: 49158}
     - Class: 114
-      Script: {instanceID: 38806}
+      Script: {instanceID: 41658}
     - Class: 114
-      Script: {instanceID: 39026}
+      Script: {instanceID: 36728}
     - Class: 114
-      Script: {instanceID: 39078}
+      Script: {instanceID: 50094}
     - Class: 114
-      Script: {instanceID: 39084}
+      Script: {instanceID: 48740}
     - Class: 114
-      Script: {instanceID: 39136}
+      Script: {instanceID: 43706}
     - Class: 114
-      Script: {instanceID: 39138}
+      Script: {instanceID: 43582}
     - Class: 114
-      Script: {instanceID: 39406}
+      Script: {instanceID: 41614}
     - Class: 114
-      Script: {instanceID: 40206}
+      Script: {instanceID: 44954}
     - Class: 114
-      Script: {instanceID: 40854}
+      Script: {instanceID: 49046}
     - Class: 114
-      Script: {instanceID: 41922}
+      Script: {instanceID: 39024}
     - Class: 114
-      Script: {instanceID: 42216}
+      Script: {instanceID: 49392}
     - Class: 114
-      Script: {instanceID: 42372}
+      Script: {instanceID: 46946}
     - Class: 114
-      Script: {instanceID: 42428}
+      Script: {instanceID: 41958}
     - Class: 114
-      Script: {instanceID: 42728}
+      Script: {instanceID: 38384}
     - Class: 114
-      Script: {instanceID: 42808}
+      Script: {instanceID: 48872}
     - Class: 114
-      Script: {instanceID: 42908}
+      Script: {instanceID: 38870}
     - Class: 114
-      Script: {instanceID: 43488}
+      Script: {instanceID: 44004}
     - Class: 114
-      Script: {instanceID: 43490}
+      Script: {instanceID: 37582}
     - Class: 114
-      Script: {instanceID: 43600}
+      Script: {instanceID: 37266}
     - Class: 114
-      Script: {instanceID: 43738}
+      Script: {instanceID: 40252}
     - Class: 114
-      Script: {instanceID: 43834}
+      Script: {instanceID: 49716}
     - Class: 114
-      Script: {instanceID: 43864}
+      Script: {instanceID: 48056}
     - Class: 114
-      Script: {instanceID: 44038}
+      Script: {instanceID: 43298}
     - Class: 114
-      Script: {instanceID: 44326}
+      Script: {instanceID: 37054}
     - Class: 114
-      Script: {instanceID: 44656}
+      Script: {instanceID: 47930}
     - Class: 114
-      Script: {instanceID: 44838}
+      Script: {instanceID: 50288}
     - Class: 114
-      Script: {instanceID: 55536}
+      Script: {instanceID: 40650}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -467,7 +474,7 @@ ScriptsOnlyBuild:
     className: AnimationTrack
   - hash:
       serializedVersion: 2
-      Hash: cf62aad97f6c2dd5d482e2509c6c9528
+      Hash: fef7b1de2fd1557ad8228e9840b78b9c
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextMeshProUGUI
@@ -515,7 +522,7 @@ ScriptsOnlyBuild:
     className: SkeletonAsset
   - hash:
       serializedVersion: 2
-      Hash: b9404a1bead62725906b97daa22b9fe0
+      Hash: 68e3a5c8a323832677cd3c3b52846a4c
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputDebuggerWindow
@@ -611,7 +618,7 @@ ScriptsOnlyBuild:
     className: AdvancedRuleOverrideTile
   - hash:
       serializedVersion: 2
-      Hash: 5d95407a9adb4e92bf0b413c3d793233
+      Hash: 54ee47ff7e53817a4f4866894037b25f
     assemblyName: Unity.2D.Tilemap.Extras
     namespaceName: UnityEngine.Tilemaps
     className: AutoTile
@@ -627,6 +634,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: cf7bb9304f893a14b7402e2fab6e8742
+    assemblyName: Unity.Purchasing.Utilities
+    namespaceName: Purchasing.Utilities
+    className: MonoBehaviourUtil
   - hash:
       serializedVersion: 2
       Hash: db9b308769d19e1f9e161df0392c23ca
@@ -743,7 +756,7 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
-      Hash: 5a05675e5b5c0c8c190a444786eea8f4
+      Hash: 321cef2bb01757185811b2970cab9a14
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.HID.Editor
     className: HIDDescriptorWindow
@@ -801,6 +814,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Tilemap.Extras
     namespaceName: UnityEngine
     className: IsometricRuleTile
+  - hash:
+      serializedVersion: 2
+      Hash: 2f4f05ad2f48c8b2d7f21a40c95e7028
+    assemblyName: Unity.Purchasing.Stores
+    namespaceName: UnityEngine.Purchasing
+    className: UIFakeStoreWindow
   - hash:
       serializedVersion: 2
       Hash: c4cdb902228df56d5b2b639d6a6bbd3c
@@ -869,13 +888,19 @@ ScriptsOnlyBuild:
     className: UnityOnMoveMessageListener
   - hash:
       serializedVersion: 2
+      Hash: c1963cda4a9b8d4900999fe5cb188480
+    assemblyName: Unity.Services.Core.Components
+    namespaceName: Unity.Services.Core.Components
+    className: ServicesInitialization
+  - hash:
+      serializedVersion: 2
       Hash: 6b2b20d5352b9f1294595326f54bd3c2
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerObjectPopupField
   - hash:
       serializedVersion: 2
-      Hash: 191c3402cd43ee08f0a96795440c294e
+      Hash: 5190388b8c6337e7102dca0915c21338
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: AdvancedDropdownWindow
@@ -905,7 +930,7 @@ ScriptsOnlyBuild:
     className: StandaloneInputModuleModuleEditor
   - hash:
       serializedVersion: 2
-      Hash: 9f27b94c3c17b0da0d39632b61a4b711
+      Hash: 7f2f4f187e34b053a7ba052dcd999928
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: Bloom
@@ -1043,6 +1068,12 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStay2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 311bb06b8388de99522368e00354d05f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: 
+    className: OnTilePostProcessFeature
+  - hash:
+      serializedVersion: 2
       Hash: 99a378b25d7f7f0ee01e6a4feddd9667
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -1085,7 +1116,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: 08e2446b65d2da7600c6bbdd36de0e56
+      Hash: 9c2a74050ab21a942c069c35174c3804
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem
     className: InputSystemObject
@@ -1101,6 +1132,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering
     className: ProbeVolumesOptions
+  - hash:
+      serializedVersion: 2
+      Hash: 7ba81453598a0a73e36881125be94534
+    assemblyName: Unity.Purchasing.Codeless
+    namespaceName: UnityEngine.Purchasing
+    className: IAPButton
   - hash:
       serializedVersion: 2
       Hash: 8dff8e9853297d341afa0c11f9091b59
@@ -1211,7 +1248,7 @@ ScriptsOnlyBuild:
     className: InputField
   - hash:
       serializedVersion: 2
-      Hash: e49f64f6c7006f2a8a0e7674b5de1fae
+      Hash: dc201de005c73eb3aca4d8091c6b2836
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputActionDebuggerWindow
@@ -1277,16 +1314,16 @@ ScriptsOnlyBuild:
     className: FreeCamera
   - hash:
       serializedVersion: 2
-      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Shadow
-  - hash:
-      serializedVersion: 2
       Hash: 1ab136900c0edaeeb49424c852595030
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
   - hash:
       serializedVersion: 2
       Hash: 1b32c5551298e17b2b3237d120b9537b
@@ -1295,13 +1332,19 @@ ScriptsOnlyBuild:
     className: UniversalAdditionalCameraData
   - hash:
       serializedVersion: 2
+      Hash: f6363eb1f8427914039a27e0ab8c9c4b
+    assemblyName: Unity.Purchasing.Codeless
+    namespaceName: UnityEngine.Purchasing
+    className: CodelessIAPButton
+  - hash:
+      serializedVersion: 2
       Hash: 4d1de238b65fc04279ae7e6bc1bd4bc4
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: EnemyAttack
   - hash:
       serializedVersion: 2
-      Hash: dd8ec7a642dbaa57390a077c7a9c1fdf
+      Hash: b17a4364c77338d3cba80938e6283f79
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputStateWindow
@@ -1469,6 +1512,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerPanel
   - hash:
       serializedVersion: 2
+      Hash: 0bfa35a4b7f66270f1d347b526b8da50
+    assemblyName: Unity.Purchasing.Stores
+    namespaceName: UnityEngine.Purchasing
+    className: LifecycleNotifier
+  - hash:
+      serializedVersion: 2
       Hash: e8d390bd9ecacc453a7500b90d0c0292
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
@@ -1479,6 +1528,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 79f127e33b014b6e6fe58191079aedc1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HideOSC
   - hash:
       serializedVersion: 2
       Hash: 5a4aa2850fe11587f47e34c270c7fd22
@@ -1595,7 +1650,7 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: 0054fbf0021ca5612162a3774c6c6836
+      Hash: 4f4acacf26ce3cda0ceff4eadb24875b
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputDeviceDebuggerWindow
@@ -1679,6 +1734,12 @@ ScriptsOnlyBuild:
     className: PlayerInput
   - hash:
       serializedVersion: 2
+      Hash: e17704be9f4524ffdad8cfb188db56f3
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.RenderGraphModule
+    className: DebugMessageHandler
+  - hash:
+      serializedVersion: 2
       Hash: d7c8092511063e0dae8106bfc8ed63dd
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1703,7 +1764,7 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStayMessageListener
   - hash:
       serializedVersion: 2
-      Hash: ff5172bc81dc2da4c7de2a8bf56dc4b8
+      Hash: 2b4e393a3e361cd8d1bf11b9fca48014
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputActionsEditorWindow
@@ -1905,6 +1966,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: ed225c391c7379e49f2666d7096fba52
+    assemblyName: Unity.Purchasing.Codeless
+    namespaceName: UnityEngine.Purchasing
+    className: IAPListener
   - hash:
       serializedVersion: 2
       Hash: f45600bcc886206dd55a3208474aad61
@@ -2117,7 +2184,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerToggle
   - hash:
       serializedVersion: 2
-      Hash: db6133687572f9dc24f1fd4238ef9b83
+      Hash: 999ec126b5cbe7a9728c32f41b049731
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextMeshPro
@@ -2177,65 +2244,11 @@ ScriptsOnlyBuild:
     className: UnityOnBecameInvisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: ca93c3ab9e0e54347eaf25619d6c1d83
-    assemblyName: Unity.InputSystem
-    namespaceName: UnityEngine.InputSystem.Editor
-    className: InputActionEditorWindow
-  - hash:
-      serializedVersion: 2
       Hash: f2305da2400dfe6f069770a1a63f0f7c
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: cf7bb9304f893a14b7402e2fab6e8742
-    assemblyName: Unity.Purchasing.Utilities
-    namespaceName: Purchasing.Utilities
-    className: MonoBehaviourUtil
-  - hash:
-      serializedVersion: 2
-      Hash: 2f4f05ad2f48c8b2d7f21a40c95e7028
-    assemblyName: Unity.Purchasing.Stores
-    namespaceName: UnityEngine.Purchasing
-    className: UIFakeStoreWindow
-  - hash:
-      serializedVersion: 2
-      Hash: 095fb569bb43a1505544eebd33a90567
-    assemblyName: Unity.Services.Core.Components
-    namespaceName: Unity.Services.Core.Components
-    className: ServicesInitialization
-  - hash:
-      serializedVersion: 2
-      Hash: 7ba81453598a0a73e36881125be94534
-    assemblyName: Unity.Purchasing.Codeless
-    namespaceName: UnityEngine.Purchasing
-    className: IAPButton
-  - hash:
-      serializedVersion: 2
-      Hash: f6363eb1f8427914039a27e0ab8c9c4b
-    assemblyName: Unity.Purchasing.Codeless
-    namespaceName: UnityEngine.Purchasing
-    className: CodelessIAPButton
-  - hash:
-      serializedVersion: 2
-      Hash: 0bfa35a4b7f66270f1d347b526b8da50
-    assemblyName: Unity.Purchasing.Stores
-    namespaceName: UnityEngine.Purchasing
-    className: LifecycleNotifier
-  - hash:
-      serializedVersion: 2
-      Hash: ed225c391c7379e49f2666d7096fba52
-    assemblyName: Unity.Purchasing.Codeless
-    namespaceName: UnityEngine.Purchasing
-    className: IAPListener
-  - hash:
-      serializedVersion: 2
-      Hash: 79f127e33b014b6e6fe58191079aedc1
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: HideOSC
   platform: 2
   scenePathNames:
   - Assets/Scenes/GameplayScence.unity
-  playerPath: /Users/arman/Desktop/Wonderful World Of Wooly Wumpus Mac.app
+  playerPath: /Users/arman/Desktop/Wooly-Wumpus-Mac/Wooly-Wumpus-Mac.app

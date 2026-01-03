@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a18bbdbfa8d78f946b49b3719e1a8d90
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261317
+  packageName: Virtual Joystick Pack
+  packageVersion: 1.1.7
+  assetPath: Assets/VirtualJoystick/Scripts/Devices/VirtualJoystick.cs
+  uploadId: 822286
