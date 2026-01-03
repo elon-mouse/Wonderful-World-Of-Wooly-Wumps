@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         horizontal = VirtualJoystick.GetAxisRaw("Horizontal");
+        horizontal = Input.GetAxisRaw("Horizontal");
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {

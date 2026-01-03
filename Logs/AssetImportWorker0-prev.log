@@ -7,9 +7,10 @@ Darwin version:          25.2.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        8192 MB
-Date:                    2026-01-03T06:14:08Z
+Date:                    2026-01-03T06:19:56Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arman" at "2026-01-03T06:14:08.379343Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arman" at "2026-01-03T06:19:56.093355Z"
+database is locked
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +24,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65045
+65264
 -licensingIpc
 LicenseClient-arman
 -job-worker-count
@@ -72,11 +73,11 @@ Successfully changed project path to: /Users/arman/Wonderful-World-Of-Wooly-Wump
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8762862656]  Target information:
 
-Player connection [8762862656]  * "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 1253750353 [EditorId] 1253750353 [Version] 1048832 [Id] OSXEditor(0,Armans-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8762862656]  * "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 14860359 [EditorId] 14860359 [Version] 1048832 [Id] OSXEditor(0,Armans-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8762862656]  * "[IP] 10.211.55.2 [Port] 0 [Flags] 2 [Guid] 1253750353 [EditorId] 1253750353 [Version] 1048832 [Id] OSXEditor(0,Armans-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8762862656]  * "[IP] 10.211.55.2 [Port] 0 [Flags] 2 [Guid] 14860359 [EditorId] 14860359 [Version] 1048832 [Id] OSXEditor(0,Armans-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8762862656]  * "[IP] 10.37.129.2 [Port] 0 [Flags] 2 [Guid] 1253750353 [EditorId] 1253750353 [Version] 1048832 [Id] OSXEditor(0,Armans-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8762862656]  * "[IP] 10.37.129.2 [Port] 0 [Flags] 2 [Guid] 14860359 [EditorId] 14860359 [Version] 1048832 [Id] OSXEditor(0,Armans-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8762862656] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8762862656] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -91,7 +92,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 16.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 7.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.2f1 (a9779f353c9b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -108,20 +109,20 @@ MSL Version: 3.0
 Has Float MSAA: 1
 Has Float Filtering: 1
 ReadWrite Texture Tier: 2
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              a55d32246c3a4e95b3f15103594a24f2
+  Correlation Id:          93ba5a4db59bd8760b27af26ff2c6f7a
+  External correlation Id: 1512402699542741612
+  Machine Id:              GG9q5WJrdLj0aUKplOoD3ua3mO0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arman" (connect: 0.00s, validation: 0.00s, handshake: 0.58s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arman-notifications" at "2026-01-03T06:19:56.679502Z"
+[Licensing::Module] Licensing Background thread has ended after 0.59s
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              90f03f84e3134dea8d1de60471f200e1
-  Correlation Id:          93ba5a4db59bd8760b27af26ff2c6f7a
-  External correlation Id: 879128047074839882
-  Machine Id:              GG9q5WJrdLj0aUKplOoD3ua3mO0=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arman" (connect: 0.00s, validation: 0.00s, handshake: 0.88s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arman-notifications" at "2026-01-03T06:14:09.264904Z"
-[Licensing::Module] Licensing Background thread has ended after 0.89s
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -137,15 +138,15 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.3.2f1/Play
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.2f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.2f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.004595 seconds.
-- Loaded All Assemblies, in  0.361 seconds
+Registered in 0.003309 seconds.
+- Loaded All Assemblies, in  0.330 seconds
 Native extension for LinuxStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 82 ms
+Android Extension - Scanning For ADB Devices 298 ms
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -154,35 +155,35 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.509 seconds
-Domain Reload Profiling: 870ms
-	BeginReloadAssembly (128ms)
+- Finished resetting the current domain, in  0.805 seconds
+Domain Reload Profiling: 1135ms
+	BeginReloadAssembly (108ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (156ms)
-		LoadAssemblies (129ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (109ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (136ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (128ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (509ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (806ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (455ms)
+		SetupLoadedEditorAssemblies (763ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (237ms)
+			InitializePlatformSupportModulesInManaged (479ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (106ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -194,52 +195,50 @@ Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.705 seconds
-Script 'Camera' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 2.28 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.757 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 2 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.33 ms, found 2 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.800 seconds
-Domain Reload Profiling: 1497ms
-	BeginReloadAssembly (102ms)
+- Finished resetting the current domain, in  1.720 seconds
+Domain Reload Profiling: 2477ms
+	BeginReloadAssembly (170ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (27ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (535ms)
-		LoadAssemblies (357ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (522ms)
+		LoadAssemblies (382ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (225ms)
-			TypeCache.Refresh (168ms)
-				TypeCache.ScanAssembly (146ms)
-			BuildScriptInfoCaches (47ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (163ms)
+			BuildScriptInfoCaches (43ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (800ms)
+	FinalizeReload (1721ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (657ms)
+		SetupLoadedEditorAssemblies (1588ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
+			InitializePlatformSupportModulesInManaged (842ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (126ms)
-			ProcessInitializeOnLoadAttributes (337ms)
-			ProcessInitializeOnLoadMethodAttributes (168ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (379ms)
+			ProcessInitializeOnLoadMethodAttributes (194ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
@@ -249,275 +248,278 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.73 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7930 unused Assets / (3.9 MB). Loaded Objects now: 8721.
-Memory consumption went from 166.9 MB to 163.0 MB.
-Total: 28.932666 ms (FindLiveObjects: 4.143250 ms CreateObjectMapping: 0.378667 ms MarkObjects: 19.190167 ms  DeleteObjects: 5.220084 ms)
+Unloading 7932 unused Assets / (2.0 MB). Loaded Objects now: 8725.
+Memory consumption went from 174.7 MB to 172.7 MB.
+Total: 10.447750 ms (FindLiveObjects: 1.084500 ms CreateObjectMapping: 0.318416 ms MarkObjects: 7.036000 ms  DeleteObjects: 1.797166 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36988.523497 seconds.
-  path: Assets/Scripts/Testing/a.cs
-  artifactKey: Guid(32a5b5c5d28e94155b387bda5645e3d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Testing/a.cs using Guid(32a5b5c5d28e94155b387bda5645e3d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a41e754145cf59702f267a9a3ae128d') in 0.079573625 seconds
+  Time since last request: 37336.902502 seconds.
+  path: Assets/Scripts/HideOSC.cs
+  artifactKey: Guid(ad2442019f58f4e4f826e9d65f6f65d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/HideOSC.cs using Guid(ad2442019f58f4e4f826e9d65f6f65d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7ae8b026b881d7f3dca8ae070c31c2d') in 0.071415375 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Scenes/GameplayScence.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/GameplayScence.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '973fc50956aeb386e0d657beeb3b870c') in 0.006173416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Scripts/playerAttack.cs
-  artifactKey: Guid(966b9a77c7930446ea3e323ac228b0cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/playerAttack.cs using Guid(966b9a77c7930446ea3e323ac228b0cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40481e0c987c4e039115ad2d6738e43d') in 0.002295208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.795112 seconds.
-  path: Assets/ONC.inputactions
-  artifactKey: Guid(1b20f0a2616724ee3b69f2f5c227a039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ONC.inputactions using Guid(1b20f0a2616724ee3b69f2f5c227a039) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81cee09f98cc6fbe7bfd215105fa7bfd') in 0.077137292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Prepare
-Script 'Camera' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7877 unused Assets / (3.1 MB). Loaded Objects now: 8727.
-Memory consumption went from 162.6 MB to 159.5 MB.
-Total: 27.003584 ms (FindLiveObjects: 0.622834 ms CreateObjectMapping: 0.306667 ms MarkObjects: 24.248625 ms  DeleteObjects: 1.824417 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 30.388273 seconds.
-  path: Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_0.png
-  artifactKey: Guid(ab01f61b3c6a46c4587ab9734c601f5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_0.png using Guid(ab01f61b3c6a46c4587ab9734c601f5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
- -> (artifact id: '931b5c3d4f3f1a81efc5fb0bc6bc017b') in 0.20438025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
+  Time since last request: 0.000054 seconds.
   path: Assets/Scripts/playemovement.cs
   artifactKey: Guid(f44514012e0a7457b861d4317aea62ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/playemovement.cs using Guid(f44514012e0a7457b861d4317aea62ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7147ab9376abc52dfb210a6a79d1bf4b') in 0.002181375 seconds
+Start importing Assets/Scripts/playemovement.cs using Guid(f44514012e0a7457b861d4317aea62ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b36032c88ee92d79b04b3bda9d55af85') in 0.00327175 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/VirtualJoystick/Prefabs/Split Joystick/Split Joystick (Black).prefab
-  artifactKey: Guid(9d9e161438374a440aa7205b5d6e4df7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VirtualJoystick/Prefabs/Split Joystick/Split Joystick (Black).prefab using Guid(9d9e161438374a440aa7205b5d6e4df7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b9f6d121ee0696463a59b96f2ae1d798') in 0.037657833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_1.png
-  artifactKey: Guid(151eef41825813d4f96dd0d4c8ecdc2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_1.png using Guid(151eef41825813d4f96dd0d4c8ecdc2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3cca382b48998906412738ba3893dff') in 0.007086375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/VirtualJoystick/Skins
-  artifactKey: Guid(1b759c75e865df8439befec6720cc298) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VirtualJoystick/Skins using Guid(1b759c75e865df8439befec6720cc298) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc5cb15741e17ff928dba5667ebd6058') in 0.002082917 seconds
+  Time since last request: 0.000051 seconds.
+  path: Assets/Settings/Build Profiles/Linux Server.asset
+  artifactKey: Guid(8447c23505b59454db525ec776ffddaa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Build Profiles/Linux Server.asset using Guid(8447c23505b59454db525ec776ffddaa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be1913775db16ea0319588dce853cc90') in 1.096551541 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/IMG_7045.jpg
-  artifactKey: Guid(b315458f79f925e4db70dd25a6699de6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/IMG_7045.jpg using Guid(b315458f79f925e4db70dd25a6699de6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbd7eab5a619da454485e10c317483b6') in 0.016735834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000059 seconds.
-  path: Assets/VirtualJoystick/Prefabs/Horizontal Joystick/Horizontal Joystick (Black) Variant.prefab
-  artifactKey: Guid(3cb0eb8fbd30d68489d779b5ebacc455) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VirtualJoystick/Prefabs/Horizontal Joystick/Horizontal Joystick (Black) Variant.prefab using Guid(3cb0eb8fbd30d68489d779b5ebacc455) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc97c22bdd111458ee117a5459958cc6') in 0.00656 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a6954e91cca688978d51d444836c42b') in 0.101093625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/VirtualJoystick/Prefabs/Horizontal Joystick/Horizontal Joystick.prefab
-  artifactKey: Guid(fbc216268c3fe5c4f94eb79f2381ad6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VirtualJoystick/Prefabs/Horizontal Joystick/Horizontal Joystick.prefab using Guid(fbc216268c3fe5c4f94eb79f2381ad6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6560a2356cc7e8e3980163a2ed3d71e2') in 0.005394209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/VirtualJoystick/Scripts/Devices/VirtualJoystick.cs
-  artifactKey: Guid(a18bbdbfa8d78f946b49b3719e1a8d90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VirtualJoystick/Scripts/Devices/VirtualJoystick.cs using Guid(a18bbdbfa8d78f946b49b3719e1a8d90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9d4a5601b3c34015312bf0a805c03c3') in 0.001707084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/VirtualJoystick/Prefabs/Horizontal Joystick/Horizontal Joystick (Red) Variant.prefab
-  artifactKey: Guid(97b9dfbb77a24fe4cb357024a6d5d296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VirtualJoystick/Prefabs/Horizontal Joystick/Horizontal Joystick (Red) Variant.prefab using Guid(97b9dfbb77a24fe4cb357024a6d5d296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33f6c2ea492e4c0e90cb5582f8e98ca4') in 0.004786 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/VirtualJoystick/Prefabs/Native Joysticks/Native Joystick (White).prefab
-  artifactKey: Guid(5c2cb823f1af59541974bd4a360355f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VirtualJoystick/Prefabs/Native Joysticks/Native Joystick (White).prefab using Guid(5c2cb823f1af59541974bd4a360355f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e81f8c418c83ed1fb513a92f2e1be28') in 0.006225375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/VirtualJoystick/Prefabs/Split Joystick/Split Joystick (Grey).prefab
-  artifactKey: Guid(bd6372cac36cf86438b3d3537ac67e40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VirtualJoystick/Prefabs/Split Joystick/Split Joystick (Grey).prefab using Guid(bd6372cac36cf86438b3d3537ac67e40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b47f57baeb3f287c47a232532e595e69') in 0.003993375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/VirtualJoystick/Prefabs/Horizontal Joystick
-  artifactKey: Guid(9b04e65db14b0e945b7c207dde7e6513) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VirtualJoystick/Prefabs/Horizontal Joystick using Guid(9b04e65db14b0e945b7c207dde7e6513) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f9c0611c18c8d6d400d3dd371d74be8') in 0.001540166 seconds
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/BillingMode.json
+  artifactKey: Guid(43348dd91ea50474ca126ca479131cc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/BillingMode.json using Guid(43348dd91ea50474ca126ca479131cc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd50b9be888d81d9cabff6fb252c2256') in 0.002300917 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/VirtualJoystick/Prefabs/Native Joysticks/Native Joystick (Blue).prefab
-  artifactKey: Guid(f891ceeb95ad9ad44899137377e4b5b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VirtualJoystick/Prefabs/Native Joysticks/Native Joystick (Blue).prefab using Guid(f891ceeb95ad9ad44899137377e4b5b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b30eafa52fe79b4ec5db18a6385d315b') in 0.003739667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/VirtualJoystick/Scripts
-  artifactKey: Guid(330788d0d88a76040925af26fc084d65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VirtualJoystick/Scripts using Guid(330788d0d88a76040925af26fc084d65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bb0c83bcc6b21a2c7d9b0c0bb3f57d6') in 0.001877292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/VirtualJoystick/Prefabs/Split Joystick/Split Joystick (White).prefab
-  artifactKey: Guid(b66fd64baee7c044a8b8d52f92fd88ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VirtualJoystick/Prefabs/Split Joystick/Split Joystick (White).prefab using Guid(b66fd64baee7c044a8b8d52f92fd88ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df81c460f1fc353822a3811a23560932') in 0.004695917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/VirtualJoystick/Prefabs
-  artifactKey: Guid(ea160a0e8b5468341ac2535825b3b7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VirtualJoystick/Prefabs using Guid(ea160a0e8b5468341ac2535825b3b7a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e30bb62ec556a5be1b72d53f9ad76b0') in 0.001938833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/VirtualJoystick/Scripts/VirtualJoystick.cs
-  artifactKey: Guid(23f9ac44728580c41ad91debed290eab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/VirtualJoystick/Scripts/VirtualJoystick.cs using Guid(23f9ac44728580c41ad91debed290eab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f08fe7f097f3302b5fbc502cf0ebccdc') in 0.002148708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_3.png
-  artifactKey: Guid(072fb9c03f98b8541804c8632eda3b74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_3.png using Guid(072fb9c03f98b8541804c8632eda3b74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d0b1c7feef0f5fd40378ee2fe31d435') in 0.007766208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.860808 seconds.
-  path: Assets/IMG_7045.jpg
-  artifactKey: Guid(b315458f79f925e4db70dd25a6699de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMG_7045.jpg using Guid(b315458f79f925e4db70dd25a6699de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b51b7689d187a6b8ef4e07fbd4e87f4') in 0.189084125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Prepare
-Script 'Camera' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7879 unused Assets / (3.1 MB). Loaded Objects now: 8731.
-Memory consumption went from 162.2 MB to 159.2 MB.
-Total: 26.424917 ms (FindLiveObjects: 1.014917 ms CreateObjectMapping: 0.298541 ms MarkObjects: 23.027250 ms  DeleteObjects: 2.067542 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 70.707283 seconds.
-  path: Assets/Scripts/HideOSC.cs
-  artifactKey: Guid(ad2442019f58f4e4f826e9d65f6f65d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/HideOSC.cs using Guid(ad2442019f58f4e4f826e9d65f6f65d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4aa2ec2576bf7285e8c2561934ea7d0') in 0.012422583 seconds
+  Time since last request: 0.000064 seconds.
+  path: Assets/Scripts/playerAttack.cs
+  artifactKey: Guid(966b9a77c7930446ea3e323ac228b0cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/playerAttack.cs using Guid(966b9a77c7930446ea3e323ac228b0cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f045c2fd26782d3147461c23963657ce') in 0.002211375 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d597000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.791 seconds
 Script 'Camera' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 2.86 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 2 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.750 seconds
+Domain Reload Profiling: 1544ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (485ms)
+		LoadAssemblies (334ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (114ms)
+			BuildScriptInfoCaches (89ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (750ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (552ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (78ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7875 unused Assets / (3.3 MB). Loaded Objects now: 8730.
-Memory consumption went from 159.6 MB to 156.4 MB.
-Total: 28.114916 ms (FindLiveObjects: 0.670500 ms CreateObjectMapping: 0.296208 ms MarkObjects: 25.257958 ms  DeleteObjects: 1.889917 ms)
+Unloading 7930 unused Assets / (2.9 MB). Loaded Objects now: 8745.
+Memory consumption went from 189.4 MB to 186.5 MB.
+Total: 10.250583 ms (FindLiveObjects: 0.550958 ms CreateObjectMapping: 0.234583 ms MarkObjects: 7.491917 ms  DeleteObjects: 1.969958 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 22.634264 seconds.
-  path: Assets/Scripts/playemovement.cs
-  artifactKey: Guid(f44514012e0a7457b861d4317aea62ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/playemovement.cs using Guid(f44514012e0a7457b861d4317aea62ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e3070a7b36244bef8ccc7dc1ccccb6c') in 0.001549416 seconds
+  Time since last request: 23.624941 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65636432c56742a06922c04c04ec00a3') in 0.038826375 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '234da3ff7b360d379f304b75e2c4ab1c') in 0.004280625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d597000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.632 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 2.36 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.25 ms, found 2 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1342ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (158ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (707ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (536ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (66ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7930 unused Assets / (4.3 MB). Loaded Objects now: 8749.
+Memory consumption went from 192.2 MB to 187.9 MB.
+Total: 8.596625 ms (FindLiveObjects: 0.487667 ms CreateObjectMapping: 0.274583 ms MarkObjects: 6.148667 ms  DeleteObjects: 1.684959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16d597000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.305 seconds
+Script 'Camera' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 9.57 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.48 ms, found 2 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Successfully resolved entitlement details
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.278 seconds
+Domain Reload Profiling: 2590ms
+	BeginReloadAssembly (378ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (54ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (864ms)
+		LoadAssemblies (701ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (299ms)
+			TypeCache.Refresh (31ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (249ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1280ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1060ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (470ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (84ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7930 unused Assets / (3.6 MB). Loaded Objects now: 8752.
+Memory consumption went from 194.8 MB to 191.2 MB.
+Total: 12.177458 ms (FindLiveObjects: 1.361292 ms CreateObjectMapping: 0.666375 ms MarkObjects: 8.492250 ms  DeleteObjects: 1.641333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
