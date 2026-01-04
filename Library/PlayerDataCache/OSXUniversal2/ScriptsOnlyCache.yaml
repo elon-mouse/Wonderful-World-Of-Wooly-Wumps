@@ -10,10 +10,10 @@ ScriptsOnlyBuild:
     - PlayerAttack
     - PlayerMovement
     - PlayerRespawn
+    - Terresquall.VirtualJoystick
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.DeformationManager
     - UnityEngine.U2D.Animation.DeformationManagerUpdater
     Unity.2D.IK.Editor.dll:
@@ -33,8 +33,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
-    - UnityEngine.InputSystem.OnScreen.OnScreenButton
-    - UnityEngine.InputSystem.OnScreen.OnScreenStick
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
     Unity.PlasticSCM.Editor.dll:
@@ -105,8 +103,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.WhiteBalance
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.ShaderGraph.Editor.dll:
-    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
@@ -129,12 +125,11 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.VerticalLayoutGroup
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Shadow
     - UnityEngine.UI.Slider
-    - UnityEngine.UI.Text
   serializedClasses:
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
@@ -247,35 +242,35 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: OnScrollbarClicked
   - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
     methodName: OnDecrement
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
     methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnDecrement
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
@@ -308,133 +303,133 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 36434}
+      Script: {instanceID: 36624}
     - Class: 114
-      Script: {instanceID: 42004}
+      Script: {instanceID: 42248}
     - Class: 114
-      Script: {instanceID: 36394}
+      Script: {instanceID: 36584}
     - Class: 114
-      Script: {instanceID: 36954}
+      Script: {instanceID: 37154}
     - Class: 114
-      Script: {instanceID: 43842}
+      Script: {instanceID: 44096}
     - Class: 114
-      Script: {instanceID: 43636}
+      Script: {instanceID: 43886}
     - Class: 114
-      Script: {instanceID: 38440}
+      Script: {instanceID: 38644}
     - Class: 114
-      Script: {instanceID: 42232}
+      Script: {instanceID: 42478}
     - Class: 114
-      Script: {instanceID: 39306}
+      Script: {instanceID: 39520}
     - Class: 114
-      Script: {instanceID: 37862}
+      Script: {instanceID: 40418}
     - Class: 114
-      Script: {instanceID: 39166}
+      Script: {instanceID: 38066}
     - Class: 114
-      Script: {instanceID: 48742}
+      Script: {instanceID: 39380}
     - Class: 114
-      Script: {instanceID: 40638}
+      Script: {instanceID: 49014}
     - Class: 114
-      Script: {instanceID: 47266}
+      Script: {instanceID: 40872}
     - Class: 114
-      Script: {instanceID: 43642}
+      Script: {instanceID: 36478}
     - Class: 114
-      Script: {instanceID: 36288}
+      Script: {instanceID: 47772}
     - Class: 114
-      Script: {instanceID: 47506}
+      Script: {instanceID: 45980}
     - Class: 114
-      Script: {instanceID: 45716}
+      Script: {instanceID: 42502}
     - Class: 114
-      Script: {instanceID: 42256}
+      Script: {instanceID: 39338}
     - Class: 114
-      Script: {instanceID: 39124}
+      Script: {instanceID: 49474}
     - Class: 114
-      Script: {instanceID: 49194}
+      Script: {instanceID: 42770}
     - Class: 114
-      Script: {instanceID: 42522}
+      Script: {instanceID: 39196}
     - Class: 114
-      Script: {instanceID: 38982}
+      Script: {instanceID: 42402}
     - Class: 114
-      Script: {instanceID: 42158}
+      Script: {instanceID: 42624}
     - Class: 114
-      Script: {instanceID: 42376}
+      Script: {instanceID: 37070}
     - Class: 114
-      Script: {instanceID: 36870}
+      Script: {instanceID: 39304}
     - Class: 114
-      Script: {instanceID: 39090}
+      Script: {instanceID: 37322}
     - Class: 114
-      Script: {instanceID: 37120}
+      Script: {instanceID: 47708}
     - Class: 114
-      Script: {instanceID: 47442}
+      Script: {instanceID: 38794}
+    - Class: 114
+      Script: {instanceID: 36102}
+    - Class: 114
+      Script: {instanceID: 41786}
+    - Class: 114
+      Script: {instanceID: 36418}
+    - Class: 114
+      Script: {instanceID: 38514}
+    - Class: 114
+      Script: {instanceID: 43960}
+    - Class: 114
+      Script: {instanceID: 48110}
+    - Class: 114
+      Script: {instanceID: 49438}
+    - Class: 114
+      Script: {instanceID: 41900}
+    - Class: 114
+      Script: {instanceID: 36924}
+    - Class: 114
+      Script: {instanceID: 50382}
+    - Class: 114
+      Script: {instanceID: 49012}
+    - Class: 114
+      Script: {instanceID: 43958}
+    - Class: 114
+      Script: {instanceID: 43832}
+    - Class: 114
+      Script: {instanceID: 41856}
+    - Class: 114
+      Script: {instanceID: 45214}
+    - Class: 114
+      Script: {instanceID: 49324}
+    - Class: 114
+      Script: {instanceID: 39238}
+    - Class: 114
+      Script: {instanceID: 49676}
+    - Class: 114
+      Script: {instanceID: 47210}
+    - Class: 114
+      Script: {instanceID: 42202}
     - Class: 114
       Script: {instanceID: 38588}
     - Class: 114
-      Script: {instanceID: 35916}
+      Script: {instanceID: 49148}
     - Class: 114
-      Script: {instanceID: 41544}
+      Script: {instanceID: 39084}
     - Class: 114
-      Script: {instanceID: 36228}
+      Script: {instanceID: 44260}
     - Class: 114
-      Script: {instanceID: 38310}
+      Script: {instanceID: 37784}
     - Class: 114
-      Script: {instanceID: 43708}
+      Script: {instanceID: 37468}
     - Class: 114
-      Script: {instanceID: 47844}
+      Script: {instanceID: 40482}
     - Class: 114
-      Script: {instanceID: 49158}
+      Script: {instanceID: 50000}
     - Class: 114
-      Script: {instanceID: 41658}
+      Script: {instanceID: 48324}
     - Class: 114
-      Script: {instanceID: 36728}
+      Script: {instanceID: 43548}
     - Class: 114
-      Script: {instanceID: 50094}
+      Script: {instanceID: 42150}
     - Class: 114
-      Script: {instanceID: 48740}
+      Script: {instanceID: 37256}
     - Class: 114
-      Script: {instanceID: 43706}
+      Script: {instanceID: 48198}
     - Class: 114
-      Script: {instanceID: 43582}
+      Script: {instanceID: 50580}
     - Class: 114
-      Script: {instanceID: 41614}
-    - Class: 114
-      Script: {instanceID: 44954}
-    - Class: 114
-      Script: {instanceID: 49046}
-    - Class: 114
-      Script: {instanceID: 39024}
-    - Class: 114
-      Script: {instanceID: 49392}
-    - Class: 114
-      Script: {instanceID: 46946}
-    - Class: 114
-      Script: {instanceID: 41958}
-    - Class: 114
-      Script: {instanceID: 38384}
-    - Class: 114
-      Script: {instanceID: 48872}
-    - Class: 114
-      Script: {instanceID: 38870}
-    - Class: 114
-      Script: {instanceID: 44004}
-    - Class: 114
-      Script: {instanceID: 37582}
-    - Class: 114
-      Script: {instanceID: 37266}
-    - Class: 114
-      Script: {instanceID: 40252}
-    - Class: 114
-      Script: {instanceID: 49716}
-    - Class: 114
-      Script: {instanceID: 48056}
-    - Class: 114
-      Script: {instanceID: 43298}
-    - Class: 114
-      Script: {instanceID: 37054}
-    - Class: 114
-      Script: {instanceID: 47930}
-    - Class: 114
-      Script: {instanceID: 50288}
-    - Class: 114
-      Script: {instanceID: 40650}
+      Script: {instanceID: 40884}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1138,6 +1133,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Purchasing.Codeless
     namespaceName: UnityEngine.Purchasing
     className: IAPButton
+  - hash:
+      serializedVersion: 2
+      Hash: 0c597d69abe689450e107afac80fd7cf
+    assemblyName: Assembly-CSharp
+    namespaceName: Terresquall
+    className: VirtualJoystick
   - hash:
       serializedVersion: 2
       Hash: 8dff8e9853297d341afa0c11f9091b59
@@ -2251,4 +2252,4 @@ ScriptsOnlyBuild:
   platform: 2
   scenePathNames:
   - Assets/Scenes/GameplayScence.unity
-  playerPath: /Users/arman/Desktop/Wooly-Wumpus-Mac/Wooly-Wumpus-Mac.app
+  playerPath: /Users/arman/Desktop/Wooly-Wumpus-Mac/0.2.0/Wooly-Wumpus-Mac.app

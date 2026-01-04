@@ -127,15 +127,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics__ctor_m6318435D0C0C0AD81ABC2B7D5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 98599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Diagnostics_SendDiagnostic_mF569E18F0662E882CD37D4BC894BC085CB222D08 (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* __this, String_t* ___0_name, String_t* ___1_message, RuntimeObject* ___2_tags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Diagnotstics/Diagnostics.cs:13>
 		return;
 	}
 }
-// Method Definition Index: 98600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Diagnostics__ctor_m2CF108329965DFBA2D13399A65E9D5D47BF63BD8 (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -146,7 +143,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Diagnostics__ctor_m2CF108329965DFBA2D133
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Diagnotstics/Diagnostics.cs:8>
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_0, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
 		__this->___U3CPackageTagsU3Ek__BackingField = L_0;
@@ -163,16 +159,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Diagnostics__ctor_m2CF108329965DFBA2D133
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 98601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DiagnosticsFactory_get_CommonTags_mA08B1FB6FCB5AB504EF2ED3C2ED27EF41C442B7C (DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Diagnotstics/DiagnosticsFactory.cs:8>
 		RuntimeObject* L_0 = __this->___U3CCommonTagsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 98602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DiagnosticsFactory_Create_mE152323E55C07B54470CB90071252FF5F24A138B (DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2* __this, String_t* ___0_packageName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -182,13 +175,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DiagnosticsFactory_Create_mE15
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Diagnotstics/DiagnosticsFactory.cs:12>
 		Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012* L_0 = (Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012*)il2cpp_codegen_object_new(Diagnostics_t24C9DED6F621BBF7D712D62FD3776D29B3CE5012_il2cpp_TypeInfo_var);
 		Diagnostics__ctor_m2CF108329965DFBA2D13399A65E9D5D47BF63BD8(L_0, NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 98603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsFactory__ctor_m6AFD4725FFA4F4054B13917A376B8BE059AF4D27 (DiagnosticsFactory_tD2C64CDF0CC356965DB1993359515DC82D715CF2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -199,7 +190,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsFactory__ctor_m6AFD4725FFA4F4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Diagnotstics/DiagnosticsFactory.cs:8>
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_0, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
 		__this->___U3CCommonTagsU3Ek__BackingField = L_0;
@@ -216,31 +206,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DiagnosticsFactory__ctor_m6AFD4725FFA4F4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 98604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendGaugeMetric_m44A74F915A2C4302A6BF07BE010D16D9793D7BE6 (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, String_t* ___0_name, double ___1_value, RuntimeObject* ___2_tags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/Metrics.cs:12>
 		return;
 	}
 }
-// Method Definition Index: 98605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendHistogramMetric_mA7EB1B96D0F7E39A951A68AF58BF6A455E27C9ED (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, String_t* ___0_name, double ___1_time, RuntimeObject* ___2_tags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/Metrics.cs:17>
 		return;
 	}
 }
-// Method Definition Index: 98606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics_Unity_Services_Core_Telemetry_Internal_IMetrics_SendSumMetric_m3698244EA67D8736E51D84935E05E2DEB290C6A8 (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, String_t* ___0_name, double ___1_value, RuntimeObject* ___2_tags, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/Metrics.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 98607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics__ctor_m6318435D0C0C0AD81ABC2B7D542FE92D7B5C7D79 (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -251,7 +234,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics__ctor_m6318435D0C0C0AD81ABC2B7D5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/Metrics.cs:7>
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_0, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
 		__this->___U3CPackageTagsU3Ek__BackingField = L_0;
@@ -268,16 +250,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Metrics__ctor_m6318435D0C0C0AD81ABC2B7D5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 98608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MetricsFactory_get_CommonTags_m8B0B37504BB0C83E60181E6C273B5710E595B37E (MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/MetricsFactory.cs:8>
 		RuntimeObject* L_0 = __this->___U3CCommonTagsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 98609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MetricsFactory_Create_m6DCE478FE70DE3D0533A150550812CE038D8CD46 (MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05* __this, String_t* ___0_packageName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -287,13 +266,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MetricsFactory_Create_m6DCE478
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/MetricsFactory.cs:12>
 		Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1* L_0 = (Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1*)il2cpp_codegen_object_new(Metrics_t64BEB1BA35E4B6D2D709508D665841289875F1D1_il2cpp_TypeInfo_var);
 		Metrics__ctor_m6318435D0C0C0AD81ABC2B7D542FE92D7B5C7D79(L_0, NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 98610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsFactory__ctor_mD15F90B2C781DE2B48F41556FECEFAB2347AFC0C (MetricsFactory_tFED08C34B8CB569B801796787E82F2818606FA05* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -304,7 +281,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricsFactory__ctor_mD15F90B2C781DE2B48
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.services.core@8ba50f624741/Runtime/Telemetry/Metrics/MetricsFactory.cs:8>
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)il2cpp_codegen_object_new(Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_0, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
 		__this->___U3CCommonTagsU3Ek__BackingField = L_0;

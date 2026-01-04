@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.DefaultCompany.Myproject.launcher-mergeReleaseResources-22:/values-v30/values-v30.xml",
+            "outputFile": "com.elonmouse.woolywumpus.launcher-mergeReleaseResources-22:/values-v30/values-v30.xml",
             "map": [
                 {
                     "source": "/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/release/packageReleaseResources/values-v30/values-v30.xml",

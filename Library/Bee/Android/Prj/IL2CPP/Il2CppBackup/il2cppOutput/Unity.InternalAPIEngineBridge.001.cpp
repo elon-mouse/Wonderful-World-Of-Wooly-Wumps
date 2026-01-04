@@ -363,7 +363,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_MarkDirty_mDD84118E8E823F03DFAE1C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 98433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t2513809E5905A2EC3232C9FCAE5A95B601B92AFF UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m2175F39F61616C1F602A6581BFEDC408C0B170A7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -397,7 +396,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t2513809E5905A2EC3232C9FCAE5A9
 		return L_6;
 	}
 }
-// Method Definition Index: 98434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m0EB629EB7250A8D7F8E9019861342F081C732BE0 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tDBFAB5B2397C41FB2001145FEFF1CC40EBEA02D6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -483,47 +481,36 @@ IL2CPP_EXTERN_C void MonoScriptData_t2513809E5905A2EC3232C9FCAE5A95B601B92AFF_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 98435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetLocalAABB_m04DF27869CF8971148682477CFEC2A1991BB104E (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_spriteRenderer, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___1_aabb, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:11>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_0 = ___0_spriteRenderer;
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_1 = ___1_aabb;
 		SpriteRendererDataAccessExtensions_SetLocalAABB_m8B19B86E4F16CAC28378B0678A6780EE67376672(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:12>
 		return;
 	}
 }
-// Method Definition Index: 98436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetDeformableBuffer_mB01EA52CC0746EA5EAC860A4D9F365FFE6AF74AF (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_spriteRenderer, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___1_src, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:16>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_0 = ___0_spriteRenderer;
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF L_1 = ___1_src;
 		SpriteRendererDataAccessExtensions_SetDeformableBuffer_m3A000487D1EB0983E49CF13E13AA532787AF2E28(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:17>
 		return;
 	}
 }
-// Method Definition Index: 98437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetBoneTransforms_mD7561150898288AC7FF0D34A692BDB59815FBE4F (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_spriteRenderer, NativeArray_1_t6D4C2D5161FC101BAF06059CD9414A2153CCC2A0 ___1_src, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:21>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_0 = ___0_spriteRenderer;
 		NativeArray_1_t6D4C2D5161FC101BAF06059CD9414A2153CCC2A0 L_1 = ___1_src;
 		SpriteRendererDataAccessExtensions_SetBoneTransforms_m831B0B110FEA3999ECCC0AC16798A8DED7C2DECA(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 98438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InternalEngineBridge_IsUsingDeformableBuffer_m4E15DE94C232E27395214E067CCA80F9C66E5FAE (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_spriteRenderer, intptr_t ___1_buffer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:26>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_0 = ___0_spriteRenderer;
 		intptr_t L_1 = ___1_buffer;
 		bool L_2;
@@ -531,138 +518,110 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InternalEngineBridge_IsUsingDeformableBu
 		return L_2;
 	}
 }
-// Method Definition Index: 98439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetupMaterialProperties_m51EFE8FE2667D186E12924594C2480417EADD02F (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_spriteRenderer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:31>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_0 = ___0_spriteRenderer;
 		SpriteRendererDataAccessExtensions_SetupMaterialProperties_mAF13B2214531974498D311CED0C616CD0B126A5C(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 98440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 InternalEngineBridge_GUIUnclip_m27FB3DF164B3F05EA08901BB809493F1020E28DD (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:36>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_v;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = GUIClip_Unclip_m366A06CFFCA7A1637077B9EBD32DEA899807A29E(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 98441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D InternalEngineBridge_GetGUIClipTopMostRect_mBBC6097FFBA3285ECB7481A26AB4C99AA42973F4 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:41>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0;
 		L_0 = GUIClip_get_topmostRect_m5DA090A1198343D8C10418E025A72AE1E3F49041(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 98442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D InternalEngineBridge_GetGUIClipTopRect_m0C6313F56EEBC59EFC622F360FBA67BB3F546ABF (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:46>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0;
 		L_0 = GUIClip_GetTopRect_mE4C186DAF9C93612107FFEBFA8BAD2E800C208D1(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 98443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D InternalEngineBridge_GetGUIClipVisibleRect_mD15733C522038DA0EB76CFED307EC365867FCD3E (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:51>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0;
 		L_0 = GUIClip_get_visibleRect_m93F10FF2376C3BBBF3562A67DD7E207240D2F611(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 98444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InternalEngineBridge_IsGPUSkinningEnabled_mC125F8C7E7AF81264A3280808241E4487BC4C729 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:56>
 		bool L_0;
 		L_0 = SpriteRendererDataAccessExtensions_IsGPUSkinningEnabled_m5F44883B46BCB4124C90F0D168ED64681E08C1F4(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 98445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InternalEngineBridge_IsSRPBatchingEnabled_m44042937D5CE1B3EED74EE93E8F664D385707F2F (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_spriteRenderer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:61>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_0 = ___0_spriteRenderer;
 		bool L_1;
 		L_1 = SpriteRendererDataAccessExtensions_IsSRPBatchingEnabled_mA630EB5A5E332F0FC420DD1B701EE7E5DB8F2013(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 98446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetBatchDeformableBufferAndLocalAABBArray_mE474FF62DD89223FCCC68A8DFFBA61935B3229A3 (SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* ___0_spriteRenderers, NativeArray_1_t170B62D6C147DD05888D56F029D4D828DF487EC9 ___1_buffers, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___2_bufferSizes, NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 ___3_bounds, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:66>
 		SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_0 = ___0_spriteRenderers;
 		NativeArray_1_t170B62D6C147DD05888D56F029D4D828DF487EC9 L_1 = ___1_buffers;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_2 = ___2_bufferSizes;
 		NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 L_3 = ___3_bounds;
 		SpriteRendererDataAccessExtensions_SetBatchDeformableBufferAndLocalAABBArray_mAFC805600B21985D7497C5F0C172E5601F04903D(L_0, L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:67>
 		return;
 	}
 }
-// Method Definition Index: 98447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_SetBatchBoneTransformsAABBArray_m9B4A4BB2BEC170611C73E39B840F424714A71FD1 (SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* ___0_spriteRenderers, NativeArray_1_t170B62D6C147DD05888D56F029D4D828DF487EC9 ___1_buffers, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___2_bufferSizes, NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 ___3_bounds, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:71>
 		SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_0 = ___0_spriteRenderers;
 		NativeArray_1_t170B62D6C147DD05888D56F029D4D828DF487EC9 L_1 = ___1_buffers;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_2 = ___2_bufferSizes;
 		NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 L_3 = ___3_bounds;
 		SpriteRendererDataAccessExtensions_SetBoneTransformsArray_mE5A944273985FA2B25730C203A5B499441CA57ED(L_0, L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 98448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InternalEngineBridge_ConvertFloatToInt_mE74F74479983A239EE750CAF78760F79F6717F44 (float ___0_f, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:106>
 		float L_0 = ___0_f;
 		int32_t L_1;
 		L_1 = DiscreteEvaluationAttributeUtilities_ConvertFloatToDiscreteInt_mADD1EB91441A214F69458BFF45F86E77D11A340C(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 98449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InternalEngineBridge_ConvertIntToFloat_mB38ED35A3CD802442791415694C3E8C7E86E8148 (int32_t ___0_i, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:111>
 		int32_t L_0 = ___0_i;
 		float L_1;
 		L_1 = DiscreteEvaluationAttributeUtilities_ConvertDiscreteIntToFloat_m6A22CA1A2232C185F6E10865530FFEDA68E28D7F(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 98450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEngineBridge_MarkDirty_mACDE6E198BE33C863777F878F4F166F8B1D0CB9D (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:116>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = ___0_obj;
 		NullCheck(L_0);
 		Object_MarkDirty_mDD84118E8E823F03DFAE1CEEDB7D6E003FAB78E8(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/InternalBridge/InternalEngineBridge.cs:117>
 		return;
 	}
 }

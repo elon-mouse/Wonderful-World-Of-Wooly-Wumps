@@ -110,7 +110,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 98632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentPlayer_ReloadLatestTagsOnEnterPlaymode_mE780AB0F8B1693982575A991C87FB3689BDBDFCD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -126,7 +125,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentPlayer_ReloadLatestTagsOnEnterPla
 		return;
 	}
 }
-// Method Definition Index: 98633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentPlayer__cctor_m11DAAC2E9F23318619F5E7FB30BFC904BF4E4E26 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

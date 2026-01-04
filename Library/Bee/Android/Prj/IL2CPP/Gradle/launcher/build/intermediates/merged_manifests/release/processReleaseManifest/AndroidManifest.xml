@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.DefaultCompany.Myproject"
+    package="com.elonmouse.woolywumpus"
     android:installLocation="preferExternal"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="0.1.1" >
 
     <uses-sdk
         android:minSdkVersion="25"
@@ -44,10 +44,10 @@
     </queries>
 
     <permission
-        android:name="com.DefaultCompany.Myproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.elonmouse.woolywumpus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.DefaultCompany.Myproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <uses-permission android:name="com.elonmouse.woolywumpus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -57,7 +57,8 @@
         android:enableOnBackInvokedCallback="false"
         android:extractNativeLibs="true"
         android:icon="@mipmap/app_icon"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon_round" >
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />
@@ -91,7 +92,7 @@
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
             android:resizeableActivity="true"
-            android:screenOrientation="fullUser"
+            android:screenOrientation="userLandscape"
             android:theme="@style/BaseUnityGameActivityTheme" >
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -145,7 +146,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.DefaultCompany.Myproject.androidx-startup"
+            android:authorities="com.elonmouse.woolywumpus.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

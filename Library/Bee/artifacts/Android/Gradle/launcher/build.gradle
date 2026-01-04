@@ -8,7 +8,7 @@ dependencies {
 }
 
 android {
-    namespace "com.DefaultCompany.Myproject"
+    namespace "com.elonmouse.woolywumpus"
     ndkPath "/Applications/Unity/Hub/Editor/6000.3.2f1/PlaybackEngines/AndroidPlayer/NDK"
     ndkVersion "27.2.12479018"
     compileSdk 36
@@ -20,8 +20,8 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.DefaultCompany.Myproject"
-        versionName "1.0"
+        applicationId "com.elonmouse.woolywumpus"
+        versionName "0.1.1"
         minSdk 25
         targetSdk 36
         versionCode 1
@@ -47,19 +47,41 @@ android {
         }
     }
 
+    signingConfigs {
+        release {
+            storeFile file('/Users/arman/Library/Mobile Documents/com~apple~CloudDocs/Documents/user.keystore')
+            storePassword 'BlueMouse'
+            keyAlias 'wooly-wumpus'
+            keyPassword 'BlueMouse'
+        }
+    }
+
     buildTypes {
         debug {
             minifyEnabled = false
             proguardFiles getDefaultProguardFile('proguard-android.txt')
             jniDebuggable = true
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
         }
 
         release {
             minifyEnabled = false
             proguardFiles getDefaultProguardFile('proguard-android.txt')
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
         }
+    }
+
+    androidComponents {
+        onVariants(selector().all(), { variant ->
+            variant.bundleConfig.addMetadataFile(
+                "com.unity",
+                project.layout.file(project.providers.provider { new File("dependencies.pb") })
+            )
+            variant.bundleConfig.addMetadataFile(
+                "com.unity",
+                project.layout.file(project.providers.provider { new File("app-metadata.properties") })
+            )
+        })
     }
 
     bundle {

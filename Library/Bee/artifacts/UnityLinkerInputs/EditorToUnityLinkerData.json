@@ -180,6 +180,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Terresquall.VirtualJoystick",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioManager",
             "fullManagedTypeName": "UnityEditor.AudioManager",
@@ -235,13 +242,6 @@
             "nativeClass": "TimeManager",
             "fullManagedTypeName": "UnityEditor.TimeManager",
             "moduleName": "Core",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "UnityConnectSettings",
-            "fullManagedTypeName": "UnityEditor.UnityConnectSettings",
-            "moduleName": "UnityConnect",
             "usedInScenes": []
         },
         {
@@ -396,20 +396,6 @@
             "managedAssemblyName": "Unity.InputSystem.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.InputSystem.InputSystemObject",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.InputSystem.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.InputSystem.OnScreen.OnScreenButton",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.InputSystem.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.InputSystem.OnScreen.OnScreenStick",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1088,6 +1074,13 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.ScrollRect",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Shadow",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -3811,13 +3804,15 @@
         }
     ],
     "forceIncludeModules": [
-        "Insights",
         "PhysicsBackendPhysX"
     ],
     "forceExcludeModules": [
         "AMD",
+        "ClusterInput",
+        "ClusterRenderer",
         "Hierarchy",
-        "NVIDIA"
+        "NVIDIA",
+        "VirtualTexturing"
     ],
     "dynamicModuleDependencies": []
 }

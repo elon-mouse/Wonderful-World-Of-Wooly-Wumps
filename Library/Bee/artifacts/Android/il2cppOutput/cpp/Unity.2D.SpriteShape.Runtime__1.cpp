@@ -1168,7 +1168,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92004
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m3B0AC2339A8DE4BC31CEDD5BADA65B9D7949A349 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1185,7 +1184,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m3B0AC2339A8DE4BC31CEDD5B
 		return;
 	}
 }
-// Method Definition Index: 92005
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mA91FE5EA2C14E43491278E311B2F74B7478EF999 (U3CU3Ec_tBCE2556A62FBB2630B0C191C01319B1FBE992F74* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1193,20 +1191,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mA91FE5EA2C14E43491278E311
 		return;
 	}
 }
-// Method Definition Index: 92006
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t U3CU3Ec_U3CTessellateContourMainThreadU3Eb__155_0_m4DC5973A9C496EEA6F7E0098F7A5D14133CF8FA8 (U3CU3Ec_tBCE2556A62FBB2630B0C191C01319B1FBE992F74* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1311>
 		int32_t L_0 = ___0_i;
 		return (uint16_t)((int32_t)(uint16_t)L_0);
 	}
 }
-// Method Definition Index: 92007
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec_U3CTessellateContourMainThreadU3Eb__155_1_mF10AA4653D6AE7C5ECCE75B6EE424F6A82D6B37C (U3CU3Ec_tBCE2556A62FBB2630B0C191C01319B1FBE992F74* __this, ContourVertex_tCF411C2A25CB1E379D7566058ACD30AE23E7FC66 ___0_v, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1312>
 		ContourVertex_tCF411C2A25CB1E379D7566058ACD30AE23E7FC66 L_0 = ___0_v;
 		Vec3_t2DC07E9249C572CF68A4D54873B4038A68B77E74 L_1 = L_0.___Position;
 		float L_2 = L_1.___X;
@@ -1255,7 +1249,6 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_UTessellator_0000017FU24PostfixBurs
 	il2cppPInvokeFunc(___0_geom, ___1_maxCount, ___2_tessPoints, ___3_tessPointCount, ___4_indices, ___5_iCount, ___6_vertices, ___7_stride, ___8_vCount, ___9_label);
 
 }
-// Method Definition Index: 92008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24PostfixBurstDelegate__ctor_m7D82A379E92F612522917026D1FBB234A0299719 (UTessellator_0000017FU24PostfixBurstDelegate_tDF79A7EB1C33923D599FF1D39F29EDFDEC4E47BA* __this, RuntimeObject* ___0_p, intptr_t ___1_p, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_p);
@@ -1292,13 +1285,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24PostfixBurstDele
 	}
 	__this->___extra_arg = (intptr_t)&UTessellator_0000017FU24PostfixBurstDelegate_Invoke_m3FE651BD796903A59B0486C44F86A6101BB31024_Multicast;
 }
-// Method Definition Index: 92009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24PostfixBurstDelegate_Invoke_m3FE651BD796903A59B0486C44F86A6101BB31024 (UTessellator_0000017FU24PostfixBurstDelegate_tDF79A7EB1C33923D599FF1D39F29EDFDEC4E47BA* __this, SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* ___0_geom, int32_t ___1_maxCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___2_tessPoints, int32_t ___3_tessPointCount, uint16_t* ___4_indices, int32_t* ___5_iCount, uint8_t* ___6_vertices, int32_t ___7_stride, int32_t* ___8_vCount, int32_t ___9_label, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5*, int32_t, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*, int32_t, uint16_t*, int32_t*, uint8_t*, int32_t, int32_t*, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_geom, ___1_maxCount, ___2_tessPoints, ___3_tessPointCount, ___4_indices, ___5_iCount, ___6_vertices, ___7_stride, ___8_vCount, ___9_label, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UTessellator_0000017FU24PostfixBurstDelegate_BeginInvoke_m098909B481B8513DBEABBFAF8389B36B3B207D98 (UTessellator_0000017FU24PostfixBurstDelegate_tDF79A7EB1C33923D599FF1D39F29EDFDEC4E47BA* __this, SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* ___0_geom, int32_t ___1_maxCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___2_tessPoints, int32_t ___3_tessPointCount, uint16_t* ___4_indices, int32_t* ___5_iCount, uint8_t* ___6_vertices, int32_t ___7_stride, int32_t* ___8_vCount, int32_t ___9_label, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___10_p, RuntimeObject* ___11_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1321,7 +1312,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UTessellator_0000017FU24Postfi
 	__d_args[9] = Box(Allocator_t996642592271AAD9EE688F142741D512C07B5824_il2cpp_TypeInfo_var, &___9_label);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___10_p, (RuntimeObject*)___11_p);
 }
-// Method Definition Index: 92011
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24PostfixBurstDelegate_EndInvoke_m0CA934E4E8F4AF159D45C6766236E3C036AA0304 (UTessellator_0000017FU24PostfixBurstDelegate_tDF79A7EB1C33923D599FF1D39F29EDFDEC4E47BA* __this, RuntimeObject* ___0_p, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_p, 0);
@@ -1334,7 +1324,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24PostfixBurstDele
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92012
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24BurstDirectCall_GetFunctionPointerDiscard_m674170764EDF0A0753BD85F5B4326892F27ABA44 (intptr_t* ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1377,7 +1366,6 @@ IL_002a:
 		return;
 	}
 }
-// Method Definition Index: 92013
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t UTessellator_0000017FU24BurstDirectCall_GetFunctionPointer_m5DDBAB15141B65F9C34F7A02735B490B7CB79DFB (const RuntimeMethod* method) 
 {
 	intptr_t V_0;
@@ -1389,7 +1377,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t UTessellator_0000017FU24BurstDirectC
 		return L_0;
 	}
 }
-// Method Definition Index: 92014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24BurstDirectCall_Invoke_mA24AF835EA088D43CAC380DDCAB35C8BD81A688C (SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* ___0_geom, int32_t ___1_maxCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___2_tessPoints, int32_t ___3_tessPointCount, uint16_t* ___4_indices, int32_t* ___5_iCount, uint8_t* ___6_vertices, int32_t ___7_stride, int32_t* ___8_vCount, int32_t ___9_label, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1460,17 +1447,14 @@ IL_002d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeGeometryCreator_GetVersion_m44860C0EE661F0B0B7D145D084BA7D5CE6C7ACA8 (SpriteShapeGeometryCreator_t7A84B10A6429A625610D783C12A86ED5F1C515C4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGeometryCreator.cs:39>
 		int32_t L_0;
 		L_0 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(__this, NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 92018
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeGeometryCreator__ctor_m11995DD5FE4D69A420FABBD8AE3DB243E9D4EF7B (SpriteShapeGeometryCreator_t7A84B10A6429A625610D783C12A86ED5F1C515C4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1486,17 +1470,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeGeometryCreator__ctor_m11995D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeGeometryModifier_GetVersion_m279A107B00A417E5058A6456CEAA750C66C88D89 (SpriteShapeGeometryModifier_tBCAFA8CB38E611DA5EB0D1F2E6DD67762302369F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGeometryModifier.cs:33>
 		int32_t L_0;
 		L_0 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(__this, NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 92021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeGeometryModifier__ctor_mC8B2D08FC71266F54041FAD12592B2009883C48E (SpriteShapeGeometryModifier_tBCAFA8CB38E611DA5EB0D1F2E6DD67762302369F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1520,128 +1501,97 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeGeometryModifier__ctor_mC8B2D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_get_setNormal_mDF4F4E07D5CD4B8A7D5A3B1A280BB21FBD8A0567 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:61>
 		bool L_0 = __this->___m_SetNormal;
 		return L_0;
 	}
 }
-// Method Definition Index: 92023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_setNormal_mC372153584297F251B6C0010110900584F0C7FC4 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:62>
 		bool L_0 = ___0_value;
 		__this->___m_SetNormal = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:62>
 		return;
 	}
 }
-// Method Definition Index: 92024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeObjectPlacement_get_mode_mC07CCEC65A4CF7075CE09754A2B503D3926E428E (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:70>
 		int32_t L_0 = __this->___m_Mode;
 		return L_0;
 	}
 }
-// Method Definition Index: 92025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_mode_m4F946059DDF7E8EEBC818BE0ECCE59C3A7193F2F (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:71>
 		int32_t L_0 = ___0_value;
 		__this->___m_Mode = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:71>
 		return;
 	}
 }
-// Method Definition Index: 92026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpriteShapeObjectPlacement_get_ratio_m1AD37D2E67595975F88822C70707DF5EFB8B5F3B (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:79>
 		float L_0 = __this->___m_Ratio;
 		return L_0;
 	}
 }
-// Method Definition Index: 92027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_ratio_mED658B93A3A246178CCB30DEC877EA54DA1842EC (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:80>
 		float L_0 = ___0_value;
 		__this->___m_Ratio = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:80>
 		return;
 	}
 }
-// Method Definition Index: 92028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:88>
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_0 = __this->___m_SpriteShapeController;
 		return L_0;
 	}
 }
-// Method Definition Index: 92029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_spriteShapeController_m20610E17F7CF90F7DA016ED8D7F3E335AACE7F01 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:89>
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_0 = ___0_value;
 		__this->___m_SpriteShapeController = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SpriteShapeController), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:89>
 		return;
 	}
 }
-// Method Definition Index: 92030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeObjectPlacement_get_startPoint_m1C539FDCDDB00A0918771704D55D113549A08D12 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:97>
 		int32_t L_0 = __this->___m_StartPoint;
 		return L_0;
 	}
 }
-// Method Definition Index: 92031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_startPoint_m2C880BECFF67C3478402FF2A88C8F5F5E2E60CA6 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:98>
 		int32_t L_0 = ___0_value;
 		__this->___m_StartPoint = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:98>
 		return;
 	}
 }
-// Method Definition Index: 92032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeObjectPlacement_get_endPoint_m1183FA74B1AF9A9806EC708DC9AB9FC183983335 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:106>
 		int32_t L_0 = __this->___m_EndPoint;
 		return L_0;
 	}
 }
-// Method Definition Index: 92033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_endPoint_m62B77B64D9F7332D75A19F768B1CFF1FB919C040 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:107>
 		int32_t L_0 = ___0_value;
 		__this->___m_EndPoint = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:107>
 		return;
 	}
 }
-// Method Definition Index: 92034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_PlaceObjectOnHashChange_m71263E4A1E32BA74D19300AC80B4D9A544441692 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1670,7 +1620,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_PlaceObjectOn
 	int32_t G_B5_0 = 0;
 	int32_t G_B5_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:112>
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_0;
 		L_0 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -1682,22 +1631,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_PlaceObjectOn
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:113>
 		return (bool)0;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:117>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:118>
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_2;
 		L_2 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_inline(__this, NULL);
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = SpriteShapeController_get_splineHashCode_m5FD24A66B300EA0F8E1A1B0E5100ED3D0AA8FB98_inline(L_2, NULL);
 		V_1 = ((int32_t)(((int32_t)-2128831035)^L_3));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:119>
 		int32_t L_4 = V_1;
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_5;
 		L_5 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_inline(__this, NULL);
@@ -1705,7 +1650,6 @@ IL_0010:
 		int32_t L_6;
 		L_6 = SpriteShapeController_get_spriteShapeHashCode_mF2D6ABCAF590DFC5A0461E61A8B78356FD2FB520_inline(L_5, NULL);
 		V_1 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_4, ((int32_t)16777619)))^L_6));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:120>
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_7;
 		L_7 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_inline(__this, NULL);
 		NullCheck(L_7);
@@ -1715,7 +1659,6 @@ IL_0010:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 		L_9 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_8, NULL);
 		V_2 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:121>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
 		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_10);
@@ -1725,7 +1668,6 @@ IL_0010:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_11, NULL);
 		V_3 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:122>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
 		L_13 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_13);
@@ -1735,7 +1677,6 @@ IL_0010:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15;
 		L_15 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_14, NULL);
 		V_4 = L_15;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:123>
 		int32_t L_16 = V_1;
 		bool L_17;
 		L_17 = SpriteShapeObjectPlacement_get_setNormal_mDF4F4E07D5CD4B8A7D5A3B1A280BB21FBD8A0567_inline(__this, NULL);
@@ -1761,17 +1702,14 @@ IL_007e:
 IL_007f:
 	{
 		V_1 = ((int32_t)(G_B5_1^G_B5_0));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:124>
 		int32_t L_18 = V_1;
 		int32_t L_19;
 		L_19 = SpriteShapeObjectPlacement_get_startPoint_m1C539FDCDDB00A0918771704D55D113549A08D12_inline(__this, NULL);
 		V_1 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_18, ((int32_t)16777619)))^L_19));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:125>
 		int32_t L_20 = V_1;
 		int32_t L_21;
 		L_21 = SpriteShapeObjectPlacement_get_endPoint_m1183FA74B1AF9A9806EC708DC9AB9FC183983335_inline(__this, NULL);
 		V_1 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_20, ((int32_t)16777619)))^L_21));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:126>
 		int32_t L_22 = V_1;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23 = V_2;
 		NullCheck(L_23);
@@ -1781,7 +1719,6 @@ IL_007f:
 		int32_t L_25;
 		L_25 = Vector3_GetHashCode_mB08429DC931A85BD29CE11B9ABC77DE7E0E46327_inline((&V_5), NULL);
 		V_1 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_22, ((int32_t)16777619)))^L_25));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:127>
 		int32_t L_26 = V_1;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27 = V_2;
 		NullCheck(L_27);
@@ -1795,7 +1732,6 @@ IL_007f:
 
 IL_00db:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:132>
 		int32_t L_30 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = V_3;
 		float L_32 = L_31.___x;
@@ -1806,7 +1742,6 @@ IL_00db:
 		int32_t L_34;
 		L_34 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_8), NULL);
 		V_7 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_30, ((int32_t)16777619)))^L_34));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:133>
 		int32_t L_35 = V_7;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36 = V_3;
 		float L_37 = L_36.___y;
@@ -1816,7 +1751,6 @@ IL_00db:
 		int32_t L_39;
 		L_39 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_8), NULL);
 		V_7 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_35, ((int32_t)16777619)))^L_39));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:134>
 		int32_t L_40 = V_7;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = V_3;
 		float L_42 = L_41.___z;
@@ -1826,7 +1760,6 @@ IL_00db:
 		int32_t L_44;
 		L_44 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_8), NULL);
 		V_7 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_40, ((int32_t)16777619)))^L_44));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:135>
 		int32_t L_45 = V_7;
 		float L_46;
 		L_46 = SpriteShapeObjectPlacement_get_ratio_m1AD37D2E67595975F88822C70707DF5EFB8B5F3B_inline(__this, NULL);
@@ -1836,7 +1769,6 @@ IL_00db:
 		int32_t L_48;
 		L_48 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_8), NULL);
 		V_7 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_45, ((int32_t)16777619)))^L_48));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:136>
 		int32_t L_49 = V_7;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_50 = V_4;
 		float L_51 = L_50.___x;
@@ -1846,7 +1778,6 @@ IL_00db:
 		int32_t L_53;
 		L_53 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_8), NULL);
 		V_7 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_49, ((int32_t)16777619)))^L_53));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:137>
 		int32_t L_54 = V_7;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_55 = V_4;
 		float L_56 = L_55.___y;
@@ -1856,7 +1787,6 @@ IL_00db:
 		int32_t L_58;
 		L_58 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_8), NULL);
 		V_7 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_54, ((int32_t)16777619)))^L_58));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:138>
 		int32_t L_59 = V_7;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60 = V_4;
 		float L_61 = L_60.___z;
@@ -1866,7 +1796,6 @@ IL_00db:
 		int32_t L_63;
 		L_63 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_8), NULL);
 		V_7 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_59, ((int32_t)16777619)))^L_63));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:139>
 		int32_t L_64 = V_7;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_65 = V_4;
 		float L_66 = L_65.___w;
@@ -1876,7 +1805,6 @@ IL_00db:
 		int32_t L_68;
 		L_68 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_8), NULL);
 		V_7 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_64, ((int32_t)16777619)))^L_68));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:141>
 		int32_t L_69 = __this->___m_ActiveHashCode;
 		int32_t L_70 = V_7;
 		if ((((int32_t)L_69) == ((int32_t)L_70)))
@@ -1885,20 +1813,16 @@ IL_00db:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:143>
 		bool L_71;
 		L_71 = SpriteShapeObjectPlacement_Place_m67C08775427481BF5175EF5BA5455F6B837140E9(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:144>
 		int32_t L_72 = V_7;
 		__this->___m_ActiveHashCode = L_72;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:145>
 		if (!L_71)
 		{
 			goto IL_0237;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:152>
 		int32_t L_73 = V_0;
 		int32_t L_74 = L_73;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_74, 1));
@@ -1912,22 +1836,18 @@ IL_00db:
 
 IL_0237:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:155>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 92035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpriteShapeObjectPlacement_Angle_m133A7031202A395E8963E07B72900C9559763B6E (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:160>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_b;
 		float L_2;
 		L_2 = Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:161>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
 		float L_4 = L_3.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___1_b;
@@ -1936,14 +1856,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpriteShapeObjectPlacement_Angle_m133A7
 		float L_8 = L_7.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_a;
 		float L_10 = L_9.___y;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:162>
 		float L_11 = V_0;
 		float L_12;
 		L_12 = atan2f(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_4, L_6)), ((float)il2cpp_codegen_multiply(L_8, L_10)))), L_11);
 		return ((float)il2cpp_codegen_multiply(L_12, (57.2957802f)));
 	}
 }
-// Method Definition Index: 92036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpriteShapeObjectPlacement_GetDistance_m26F046CB844C933DD5EE6A5D744A857B8FB093FB (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, float ___0_dist, int32_t ___1_spoint, int32_t ___2_epoint, int32_t* ___3_start, int32_t* ___4_end, float* ___5_r, NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D ___6_shapePoints, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1984,26 +1902,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpriteShapeObjectPlacement_GetDistance_
 	int32_t G_B8_0 = 0;
 	int32_t* G_B8_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:166>
 		int32_t* L_0 = ___3_start;
 		*((int32_t*)L_0) = (int32_t)(-1);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:167>
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_1;
 		L_1 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_inline(__this, NULL);
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = SpriteShapeController_get_splineDetail_mB03C316DE81143E38A30C15C339D36DAD7C56E33_inline(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:168>
 		V_1 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:169>
 		int32_t L_3 = V_0;
 		V_2 = ((float)((int32_t)il2cpp_codegen_subtract(L_3, 1)));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:170>
 		int32_t L_4;
 		L_4 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___6_shapePoints))->___m_Length);
 		V_3 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:172>
 		int32_t L_5 = ___1_spoint;
 		V_4 = L_5;
 		goto IL_011b;
@@ -2011,10 +1923,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpriteShapeObjectPlacement_GetDistance_
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:174>
 		int32_t L_6 = V_4;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_6, 1));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:175>
 		int32_t L_7 = V_5;
 		int32_t L_8 = V_3;
 		if ((!(((uint32_t)L_7) == ((uint32_t)L_8))))
@@ -2023,54 +1933,42 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:175>
 		V_5 = 0;
 	}
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:176>
 		int32_t L_9 = V_4;
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_10;
 		L_10 = IL2CPP_NATIVEARRAY_GET_ITEM(ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5, ((&___6_shapePoints))->___m_Buffer, L_9);
 		V_6 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:177>
 		int32_t L_11 = V_5;
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_12;
 		L_12 = IL2CPP_NATIVEARRAY_GET_ITEM(ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5, ((&___6_shapePoints))->___m_Buffer, L_11);
 		V_7 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:179>
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_13 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = L_13.___position;
 		V_8 = L_14;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:180>
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_15 = V_7;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = L_15.___position;
 		V_9 = L_16;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:181>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_8;
 		V_10 = L_17;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:182>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_8;
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_19 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = L_19.___rightTangent;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
 		L_21 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_18, L_20, NULL);
 		V_11 = L_21;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:183>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_9;
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_23 = V_7;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = L_23.___leftTangent;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
 		L_25 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_22, L_24, NULL);
 		V_12 = L_25;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:184>
 		V_13 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:185>
 		V_14 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:186>
 		V_15 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:188>
 		float L_26 = ___0_dist;
 		if ((((float)L_26) == ((float)(0.0f))))
 		{
@@ -2086,11 +1984,9 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:190>
 		int32_t* L_29 = ___3_start;
 		int32_t L_30 = V_4;
 		*((int32_t*)L_29) = (int32_t)L_30;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:191>
 		int32_t* L_31 = ___4_end;
 		int32_t L_32 = V_4;
 		int32_t L_33 = V_3;
@@ -2117,27 +2013,22 @@ IL_00b6:
 IL_00b7:
 	{
 		*((int32_t*)G_B8_1) = (int32_t)G_B8_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:192>
 		float L_35 = V_1;
 		V_14 = L_35;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:193>
 		V_15 = (bool)1;
 	}
 
 IL_00be:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:196>
 		V_16 = 1;
 		goto IL_00fe;
 	}
 
 IL_00c3:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:198>
 		int32_t L_36 = V_16;
 		float L_37 = V_2;
 		V_17 = ((float)(((float)L_36)/L_37));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:199>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = V_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_9;
@@ -2146,7 +2037,6 @@ IL_00c3:
 		il2cpp_codegen_runtime_class_init_inline(BezierUtility_t450F38689B5013A23432043C5922D64496EF5E60_il2cpp_TypeInfo_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
 		L_43 = BezierUtility_BezierPoint_m58FBF49282434261BFE28A39F3C891889F6FAF54(L_38, L_39, L_40, L_41, L_42, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:200>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_44;
 		L_44 = float3_op_Implicit_mE1831A3AC179B7EB3236F8202EC8DD5CE05376AB(L_43, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = V_10;
@@ -2155,22 +2045,18 @@ IL_00c3:
 		float L_47;
 		L_47 = math_distance_m516495927BCF37E20FFA3E99C821062D329DFFF8_inline(L_44, L_46, NULL);
 		V_18 = L_47;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:201>
 		float L_48 = V_13;
 		float L_49 = V_18;
 		V_13 = ((float)il2cpp_codegen_add(L_48, L_49));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:202>
 		float L_50 = V_1;
 		float L_51 = V_18;
 		V_1 = ((float)il2cpp_codegen_add(L_50, L_51));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:196>
 		int32_t L_52 = V_16;
 		V_16 = ((int32_t)il2cpp_codegen_add(L_52, 1));
 	}
 
 IL_00fe:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:196>
 		int32_t L_53 = V_16;
 		int32_t L_54 = V_0;
 		if ((((int32_t)L_53) < ((int32_t)L_54)))
@@ -2179,7 +2065,6 @@ IL_00fe:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:205>
 		bool L_55 = V_15;
 		if (!L_55)
 		{
@@ -2187,11 +2072,9 @@ IL_00fe:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:207>
 		float L_56 = ___0_dist;
 		float L_57 = V_14;
 		V_19 = ((float)il2cpp_codegen_subtract(L_56, L_57));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:208>
 		float* L_58 = ___5_r;
 		float L_59 = V_19;
 		float L_60 = V_13;
@@ -2200,14 +2083,12 @@ IL_00fe:
 
 IL_0115:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:172>
 		int32_t L_61 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_61, 1));
 	}
 
 IL_011b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:172>
 		int32_t L_62 = V_4;
 		int32_t L_63 = ___2_epoint;
 		if ((((int32_t)L_62) < ((int32_t)L_63)))
@@ -2216,12 +2097,10 @@ IL_011b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:211>
 		float L_64 = V_1;
 		return L_64;
 	}
 }
-// Method Definition Index: 92037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 SpriteShapeObjectPlacement_PlaceObjectInternal_m3936E149DD314A1669C8C3CA8652C68D8350361C (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, int32_t ___0_sp, int32_t ___1_ep, float ___2_t, NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D ___3_shapePoints, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2264,24 +2143,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_17;
 	memset((&V_17), 0, sizeof(V_17));
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:216>
 		int32_t L_0 = ___1_ep;
 		int32_t L_1;
 		L_1 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___3_shapePoints))->___m_Length);
 		___1_ep = ((int32_t)(L_0%L_1));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:217>
 		int32_t L_2 = ___0_sp;
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_ITEM(ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5, ((&___3_shapePoints))->___m_Buffer, L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = L_3.___position;
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:218>
 		int32_t L_5 = ___1_ep;
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_ITEM(ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5, ((&___3_shapePoints))->___m_Buffer, L_5);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = L_6.___position;
 		V_1 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:219>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_0;
 		int32_t L_9 = ___0_sp;
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_10;
@@ -2290,7 +2165,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_8, L_11, NULL);
 		V_2 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:220>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_1;
 		int32_t L_14 = ___1_ep;
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_15;
@@ -2299,7 +2173,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
 		L_17 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_13, L_16, NULL);
 		V_3 = L_17;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:221>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_1;
@@ -2309,13 +2182,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
 		L_23 = BezierUtility_BezierPoint_m58FBF49282434261BFE28A39F3C891889F6FAF54(L_18, L_19, L_20, L_21, L_22, NULL);
 		V_4 = L_23;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:222>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_4;
 		float L_25 = L_24.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_4;
 		float L_27 = L_26.___y;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_5), L_25, L_27, (0.0f), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:223>
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_28;
 		L_28 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_inline(__this, NULL);
 		NullCheck(L_28);
@@ -2325,25 +2196,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_30;
 		L_30 = Transform_get_localToWorldMatrix_m5D35188766856338DD21DE756F42277C21719E6D(L_29, NULL);
 		V_6 = L_30;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:224>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31;
 		L_31 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_31);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32;
 		L_32 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_31, NULL);
 		V_7 = L_32;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:225>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
 		L_34 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_6), L_33, NULL);
 		V_8 = L_34;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:226>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = V_7;
 		NullCheck(L_35);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
 		L_36 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_35, NULL);
 		V_9 = L_36;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:227>
 		int32_t L_37 = __this->___m_Mode;
 		if (L_37)
 		{
@@ -2351,7 +2218,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:228>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_8;
 		float L_39 = L_38.___y;
 		(&V_9)->___y = L_39;
@@ -2360,19 +2226,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_00c0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:230>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_8;
 		V_9 = L_40;
 	}
 
 IL_00c4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:231>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_41 = V_7;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_9;
 		NullCheck(L_41);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_41, L_42, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:233>
 		bool L_43;
 		L_43 = SpriteShapeObjectPlacement_get_setNormal_mDF4F4E07D5CD4B8A7D5A3B1A280BB21FBD8A0567_inline(__this, NULL);
 		if (!L_43)
@@ -2381,12 +2244,10 @@ IL_00c4:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:235>
 		float L_44 = ___2_t;
 		float L_45;
 		L_45 = math_clamp_mB7233FC9D6C27522014C4E6D4E056D36CE82C97E_inline(L_44, (0.00200000009f), (0.998000026f), NULL);
 		V_10 = L_45;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:236>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48 = V_1;
@@ -2396,7 +2257,6 @@ IL_00c4:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
 		L_51 = BezierUtility_BezierPoint_m58FBF49282434261BFE28A39F3C891889F6FAF54(L_46, L_47, L_48, L_49, ((float)il2cpp_codegen_subtract(L_50, (0.00100000005f))), NULL);
 		V_11 = L_51;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:237>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54 = V_1;
@@ -2405,7 +2265,6 @@ IL_00c4:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57;
 		L_57 = BezierUtility_BezierPoint_m58FBF49282434261BFE28A39F3C891889F6FAF54(L_52, L_53, L_54, L_55, L_56, NULL);
 		V_4 = L_57;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:238>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60 = V_1;
@@ -2414,7 +2273,6 @@ IL_00c4:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63;
 		L_63 = BezierUtility_BezierPoint_m58FBF49282434261BFE28A39F3C891889F6FAF54(L_58, L_59, L_60, L_61, ((float)il2cpp_codegen_add(L_62, (0.00100000005f))), NULL);
 		V_12 = L_63;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:239>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_64 = V_11;
 		float L_65 = L_64.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_66 = V_11;
@@ -2434,7 +2292,6 @@ IL_00c4:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_75;
 		L_75 = Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline(L_74, NULL);
 		V_13 = L_75;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:240>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76 = V_12;
 		float L_77 = L_76.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_78 = V_12;
@@ -2454,23 +2311,19 @@ IL_00c4:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_87;
 		L_87 = Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline(L_86, NULL);
 		V_14 = L_87;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:241>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_88;
 		L_88 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89 = V_13;
 		il2cpp_codegen_runtime_class_init_inline(SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var);
 		float L_90;
 		L_90 = SpriteShapeObjectPlacement_Angle_m133A7031202A395E8963E07B72900C9559763B6E(L_88, L_89, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:242>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_91 = V_13;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_92 = V_14;
 		float L_93;
 		L_93 = SpriteShapeObjectPlacement_Angle_m133A7031202A395E8963E07B72900C9559763B6E(L_91, L_92, NULL);
 		V_15 = L_93;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:243>
 		float L_94 = V_15;
 		V_16 = ((float)il2cpp_codegen_add(L_90, ((float)il2cpp_codegen_multiply(L_94, (0.5f)))));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:244>
 		float L_95 = V_15;
 		if ((!(((float)L_95) > ((float)(0.0f)))))
 		{
@@ -2478,19 +2331,16 @@ IL_00c4:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:245>
 		float L_96 = V_16;
 		V_16 = ((float)il2cpp_codegen_add((180.0f), L_96));
 	}
 
 IL_01ca:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:246>
 		float L_97 = V_16;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_98;
 		L_98 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), (0.0f), L_97, NULL);
 		V_17 = L_98;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:247>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_99 = V_7;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_100;
 		L_100 = Matrix4x4_get_rotation_m7E2C29FCB2AAFAE4D7B4FBD3563E9EDB53F5A8BB_inline((&V_6), NULL);
@@ -2503,12 +2353,10 @@ IL_01ca:
 
 IL_01f2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:249>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_103 = V_9;
 		return L_103;
 	}
 }
-// Method Definition Index: 92038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 SpriteShapeObjectPlacement_PlaceObject_m7FB81E5C890FECC6A79C3A46C6BC326B2C9A4D5E (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, Spline_tD674213224F697425072FBF76AE3FD203AD2B818* ___0_spline, int32_t ___1_sp, int32_t ___2_ep, bool* ___3_run, const RuntimeMethod* method) 
 {
 	NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D V_0;
@@ -2519,14 +2367,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	float V_4 = 0.0f;
 	float V_5 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:254>
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_0;
 		L_0 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_inline(__this, NULL);
 		NullCheck(L_0);
 		NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D L_1;
 		L_1 = SpriteShapeController_GetShapeControlPoints_m4A0BF704DB4274546156AC4085353536541B30D5(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:255>
 		int32_t L_2 = ___1_sp;
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_0))->___m_Length);
@@ -2547,10 +2393,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:257>
 		bool* L_6 = ___3_run;
 		*((int8_t*)L_6) = (int8_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:258>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		return L_7;
@@ -2558,13 +2402,11 @@ IL_0020:
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:261>
 		float L_8;
 		L_8 = SpriteShapeObjectPlacement_get_ratio_m1AD37D2E67595975F88822C70707DF5EFB8B5F3B_inline(__this, NULL);
 		float L_9;
 		L_9 = math_clamp_mB7233FC9D6C27522014C4E6D4E056D36CE82C97E_inline(L_8, (9.99999975E-05f), (0.999899983f), NULL);
 		V_1 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:262>
 		int32_t L_10 = ___2_ep;
 		int32_t L_11 = ___1_sp;
 		if ((!(((uint32_t)((int32_t)il2cpp_codegen_subtract(L_10, L_11))) == ((uint32_t)1))))
@@ -2573,10 +2415,8 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:264>
 		bool* L_12 = ___3_run;
 		*((int8_t*)L_12) = (int8_t)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:265>
 		int32_t L_13 = ___1_sp;
 		int32_t L_14 = ___2_ep;
 		float L_15 = V_1;
@@ -2588,15 +2428,10 @@ IL_002a:
 
 IL_0055:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:269>
 		V_2 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:270>
 		V_3 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:271>
 		V_4 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:272>
 		V_5 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:273>
 		float L_18 = V_4;
 		int32_t L_19 = ___1_sp;
 		int32_t L_20 = ___2_ep;
@@ -2605,14 +2440,12 @@ IL_0055:
 		L_22 = SpriteShapeObjectPlacement_GetDistance_m26F046CB844C933DD5EE6A5D744A857B8FB093FB(__this, L_18, L_19, L_20, (&V_2), (&V_3), (&V_5), L_21, NULL);
 		float L_23 = V_1;
 		V_4 = ((float)il2cpp_codegen_multiply(L_22, L_23));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:274>
 		float L_24 = V_4;
 		int32_t L_25 = ___1_sp;
 		int32_t L_26 = ___2_ep;
 		NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D L_27 = V_0;
 		float L_28;
 		L_28 = SpriteShapeObjectPlacement_GetDistance_m26F046CB844C933DD5EE6A5D744A857B8FB093FB(__this, L_24, L_25, L_26, (&V_2), (&V_3), (&V_5), L_27, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:275>
 		int32_t L_29 = V_2;
 		if ((((int32_t)L_29) < ((int32_t)0)))
 		{
@@ -2620,10 +2453,8 @@ IL_0055:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:277>
 		bool* L_30 = ___3_run;
 		*((int8_t*)L_30) = (int8_t)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:278>
 		int32_t L_31 = V_2;
 		int32_t L_32 = V_3;
 		float L_33 = V_5;
@@ -2635,34 +2466,28 @@ IL_0055:
 
 IL_00a2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:281>
 		bool* L_36 = ___3_run;
 		*((int8_t*)L_36) = (int8_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:282>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
 		L_37 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		return L_37;
 	}
 }
-// Method Definition Index: 92039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeObjectPlacement_GetSplinePointCount_mF27D6D3AAE57EF8C5A3C0FDC91A341E3BA3EE117 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:287>
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_0;
 		L_0 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_inline(__this, NULL);
 		NullCheck(L_0);
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_1;
 		L_1 = SpriteShapeController_get_spline_m1266CB84F33024475FA4FC6C2F35E4E3E74AD6B9_inline(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:288>
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_2 = L_1;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = Spline_GetPointCount_m9A872A9A4C7CA81296EF70F93D48B8C47A5F7415(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:289>
 		NullCheck(L_2);
 		bool L_4;
 		L_4 = Spline_get_isOpenEnded_m09BD0EAEDB52B06A28C0D5718F63043791DC6861(L_2, NULL);
@@ -2686,12 +2511,10 @@ IL_001c:
 IL_001f:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:290>
 		int32_t L_7 = V_0;
 		return L_7;
 	}
 }
-// Method Definition Index: 92040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_Place_m67C08775427481BF5175EF5BA5455F6B837140E9 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2736,13 +2559,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_Place_m67C087
 	int32_t G_B16_0 = 0;
 	SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* G_B16_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:295>
 		int32_t L_0;
 		L_0 = SpriteShapeObjectPlacement_GetSplinePointCount_mF27D6D3AAE57EF8C5A3C0FDC91A341E3BA3EE117(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:296>
 		V_1 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:297>
 		int32_t L_1 = __this->___m_Mode;
 		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
 		{
@@ -2750,21 +2570,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_Place_m67C087
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:299>
 		int32_t L_2;
 		L_2 = SpriteShapeObjectPlacement_get_startPoint_m1C539FDCDDB00A0918771704D55D113549A08D12_inline(__this, NULL);
 		int32_t L_3 = V_0;
 		int32_t L_4;
 		L_4 = math_clamp_m9EABD008C8EAD9D150062ABE724D96FA2121EE1C_inline(L_2, 0, L_3, NULL);
 		V_3 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:300>
 		int32_t L_5;
 		L_5 = SpriteShapeObjectPlacement_get_endPoint_m1183FA74B1AF9A9806EC708DC9AB9FC183983335_inline(__this, NULL);
 		int32_t L_6 = V_0;
 		int32_t L_7;
 		L_7 = math_clamp_m9EABD008C8EAD9D150062ABE724D96FA2121EE1C_inline(L_5, 0, L_6, NULL);
 		V_4 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:301>
 		int32_t L_8 = V_3;
 		int32_t L_9 = V_4;
 		if ((((int32_t)L_8) < ((int32_t)L_9)))
@@ -2773,10 +2590,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_Place_m67C087
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:303>
 		int32_t L_10 = V_0;
 		SpriteShapeObjectPlacement_set_endPoint_m62B77B64D9F7332D75A19F768B1CFF1FB919C040_inline(__this, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:304>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
 		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -2785,7 +2600,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_Place_m67C087
 
 IL_004b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:306>
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_12;
 		L_12 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_inline(__this, NULL);
 		NullCheck(L_12);
@@ -2795,43 +2609,33 @@ IL_004b:
 		int32_t L_15 = V_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
 		L_16 = SpriteShapeObjectPlacement_PlaceObject_m7FB81E5C890FECC6A79C3A46C6BC326B2C9A4D5E(__this, L_13, L_14, L_15, (&V_1), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:307>
 		bool L_17 = V_1;
 		return L_17;
 	}
 
 IL_0064:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:310>
 		il2cpp_codegen_runtime_class_init_inline(SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var);
 		float L_18 = ((SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var))->___kMaxDistance;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:311>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
 		L_19 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_19);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
 		L_20 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_19, NULL);
 		V_2 = L_20;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:312>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
 		L_21 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:314>
 		V_5 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:314>
 		V_6 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:315>
 		V_7 = (100.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:315>
 		float L_22 = ((SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var))->___kMaxDistance;
 		V_8 = L_22;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:316>
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_23;
 		L_23 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_inline(__this, NULL);
 		NullCheck(L_23);
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_24;
 		L_24 = SpriteShapeController_get_spline_m1266CB84F33024475FA4FC6C2F35E4E3E74AD6B9_inline(L_23, NULL);
 		V_9 = L_24;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:317>
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_25;
 		L_25 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_inline(__this, NULL);
 		NullCheck(L_25);
@@ -2841,27 +2645,23 @@ IL_0064:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_27;
 		L_27 = Transform_get_localToWorldMatrix_m5D35188766856338DD21DE756F42277C21719E6D(L_26, NULL);
 		V_10 = L_27;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:318>
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_28 = V_9;
 		NullCheck(L_28);
 		int32_t L_29;
 		L_29 = Spline_GetPointCount_m9A872A9A4C7CA81296EF70F93D48B8C47A5F7415(L_28, NULL);
 		V_11 = L_29;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:320>
 		V_12 = 0;
 		goto IL_0158;
 	}
 
 IL_00c0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:322>
 		int32_t L_30 = V_12;
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_31 = V_9;
 		NullCheck(L_31);
 		int32_t L_32;
 		L_32 = Spline_GetPointCount_m9A872A9A4C7CA81296EF70F93D48B8C47A5F7415(L_31, NULL);
 		V_13 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_30, 1))%L_32));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:323>
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_33 = V_9;
 		int32_t L_34 = V_12;
 		NullCheck(L_33);
@@ -2870,7 +2670,6 @@ IL_00c0:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
 		L_36 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_10), L_35, NULL);
 		V_14 = L_36;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:324>
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_37 = V_9;
 		int32_t L_38 = V_13;
 		NullCheck(L_37);
@@ -2879,7 +2678,6 @@ IL_00c0:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
 		L_40 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_10), L_39, NULL);
 		V_15 = L_40;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:325>
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_41 = V_9;
 		int32_t L_42 = V_12;
 		NullCheck(L_41);
@@ -2889,7 +2687,6 @@ IL_00c0:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45;
 		L_45 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_43, L_44, NULL);
 		V_16 = L_45;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:326>
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_46 = V_9;
 		int32_t L_47 = V_13;
 		NullCheck(L_46);
@@ -2899,14 +2696,6 @@ IL_00c0:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50;
 		L_50 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_48, L_49, NULL);
 		V_17 = L_50;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:329>
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:330>
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:331>
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:332>
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:333>
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:334>
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:335>
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:336>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = V_14;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53 = V_15;
@@ -2915,7 +2704,6 @@ IL_00c0:
 		il2cpp_codegen_runtime_class_init_inline(BezierUtility_t450F38689B5013A23432043C5922D64496EF5E60_il2cpp_TypeInfo_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56;
 		L_56 = BezierUtility_ClosestPointOnCurve_m91458888AC7667493117C7BE8E339A404533656C(L_51, L_52, L_53, L_54, L_55, (9.99999975E-05f), (&V_18), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:337>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58;
 		L_58 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_56, L_57, NULL);
@@ -2923,7 +2711,6 @@ IL_00c0:
 		float L_59;
 		L_59 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_20), NULL);
 		V_19 = L_59;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:338>
 		float L_60 = V_19;
 		float L_61 = V_8;
 		if ((!(((float)L_60) < ((float)L_61))))
@@ -2932,30 +2719,24 @@ IL_00c0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:340>
 		int32_t L_62 = V_12;
 		V_5 = L_62;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:341>
 		int32_t L_63 = V_13;
 		V_6 = L_63;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:342>
 		float L_64 = V_18;
 		V_7 = L_64;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:343>
 		float L_65 = V_19;
 		V_8 = L_65;
 	}
 
 IL_0152:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:320>
 		int32_t L_66 = V_12;
 		V_12 = ((int32_t)il2cpp_codegen_add(L_66, 1));
 	}
 
 IL_0158:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:320>
 		int32_t L_67 = V_12;
 		int32_t L_68 = V_0;
 		if ((((int32_t)L_67) < ((int32_t)L_68)))
@@ -2964,7 +2745,6 @@ IL_0158:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:348>
 		int32_t L_69 = V_5;
 		if ((((int32_t)L_69) < ((int32_t)0)))
 		{
@@ -2995,10 +2775,8 @@ IL_0158:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:350>
 		int32_t L_75 = V_5;
 		SpriteShapeObjectPlacement_set_startPoint_m2C880BECFF67C3478402FF2A88C8F5F5E2E60CA6_inline(__this, L_75, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:351>
 		int32_t L_76 = V_6;
 		if (!L_76)
 		{
@@ -3025,10 +2803,8 @@ IL_018b:
 	{
 		NullCheck(G_B16_1);
 		SpriteShapeObjectPlacement_set_endPoint_m62B77B64D9F7332D75A19F768B1CFF1FB919C040_inline(G_B16_1, G_B16_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:352>
 		float L_79 = V_7;
 		SpriteShapeObjectPlacement_set_ratio_mED658B93A3A246178CCB30DEC877EA54DA1842EC_inline(__this, L_79, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:353>
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_80 = V_9;
 		int32_t L_81;
 		L_81 = SpriteShapeObjectPlacement_get_startPoint_m1C539FDCDDB00A0918771704D55D113549A08D12_inline(__this, NULL);
@@ -3041,48 +2817,36 @@ IL_018b:
 
 IL_01af:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:356>
 		bool L_84 = V_1;
 		return L_84;
 	}
 }
-// Method Definition Index: 92041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_Start_m31DF5A864CF990FAF9C0C1F1EAA899872848B0D8 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:361>
 		bool L_0;
 		L_0 = SpriteShapeObjectPlacement_PlaceObjectOnHashChange_m71263E4A1E32BA74D19300AC80B4D9A544441692(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:362>
 		return;
 	}
 }
-// Method Definition Index: 92042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_Update_m6EE91B72EC1D2A270BE170A5B58C88EA3D0F90A6 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:366>
 		bool L_0;
 		L_0 = SpriteShapeObjectPlacement_PlaceObjectOnHashChange_m71263E4A1E32BA74D19300AC80B4D9A544441692(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:367>
 		return;
 	}
 }
-// Method Definition Index: 92043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement__ctor_mAF1BA203CB3BF07C913E949F60542FA53B607C71 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:35>
 		__this->___m_SetNormal = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:46>
 		__this->___m_EndPoint = 1;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:49>
 		__this->___m_Ratio = (0.5f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 92044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement__cctor_m78FEDC6133B00B5AD3D7E02315D054DBC519D209 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3092,9 +2856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement__cctor_m78FED
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:53>
 		((SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var))->___kMaxDistance = (10000.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:54>
 		((SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var))->___kMaxIteration = ((int32_t)128);
 		return;
 	}
@@ -3131,7 +2893,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement__cctor_m78FED
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U24BurstDirectCallInitializer_Initialize_m9CB01D973E72EFDACCBA8B435C93D60D5369B5FD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3151,7 +2912,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U24BurstDirectCallInitializer_Initialize
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 44555
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -3162,7 +2922,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFF
 		return;
 	}
 }
-// Method Definition Index: 92003
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_UTessellatorU24BurstManaged_m6F4F57B7363784CE1724AE26829C356319E88118_inline (SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* ___0_geom, int32_t ___1_maxCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___2_tessPoints, int32_t ___3_tessPointCount, uint16_t* ___4_indices, int32_t* ___5_iCount, uint8_t* ___6_vertices, int32_t ___7_stride, int32_t* ___8_vCount, int32_t ___9_label, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3201,24 +2960,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShape
 	int32_t G_B9_0 = 0;
 	int32_t G_B12_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1210>
 		int32_t L_0 = ___3_tessPointCount;
 		int32_t L_1 = ___9_label;
 		NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13((&V_0), ((int32_t)il2cpp_codegen_subtract(L_0, 1)), L_1, 1, NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1211>
 		int32_t L_2 = ___3_tessPointCount;
 		int32_t L_3 = ___9_label;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_1), ((int32_t)il2cpp_codegen_subtract(L_2, 1)), L_3, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1212>
 		V_2 = (1.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1213>
 		V_10 = 0;
 		goto IL_004b;
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1214>
 		int32_t L_4 = V_10;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_5 = ___2_tessPoints;
 		int32_t L_6 = V_10;
@@ -3228,14 +2982,12 @@ IL_0025:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10;
 		L_10 = float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_inline(L_8, L_9, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&V_1))->___m_Buffer, L_4, (L_10));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1213>
 		int32_t L_11 = V_10;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_004b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1213>
 		int32_t L_12 = V_10;
 		int32_t L_13;
 		L_13 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_1))->___m_Length);
@@ -3245,36 +2997,29 @@ IL_004b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1216>
 		V_11 = 0;
 		goto IL_008b;
 	}
 
 IL_005b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1218>
 		int32_t L_14 = V_11;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_15;
 		L_15 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&V_0))->___m_Buffer, L_14);
 		V_12 = L_15;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1219>
 		int32_t L_16 = V_11;
 		(&V_12)->___x = L_16;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1220>
 		int32_t L_17 = V_11;
 		(&V_12)->___y = ((int32_t)il2cpp_codegen_add(L_17, 1));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1221>
 		int32_t L_18 = V_11;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_19 = V_12;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&V_0))->___m_Buffer, L_18, (L_19));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1216>
 		int32_t L_20 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_20, 1));
 	}
 
 IL_008b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1216>
 		int32_t L_21 = V_11;
 		int32_t L_22 = ___3_tessPointCount;
 		if ((((int32_t)L_21) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_22, 2)))))
@@ -3283,38 +3028,29 @@ IL_008b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1223>
 		int32_t L_23 = ___3_tessPointCount;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_24;
 		L_24 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&V_0))->___m_Buffer, ((int32_t)il2cpp_codegen_subtract(L_23, 2)));
 		V_3 = L_24;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1224>
 		int32_t L_25 = ___3_tessPointCount;
 		(&V_3)->___x = ((int32_t)il2cpp_codegen_subtract(L_25, 2));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1225>
 		(&V_3)->___y = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1226>
 		int32_t L_26 = ___3_tessPointCount;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_27 = V_3;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&V_0))->___m_Buffer, ((int32_t)il2cpp_codegen_subtract(L_26, 2)), (L_27));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1228>
 		int32_t L_28 = ___3_tessPointCount;
 		int32_t L_29 = ___9_label;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_4), ((int32_t)il2cpp_codegen_multiply(L_28, 4)), L_29, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1229>
 		int32_t L_30 = ___3_tessPointCount;
 		int32_t L_31 = ___9_label;
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_5), ((int32_t)il2cpp_codegen_multiply(L_30, 4)), L_31, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1230>
 		int32_t L_32 = ___3_tessPointCount;
 		int32_t L_33 = ___9_label;
 		NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13((&V_6), ((int32_t)il2cpp_codegen_multiply(L_32, 4)), L_33, 1, NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1231>
 		int32_t L_34 = ___9_label;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_35;
 		L_35 = ModuleHandle_Tessellate_mDCFCA96AD66F268C584B76699ECF5632D0C0E352(L_34, (&V_1), (&V_0), (&V_4), (&V_7), (&V_5), (&V_8), (&V_6), (&V_9), (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1232>
 		int32_t L_36 = V_7;
 		int32_t L_37 = ___1_maxCount;
 		if ((((int32_t)L_36) < ((int32_t)L_37)))
@@ -3337,7 +3073,6 @@ IL_0102:
 IL_0104:
 	{
 		V_7 = G_B9_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1233>
 		int32_t L_40 = V_8;
 		int32_t L_41 = ___1_maxCount;
 		if ((((int32_t)L_40) < ((int32_t)L_41)))
@@ -3360,7 +3095,6 @@ IL_010e:
 IL_0110:
 	{
 		V_8 = G_B12_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1235>
 		int32_t L_44 = V_8;
 		if ((((int32_t)L_44) <= ((int32_t)0)))
 		{
@@ -3368,7 +3102,6 @@ IL_0110:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1237>
 		int32_t* L_45 = ___8_vCount;
 		*((int32_t*)L_45) = (int32_t)0;
 		goto IL_0165;
@@ -3376,10 +3109,8 @@ IL_0110:
 
 IL_011d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1239>
 		uint8_t* L_46 = ___6_vertices;
 		V_13 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_46;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1240>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_47 = V_13;
 		int32_t* L_48 = ___8_vCount;
 		int32_t L_49 = *((int32_t*)L_48);
@@ -3398,11 +3129,9 @@ IL_011d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58;
 		L_58 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_56, L_57, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_47 = L_58;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1241>
 		uint8_t* L_59 = ___6_vertices;
 		int32_t L_60 = ___7_stride;
 		___6_vertices = ((uint8_t*)il2cpp_codegen_add((intptr_t)L_59, L_60));
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1237>
 		int32_t* L_61 = ___8_vCount;
 		int32_t* L_62 = ___8_vCount;
 		int32_t L_63 = *((int32_t*)L_62);
@@ -3411,7 +3140,6 @@ IL_011d:
 
 IL_0165:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1237>
 		int32_t* L_64 = ___8_vCount;
 		int32_t L_65 = *((int32_t*)L_64);
 		int32_t L_66 = V_7;
@@ -3421,7 +3149,6 @@ IL_0165:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1243>
 		int32_t* L_67 = ___5_iCount;
 		*((int32_t*)L_67) = (int32_t)0;
 		goto IL_018f;
@@ -3429,7 +3156,6 @@ IL_0165:
 
 IL_0172:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1244>
 		uint16_t* L_68 = ___4_indices;
 		int32_t* L_69 = ___5_iCount;
 		int32_t L_70 = *((int32_t*)L_69);
@@ -3438,7 +3164,6 @@ IL_0172:
 		int32_t L_73;
 		L_73 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&V_5))->___m_Buffer, L_72);
 		*((int16_t*)((uint16_t*)il2cpp_codegen_add((intptr_t)L_68, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_70), 2))))) = (int16_t)((int32_t)(uint16_t)L_73);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1243>
 		int32_t* L_74 = ___5_iCount;
 		int32_t* L_75 = ___5_iCount;
 		int32_t L_76 = *((int32_t*)L_75);
@@ -3447,7 +3172,6 @@ IL_0172:
 
 IL_018f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1243>
 		int32_t* L_77 = ___5_iCount;
 		int32_t L_78 = *((int32_t*)L_77);
 		int32_t L_79 = V_8;
@@ -3459,75 +3183,56 @@ IL_018f:
 
 IL_0196:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1247>
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_4), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1248>
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_5), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1249>
 		NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2((&V_6), NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1250>
 		NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2((&V_0), NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1251>
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_1), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeGenerator.cs:1252>
 		return;
 	}
 }
-// Method Definition Index: 92028
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_inline (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:88>
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_0 = __this->___m_SpriteShapeController;
 		return L_0;
 	}
 }
-// Method Definition Index: 91816
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeController_get_splineHashCode_m5FD24A66B300EA0F8E1A1B0E5100ED3D0AA8FB98_inline (SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeController.cs:130>
 		int32_t L_0 = __this->___m_ActiveSplineHash;
 		return L_0;
 	}
 }
-// Method Definition Index: 91827
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeController_get_spriteShapeHashCode_mF2D6ABCAF590DFC5A0461E61A8B78356FD2FB520_inline (SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeController.cs:202>
 		int32_t L_0 = __this->___m_ActiveSpriteShapeHash;
 		return L_0;
 	}
 }
-// Method Definition Index: 92022
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_get_setNormal_mDF4F4E07D5CD4B8A7D5A3B1A280BB21FBD8A0567_inline (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:61>
 		bool L_0 = __this->___m_SetNormal;
 		return L_0;
 	}
 }
-// Method Definition Index: 92030
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeObjectPlacement_get_startPoint_m1C539FDCDDB00A0918771704D55D113549A08D12_inline (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:97>
 		int32_t L_0 = __this->___m_StartPoint;
 		return L_0;
 	}
 }
-// Method Definition Index: 92032
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeObjectPlacement_get_endPoint_m1183FA74B1AF9A9806EC708DC9AB9FC183983335_inline (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:106>
 		int32_t L_0 = __this->___m_EndPoint;
 		return L_0;
 	}
 }
-// Method Definition Index: 44419
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector3_GetHashCode_mB08429DC931A85BD29CE11B9ABC77DE7E0E46327_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3543,7 +3248,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector3_GetHashCode_mB084
 		return ((int32_t)(((int32_t)(L_1^((int32_t)(L_3<<2))))^((int32_t)(L_5>>2))));
 	}
 }
-// Method Definition Index: 44490
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Quaternion_GetHashCode_m5F55C34C98E437376595E722BE4EB8A70434F049_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3562,7 +3266,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Quaternion_GetHashCode_m5
 		return ((int32_t)(((int32_t)(((int32_t)(L_1^((int32_t)(L_3<<2))))^((int32_t)(L_5>>2))))^((int32_t)(L_7>>1))));
 	}
 }
-// Method Definition Index: 1596
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline (double* __this, const RuntimeMethod* method) 
 {
 	int64_t V_0 = 0;
@@ -3589,16 +3292,13 @@ IL_002d:
 		return ((int32_t)(((int32_t)L_4)^((int32_t)((int64_t)(L_5>>((int32_t)32))))));
 	}
 }
-// Method Definition Index: 92026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float SpriteShapeObjectPlacement_get_ratio_m1AD37D2E67595975F88822C70707DF5EFB8B5F3B_inline (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:79>
 		float L_0 = __this->___m_Ratio;
 		return L_0;
 	}
 }
-// Method Definition Index: 44427
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
 	{
@@ -3617,16 +3317,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Dot_mBB86BB940AA0A3
 		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))));
 	}
 }
-// Method Definition Index: 91836
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeController_get_splineDetail_mB03C316DE81143E38A30C15C339D36DAD7C56E33_inline (SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeController.cs:236>
 		int32_t L_0 = __this->___m_SplineDetail;
 		return L_0;
 	}
 }
-// Method Definition Index: 44449
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -3652,11 +3349,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_12;
 	}
 }
-// Method Definition Index: 56601
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_distance_m516495927BCF37E20FFA3E99C821062D329DFFF8_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:3721>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___1_y;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___0_x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2;
@@ -3666,7 +3361,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_distance_m516495927BCF
 		return L_3;
 	}
 }
-// Method Definition Index: 44414
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -3679,7 +3373,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 44388
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_point, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -3723,11 +3416,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_30;
 	}
 }
-// Method Definition Index: 56298
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_clamp_mB7233FC9D6C27522014C4E6D4E056D36CE82C97E_inline (float ___0_valueToClamp, float ___1_lowerBound, float ___2_upperBound, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:1699>
 		float L_0 = ___1_lowerBound;
 		float L_1 = ___2_upperBound;
 		float L_2 = ___0_valueToClamp;
@@ -3738,7 +3429,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_clamp_mB7233FC9D6C2752
 		return L_4;
 	}
 }
-// Method Definition Index: 44450
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -3764,7 +3454,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_12;
 	}
 }
-// Method Definition Index: 44423
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3827,7 +3516,6 @@ IL_0051:
 		return L_13;
 	}
 }
-// Method Definition Index: 44445
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3841,7 +3529,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 44485
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -3859,7 +3546,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_3;
 	}
 }
-// Method Definition Index: 44351
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Matrix4x4_get_rotation_m7E2C29FCB2AAFAE4D7B4FBD3563E9EDB53F5A8BB_inline (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3868,7 +3554,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_0;
 	}
 }
-// Method Definition Index: 44477
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
@@ -3947,7 +3632,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_64;
 	}
 }
-// Method Definition Index: 44441
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3961,20 +3645,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 91849
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Spline_tD674213224F697425072FBF76AE3FD203AD2B818* SpriteShapeController_get_spline_m1266CB84F33024475FA4FC6C2F35E4E3E74AD6B9_inline (SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeController.cs:289>
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_0 = __this->___m_Spline;
 		return L_0;
 	}
 }
-// Method Definition Index: 56288
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_clamp_m9EABD008C8EAD9D150062ABE724D96FA2121EE1C_inline (int32_t ___0_valueToClamp, int32_t ___1_lowerBound, int32_t ___2_upperBound, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:1616>
 		int32_t L_0 = ___1_lowerBound;
 		int32_t L_1 = ___2_upperBound;
 		int32_t L_2 = ___0_valueToClamp;
@@ -3985,18 +3665,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_clamp_m9EABD008C8EAD
 		return L_4;
 	}
 }
-// Method Definition Index: 92033
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_endPoint_m62B77B64D9F7332D75A19F768B1CFF1FB919C040_inline (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:107>
 		int32_t L_0 = ___0_value;
 		__this->___m_EndPoint = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:107>
 		return;
 	}
 }
-// Method Definition Index: 44434
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4018,42 +3694,32 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6
 		return ((float)L_6);
 	}
 }
-// Method Definition Index: 92031
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_startPoint_m2C880BECFF67C3478402FF2A88C8F5F5E2E60CA6_inline (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:98>
 		int32_t L_0 = ___0_value;
 		__this->___m_StartPoint = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:98>
 		return;
 	}
 }
-// Method Definition Index: 92027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_ratio_mED658B93A3A246178CCB30DEC877EA54DA1842EC_inline (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:80>
 		float L_0 = ___0_value;
 		__this->___m_Ratio = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@0738bab11647/Runtime/SpriteShapeObjectPlacement.cs:80>
 		return;
 	}
 }
-// Method Definition Index: 80332
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Value_m71D7FF781C694A7C4EE28362DFC78D8DDFE9A105_gshared_inline (FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.burst@21aa83e7fd8f/Runtime/FunctionPointer.cs:46>
 		intptr_t L_0 = __this->____ptr;
 		return L_0;
 	}
 }
-// Method Definition Index: 59596
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float2.gen.cs:230>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float L_2 = ___1_rhs;
@@ -4066,7 +3732,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 		return L_6;
 	}
 }
-// Method Definition Index: 44454
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -4089,7 +3754,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_9;
 	}
 }
-// Method Definition Index: 1027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t BitConverter_DoubleToInt64Bits_m4F42741818550F9956B5FBAF88C051F4DE5B0AE6_inline (double ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4097,11 +3761,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t BitConverter_DoubleToInt6
 		return L_0;
 	}
 }
-// Method Definition Index: 59898
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float3.gen.cs:305>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_rhs;
@@ -4120,11 +3782,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		return L_12;
 	}
 }
-// Method Definition Index: 56585
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_length_m6A2B63D7A3B84261C2F7FCAA2CB382288A57D257_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:3618>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___0_x;
 		float L_2;
@@ -4134,11 +3794,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_length_m6A2B63D7A3B842
 		return L_3;
 	}
 }
-// Method Definition Index: 56214
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:929>
 		float L_0 = ___1_y;
 		bool L_1;
 		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
@@ -4166,11 +3824,9 @@ IL_000e:
 		return L_5;
 	}
 }
-// Method Definition Index: 56232
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:1061>
 		float L_0 = ___1_y;
 		bool L_1;
 		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
@@ -4198,11 +3854,9 @@ IL_000e:
 		return L_5;
 	}
 }
-// Method Definition Index: 56204
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_min_m02D43DF516544C279AF660EA4731449C82991849_inline (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:855>
 		int32_t L_0 = ___0_x;
 		int32_t L_1 = ___1_y;
 		if ((((int32_t)L_0) < ((int32_t)L_1)))
@@ -4221,11 +3875,9 @@ IL_0006:
 		return L_3;
 	}
 }
-// Method Definition Index: 56222
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:987>
 		int32_t L_0 = ___0_x;
 		int32_t L_1 = ___1_y;
 		if ((((int32_t)L_0) > ((int32_t)L_1)))
@@ -4244,42 +3896,31 @@ IL_0006:
 		return L_3;
 	}
 }
-// Method Definition Index: 59571
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float2.gen.cs:38>
 		float L_0 = ___0_x;
 		__this->___x = L_0;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float2.gen.cs:39>
 		float L_1 = ___1_y;
 		__this->___y = L_1;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float2.gen.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 59866
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float3.gen.cs:41>
 		float L_0 = ___0_x;
 		__this->___x = L_0;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float3.gen.cs:42>
 		float L_1 = ___1_y;
 		__this->___y = L_1;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float3.gen.cs:43>
 		float L_2 = ___2_z;
 		__this->___z = L_2;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float3.gen.cs:44>
 		return;
 	}
 }
-// Method Definition Index: 56337
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:1967>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
 		float L_1 = L_0.___x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_y;
@@ -4295,7 +3936,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mE193D8880350D74CC
 		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))));
 	}
 }
-// Method Definition Index: 56555
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_inline (float ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4305,7 +3945,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:3382>
 		float L_0 = ___0_x;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
@@ -4313,7 +3952,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009
 		return ((float)L_1);
 	}
 }
-// Method Definition Index: 2423
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	{
@@ -4323,7 +3961,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F76
 		return (bool)((((int32_t)((int32_t)(L_1&((int32_t)2147483647LL)))) > ((int32_t)((int32_t)2139095040)))? 1 : 0);
 	}
 }
-// Method Definition Index: 1028
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	{

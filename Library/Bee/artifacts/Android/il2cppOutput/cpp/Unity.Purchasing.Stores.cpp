@@ -6323,7 +6323,6 @@ inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m09B5B83EA5F701680AB46E578223E92B55E93CE3 (EmbeddedAttribute_t08CD760CDE01D6DC095D2F14D34018636CFB4620* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6339,7 +6338,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m09B5B83EA5F7016
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableAttribute__ctor_m6A1DF75E15612D17D6C0757420F21DDEC2149B01 (NullableAttribute_t77CF28744A972EF448D299C6763325790F1BA44A* __this, uint8_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6360,7 +6358,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableAttribute__ctor_m6A1DF75E15612D1
 		return;
 	}
 }
-// Method Definition Index: 89440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableAttribute__ctor_mF478CD0027A37AB2D99CDDFDCF5FF79FFC1798AA (NullableAttribute_t77CF28744A972EF448D299C6763325790F1BA44A* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_p, const RuntimeMethod* method) 
 {
 	{
@@ -6379,7 +6376,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableAttribute__ctor_mF478CD0027A37AB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableContextAttribute__ctor_mC50B12E28E20B02C533CF5800A7299EABE1089EF (NullableContextAttribute_t3512BCEBC290D700D45702B053BF786407314B3A* __this, uint8_t ___0_p, const RuntimeMethod* method) 
 {
 	{
@@ -6397,7 +6393,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableContextAttribute__ctor_mC50B12E2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t752851D93F8A82A0CE481B92CA2CC23DCEFA4970 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mFAABB5B30327E287EB1323E9034780BB5145769F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6431,7 +6426,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t752851D93F8A82A0CE481B92CA2CC
 		return L_6;
 	}
 }
-// Method Definition Index: 89443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m16DC4F906B6E333A1761CBAF0D182F4BB1301E38 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tDFC9BCB8E3760A858350BBD49BBBCA7DB8A2165B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6517,21 +6511,16 @@ IL2CPP_EXTERN_C void MonoScriptData_t752851D93F8A82A0CE481B92CA2CC23DCEFA4970_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnalyticsClient__ctor_m5B747F9AE502F35EAD38F92BA6269AC233C530A4 (AnalyticsClient_t08E19D85E0B9DDF7837CEB7DA58BB0FB50C07E12* __this, RuntimeObject* ___0_analytics, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/AnalyticsClient.cs:10>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/AnalyticsClient.cs:12>
 		RuntimeObject* L_0 = ___0_analytics;
 		__this->___m_Analytics = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Analytics), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/AnalyticsClient.cs:13>
 		return;
 	}
 }
-// Method Definition Index: 89447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnalyticsClient_OnPurchaseSucceeded_m3AFE15CACDB874B6F62CB76F8A6C9B48A15663E7 (AnalyticsClient_t08E19D85E0B9DDF7837CEB7DA58BB0FB50C07E12* __this, ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* ___0_confirmedOrder, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6549,7 +6538,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnalyticsClient_OnPurchaseSucceeded_m3AF
 	RuntimeObject* V_0 = NULL;
 	CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/AnalyticsClient.cs:17>
 		ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_0 = ___0_confirmedOrder;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -6595,13 +6583,11 @@ IL_0044:
 
 IL_0013_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/AnalyticsClient.cs:17>
 				RuntimeObject* L_6 = V_0;
 				NullCheck(L_6);
 				CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_7;
 				L_7 = InterfaceFuncInvoker0< CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* >::Invoke(0, IEnumerator_1_t7A48C92B4F219FD8390D27C2763BF36EB83DFA71_il2cpp_TypeInfo_var, L_6);
 				V_1 = L_7;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/AnalyticsClient.cs:19>
 				RuntimeObject* L_8 = __this->___m_Analytics;
 				CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_9 = V_1;
 				ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_10 = ___0_confirmedOrder;
@@ -6617,7 +6603,6 @@ IL_0013_1:
 
 IL_0031_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/AnalyticsClient.cs:17>
 				RuntimeObject* L_13 = V_0;
 				NullCheck(L_13);
 				bool L_14;
@@ -6639,11 +6624,9 @@ IL_0031_1:
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/AnalyticsClient.cs:21>
 		return;
 	}
 }
-// Method Definition Index: 89448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnalyticsClient_OnPurchaseFailed_m77045A171974081918793657DA535AA12BDE6FC8 (AnalyticsClient_t08E19D85E0B9DDF7837CEB7DA58BB0FB50C07E12* __this, FailedOrder_t4FF159EDE64FC2EAFB4439A3AEC7F46B62F55BD8* ___0_failedOrder, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6661,7 +6644,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnalyticsClient_OnPurchaseFailed_m77045A
 	RuntimeObject* V_0 = NULL;
 	PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/AnalyticsClient.cs:25>
 		FailedOrder_t4FF159EDE64FC2EAFB4439A3AEC7F46B62F55BD8* L_0 = ___0_failedOrder;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -6707,12 +6689,10 @@ IL_0054:
 
 IL_0013_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/AnalyticsClient.cs:25>
 				RuntimeObject* L_6 = V_0;
 				NullCheck(L_6);
 				CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_7;
 				L_7 = InterfaceFuncInvoker0< CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* >::Invoke(0, IEnumerator_1_t7A48C92B4F219FD8390D27C2763BF36EB83DFA71_il2cpp_TypeInfo_var, L_6);
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/AnalyticsClient.cs:27>
 				NullCheck(L_7);
 				Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_8;
 				L_8 = CartItem_get_Product_m1CEE0F7667AB0B7C4454FC03F60C44890FFEF9F9_inline(L_7, NULL);
@@ -6729,7 +6709,6 @@ IL_0013_1:
 				PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_14 = (PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380*)il2cpp_codegen_object_new(PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380_il2cpp_TypeInfo_var);
 				PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_14, L_9, L_11, L_13, NULL);
 				V_1 = L_14;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/AnalyticsClient.cs:28>
 				RuntimeObject* L_15 = __this->___m_Analytics;
 				PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_16 = V_1;
 				NullCheck(L_15);
@@ -6738,7 +6717,6 @@ IL_0013_1:
 
 IL_0041_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/AnalyticsClient.cs:25>
 				RuntimeObject* L_17 = V_0;
 				NullCheck(L_17);
 				bool L_18;
@@ -6760,7 +6738,6 @@ IL_0041_1:
 
 IL_0055:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/AnalyticsClient.cs:30>
 		return;
 	}
 }
@@ -6772,23 +6749,18 @@ IL_0055:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyAnalyticsAdapter_SendTransactionEvent_mB2E85943FC955C42F1CE40FC9B1D96BE854A605A (EmptyAnalyticsAdapter_t39584EBA9FA9221A29573EA761809B6A63D6849E* __this, CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* ___0_item, String_t* ___1_receipt, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/EmptyUnityAnalyticsAdapter.cs:9>
 		return;
 	}
 }
-// Method Definition Index: 89450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyAnalyticsAdapter_SendTransactionFailedEvent_mA95395BC1A02F60029EBF98176881790ABD191F0 (EmptyAnalyticsAdapter_t39584EBA9FA9221A29573EA761809B6A63D6849E* __this, PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* ___0_failureDescription, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/EmptyUnityAnalyticsAdapter.cs:11>
 		return;
 	}
 }
-// Method Definition Index: 89451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyAnalyticsAdapter__ctor_m40B6F4B53931DB707463776C62693E1DD2F85B5C (EmptyAnalyticsAdapter_t39584EBA9FA9221A29573EA761809B6A63D6849E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6804,7 +6776,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyAnalyticsAdapter__ctor_m40B6F4B5393
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleReceipt__ctor_m0EACC6D5F0BC9CD1109731C297134D1D7AFCBE8C (GoogleReceipt_tF2BD6545E71871D7AB1F30BD6D35999DF1257054* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6820,13 +6791,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleReceipt__ctor_m0EACC6D5F0BC9CD1109
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CommonTransactionEventHelper_GetTransactionName_m28CB2CCFC99FE3D066860CAD051DD5656AD31A0D (Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* ___0_product, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/Utilitiles/CommonTransactionEventHelper.cs:7>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/Utilitiles/CommonTransactionEventHelper.cs:8>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/Utilitiles/CommonTransactionEventHelper.cs:9>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_0 = ___0_product;
 		NullCheck(L_0);
 		ProductMetadata_t2D6C6454A305A6790D8903169E3B136EB13417E1* L_1;
@@ -6864,7 +6831,6 @@ IL_001e:
 		return L_9;
 	}
 }
-// Method Definition Index: 89454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CommonTransactionEventHelper__ctor_mD2157CBC72DA9ECFFE6CFE13A61701496B545E4B (CommonTransactionEventHelper_t61C2EA09D14B1B51623F254CF73D331FC30EEB17* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6880,7 +6846,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CommonTransactionEventHelper__ctor_mD215
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TransactionFailedEventHelper_BuildFailureReason_m9F129347767181144194F1B6E52B082B13A05C53 (PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* ___0_failureDescription, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6894,7 +6859,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TransactionFailedEventHelper_BuildF
 	String_t* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/Utilitiles/TransactionFailedEventHelper.cs:8>
 		PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_0 = ___0_failureDescription;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -6906,7 +6870,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TransactionFailedEventHelper_BuildF
 		String_t* L_4;
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral2D3398A3FC10EF777C392390E07FEDD05C674E25, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/Utilitiles/TransactionFailedEventHelper.cs:9>
 		PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_5 = ___0_failureDescription;
 		NullCheck(L_5);
 		String_t* L_6;
@@ -6919,7 +6882,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TransactionFailedEventHelper_BuildF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/Utilitiles/TransactionFailedEventHelper.cs:11>
 		String_t* L_8 = V_0;
 		PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_9 = ___0_failureDescription;
 		NullCheck(L_9);
@@ -6932,12 +6894,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TransactionFailedEventHelper_BuildF
 
 IL_003e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Analytics/Utilitiles/TransactionFailedEventHelper.cs:14>
 		String_t* L_12 = V_0;
 		return L_12;
 	}
 }
-// Method Definition Index: 89456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransactionFailedEventHelper__ctor_m8B96196A2CE8C9F4D2EE890AE044588C6A8DBCC6 (TransactionFailedEventHelper_tE7C7E48B8FE64F41BD9958915EF1B4EE609D008F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6953,7 +6913,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransactionFailedEventHelper__ctor_m8B96
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleCachedQueryProductDetailsService_Finalize_m5CA7D772158F7AD6C776DED4930680D8B6BF3986 (GoogleCachedQueryProductDetailsService_t617A1AA248BE6941DB6FE7EF75474F3525DAB1E1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6977,7 +6936,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleCachedQueryProductDetailsService_F
 
 FINALLY_003b:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:19>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
@@ -6985,7 +6943,6 @@ FINALLY_003b:
 		try
 		{
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:15>
 				ConcurrentDictionary_2_t9B90B2E9689015FD54DA2BF7545FB4293442D186* L_0 = __this->___m_CachedQueriedProductDetails;
 				NullCheck(L_0);
 				RuntimeObject* L_1;
@@ -7025,13 +6982,11 @@ IL_003a_1:
 
 IL_000e_2:
 					{
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:15>
 						RuntimeObject* L_4 = V_0;
 						NullCheck(L_4);
 						KeyValuePair_2_t9C2EF0DCFAB5E9BD1CBB5B0CBD712E334A469883 L_5;
 						L_5 = InterfaceFuncInvoker0< KeyValuePair_2_t9C2EF0DCFAB5E9BD1CBB5B0CBD712E334A469883 >::Invoke(0, IEnumerator_1_tA1F413570805971528809DD207CC15475D7ECA5A_il2cpp_TypeInfo_var, L_4);
 						V_1 = L_5;
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:17>
 						AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
 						L_6 = KeyValuePair_2_get_Value_m1EC8AF096A63C245FC823063B0E59EA7359CBD03_inline((&V_1), KeyValuePair_2_get_Value_m1EC8AF096A63C245FC823063B0E59EA7359CBD03_RuntimeMethod_var);
 						AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_7 = L_6;
@@ -7054,7 +7009,6 @@ IL_0022_2:
 
 IL_0027_2:
 					{
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:15>
 						RuntimeObject* L_8 = V_0;
 						NullCheck(L_8);
 						bool L_9;
@@ -7082,11 +7036,9 @@ IL_0027_2:
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:19>
 		return;
 	}
 }
-// Method Definition Index: 89458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoogleCachedQueryProductDetailsService_GetCachedQueriedProducts_m729B625A3ADE2CA2A3A7D603ADF269C161B44F64 (GoogleCachedQueryProductDetailsService_t617A1AA248BE6941DB6FE7EF75474F3525DAB1E1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7096,7 +7048,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoogleCachedQueryProductDetail
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:23>
 		ConcurrentDictionary_2_t9B90B2E9689015FD54DA2BF7545FB4293442D186* L_0 = __this->___m_CachedQueriedProductDetails;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -7104,7 +7055,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoogleCachedQueryProductDetail
 		return L_1;
 	}
 }
-// Method Definition Index: 89459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* GoogleCachedQueryProductDetailsService_GetCachedQueriedProductDetails_mE9E06BADA7A63F62E602FA53A4DEA9B1ECBC4D71 (GoogleCachedQueryProductDetailsService_t617A1AA248BE6941DB6FE7EF75474F3525DAB1E1* __this, String_t* ___0_productId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7114,7 +7064,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:28>
 		ConcurrentDictionary_2_t9B90B2E9689015FD54DA2BF7545FB4293442D186* L_0 = __this->___m_CachedQueriedProductDetails;
 		String_t* L_1 = ___0_productId;
 		NullCheck(L_0);
@@ -7123,7 +7072,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2B
 		return L_2;
 	}
 }
-// Method Definition Index: 89460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoogleCachedQueryProductDetailsService_GetCachedQueriedProductDetails_mBB1B22CA851352A18316B50902F701D666A6B0CD (GoogleCachedQueryProductDetailsService_t617A1AA248BE6941DB6FE7EF75474F3525DAB1E1* __this, RuntimeObject* ___0_productIds, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7135,7 +7083,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoogleCachedQueryProductDetail
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:33>
 		RuntimeObject* L_0 = ___0_productIds;
 		Func_2_t6F18BD99DBFD8DEA66D59FD826E9068B8B427900* L_1 = (Func_2_t6F18BD99DBFD8DEA66D59FD826E9068B8B427900*)il2cpp_codegen_object_new(Func_2_t6F18BD99DBFD8DEA66D59FD826E9068B8B427900_il2cpp_TypeInfo_var);
 		Func_2__ctor_m7D2682100AFBB959BA191E8181D6DCB9538B8DAD(L_1, __this, (intptr_t)((void*)GoogleCachedQueryProductDetailsService_GetCachedQueriedProductDetails_mE9E06BADA7A63F62E602FA53A4DEA9B1ECBC4D71_RuntimeMethod_var), NULL);
@@ -7144,7 +7091,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoogleCachedQueryProductDetail
 		return L_2;
 	}
 }
-// Method Definition Index: 89461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoogleCachedQueryProductDetailsService_GetCachedQueriedProductDetails_m6742055BDFDA5F5733166E1765751CA6550AF45E (GoogleCachedQueryProductDetailsService_t617A1AA248BE6941DB6FE7EF75474F3525DAB1E1* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7164,7 +7110,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoogleCachedQueryProductDetail
 	RuntimeObject* G_B1_1 = NULL;
 	GoogleCachedQueryProductDetailsService_t617A1AA248BE6941DB6FE7EF75474F3525DAB1E1* G_B1_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:38>
 		RuntimeObject* L_0 = ___0_products;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t2D9212D9009FAB838D6AF2A91A7629DD39F7F843_il2cpp_TypeInfo_var);
 		Func_2_t0631E0C94F351906F330D95953B53D2C63793D7E* L_1 = ((U3CU3Ec_t2D9212D9009FAB838D6AF2A91A7629DD39F7F843_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t2D9212D9009FAB838D6AF2A91A7629DD39F7F843_il2cpp_TypeInfo_var))->___U3CU3E9__5_0;
@@ -7205,7 +7150,6 @@ IL_0021:
 		return L_8;
 	}
 }
-// Method Definition Index: 89462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleCachedQueryProductDetailsService_Contains_mC2DC0EAAD4FFFF1329F849D9A61B1A5BB27A8B1E (GoogleCachedQueryProductDetailsService_t617A1AA248BE6941DB6FE7EF75474F3525DAB1E1* __this, String_t* ___0_productId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7215,7 +7159,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleCachedQueryProductDetailsService_C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:43>
 		ConcurrentDictionary_2_t9B90B2E9689015FD54DA2BF7545FB4293442D186* L_0 = __this->___m_CachedQueriedProductDetails;
 		String_t* L_1 = ___0_productId;
 		NullCheck(L_0);
@@ -7224,11 +7167,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleCachedQueryProductDetailsService_C
 		return L_2;
 	}
 }
-// Method Definition Index: 89463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleCachedQueryProductDetailsService_Contains_mEC4C1A8175C9FB39D1D342B4C951AF1635F09F2C (GoogleCachedQueryProductDetailsService_t617A1AA248BE6941DB6FE7EF75474F3525DAB1E1* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_products, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:48>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_0 = ___0_products;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -7238,7 +7179,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleCachedQueryProductDetailsService_C
 		return L_2;
 	}
 }
-// Method Definition Index: 89464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleCachedQueryProductDetailsService_AddCachedQueriedProductDetails_mB01C09B0CA30B7BC385D6AD997242F69394E80B3 (GoogleCachedQueryProductDetailsService_t617A1AA248BE6941DB6FE7EF75474F3525DAB1E1* __this, RuntimeObject* ___0_queriedProducts, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7258,7 +7198,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleCachedQueryProductDetailsService_A
 	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* V_1 = NULL;
 	String_t* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:53>
 		RuntimeObject* L_0 = ___0_queriedProducts;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -7298,13 +7237,11 @@ IL_0046:
 
 IL_0009_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:53>
 				RuntimeObject* L_4 = V_0;
 				NullCheck(L_4);
 				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5;
 				L_5 = InterfaceFuncInvoker0< AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* >::Invoke(0, IEnumerator_1_tBDEF718EE6EB3FBF3046DBFAAE922D84838F9814_il2cpp_TypeInfo_var, L_4);
 				V_1 = L_5;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:55>
 				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6 = V_1;
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7;
 				L_7 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
@@ -7312,7 +7249,6 @@ IL_0009_1:
 				String_t* L_8;
 				L_8 = AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F259008314180511C3D2AF40(L_6, _stringLiteral8A0C00507160E0F1EB2F6C3579529D1B4011A3F7, L_7, AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F259008314180511C3D2AF40_RuntimeMethod_var);
 				V_2 = L_8;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:57>
 				ConcurrentDictionary_2_t9B90B2E9689015FD54DA2BF7545FB4293442D186* L_9 = __this->___m_CachedQueriedProductDetails;
 				String_t* L_10 = V_2;
 				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_11 = V_1;
@@ -7325,7 +7261,6 @@ IL_0009_1:
 
 IL_0033_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:53>
 				RuntimeObject* L_13 = V_0;
 				NullCheck(L_13);
 				bool L_14;
@@ -7347,11 +7282,9 @@ IL_0033_1:
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:62>
 		return;
 	}
 }
-// Method Definition Index: 89465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleCachedQueryProductDetailsService__ctor_m548B13FA012A5AF13C6551D0AF06031968D8A139 (GoogleCachedQueryProductDetailsService_t617A1AA248BE6941DB6FE7EF75474F3525DAB1E1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7362,7 +7295,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleCachedQueryProductDetailsService__
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:11>
 		ConcurrentDictionary_2_t9B90B2E9689015FD54DA2BF7545FB4293442D186* L_0 = (ConcurrentDictionary_2_t9B90B2E9689015FD54DA2BF7545FB4293442D186*)il2cpp_codegen_object_new(ConcurrentDictionary_2_t9B90B2E9689015FD54DA2BF7545FB4293442D186_il2cpp_TypeInfo_var);
 		ConcurrentDictionary_2__ctor_mD535A61F7BFA0083F374642CD641854E04F53574(L_0, ConcurrentDictionary_2__ctor_mD535A61F7BFA0083F374642CD641854E04F53574_RuntimeMethod_var);
 		__this->___m_CachedQueriedProductDetails = L_0;
@@ -7379,7 +7311,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleCachedQueryProductDetailsService__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mB5674D027FA0DB378B8D1D47B7BA936E63BFE7DD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7396,7 +7327,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mB5674D027FA0DB378B8D1D47
 		return;
 	}
 }
-// Method Definition Index: 89467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m5C9F3BDF1801CCE3F4F5C24CB91DEC7FC04DBB00 (U3CU3Ec_t2D9212D9009FAB838D6AF2A91A7629DD39F7F843* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7404,11 +7334,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m5C9F3BDF1801CCE3F4F5C24CB
 		return;
 	}
 }
-// Method Definition Index: 89468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CGetCachedQueriedProductDetailsU3Eb__5_0_m70670933900593AFDA00AD6AB84EF074886219AF (U3CU3Ec_t2D9212D9009FAB838D6AF2A91A7629DD39F7F843* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleCachedQuerySkuDetailsService.cs:38>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_0 = ___0_product;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -7424,26 +7352,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CGetCachedQueriedProductD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleFinishTransactionUseCase__ctor_mC34D769AEDAAD693E5CCF4A5A109C8E62F51D7BA (GoogleFinishTransactionUseCase_tED699603B61FD57E8B0A9E0DBF54D172708B24EE* __this, RuntimeObject* ___0_billingClient, RuntimeObject* ___1_googleQueryPurchasesUseCase, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:17>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:18>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:20>
 		RuntimeObject* L_0 = ___0_billingClient;
 		__this->___m_BillingClient = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_BillingClient), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:21>
 		RuntimeObject* L_1 = ___1_googleQueryPurchasesUseCase;
 		__this->___m_GoogleQueryPurchasesUseCase = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GoogleQueryPurchasesUseCase), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 89470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* GoogleFinishTransactionUseCase_FinishTransaction_mF244193A1299BECC140D42EBE40EE0E1CC6F6FAD (GoogleFinishTransactionUseCase_tED699603B61FD57E8B0A9E0DBF54D172708B24EE* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, String_t* ___1_purchaseToken, Action_2_t2DECC09E5663F539C98B117A015A1984B4E461EF* ___2_onTransactionFinished, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7487,7 +7408,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_6;
 	}
 }
-// Method Definition Index: 89471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleFinishTransactionUseCase_FinishTransactionForPurchase_m9429E5889E8AC4BADF1BF2BEFCD479D86C6D6691 (GoogleFinishTransactionUseCase_tED699603B61FD57E8B0A9E0DBF54D172708B24EE* __this, RuntimeObject* ___0_purchase, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___1_product, String_t* ___2_purchaseToken, Action_2_t2DECC09E5663F539C98B117A015A1984B4E461EF* ___3_onTransactionFinished, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7516,7 +7436,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleFinishTransactionUseCase_FinishTra
 		NullCheck(L_3);
 		L_3->___purchase = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___purchase), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:42>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_5 = ___1_product;
 		if (!L_5)
 		{
@@ -7534,7 +7453,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleFinishTransactionUseCase_FinishTra
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:44>
 		RuntimeObject* L_8 = __this->___m_BillingClient;
 		String_t* L_9 = ___2_purchaseToken;
 		U3CU3Ec__DisplayClass4_0_t315BA48EB8B278B2318AAEDC168AB1ADCA27B077* L_10 = V_0;
@@ -7547,7 +7465,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleFinishTransactionUseCase_FinishTra
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:46>
 		U3CU3Ec__DisplayClass4_0_t315BA48EB8B278B2318AAEDC168AB1ADCA27B077* L_12 = V_0;
 		NullCheck(L_12);
 		RuntimeObject* L_13 = L_12->___purchase;
@@ -7560,7 +7477,6 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:48>
 		RuntimeObject* L_15 = __this->___m_BillingClient;
 		String_t* L_16 = ___2_purchaseToken;
 		U3CU3Ec__DisplayClass4_0_t315BA48EB8B278B2318AAEDC168AB1ADCA27B077* L_17 = V_0;
@@ -7572,7 +7488,6 @@ IL_0039:
 
 IL_005e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:50>
 		return;
 	}
 }
@@ -7584,7 +7499,6 @@ IL_005e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m13CCCE6DF3F34792AE4983F9AF4C5F4CC8E1C0AC (U3CU3Ec__DisplayClass4_0_t315BA48EB8B278B2318AAEDC168AB1ADCA27B077* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7592,11 +7506,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m13CCCE6D
 		return;
 	}
 }
-// Method Definition Index: 89473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CFinishTransactionForPurchaseU3Eb__0_mA91C1775DD436F4490A6C3D710DDD373696E53C0 (U3CU3Ec__DisplayClass4_0_t315BA48EB8B278B2318AAEDC168AB1ADCA27B077* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:44>
 		Action_2_t2DECC09E5663F539C98B117A015A1984B4E461EF* L_0 = __this->___onTransactionFinished;
 		RuntimeObject* L_1 = ___0_result;
 		RuntimeObject* L_2 = __this->___purchase;
@@ -7605,11 +7517,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CFinishTransa
 		return;
 	}
 }
-// Method Definition Index: 89474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CFinishTransactionForPurchaseU3Eb__1_mC3E90B8047593C20E71E791916338DDF6D2D2B40 (U3CU3Ec__DisplayClass4_0_t315BA48EB8B278B2318AAEDC168AB1ADCA27B077* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:48>
 		Action_2_t2DECC09E5663F539C98B117A015A1984B4E461EF* L_0 = __this->___onTransactionFinished;
 		RuntimeObject* L_1 = ___0_result;
 		RuntimeObject* L_2 = __this->___purchase;
@@ -7626,7 +7536,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CFinishTransa
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFinishTransactionU3Ed__3_MoveNext_mE5D02367B7B56F5175E31693FC6BFE1F9EF826C9 (U3CFinishTransactionU3Ed__3_t6164B3F0A8E0B1C61E3529AF9D782617DF446DB6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7670,7 +7579,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFinishTransactionU3Ed__3_MoveNext_mE5
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:27>
 			GoogleFinishTransactionUseCase_tED699603B61FD57E8B0A9E0DBF54D172708B24EE* L_3 = V_1;
 			NullCheck(L_3);
 			RuntimeObject* L_4 = L_3->___m_GoogleQueryPurchasesUseCase;
@@ -7718,7 +7626,6 @@ IL_0070_1:
 			RuntimeObject* L_15;
 			L_15 = TaskAwaiter_1_GetResult_m5B9C41915BB14734EF9879D7DDB5374DFD9B787E((&V_3), TaskAwaiter_1_GetResult_m5B9C41915BB14734EF9879D7DDB5374DFD9B787E_RuntimeMethod_var);
 			V_2 = L_15;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:28>
 			RuntimeObject* L_16 = V_2;
 			if (!L_16)
 			{
@@ -7736,7 +7643,6 @@ IL_0070_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:30>
 			GoogleFinishTransactionUseCase_tED699603B61FD57E8B0A9E0DBF54D172708B24EE* L_19 = V_1;
 			RuntimeObject* L_20 = V_2;
 			ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_21 = __this->___product;
@@ -7749,7 +7655,6 @@ IL_0070_1:
 
 IL_009e_1:
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:34>
 			ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_24 = __this->___product;
 			ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_25 = L_24;
 			if (L_25)
@@ -7816,7 +7721,6 @@ CATCH_00cd:
 
 IL_00e6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleFinishTransactionUseCase.cs:36>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_33 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -7835,7 +7739,6 @@ IL2CPP_EXTERN_C  void U3CFinishTransactionU3Ed__3_MoveNext_mE5D02367B7B56F5175E3
 	_thisAdjusted = reinterpret_cast<U3CFinishTransactionU3Ed__3_t6164B3F0A8E0B1C61E3529AF9D782617DF446DB6*>(__this + _offset);
 	U3CFinishTransactionU3Ed__3_MoveNext_mE5D02367B7B56F5175E31693FC6BFE1F9EF826C9(_thisAdjusted, method);
 }
-// Method Definition Index: 89476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFinishTransactionU3Ed__3_SetStateMachine_m41C7702413C7FFD94E6F6A90B49B213D54A8DE53 (U3CFinishTransactionU3Ed__3_t6164B3F0A8E0B1C61E3529AF9D782617DF446DB6* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7867,66 +7770,53 @@ IL2CPP_EXTERN_C  void U3CFinishTransactionU3Ed__3_SetStateMachine_m41C7702413C7F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89477
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleLastKnownProductService_get_LastKnownOldProductId_mA2681F3FAB56D79247598138F86E080C17E3F418 (GoogleLastKnownProductService_tE6BB08B41CE8AACB01D7927F06E15DF672A301D7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleLastKnownProductService.cs:11>
 		String_t* L_0 = __this->___U3CLastKnownOldProductIdU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 89478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleLastKnownProductService_set_LastKnownOldProductId_mFA0CE2E7891E9CB96D9A413BC360D491FD22C0CB (GoogleLastKnownProductService_tE6BB08B41CE8AACB01D7927F06E15DF672A301D7* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleLastKnownProductService.cs:11>
 		String_t* L_0 = ___0_value;
 		__this->___U3CLastKnownOldProductIdU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLastKnownOldProductIdU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 89479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleLastKnownProductService_get_LastKnownProductId_m790AD8382A286FF6DBA4B68905FF0F413CA23CA8 (GoogleLastKnownProductService_tE6BB08B41CE8AACB01D7927F06E15DF672A301D7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleLastKnownProductService.cs:12>
 		String_t* L_0 = __this->___U3CLastKnownProductIdU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 89480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleLastKnownProductService_set_LastKnownProductId_m6010C27C6A904669FB0F2F94B3A3C5473A75EDA7 (GoogleLastKnownProductService_tE6BB08B41CE8AACB01D7927F06E15DF672A301D7* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleLastKnownProductService.cs:12>
 		String_t* L_0 = ___0_value;
 		__this->___U3CLastKnownProductIdU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLastKnownProductIdU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 89481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C GoogleLastKnownProductService_get_LastKnownReplacementMode_m6B474BBCA97AAB0990A02A8AABD054B45F2D6A34 (GoogleLastKnownProductService_tE6BB08B41CE8AACB01D7927F06E15DF672A301D7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleLastKnownProductService.cs:14>
 		Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C L_0 = __this->___U3CLastKnownReplacementModeU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 89482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleLastKnownProductService_set_LastKnownReplacementMode_m8F57BD879FA57F64D50E72F2B14398E0539B9975 (GoogleLastKnownProductService_tE6BB08B41CE8AACB01D7927F06E15DF672A301D7* __this, Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleLastKnownProductService.cs:14>
 		Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C L_0 = ___0_value;
 		__this->___U3CLastKnownReplacementModeU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 89483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleLastKnownProductService__ctor_m2F7585D230BAF00450AC2BB9166E7C1FF9E8DF9B (GoogleLastKnownProductService_tE6BB08B41CE8AACB01D7927F06E15DF672A301D7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7936,7 +7826,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleLastKnownProductService__ctor_m2F7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleLastKnownProductService.cs:15>
 		Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Nullable_1__ctor_mD1AD99909BCC8426BF6DA0987F2824CB4569BD9A((&L_0), 0, Nullable_1__ctor_mD1AD99909BCC8426BF6DA0987F2824CB4569BD9A_RuntimeMethod_var);
@@ -7953,21 +7842,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleLastKnownProductService__ctor_m2F7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayCheckEntitlementUseCase__ctor_m00A71A96E49FA330BCBA1B531BCA4343EBCCEE51 (GooglePlayCheckEntitlementUseCase_t97DB215B00056BFCD58DD9AC33A07FECD3AD7BFE* __this, RuntimeObject* ___0_googleQueryPurchasesUseCase, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:14>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:16>
 		RuntimeObject* L_0 = ___0_googleQueryPurchasesUseCase;
 		__this->___m_GoogleQueryPurchasesUseCase = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GoogleQueryPurchasesUseCase), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:17>
 		return;
 	}
 }
-// Method Definition Index: 89485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayCheckEntitlementUseCase_CheckEntitlement_mCCF203184273AABEB90BE2EB9A9BAFCEA9580606 (GooglePlayCheckEntitlementUseCase_t97DB215B00056BFCD58DD9AC33A07FECD3AD7BFE* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, Action_2_tCE9A0BC45E32F4A213970A81384D57EE1F82AC01* ___1_onEntitlementChecked, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8006,7 +7890,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayCheckEntitlementUseCase_CheckE
 		return;
 	}
 }
-// Method Definition Index: 89486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* GooglePlayCheckEntitlementUseCase_PurchaseToCheckForEntitlement_m185304B412AD2FE68AF33EB30839C4976AFEC80C (ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8025,15 +7908,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084
 		NullCheck(L_1);
 		L_1->___product = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___product), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:38>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:39>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:40>
 		Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* L_3 = (Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628*)il2cpp_codegen_object_new(Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628_il2cpp_TypeInfo_var);
 		Func_2__ctor_m76333B12C013FAC24D4DB213697E09ECCC522B8B(L_3, L_1, (intptr_t)((void*)U3CU3Ec__DisplayClass3_0_U3CPurchaseToCheckForEntitlementU3Eb__0_mFD918BEC02FE788C0317C53398E1234EF9DA941F_RuntimeMethod_var), NULL);
 		return L_3;
 	}
 }
-// Method Definition Index: 89487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GooglePlayCheckEntitlementUseCase_DetermineEntitlementStatus_m3C9DC08AFB34B4AD266B11F3DFA514E61604F5BD (RuntimeObject* ___0_purchase, int32_t ___1_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8043,11 +7922,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GooglePlayCheckEntitlementUseCase_Det
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:49>
 		RuntimeObject* L_0 = ___0_purchase;
 		if (!L_0)
 		{
@@ -8087,7 +7961,6 @@ IL_0012:
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:50>
 		return (int32_t)(1);
 	}
 }
@@ -8099,7 +7972,6 @@ IL_0014:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m8BF041A271B91A7041ECA68224DA97C0F9778CF8 (U3CU3Ec__DisplayClass3_0_tA97FDC569EC9508B10DF5616B7B52E9FABF1AD74* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8107,7 +7979,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m8BF041A2
 		return;
 	}
 }
-// Method Definition Index: 89489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass3_0_U3CPurchaseToCheckForEntitlementU3Eb__0_mFD918BEC02FE788C0317C53398E1234EF9DA941F (U3CU3Ec__DisplayClass3_0_tA97FDC569EC9508B10DF5616B7B52E9FABF1AD74* __this, RuntimeObject* ___0_purchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8117,9 +7988,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass3_0_U3CPurchaseToCh
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:38>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:39>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:40>
 		RuntimeObject* L_0 = ___0_purchase;
 		if (!L_0)
 		{
@@ -8163,7 +8031,6 @@ IL_0022:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckEntitlementU3Ed__2_MoveNext_m7E7563BF797FE0C2C452153C503AF4E643C38A66 (U3CCheckEntitlementU3Ed__2_t8E53B4ED775285BA52C4FDBC242865B4FF437442* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8204,7 +8071,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckEntitlementU3Ed__2_MoveNext_m7E7
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:21>
 			ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_3 = __this->___product;
 			if (!L_3)
 			{
@@ -8212,7 +8078,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckEntitlementU3Ed__2_MoveNext_m7E7
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:23>
 			GooglePlayCheckEntitlementUseCase_t97DB215B00056BFCD58DD9AC33A07FECD3AD7BFE* L_4 = V_1;
 			NullCheck(L_4);
 			RuntimeObject* L_5 = L_4->___m_GoogleQueryPurchasesUseCase;
@@ -8257,13 +8122,11 @@ IL_0075_1:
 		{
 			List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_15;
 			L_15 = TaskAwaiter_1_GetResult_m4A75F64D2B672FA9F4E35942C45DFE9370CFA308((&V_3), TaskAwaiter_1_GetResult_m4A75F64D2B672FA9F4E35942C45DFE9370CFA308_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:25>
 			ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_16 = __this->___product;
 			Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* L_17;
 			L_17 = GooglePlayCheckEntitlementUseCase_PurchaseToCheckForEntitlement_m185304B412AD2FE68AF33EB30839C4976AFEC80C(L_16, NULL);
 			RuntimeObject* L_18;
 			L_18 = Enumerable_FirstOrDefault_TisIGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_mE6608CF3BE84917E17968F5F21BA1D2EFD62BDF0(L_15, L_17, Enumerable_FirstOrDefault_TisIGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_mE6608CF3BE84917E17968F5F21BA1D2EFD62BDF0_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:26>
 			ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_19 = __this->___product;
 			NullCheck(L_19);
 			int32_t L_20;
@@ -8271,7 +8134,6 @@ IL_0075_1:
 			int32_t L_21;
 			L_21 = GooglePlayCheckEntitlementUseCase_DetermineEntitlementStatus_m3C9DC08AFB34B4AD266B11F3DFA514E61604F5BD(L_18, L_20, NULL);
 			V_2 = L_21;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:28>
 			Action_2_tCE9A0BC45E32F4A213970A81384D57EE1F82AC01* L_22 = __this->___onEntitlementChecked;
 			Action_2_tCE9A0BC45E32F4A213970A81384D57EE1F82AC01* L_23 = L_22;
 			if (L_23)
@@ -8296,7 +8158,6 @@ IL_00a9_1:
 
 IL_00b7_1:
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:32>
 			Action_2_tCE9A0BC45E32F4A213970A81384D57EE1F82AC01* L_26 = __this->___onEntitlementChecked;
 			Action_2_tCE9A0BC45E32F4A213970A81384D57EE1F82AC01* L_27 = L_26;
 			if (L_27)
@@ -8346,7 +8207,6 @@ CATCH_00d1:
 
 IL_00ea:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayCheckEntitlementUseCase.cs:34>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_32 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_32, NULL);
@@ -8364,7 +8224,6 @@ IL2CPP_EXTERN_C  void U3CCheckEntitlementU3Ed__2_MoveNext_m7E7563BF797FE0C2C4521
 	_thisAdjusted = reinterpret_cast<U3CCheckEntitlementU3Ed__2_t8E53B4ED775285BA52C4FDBC242865B4FF437442*>(__this + _offset);
 	U3CCheckEntitlementU3Ed__2_MoveNext_m7E7563BF797FE0C2C452153C503AF4E643C38A66(_thisAdjusted, method);
 }
-// Method Definition Index: 89491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCheckEntitlementU3Ed__2_SetStateMachine_m8D0E26ACB535A8ABD018043FAD3E0724A3289668 (U3CCheckEntitlementU3Ed__2_t8E53B4ED775285BA52C4FDBC242865B4FF437442* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -8389,62 +8248,40 @@ IL2CPP_EXTERN_C  void U3CCheckEntitlementU3Ed__2_SetStateMachine_m8D0E26ACB535A8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreService__ctor_m86AF0D58F490B3C0986B4F02E06D4F35B1A0B9A1 (GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* __this, RuntimeObject* ___0_billingClient, RuntimeObject* ___1_connectionService, RuntimeObject* ___2_queryProductDetailsService, RuntimeObject* ___3_lastKnownProductService, RuntimeObject* ___4_purchaseService, RuntimeObject* ___5_finishTransactionUseCase, RuntimeObject* ___6_queryPurchasesUseCase, RuntimeObject* ___7_googleCheckEntitlementUseCase, RuntimeObject* ___8_telemetryDiagnostics, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:27>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:28>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:29>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:30>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:31>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:32>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:33>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:34>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:35>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:36>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:38>
 		RuntimeObject* L_0 = ___2_queryProductDetailsService;
 		__this->___m_QueryProductDetailsService = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_QueryProductDetailsService), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:39>
 		RuntimeObject* L_1 = ___3_lastKnownProductService;
 		__this->___m_GoogleLastKnownProductService = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GoogleLastKnownProductService), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:40>
 		RuntimeObject* L_2 = ___4_purchaseService;
 		__this->___m_GooglePurchaseService = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GooglePurchaseService), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:41>
 		RuntimeObject* L_3 = ___5_finishTransactionUseCase;
 		__this->___m_GoogleFinishTransactionUseCase = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GoogleFinishTransactionUseCase), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:42>
 		RuntimeObject* L_4 = ___8_telemetryDiagnostics;
 		__this->___m_TelemetryDiagnostics = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TelemetryDiagnostics), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:43>
 		RuntimeObject* L_5 = ___6_queryPurchasesUseCase;
 		__this->___m_GoogleQueryPurchasesUseCase = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GoogleQueryPurchasesUseCase), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:44>
 		RuntimeObject* L_6 = ___7_googleCheckEntitlementUseCase;
 		__this->___m_GoogleCheckEntitlementUseCase = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GoogleCheckEntitlementUseCase), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:45>
 		RuntimeObject* L_7 = ___0_billingClient;
 		__this->___m_BillingClient = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_BillingClient), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:46>
 		RuntimeObject* L_8 = ___1_connectionService;
 		__this->___m_GooglePlayStoreConnectionService = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GooglePlayStoreConnectionService), (void*)L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 89493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreService_FetchProducts_m33ECF2A3030C61E1CEDAF2354E0BBDFD3151EA6A (GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* __this, RuntimeObject* ___0_products, Action_1_t840DAF19E1C7B9F182156E02000C38979DAF3B95* ___1_onProductsReceived, Action_1_t411BFB121A0F7FCEC6300E06444325E055305F9E* ___2_onFetchProductsFailed, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8486,22 +8323,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreService_FetchProducts_m33
 		return;
 	}
 }
-// Method Definition Index: 89494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreService_Purchase_mE3E86DE881B6F49663B1AFEE03FA1E9939C153A2 (GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, const RuntimeMethod* method) 
 {
 	Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:73>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_0 = ___0_product;
 		il2cpp_codegen_initobj((&V_0), sizeof(Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C));
 		Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C L_1 = V_0;
 		VirtualActionInvoker3< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F*, Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C >::Invoke(14, __this, L_0, (Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F*)NULL, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 89495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreService_Purchase_m39E1F705D27B0A3BE3F5F576A6A606A4E84EAA88 (GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* ___1_currentOrder, Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C ___2_desiredReplacementMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8522,7 +8355,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreService_Purchase_m39E1F70
 	CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* G_B3_0 = NULL;
 	RuntimeObject* G_B3_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:78>
 		RuntimeObject* L_0 = __this->___m_GoogleLastKnownProductService;
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_1 = ___1_currentOrder;
 		if (L_1)
@@ -8584,7 +8416,6 @@ IL_0032:
 	{
 		NullCheck(G_B5_1);
 		InterfaceActionInvoker1< String_t* >::Invoke(1, IGoogleLastKnownProductService_t46D4AC45C827098B1EABEF970B4B4C0982E0A6BF_il2cpp_TypeInfo_var, G_B5_1, G_B5_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:79>
 		RuntimeObject* L_10 = __this->___m_GoogleLastKnownProductService;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_11 = ___0_product;
 		NullCheck(L_11);
@@ -8592,23 +8423,19 @@ IL_0032:
 		L_12 = ProductDefinition_get_storeSpecificId_m67EC5C2564476BD154C8164613AB62A4DBEADEAC_inline(L_11, NULL);
 		NullCheck(L_10);
 		InterfaceActionInvoker1< String_t* >::Invoke(3, IGoogleLastKnownProductService_t46D4AC45C827098B1EABEF970B4B4C0982E0A6BF_il2cpp_TypeInfo_var, L_10, L_12);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:80>
 		RuntimeObject* L_13 = __this->___m_GoogleLastKnownProductService;
 		Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C L_14 = ___2_desiredReplacementMode;
 		NullCheck(L_13);
 		InterfaceActionInvoker1< Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C >::Invoke(5, IGoogleLastKnownProductService_t46D4AC45C827098B1EABEF970B4B4C0982E0A6BF_il2cpp_TypeInfo_var, L_13, L_14);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:81>
 		RuntimeObject* L_15 = __this->___m_GooglePurchaseService;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_16 = ___0_product;
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_17 = ___1_currentOrder;
 		Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C L_18 = ___2_desiredReplacementMode;
 		NullCheck(L_15);
 		InterfaceActionInvoker3< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F*, Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C >::Invoke(0, IGooglePurchaseService_tECBA22EBFF0E7E34E2065AF5C0DC97DF368DB68D_il2cpp_TypeInfo_var, L_15, L_16, L_17, L_18);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:82>
 		return;
 	}
 }
-// Method Definition Index: 89496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* GooglePlayStoreService_FinishTransaction_mA9AD808743C75EC91D72AC467879BF5F75C45C02 (GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, String_t* ___1_purchaseToken, Action_2_t2DECC09E5663F539C98B117A015A1984B4E461EF* ___2_onTransactionFinished, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8652,7 +8479,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_6;
 	}
 }
-// Method Definition Index: 89497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreService_FetchPurchases_mF2E8109D5FFC4E3DC4FDB6804E36CEF710322435 (GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* __this, Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D* ___0_onQueryPurchaseSucceed, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___1_onQueryPurchaseFailed, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8691,7 +8517,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreService_FetchPurchases_mF
 		return;
 	}
 }
-// Method Definition Index: 89498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* GooglePlayStoreService_TryFetchPurchases_mF77F6BDF01243FFCEE146A1EB691AC64F3280B5B (GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* __this, Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D* ___0_onQueryPurchaseSucceed, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8729,7 +8554,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_4;
 	}
 }
-// Method Definition Index: 89499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreService_CheckEntitlement_m3687C938B5AAAEB4658FEC389DC95E186DBFCB89 (GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, Action_2_tCE9A0BC45E32F4A213970A81384D57EE1F82AC01* ___1_onEntitlementChecked, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8739,17 +8563,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreService_CheckEntitlement_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:109>
 		RuntimeObject* L_0 = __this->___m_GoogleCheckEntitlementUseCase;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_1 = ___0_product;
 		Action_2_tCE9A0BC45E32F4A213970A81384D57EE1F82AC01* L_2 = ___1_onEntitlementChecked;
 		NullCheck(L_0);
 		InterfaceActionInvoker2< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, Action_2_tCE9A0BC45E32F4A213970A81384D57EE1F82AC01* >::Invoke(0, IGooglePlayCheckEntitlementUseCase_t10D653C16E19B9E58C0ABF6C99275BCADF7B445D_il2cpp_TypeInfo_var, L_0, L_1, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:110>
 		return;
 	}
 }
-// Method Definition Index: 89500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreService_SetObfuscatedAccountId_m858741B55EA9DB5303468BD86713231D939834F6 (GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* __this, String_t* ___0_obfuscatedAccountId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8759,16 +8580,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreService_SetObfuscatedAcco
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:114>
 		RuntimeObject* L_0 = __this->___m_BillingClient;
 		String_t* L_1 = ___0_obfuscatedAccountId;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< String_t* >::Invoke(9, IGoogleBillingClient_tFFCE37BCF2DD95E29D4BD358BC90DEB74C5C1537_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:115>
 		return;
 	}
 }
-// Method Definition Index: 89501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreService_SetObfuscatedProfileId_m336BCE2FCD7E711249767D9AAF8B94D038D4201E (GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* __this, String_t* ___0_obfuscatedProfileId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8778,16 +8596,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreService_SetObfuscatedProf
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:119>
 		RuntimeObject* L_0 = __this->___m_BillingClient;
 		String_t* L_1 = ___0_obfuscatedProfileId;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< String_t* >::Invoke(10, IGoogleBillingClient_tFFCE37BCF2DD95E29D4BD358BC90DEB74C5C1537_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:120>
 		return;
 	}
 }
-// Method Definition Index: 89502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePlayStoreService_IsConnectionReady_m76ED50B4EB8ACA1CA4376698134CBF91B0698482 (GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8797,7 +8612,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePlayStoreService_IsConnectionReady
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:124>
 		RuntimeObject* L_0 = __this->___m_GooglePlayStoreConnectionService;
 		NullCheck(L_0);
 		bool L_1;
@@ -8813,7 +8627,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePlayStoreService_IsConnectionReady
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFetchProductsU3Ed__10_MoveNext_m4581434CFE47AC810B54B32174663BFE99053DDB (U3CFetchProductsU3Ed__10_tE24AE8D136D9DFEDD29728A5EBBE3346C78B6A74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8858,7 +8671,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFetchProductsU3Ed__10_MoveNext_m45814
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:53>
 				GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* L_4 = V_1;
 				NullCheck(L_4);
 				RuntimeObject* L_5 = L_4->___m_QueryProductDetailsService;
@@ -8905,12 +8717,10 @@ IL_0073_2:
 				List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_16;
 				L_16 = TaskAwaiter_1_GetResult_m9BAE6B6C14735B7ABA5CAD2EA7473D235EB05B5B((&V_3), TaskAwaiter_1_GetResult_m9BAE6B6C14735B7ABA5CAD2EA7473D235EB05B5B_RuntimeMethod_var);
 				V_2 = L_16;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:54>
 				Action_1_t840DAF19E1C7B9F182156E02000C38979DAF3B95* L_17 = __this->___onProductsReceived;
 				List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_18 = V_2;
 				NullCheck(L_17);
 				Action_1_Invoke_m9308EB680B892FECF2CC72DF3A797E11B4C27B77_inline(L_17, L_18, NULL);
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:55>
 				goto IL_00c6_1;
 			}
 		}
@@ -8932,14 +8742,11 @@ IL_0073_2:
 CATCH_0089_1:
 		{
 			GoogleFetchProductException_t36069F90DE0EDB5F51BB9277A2ED06A479557FB8* L_19 = ((GoogleFetchProductException_t36069F90DE0EDB5F51BB9277A2ED06A479557FB8*)IL2CPP_GET_ACTIVE_EXCEPTION(GoogleFetchProductException_t36069F90DE0EDB5F51BB9277A2ED06A479557FB8*));;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:56>
 			V_4 = L_19;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:58>
 			Action_1_t411BFB121A0F7FCEC6300E06444325E055305F9E* L_20 = __this->___onFetchProductsFailed;
 			GoogleFetchProductException_t36069F90DE0EDB5F51BB9277A2ED06A479557FB8* L_21 = V_4;
 			NullCheck(L_20);
 			Action_1_Invoke_mB236722B37A734934AA3546256A563F814ADC855_inline(L_20, L_21, NULL);
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:59>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_00c6_1;
 		}
@@ -8947,10 +8754,7 @@ CATCH_0089_1:
 CATCH_009a_1:
 		{
 			Exception_t* L_22 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:60>
 			V_5 = L_22;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:62>
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:63>
 			Exception_t* L_23 = V_5;
 			NullCheck(L_23);
 			String_t* L_24;
@@ -8958,18 +8762,14 @@ CATCH_009a_1:
 			ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271* L_25 = (ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271_il2cpp_TypeInfo_var)));
 			ProductFetchFailureDescription__ctor_m478115AB3D52F9E466D2A3710C480C1F1018B992(L_25, 2, L_24, (bool)0, NULL);
 			V_6 = L_25;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:64>
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:65>
 			ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271* L_26 = V_6;
 			GoogleFetchProductException_t36069F90DE0EDB5F51BB9277A2ED06A479557FB8* L_27 = (GoogleFetchProductException_t36069F90DE0EDB5F51BB9277A2ED06A479557FB8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GoogleFetchProductException_t36069F90DE0EDB5F51BB9277A2ED06A479557FB8_il2cpp_TypeInfo_var)));
 			GoogleFetchProductException__ctor_m9E708502B0B5F992555F59AB733FF63668EFB3F0(L_27, 2, 6, L_26, NULL);
 			V_7 = L_27;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:67>
 			Action_1_t411BFB121A0F7FCEC6300E06444325E055305F9E* L_28 = __this->___onFetchProductsFailed;
 			GoogleFetchProductException_t36069F90DE0EDB5F51BB9277A2ED06A479557FB8* L_29 = V_7;
 			NullCheck(L_28);
 			Action_1_Invoke_mB236722B37A734934AA3546256A563F814ADC855_inline(L_28, L_29, NULL);
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:68>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_00c6_1;
 		}
@@ -9003,7 +8803,6 @@ CATCH_00c8:
 
 IL_00e1:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:69>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_33 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_33, NULL);
@@ -9021,7 +8820,6 @@ IL2CPP_EXTERN_C  void U3CFetchProductsU3Ed__10_MoveNext_m4581434CFE47AC810B54B32
 	_thisAdjusted = reinterpret_cast<U3CFetchProductsU3Ed__10_tE24AE8D136D9DFEDD29728A5EBBE3346C78B6A74*>(__this + _offset);
 	U3CFetchProductsU3Ed__10_MoveNext_m4581434CFE47AC810B54B32174663BFE99053DDB(_thisAdjusted, method);
 }
-// Method Definition Index: 89504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFetchProductsU3Ed__10_SetStateMachine_mF1D2B49579AB737782961D9478BE0CA5F66FB366 (U3CFetchProductsU3Ed__10_tE24AE8D136D9DFEDD29728A5EBBE3346C78B6A74* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -9046,7 +8844,6 @@ IL2CPP_EXTERN_C  void U3CFetchProductsU3Ed__10_SetStateMachine_mF1D2B49579AB7377
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFetchPurchasesU3Ed__14_MoveNext_m701E5085EB5DD2CC15C9F755651769B83A4BA293 (U3CFetchPurchasesU3Ed__14_tD9F053B74DCA7AE839352528900DF9BFFECF75D3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9083,7 +8880,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFetchPurchasesU3Ed__14_MoveNext_m701E
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:93>
 				GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* L_4 = V_1;
 				Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D* L_5 = __this->___onQueryPurchaseSucceed;
 				NullCheck(L_4);
@@ -9126,7 +8922,6 @@ IL_004f_2:
 IL_006b_2:
 			{
 				TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:94>
 				goto IL_0088_1;
 			}
 		}
@@ -9143,9 +8938,7 @@ IL_006b_2:
 CATCH_0074_1:
 		{
 			Exception_t* L_15 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:95>
 			V_3 = L_15;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:97>
 			Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_16 = __this->___onQueryPurchaseFailed;
 			Exception_t* L_17 = V_3;
 			NullCheck(L_17);
@@ -9153,7 +8946,6 @@ CATCH_0074_1:
 			L_18 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_17);
 			NullCheck(L_16);
 			Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(L_16, L_18, NULL);
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:98>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_0088_1;
 		}
@@ -9187,7 +8979,6 @@ CATCH_008a:
 
 IL_00a3:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:99>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_22 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_22, NULL);
@@ -9205,7 +8996,6 @@ IL2CPP_EXTERN_C  void U3CFetchPurchasesU3Ed__14_MoveNext_m701E5085EB5DD2CC15C9F7
 	_thisAdjusted = reinterpret_cast<U3CFetchPurchasesU3Ed__14_tD9F053B74DCA7AE839352528900DF9BFFECF75D3*>(__this + _offset);
 	U3CFetchPurchasesU3Ed__14_MoveNext_m701E5085EB5DD2CC15C9F755651769B83A4BA293(_thisAdjusted, method);
 }
-// Method Definition Index: 89506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFetchPurchasesU3Ed__14_SetStateMachine_mDCCA81EC7EEF1EBA80200CCEC205FFD682371218 (U3CFetchPurchasesU3Ed__14_tD9F053B74DCA7AE839352528900DF9BFFECF75D3* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -9230,7 +9020,6 @@ IL2CPP_EXTERN_C  void U3CFetchPurchasesU3Ed__14_SetStateMachine_mDCCA81EC7EEF1EB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFinishTransactionU3Ed__13_MoveNext_mDFBA914367809D4587140E142485A3B39FE6C36F (U3CFinishTransactionU3Ed__13_t5504A11ED1892CF3270E86927A82291994F95586* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9263,7 +9052,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFinishTransactionU3Ed__13_MoveNext_mD
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:86>
 			GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* L_3 = V_1;
 			NullCheck(L_3);
 			RuntimeObject* L_4 = L_3->___m_GoogleFinishTransactionUseCase;
@@ -9339,7 +9127,6 @@ CATCH_0082:
 
 IL_0099:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:87>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_20 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -9358,7 +9145,6 @@ IL2CPP_EXTERN_C  void U3CFinishTransactionU3Ed__13_MoveNext_mDFBA914367809D45871
 	_thisAdjusted = reinterpret_cast<U3CFinishTransactionU3Ed__13_t5504A11ED1892CF3270E86927A82291994F95586*>(__this + _offset);
 	U3CFinishTransactionU3Ed__13_MoveNext_mDFBA914367809D4587140E142485A3B39FE6C36F(_thisAdjusted, method);
 }
-// Method Definition Index: 89508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFinishTransactionU3Ed__13_SetStateMachine_m0C9E54F54E7D0D675FBFE7A2BF8A8CAF490CA025 (U3CFinishTransactionU3Ed__13_t5504A11ED1892CF3270E86927A82291994F95586* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9390,7 +9176,6 @@ IL2CPP_EXTERN_C  void U3CFinishTransactionU3Ed__13_SetStateMachine_m0C9E54F54E7D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTryFetchPurchasesU3Ed__15_MoveNext_m5BD244D7E61EE1E376B0B67F25A58C402FCB2EE8 (U3CTryFetchPurchasesU3Ed__15_tF4509372562884378E4F6C90AA9E9C3A82AAE05A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9427,7 +9212,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTryFetchPurchasesU3Ed__15_MoveNext_m5
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:103>
 			GooglePlayStoreService_t2C863ECAACFF16B3221517B73BD1B671ACF88D1A* L_3 = V_1;
 			NullCheck(L_3);
 			RuntimeObject* L_4 = L_3->___m_GoogleQueryPurchasesUseCase;
@@ -9474,7 +9258,6 @@ IL_0067_1:
 			List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_14;
 			L_14 = TaskAwaiter_1_GetResult_m4A75F64D2B672FA9F4E35942C45DFE9370CFA308((&V_3), TaskAwaiter_1_GetResult_m4A75F64D2B672FA9F4E35942C45DFE9370CFA308_RuntimeMethod_var);
 			V_2 = L_14;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:104>
 			Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D* L_15 = __this->___onQueryPurchaseSucceed;
 			List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_16 = V_2;
 			NullCheck(L_15);
@@ -9507,7 +9290,6 @@ CATCH_007d:
 
 IL_0096:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePlayStoreService.cs:105>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_20 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -9526,7 +9308,6 @@ IL2CPP_EXTERN_C  void U3CTryFetchPurchasesU3Ed__15_MoveNext_m5BD244D7E61EE1E376B
 	_thisAdjusted = reinterpret_cast<U3CTryFetchPurchasesU3Ed__15_tF4509372562884378E4F6C90AA9E9C3A82AAE05A*>(__this + _offset);
 	U3CTryFetchPurchasesU3Ed__15_MoveNext_m5BD244D7E61EE1E376B0B67F25A58C402FCB2EE8(_thisAdjusted, method);
 }
-// Method Definition Index: 89510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTryFetchPurchasesU3Ed__15_SetStateMachine_m545117DC53D6AB789CD408919F902B8BFB972DFB (U3CTryFetchPurchasesU3Ed__15_tF4509372562884378E4F6C90AA9E9C3A82AAE05A* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9558,33 +9339,25 @@ IL2CPP_EXTERN_C  void U3CTryFetchPurchasesU3Ed__15_SetStateMachine_m545117DC53D6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService__ctor_m8904AC0982707F771CFBC63D6B04450221FB8FE1 (GooglePurchaseService_tEB6A096517A2C55D2D8593348BE2EBDAEFE4BD61* __this, RuntimeObject* ___0_billingClient, RuntimeObject* ___1_googlePurchaseCallback, RuntimeObject* ___2_queryProductDetailsService, RuntimeObject* ___3_logger, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:21>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:23>
 		RuntimeObject* L_0 = ___0_billingClient;
 		__this->___m_BillingClient = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_BillingClient), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:24>
 		RuntimeObject* L_1 = ___1_googlePurchaseCallback;
 		__this->___m_GooglePurchaseCallback = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GooglePurchaseCallback), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:25>
 		RuntimeObject* L_2 = ___2_queryProductDetailsService;
 		__this->___m_QueryProductDetailsService = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_QueryProductDetailsService), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:26>
 		RuntimeObject* L_3 = ___3_logger;
 		__this->___m_Logger = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Logger), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:27>
 		return;
 	}
 }
-// Method Definition Index: 89512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_Purchase_m1F6B29D4C761213B72CC78EAAF7ECC32520818BE (GooglePurchaseService_tEB6A096517A2C55D2D8593348BE2EBDAEFE4BD61* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* ___1_currentOrder, Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C ___2_desiredReplacementMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9625,7 +9398,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_Purchase_m1F6B29D4
 		return;
 	}
 }
-// Method Definition Index: 89513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_OnQueryProductDetailsResponse_m9E56C3D3AF0D1479A22B96312378776F7E901357 (GooglePurchaseService_tEB6A096517A2C55D2D8593348BE2EBDAEFE4BD61* __this, List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* ___0_productDetailsList, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___1_productToBuy, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* ___2_currentOrder, Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C ___3_desiredReplacementMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9635,7 +9407,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_OnQueryProductDeta
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:37>
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_0 = ___0_productDetailsList;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_1 = ___1_productToBuy;
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_2 = ___2_currentOrder;
@@ -9647,7 +9418,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_OnQueryProductDeta
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:39>
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_4 = ___0_productDetailsList;
 		NullCheck(L_4);
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5;
@@ -9659,15 +9429,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_OnQueryProductDeta
 
 IL_001b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 89514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePurchaseService_ValidateQueryProductDetailsResponseParams_m3EEA4CA807A68C310A4F6F8F05C0F3981428379D (GooglePurchaseService_tEB6A096517A2C55D2D8593348BE2EBDAEFE4BD61* __this, List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* ___0_skus, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___1_productToBuy, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* ___2_currentOrder, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:45>
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_0 = ___0_skus;
 		bool L_1;
 		L_1 = GooglePurchaseService_ValidateSkus_m00A4F7D0DC89764578EDE993DC09AA60FF0AF320(__this, L_0, NULL);
@@ -9677,16 +9444,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePurchaseService_ValidateQueryProdu
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:47>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_2 = ___1_productToBuy;
 		GooglePurchaseService_PurchaseFailedSkuNotFound_m344A333B5D043A43BCA83FAD2F8760BF6C5270EB(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:48>
 		return (bool)0;
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:51>
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_3 = ___2_currentOrder;
 		if (!L_3)
 		{
@@ -9703,21 +9467,17 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:53>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_6 = ___1_productToBuy;
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_7 = ___2_currentOrder;
 		GooglePurchaseService_PurchaseFailedInvalidOldProduct_mA2D33F44E3F9EE3A92F1C622A537F569EAED6127(__this, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:54>
 		return (bool)0;
 	}
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:57>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 89515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePurchaseService_ValidateSkus_m00A4F7D0DC89764578EDE993DC09AA60FF0AF320 (GooglePurchaseService_tEB6A096517A2C55D2D8593348BE2EBDAEFE4BD61* __this, List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* ___0_skus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9727,10 +9487,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePurchaseService_ValidateSkus_m00A4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:62>
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_0 = ___0_skus;
 		GooglePurchaseService_VerifyAndWarnIfMoreThanOneSku_m6C4BE2CCAA5B0622D3394EE81839233DA68D05DC(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:63>
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_1 = ___0_skus;
 		if (L_1)
 		{
@@ -9750,7 +9508,6 @@ IL_000c:
 		return (bool)((((int32_t)L_3) > ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 89516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_VerifyAndWarnIfMoreThanOneSku_m6C4BE2CCAA5B0622D3394EE81839233DA68D05DC (GooglePurchaseService_tEB6A096517A2C55D2D8593348BE2EBDAEFE4BD61* __this, List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* ___0_skus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9764,7 +9521,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_VerifyAndWarnIfMor
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:68>
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_0 = ___0_skus;
 		if (!L_0)
 		{
@@ -9782,8 +9538,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_VerifyAndWarnIfMor
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:70>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:71>
 		RuntimeObject* L_3 = __this->___m_Logger;
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_4 = ___0_skus;
 		NullCheck(L_4);
@@ -9801,11 +9555,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_VerifyAndWarnIfMor
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:73>
 		return;
 	}
 }
-// Method Definition Index: 89517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_PurchaseFailedSkuNotFound_m344A333B5D043A43BCA83FAD2F8760BF6C5270EB (GooglePurchaseService_tEB6A096517A2C55D2D8593348BE2EBDAEFE4BD61* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_productToBuy, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9828,13 +9580,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_PurchaseFailedSkuN
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* G_B4_0 = NULL;
 	RuntimeObject* G_B4_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:77>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:78>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:79>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:80>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:81>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:82>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:83>
 		RuntimeObject* L_0 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_1 = __this->___m_ProductCache;
 		RuntimeObject* L_2 = L_1;
@@ -9897,11 +9642,9 @@ IL_002d:
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_11, L_10, 2, _stringLiteral9C1C927CF835A053C837D47E4CDB9EB0B18FD7B5, NULL);
 		NullCheck(G_B5_1);
 		InterfaceActionInvoker1< PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* >::Invoke(5, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, G_B5_1, L_11);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:84>
 		return;
 	}
 }
-// Method Definition Index: 89518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePurchaseService_ValidateCurrentOrder_m5A34F76D186CCB3F161BF2DBB8AE6B0A89ABC64C (Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* ___0_currentOrder, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9912,7 +9655,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePurchaseService_ValidateCurrentOrd
 	}
 	String_t* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:88>
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_0 = ___0_currentOrder;
 		if (L_0)
 		{
@@ -9943,7 +9685,6 @@ IL_0011:
 		return (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 89519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_PurchaseFailedInvalidOldProduct_mA2D33F44E3F9EE3A92F1C622A537F569EAED6127 (GooglePurchaseService_tEB6A096517A2C55D2D8593348BE2EBDAEFE4BD61* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_productToBuy, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* ___1_currentOrder, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9985,7 +9726,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_PurchaseFailedInva
 	CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* G_B13_3 = NULL;
 	RuntimeObject* G_B13_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:93>
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_0 = ___1_currentOrder;
 		if (L_0)
 		{
@@ -10032,13 +9772,6 @@ IL_001d:
 IL_0022:
 	{
 		V_0 = G_B5_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:94>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:95>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:96>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:97>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:98>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:99>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:100>
 		RuntimeObject* L_7 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_8 = __this->___m_ProductCache;
 		RuntimeObject* L_9 = L_8;
@@ -10144,11 +9877,9 @@ IL_006c:
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_23, G_B13_3, G_B13_2, L_22, NULL);
 		NullCheck(G_B13_4);
 		InterfaceActionInvoker1< PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* >::Invoke(5, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, G_B13_4, L_23);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:101>
 		return;
 	}
 }
-// Method Definition Index: 89520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_LaunchGoogleBillingFlow_m0C5C9F7A827F08504F2E09E3E0756A03F08A1772 (GooglePurchaseService_tEB6A096517A2C55D2D8593348BE2EBDAEFE4BD61* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_productToPurchase, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* ___1_currentOrder, Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C ___2_desiredReplacementMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10168,7 +9899,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_LaunchGoogleBillin
 	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* G_B3_1 = NULL;
 	RuntimeObject* G_B3_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:105>
 		RuntimeObject* L_0 = __this->___m_BillingClient;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = ___0_productToPurchase;
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_2 = ___1_currentOrder;
@@ -10209,17 +9939,14 @@ IL_0018:
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_7;
 		L_7 = InterfaceFuncInvoker3< AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C >::Invoke(6, IGoogleBillingClient_tFFCE37BCF2DD95E29D4BD358BC90DEB74C5C1537_il2cpp_TypeInfo_var, G_B3_2, G_B3_1, G_B3_0, L_6);
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:106>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_8 = V_0;
 		GoogleBillingResult_tC73DBFC9ADA1CAB5A40242B2B802FE310FF5BBD7* L_9 = (GoogleBillingResult_tC73DBFC9ADA1CAB5A40242B2B802FE310FF5BBD7*)il2cpp_codegen_object_new(GoogleBillingResult_tC73DBFC9ADA1CAB5A40242B2B802FE310FF5BBD7_il2cpp_TypeInfo_var);
 		GoogleBillingResult__ctor_mE8820658B4232D855E3A330C73B19D0764789611(L_9, L_8, NULL);
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_10 = ___0_productToPurchase;
 		GooglePurchaseService_HandleBillingFlowResult_m9F23BD48DD6CD58FCC87DAB44AD63CDDC1C77493(__this, L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:107>
 		return;
 	}
 }
-// Method Definition Index: 89521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_HandleBillingFlowResult_m9F23BD48DD6CD58FCC87DAB44AD63CDDC1C77493 (GooglePurchaseService_tEB6A096517A2C55D2D8593348BE2EBDAEFE4BD61* __this, RuntimeObject* ___0_billingResult, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___1_sku, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10246,7 +9973,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_HandleBillingFlowR
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* G_B5_0 = NULL;
 	RuntimeObject* G_B5_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:111>
 		RuntimeObject* L_0 = ___0_billingResult;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -10257,7 +9983,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_HandleBillingFlowR
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:113>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ___1_sku;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
 		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
@@ -10265,13 +9990,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_HandleBillingFlowR
 		String_t* L_4;
 		L_4 = AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F259008314180511C3D2AF40(L_2, _stringLiteral8A0C00507160E0F1EB2F6C3579529D1B4011A3F7, L_3, AndroidJavaObject_Call_TisString_t_m67FC2931E81004C3F259008314180511C3D2AF40_RuntimeMethod_var);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:114>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:115>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:116>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:117>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:118>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:119>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:120>
 		RuntimeObject* L_5 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_6 = __this->___m_ProductCache;
 		RuntimeObject* L_7 = L_6;
@@ -10336,19 +10054,15 @@ IL_003c:
 
 IL_0052:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:122>
 		return;
 	}
 }
-// Method Definition Index: 89522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_SetProductCache_m34F508B001E55A8656C6A570094E61AE3ACFBCD2 (GooglePurchaseService_tEB6A096517A2C55D2D8593348BE2EBDAEFE4BD61* __this, RuntimeObject* ___0_productCache, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:126>
 		RuntimeObject* L_0 = ___0_productCache;
 		__this->___m_ProductCache = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ProductCache), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:127>
 		return;
 	}
 }
@@ -10360,7 +10074,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseService_SetProductCache_m3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPurchaseU3Ed__6_MoveNext_mBB5924F2A8B7B370888F87D9FB3C1DE23EFDD811 (U3CPurchaseU3Ed__6_tF9E846B16CCD3D1A104C67DD515639290276C31F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10396,7 +10109,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPurchaseU3Ed__6_MoveNext_mBB5924F2A8B
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:31>
 			GooglePurchaseService_tEB6A096517A2C55D2D8593348BE2EBDAEFE4BD61* L_3 = V_1;
 			NullCheck(L_3);
 			RuntimeObject* L_4 = L_3->___m_QueryProductDetailsService;
@@ -10443,7 +10155,6 @@ IL_006d_1:
 			List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_15;
 			L_15 = TaskAwaiter_1_GetResult_mE2A78B225E6F7ECC411A299BC535611ABAD6BB71((&V_3), TaskAwaiter_1_GetResult_mE2A78B225E6F7ECC411A299BC535611ABAD6BB71_RuntimeMethod_var);
 			V_2 = L_15;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:32>
 			GooglePurchaseService_tEB6A096517A2C55D2D8593348BE2EBDAEFE4BD61* L_16 = V_1;
 			List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_17 = V_2;
 			ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_18 = __this->___product;
@@ -10478,7 +10189,6 @@ CATCH_0090:
 
 IL_00a9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchaseService.cs:33>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_24 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_24, NULL);
@@ -10496,7 +10206,6 @@ IL2CPP_EXTERN_C  void U3CPurchaseU3Ed__6_MoveNext_mBB5924F2A8B7B370888F87D9FB3C1
 	_thisAdjusted = reinterpret_cast<U3CPurchaseU3Ed__6_tF9E846B16CCD3D1A104C67DD515639290276C31F*>(__this + _offset);
 	U3CPurchaseU3Ed__6_MoveNext_mBB5924F2A8B7B370888F87D9FB3C1DE23EFDD811(_thisAdjusted, method);
 }
-// Method Definition Index: 89524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPurchaseU3Ed__6_SetStateMachine_mE84B0DF178EEB1FBE751B3B4CB5A1C1CF04502B8 (U3CPurchaseU3Ed__6_tF9E846B16CCD3D1A104C67DD515639290276C31F* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -10521,37 +10230,25 @@ IL2CPP_EXTERN_C  void U3CPurchaseU3Ed__6_SetStateMachine_mE84B0DF178EEB1FBE751B3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler__ctor_m0F73A4DF71D7FE862680FA08BB43F02E4C9F3B1B (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_googleLastKnownProductService, RuntimeObject* ___1_googlePurchaseCallback, RuntimeObject* ___2_googlePurchaseStateEnumProvider, RuntimeObject* ___3_googleQueryPurchasesUseCase, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:23>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:24>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:25>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:26>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:27>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:29>
 		RuntimeObject* L_0 = ___0_googleLastKnownProductService;
 		__this->___m_LastKnownProductService = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LastKnownProductService), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:30>
 		RuntimeObject* L_1 = ___1_googlePurchaseCallback;
 		__this->___m_GooglePurchaseCallback = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GooglePurchaseCallback), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:31>
 		RuntimeObject* L_2 = ___2_googlePurchaseStateEnumProvider;
 		__this->___m_GooglePurchaseStateEnumProvider = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GooglePurchaseStateEnumProvider), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:32>
 		RuntimeObject* L_3 = ___3_googleQueryPurchasesUseCase;
 		__this->___m_GoogleQueryPurchasesUseCase = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GoogleQueryPurchasesUseCase), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:33>
 		return;
 	}
 }
-// Method Definition Index: 89526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_SubscribeToPurchasesUpdatedEvent_m28B9BD0E0255C7824DEFD09E72D26FF4DD1DBC6D (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_purchasesUpdatedListener, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10562,17 +10259,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_SubscribeT
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:37>
 		RuntimeObject* L_0 = ___0_purchasesUpdatedListener;
 		Action_2_t22046713705B4A7F336D735574981D329ACF4466* L_1 = (Action_2_t22046713705B4A7F336D735574981D329ACF4466*)il2cpp_codegen_object_new(Action_2_t22046713705B4A7F336D735574981D329ACF4466_il2cpp_TypeInfo_var);
 		Action_2__ctor_m5BA71BEB49FD781849F4717C96BA067ED90A6650(L_1, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 4)), NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker1< Action_2_t22046713705B4A7F336D735574981D329ACF4466* >::Invoke(0, IGooglePurchasesUpdatedListener_tA200661BB213871A4F104A5B889BF191E50D1315_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:38>
 		return;
 	}
 }
-// Method Definition Index: 89527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleUpdatedPurchases_m0DECB70C80F253BE235AFA55726DB061BDCF1986 (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_result, List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* ___1_purchases, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10582,7 +10276,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleUpda
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:42>
 		RuntimeObject* L_0 = ___0_result;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -10593,7 +10286,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleUpda
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:44>
 		RuntimeObject* L_2 = ___0_result;
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_3 = ___1_purchases;
 		GooglePurchasesUpdatedHandler_HandleResultOkCases_m7CEE5A1A01667E6E4855AEFDAC3D19D08776869B(__this, L_2, L_3, NULL);
@@ -10602,15 +10294,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleUpda
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:48>
 		RuntimeObject* L_4 = ___0_result;
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_5 = ___1_purchases;
 		GooglePurchasesUpdatedHandler_HandleErrorCases_mA3EA2B77FE21D17ABA9BF243B224037DE0032836(__this, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:50>
 		return;
 	}
 }
-// Method Definition Index: 89528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleResultOkCases_m7CEE5A1A01667E6E4855AEFDAC3D19D08776869B (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_result, List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* ___1_purchases, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10622,7 +10311,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleResu
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:54>
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_0 = ___1_purchases;
 		bool L_1;
 		L_1 = Enumerable_Any_TisIGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_m36462AC3F5DC45DEBAF111003E2AA61A2660195A(L_0, Enumerable_Any_TisIGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_m36462AC3F5DC45DEBAF111003E2AA61A2660195A_RuntimeMethod_var);
@@ -10632,7 +10320,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleResu
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:56>
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_2 = ___1_purchases;
 		Action_1_t6EAFE2A8AC64C5B8D5F6F5E72FB0713250958548* L_3 = (Action_1_t6EAFE2A8AC64C5B8D5F6F5E72FB0713250958548*)il2cpp_codegen_object_new(Action_1_t6EAFE2A8AC64C5B8D5F6F5E72FB0713250958548_il2cpp_TypeInfo_var);
 		Action_1__ctor_mB475DD6C72ABCF469BBB19F3FE80312ABB13B87E(L_3, __this, (intptr_t)((void*)GooglePurchasesUpdatedHandler_OnPurchaseOk_m9C527177975190ADEA5D8B41D5FDF3F2E0CC9C15_RuntimeMethod_var), NULL);
@@ -10642,14 +10329,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleResu
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:60>
 		RuntimeObject* L_4 = ___0_result;
 		GooglePurchasesUpdatedHandler_HandleNoPurchasesErrorCase_m9A91671D81A0DF62D915EE59FB3C9B3C9B6BD665(__this, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:62>
 		return;
 	}
 }
-// Method Definition Index: 89529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleErrorCases_mA3EA2B77FE21D17ABA9BF243B224037DE0032836 (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_billingResult, List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* ___1_purchases, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10659,7 +10343,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleErro
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:66>
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_0 = ___1_purchases;
 		bool L_1;
 		L_1 = Enumerable_Any_TisIGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_m36462AC3F5DC45DEBAF111003E2AA61A2660195A(L_0, Enumerable_Any_TisIGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_m36462AC3F5DC45DEBAF111003E2AA61A2660195A_RuntimeMethod_var);
@@ -10669,7 +10352,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleErro
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:68>
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_2 = ___1_purchases;
 		RuntimeObject* L_3 = ___0_billingResult;
 		GooglePurchasesUpdatedHandler_HandleExistingPurchasesErrorCase_m535583F1C068476F18E0F148127DCFA2CB85F6D3(__this, L_2, L_3, NULL);
@@ -10678,14 +10360,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleErro
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:72>
 		RuntimeObject* L_4 = ___0_billingResult;
 		GooglePurchasesUpdatedHandler_HandleNoPurchasesErrorCase_m9A91671D81A0DF62D915EE59FB3C9B3C9B6BD665(__this, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 89530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleExistingPurchasesErrorCase_m535583F1C068476F18E0F148127DCFA2CB85F6D3 (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* ___0_purchases, RuntimeObject* ___1_billingResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10713,7 +10392,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleExis
 		NullCheck(L_2);
 		L_2->___billingResult = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___billingResult), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:78>
 		U3CU3Ec__DisplayClass10_0_t4263CD8FA6729C42B8CA1E339CC251418620EA77* L_4 = V_0;
 		NullCheck(L_4);
 		RuntimeObject* L_5 = L_4->___billingResult;
@@ -10726,7 +10404,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleExis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:80>
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_7 = ___0_purchases;
 		Action_1_t6EAFE2A8AC64C5B8D5F6F5E72FB0713250958548* L_8 = (Action_1_t6EAFE2A8AC64C5B8D5F6F5E72FB0713250958548*)il2cpp_codegen_object_new(Action_1_t6EAFE2A8AC64C5B8D5F6F5E72FB0713250958548_il2cpp_TypeInfo_var);
 		Action_1__ctor_mB475DD6C72ABCF469BBB19F3FE80312ABB13B87E(L_8, __this, (intptr_t)((void*)GooglePurchasesUpdatedHandler_OnPurchaseCancelled_m652B3EAB095B354FBEB8575739E7B8F9B6D328FD_RuntimeMethod_var), NULL);
@@ -10736,7 +10413,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleExis
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:82>
 		U3CU3Ec__DisplayClass10_0_t4263CD8FA6729C42B8CA1E339CC251418620EA77* L_9 = V_0;
 		NullCheck(L_9);
 		RuntimeObject* L_10 = L_9->___billingResult;
@@ -10749,7 +10425,6 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:84>
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_12 = ___0_purchases;
 		Action_1_t6EAFE2A8AC64C5B8D5F6F5E72FB0713250958548* L_13 = (Action_1_t6EAFE2A8AC64C5B8D5F6F5E72FB0713250958548*)il2cpp_codegen_object_new(Action_1_t6EAFE2A8AC64C5B8D5F6F5E72FB0713250958548_il2cpp_TypeInfo_var);
 		Action_1__ctor_mB475DD6C72ABCF469BBB19F3FE80312ABB13B87E(L_13, __this, (intptr_t)((void*)GooglePurchasesUpdatedHandler_OnPurchaseAlreadyOwned_m5B6527C80CA5DECE0D895240705FB7E74878C6F5_RuntimeMethod_var), NULL);
@@ -10759,17 +10434,14 @@ IL_0036:
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:88>
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_14 = ___0_purchases;
 		U3CU3Ec__DisplayClass10_0_t4263CD8FA6729C42B8CA1E339CC251418620EA77* L_15 = V_0;
 		Action_1_t6EAFE2A8AC64C5B8D5F6F5E72FB0713250958548* L_16 = (Action_1_t6EAFE2A8AC64C5B8D5F6F5E72FB0713250958548*)il2cpp_codegen_object_new(Action_1_t6EAFE2A8AC64C5B8D5F6F5E72FB0713250958548_il2cpp_TypeInfo_var);
 		Action_1__ctor_mB475DD6C72ABCF469BBB19F3FE80312ABB13B87E(L_16, L_15, (intptr_t)((void*)U3CU3Ec__DisplayClass10_0_U3CHandleExistingPurchasesErrorCaseU3Eb__0_mD6B23047F66AE5B611A6B759E80DF287B9AFE97D_RuntimeMethod_var), NULL);
 		GooglePurchasesUpdatedHandler_ApplyOnPurchases_mC33E3C94898BC5401E366ED8F60D19FD29676EA6(__this, L_14, L_16, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:90>
 		return;
 	}
 }
-// Method Definition Index: 89531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleNoPurchasesErrorCase_m9A91671D81A0DF62D915EE59FB3C9B3C9B6BD665 (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_billingResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10829,7 +10501,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleNoPu
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* G_B26_0 = NULL;
 	RuntimeObject* G_B26_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:94>
 		RuntimeObject* L_0 = ___0_billingResult;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -10869,23 +10540,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleNoPu
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:97>
 		RuntimeObject* L_4 = ___0_billingResult;
 		GooglePurchasesUpdatedHandler_HandleUserCancelledPurchaseFailure_mE220CC62BFE2CE0E4BF642FD7380B7051A7035EC(__this, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:98>
 		return;
 	}
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:100>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:101>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:102>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:103>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:104>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:105>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:106>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:107>
 		RuntimeObject* L_5 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_6 = __this->___m_ProductCache;
 		RuntimeObject* L_7 = L_6;
@@ -10962,20 +10623,11 @@ IL_0065:
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_23, L_15, 0, L_22, NULL);
 		NullCheck(G_B9_1);
 		InterfaceActionInvoker1< PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* >::Invoke(5, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, G_B9_1, L_23);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:108>
 		return;
 	}
 
 IL_009a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:110>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:111>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:112>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:113>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:114>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:115>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:116>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:117>
 		RuntimeObject* L_24 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_25 = __this->___m_ProductCache;
 		RuntimeObject* L_26 = L_25;
@@ -11052,20 +10704,11 @@ IL_00d1:
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_42, L_34, 6, L_41, NULL);
 		NullCheck(G_B15_1);
 		InterfaceActionInvoker1< PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* >::Invoke(5, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, G_B15_1, L_42);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:118>
 		return;
 	}
 
 IL_0106:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:120>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:121>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:122>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:123>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:124>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:125>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:126>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:127>
 		RuntimeObject* L_43 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_44 = __this->___m_ProductCache;
 		RuntimeObject* L_45 = L_44;
@@ -11142,20 +10785,11 @@ IL_013d:
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_61, L_53, ((int32_t)9), L_60, NULL);
 		NullCheck(G_B21_1);
 		InterfaceActionInvoker1< PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* >::Invoke(5, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, G_B21_1, L_61);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:128>
 		return;
 	}
 
 IL_0173:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:130>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:131>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:132>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:133>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:134>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:135>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:136>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:137>
 		RuntimeObject* L_62 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_63 = __this->___m_ProductCache;
 		RuntimeObject* L_64 = L_63;
@@ -11232,11 +10866,9 @@ IL_01aa:
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_80, L_72, ((int32_t)10), L_79, NULL);
 		NullCheck(G_B27_1);
 		InterfaceActionInvoker1< PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* >::Invoke(5, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, G_B27_1, L_80);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:140>
 		return;
 	}
 }
-// Method Definition Index: 89532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleUserCancelledPurchaseFailure_mE220CC62BFE2CE0E4BF642FD7380B7051A7035EC (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_billingResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11272,7 +10904,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleUser
 		return;
 	}
 }
-// Method Definition Index: 89533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleUserCancelledPurchaseFailure_m541908E3B50ECD652F1F6822522CD77704FB3C2E (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_billingResult, List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* ___1_googlePurchases, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11286,15 +10917,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleUser
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:151>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:152>
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_0 = ___1_googlePurchases;
 		Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* L_1 = (Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628*)il2cpp_codegen_object_new(Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628_il2cpp_TypeInfo_var);
 		Func_2__ctor_m76333B12C013FAC24D4DB213697E09ECCC522B8B(L_1, __this, (intptr_t)((void*)GooglePurchasesUpdatedHandler_U3CHandleUserCancelledPurchaseFailureU3Eb__13_0_m2E0F513A2DC9327D51C206E7DE7A480B6F621451_RuntimeMethod_var), NULL);
 		RuntimeObject* L_2;
 		L_2 = Enumerable_FirstOrDefault_TisIGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_mE6608CF3BE84917E17968F5F21BA1D2EFD62BDF0(L_0, L_1, Enumerable_FirstOrDefault_TisIGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_mE6608CF3BE84917E17968F5F21BA1D2EFD62BDF0_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:154>
 		RuntimeObject* L_3 = V_0;
 		if (!L_3)
 		{
@@ -11312,7 +10940,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleUser
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:156>
 		RuntimeObject* L_6 = V_0;
 		GooglePurchasesUpdatedHandler_OnPurchaseOk_m9C527177975190ADEA5D8B41D5FDF3F2E0CC9C15(__this, L_6, NULL);
 		return;
@@ -11320,14 +10947,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandleUser
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:160>
 		RuntimeObject* L_7 = ___0_billingResult;
 		GooglePurchasesUpdatedHandler_OnPurchaseCancelled_m66DD041E3DED5726A09756746E2B54048D11A45C(__this, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:162>
 		return;
 	}
 }
-// Method Definition Index: 89534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_ApplyOnPurchases_mC33E3C94898BC5401E366ED8F60D19FD29676EA6 (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* ___0_purchases, Action_1_t6EAFE2A8AC64C5B8D5F6F5E72FB0713250958548* ___1_action, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11343,7 +10967,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_ApplyOnPur
 	memset((&V_0), 0, sizeof(V_0));
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:166>
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_0 = ___0_purchases;
 		NullCheck(L_0);
 		Enumerator_t83F1C855E49C940A9339AE43EEA83AFF48F457AD L_1;
@@ -11368,11 +10991,9 @@ FINALLY_0023:
 
 IL_0009_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:166>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m648CC08AE14ECA4074C3C0A0A800CDBA45161536_inline((&V_0), Enumerator_get_Current_m648CC08AE14ECA4074C3C0A0A800CDBA45161536_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:168>
 				Action_1_t6EAFE2A8AC64C5B8D5F6F5E72FB0713250958548* L_3 = ___1_action;
 				RuntimeObject* L_4 = V_1;
 				NullCheck(L_3);
@@ -11381,7 +11002,6 @@ IL_0009_1:
 
 IL_0018_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:166>
 				bool L_5;
 				L_5 = Enumerator_MoveNext_m9C414148FF28B613A23A353EBD98B1C6EF9785E6((&V_0), Enumerator_MoveNext_m9C414148FF28B613A23A353EBD98B1C6EF9785E6_RuntimeMethod_var);
 				if (L_5)
@@ -11401,11 +11021,9 @@ IL_0018_1:
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:170>
 		return;
 	}
 }
-// Method Definition Index: 89535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_OnPurchaseOk_m9C527177975190ADEA5D8B41D5FDF3F2E0CC9C15 (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_googlePurchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11430,7 +11048,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_OnPurchase
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* G_B8_0 = NULL;
 	RuntimeObject* G_B8_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:174>
 		RuntimeObject* L_0 = ___0_googlePurchase;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -11445,7 +11062,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_OnPurchase
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:176>
 		RuntimeObject* L_4 = ___0_googlePurchase;
 		GooglePurchasesUpdatedHandler_HandlePurchasedProduct_m2143CCC7C077943002A926178726831340052DEA(__this, L_4, NULL);
 		return;
@@ -11453,7 +11069,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_OnPurchase
 
 IL_001b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:178>
 		RuntimeObject* L_5 = ___0_googlePurchase;
 		NullCheck(L_5);
 		int32_t L_6;
@@ -11468,7 +11083,6 @@ IL_001b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:180>
 		RuntimeObject* L_9 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_10 = ___0_googlePurchase;
 		NullCheck(L_9);
@@ -11478,14 +11092,6 @@ IL_001b:
 
 IL_003b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:184>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:185>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:186>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:187>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:188>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:189>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:190>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:191>
 		RuntimeObject* L_11 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_12 = __this->___m_ProductCache;
 		RuntimeObject* L_13 = L_12;
@@ -11548,11 +11154,9 @@ IL_0068:
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_22, L_21, ((int32_t)10), _stringLiteral6F69E793B4AFE79CBF592D702C7BFE73541699DF, NULL);
 		NullCheck(G_B9_1);
 		InterfaceActionInvoker1< PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* >::Invoke(5, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, G_B9_1, L_22);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:193>
 		return;
 	}
 }
-// Method Definition Index: 89536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandlePurchasedProduct_m2143CCC7C077943002A926178726831340052DEA (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_googlePurchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11563,7 +11167,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandlePurc
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:197>
 		RuntimeObject* L_0 = ___0_googlePurchase;
 		bool L_1;
 		L_1 = GooglePurchasesUpdatedHandler_IsDeferredSubscriptionChange_m6904F2F4F1A5514B6B405967BFCB354E32EDCBAD(__this, L_0, NULL);
@@ -11573,7 +11176,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandlePurc
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:199>
 		RuntimeObject* L_2 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_3 = __this->___m_LastKnownProductService;
 		NullCheck(L_3);
@@ -11586,7 +11188,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_HandlePurc
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:203>
 		RuntimeObject* L_5 = __this->___m_LastKnownProductService;
 		NullCheck(L_5);
 		String_t* L_6;
@@ -11615,7 +11216,6 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:205>
 		RuntimeObject* L_13 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_14 = __this->___m_LastKnownProductService;
 		NullCheck(L_14);
@@ -11627,16 +11227,13 @@ IL_0020:
 
 IL_0065:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:208>
 		RuntimeObject* L_16 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_17 = ___0_googlePurchase;
 		NullCheck(L_16);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(4, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, L_16, L_17);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:210>
 		return;
 	}
 }
-// Method Definition Index: 89537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePurchasesUpdatedHandler_IsDeferredSubscriptionChange_m6904F2F4F1A5514B6B405967BFCB354E32EDCBAD (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_googlePurchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11647,8 +11244,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePurchasesUpdatedHandler_IsDeferred
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:214>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:215>
 		bool L_0;
 		L_0 = GooglePurchasesUpdatedHandler_IsLastReplacementModeDeferred_mF8A3D4CE91CC3FB125229E3AD4DBC8F181829D58(__this, NULL);
 		if (!L_0)
@@ -11675,7 +11270,6 @@ IL_001f:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 89538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePurchasesUpdatedHandler_IsLastReplacementModeDeferred_mF8A3D4CE91CC3FB125229E3AD4DBC8F181829D58 (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11690,7 +11284,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePurchasesUpdatedHandler_IsLastRepl
 	memset((&V_0), 0, sizeof(V_0));
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:220>
 		RuntimeObject* L_0 = __this->___m_LastKnownProductService;
 		NullCheck(L_0);
 		Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C L_1;
@@ -11705,7 +11298,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePurchasesUpdatedHandler_IsLastRepl
 		return (bool)((int32_t)(((((int32_t)L_2) == ((int32_t)L_3))? 1 : 0)&(int32_t)L_4));
 	}
 }
-// Method Definition Index: 89539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_OnPurchaseCancelled_m66DD041E3DED5726A09756746E2B54048D11A45C (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_billingResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11732,7 +11324,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_OnPurchase
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* G_B7_0 = NULL;
 	RuntimeObject* G_B7_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:225>
 		RuntimeObject* L_0 = __this->___m_LastKnownProductService;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -11761,7 +11352,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_OnPurchase
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:227>
 		RuntimeObject* L_8 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_9 = __this->___m_LastKnownProductService;
 		NullCheck(L_9);
@@ -11773,14 +11363,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_OnPurchase
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:230>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:231>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:232>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:233>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:234>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:235>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:236>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:237>
 		RuntimeObject* L_11 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_12 = __this->___m_ProductCache;
 		RuntimeObject* L_13 = L_12;
@@ -11857,11 +11439,9 @@ IL_007c:
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_29, L_21, 4, L_28, NULL);
 		NullCheck(G_B8_1);
 		InterfaceActionInvoker1< PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* >::Invoke(5, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, G_B8_1, L_29);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:238>
 		return;
 	}
 }
-// Method Definition Index: 89540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_OnPurchaseCancelled_m652B3EAB095B354FBEB8575739E7B8F9B6D328FD (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_googlePurchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11887,14 +11467,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_OnPurchase
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* G_B4_0 = NULL;
 	RuntimeObject* G_B4_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:242>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:243>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:244>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:245>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:246>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:247>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:248>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:249>
 		RuntimeObject* L_0 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_1 = __this->___m_ProductCache;
 		RuntimeObject* L_2 = L_1;
@@ -11963,11 +11535,9 @@ IL_002d:
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_14, L_10, 4, L_13, NULL);
 		NullCheck(G_B5_1);
 		InterfaceActionInvoker1< PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* >::Invoke(5, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, G_B5_1, L_14);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:250>
 		return;
 	}
 }
-// Method Definition Index: 89541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_OnPurchaseAlreadyOwned_m5B6527C80CA5DECE0D895240705FB7E74878C6F5 (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_googlePurchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11993,14 +11563,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_OnPurchase
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* G_B4_0 = NULL;
 	RuntimeObject* G_B4_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:254>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:255>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:256>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:257>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:258>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:259>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:260>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:261>
 		RuntimeObject* L_0 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_1 = __this->___m_ProductCache;
 		RuntimeObject* L_2 = L_1;
@@ -12069,11 +11631,9 @@ IL_002d:
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_14, L_10, 6, L_13, NULL);
 		NullCheck(G_B5_1);
 		InterfaceActionInvoker1< PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* >::Invoke(5, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, G_B5_1, L_14);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:262>
 		return;
 	}
 }
-// Method Definition Index: 89542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_OnPurchaseFailedForUnknownReason_m8FF3D1D6C7DEF5BE32932B62E1CF6ED70213879D (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_googlePurchase, String_t* ___1_debugMessage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12097,14 +11657,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_OnPurchase
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* G_B4_0 = NULL;
 	RuntimeObject* G_B4_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:266>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:267>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:268>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:269>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:270>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:271>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:272>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:273>
 		RuntimeObject* L_0 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_1 = __this->___m_ProductCache;
 		RuntimeObject* L_2 = L_1;
@@ -12170,23 +11722,18 @@ IL_002d:
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_13, L_10, ((int32_t)10), L_12, NULL);
 		NullCheck(G_B5_1);
 		InterfaceActionInvoker1< PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* >::Invoke(5, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, G_B5_1, L_13);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:274>
 		return;
 	}
 }
-// Method Definition Index: 89543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedHandler_SetProductCache_m4C1D4FF52236BD6DC5260B959FEDE2CEA523B495 (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_productCache, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:278>
 		RuntimeObject* L_0 = ___0_productCache;
 		__this->___m_ProductCache = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ProductCache), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:279>
 		return;
 	}
 }
-// Method Definition Index: 89544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePurchasesUpdatedHandler_U3CHandleUserCancelledPurchaseFailureU3Eb__13_0_m2E0F513A2DC9327D51C206E7DE7A480B6F621451 (GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* __this, RuntimeObject* ___0_purchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12198,7 +11745,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePurchasesUpdatedHandler_U3CHandleU
 	}
 	String_t* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:152>
 		RuntimeObject* L_0 = ___0_purchase;
 		if (L_0)
 		{
@@ -12238,7 +11784,6 @@ IL_000c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_mD2D7C24D6AB1020C7142F47C36EFE56E744EC2F1 (U3CU3Ec__DisplayClass10_0_t4263CD8FA6729C42B8CA1E339CC251418620EA77* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12246,7 +11791,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_mD2D7C24
 		return;
 	}
 }
-// Method Definition Index: 89546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CHandleExistingPurchasesErrorCaseU3Eb__0_mD6B23047F66AE5B611A6B759E80DF287B9AFE97D (U3CU3Ec__DisplayClass10_0_t4263CD8FA6729C42B8CA1E339CC251418620EA77* __this, RuntimeObject* ___0_purchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12256,7 +11800,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CHandleExist
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:88>
 		GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* L_0 = __this->___U3CU3E4__this;
 		RuntimeObject* L_1 = ___0_purchase;
 		RuntimeObject* L_2 = __this->___billingResult;
@@ -12276,7 +11819,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CHandleExist
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleUserCancelledPurchaseFailureU3Ed__12_MoveNext_m9614A892FC687DF69812AF810D2FC8DCE1AA1D4A (U3CHandleUserCancelledPurchaseFailureU3Ed__12_t1B7B66A3FDF185C1C4B39CF76075F4F795B1456D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12312,7 +11854,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleUserCancelledPurchaseFailureU3E
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:144>
 			GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* L_3 = V_1;
 			NullCheck(L_3);
 			RuntimeObject* L_4 = L_3->___m_GoogleQueryPurchasesUseCase;
@@ -12358,7 +11899,6 @@ IL_0067_1:
 			List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_14;
 			L_14 = TaskAwaiter_1_GetResult_m4A75F64D2B672FA9F4E35942C45DFE9370CFA308((&V_3), TaskAwaiter_1_GetResult_m4A75F64D2B672FA9F4E35942C45DFE9370CFA308_RuntimeMethod_var);
 			V_2 = L_14;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:145>
 			GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* L_15 = V_1;
 			RuntimeObject* L_16 = __this->___billingResult;
 			List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_17 = V_2;
@@ -12391,7 +11931,6 @@ CATCH_007e:
 
 IL_0097:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GooglePurchasesUpdatedHandler.cs:146>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_21 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_21, NULL);
@@ -12409,7 +11948,6 @@ IL2CPP_EXTERN_C  void U3CHandleUserCancelledPurchaseFailureU3Ed__12_MoveNext_m96
 	_thisAdjusted = reinterpret_cast<U3CHandleUserCancelledPurchaseFailureU3Ed__12_t1B7B66A3FDF185C1C4B39CF76075F4F795B1456D*>(__this + _offset);
 	U3CHandleUserCancelledPurchaseFailureU3Ed__12_MoveNext_m9614A892FC687DF69812AF810D2FC8DCE1AA1D4A(_thisAdjusted, method);
 }
-// Method Definition Index: 89548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleUserCancelledPurchaseFailureU3Ed__12_SetStateMachine_m26945BDF56B1E1718AF350A5E08E8BE55191D966 (U3CHandleUserCancelledPurchaseFailureU3Ed__12_t1B7B66A3FDF185C1C4B39CF76075F4F795B1456D* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -12434,25 +11972,19 @@ IL2CPP_EXTERN_C  void U3CHandleUserCancelledPurchaseFailureU3Ed__12_SetStateMach
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleQueryPurchasesUseCase__ctor_m771085C93E3FCD5CF6619F3EC0A7832838307329 (GoogleQueryPurchasesUseCase_tB92697DD2FD128DEDAC33DB4E285F9F86B7C36A1* __this, RuntimeObject* ___0_billingClient, RuntimeObject* ___1_purchaseBuilder, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:19>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:21>
 		RuntimeObject* L_0 = ___0_billingClient;
 		__this->___m_BillingClient = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_BillingClient), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:22>
 		RuntimeObject* L_1 = ___1_purchaseBuilder;
 		__this->___m_PurchaseBuilder = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PurchaseBuilder), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 89550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tBB6FD49401B07BDAFDBA2A9EBF5A911D4E377324* GoogleQueryPurchasesUseCase_QueryPurchases_m40D1AF8D0148F3FC353C95B28DB8B23B1566F5F4 (GoogleQueryPurchasesUseCase_tB92697DD2FD128DEDAC33DB4E285F9F86B7C36A1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12489,7 +12021,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tBB6FD49401B07BDAFDBA2A9EBF5A911D4E377
 		return L_3;
 	}
 }
-// Method Definition Index: 89551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t60A79697DAF37813E6D6662DCF1E65375B26BA2F* GoogleQueryPurchasesUseCase_QueryPurchasesWithSkuType_m7FE684D2BCFEFEDFE7A9143E239984BC303570BC (GoogleQueryPurchasesUseCase_tB92697DD2FD128DEDAC33DB4E285F9F86B7C36A1* __this, String_t* ___0_skuType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12513,19 +12044,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t60A79697DAF37813E6D6662DCF1E65375B26B
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:33>
 		U3CU3Ec__DisplayClass4_0_t7D773A343DD10670B4267DF465C9CDAB6E32F4C4* L_2 = V_0;
 		TaskCompletionSource_1_tCA976B71DD0B9E7A88E05196AAEA371CD2E59B77* L_3 = (TaskCompletionSource_1_tCA976B71DD0B9E7A88E05196AAEA371CD2E59B77*)il2cpp_codegen_object_new(TaskCompletionSource_1_tCA976B71DD0B9E7A88E05196AAEA371CD2E59B77_il2cpp_TypeInfo_var);
 		TaskCompletionSource_1__ctor_m109E4DF9CA22823937B86683233E0523698E8112(L_3, TaskCompletionSource_1__ctor_m109E4DF9CA22823937B86683233E0523698E8112_RuntimeMethod_var);
 		NullCheck(L_2);
 		L_2->___taskCompletion = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___taskCompletion), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:34>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:35>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:36>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:37>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:38>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:39>
 		RuntimeObject* L_4 = __this->___m_BillingClient;
 		String_t* L_5 = ___0_skuType;
 		U3CU3Ec__DisplayClass4_0_t7D773A343DD10670B4267DF465C9CDAB6E32F4C4* L_6 = V_0;
@@ -12533,7 +12057,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t60A79697DAF37813E6D6662DCF1E65375B26B
 		Action_2__ctor_m030E50503D616E9CEA96AF5357D92DB41220CA1E(L_7, L_6, (intptr_t)((void*)U3CU3Ec__DisplayClass4_0_U3CQueryPurchasesWithSkuTypeU3Eb__0_m1A227CDBDCBAF821CE1BC14B2C422FB482E91129_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		InterfaceActionInvoker2< String_t*, Action_2_tBABFA1FBFBCD8E8B40EB5BDD131E2B7CBF7F2F1C* >::Invoke(4, IGoogleBillingClient_tFFCE37BCF2DD95E29D4BD358BC90DEB74C5C1537_il2cpp_TypeInfo_var, L_4, L_5, L_7);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:41>
 		U3CU3Ec__DisplayClass4_0_t7D773A343DD10670B4267DF465C9CDAB6E32F4C4* L_8 = V_0;
 		NullCheck(L_8);
 		TaskCompletionSource_1_tCA976B71DD0B9E7A88E05196AAEA371CD2E59B77* L_9 = L_8->___taskCompletion;
@@ -12543,7 +12066,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t60A79697DAF37813E6D6662DCF1E65375B26B
 		return L_10;
 	}
 }
-// Method Definition Index: 89552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB5395C42CE024EC096847E211C7613D069DA864E* GoogleQueryPurchasesUseCase_GetPurchaseByToken_m96560FA6D7A194C2ABD23F58772DF52A9FC8C8CE (GoogleQueryPurchasesUseCase_tB92697DD2FD128DEDAC33DB4E285F9F86B7C36A1* __this, String_t* ___0_purchaseToken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12583,7 +12105,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB5395C42CE024EC096847E211C7613D069DA8
 		return L_4;
 	}
 }
-// Method Definition Index: 89553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleQueryPurchasesUseCase_IsResultOk_mED54FD7FA20B1FABCE894FE1E49AF0EEFE350162 (RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12593,7 +12114,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleQueryPurchasesUseCase_IsResultOk_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:54>
 		RuntimeObject* L_0 = ___0_result;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -12609,7 +12129,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleQueryPurchasesUseCase_IsResultOk_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m245AD6630FD4E0A972670383CA79194210101D1F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12626,7 +12145,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m245AD6630FD4E0A972670383
 		return;
 	}
 }
-// Method Definition Index: 89555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m2734FD324008F80A463CA18AE9181BEF23DAD964 (U3CU3Ec_t053F125AA55B06AA3BD838FF0D13216A600463DC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12634,11 +12152,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m2734FD324008F80A463CA18AE
 		return;
 	}
 }
-// Method Definition Index: 89556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CQueryPurchasesU3Eb__3_0_mFE248544F7F3BD08C144541B82AAD177A5DD9681 (U3CU3Ec_t053F125AA55B06AA3BD838FF0D13216A600463DC* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:28>
 		RuntimeObject* L_0 = ___0_result;
 		return L_0;
 	}
@@ -12651,7 +12167,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CQueryPurchasesU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m2F4D86EE154CD6901E44D709A4474A4A41FDDE39 (U3CU3Ec__DisplayClass4_0_t7D773A343DD10670B4267DF465C9CDAB6E32F4C4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12659,7 +12174,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m2F4D86EE
 		return;
 	}
 }
-// Method Definition Index: 89558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CQueryPurchasesWithSkuTypeU3Eb__0_m1A227CDBDCBAF821CE1BC14B2C422FB482E91129 (U3CU3Ec__DisplayClass4_0_t7D773A343DD10670B4267DF465C9CDAB6E32F4C4* __this, RuntimeObject* ___0_billingResult, RuntimeObject* ___1_purchases, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12674,7 +12188,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CQueryPurchas
 	RuntimeObject* V_1 = NULL;
 	RuntimeObject* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:37>
 		RuntimeObject* L_0 = ___0_billingResult;
 		bool L_1;
 		L_1 = GoogleQueryPurchasesUseCase_IsResultOk_mED54FD7FA20B1FABCE894FE1E49AF0EEFE350162(L_0, NULL);
@@ -12707,13 +12220,11 @@ IL_0011:
 IL_0022:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:38>
 		TaskCompletionSource_1_tCA976B71DD0B9E7A88E05196AAEA371CD2E59B77* L_8 = __this->___taskCompletion;
 		RuntimeObject* L_9 = V_0;
 		NullCheck(L_8);
 		bool L_10;
 		L_10 = TaskCompletionSource_1_TrySetResult_m044F044E43C17C49C284F05EE800132A1FF1A45D(L_8, L_9, TaskCompletionSource_1_TrySetResult_m044F044E43C17C49C284F05EE800132A1FF1A45D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:39>
 		return;
 	}
 }
@@ -12725,7 +12236,6 @@ IL_0022:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_mFA13A51AB6EB6C905BD29E37335913DFB145CB92 (U3CU3Ec__DisplayClass5_0_t18B5174D62DA28FDA6B5D80D1F62105B2E1604E3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12733,7 +12243,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_mFA13A51A
 		return;
 	}
 }
-// Method Definition Index: 89560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass5_0_U3CGetPurchaseByTokenU3Eb__0_mC4BABC90F9E804F99572315C75C42E5D4EDC9513 (U3CU3Ec__DisplayClass5_0_t18B5174D62DA28FDA6B5D80D1F62105B2E1604E3* __this, RuntimeObject* ___0_purchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12743,7 +12252,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass5_0_U3CGetPurchaseB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:47>
 		RuntimeObject* L_0 = ___0_purchase;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -12762,7 +12270,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass5_0_U3CGetPurchaseB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetPurchaseByTokenU3Ed__5_MoveNext_m24C2FDA7B48457F8BEE9FF5369C08EE8A2C249A8 (U3CGetPurchaseByTokenU3Ed__5_tA959C646BCF3B4CA18D073E60023A32551A7C82E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12813,7 +12320,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetPurchaseByTokenU3Ed__5_MoveNext_m2
 			NullCheck(L_4);
 			L_4->___purchaseToken = L_5;
 			Il2CppCodeGenWriteBarrier((void**)(&L_4->___purchaseToken), (void*)L_5);
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:46>
 			GoogleQueryPurchasesUseCase_tB92697DD2FD128DEDAC33DB4E285F9F86B7C36A1* L_6 = V_1;
 			NullCheck(L_6);
 			Task_1_tBB6FD49401B07BDAFDBA2A9EBF5A911D4E377324* L_7;
@@ -12857,7 +12363,6 @@ IL_007e_1:
 		{
 			List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_16;
 			L_16 = TaskAwaiter_1_GetResult_m4A75F64D2B672FA9F4E35942C45DFE9370CFA308((&V_3), TaskAwaiter_1_GetResult_m4A75F64D2B672FA9F4E35942C45DFE9370CFA308_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:47>
 			RuntimeObject* L_17;
 			L_17 = EnumerableExtensions_NonNull_TisIGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_m3697BD4ED5C7F8DE6A5C3F9EB8701160F177CEE9(L_16, EnumerableExtensions_NonNull_TisIGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_m3697BD4ED5C7F8DE6A5C3F9EB8701160F177CEE9_RuntimeMethod_var);
 			U3CU3Ec__DisplayClass5_0_t18B5174D62DA28FDA6B5D80D1F62105B2E1604E3* L_18 = __this->___U3CU3E8__1;
@@ -12865,7 +12370,6 @@ IL_007e_1:
 			Func_2__ctor_m76333B12C013FAC24D4DB213697E09ECCC522B8B(L_19, L_18, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3CGetPurchaseByTokenU3Eb__0_mC4BABC90F9E804F99572315C75C42E5D4EDC9513_RuntimeMethod_var), NULL);
 			RuntimeObject* L_20;
 			L_20 = Enumerable_FirstOrDefault_TisIGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_mE6608CF3BE84917E17968F5F21BA1D2EFD62BDF0(L_17, L_19, Enumerable_FirstOrDefault_TisIGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_mE6608CF3BE84917E17968F5F21BA1D2EFD62BDF0_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:49>
 			V_2 = L_20;
 			goto IL_00c3;
 		}
@@ -12897,7 +12401,6 @@ CATCH_00a3:
 
 IL_00c3:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:50>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CU3E8__1 = (U3CU3Ec__DisplayClass5_0_t18B5174D62DA28FDA6B5D80D1F62105B2E1604E3*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1), (void*)(U3CU3Ec__DisplayClass5_0_t18B5174D62DA28FDA6B5D80D1F62105B2E1604E3*)NULL);
@@ -12919,7 +12422,6 @@ IL2CPP_EXTERN_C  void U3CGetPurchaseByTokenU3Ed__5_MoveNext_m24C2FDA7B48457F8BEE
 	_thisAdjusted = reinterpret_cast<U3CGetPurchaseByTokenU3Ed__5_tA959C646BCF3B4CA18D073E60023A32551A7C82E*>(__this + _offset);
 	U3CGetPurchaseByTokenU3Ed__5_MoveNext_m24C2FDA7B48457F8BEE9FF5369C08EE8A2C249A8(_thisAdjusted, method);
 }
-// Method Definition Index: 89562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetPurchaseByTokenU3Ed__5_SetStateMachine_m15CD283FEE7B8FBCFD4BF84E155CB9BA482CC541 (U3CGetPurchaseByTokenU3Ed__5_tA959C646BCF3B4CA18D073E60023A32551A7C82E* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12952,7 +12454,6 @@ IL2CPP_EXTERN_C  void U3CGetPurchaseByTokenU3Ed__5_SetStateMachine_m15CD283FEE7B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CQueryPurchasesU3Ed__3_MoveNext_m88118360B4C1C6C0110CE835220AD6E57C197496 (U3CQueryPurchasesU3Ed__3_t9AE96710FAA49E33F940A2957345A2BEDAD62B0C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13001,7 +12502,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CQueryPurchasesU3Ed__3_MoveNext_m88118
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:27>
 			Task_1U5BU5D_t1040254124C565374280F4778390156467BBCE13* L_3 = (Task_1U5BU5D_t1040254124C565374280F4778390156467BBCE13*)(Task_1U5BU5D_t1040254124C565374280F4778390156467BBCE13*)SZArrayNew(Task_1U5BU5D_t1040254124C565374280F4778390156467BBCE13_il2cpp_TypeInfo_var, (uint32_t)2);
 			Task_1U5BU5D_t1040254124C565374280F4778390156467BBCE13* L_4 = L_3;
 			GoogleQueryPurchasesUseCase_tB92697DD2FD128DEDAC33DB4E285F9F86B7C36A1* L_5 = V_1;
@@ -13065,7 +12565,6 @@ IL_0083_1:
 		{
 			IEnumerable_1U5BU5D_tEE556E0638E90B7340BCC4FBDEE0F0D44AF56E25* L_21;
 			L_21 = TaskAwaiter_1_GetResult_mACBC7E1C2117DCE2FCF6BDE17F3BD3BFC00CAC75((&V_3), TaskAwaiter_1_GetResult_mACBC7E1C2117DCE2FCF6BDE17F3BD3BFC00CAC75_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:28>
 			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t053F125AA55B06AA3BD838FF0D13216A600463DC_il2cpp_TypeInfo_var);
 			Func_2_t2FA42F660D0D8540616B309D60242396704E201D* L_22 = ((U3CU3Ec_t053F125AA55B06AA3BD838FF0D13216A600463DC_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t053F125AA55B06AA3BD838FF0D13216A600463DC_il2cpp_TypeInfo_var))->___U3CU3E9__3_0;
 			Func_2_t2FA42F660D0D8540616B309D60242396704E201D* L_23 = L_22;
@@ -13125,7 +12624,6 @@ CATCH_00b6:
 
 IL_00cf:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/GoogleQueryPurchasesUseCase.cs:29>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t574133A892D3576E6A1DC6B25C81466DCC05EA38* L_32 = (AsyncTaskMethodBuilder_1_t574133A892D3576E6A1DC6B25C81466DCC05EA38*)(&__this->___U3CU3Et__builder);
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_33 = V_2;
@@ -13145,7 +12643,6 @@ IL2CPP_EXTERN_C  void U3CQueryPurchasesU3Ed__3_MoveNext_m88118360B4C1C6C0110CE83
 	_thisAdjusted = reinterpret_cast<U3CQueryPurchasesU3Ed__3_t9AE96710FAA49E33F940A2957345A2BEDAD62B0C*>(__this + _offset);
 	U3CQueryPurchasesU3Ed__3_MoveNext_m88118360B4C1C6C0110CE835220AD6E57C197496(_thisAdjusted, method);
 }
-// Method Definition Index: 89564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CQueryPurchasesU3Ed__3_SetStateMachine_m384BAE98ADD6417BF33287164CCAA21B1EFA43FE (U3CQueryPurchasesU3Ed__3_t9AE96710FAA49E33F940A2957345A2BEDAD62B0C* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13178,7 +12675,6 @@ IL2CPP_EXTERN_C  void U3CQueryPurchasesU3Ed__3_SetStateMachine_m384BAE98ADD6417B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BillingClientStateListener__ctor_m315ECB603FA6A674F9C70AFF6B9EF266EE232991 (BillingClientStateListener_t9BACCEF92ECA646BB4504E9DE71C2FD2AACA6FF7* __this, RuntimeObject* ___0_util, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13189,42 +12685,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BillingClientStateListener__ctor_m315ECB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:23>
 		il2cpp_codegen_runtime_class_init_inline(AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var);
 		AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7(__this, _stringLiteral9F4EDDD8204ADE42A883BA8C34185DD2BB600B6D, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:25>
 		RuntimeObject* L_0 = ___0_util;
 		__this->___m_Util = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Util), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 89570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BillingClientStateListener_RegisterOnConnected_m6AA3EAF6B5E45F8A999A677D18A966A06FDD67F9 (BillingClientStateListener_t9BACCEF92ECA646BB4504E9DE71C2FD2AACA6FF7* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_onConnected, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:30>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___0_onConnected;
 		__this->___m_OnConnected = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnConnected), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 89571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BillingClientStateListener_RegisterOnDisconnected_m13B7F427778F36EFBB229004BC3CAA4182723F1D (BillingClientStateListener_t9BACCEF92ECA646BB4504E9DE71C2FD2AACA6FF7* __this, Action_1_tF6EBD1EABF12C4673F29930B310E5777E337B51C* ___0_onDisconnected, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:35>
 		Action_1_tF6EBD1EABF12C4673F29930B310E5777E337B51C* L_0 = ___0_onDisconnected;
 		__this->___m_Disconnect = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Disconnect), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 89572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BillingClientStateListener_onBillingSetupFinished_mE5E6643832FE7982C3E241CE97D0D5914BA6C867 (BillingClientStateListener_t9BACCEF92ECA646BB4504E9DE71C2FD2AACA6FF7* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_billingResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13250,18 +12736,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BillingClientStateListener_onBillingSetu
 		NullCheck(L_2);
 		L_2->___billingResult = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___billingResult), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:41>
 		RuntimeObject* L_4 = __this->___m_Util;
 		U3CU3Ec__DisplayClass7_0_t8D13DE0FE56F7A7150DE5E818BDA1EF1348D25CB* L_5 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass7_0_U3ConBillingSetupFinishedU3Eb__0_mF4C47E5ACCA1607009D80F207EE2BBBD75553D21_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		InterfaceActionInvoker1< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* >::Invoke(22, IUtil_t7909908832446A01C893925BD0795F01D065F23E_il2cpp_TypeInfo_var, L_4, L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:42>
 		return;
 	}
 }
-// Method Definition Index: 89573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BillingClientStateListener_HandleBillingSetupFinished_m55B3756E9B7203CA965AD8AF491949DDD7E76094 (BillingClientStateListener_t9BACCEF92ECA646BB4504E9DE71C2FD2AACA6FF7* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_billingResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13273,12 +12756,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BillingClientStateListener_HandleBilling
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:46>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ___0_billingResult;
 		GoogleBillingResult_tC73DBFC9ADA1CAB5A40242B2B802FE310FF5BBD7* L_1 = (GoogleBillingResult_tC73DBFC9ADA1CAB5A40242B2B802FE310FF5BBD7*)il2cpp_codegen_object_new(GoogleBillingResult_tC73DBFC9ADA1CAB5A40242B2B802FE310FF5BBD7_il2cpp_TypeInfo_var);
 		GoogleBillingResult__ctor_mE8820658B4232D855E3A330C73B19D0764789611(L_1, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:47>
 		RuntimeObject* L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3;
@@ -13289,7 +12770,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BillingClientStateListener_HandleBilling
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:49>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = __this->___m_OnConnected;
 		NullCheck(L_4);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_4, NULL);
@@ -13298,7 +12778,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BillingClientStateListener_HandleBilling
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:53>
 		Action_1_tF6EBD1EABF12C4673F29930B310E5777E337B51C* L_5 = __this->___m_Disconnect;
 		RuntimeObject* L_6 = V_0;
 		NullCheck(L_6);
@@ -13310,15 +12789,12 @@ IL_001c:
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:56>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_8 = ___0_billingResult;
 		NullCheck(L_8);
 		AndroidJavaObject_Dispose_m2B1593C20B3CE1C8FF95982F638F50985F9DD9E6(L_8, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 89574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BillingClientStateListener_onBillingServiceDisconnected_m813CBCE1FF29043968A1DFE71C8D83E3B9EBE711 (BillingClientStateListener_t9BACCEF92ECA646BB4504E9DE71C2FD2AACA6FF7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13330,21 +12806,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BillingClientStateListener_onBillingServ
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:62>
 		RuntimeObject* L_0 = __this->___m_Util;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)BillingClientStateListener_U3ConBillingServiceDisconnectedU3Eb__9_0_m0806BC97E707C24A01DC2868CBA6579E4BD5E870_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker1< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* >::Invoke(22, IUtil_t7909908832446A01C893925BD0795F01D065F23E_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:63>
 		return;
 	}
 }
-// Method Definition Index: 89575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BillingClientStateListener_U3ConBillingServiceDisconnectedU3Eb__9_0_m0806BC97E707C24A01DC2868CBA6579E4BD5E870 (BillingClientStateListener_t9BACCEF92ECA646BB4504E9DE71C2FD2AACA6FF7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:62>
 		Action_1_tF6EBD1EABF12C4673F29930B310E5777E337B51C* L_0 = __this->___m_Disconnect;
 		NullCheck(L_0);
 		Action_1_Invoke_m91D455802F839752063099C284123474D197460E_inline(L_0, (-1), NULL);
@@ -13359,7 +12831,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BillingClientStateListener_U3ConBillingS
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_mC2C2EBB0B19F667F57B15E41B52327774BAB6946 (U3CU3Ec__DisplayClass7_0_t8D13DE0FE56F7A7150DE5E818BDA1EF1348D25CB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13367,11 +12838,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_mC2C2EBB0
 		return;
 	}
 }
-// Method Definition Index: 89577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3ConBillingSetupFinishedU3Eb__0_mF4C47E5ACCA1607009D80F207EE2BBBD75553D21 (U3CU3Ec__DisplayClass7_0_t8D13DE0FE56F7A7150DE5E818BDA1EF1348D25CB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/BillingClientStateListener.cs:41>
 		BillingClientStateListener_t9BACCEF92ECA646BB4504E9DE71C2FD2AACA6FF7* L_0 = __this->___U3CU3E4__this;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = __this->___billingResult;
 		NullCheck(L_0);
@@ -13387,7 +12856,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3ConBillingSet
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAcknowledgePurchaseListener__ctor_m0F0D4ED62D9D55952F332ADA773937B00EFC805E (GoogleAcknowledgePurchaseListener_tAEDDA2EA0541273BEB1B3EB3FD570C52607D5709* __this, Action_1_tBBC611382C7211FB870AB6B82164F24B27C1B421* ___0_onAcknowledgePurchaseResponseAction, RuntimeObject* ___1_util, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13398,22 +12866,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAcknowledgePurchaseListener__ctor_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleAcknowledgePurchaseListener.cs:22>
 		il2cpp_codegen_runtime_class_init_inline(AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var);
 		AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7(__this, _stringLiteral73E8F65EF978A7F52E0C5B28FF5C96E3560F675E, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleAcknowledgePurchaseListener.cs:24>
 		Action_1_tBBC611382C7211FB870AB6B82164F24B27C1B421* L_0 = ___0_onAcknowledgePurchaseResponseAction;
 		__this->___m_OnAcknowledgePurchaseResponse = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnAcknowledgePurchaseResponse), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleAcknowledgePurchaseListener.cs:25>
 		RuntimeObject* L_1 = ___1_util;
 		__this->___m_Util = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Util), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleAcknowledgePurchaseListener.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 89579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAcknowledgePurchaseListener_onAcknowledgePurchaseResponse_m76B8A8B0BB7BE35D0394F9831C3585AC0E0EA961 (GoogleAcknowledgePurchaseListener_tAEDDA2EA0541273BEB1B3EB3FD570C52607D5709* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_billingResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13439,18 +12902,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAcknowledgePurchaseListener_onAckn
 		NullCheck(L_2);
 		L_2->___billingResult = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___billingResult), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleAcknowledgePurchaseListener.cs:31>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleAcknowledgePurchaseListener.cs:32>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleAcknowledgePurchaseListener.cs:33>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleAcknowledgePurchaseListener.cs:34>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleAcknowledgePurchaseListener.cs:35>
 		RuntimeObject* L_4 = __this->___m_Util;
 		U3CU3Ec__DisplayClass4_0_t8D689B4E1C570D7D4CAE492824340EA9DDCBF190* L_5 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass4_0_U3ConAcknowledgePurchaseResponseU3Eb__0_mAE6FC3AE80302C4162487CA614A05EB731A5D9B1_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		InterfaceActionInvoker1< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* >::Invoke(22, IUtil_t7909908832446A01C893925BD0795F01D065F23E_il2cpp_TypeInfo_var, L_4, L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleAcknowledgePurchaseListener.cs:36>
 		return;
 	}
 }
@@ -13462,7 +12919,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAcknowledgePurchaseListener_onAckn
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m874DBB7CC628A3634085CC73ACDF19569C75214A (U3CU3Ec__DisplayClass4_0_t8D689B4E1C570D7D4CAE492824340EA9DDCBF190* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13470,7 +12926,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m874DBB7C
 		return;
 	}
 }
-// Method Definition Index: 89581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3ConAcknowledgePurchaseResponseU3Eb__0_mAE6FC3AE80302C4162487CA614A05EB731A5D9B1 (U3CU3Ec__DisplayClass4_0_t8D689B4E1C570D7D4CAE492824340EA9DDCBF190* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13480,7 +12935,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3ConAcknowledg
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleAcknowledgePurchaseListener.cs:33>
 		GoogleAcknowledgePurchaseListener_tAEDDA2EA0541273BEB1B3EB3FD570C52607D5709* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		Action_1_tBBC611382C7211FB870AB6B82164F24B27C1B421* L_1 = L_0->___m_OnAcknowledgePurchaseResponse;
@@ -13489,11 +12943,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3ConAcknowledg
 		GoogleBillingResult__ctor_mE8820658B4232D855E3A330C73B19D0764789611(L_3, L_2, NULL);
 		NullCheck(L_1);
 		Action_1_Invoke_mACD66004702A98E91DC94BE91CF7DC68AC32B49A_inline(L_1, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleAcknowledgePurchaseListener.cs:34>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_4 = __this->___billingResult;
 		NullCheck(L_4);
 		AndroidJavaObject_Dispose_m2B1593C20B3CE1C8FF95982F638F50985F9DD9E6(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleAcknowledgePurchaseListener.cs:35>
 		return;
 	}
 }
@@ -13505,7 +12957,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3ConAcknowledg
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleConsumeResponseListener__ctor_mED0599ABBE1BA935F5167F9ED6DC74FADD35EF9B (GoogleConsumeResponseListener_t0ED2834EA7D01A19742CD5903E3AD759E9762616* __this, Action_1_tBBC611382C7211FB870AB6B82164F24B27C1B421* ___0_onConsumeResponseAction, RuntimeObject* ___1_util, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13516,22 +12967,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleConsumeResponseListener__ctor_mED0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleConsumeResponseListener.cs:20>
 		il2cpp_codegen_runtime_class_init_inline(AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var);
 		AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7(__this, _stringLiteral22B556A72FF5A42AA2D9C0EA454838C85B2EDDFD, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleConsumeResponseListener.cs:22>
 		Action_1_tBBC611382C7211FB870AB6B82164F24B27C1B421* L_0 = ___0_onConsumeResponseAction;
 		__this->___m_OnConsumeResponse = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnConsumeResponse), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleConsumeResponseListener.cs:23>
 		RuntimeObject* L_1 = ___1_util;
 		__this->___m_Util = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Util), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleConsumeResponseListener.cs:24>
 		return;
 	}
 }
-// Method Definition Index: 89583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleConsumeResponseListener_onConsumeResponse_mF079873F261FB2989E1A54B0DD052CB94A976A4A (GoogleConsumeResponseListener_t0ED2834EA7D01A19742CD5903E3AD759E9762616* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_billingResult, String_t* ___1_purchaseToken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13557,18 +13003,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleConsumeResponseListener_onConsumeR
 		NullCheck(L_2);
 		L_2->___billingResult = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___billingResult), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleConsumeResponseListener.cs:29>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleConsumeResponseListener.cs:30>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleConsumeResponseListener.cs:31>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleConsumeResponseListener.cs:32>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleConsumeResponseListener.cs:33>
 		RuntimeObject* L_4 = __this->___m_Util;
 		U3CU3Ec__DisplayClass4_0_tF484E2067983FB6D458CF962FB4BC25E683E57C4* L_5 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass4_0_U3ConConsumeResponseU3Eb__0_mDDAC95663386E36E5DF50227B817475CF78E755E_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		InterfaceActionInvoker1< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* >::Invoke(22, IUtil_t7909908832446A01C893925BD0795F01D065F23E_il2cpp_TypeInfo_var, L_4, L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleConsumeResponseListener.cs:34>
 		return;
 	}
 }
@@ -13580,7 +13020,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleConsumeResponseListener_onConsumeR
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_mBB9E13587180E8FE1A679C8AE1D2C203C896C356 (U3CU3Ec__DisplayClass4_0_tF484E2067983FB6D458CF962FB4BC25E683E57C4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13588,7 +13027,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_mBB9E1358
 		return;
 	}
 }
-// Method Definition Index: 89585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3ConConsumeResponseU3Eb__0_mDDAC95663386E36E5DF50227B817475CF78E755E (U3CU3Ec__DisplayClass4_0_tF484E2067983FB6D458CF962FB4BC25E683E57C4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13598,7 +13036,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3ConConsumeRes
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleConsumeResponseListener.cs:31>
 		GoogleConsumeResponseListener_t0ED2834EA7D01A19742CD5903E3AD759E9762616* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		Action_1_tBBC611382C7211FB870AB6B82164F24B27C1B421* L_1 = L_0->___m_OnConsumeResponse;
@@ -13607,11 +13044,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3ConConsumeRes
 		GoogleBillingResult__ctor_mE8820658B4232D855E3A330C73B19D0764789611(L_3, L_2, NULL);
 		NullCheck(L_1);
 		Action_1_Invoke_mACD66004702A98E91DC94BE91CF7DC68AC32B49A_inline(L_1, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleConsumeResponseListener.cs:32>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_4 = __this->___billingResult;
 		NullCheck(L_4);
 		AndroidJavaObject_Dispose_m2B1593C20B3CE1C8FF95982F638F50985F9DD9E6(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GoogleConsumeResponseListener.cs:33>
 		return;
 	}
 }
@@ -13623,7 +13058,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3ConConsumeRes
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesResponseListener__ctor_m63DEA83E1FC510B36A32725CC30598C29FF603D5 (GooglePurchasesResponseListener_tFFD56062E067D4343972FA8B07E9EAEEDD233D42* __this, Action_2_tBABFA1FBFBCD8E8B40EB5BDD131E2B7CBF7F2F1C* ___0_onQueryPurchasesResponse, RuntimeObject* ___1_util, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13634,22 +13068,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesResponseListener__ctor_m6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:24>
 		il2cpp_codegen_runtime_class_init_inline(AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var);
 		AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7(__this, _stringLiteral57755B36642ACCC948A92CA2E16CF33DA420A755, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:26>
 		Action_2_tBABFA1FBFBCD8E8B40EB5BDD131E2B7CBF7F2F1C* L_0 = ___0_onQueryPurchasesResponse;
 		__this->___m_OnQueryPurchasesResponse = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnQueryPurchasesResponse), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:27>
 		RuntimeObject* L_1 = ___1_util;
 		__this->___m_Util = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Util), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 89587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesResponseListener_onQueryPurchasesResponse_m45B0D565679F1B632EA70932B934185F17F4CD81 (GooglePurchasesResponseListener_tFFD56062E067D4343972FA8B07E9EAEEDD233D42* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_billingResult, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___1_purchases, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13680,26 +13109,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesResponseListener_onQueryP
 		NullCheck(L_4);
 		L_4->___billingResult = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___billingResult), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:33>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:34>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:35>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:36>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:37>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:38>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:39>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:40>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:41>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:42>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:43>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:45>
 		RuntimeObject* L_6 = __this->___m_Util;
 		U3CU3Ec__DisplayClass4_0_t662D0AC5C5387F001FBCD0793FB45EBBBD0B403A* L_7 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_8, L_7, (intptr_t)((void*)U3CU3Ec__DisplayClass4_0_U3ConQueryPurchasesResponseU3Eb__0_mF074B0DFBA5C94BDF2836D55BF3C69C20302D9AF_RuntimeMethod_var), NULL);
 		NullCheck(L_6);
 		InterfaceActionInvoker1< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* >::Invoke(22, IUtil_t7909908832446A01C893925BD0795F01D065F23E_il2cpp_TypeInfo_var, L_6, L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:46>
 		return;
 	}
 }
@@ -13711,7 +13126,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesResponseListener_onQueryP
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m75F85CE01B1D4E5D6E70232FB7C90E05E3D8EBDA (U3CU3Ec__DisplayClass4_0_t662D0AC5C5387F001FBCD0793FB45EBBBD0B403A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13719,7 +13133,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m75F85CE0
 		return;
 	}
 }
-// Method Definition Index: 89589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3ConQueryPurchasesResponseU3Eb__0_mF074B0DFBA5C94BDF2836D55BF3C69C20302D9AF (U3CU3Ec__DisplayClass4_0_t662D0AC5C5387F001FBCD0793FB45EBBBD0B403A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13741,14 +13154,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3ConQueryPurch
 	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* G_B10_0 = NULL;
 	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* G_B9_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:35>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___purchases;
 		RuntimeObject* L_1;
 		L_1 = AndroidJavaObjectExtensions_Enumerate_m8D1A4474E054713477508C758D378DA9BE10E01F(L_0, NULL);
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_2;
 		L_2 = Enumerable_ToList_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m2C093DAAAEB4344056B8E407A80D09DB41B8C092(L_1, Enumerable_ToList_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m2C093DAAAEB4344056B8E407A80D09DB41B8C092_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:36>
 		GooglePurchasesResponseListener_tFFD56062E067D4343972FA8B07E9EAEEDD233D42* L_3 = __this->___U3CU3E4__this;
 		NullCheck(L_3);
 		Action_2_tBABFA1FBFBCD8E8B40EB5BDD131E2B7CBF7F2F1C* L_4 = L_3->___m_OnQueryPurchasesResponse;
@@ -13758,7 +13169,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3ConQueryPurch
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_7 = V_0;
 		NullCheck(L_4);
 		Action_2_Invoke_m926BAB213CABA444492F8C07DA534F017F9142B0_inline(L_4, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:38>
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_8 = V_0;
 		NullCheck(L_8);
 		Enumerator_tA4CC3E337202EB983AF03F61B672DE3F226C0090 L_9;
@@ -13783,10 +13193,8 @@ FINALLY_0053:
 
 IL_0036_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:38>
 				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_10;
 				L_10 = Enumerator_get_Current_m1840848A627FD2045207C5361CCE21E6CB3F31A9_inline((&V_1), Enumerator_get_Current_m1840848A627FD2045207C5361CCE21E6CB3F31A9_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:40>
 				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_11 = L_10;
 				if (L_11)
 				{
@@ -13807,7 +13215,6 @@ IL_0043_1:
 
 IL_0048_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:38>
 				bool L_12;
 				L_12 = Enumerator_MoveNext_m3B5584B4C10CEA04D39E45C7CC34333022C16ACC((&V_1), Enumerator_MoveNext_m3B5584B4C10CEA04D39E45C7CC34333022C16ACC_RuntimeMethod_var);
 				if (L_12)
@@ -13827,11 +13234,9 @@ IL_0048_1:
 
 IL_0061:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:43>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_13 = __this->___billingResult;
 		NullCheck(L_13);
 		AndroidJavaObject_Dispose_m2B1593C20B3CE1C8FF95982F638F50985F9DD9E6(L_13, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:44>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_14 = __this->___purchases;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_15 = L_14;
 		if (L_15)
@@ -13849,7 +13254,6 @@ IL_0077:
 	{
 		NullCheck(G_B10_0);
 		AndroidJavaObject_Dispose_m2B1593C20B3CE1C8FF95982F638F50985F9DD9E6(G_B10_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesResponseListener.cs:45>
 		return;
 	}
 }
@@ -13861,7 +13265,6 @@ IL_0077:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedListener_add_OnPurchaseUpdated_m970C23081A1F1ECBB0A1B01CF550CF1B20357E82 (GooglePurchasesUpdatedListener_tD37F910F43AC0055E353215A2F8EB3E845DA802F* __this, Action_2_t22046713705B4A7F336D735574981D329ACF4466* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13904,7 +13307,6 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 89591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedListener_remove_OnPurchaseUpdated_m6260DE278AB23953D92D144D82306DBFF4847045 (GooglePurchasesUpdatedListener_tD37F910F43AC0055E353215A2F8EB3E845DA802F* __this, Action_2_t22046713705B4A7F336D735574981D329ACF4466* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13947,7 +13349,6 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 89592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedListener__ctor_mA2AE77030AA8FEA5FDAF77A8B0EFA962CAFEA0AF (GooglePurchasesUpdatedListener_tD37F910F43AC0055E353215A2F8EB3E845DA802F* __this, RuntimeObject* ___0_purchaseBuilder, RuntimeObject* ___1_util, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13958,22 +13359,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedListener__ctor_mA2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:26>
 		il2cpp_codegen_runtime_class_init_inline(AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var);
 		AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7(__this, _stringLiteralEF27D2F3139552D02F7BE9F33B137EC2B9AA325D, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:28>
 		RuntimeObject* L_0 = ___0_purchaseBuilder;
 		__this->___m_PurchaseBuilder = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PurchaseBuilder), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:29>
 		RuntimeObject* L_1 = ___1_util;
 		__this->___m_Util = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Util), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 89593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedListener_onPurchasesUpdated_m7FA00AEBCB5A7C0560482AFAD8535919BCD471DC (GooglePurchasesUpdatedListener_tD37F910F43AC0055E353215A2F8EB3E845DA802F* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_billingResult, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___1_javaPurchasesList, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14004,18 +13400,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedListener_onPurchas
 		NullCheck(L_4);
 		L_4->___javaPurchasesList = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___javaPurchasesList), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:40>
 		RuntimeObject* L_6 = __this->___m_Util;
 		U3CU3Ec__DisplayClass7_0_t216BBA059D4DCFB985E9813C48555BF0C66DE5C3* L_7 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_8, L_7, (intptr_t)((void*)U3CU3Ec__DisplayClass7_0_U3ConPurchasesUpdatedU3Eb__0_m7A950F975AB9993EF2BA77CFAD740F6CE59081CB_RuntimeMethod_var), NULL);
 		NullCheck(L_6);
 		InterfaceActionInvoker1< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* >::Invoke(22, IUtil_t7909908832446A01C893925BD0795F01D065F23E_il2cpp_TypeInfo_var, L_6, L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 89594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedListener_HandlePurchasesUpdated_mC93CEA2ABE88422E51DC4E76062B5A86DB87FD48 (GooglePurchasesUpdatedListener_tD37F910F43AC0055E353215A2F8EB3E845DA802F* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_billingResult, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___1_javaPurchasesList, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14041,19 +13434,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedListener_HandlePur
 	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* G_B7_0 = NULL;
 	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* G_B6_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:45>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ___1_javaPurchasesList;
 		RuntimeObject* L_1;
 		L_1 = AndroidJavaObjectExtensions_Enumerate_m8D1A4474E054713477508C758D378DA9BE10E01F(L_0, NULL);
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_2;
 		L_2 = Enumerable_ToList_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m2C093DAAAEB4344056B8E407A80D09DB41B8C092(L_1, Enumerable_ToList_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m2C093DAAAEB4344056B8E407A80D09DB41B8C092_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:46>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3 = ___0_billingResult;
 		GoogleBillingResult_tC73DBFC9ADA1CAB5A40242B2B802FE310FF5BBD7* L_4 = (GoogleBillingResult_tC73DBFC9ADA1CAB5A40242B2B802FE310FF5BBD7*)il2cpp_codegen_object_new(GoogleBillingResult_tC73DBFC9ADA1CAB5A40242B2B802FE310FF5BBD7_il2cpp_TypeInfo_var);
 		GoogleBillingResult__ctor_mE8820658B4232D855E3A330C73B19D0764789611(L_4, L_3, NULL);
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:47>
 		RuntimeObject* L_5 = __this->___m_PurchaseBuilder;
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_6 = V_0;
 		NullCheck(L_5);
@@ -14062,7 +13452,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchasesUpdatedListener_HandlePur
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_8;
 		L_8 = Enumerable_ToList_TisIGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_m7D47FB6830DDDDDE64A80115856B8663D1553A73(L_7, Enumerable_ToList_TisIGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_m7D47FB6830DDDDDE64A80115856B8663D1553A73_RuntimeMethod_var);
 		V_2 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:48>
 		Action_2_t22046713705B4A7F336D735574981D329ACF4466* L_9 = __this->___OnPurchaseUpdated;
 		Action_2_t22046713705B4A7F336D735574981D329ACF4466* L_10 = L_9;
 		if (L_10)
@@ -14086,7 +13475,6 @@ IL_0031:
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:50>
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_13 = V_0;
 		NullCheck(L_13);
 		Enumerator_tA4CC3E337202EB983AF03F61B672DE3F226C0090 L_14;
@@ -14111,10 +13499,8 @@ FINALLY_005e:
 
 IL_0041_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:50>
 				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_15;
 				L_15 = Enumerator_get_Current_m1840848A627FD2045207C5361CCE21E6CB3F31A9_inline((&V_3), Enumerator_get_Current_m1840848A627FD2045207C5361CCE21E6CB3F31A9_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:52>
 				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_16 = L_15;
 				if (L_16)
 				{
@@ -14135,7 +13521,6 @@ IL_004e_1:
 
 IL_0053_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:50>
 				bool L_17;
 				L_17 = Enumerator_MoveNext_m3B5584B4C10CEA04D39E45C7CC34333022C16ACC((&V_3), Enumerator_MoveNext_m3B5584B4C10CEA04D39E45C7CC34333022C16ACC_RuntimeMethod_var);
 				if (L_17)
@@ -14155,11 +13540,9 @@ IL_0053_1:
 
 IL_006c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:55>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_18 = ___0_billingResult;
 		NullCheck(L_18);
 		AndroidJavaObject_Dispose_m2B1593C20B3CE1C8FF95982F638F50985F9DD9E6(L_18, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:56>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_19 = ___1_javaPurchasesList;
 		if (!L_19)
 		{
@@ -14174,7 +13557,6 @@ IL_006c:
 
 IL_007b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:57>
 		return;
 	}
 }
@@ -14186,7 +13568,6 @@ IL_007b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_m1B89E2DD1B4CEC0EC03D3013BC95DC577C2654F9 (U3CU3Ec__DisplayClass7_0_t216BBA059D4DCFB985E9813C48555BF0C66DE5C3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14194,11 +13575,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_m1B89E2DD
 		return;
 	}
 }
-// Method Definition Index: 89596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3ConPurchasesUpdatedU3Eb__0_m7A950F975AB9993EF2BA77CFAD740F6CE59081CB (U3CU3Ec__DisplayClass7_0_t216BBA059D4DCFB985E9813C48555BF0C66DE5C3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/GooglePurchasesUpdatedListener.cs:40>
 		GooglePurchasesUpdatedListener_tD37F910F43AC0055E353215A2F8EB3E845DA802F* L_0 = __this->___U3CU3E4__this;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = __this->___billingResult;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = __this->___javaPurchasesList;
@@ -14215,7 +13594,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3ConPurchasesU
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductDetailsResponseListener__ctor_m5B2BC4C527DDDCC4557B6558AAA7938A387503C0 (ProductDetailsResponseListener_tC344C020B1D1F4A4B70300985477D02E90973D2A* __this, Action_2_t48A4D16145E3E6532845F8D1F1631C7922F46B5A* ___0_onProductDetailsResponseAction, RuntimeObject* ___1_util, RuntimeObject* ___2_telemetryDiagnostics, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14226,26 +13604,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductDetailsResponseListener__ctor_m5B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:27>
 		il2cpp_codegen_runtime_class_init_inline(AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var);
 		AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7(__this, _stringLiteral6D7B7A6BCB9A4BE52977E3CA47506697193BF588, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:29>
 		Action_2_t48A4D16145E3E6532845F8D1F1631C7922F46B5A* L_0 = ___0_onProductDetailsResponseAction;
 		__this->___m_OnProductDetailsResponse = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnProductDetailsResponse), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:30>
 		RuntimeObject* L_1 = ___1_util;
 		__this->___m_Util = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Util), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:31>
 		RuntimeObject* L_2 = ___2_telemetryDiagnostics;
 		__this->___m_TelemetryDiagnostics = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TelemetryDiagnostics), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 89598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductDetailsResponseListener_onProductDetailsResponse_mF002148FE9E4059C6F67B167DA101188D08D8A3D (ProductDetailsResponseListener_tC344C020B1D1F4A4B70300985477D02E90973D2A* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_billingResult, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___1_queryProductDetailsResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14276,32 +13648,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductDetailsResponseListener_onProduct
 		NullCheck(L_4);
 		L_4->___billingResult = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___billingResult), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:39>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:40>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:41>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:42>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:43>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:50>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:51>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:52>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:53>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:54>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:55>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:56>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:57>
 		RuntimeObject* L_6 = __this->___m_Util;
 		U3CU3Ec__DisplayClass5_0_t1498B432A89DE609F8A027F7CEE7B0DC2E922080* L_7 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_8, L_7, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3ConProductDetailsResponseU3Eb__0_m4EADC63D675A2FD02E6785C08AFD4D76D13F8651_RuntimeMethod_var), NULL);
 		NullCheck(L_6);
 		InterfaceActionInvoker1< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* >::Invoke(22, IUtil_t7909908832446A01C893925BD0795F01D065F23E_il2cpp_TypeInfo_var, L_6, L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:58>
 		return;
 	}
 }
@@ -14313,7 +13665,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductDetailsResponseListener_onProduct
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_mAB1563C6461B6383DDFDE17A4D04BE07846695C2 (U3CU3Ec__DisplayClass5_0_t1498B432A89DE609F8A027F7CEE7B0DC2E922080* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14321,7 +13672,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_mAB1563C6
 		return;
 	}
 }
-// Method Definition Index: 89600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3ConProductDetailsResponseU3Eb__0_m4EADC63D675A2FD02E6785C08AFD4D76D13F8651 (U3CU3Ec__DisplayClass5_0_t1498B432A89DE609F8A027F7CEE7B0DC2E922080* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14341,13 +13691,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3ConProductDet
 	Exception_t* V_2 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:41>
 		V_0 = (List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF*)NULL;
 	}
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:45>
 			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___queryProductDetailsResult;
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 			L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
@@ -14383,14 +13731,12 @@ IL_004b_1:
 			});
 			try
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:46>
 				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5 = V_1;
 				RuntimeObject* L_6;
 				L_6 = AndroidJavaObjectExtensions_Enumerate_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m591436CCE8D2E55944DE1B841523B7D7B4345246(L_5, AndroidJavaObjectExtensions_Enumerate_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m591436CCE8D2E55944DE1B841523B7D7B4345246_RuntimeMethod_var);
 				List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_7;
 				L_7 = Enumerable_ToList_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m2C093DAAAEB4344056B8E407A80D09DB41B8C092(L_6, Enumerable_ToList_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m2C093DAAAEB4344056B8E407A80D09DB41B8C092_RuntimeMethod_var);
 				V_0 = L_7;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:47>
 				ProductDetailsResponseListener_tC344C020B1D1F4A4B70300985477D02E90973D2A* L_8 = __this->___U3CU3E4__this;
 				NullCheck(L_8);
 				Action_2_t48A4D16145E3E6532845F8D1F1631C7922F46B5A* L_9 = L_8->___m_OnProductDetailsResponse;
@@ -14410,7 +13756,6 @@ IL_004b_1:
 
 IL_004c_1:
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:48>
 			goto IL_0067;
 		}
 	}
@@ -14427,31 +13772,25 @@ IL_004c_1:
 CATCH_004e:
 	{
 		Exception_t* L_13 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:49>
 		V_2 = L_13;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:51>
 		ProductDetailsResponseListener_tC344C020B1D1F4A4B70300985477D02E90973D2A* L_14 = __this->___U3CU3E4__this;
 		NullCheck(L_14);
 		RuntimeObject* L_15 = L_14->___m_TelemetryDiagnostics;
 		Exception_t* L_16 = V_2;
 		NullCheck(L_15);
 		InterfaceActionInvoker2< String_t*, Exception_t* >::Invoke(0, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ITelemetryDiagnostics_tBC2EC06AD5C71BAFADBACFAC53A33797C33E127D_il2cpp_TypeInfo_var)), L_15, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE0ED2C8D043E25AFE74C984818318BF4F22F10B4)), L_16);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:53>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0067;
 	}
 
 IL_0067:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:55>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_17 = __this->___billingResult;
 		NullCheck(L_17);
 		AndroidJavaObject_Dispose_m2B1593C20B3CE1C8FF95982F638F50985F9DD9E6(L_17, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:56>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_18 = __this->___queryProductDetailsResult;
 		NullCheck(L_18);
 		AndroidJavaObject_Dispose_m2B1593C20B3CE1C8FF95982F638F50985F9DD9E6(L_18, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/Listeners/ProductDetailsResponseListener.cs:57>
 		return;
 	}
 }
@@ -14463,19 +13802,9 @@ IL_0067:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedGooglePlayStoreService__ctor_m53685ECE55B2043E64582CF03F7748D102AE397F (MetricizedGooglePlayStoreService_t0F7ADD13BD18EDE78D62A8F02B0B732C83A12462* __this, RuntimeObject* ___0_billingClient, RuntimeObject* ___1_connectionService, RuntimeObject* ___2_queryProductDetailsService, RuntimeObject* ___3_lastKnownProductService, RuntimeObject* ___4_purchaseService, RuntimeObject* ___5_finishTransactionUseCase, RuntimeObject* ___6_queryPurchasesUseCase, RuntimeObject* ___7_googleCheckEntitlementUseCase, RuntimeObject* ___8_telemetryDiagnostics, RuntimeObject* ___9_telemetryMetricsService, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:29>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:30>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:31>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:32>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:33>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:34>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:35>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:36>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:37>
 		RuntimeObject* L_0 = ___0_billingClient;
 		RuntimeObject* L_1 = ___1_connectionService;
 		RuntimeObject* L_2 = ___2_queryProductDetailsService;
@@ -14486,15 +13815,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedGooglePlayStoreService__ctor_m
 		RuntimeObject* L_7 = ___7_googleCheckEntitlementUseCase;
 		RuntimeObject* L_8 = ___8_telemetryDiagnostics;
 		GooglePlayStoreService__ctor_m86AF0D58F490B3C0986B4F02E06D4F35B1A0B9A1(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:39>
 		RuntimeObject* L_9 = ___9_telemetryMetricsService;
 		__this->___m_TelemetryMetricsService = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TelemetryMetricsService), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 89602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedGooglePlayStoreService_FetchProducts_mAC9D4A82AE2767600D3B47C96AC31A45E91D9585 (MetricizedGooglePlayStoreService_t0F7ADD13BD18EDE78D62A8F02B0B732C83A12462* __this, RuntimeObject* ___0_products, Action_1_t840DAF19E1C7B9F182156E02000C38979DAF3B95* ___1_onProductsReceived, Action_1_t411BFB121A0F7FCEC6300E06444325E055305F9E* ___2_onFetchProductsFailed, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14531,9 +13857,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedGooglePlayStoreService_FetchPr
 		NullCheck(L_6);
 		L_6->___onFetchProductsFailed = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&L_6->___onFetchProductsFailed), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:48>
 		RuntimeObject* L_8 = __this->___m_TelemetryMetricsService;
 		U3CU3Ec__DisplayClass2_0_t1A6339F110C96D9D4D11397F383BB6AC8D78D82A* L_9 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
@@ -14542,11 +13865,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedGooglePlayStoreService_FetchPr
 		TelemetryMetricDefinition_tBB0362023A1A641091D68F93E8E8D0DAD31FDC4F L_11 = ((TelemetryMetricDefinitions_t186426A0121DA4C9C5221BBE3EB8C219D091C4D4_StaticFields*)il2cpp_codegen_static_fields_for(TelemetryMetricDefinitions_t186426A0121DA4C9C5221BBE3EB8C219D091C4D4_il2cpp_TypeInfo_var))->___fetchProductsName;
 		NullCheck(L_8);
 		InterfaceActionInvoker2< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*, TelemetryMetricDefinition_tBB0362023A1A641091D68F93E8E8D0DAD31FDC4F >::Invoke(0, ITelemetryMetricsService_tB2F4226EB1CC72C85577025598818A0930784932_il2cpp_TypeInfo_var, L_8, L_10, L_11);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:49>
 		return;
 	}
 }
-// Method Definition Index: 89603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedGooglePlayStoreService_Purchase_mA8A11BBE6450F64CEF7715A2D5177E2AC6ABCC5C (MetricizedGooglePlayStoreService_t0F7ADD13BD18EDE78D62A8F02B0B732C83A12462* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* ___1_currentOrder, Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C ___2_desiredReplacementMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14582,9 +13903,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedGooglePlayStoreService_Purchas
 		Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C L_7 = ___2_desiredReplacementMode;
 		NullCheck(L_6);
 		L_6->___desiredReplacementMode = L_7;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:54>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:55>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:56>
 		RuntimeObject* L_8 = __this->___m_TelemetryMetricsService;
 		U3CU3Ec__DisplayClass3_0_t59D6C445830C6ABAE9126BE5A849D23B56CA8A77* L_9 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
@@ -14593,11 +13911,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedGooglePlayStoreService_Purchas
 		TelemetryMetricDefinition_tBB0362023A1A641091D68F93E8E8D0DAD31FDC4F L_11 = ((TelemetryMetricDefinitions_t186426A0121DA4C9C5221BBE3EB8C219D091C4D4_StaticFields*)il2cpp_codegen_static_fields_for(TelemetryMetricDefinitions_t186426A0121DA4C9C5221BBE3EB8C219D091C4D4_il2cpp_TypeInfo_var))->___initPurchaseName;
 		NullCheck(L_8);
 		InterfaceActionInvoker2< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*, TelemetryMetricDefinition_tBB0362023A1A641091D68F93E8E8D0DAD31FDC4F >::Invoke(0, ITelemetryMetricsService_tB2F4226EB1CC72C85577025598818A0930784932_il2cpp_TypeInfo_var, L_8, L_10, L_11);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 89604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedGooglePlayStoreService_U3CU3En__0_mFBCAD4CE287C96AAD65CA1AC194209CF9597816B (MetricizedGooglePlayStoreService_t0F7ADD13BD18EDE78D62A8F02B0B732C83A12462* __this, RuntimeObject* ___0_products, Action_1_t840DAF19E1C7B9F182156E02000C38979DAF3B95* ___1_onProductsReceived, Action_1_t411BFB121A0F7FCEC6300E06444325E055305F9E* ___2_onFetchProductsFailed, const RuntimeMethod* method) 
 {
 	{
@@ -14608,7 +13924,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedGooglePlayStoreService_U3CU3En
 		return;
 	}
 }
-// Method Definition Index: 89605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedGooglePlayStoreService_U3CU3En__1_mDCC3F592FD137DE70ABEE4C98D5B49EC46A0C05C (MetricizedGooglePlayStoreService_t0F7ADD13BD18EDE78D62A8F02B0B732C83A12462* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* ___1_currentOrder, Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C ___2_desiredReplacementMode, const RuntimeMethod* method) 
 {
 	{
@@ -14627,7 +13942,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedGooglePlayStoreService_U3CU3En
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m4D581B90A5D84FA24EAA86F1A1721ED75E8DED54 (U3CU3Ec__DisplayClass2_0_t1A6339F110C96D9D4D11397F383BB6AC8D78D82A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14635,11 +13949,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m4D581B90
 		return;
 	}
 }
-// Method Definition Index: 89607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3CFetchProductsU3Eb__0_m0E48F2F131EE7EB0EABEAA73CE5021A27CDCF108 (U3CU3Ec__DisplayClass2_0_t1A6339F110C96D9D4D11397F383BB6AC8D78D82A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:47>
 		MetricizedGooglePlayStoreService_t0F7ADD13BD18EDE78D62A8F02B0B732C83A12462* L_0 = __this->___U3CU3E4__this;
 		RuntimeObject* L_1 = __this->___products;
 		Action_1_t840DAF19E1C7B9F182156E02000C38979DAF3B95* L_2 = __this->___onProductsReceived;
@@ -14657,7 +13969,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3CFetchProduct
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m08414DD19E13DFB074736B60E57E1285F5775DA8 (U3CU3Ec__DisplayClass3_0_t59D6C445830C6ABAE9126BE5A849D23B56CA8A77* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14665,11 +13976,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m08414DD1
 		return;
 	}
 }
-// Method Definition Index: 89609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CPurchaseU3Eb__0_m0123ACCB09167B2B9646C4FB22564F644042B72D (U3CU3Ec__DisplayClass3_0_t59D6C445830C6ABAE9126BE5A849D23B56CA8A77* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/MetricizedGooglePlayStoreService.cs:55>
 		MetricizedGooglePlayStoreService_t0F7ADD13BD18EDE78D62A8F02B0B732C83A12462* L_0 = __this->___U3CU3E4__this;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_1 = __this->___product;
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_2 = __this->___currentOrder;
@@ -14687,7 +13996,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CPurchaseU3Eb
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductDetailsQueryResponse_Finalize_m1ABF5EFDD85467A1B02AFEA7BFB28E976AE42567 (ProductDetailsQueryResponse_t2F5BEC6200A6BFEAF5402CD211640D3A7D2A37E3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14712,7 +14020,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductDetailsQueryResponse_Finalize_m1A
 
 FINALLY_005f:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:30>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
@@ -14720,7 +14027,6 @@ FINALLY_005f:
 		try
 		{
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:16>
 				ConcurrentBag_1_t59944703C2D82903E3581612D5389D084A4A360E* L_0 = __this->___m_Responses;
 				NullCheck(L_0);
 				RuntimeObject* L_1;
@@ -14760,15 +14066,12 @@ IL_005e_1:
 
 IL_000e_2:
 					{
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:16>
 						RuntimeObject* L_4 = V_0;
 						NullCheck(L_4);
 						ValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF L_5;
 						L_5 = InterfaceFuncInvoker0< ValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF >::Invoke(0, IEnumerator_1_tB9A3EB8C8A8F209B56867B9085ABAD5D7456B28A_il2cpp_TypeInfo_var, L_4);
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:18>
 						RuntimeObject* L_6 = L_5.___Item2;
 						V_1 = L_6;
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:19>
 						RuntimeObject* L_7 = V_1;
 						if (!L_7)
 						{
@@ -14776,7 +14079,6 @@ IL_000e_2:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:24>
 						RuntimeObject* L_8 = V_1;
 						NullCheck(L_8);
 						RuntimeObject* L_9;
@@ -14816,12 +14118,10 @@ IL_004a_2:
 
 IL_0026_3:
 							{
-								//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:24>
 								RuntimeObject* L_12 = V_2;
 								NullCheck(L_12);
 								AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_13;
 								L_13 = InterfaceFuncInvoker0< AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* >::Invoke(0, IEnumerator_1_tBDEF718EE6EB3FBF3046DBFAAE922D84838F9814_il2cpp_TypeInfo_var, L_12);
-								//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:26>
 								AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_14 = L_13;
 								if (L_14)
 								{
@@ -14842,7 +14142,6 @@ IL_0032_3:
 
 IL_0037_3:
 							{
-								//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:24>
 								RuntimeObject* L_15 = V_2;
 								NullCheck(L_15);
 								bool L_16;
@@ -14864,7 +14163,6 @@ IL_0037_3:
 
 IL_004b_2:
 					{
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:16>
 						RuntimeObject* L_17 = V_0;
 						NullCheck(L_17);
 						bool L_18;
@@ -14892,11 +14190,9 @@ IL_004b_2:
 
 IL_0066:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 89611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductDetailsQueryResponse_AddResponse_mE13ADAD9B8585FA52366FA8B7F146C4B284E4308 (ProductDetailsQueryResponse_t2F5BEC6200A6BFEAF5402CD211640D3A7D2A37E3* __this, RuntimeObject* ___0_billingResult, RuntimeObject* ___1_productDetails, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14920,7 +14216,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductDetailsQueryResponse_AddResponse_
 	RuntimeObject* G_B1_2 = NULL;
 	ConcurrentBag_1_t59944703C2D82903E3581612D5389D084A4A360E* G_B1_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:34>
 		ConcurrentBag_1_t59944703C2D82903E3581612D5389D084A4A360E* L_0 = __this->___m_Responses;
 		RuntimeObject* L_1 = ___0_billingResult;
 		RuntimeObject* L_2 = ___1_productDetails;
@@ -14965,11 +14260,9 @@ IL_0027:
 		ValueTuple_2__ctor_m4B48294881DD46A78DB32B0C2F17B1B079D90E5F((&L_10), G_B2_2, L_9, ValueTuple_2__ctor_m4B48294881DD46A78DB32B0C2F17B1B079D90E5F_RuntimeMethod_var);
 		NullCheck(G_B2_3);
 		ConcurrentBag_1_Add_mD25FBE7FF95AFAE9073227DE7CA13DF651C98D0A(G_B2_3, L_10, ConcurrentBag_1_Add_mD25FBE7FF95AFAE9073227DE7CA13DF651C98D0A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 89612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* ProductDetailsQueryResponse_ProductDetails_m375D9C7FEADE8CAA0951E78C44A81078A6441CB7 (ProductDetailsQueryResponse_t2F5BEC6200A6BFEAF5402CD211640D3A7D2A37E3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14994,8 +14287,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223
 	Func_2_t96029C8783C3B5673F6E561FB782185096CBFCAB* G_B3_0 = NULL;
 	RuntimeObject* G_B3_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:39>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:40>
 		ConcurrentBag_1_t59944703C2D82903E3581612D5389D084A4A360E* L_0 = __this->___m_Responses;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F_il2cpp_TypeInfo_var);
 		Func_2_t6B5C6E8BD1EA9F2FE2631D455FEB3F5C77E58156* L_1 = ((U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F_il2cpp_TypeInfo_var))->___U3CU3E9__3_0;
@@ -15058,7 +14349,6 @@ IL_0049:
 		return L_13;
 	}
 }
-// Method Definition Index: 89613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProductDetailsQueryResponse_IsRecoverable_m0677C4FABB0D091D940E013F06798830FA0D1DF2 (ProductDetailsQueryResponse_t2F5BEC6200A6BFEAF5402CD211640D3A7D2A37E3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15078,7 +14368,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProductDetailsQueryResponse_IsRecoverabl
 	Func_2_t05A654E1F2F93D152BEE1664A4BDAE5E7FEC5BF3* G_B1_0 = NULL;
 	ConcurrentBag_1_t59944703C2D82903E3581612D5389D084A4A360E* G_B1_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:45>
 		ConcurrentBag_1_t59944703C2D82903E3581612D5389D084A4A360E* L_0 = __this->___m_Responses;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F_il2cpp_TypeInfo_var);
 		Func_2_t05A654E1F2F93D152BEE1664A4BDAE5E7FEC5BF3* L_1 = ((U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F_il2cpp_TypeInfo_var))->___U3CU3E9__4_0;
@@ -15115,7 +14404,6 @@ IL_0025:
 		return L_8;
 	}
 }
-// Method Definition Index: 89614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProductDetailsQueryResponse_GetRecoverableBillingResponseCode_m77CA4420F03755E41099DF2F31D67462EEB2BFF4 (ProductDetailsQueryResponse_t2F5BEC6200A6BFEAF5402CD211640D3A7D2A37E3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15143,7 +14431,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProductDetailsQueryResponse_GetRecove
 	Func_2_t05A654E1F2F93D152BEE1664A4BDAE5E7FEC5BF3* G_B5_0 = NULL;
 	ConcurrentBag_1_t59944703C2D82903E3581612D5389D084A4A360E* G_B5_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:50>
 		ConcurrentBag_1_t59944703C2D82903E3581612D5389D084A4A360E* L_0 = __this->___m_Responses;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F_il2cpp_TypeInfo_var);
 		Func_2_t05A654E1F2F93D152BEE1664A4BDAE5E7FEC5BF3* L_1 = ((U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F_il2cpp_TypeInfo_var))->___U3CU3E9__5_0;
@@ -15183,13 +14470,11 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:52>
 		return (int32_t)(2);
 	}
 
 IL_003f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:54>
 		ConcurrentBag_1_t59944703C2D82903E3581612D5389D084A4A360E* L_9 = __this->___m_Responses;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F_il2cpp_TypeInfo_var);
 		Func_2_t05A654E1F2F93D152BEE1664A4BDAE5E7FEC5BF3* L_10 = ((U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F_il2cpp_TypeInfo_var))->___U3CU3E9__5_1;
@@ -15229,13 +14514,11 @@ IL_0064:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:56>
 		return (int32_t)(5);
 	}
 
 IL_007e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:59>
 		ConcurrentBag_1_t59944703C2D82903E3581612D5389D084A4A360E* L_18 = __this->___m_Responses;
 		ValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF L_19;
 		L_19 = Enumerable_FirstOrDefault_TisValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF_m281F1A091B5D49202B5EF6AAE2752311D192F2D1(L_18, Enumerable_FirstOrDefault_TisValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF_m281F1A091B5D49202B5EF6AAE2752311D192F2D1_RuntimeMethod_var);
@@ -15246,11 +14529,9 @@ IL_007e:
 		return L_21;
 	}
 }
-// Method Definition Index: 89615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProductDetailsQueryResponse_IsRecoverable_mEA8AFB4567DFF76FD0BF516883185D3C899703CB (RuntimeObject* ___0_billingResult, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:64>
 		RuntimeObject* L_0 = ___0_billingResult;
 		bool L_1;
 		L_1 = ProductDetailsQueryResponse_IsServiceUnavailable_m09B25CFE5C6EA3174EF2834AF1EE164EE0EAEB1A(L_0, NULL);
@@ -15271,7 +14552,6 @@ IL_000f:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 89616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProductDetailsQueryResponse_IsServiceUnavailable_m09B25CFE5C6EA3174EF2834AF1EE164EE0EAEB1A (RuntimeObject* ___0_billingResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15281,7 +14561,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProductDetailsQueryResponse_IsServiceUna
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:69>
 		RuntimeObject* L_0 = ___0_billingResult;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -15289,7 +14568,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProductDetailsQueryResponse_IsServiceUna
 		return (bool)((((int32_t)L_1) == ((int32_t)2))? 1 : 0);
 	}
 }
-// Method Definition Index: 89617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProductDetailsQueryResponse_IsDeveloperError_m1ADB1E48B5C14FDE144D969A11A4EE00622588CB (RuntimeObject* ___0_billingResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15299,7 +14577,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProductDetailsQueryResponse_IsDeveloperE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:74>
 		RuntimeObject* L_0 = ___0_billingResult;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -15307,7 +14584,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProductDetailsQueryResponse_IsDeveloperE
 		return (bool)((((int32_t)L_1) == ((int32_t)5))? 1 : 0);
 	}
 }
-// Method Definition Index: 89618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductDetailsQueryResponse__ctor_m9203B31EAED9CA2E66A01002E57918D297611317 (ProductDetailsQueryResponse_t2F5BEC6200A6BFEAF5402CD211640D3A7D2A37E3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15318,7 +14594,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductDetailsQueryResponse__ctor_m9203B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:11>
 		ConcurrentBag_1_t59944703C2D82903E3581612D5389D084A4A360E* L_0 = (ConcurrentBag_1_t59944703C2D82903E3581612D5389D084A4A360E*)il2cpp_codegen_object_new(ConcurrentBag_1_t59944703C2D82903E3581612D5389D084A4A360E_il2cpp_TypeInfo_var);
 		ConcurrentBag_1__ctor_m0620444AFF92906BA1CB7C875E9822C7BC0A9DDD(L_0, ConcurrentBag_1__ctor_m0620444AFF92906BA1CB7C875E9822C7BC0A9DDD_RuntimeMethod_var);
 		__this->___m_Responses = L_0;
@@ -15335,7 +14610,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductDetailsQueryResponse__ctor_m9203B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m62D79409CEB883881DD7633641C71361FD17A8CC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15352,7 +14626,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m62D79409CEB883881DD76336
 		return;
 	}
 }
-// Method Definition Index: 89620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m2276F6D10431AC6BEF0E645B1A452725D4E281EF (U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15360,16 +14633,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m2276F6D10431AC6BEF0E645B1
 		return;
 	}
 }
-// Method Definition Index: 89621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* U3CU3Ec_U3CAddResponseU3Eb__2_0_mB9883C042DB3B567C6AE84A3B43ECAFF826A41D5 (U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_product, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:34>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ___0_product;
 		return L_0;
 	}
 }
-// Method Definition Index: 89622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CProductDetailsU3Eb__3_0_m75291D67EE2BB16BA5479EF8889DDEA8B4C9ED86 (U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F* __this, ValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF ___0_response, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15379,7 +14649,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CProductDetailsU3Eb__3_0_m7529
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:39>
 		ValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF L_0 = ___0_response;
 		RuntimeObject* L_1 = L_0.___Item1;
 		NullCheck(L_1);
@@ -15388,41 +14657,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CProductDetailsU3Eb__3_0_m7529
 		return (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 89623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CProductDetailsU3Eb__3_1_m43070ECE1E716DC400D5AC4C439AAC1EE31B7C38 (U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F* __this, ValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF ___0_response, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:40>
 		ValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF L_0 = ___0_response;
 		RuntimeObject* L_1 = L_0.___Item2;
 		return L_1;
 	}
 }
-// Method Definition Index: 89624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CIsRecoverableU3Eb__4_0_mDF1DB74440464E8A9EB499D3E74BDDAB9D93106E (U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F* __this, ValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF ___0_response, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:45>
 		ValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF L_0 = ___0_response;
 		RuntimeObject* L_1 = L_0.___Item1;
 		return L_1;
 	}
 }
-// Method Definition Index: 89625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CGetRecoverableBillingResponseCodeU3Eb__5_0_m7A024FB9A2DC6AB7B0E1B5900E653E47065B914C (U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F* __this, ValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF ___0_response, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:50>
 		ValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF L_0 = ___0_response;
 		RuntimeObject* L_1 = L_0.___Item1;
 		return L_1;
 	}
 }
-// Method Definition Index: 89626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CGetRecoverableBillingResponseCodeU3Eb__5_1_m847858CCED71557020A063D8CACC6E9CA1B4F3FB (U3CU3Ec_t79B05B2D36A70ED29FD0839156C53DEAE3925D9F* __this, ValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF ___0_response, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/ProductDetailsQueryResponse.cs:54>
 		ValueTuple_2_t046EFB6C83943B54D1D74BDB7DFE221123A94CCF L_0 = ___0_response;
 		RuntimeObject* L_1 = L_0.___Item1;
 		return L_1;
@@ -15436,31 +14697,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CGetRecoverableBilli
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QueryProductDetailsService__ctor_mAE79E5DA8030339EE5C318550822D4421DC02DA8 (QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* __this, RuntimeObject* ___0_billingClient, RuntimeObject* ___1_googleCachedQueryProductDetailsService, RuntimeObject* ___2_productDetailsConverter, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:21>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:22>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:23>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:25>
 		RuntimeObject* L_0 = ___0_billingClient;
 		__this->___m_BillingClient = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_BillingClient), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:26>
 		RuntimeObject* L_1 = ___1_googleCachedQueryProductDetailsService;
 		__this->___m_GoogleCachedQueryProductDetailsService = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GoogleCachedQueryProductDetailsService), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:27>
 		RuntimeObject* L_2 = ___2_productDetailsConverter;
 		__this->___m_ProductDetailsConverter = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ProductDetailsConverter), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 89628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t18D8DB2816A3DDE0D5B012115927E48307E6CCE5* QueryProductDetailsService_QueryProductDetails_m156FB2E3BC31BEAF348B05EABE7144D37B8ED976 (QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15473,10 +14725,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t18D8DB2816A3DDE0D5B012115927E48307E6C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:32>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:33>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:34>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:35>
 		List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D* L_0 = (List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D*)il2cpp_codegen_object_new(List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D_il2cpp_TypeInfo_var);
 		List_1__ctor_m8C7F798EC65EA3F86E843381C01B2D81425AADA4(L_0, List_1__ctor_m8C7F798EC65EA3F86E843381C01B2D81425AADA4_RuntimeMethod_var);
 		List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D* L_1 = L_0;
@@ -15491,7 +14739,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t18D8DB2816A3DDE0D5B012115927E48307E6C
 		return L_4;
 	}
 }
-// Method Definition Index: 89629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7D5B6424678BB9B3339677C020DED7CB7D4E9F7F* QueryProductDetailsService_QueryProductDescriptions_m062E560AF977C2D227849D55637EB64B31960F6C (QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15531,7 +14778,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7D5B6424678BB9B3339677C020DED7CB7D4E9
 		return L_4;
 	}
 }
-// Method Definition Index: 89630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t18D8DB2816A3DDE0D5B012115927E48307E6CCE5* QueryProductDetailsService_QueryProductDetails_m2E67F3AE315BDC52E009BD1DA1ED19C618D3B10E (QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15571,7 +14817,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t18D8DB2816A3DDE0D5B012115927E48307E6C
 		return L_4;
 	}
 }
-// Method Definition Index: 89631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t93B4C02124A4C1620A9069EE1454EB9BE73A6119* QueryProductDetailsService_QueryInAppsAndSubsProductDetails_m9FD660C2EECC4574AA74E6DD39A7E487FB81BCE6 (QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15611,7 +14856,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t93B4C02124A4C1620A9069EE1454EB9BE73A6
 		return L_4;
 	}
 }
-// Method Definition Index: 89632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueryProductDetailsService_ShouldRetryQuery_m9D1E209059BE068977B7CC26C8EA5203ECEE642A (QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* __this, RuntimeObject* ___0_requestedProducts, RuntimeObject* ___1_queryResponse, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15621,7 +14865,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueryProductDetailsService_ShouldRetryQu
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:81>
 		RuntimeObject* L_0 = ___0_requestedProducts;
 		bool L_1;
 		L_1 = QueryProductDetailsService_AreAllProductDetailsCached_mB45BE3888011034E572FD04032697D248E670532(__this, L_0, NULL);
@@ -15643,7 +14886,6 @@ IL_0010:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 89633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueryProductDetailsService_AreAllProductDetailsCached_mB45BE3888011034E572FD04032697D248E670532 (QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15663,7 +14905,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueryProductDetailsService_AreAllProduct
 	Func_2_t66AC14B29DD8B1DDD05693A14E55CF7707C762DB* G_B1_0 = NULL;
 	RuntimeObject* G_B1_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:86>
 		RuntimeObject* L_0 = ___0_products;
 		RuntimeObject* L_1 = __this->___m_GoogleCachedQueryProductDetailsService;
 		RuntimeObject* L_2 = L_1;
@@ -15702,7 +14943,6 @@ IL_0037:
 		return L_10;
 	}
 }
-// Method Definition Index: 89634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* QueryProductDetailsService_GetCachedProductDetails_mB83A3E965CD5A586A0A6C972E8300E45416B6054 (QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15716,7 +14956,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* QueryProductDetailsService_Get
 	}
 	List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:91>
 		RuntimeObject* L_0 = ___0_products;
 		RuntimeObject* L_1 = __this->___m_GoogleCachedQueryProductDetailsService;
 		RuntimeObject* L_2 = L_1;
@@ -15727,7 +14966,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* QueryProductDetailsService_Get
 		List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D* L_5;
 		L_5 = Enumerable_ToList_TisProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD_mB682B5BDD25822B4ED6A465FC73020798EC9C68E(L_4, Enumerable_ToList_TisProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD_mB682B5BDD25822B4ED6A465FC73020798EC9C68E_RuntimeMethod_var);
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:92>
 		RuntimeObject* L_6 = __this->___m_GoogleCachedQueryProductDetailsService;
 		List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D* L_7 = V_0;
 		NullCheck(L_6);
@@ -15736,7 +14974,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* QueryProductDetailsService_Get
 		return L_8;
 	}
 }
-// Method Definition Index: 89635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1CD3D96DCA82227C224CC91A8D5666F20D3582BF* QueryProductDetailsService_QueryInAppsAsync_m19E6BC5C00DBE4C7DA288B13F874C594D007EC3E (QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15762,10 +14999,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1CD3D96DCA82227C224CC91A8D5666F20D358
 	Func_2_t0631E0C94F351906F330D95953B53D2C63793D7E* G_B3_0 = NULL;
 	RuntimeObject* G_B3_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:98>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:99>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:100>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:101>
 		RuntimeObject* L_0 = ___0_products;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t08E8652DF4042608B1EB0AF0746191DA504D6FF6_il2cpp_TypeInfo_var);
 		Func_2_t0492976669FA81C0CDC24263017851C8FBC5C5AF* L_1 = ((U3CU3Ec_t08E8652DF4042608B1EB0AF0746191DA504D6FF6_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t08E8652DF4042608B1EB0AF0746191DA504D6FF6_il2cpp_TypeInfo_var))->___U3CU3E9__11_0;
@@ -15826,7 +15059,6 @@ IL_0044:
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_13;
 		L_13 = Enumerable_ToList_TisString_t_m86360148F90DE6EA1A8363F38B7C2A88FD139131(L_12, Enumerable_ToList_TisString_t_m86360148F90DE6EA1A8363F38B7C2A88FD139131_RuntimeMethod_var);
 		V_0 = L_13;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:102>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_14 = V_0;
 		String_t* L_15;
 		L_15 = GoogleProductTypeEnum_InApp_mC6F756C1C12C66528473DC2358BCC6869128430F(NULL);
@@ -15835,7 +15067,6 @@ IL_0044:
 		return L_16;
 	}
 }
-// Method Definition Index: 89636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1CD3D96DCA82227C224CC91A8D5666F20D3582BF* QueryProductDetailsService_QuerySubsAsync_m25E061DB43FC13BF0081A2B808069AEC734E960F (QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15861,10 +15092,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1CD3D96DCA82227C224CC91A8D5666F20D358
 	Func_2_t0631E0C94F351906F330D95953B53D2C63793D7E* G_B3_0 = NULL;
 	RuntimeObject* G_B3_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:108>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:109>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:110>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:111>
 		RuntimeObject* L_0 = ___0_products;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t08E8652DF4042608B1EB0AF0746191DA504D6FF6_il2cpp_TypeInfo_var);
 		Func_2_t0492976669FA81C0CDC24263017851C8FBC5C5AF* L_1 = ((U3CU3Ec_t08E8652DF4042608B1EB0AF0746191DA504D6FF6_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t08E8652DF4042608B1EB0AF0746191DA504D6FF6_il2cpp_TypeInfo_var))->___U3CU3E9__12_0;
@@ -15925,7 +15152,6 @@ IL_0044:
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_13;
 		L_13 = Enumerable_ToList_TisString_t_m86360148F90DE6EA1A8363F38B7C2A88FD139131(L_12, Enumerable_ToList_TisString_t_m86360148F90DE6EA1A8363F38B7C2A88FD139131_RuntimeMethod_var);
 		V_0 = L_13;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:112>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_14 = V_0;
 		String_t* L_15;
 		L_15 = GoogleProductTypeEnum_Sub_mB8FEFEEBC839731C199BA724ADF136226CAECFD7(NULL);
@@ -15934,7 +15160,6 @@ IL_0044:
 		return L_16;
 	}
 }
-// Method Definition Index: 89637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1CD3D96DCA82227C224CC91A8D5666F20D3582BF* QueryProductDetailsService_QueryProductDetails_m76D0C25518DE3F0F6F1216DC02369C5B7D690308 (QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_productList, String_t* ___1_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15960,14 +15185,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1CD3D96DCA82227C224CC91A8D5666F20D358
 		U3CU3Ec__DisplayClass13_0_tE6111069EDF26E974FB91CF1DDAF3DAD49C4066E* L_0 = (U3CU3Ec__DisplayClass13_0_tE6111069EDF26E974FB91CF1DDAF3DAD49C4066E*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass13_0_tE6111069EDF26E974FB91CF1DDAF3DAD49C4066E_il2cpp_TypeInfo_var);
 		U3CU3Ec__DisplayClass13_0__ctor_mD4D836E33719FD696C18D668B563442839CE572C(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:117>
 		U3CU3Ec__DisplayClass13_0_tE6111069EDF26E974FB91CF1DDAF3DAD49C4066E* L_1 = V_0;
 		TaskCompletionSource_1_t69F9F65B204672547B3AA1948C60AB40293262CD* L_2 = (TaskCompletionSource_1_t69F9F65B204672547B3AA1948C60AB40293262CD*)il2cpp_codegen_object_new(TaskCompletionSource_1_t69F9F65B204672547B3AA1948C60AB40293262CD_il2cpp_TypeInfo_var);
 		TaskCompletionSource_1__ctor_mBB8EB5953091EAAB64142BDFA623755E83569E9A(L_2, TaskCompletionSource_1__ctor_mBB8EB5953091EAAB64142BDFA623755E83569E9A_RuntimeMethod_var);
 		NullCheck(L_1);
 		L_1->___taskCompletionSource = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___taskCompletionSource), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:119>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = ___0_productList;
 		NullCheck(L_3);
 		int32_t L_4;
@@ -15978,7 +15201,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1CD3D96DCA82227C224CC91A8D5666F20D358
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:121>
 		U3CU3Ec__DisplayClass13_0_tE6111069EDF26E974FB91CF1DDAF3DAD49C4066E* L_5 = V_0;
 		NullCheck(L_5);
 		TaskCompletionSource_1_t69F9F65B204672547B3AA1948C60AB40293262CD* L_6 = L_5->___taskCompletionSource;
@@ -15996,8 +15218,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1CD3D96DCA82227C224CC91A8D5666F20D358
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:125>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:126>
 		RuntimeObject* L_10 = __this->___m_BillingClient;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_11 = ___0_productList;
 		String_t* L_12 = ___1_type;
@@ -16010,7 +15230,6 @@ IL_0036:
 
 IL_004f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:129>
 		U3CU3Ec__DisplayClass13_0_tE6111069EDF26E974FB91CF1DDAF3DAD49C4066E* L_15 = V_0;
 		NullCheck(L_15);
 		TaskCompletionSource_1_t69F9F65B204672547B3AA1948C60AB40293262CD* L_16 = L_15->___taskCompletionSource;
@@ -16028,7 +15247,6 @@ IL_004f:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m83E00D1AAE2723395332044B62E1A8164E27E9EF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16045,7 +15263,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m83E00D1AAE2723395332044B
 		return;
 	}
 }
-// Method Definition Index: 89639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m9A9095CE1BEFCEF8FA7FBDDF20209D7CDD2A0464 (U3CU3Ec_t08E8652DF4042608B1EB0AF0746191DA504D6FF6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16053,20 +15270,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m9A9095CE1BEFCEF8FA7FBDDF2
 		return;
 	}
 }
-// Method Definition Index: 89640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CAreAllProductDetailsCachedU3Eb__9_0_m05B023132DDE24712C8C9445A8421C8CA682F49D (U3CU3Ec_t08E8652DF4042608B1EB0AF0746191DA504D6FF6* __this, bool ___0_isCached, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:86>
 		bool L_0 = ___0_isCached;
 		return L_0;
 	}
 }
-// Method Definition Index: 89641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CQueryInAppsAsyncU3Eb__11_0_m434E0C4101567845C5EBCEA790E2231F92E2B731 (U3CU3Ec_t08E8652DF4042608B1EB0AF0746191DA504D6FF6* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:99>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_0 = ___0_product;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -16074,11 +15287,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CQueryInAppsAsyncU3Eb__11_0_m4
 		return (bool)((((int32_t)((((int32_t)L_1) == ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 89642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CQueryInAppsAsyncU3Eb__11_1_m3230DBBA81D245A4A94BD522671FE621B04A7239 (U3CU3Ec_t08E8652DF4042608B1EB0AF0746191DA504D6FF6* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:100>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_0 = ___0_product;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -16086,11 +15297,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CQueryInAppsAsyncU3Eb__11
 		return L_1;
 	}
 }
-// Method Definition Index: 89643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CQuerySubsAsyncU3Eb__12_0_mD0666D2E6053D18B8D50900CD0ED81899764CD29 (U3CU3Ec_t08E8652DF4042608B1EB0AF0746191DA504D6FF6* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:109>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_0 = ___0_product;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -16098,11 +15307,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CQuerySubsAsyncU3Eb__12_0_mD06
 		return (bool)((((int32_t)L_1) == ((int32_t)2))? 1 : 0);
 	}
 }
-// Method Definition Index: 89644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CQuerySubsAsyncU3Eb__12_1_m2765A4F10494D483104E388E011FBA5F3CFA7742 (U3CU3Ec_t08E8652DF4042608B1EB0AF0746191DA504D6FF6* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:110>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_0 = ___0_product;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -16118,7 +15325,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CQuerySubsAsyncU3Eb__12_1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0__ctor_mD4D836E33719FD696C18D668B563442839CE572C (U3CU3Ec__DisplayClass13_0_tE6111069EDF26E974FB91CF1DDAF3DAD49C4066E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16126,7 +15332,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0__ctor_mD4D836E
 		return;
 	}
 }
-// Method Definition Index: 89646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CQueryProductDetailsU3Eb__0_mE0C303B6D6890974C96F4783995D15B2675D2721 (U3CU3Ec__DisplayClass13_0_tE6111069EDF26E974FB91CF1DDAF3DAD49C4066E* __this, RuntimeObject* ___0_billingResult, List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* ___1_productDetails, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16137,7 +15342,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CQueryProduc
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:126>
 		TaskCompletionSource_1_t69F9F65B204672547B3AA1948C60AB40293262CD* L_0 = __this->___taskCompletionSource;
 		RuntimeObject* L_1 = ___0_billingResult;
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_2 = ___1_productDetails;
@@ -16157,7 +15361,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CQueryProduc
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CQueryInAppsAndSubsProductDetailsU3Ed__7_MoveNext_m4DAF391BFE4AFD784B138A3FBEB9816BAC69D3D2 (U3CQueryInAppsAndSubsProductDetailsU3Ed__7_tACC66B1AA2387F06C2CE5F70D401F8CFE2B41EF5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16209,11 +15412,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CQueryInAppsAndSubsProductDetailsU3Ed_
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:62>
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:63>
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:64>
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:65>
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:66>
 			List_1_tEA87FCEE27D539CD41F15CEEB24311978CC8ACB1* L_3 = (List_1_tEA87FCEE27D539CD41F15CEEB24311978CC8ACB1*)il2cpp_codegen_object_new(List_1_tEA87FCEE27D539CD41F15CEEB24311978CC8ACB1_il2cpp_TypeInfo_var);
 			List_1__ctor_mF566370C5AAF109A7ADFF6B4D380F264AB872177(L_3, List_1__ctor_mF566370C5AAF109A7ADFF6B4D380F264AB872177_RuntimeMethod_var);
 			List_1_tEA87FCEE27D539CD41F15CEEB24311978CC8ACB1* L_4 = L_3;
@@ -16234,7 +15432,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CQueryInAppsAndSubsProductDetailsU3Ed_
 			List_1_Add_mEE127CC788BC0BF0F33D075E940DBA0131614912_inline(L_8, L_11, List_1_Add_mEE127CC788BC0BF0F33D075E940DBA0131614912_RuntimeMethod_var);
 			__this->___U3CtasksU3E5__2 = L_8;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtasksU3E5__2), (void*)L_8);
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:67>
 			List_1_tEA87FCEE27D539CD41F15CEEB24311978CC8ACB1* L_12 = __this->___U3CtasksU3E5__2;
 			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 			Task_1_t5E6EBECF67CBCA5AFC6657290152431B1CCDCDD3* L_13;
@@ -16278,11 +15475,9 @@ IL_009c_1:
 		{
 			ValueTuple_2U5BU5D_t71D25F5430BFA83B3C7257F4FD6D9834A7A5E602* L_22;
 			L_22 = TaskAwaiter_1_GetResult_m6296DFE8A313022FB8CA5ECE02DD325C0A2AB733((&V_4), TaskAwaiter_1_GetResult_m6296DFE8A313022FB8CA5ECE02DD325C0A2AB733_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:69>
 			ProductDetailsQueryResponse_t2F5BEC6200A6BFEAF5402CD211640D3A7D2A37E3* L_23 = (ProductDetailsQueryResponse_t2F5BEC6200A6BFEAF5402CD211640D3A7D2A37E3*)il2cpp_codegen_object_new(ProductDetailsQueryResponse_t2F5BEC6200A6BFEAF5402CD211640D3A7D2A37E3_il2cpp_TypeInfo_var);
 			ProductDetailsQueryResponse__ctor_m9203B31EAED9CA2E66A01002E57918D297611317(L_23, NULL);
 			V_3 = L_23;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:71>
 			List_1_tEA87FCEE27D539CD41F15CEEB24311978CC8ACB1* L_24 = __this->___U3CtasksU3E5__2;
 			NullCheck(L_24);
 			Enumerator_tAFA1CA61A5A1A544F9824459227E5EB63F48A8A3 L_25;
@@ -16320,11 +15515,9 @@ IL_00fc_1:
 
 IL_00b9_2:
 				{
-					//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:71>
 					Task_1_t1CD3D96DCA82227C224CC91A8D5666F20D3582BF* L_27;
 					L_27 = Enumerator_get_Current_m842DC28457E90DA6205B01F5C55B5DA98399427D_inline((&V_5), Enumerator_get_Current_m842DC28457E90DA6205B01F5C55B5DA98399427D_RuntimeMethod_var);
 					V_6 = L_27;
-					//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:73>
 					ProductDetailsQueryResponse_t2F5BEC6200A6BFEAF5402CD211640D3A7D2A37E3* L_28 = V_3;
 					Task_1_t1CD3D96DCA82227C224CC91A8D5666F20D3582BF* L_29 = V_6;
 					NullCheck(L_29);
@@ -16342,7 +15535,6 @@ IL_00b9_2:
 
 IL_00e0_2:
 				{
-					//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:71>
 					bool L_35;
 					L_35 = Enumerator_MoveNext_m7D63A0B48098B8D83F9DE297D2E7506FD0017E7A((&V_5), Enumerator_MoveNext_m7D63A0B48098B8D83F9DE297D2E7506FD0017E7A_RuntimeMethod_var);
 					if (L_35)
@@ -16362,7 +15554,6 @@ IL_00e0_2:
 
 IL_00fd_1:
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:76>
 			ProductDetailsQueryResponse_t2F5BEC6200A6BFEAF5402CD211640D3A7D2A37E3* L_36 = V_3;
 			V_2 = L_36;
 			goto IL_0121;
@@ -16395,7 +15586,6 @@ CATCH_0101:
 
 IL_0121:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:77>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CtasksU3E5__2 = (List_1_tEA87FCEE27D539CD41F15CEEB24311978CC8ACB1*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtasksU3E5__2), (void*)(List_1_tEA87FCEE27D539CD41F15CEEB24311978CC8ACB1*)NULL);
@@ -16417,7 +15607,6 @@ IL2CPP_EXTERN_C  void U3CQueryInAppsAndSubsProductDetailsU3Ed__7_MoveNext_m4DAF3
 	_thisAdjusted = reinterpret_cast<U3CQueryInAppsAndSubsProductDetailsU3Ed__7_tACC66B1AA2387F06C2CE5F70D401F8CFE2B41EF5*>(__this + _offset);
 	U3CQueryInAppsAndSubsProductDetailsU3Ed__7_MoveNext_m4DAF391BFE4AFD784B138A3FBEB9816BAC69D3D2(_thisAdjusted, method);
 }
-// Method Definition Index: 89648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CQueryInAppsAndSubsProductDetailsU3Ed__7_SetStateMachine_m0F112DE509FA8507CC2D33EA80B0C753E0BB91FC (U3CQueryInAppsAndSubsProductDetailsU3Ed__7_tACC66B1AA2387F06C2CE5F70D401F8CFE2B41EF5* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16450,7 +15639,6 @@ IL2CPP_EXTERN_C  void U3CQueryInAppsAndSubsProductDetailsU3Ed__7_SetStateMachine
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CQueryProductDescriptionsU3Ed__5_MoveNext_mD1DA9273B0F6431F760C1D64A4877D7EB28B3897 (U3CQueryProductDescriptionsU3Ed__5_t592EE582477505C403A9A255AE769FAF847B5C63* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16489,7 +15677,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CQueryProductDescriptionsU3Ed__5_MoveN
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:40>
 			QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* L_3 = V_1;
 			RuntimeObject* L_4 = __this->___products;
 			NullCheck(L_3);
@@ -16535,7 +15722,6 @@ IL_006b_1:
 			List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_14;
 			L_14 = TaskAwaiter_1_GetResult_mE2A78B225E6F7ECC411A299BC535611ABAD6BB71((&V_4), TaskAwaiter_1_GetResult_mE2A78B225E6F7ECC411A299BC535611ABAD6BB71_RuntimeMethod_var);
 			V_3 = L_14;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:41>
 			QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* L_15 = V_1;
 			NullCheck(L_15);
 			RuntimeObject* L_16 = L_15->___m_ProductDetailsConverter;
@@ -16573,7 +15759,6 @@ CATCH_0088:
 
 IL_00a1:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:42>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t586D51C257F283A727A29D71AE451B6F69F61D1D* L_23 = (AsyncTaskMethodBuilder_1_t586D51C257F283A727A29D71AE451B6F69F61D1D*)(&__this->___U3CU3Et__builder);
 		List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_24 = V_2;
@@ -16593,7 +15778,6 @@ IL2CPP_EXTERN_C  void U3CQueryProductDescriptionsU3Ed__5_MoveNext_mD1DA9273B0F64
 	_thisAdjusted = reinterpret_cast<U3CQueryProductDescriptionsU3Ed__5_t592EE582477505C403A9A255AE769FAF847B5C63*>(__this + _offset);
 	U3CQueryProductDescriptionsU3Ed__5_MoveNext_mD1DA9273B0F6431F760C1D64A4877D7EB28B3897(_thisAdjusted, method);
 }
-// Method Definition Index: 89650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CQueryProductDescriptionsU3Ed__5_SetStateMachine_m60F156EB012E969F1DD3F68DAF2AD620BECDED87 (U3CQueryProductDescriptionsU3Ed__5_t592EE582477505C403A9A255AE769FAF847B5C63* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16626,7 +15810,6 @@ IL2CPP_EXTERN_C  void U3CQueryProductDescriptionsU3Ed__5_SetStateMachine_m60F156
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CQueryProductDetailsU3Ed__6_MoveNext_mD120C6E5F7CFEE04C3BBD3CF236163E92531077C (U3CQueryProductDetailsU3Ed__6_t13A4F62A2741BBBB1C591359C06205108C9E9352* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16668,7 +15851,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CQueryProductDetailsU3Ed__6_MoveNext_m
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:46>
 			QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* L_3 = V_1;
 			RuntimeObject* L_4 = __this->___products;
 			NullCheck(L_3);
@@ -16714,7 +15896,6 @@ IL_006e_1:
 			ProductDetailsQueryResponse_t2F5BEC6200A6BFEAF5402CD211640D3A7D2A37E3* L_14;
 			L_14 = TaskAwaiter_1_GetResult_m5BC4237DDC791D75FC2CDFB23834D750CB05F699((&V_4), TaskAwaiter_1_GetResult_m5BC4237DDC791D75FC2CDFB23834D750CB05F699_RuntimeMethod_var);
 			V_3 = L_14;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:48>
 			QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* L_15 = V_1;
 			NullCheck(L_15);
 			RuntimeObject* L_16 = L_15->___m_GoogleCachedQueryProductDetailsService;
@@ -16724,7 +15905,6 @@ IL_006e_1:
 			L_18 = ProductDetailsQueryResponse_ProductDetails_m375D9C7FEADE8CAA0951E78C44A81078A6441CB7(L_17, NULL);
 			NullCheck(L_16);
 			InterfaceActionInvoker1< RuntimeObject* >::Invoke(3, IGoogleCachedQueryProductDetailsService_t49D771DF3968306DE56BBC0A6BF192883D027BF3_il2cpp_TypeInfo_var, L_16, L_18);
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:49>
 			QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* L_19 = V_1;
 			RuntimeObject* L_20 = __this->___products;
 			ProductDetailsQueryResponse_t2F5BEC6200A6BFEAF5402CD211640D3A7D2A37E3* L_21 = V_3;
@@ -16737,14 +15917,11 @@ IL_006e_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:51>
 			ProductDetailsQueryResponse_t2F5BEC6200A6BFEAF5402CD211640D3A7D2A37E3* L_23 = V_3;
 			NullCheck(L_23);
 			int32_t L_24;
 			L_24 = ProductDetailsQueryResponse_GetRecoverableBillingResponseCode_m77CA4420F03755E41099DF2F31D67462EEB2BFF4(L_23, NULL);
 			V_5 = L_24;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:52>
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:53>
 			int32_t L_25 = V_5;
 			int32_t L_26 = L_25;
 			RuntimeObject* L_27 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GoogleBillingResponseCode_t53E21A6DC94465C99D7B6CA0103CE99AA726DB68_il2cpp_TypeInfo_var)), &L_26);
@@ -16753,7 +15930,6 @@ IL_006e_1:
 			ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271* L_29 = (ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271_il2cpp_TypeInfo_var)));
 			ProductFetchFailureDescription__ctor_m478115AB3D52F9E466D2A3710C480C1F1018B992(L_29, 0, L_28, (bool)1, NULL);
 			V_6 = L_29;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:54>
 			int32_t L_30 = V_5;
 			ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271* L_31 = V_6;
 			GoogleFetchProductException_t36069F90DE0EDB5F51BB9277A2ED06A479557FB8* L_32 = (GoogleFetchProductException_t36069F90DE0EDB5F51BB9277A2ED06A479557FB8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GoogleFetchProductException_t36069F90DE0EDB5F51BB9277A2ED06A479557FB8_il2cpp_TypeInfo_var)));
@@ -16763,7 +15939,6 @@ IL_006e_1:
 
 IL_00c3_1:
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:57>
 			QueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851* L_33 = V_1;
 			RuntimeObject* L_34 = __this->___products;
 			NullCheck(L_33);
@@ -16800,7 +15975,6 @@ CATCH_00d7:
 
 IL_00f0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/AAR/QueryProductDetailsService.cs:58>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t3C1D95F7966DE30249D435547D0DD5361684155D* L_40 = (AsyncTaskMethodBuilder_1_t3C1D95F7966DE30249D435547D0DD5361684155D*)(&__this->___U3CU3Et__builder);
 		List_1_t75A593D0EA566755481CBE3EAF0CD9CACD223EAF* L_41 = V_2;
@@ -16820,7 +15994,6 @@ IL2CPP_EXTERN_C  void U3CQueryProductDetailsU3Ed__6_MoveNext_mD120C6E5F7CFEE04C3
 	_thisAdjusted = reinterpret_cast<U3CQueryProductDetailsU3Ed__6_t13A4F62A2741BBBB1C591359C06205108C9E9352*>(__this + _offset);
 	U3CQueryProductDetailsU3Ed__6_MoveNext_mD120C6E5F7CFEE04C3BBD3CF236163E92531077C(_thisAdjusted, method);
 }
-// Method Definition Index: 89652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CQueryProductDetailsU3Ed__6_SetStateMachine_m051971D11B45400608005582B5320E461BC710E6 (U3CQueryProductDetailsU3Ed__6_t13A4F62A2741BBBB1C591359C06205108C9E9352* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16853,73 +16026,55 @@ IL2CPP_EXTERN_C  void U3CQueryProductDetailsU3Ed__6_SetStateMachine_m051971D11B4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback__ctor_m3095999C1AB100B18FED1254B53F6CA5F3C076DC (GooglePlayPurchaseCallback_t9B716FF48C7A7FA3EE451B98FD2A984397979FEE* __this, RuntimeObject* ___0_googlePurchaseConverter, RuntimeObject* ___1_util, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:22>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:24>
 		RuntimeObject* L_0 = ___0_googlePurchaseConverter;
 		__this->___m_GooglePurchaseConverter = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GooglePurchaseConverter), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:25>
 		RuntimeObject* L_1 = ___1_util;
 		__this->___m_Util = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Util), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 89654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_SetProductCache_m7F48205E0A17EDE4CA7136C31326246D2DD2C9C1 (GooglePlayPurchaseCallback_t9B716FF48C7A7FA3EE451B98FD2A984397979FEE* __this, RuntimeObject* ___0_productCache, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:30>
 		RuntimeObject* L_0 = ___0_productCache;
 		__this->___m_ProductCache = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ProductCache), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 89655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_SetPurchaseCallback_m128F23BEF67245217CAA89B2D8EC40C265529DE9 (GooglePlayPurchaseCallback_t9B716FF48C7A7FA3EE451B98FD2A984397979FEE* __this, RuntimeObject* ___0_purchaseCallback, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:35>
 		RuntimeObject* L_0 = ___0_purchaseCallback;
 		__this->___m_PurchaseCallback = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PurchaseCallback), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 89656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_SetPurchaseFetchCallback_mED10CD19057A0028B1F1461386733A5C4FD2E2FE (GooglePlayPurchaseCallback_t9B716FF48C7A7FA3EE451B98FD2A984397979FEE* __this, RuntimeObject* ___0_fetchCallback, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:40>
 		RuntimeObject* L_0 = ___0_fetchCallback;
 		__this->___m_PurchaseFetchCallback = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PurchaseFetchCallback), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 89657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_SetChangeSubscriptionCallback_m983BAA7EA34032E8D8FEEDFEF7E0DF01E27110E8 (GooglePlayPurchaseCallback_t9B716FF48C7A7FA3EE451B98FD2A984397979FEE* __this, RuntimeObject* ___0_changeSubscriptionCallback, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:45>
 		RuntimeObject* L_0 = ___0_changeSubscriptionCallback;
 		__this->___m_ChangeSubscriptionCallback = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ChangeSubscriptionCallback), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 89658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_OnPurchaseSuccessful_mE379D04383B40C9C4E198A6C7031CFF2CD3BFB78 (GooglePlayPurchaseCallback_t9B716FF48C7A7FA3EE451B98FD2A984397979FEE* __this, RuntimeObject* ___0_purchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16930,7 +16085,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_OnPurchaseSuc
 	}
 	Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:50>
 		RuntimeObject* L_0 = __this->___m_GooglePurchaseConverter;
 		RuntimeObject* L_1 = ___0_purchase;
 		RuntimeObject* L_2 = __this->___m_ProductCache;
@@ -16938,14 +16092,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_OnPurchaseSuc
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_3;
 		L_3 = InterfaceFuncInvoker2< Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F*, RuntimeObject*, RuntimeObject* >::Invoke(0, IGooglePurchaseConverter_t9375A46F55A111E3739063EBFAA4F183A10FEAC6_il2cpp_TypeInfo_var, L_0, L_1, L_2);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:51>
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_4 = V_0;
 		GooglePlayPurchaseCallback_OnOrderPurchaseSuccessful_m2A133B8EEACCE1271E5A323A5B8F6A70666DE84A(__this, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 89659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_OnOrderPurchaseSuccessful_m2A133B8EEACCE1271E5A323A5B8F6A70666DE84A (GooglePlayPurchaseCallback_t9B716FF48C7A7FA3EE451B98FD2A984397979FEE* __this, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* ___0_order, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16967,7 +16118,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_OnOrderPurcha
 	RuntimeObject* G_B7_0 = NULL;
 	RuntimeObject* G_B6_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:56>
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_0 = ___0_order;
 		V_0 = ((PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1*)IsInstClass((RuntimeObject*)L_0, PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1_il2cpp_TypeInfo_var));
 		PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* L_1 = V_0;
@@ -16977,7 +16127,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_OnOrderPurcha
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:58>
 		RuntimeObject* L_2 = __this->___m_PurchaseCallback;
 		RuntimeObject* L_3 = L_2;
 		if (L_3)
@@ -17001,7 +16150,6 @@ IL_0015:
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:60>
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_5 = ___0_order;
 		V_1 = ((ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6*)IsInstClass((RuntimeObject*)L_5, ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6_il2cpp_TypeInfo_var));
 		ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_6 = V_1;
@@ -17011,7 +16159,6 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:62>
 		RuntimeObject* L_7 = __this->___m_PurchaseFetchCallback;
 		RuntimeObject* L_8 = L_7;
 		if (L_8)
@@ -17039,11 +16186,9 @@ IL_0031:
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 89660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_OnPurchaseFailed_m2DAE87A0C4CB766BEFBD04F6A15450CD99C1FDBB (GooglePlayPurchaseCallback_t9B716FF48C7A7FA3EE451B98FD2A984397979FEE* __this, PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* ___0_purchaseFailureDescription, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17056,8 +16201,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_OnPurchaseFai
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:69>
 		RuntimeObject* L_0 = __this->___m_PurchaseCallback;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -17079,11 +16222,9 @@ IL_000b:
 		L_3 = PurchaseFailureDescription_ConvertToFailedOrder_m10E058F72558E6267F6F99384150FE3E5934B829(L_2, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< FailedOrder_t4FF159EDE64FC2EAFB4439A3AEC7F46B62F55BD8* >::Invoke(1, IStorePurchaseCallback_t11CAECB80A57C28D5A888B8CD7DB7474D7CBE21C_il2cpp_TypeInfo_var, G_B2_0, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:70>
 		return;
 	}
 }
-// Method Definition Index: 89661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_NotifyDeferredPurchase_mF375524E7B74A2881D2D5EFD819B523DFCA558A1 (GooglePlayPurchaseCallback_t9B716FF48C7A7FA3EE451B98FD2A984397979FEE* __this, RuntimeObject* ___0_purchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17098,7 +16239,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_NotifyDeferre
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:74>
 		RuntimeObject* L_0 = __this->___m_GooglePurchaseConverter;
 		RuntimeObject* L_1 = ___0_purchase;
 		RuntimeObject* L_2 = __this->___m_ProductCache;
@@ -17106,7 +16246,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_NotifyDeferre
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_3;
 		L_3 = InterfaceFuncInvoker2< Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F*, RuntimeObject*, RuntimeObject* >::Invoke(0, IGooglePurchaseConverter_t9375A46F55A111E3739063EBFAA4F183A10FEAC6_il2cpp_TypeInfo_var, L_0, L_1, L_2);
 		V_0 = ((DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F29192D7F56*)CastclassClass((RuntimeObject*)L_3, DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F29192D7F56_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:75>
 		RuntimeObject* L_4 = __this->___m_PurchaseCallback;
 		RuntimeObject* L_5 = L_4;
 		if (L_5)
@@ -17125,11 +16264,9 @@ IL_0023:
 		DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F29192D7F56* L_6 = V_0;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F29192D7F56* >::Invoke(2, IStorePurchaseCallback_t11CAECB80A57C28D5A888B8CD7DB7474D7CBE21C_il2cpp_TypeInfo_var, G_B2_0, L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:76>
 		return;
 	}
 }
-// Method Definition Index: 89662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_NotifyDeferredProrationUpgradeDowngradeSubscription_m5AC86A36824BD85F0ED22F0E3FA5644DCC22E0C6 (GooglePlayPurchaseCallback_t9B716FF48C7A7FA3EE451B98FD2A984397979FEE* __this, String_t* ___0_sku, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17141,7 +16278,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_NotifyDeferre
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:80>
 		RuntimeObject* L_0 = __this->___m_ChangeSubscriptionCallback;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -17160,11 +16296,9 @@ IL_000b:
 		String_t* L_2 = ___0_sku;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< String_t* >::Invoke(0, IGooglePlayChangeSubscriptionCallback_tA6FF0701B93C9E6F71D561CF4F682C72E64E51C4_il2cpp_TypeInfo_var, G_B2_0, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 89663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_NotifyUpgradeDowngradeSubscription_mEBA14519B9EBD1AFB997AB3D7DBC900C90916DC3 (GooglePlayPurchaseCallback_t9B716FF48C7A7FA3EE451B98FD2A984397979FEE* __this, String_t* ___0_sku, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17176,7 +16310,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_NotifyUpgrade
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:85>
 		RuntimeObject* L_0 = __this->___m_ChangeSubscriptionCallback;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -17195,7 +16328,6 @@ IL_000b:
 		String_t* L_2 = ___0_sku;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< String_t* >::Invoke(1, IGooglePlayChangeSubscriptionCallback_tA6FF0701B93C9E6F71D561CF4F682C72E64E51C4_il2cpp_TypeInfo_var, G_B2_0, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:86>
 		return;
 	}
 }
@@ -17207,66 +16339,43 @@ IL_000b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore__ctor_m39150F21C2AA6BBEF9CC49FF75EB553668D63C2F (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, RuntimeObject* ___0_fetchProductsService, RuntimeObject* ___1_storePurchaseService, RuntimeObject* ___2_playStoreFetchPurchasesService, RuntimeObject* ___3_transactionService, RuntimeObject* ___4_changeSubscriptionService, RuntimeObject* ___5_checkEntitlementsService, RuntimeObject* ___6_googlePurchaseCallback, RuntimeObject* ___7_cartValidator, RuntimeObject* ___8_connectionService, RuntimeObject* ___9_billingClient, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:26>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:27>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:28>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:29>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:30>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:31>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:32>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:33>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:34>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:35>
 		InternalStore__ctor_mA69902ACA246ACEDE967486AB987A016D4484E74(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:37>
 		RuntimeObject* L_0 = ___0_fetchProductsService;
 		__this->___m_FetchProductsService = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_FetchProductsService), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:38>
 		RuntimeObject* L_1 = ___1_storePurchaseService;
 		__this->___m_StorePurchaseService = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_StorePurchaseService), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:39>
 		RuntimeObject* L_2 = ___2_playStoreFetchPurchasesService;
 		__this->___m_PlayStoreFetchPurchasesService = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PlayStoreFetchPurchasesService), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:40>
 		RuntimeObject* L_3 = ___5_checkEntitlementsService;
 		__this->___m_CheckEntitlementsService = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CheckEntitlementsService), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:41>
 		RuntimeObject* L_4 = ___3_transactionService;
 		__this->___m_FinishTransactionService = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_FinishTransactionService), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:42>
 		RuntimeObject* L_5 = ___4_changeSubscriptionService;
 		__this->___m_ChangeSubscriptionService = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ChangeSubscriptionService), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:43>
 		RuntimeObject* L_6 = ___6_googlePurchaseCallback;
 		__this->___m_GooglePurchaseCallback = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GooglePurchaseCallback), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:44>
 		RuntimeObject* L_7 = ___7_cartValidator;
 		__this->___m_CartValidator = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CartValidator), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:45>
 		RuntimeObject* L_8 = ___8_connectionService;
 		__this->___m_ConnectionService = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ConnectionService), (void*)L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:46>
 		RuntimeObject* L_9 = ___9_billingClient;
 		__this->___m_BillingClient = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_BillingClient), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 89665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_FetchProducts_m184913A380742233F4A7F59E653CAD4C88596A4E (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17276,26 +16385,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_FetchProducts_m184913A38
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:55>
 		RuntimeObject* L_0 = __this->___m_FetchProductsService;
 		RuntimeObject* L_1 = ___0_products;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IGooglePlayStoreFetchProductsService_tAE2490F2AD95AD3F75ECA89A1836557F049A2936_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:56>
 		return;
 	}
 }
-// Method Definition Index: 89666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_FetchPurchases_mEC94EE777759C8CE46B0F347DDEEC88BD257F21D (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:63>
 		GooglePlayStore_FetchPurchasesInternal_m2ABC6E366EF29DC4D3DA0710680AEDB40E53327F(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 89667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_FetchPurchasesInternal_m2ABC6E366EF29DC4D3DA0710680AEDB40E53327F (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17305,15 +16408,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_FetchPurchasesInternal_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:68>
 		RuntimeObject* L_0 = __this->___m_PlayStoreFetchPurchasesService;
 		NullCheck(L_0);
 		InterfaceActionInvoker0::Invoke(2, IGooglePlayStoreFetchPurchasesService_t4FDF4E4DC1B1C646B6362994C6071DD9B0AF69E7_il2cpp_TypeInfo_var, L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:69>
 		return;
 	}
 }
-// Method Definition Index: 89668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_Purchase_m7B9FC958221C6B21D109736B8A9472F41FE33B53 (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, RuntimeObject* ___0_cart, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17327,12 +16427,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_Purchase_m7B9FC958221C6B
 	}
 	ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:77>
 		RuntimeObject* L_0 = __this->___m_CartValidator;
 		RuntimeObject* L_1 = ___0_cart;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, ICartValidator_t90FCA836A726E33FAFB5657646A89A15EE3562EB_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:78>
 		RuntimeObject* L_2 = ___0_cart;
 		NullCheck(L_2);
 		RuntimeObject* L_3;
@@ -17346,16 +16444,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_Purchase_m7B9FC958221C6B
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_6;
 		L_6 = Product_get_definition_m0B1DCF704219DD58B62DC2718C64D33DD690F92B_inline(L_5, NULL);
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:79>
 		RuntimeObject* L_7 = __this->___m_StorePurchaseService;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_8 = V_0;
 		NullCheck(L_7);
 		InterfaceActionInvoker1< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* >::Invoke(0, IGooglePlayStorePurchaseService_t5E9314574BBA2FD4B4E2045C96A83EBADB64E4A5_il2cpp_TypeInfo_var, L_7, L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:80>
 		return;
 	}
 }
-// Method Definition Index: 89669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_ChangeSubscription_m215948D1801A806E5B4FC4DE29F40190C235CB8F (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* ___1_currentOrder, Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C ___2_desiredReplacementMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17365,18 +16460,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_ChangeSubscription_m2159
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:91>
 		RuntimeObject* L_0 = __this->___m_ChangeSubscriptionService;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_1 = ___0_product;
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_2 = ___1_currentOrder;
 		Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C L_3 = ___2_desiredReplacementMode;
 		NullCheck(L_0);
 		InterfaceActionInvoker3< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F*, Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C >::Invoke(0, IGooglePlayStoreChangeSubscriptionService_tFD545A6FE6A3CE174CB9A9D162124F3D0BBD5F65_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:92>
 		return;
 	}
 }
-// Method Definition Index: 89670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_FinishTransaction_mCC2FA9AF401F00DFBC247864E48EA3943122DF25 (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* ___0_pendingOrder, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17391,7 +16483,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_FinishTransaction_mCC2FA
 	}
 	ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:96>
 		RuntimeObject* L_0 = __this->___m_CartValidator;
 		PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* L_1 = ___0_pendingOrder;
 		NullCheck(L_1);
@@ -17399,7 +16490,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_FinishTransaction_mCC2FA
 		L_2 = Order_get_CartOrdered_m134E21BEDE41F469365E67B54F1132986016525A_inline(L_1, NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, ICartValidator_t90FCA836A726E33FAFB5657646A89A15EE3562EB_il2cpp_TypeInfo_var, L_0, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:97>
 		PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* L_3 = ___0_pendingOrder;
 		NullCheck(L_3);
 		RuntimeObject* L_4;
@@ -17416,7 +16506,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_FinishTransaction_mCC2FA
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_8;
 		L_8 = Product_get_definition_m0B1DCF704219DD58B62DC2718C64D33DD690F92B_inline(L_7, NULL);
 		V_0 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:98>
 		RuntimeObject* L_9 = __this->___m_FinishTransactionService;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_10 = V_0;
 		PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* L_11 = ___0_pendingOrder;
@@ -17428,11 +16517,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_FinishTransaction_mCC2FA
 		L_13 = InterfaceFuncInvoker0< String_t* >::Invoke(5, IOrderInfo_t8F6EE055337893DD2EA2A1E2F9AA581DF29C52F0_il2cpp_TypeInfo_var, L_12);
 		NullCheck(L_9);
 		InterfaceActionInvoker2< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, String_t* >::Invoke(2, IGooglePlayStoreFinishTransactionService_t8C9993BA107C28BD0545288F9103BA4305632B8A_il2cpp_TypeInfo_var, L_9, L_10, L_13);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:99>
 		return;
 	}
 }
-// Method Definition Index: 89671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_Connect_m400F01228F5938BD6C84114A8D41D4EE0D466326 (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17442,15 +16529,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_Connect_m400F01228F5938B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:103>
 		RuntimeObject* L_0 = __this->___m_ConnectionService;
 		NullCheck(L_0);
 		InterfaceActionInvoker0::Invoke(0, IGooglePlayStoreConnectionService_t757D10A1DA7167E45EB2D9F4778D6036404F20D7_il2cpp_TypeInfo_var, L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:104>
 		return;
 	}
 }
-// Method Definition Index: 89672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_CheckEntitlement_m47E4CBD8D0570E25F8207BF2CCC6F8EEBC168DFB (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17460,16 +16544,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_CheckEntitlement_m47E4CB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:108>
 		RuntimeObject* L_0 = __this->___m_CheckEntitlementsService;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_1 = ___0_product;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* >::Invoke(0, IGooglePlayStoreCheckEntitlementService_t22C97B9BC33D12F6831C55BA956386DB99D540AC_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:109>
 		return;
 	}
 }
-// Method Definition Index: 89673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_SetPurchaseFetchCallback_m2117DC574BB2203B495973B2CD25FD0D62277834 (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, RuntimeObject* ___0_fetchPurchaseCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17480,21 +16561,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_SetPurchaseFetchCallback
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:117>
 		RuntimeObject* L_0 = __this->___m_PlayStoreFetchPurchasesService;
 		RuntimeObject* L_1 = ___0_fetchPurchaseCallback;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(1, IGooglePlayStoreFetchPurchasesService_t4FDF4E4DC1B1C646B6362994C6071DD9B0AF69E7_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:118>
 		RuntimeObject* L_2 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_3 = ___0_fetchPurchaseCallback;
 		NullCheck(L_2);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(2, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, L_2, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:119>
 		return;
 	}
 }
-// Method Definition Index: 89674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_SetPurchaseCallback_mF6492C68D748E583DFE43C26CC42C8F2780C9F8D (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, RuntimeObject* ___0_purchaseCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17504,16 +16581,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_SetPurchaseCallback_mF64
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:123>
 		RuntimeObject* L_0 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_1 = ___0_purchaseCallback;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(1, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:124>
 		return;
 	}
 }
-// Method Definition Index: 89675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_SetChangeSubscriptionCallback_mBA98E93BD3BDA8B23A360633E98360B659013455 (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, RuntimeObject* ___0_changeSubscriptionCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17523,16 +16597,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_SetChangeSubscriptionCal
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:128>
 		RuntimeObject* L_0 = __this->___m_GooglePurchaseCallback;
 		RuntimeObject* L_1 = ___0_changeSubscriptionCallback;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(3, IGooglePurchaseCallback_t5366808F32636942DEAF0626EE1224AC7E41DF56_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:129>
 		return;
 	}
 }
-// Method Definition Index: 89676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_SetPurchaseConfirmCallback_m82E10F9EF7452734ADB6E0E82720FA9E3E8BFD82 (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, RuntimeObject* ___0_confirmCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17542,16 +16613,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_SetPurchaseConfirmCallba
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:133>
 		RuntimeObject* L_0 = __this->___m_FinishTransactionService;
 		RuntimeObject* L_1 = ___0_confirmCallback;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(1, IGooglePlayStoreFinishTransactionService_t8C9993BA107C28BD0545288F9103BA4305632B8A_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:134>
 		return;
 	}
 }
-// Method Definition Index: 89677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_SetProductsCallback_m701D98AAFEC4D2852D9E62EEC5D3BABA7EE37616 (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, RuntimeObject* ___0_productsCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17561,16 +16629,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_SetProductsCallback_m701
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:138>
 		RuntimeObject* L_0 = __this->___m_FetchProductsService;
 		RuntimeObject* L_1 = ___0_productsCallback;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(1, IGooglePlayStoreFetchProductsService_tAE2490F2AD95AD3F75ECA89A1836557F049A2936_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:139>
 		return;
 	}
 }
-// Method Definition Index: 89678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_SetEntitlementCheckCallback_mEE8B3DEDF9EDDCE22538F245F4613067FDECE8A4 (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, RuntimeObject* ___0_entitlementCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17580,16 +16645,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_SetEntitlementCheckCallb
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:143>
 		RuntimeObject* L_0 = __this->___m_CheckEntitlementsService;
 		RuntimeObject* L_1 = ___0_entitlementCallback;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(1, IGooglePlayStoreCheckEntitlementService_t22C97B9BC33D12F6831C55BA956386DB99D540AC_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:144>
 		return;
 	}
 }
-// Method Definition Index: 89679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_SetStoreConnectionCallback_m30E3C9F281A057DCAF79548A45462B576B11D64A (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, RuntimeObject* ___0_storeConnectCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17599,20 +16661,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_SetStoreConnectionCallba
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:148>
 		RuntimeObject* L_0 = __this->___m_ConnectionService;
 		RuntimeObject* L_1 = ___0_storeConnectCallback;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(3, IGooglePlayStoreConnectionService_t757D10A1DA7167E45EB2D9F4778D6036404F20D7_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:149>
 		return;
 	}
 }
-// Method Definition Index: 89680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_OnPause_m2D92E402FFFCCAA0074C8B20D9EB0010AE6C37D7 (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, bool ___0_isPaused, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:153>
 		bool L_0 = ___0_isPaused;
 		if (L_0)
 		{
@@ -17620,17 +16678,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStore_OnPause_m2D92E402FFFCCAA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:155>
 		GooglePlayStore_FetchPurchasesInternal_m2ABC6E366EF29DC4D3DA0710680AEDB40E53327F(__this, NULL);
 	}
 
 IL_0009:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:157>
 		return;
 	}
 }
-// Method Definition Index: 89681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GooglePlayStore_GetGooglePurchase_mF687603F611E22FDB15A0C9D4C5A76844AA2AB3D (GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* __this, String_t* ___0_purchaseToken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17640,7 +16695,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GooglePlayStore_GetGooglePurch
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayStore.cs:161>
 		RuntimeObject* L_0 = __this->___m_PlayStoreFetchPurchasesService;
 		String_t* L_1 = ___0_purchaseToken;
 		NullCheck(L_0);
@@ -17657,17 +16711,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GooglePlayStore_GetGooglePurch
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePurchaseConverter__ctor_m6C657272E9A9093C86CDBF7F2E529829AD50CDC7 (GooglePurchaseConverter_tCA4DF370A6C73A8F842083617495DE2C48201B1C* __this, RuntimeObject* ___0_productDetailsConverter, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:14>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:15>
 		return;
 	}
 }
-// Method Definition Index: 89683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* GooglePurchaseConverter_CreateOrderFromPurchase_mFED638FAB0D4D35C640C58EAFCDB4BF7E72EC49E (GooglePurchaseConverter_tCA4DF370A6C73A8F842083617495DE2C48201B1C* __this, RuntimeObject* ___0_purchase, RuntimeObject* ___1_productCache, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17684,13 +16734,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Order_tD1825298A09BBF359EC2F7B272C72E11C0508A
 	RuntimeObject* V_0 = NULL;
 	GoogleOrderInfo_t9D90D2C665E5408063690C5BA29FF376FE13FDCB* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:19>
 		RuntimeObject* L_0 = ___0_purchase;
 		RuntimeObject* L_1 = ___1_productCache;
 		RuntimeObject* L_2;
 		L_2 = GooglePurchaseConverter_CreateCartFromPurchase_mA7441168E9420FC9C4C075EEBFFFFAB221838B6A(__this, L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:20>
 		RuntimeObject* L_3 = ___0_purchase;
 		NullCheck(L_3);
 		String_t* L_4;
@@ -17710,7 +16758,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Order_tD1825298A09BBF359EC2F7B272C72E11C0508A
 		GoogleOrderInfo_t9D90D2C665E5408063690C5BA29FF376FE13FDCB* L_11 = (GoogleOrderInfo_t9D90D2C665E5408063690C5BA29FF376FE13FDCB*)il2cpp_codegen_object_new(GoogleOrderInfo_t9D90D2C665E5408063690C5BA29FF376FE13FDCB_il2cpp_TypeInfo_var);
 		GoogleOrderInfo__ctor_mA33027985528F5160ACE5AB90AE7979C4B2D308B(L_11, L_4, L_6, _stringLiteral6079AE2B62685587AFC3A5F43EAFD2948D574952, L_8, L_10, NULL);
 		V_1 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:22>
 		RuntimeObject* L_12 = ___0_purchase;
 		NullCheck(L_12);
 		bool L_13;
@@ -17721,7 +16768,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Order_tD1825298A09BBF359EC2F7B272C72E11C0508A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:24>
 		RuntimeObject* L_14 = V_0;
 		GoogleOrderInfo_t9D90D2C665E5408063690C5BA29FF376FE13FDCB* L_15 = V_1;
 		DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F29192D7F56* L_16 = (DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F29192D7F56*)il2cpp_codegen_object_new(DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F29192D7F56_il2cpp_TypeInfo_var);
@@ -17731,7 +16777,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Order_tD1825298A09BBF359EC2F7B272C72E11C0508A
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:28>
 		RuntimeObject* L_17 = V_0;
 		int32_t L_18;
 		L_18 = GooglePurchaseConverter_GetProductType_m72B8A3B13CCD2A74ED65163DBC22674E2A955A96(L_17, NULL);
@@ -17751,7 +16796,6 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:30>
 		RuntimeObject* L_21 = V_0;
 		GoogleOrderInfo_t9D90D2C665E5408063690C5BA29FF376FE13FDCB* L_22 = V_1;
 		ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_23 = (ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6*)il2cpp_codegen_object_new(ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6_il2cpp_TypeInfo_var);
@@ -17761,7 +16805,6 @@ IL_003c:
 
 IL_0054:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:33>
 		RuntimeObject* L_24 = V_0;
 		GoogleOrderInfo_t9D90D2C665E5408063690C5BA29FF376FE13FDCB* L_25 = V_1;
 		PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* L_26 = (PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1*)il2cpp_codegen_object_new(PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1_il2cpp_TypeInfo_var);
@@ -17769,7 +16812,6 @@ IL_0054:
 		return L_26;
 	}
 }
-// Method Definition Index: 89684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GooglePurchaseConverter_GetProductType_m72B8A3B13CCD2A74ED65163DBC22674E2A955A96 (RuntimeObject* ___0_cart, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17793,14 +16835,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GooglePurchaseConverter_GetProductTyp
 	ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* G_B4_0 = NULL;
 	ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:38>
 		RuntimeObject* L_0 = ___0_cart;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
 		L_1 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, ICart_t54844F3BE8B3D7FDCD3505D0F05B4E1C5F4DFAB5_il2cpp_TypeInfo_var, L_0);
 		CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_2;
 		L_2 = Enumerable_FirstOrDefault_TisCartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F_mD0A8B5253E14D9C2E6DB9DF4EF31E5F2CFDA8762(L_1, Enumerable_FirstOrDefault_TisCartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F_mD0A8B5253E14D9C2E6DB9DF4EF31E5F2CFDA8762_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:39>
 		CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_3 = L_2;
 		if (L_3)
 		{
@@ -17871,7 +16911,6 @@ IL_0049:
 		return L_12;
 	}
 }
-// Method Definition Index: 89685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GooglePurchaseConverter_CreateCartFromPurchase_mA7441168E9420FC9C4C075EEBFFFFAB221838B6A (GooglePurchaseConverter_tCA4DF370A6C73A8F842083617495DE2C48201B1C* __this, RuntimeObject* ___0_purchase, RuntimeObject* ___1_productCache, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17888,7 +16927,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GooglePurchaseConverter_Create
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* G_B5_0 = NULL;
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:44>
 		RuntimeObject* L_0 = ___1_productCache;
 		if (L_0)
 		{
@@ -17933,10 +16971,6 @@ IL_0012:
 IL_001d:
 	{
 		V_0 = G_B5_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:46>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:49>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_8 = V_0;
 		NullCheck(L_8);
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_9;
@@ -17958,7 +16992,6 @@ IL_001d:
 		L_17 = InterfaceFuncInvoker0< String_t* >::Invoke(8, IGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_il2cpp_TypeInfo_var, L_16);
 		NullCheck(L_15);
 		Product_set_transactionID_mEB0EEC10D24C7172DDF38FA3CF553A54A9A998C7_inline(L_15, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:51>
 		CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_18;
 		L_18 = CartItem_op_Implicit_mB626594B3A9A7DCBC89AB8EAF4F16D4A78C36EB2(L_15, NULL);
 		Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2* L_19 = (Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2*)il2cpp_codegen_object_new(Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2_il2cpp_TypeInfo_var);
@@ -17966,7 +16999,6 @@ IL_001d:
 		return L_19;
 	}
 }
-// Method Definition Index: 89686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* GooglePurchaseConverter_DefaultProduct_mE24EAB62EAEC4C3B0D0528501C63726CCCD81BA4 (GooglePurchaseConverter_tCA4DF370A6C73A8F842083617495DE2C48201B1C* __this, RuntimeObject* ___0_purchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17987,7 +17019,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B97
 	ProductMetadata_t2D6C6454A305A6790D8903169E3B136EB13417E1* G_B5_0 = NULL;
 	ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* G_B5_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:56>
 		RuntimeObject* L_0 = ___0_purchase;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -17995,7 +17026,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B97
 		ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* L_2;
 		L_2 = Enumerable_FirstOrDefault_TisProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A_m9BADD2A23B7D4DCF0FE9A534DA4EDED5A3D26628(L_1, Enumerable_FirstOrDefault_TisProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A_m9BADD2A23B7D4DCF0FE9A534DA4EDED5A3D26628_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:58>
 		RuntimeObject* L_3 = ___0_purchase;
 		NullCheck(L_3);
 		String_t* L_4;
@@ -18014,8 +17044,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B97
 
 IL_001b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:60>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePurchaseConverter.cs:61>
 		String_t* L_6 = G_B2_0;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_7 = (ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*)il2cpp_codegen_object_new(ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD_il2cpp_TypeInfo_var);
 		ProductDefinition__ctor_m1B9A18A1514A424E7D8F99BBBC77B730FA353B29(L_7, L_6, L_6, 3, NULL);
@@ -18058,21 +17086,16 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreChangeSubscriptionService__ctor_m2FC6095F57C4ED49E9B780E9E3EEBD16B2F5D164 (GooglePlayStoreChangeSubscriptionService_t00C32C598D60689E18206463A8CED7E9A65397C9* __this, RuntimeObject* ___0_googlePlayStoreService, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreChangeSubscriptionService.cs:11>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreChangeSubscriptionService.cs:13>
 		RuntimeObject* L_0 = ___0_googlePlayStoreService;
 		__this->___m_GooglePlayStoreService = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GooglePlayStoreService), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreChangeSubscriptionService.cs:14>
 		return;
 	}
 }
-// Method Definition Index: 89690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreChangeSubscriptionService_ChangeSubscription_m769C7A6229ADAD73C54C816770FC47C01FFB054B (GooglePlayStoreChangeSubscriptionService_t00C32C598D60689E18206463A8CED7E9A65397C9* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* ___1_currentOrder, Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C ___2_desiredReplacementMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18082,14 +17105,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreChangeSubscriptionService
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreChangeSubscriptionService.cs:19>
 		RuntimeObject* L_0 = __this->___m_GooglePlayStoreService;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_1 = ___0_product;
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_2 = ___1_currentOrder;
 		Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C L_3 = ___2_desiredReplacementMode;
 		NullCheck(L_0);
 		InterfaceActionInvoker3< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F*, Nullable_1_t970AE010F8F8B45699EB795FCDE562216915208C >::Invoke(2, IGooglePlayStoreService_t2150BD552434E043110FE996521A30B5027BFCED_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreChangeSubscriptionService.cs:20>
 		return;
 	}
 }
@@ -18101,21 +17122,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreChangeSubscriptionService
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreCheckEntitlementService__ctor_m1CB8975434F7A2FAA4165F9DD85581AF240663CC (GooglePlayStoreCheckEntitlementService_t78CE96F2367D2CDD1E1A16E11A20EC5685965A41* __this, RuntimeObject* ___0_googlePlayStoreService, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreCheckEntitlementService.cs:13>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreCheckEntitlementService.cs:15>
 		RuntimeObject* L_0 = ___0_googlePlayStoreService;
 		__this->___m_GooglePlayStoreService = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GooglePlayStoreService), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreCheckEntitlementService.cs:16>
 		return;
 	}
 }
-// Method Definition Index: 89692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreCheckEntitlementService_CheckEntitlement_m6C75C44950185F63592ECF81FF2AF2CE6599A03F (GooglePlayStoreCheckEntitlementService_t78CE96F2367D2CDD1E1A16E11A20EC5685965A41* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18127,33 +17143,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreCheckEntitlementService_C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreCheckEntitlementService.cs:20>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreCheckEntitlementService.cs:21>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreCheckEntitlementService.cs:22>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreCheckEntitlementService.cs:23>
 		RuntimeObject* L_0 = __this->___m_GooglePlayStoreService;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_1 = ___0_product;
 		Action_2_tCE9A0BC45E32F4A213970A81384D57EE1F82AC01* L_2 = (Action_2_tCE9A0BC45E32F4A213970A81384D57EE1F82AC01*)il2cpp_codegen_object_new(Action_2_tCE9A0BC45E32F4A213970A81384D57EE1F82AC01_il2cpp_TypeInfo_var);
 		Action_2__ctor_mB0F3AE7C80B7757172C1C223329417CDA8200807(L_2, __this, (intptr_t)((void*)GooglePlayStoreCheckEntitlementService_U3CCheckEntitlementU3Eb__3_0_m5349F57F2D128A6C8D54DCCB0C0131DE421E5807_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker2< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, Action_2_tCE9A0BC45E32F4A213970A81384D57EE1F82AC01* >::Invoke(5, IGooglePlayStoreService_t2150BD552434E043110FE996521A30B5027BFCED_il2cpp_TypeInfo_var, L_0, L_1, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreCheckEntitlementService.cs:24>
 		return;
 	}
 }
-// Method Definition Index: 89693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreCheckEntitlementService_SetCheckEntitlementCallback_m1D95DF273FC9FE7620CE2BC50D51B0EE4B89027A (GooglePlayStoreCheckEntitlementService_t78CE96F2367D2CDD1E1A16E11A20EC5685965A41* __this, RuntimeObject* ___0_entitlementCallback, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreCheckEntitlementService.cs:28>
 		RuntimeObject* L_0 = ___0_entitlementCallback;
 		__this->___m_EntitlementCallback = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_EntitlementCallback), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreCheckEntitlementService.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 89694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreCheckEntitlementService_U3CCheckEntitlementU3Eb__3_0_m5349F57F2D128A6C8D54DCCB0C0131DE421E5807 (GooglePlayStoreCheckEntitlementService_t78CE96F2367D2CDD1E1A16E11A20EC5685965A41* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_checkedProduct, int32_t ___1_status, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18165,7 +17172,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreCheckEntitlementService_U
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreCheckEntitlementService.cs:22>
 		RuntimeObject* L_0 = __this->___m_EntitlementCallback;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -18185,7 +17191,6 @@ IL_000b:
 		int32_t L_3 = ___1_status;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker3< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, int32_t, String_t* >::Invoke(0, IStoreCheckEntitlementCallback_t2379555B5C96803542B88A754FA30E1E83EF1289_il2cpp_TypeInfo_var, G_B2_0, L_2, L_3, (String_t*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreCheckEntitlementService.cs:23>
 		return;
 	}
 }
@@ -18197,26 +17202,19 @@ IL_000b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreConnectionService__ctor_m20BE0FF889BF32B048246ECA82BC04C6676F592A (GooglePlayStoreConnectionService_t2C50535EB35107AFB0A5EC1B4B6280348C4CC155* __this, RuntimeObject* ___0_billingClient, RuntimeObject* ___1_billingClientStateListener, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:14>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:15>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:17>
 		RuntimeObject* L_0 = ___0_billingClient;
 		__this->___m_BillingClient = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_BillingClient), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:18>
 		RuntimeObject* L_1 = ___1_billingClientStateListener;
 		__this->___m_BillingClientStateListener = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_BillingClientStateListener), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:19>
 		return;
 	}
 }
-// Method Definition Index: 89696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreConnectionService_Connect_m4D352B38724C16938ACCDB765CACCF464E1891EA (GooglePlayStoreConnectionService_t2C50535EB35107AFB0A5EC1B4B6280348C4CC155* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18231,28 +17229,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreConnectionService_Connect
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:23>
 		RuntimeObject* L_0 = __this->___m_BillingClientStateListener;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)GooglePlayStoreConnectionService_OnConnected_m1CB7E6E5C3535C10F774ADA2596F2C7DB91FC687_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker1< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* >::Invoke(0, IBillingClientStateListener_tEBEE0A4608BD1751EBF1DF535370A1144B320373_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:24>
 		RuntimeObject* L_2 = __this->___m_BillingClientStateListener;
 		Action_1_tF6EBD1EABF12C4673F29930B310E5777E337B51C* L_3 = (Action_1_tF6EBD1EABF12C4673F29930B310E5777E337B51C*)il2cpp_codegen_object_new(Action_1_tF6EBD1EABF12C4673F29930B310E5777E337B51C_il2cpp_TypeInfo_var);
 		Action_1__ctor_m082278C931E75D12BEEA74626FA95F79E5E5B1C1(L_3, __this, (intptr_t)((void*)GooglePlayStoreConnectionService_OnDisconnected_mCD625D9E22A87F04F64ACFE81AEA32D384828C53_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		InterfaceActionInvoker1< Action_1_tF6EBD1EABF12C4673F29930B310E5777E337B51C* >::Invoke(1, IBillingClientStateListener_tEBEE0A4608BD1751EBF1DF535370A1144B320373_il2cpp_TypeInfo_var, L_2, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:25>
 		RuntimeObject* L_4 = __this->___m_BillingClient;
 		RuntimeObject* L_5 = __this->___m_BillingClientStateListener;
 		NullCheck(L_4);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IGoogleBillingClient_tFFCE37BCF2DD95E29D4BD358BC90DEB74C5C1537_il2cpp_TypeInfo_var, L_4, L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 89697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePlayStoreConnectionService_IsReady_m2F4CB20BE28CB7832EE4C0C140F643483C3B4D4A (GooglePlayStoreConnectionService_t2C50535EB35107AFB0A5EC1B4B6280348C4CC155* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18262,7 +17255,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePlayStoreConnectionService_IsReady
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:30>
 		RuntimeObject* L_0 = __this->___m_BillingClient;
 		NullCheck(L_0);
 		bool L_1;
@@ -18270,7 +17262,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePlayStoreConnectionService_IsReady
 		return L_1;
 	}
 }
-// Method Definition Index: 89698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GooglePlayStoreConnectionService_CheckConnectionState_m484E559392D3FC230B06540D31F39759343D7F9E (GooglePlayStoreConnectionService_t2C50535EB35107AFB0A5EC1B4B6280348C4CC155* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18280,7 +17271,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GooglePlayStoreConnectionService_Chec
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:35>
 		RuntimeObject* L_0 = __this->___m_BillingClient;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -18288,19 +17278,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GooglePlayStoreConnectionService_Chec
 		return L_1;
 	}
 }
-// Method Definition Index: 89699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreConnectionService_SetConnectionCallback_mF1FFAC5693C7F23580589E4D6B892746C23932F9 (GooglePlayStoreConnectionService_t2C50535EB35107AFB0A5EC1B4B6280348C4CC155* __this, RuntimeObject* ___0_storeConnectCallback, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:40>
 		RuntimeObject* L_0 = ___0_storeConnectCallback;
 		__this->___m_ConnectCallback = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ConnectCallback), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 89700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreConnectionService_OnConnected_m1CB7E6E5C3535C10F774ADA2596F2C7DB91FC687 (GooglePlayStoreConnectionService_t2C50535EB35107AFB0A5EC1B4B6280348C4CC155* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18310,15 +17296,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreConnectionService_OnConne
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:45>
 		RuntimeObject* L_0 = __this->___m_ConnectCallback;
 		NullCheck(L_0);
 		InterfaceActionInvoker0::Invoke(0, IStoreConnectCallback_t703F42DD8D29A2CC58697EDA14E22D1B7ABF42C4_il2cpp_TypeInfo_var, L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 89701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreConnectionService_OnDisconnected_mCD625D9E22A87F04F64ACFE81AEA32D384828C53 (GooglePlayStoreConnectionService_t2C50535EB35107AFB0A5EC1B4B6280348C4CC155* __this, int32_t ___0_responseCode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18330,13 +17313,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreConnectionService_OnDisco
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:50>
 		RuntimeObject* L_0 = __this->___m_ConnectCallback;
 		StoreConnectionFailureDescription_t6A3E0D46B5D9DF5E2929B1FA36C4CB366E63CF8A* L_1 = (StoreConnectionFailureDescription_t6A3E0D46B5D9DF5E2929B1FA36C4CB366E63CF8A*)il2cpp_codegen_object_new(StoreConnectionFailureDescription_t6A3E0D46B5D9DF5E2929B1FA36C4CB366E63CF8A_il2cpp_TypeInfo_var);
 		StoreConnectionFailureDescription__ctor_m9C1231C7DDBE0BE378345DB81C1F095ABC1C26FB(L_1, _stringLiteral6EFA8B2595906B4431AD9825AD6DB705796371FD, (bool)1, NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker1< StoreConnectionFailureDescription_t6A3E0D46B5D9DF5E2929B1FA36C4CB366E63CF8A* >::Invoke(1, IStoreConnectCallback_t703F42DD8D29A2CC58697EDA14E22D1B7ABF42C4_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreConnectionService.cs:51>
 		return;
 	}
 }
@@ -18348,21 +17329,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreConnectionService_OnDisco
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchProductsService__ctor_m0D1C5D6219EE3896A911343885B3C35B587FADC6 (GooglePlayStoreFetchProductsService_t28A6623656FC9B06EDA8D8B3FB829408C5468D26* __this, RuntimeObject* ___0_googlePlayStoreService, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:18>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:20>
 		RuntimeObject* L_0 = ___0_googlePlayStoreService;
 		__this->___m_GooglePlayStoreService = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GooglePlayStoreService), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:21>
 		return;
 	}
 }
-// Method Definition Index: 89703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchProductsService_FetchProducts_m09B05BD935AB55DE4081B2A8D26A6E30D6528417 (GooglePlayStoreFetchProductsService_t28A6623656FC9B06EDA8D8B3FB829408C5468D26* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18376,7 +17352,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchProductsService_Fetc
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:25>
 		RuntimeObject* L_0 = __this->___m_GooglePlayStoreService;
 		RuntimeObject* L_1 = ___0_products;
 		Action_1_t840DAF19E1C7B9F182156E02000C38979DAF3B95* L_2 = (Action_1_t840DAF19E1C7B9F182156E02000C38979DAF3B95*)il2cpp_codegen_object_new(Action_1_t840DAF19E1C7B9F182156E02000C38979DAF3B95_il2cpp_TypeInfo_var);
@@ -18385,11 +17360,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchProductsService_Fetc
 		Action_1__ctor_m276B0E20250B412FDBA3A2FE9A0CAC4D3BB022D8(L_3, __this, (intptr_t)((void*)GooglePlayStoreFetchProductsService_OnFetchProductsFailed_mCF539BDCB2AD47027A4AB74A8114BDF0D51AEFB3_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker3< RuntimeObject*, Action_1_t840DAF19E1C7B9F182156E02000C38979DAF3B95*, Action_1_t411BFB121A0F7FCEC6300E06444325E055305F9E* >::Invoke(0, IGooglePlayStoreService_t2150BD552434E043110FE996521A30B5027BFCED_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 89704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchProductsService_OnProductsFetched_m31C5AE46E276CA1E98FC27209826852D11EB8546 (GooglePlayStoreFetchProductsService_t28A6623656FC9B06EDA8D8B3FB829408C5468D26* __this, List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* ___0_retrievedProducts, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18401,7 +17374,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchProductsService_OnPr
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:30>
 		RuntimeObject* L_0 = __this->___m_ProductsCallback;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -18420,11 +17392,9 @@ IL_000b:
 		List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_2 = ___0_retrievedProducts;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IStoreProductsCallback_t27E2FA33A2DDF103DA24D23E3C456A502CE73BE1_il2cpp_TypeInfo_var, G_B2_0, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 89705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchProductsService_OnFetchProductsFailed_mCF539BDCB2AD47027A4AB74A8114BDF0D51AEFB3 (GooglePlayStoreFetchProductsService_t28A6623656FC9B06EDA8D8B3FB829408C5468D26* __this, GoogleFetchProductException_t36069F90DE0EDB5F51BB9277A2ED06A479557FB8* ___0_exception, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18436,7 +17406,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchProductsService_OnFe
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:35>
 		RuntimeObject* L_0 = __this->___m_ProductsCallback;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -18458,11 +17427,9 @@ IL_000b:
 		L_3 = FetchProductsException_get_FailureDescription_mB420F18581EA8D2B9E676F80B71CE592373A9B9B_inline(L_2, NULL);
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271* >::Invoke(1, IStoreProductsCallback_t27E2FA33A2DDF103DA24D23E3C456A502CE73BE1_il2cpp_TypeInfo_var, G_B2_0, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 89706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* GooglePlayStoreFetchProductsService_MakePurchasesIntoProducts_m43BD89B46624452AD964346BD28C5D146D1BA26C (List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* ___0_retrievedProducts, RuntimeObject* ___1_purchaseProducts, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18489,12 +17456,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t39710FB9475F02E110B45F35CE6451A789EBF
 	int32_t V_3 = 0;
 	ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* V_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:41>
 		List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_0 = ___0_retrievedProducts;
 		List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_1 = (List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D*)il2cpp_codegen_object_new(List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D_il2cpp_TypeInfo_var);
 		List_1__ctor_mF399A325318DD481827771551EE3DBB373A6FD9D(L_1, L_0, List_1__ctor_mF399A325318DD481827771551EE3DBB373A6FD9D_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:42>
 		RuntimeObject* L_2 = ___1_purchaseProducts;
 		if (!L_2)
 		{
@@ -18502,7 +17467,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t39710FB9475F02E110B45F35CE6451A789EBF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:44>
 		RuntimeObject* L_3 = ___1_purchaseProducts;
 		NullCheck(L_3);
 		RuntimeObject* L_4;
@@ -18545,7 +17509,6 @@ IL_0016_1:
 				U3CU3Ec__DisplayClass6_0_tA99F3EC46A3B22090BED28B68B7161B3C0E396AE* L_7 = (U3CU3Ec__DisplayClass6_0_tA99F3EC46A3B22090BED28B68B7161B3C0E396AE*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass6_0_tA99F3EC46A3B22090BED28B68B7161B3C0E396AE_il2cpp_TypeInfo_var);
 				U3CU3Ec__DisplayClass6_0__ctor_mBEA9E9C8561B88CE710E99EABFD5464D819EEBD6(L_7, NULL);
 				V_2 = L_7;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:44>
 				U3CU3Ec__DisplayClass6_0_tA99F3EC46A3B22090BED28B68B7161B3C0E396AE* L_8 = V_2;
 				RuntimeObject* L_9 = V_1;
 				NullCheck(L_9);
@@ -18554,7 +17517,6 @@ IL_0016_1:
 				NullCheck(L_8);
 				L_8->___purchaseProduct = L_10;
 				Il2CppCodeGenWriteBarrier((void**)(&L_8->___purchaseProduct), (void*)L_10);
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:46>
 				List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_11 = V_0;
 				U3CU3Ec__DisplayClass6_0_tA99F3EC46A3B22090BED28B68B7161B3C0E396AE* L_12 = V_2;
 				Predicate_1_t18E66C1E98F66CCD937B8BEF2C11C5BDBE541BCB* L_13 = (Predicate_1_t18E66C1E98F66CCD937B8BEF2C11C5BDBE541BCB*)il2cpp_codegen_object_new(Predicate_1_t18E66C1E98F66CCD937B8BEF2C11C5BDBE541BCB_il2cpp_TypeInfo_var);
@@ -18563,7 +17525,6 @@ IL_0016_1:
 				int32_t L_14;
 				L_14 = List_1_FindLastIndex_m9D54D246AC6D3475DC4D8E1FE0DA7E53F060B0C6(L_11, L_13, List_1_FindLastIndex_m9D54D246AC6D3475DC4D8E1FE0DA7E53F060B0C6_RuntimeMethod_var);
 				V_3 = L_14;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:47>
 				int32_t L_15 = V_3;
 				if ((((int32_t)L_15) == ((int32_t)(-1))))
 				{
@@ -18571,14 +17532,12 @@ IL_0016_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:49>
 				List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_16 = V_0;
 				int32_t L_17 = V_3;
 				NullCheck(L_16);
 				ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* L_18;
 				L_18 = List_1_get_Item_mEBBA12826EEC0DF89BBFC0AD3208C71673374372(L_16, L_17, List_1_get_Item_mEBBA12826EEC0DF89BBFC0AD3208C71673374372_RuntimeMethod_var);
 				V_4 = L_18;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:50>
 				List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_19 = V_0;
 				int32_t L_20 = V_3;
 				ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* L_21 = V_4;
@@ -18612,7 +17571,6 @@ IL_0016_1:
 
 IL_007f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:44>
 				RuntimeObject* L_34 = V_1;
 				NullCheck(L_34);
 				bool L_35;
@@ -18634,20 +17592,16 @@ IL_007f_1:
 
 IL_0093:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:55>
 		List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_36 = V_0;
 		return L_36;
 	}
 }
-// Method Definition Index: 89707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchProductsService_SetProductsCallback_mE07311D145FE609006BCDA07BFB3C6FECFB87ABF (GooglePlayStoreFetchProductsService_t28A6623656FC9B06EDA8D8B3FB829408C5468D26* __this, RuntimeObject* ___0_productsCallback, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:60>
 		RuntimeObject* L_0 = ___0_productsCallback;
 		__this->___m_ProductsCallback = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ProductsCallback), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:61>
 		return;
 	}
 }
@@ -18659,7 +17613,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchProductsService_SetP
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_mBEA9E9C8561B88CE710E99EABFD5464D819EEBD6 (U3CU3Ec__DisplayClass6_0_tA99F3EC46A3B22090BED28B68B7161B3C0E396AE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18667,11 +17620,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_mBEA9E9C8
 		return;
 	}
 }
-// Method Definition Index: 89709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass6_0_U3CMakePurchasesIntoProductsU3Eb__0_m271EFA2BB80ABCE199E50D7E8042525BDC59EB72 (U3CU3Ec__DisplayClass6_0_tA99F3EC46A3B22090BED28B68B7161B3C0E396AE* __this, ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* ___0_product, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchProductsService.cs:46>
 		ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* L_0 = ___0_product;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -18696,54 +17647,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass6_0_U3CMakePurchase
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService__ctor_m65BFFA18F70C9EC2A3C3F0AAD8C4930274C9F363 (GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* __this, RuntimeObject* ___0_googlePlayStoreService, RuntimeObject* ___1_transactionService, RuntimeObject* ___2_purchaseConverter, RuntimeObject* ___3_util, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:22>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:23>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:25>
 		RuntimeObject* L_0 = ___0_googlePlayStoreService;
 		__this->___m_GooglePlayStoreService = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GooglePlayStoreService), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:26>
 		RuntimeObject* L_1 = ___2_purchaseConverter;
 		__this->___m_PurchaseConverter = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PurchaseConverter), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:27>
 		RuntimeObject* L_2 = ___3_util;
 		__this->___m_Util = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Util), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 89711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_SetProductCache_mBBB1C955CBD1D68EDEB1B51D4C9635DDDE7C4CFE (GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* __this, RuntimeObject* ___0_productCache, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:32>
 		RuntimeObject* L_0 = ___0_productCache;
 		__this->___m_ProductCache = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ProductCache), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:33>
 		return;
 	}
 }
-// Method Definition Index: 89712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_SetPurchaseFetchCallback_mD5FA03E86226820863C778DCB7A8ACC80536C4A2 (GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* __this, RuntimeObject* ___0_fetchCallback, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:37>
 		RuntimeObject* L_0 = ___0_fetchCallback;
 		__this->___m_FetchCallback = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_FetchCallback), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:38>
 		return;
 	}
 }
-// Method Definition Index: 89713
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_FetchPurchases_mA7F65019F47859DBB9B93EBD95C9FF57568B0B34 (GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18757,7 +17694,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_Fet
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:42>
 		RuntimeObject* L_0 = __this->___m_GooglePlayStoreService;
 		Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D* L_1 = (Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D*)il2cpp_codegen_object_new(Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D_il2cpp_TypeInfo_var);
 		Action_1__ctor_m675FA0C1E64183415E80CAD226774383E2B01FA2(L_1, __this, (intptr_t)((void*)GooglePlayStoreFetchPurchasesService_OnPurchasesFetched_mDC66CC4C72DACFE9F468CB93ADDE66710F6EED08_RuntimeMethod_var), NULL);
@@ -18765,11 +17701,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_Fet
 		Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C(L_2, __this, (intptr_t)((void*)GooglePlayStoreFetchPurchasesService_PurchaseRetrievalFailedForUnknownReasons_m44B23DDFF3FC5ED1B914C1CA55338F090710A117_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker2< Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D*, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* >::Invoke(4, IGooglePlayStoreService_t2150BD552434E043110FE996521A30B5027BFCED_il2cpp_TypeInfo_var, L_0, L_1, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 89714
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_FetchPurchases_mCDD6600F30F8AAA5516E9F573F474411CCF5AEA1 (GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* __this, Action_1_t39A998EC27FE5D8CEAC2D6D914EFB0C5A8263A74* ___0_onQueryPurchaseSucceed, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18797,11 +17731,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_Fet
 		NullCheck(L_3);
 		L_3->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___U3CU3E4__this), (void*)__this);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:47>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:48>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:49>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:50>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:51>
 		RuntimeObject* L_4 = __this->___m_GooglePlayStoreService;
 		U3CU3Ec__DisplayClass9_0_t90EA1DA47BD9EFEA4033DC2AF6791102908CEE85* L_5 = V_0;
 		Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D* L_6 = (Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D*)il2cpp_codegen_object_new(Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D_il2cpp_TypeInfo_var);
@@ -18810,11 +17739,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_Fet
 		Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C(L_7, __this, (intptr_t)((void*)GooglePlayStoreFetchPurchasesService_PurchaseRetrievalFailedForUnknownReasons_m44B23DDFF3FC5ED1B914C1CA55338F090710A117_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		InterfaceActionInvoker2< Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D*, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* >::Invoke(4, IGooglePlayStoreService_t2150BD552434E043110FE996521A30B5027BFCED_il2cpp_TypeInfo_var, L_4, L_6, L_7);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 89715
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GooglePlayStoreFetchPurchasesService_GetGooglePurchase_mB10379D4636A68C24BC08223B941044B81128A51 (GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* __this, String_t* ___0_purchaseToken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18838,16 +17765,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GooglePlayStoreFetchPurchasesS
 		NullCheck(L_1);
 		L_1->___purchaseToken = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___purchaseToken), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:56>
 		U3CU3Ec__DisplayClass10_0_t801F66CB5820043DA959CD872DDF3C966FA7767A* L_3 = V_0;
 		NullCheck(L_3);
 		L_3->___purchase = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___purchase), (void*)(RuntimeObject*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:57>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:58>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:59>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:60>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:61>
 		RuntimeObject* L_4 = __this->___m_GooglePlayStoreService;
 		U3CU3Ec__DisplayClass10_0_t801F66CB5820043DA959CD872DDF3C966FA7767A* L_5 = V_0;
 		Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D* L_6 = (Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D*)il2cpp_codegen_object_new(Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D_il2cpp_TypeInfo_var);
@@ -18856,14 +17777,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GooglePlayStoreFetchPurchasesS
 		Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C(L_7, __this, (intptr_t)((void*)GooglePlayStoreFetchPurchasesService_PurchaseRetrievalFailedForUnknownReasons_m44B23DDFF3FC5ED1B914C1CA55338F090710A117_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		InterfaceActionInvoker2< Action_1_t5A7BBB931FEF149DB9AD36BB8D4C2C8E0117544D*, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* >::Invoke(4, IGooglePlayStoreService_t2150BD552434E043110FE996521A30B5027BFCED_il2cpp_TypeInfo_var, L_4, L_6, L_7);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:62>
 		U3CU3Ec__DisplayClass10_0_t801F66CB5820043DA959CD872DDF3C966FA7767A* L_8 = V_0;
 		NullCheck(L_8);
 		RuntimeObject* L_9 = L_8->___purchase;
 		return L_9;
 	}
 }
-// Method Definition Index: 89716
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t2801F698EAD8786A7B70E25C1DAD1A8801E530C5* GooglePlayStoreFetchPurchasesService_FillProductsWithPurchases_mE175108AF384D699CAEB2A48D602EC2BDD315ACB (GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* __this, RuntimeObject* ___0_purchases, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18876,7 +17795,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t2801F698EAD8786A7B70E25C1DAD1A8801E53
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:67>
 		RuntimeObject* L_0 = ___0_purchases;
 		Func_2_tB2864235DB4F32C7E5D5F95802F3AA1EF803CD01* L_1 = (Func_2_tB2864235DB4F32C7E5D5F95802F3AA1EF803CD01*)il2cpp_codegen_object_new(Func_2_tB2864235DB4F32C7E5D5F95802F3AA1EF803CD01_il2cpp_TypeInfo_var);
 		Func_2__ctor_m30632BA09535F572C0C1DA96F68C4A946EB8E7B4(L_1, __this, (intptr_t)((void*)GooglePlayStoreFetchPurchasesService_BuildProductsFromPurchase_mF66174247679AA679858A1F8009FF1FA0609093D_RuntimeMethod_var), NULL);
@@ -18887,7 +17805,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t2801F698EAD8786A7B70E25C1DAD1A8801E53
 		return L_3;
 	}
 }
-// Method Definition Index: 89717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GooglePlayStoreFetchPurchasesService_BuildProductsFromPurchase_mF66174247679AA679858A1F8009FF1FA0609093D (GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* __this, RuntimeObject* ___0_purchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18918,7 +17835,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GooglePlayStoreFetchPurchasesS
 		NullCheck(L_2);
 		L_2->___purchase = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___purchase), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:72>
 		U3CU3Ec__DisplayClass12_0_tC9F86A9FF8C81B7AB864C6059663180315115531* L_4 = V_0;
 		NullCheck(L_4);
 		RuntimeObject* L_5 = L_4->___purchase;
@@ -18932,7 +17848,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GooglePlayStoreFetchPurchasesS
 		L_9 = Enumerable_Select_TisString_t_TisProduct_tD279BF775D345330FEE8405D2F53EC5D6B971C76_m74A8D492DD99EA8682B7D00104720393E3CF249A(L_6, L_8, Enumerable_Select_TisString_t_TisProduct_tD279BF775D345330FEE8405D2F53EC5D6B971C76_m74A8D492DD99EA8682B7D00104720393E3CF249A_RuntimeMethod_var);
 		RuntimeObject* L_10;
 		L_10 = EnumerableExtensions_NonNull_TisProduct_tD279BF775D345330FEE8405D2F53EC5D6B971C76_m480740723DE0E174BE021F4E5CDE8A54998F2E5F(L_9, EnumerableExtensions_NonNull_TisProduct_tD279BF775D345330FEE8405D2F53EC5D6B971C76_m480740723DE0E174BE021F4E5CDE8A54998F2E5F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:73>
 		U3CU3Ec__DisplayClass12_0_tC9F86A9FF8C81B7AB864C6059663180315115531* L_11 = V_0;
 		Func_2_t64C2F0CC977E686CB166DD17FD8EAFBFF72B539D* L_12 = (Func_2_t64C2F0CC977E686CB166DD17FD8EAFBFF72B539D*)il2cpp_codegen_object_new(Func_2_t64C2F0CC977E686CB166DD17FD8EAFBFF72B539D_il2cpp_TypeInfo_var);
 		Func_2__ctor_mCCF385960DF66F9C884FB85590D8EB3072717439(L_12, L_11, (intptr_t)((void*)U3CU3Ec__DisplayClass12_0_U3CBuildProductsFromPurchaseU3Eb__1_mD4F96152DB86AF057B6D91D9DE0EAB390891736C_RuntimeMethod_var), NULL);
@@ -18941,7 +17856,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GooglePlayStoreFetchPurchasesS
 		return L_13;
 	}
 }
-// Method Definition Index: 89718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* GooglePlayStoreFetchPurchasesService_CompleteProductInfoWithPurchase_m8657EA10429C3F9B2DF037798679B405A9851108 (Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* ___0_product, RuntimeObject* ___1_purchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18952,10 +17866,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B97
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:78>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:79>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:80>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:81>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_0 = ___0_product;
 		NullCheck(L_0);
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_1;
@@ -18980,7 +17890,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B97
 		return L_7;
 	}
 }
-// Method Definition Index: 89719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_OnPurchasesFetched_mDC66CC4C72DACFE9F468CB93ADDE66710F6EED08 (GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* __this, List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* ___0_purchases, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19011,7 +17920,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_OnP
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:86>
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_2 = ___0_purchases;
 		if (L_2)
 		{
@@ -19019,17 +17927,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_OnP
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:88>
 		GooglePlayStoreFetchPurchasesService_PurchaseRetrievalFailedForUnknownReasons_m44B23DDFF3FC5ED1B914C1CA55338F090710A117(__this, (String_t*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:89>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:92>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:93>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:94>
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_3 = ___0_purchases;
 		U3CU3Ec__DisplayClass14_0_t4651BAC77ED49D1F1D459183E1AF3014190F81B2* L_4 = V_0;
 		Func_2_tBF0DE2968B519C2AD67577E68B3D3C98611CC040* L_5 = (Func_2_tBF0DE2968B519C2AD67577E68B3D3C98611CC040*)il2cpp_codegen_object_new(Func_2_tBF0DE2968B519C2AD67577E68B3D3C98611CC040_il2cpp_TypeInfo_var);
@@ -19039,7 +17942,6 @@ IL_0018:
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_7;
 		L_7 = Enumerable_ToList_TisOrder_tD1825298A09BBF359EC2F7B272C72E11C0508A4F_m70E3A607D6495DEAB0EDF98365D343A778B99AD3(L_6, Enumerable_ToList_TisOrder_tD1825298A09BBF359EC2F7B272C72E11C0508A4F_m70E3A607D6495DEAB0EDF98365D343A778B99AD3_RuntimeMethod_var);
 		V_1 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:96>
 		RuntimeObject* L_8 = __this->___m_FetchCallback;
 		RuntimeObject* L_9 = L_8;
 		if (L_9)
@@ -19062,7 +17964,6 @@ IL_003c:
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:98>
 		U3CU3Ec__DisplayClass14_0_t4651BAC77ED49D1F1D459183E1AF3014190F81B2* L_11 = V_0;
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_12 = ___0_purchases;
 		Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* L_13;
@@ -19074,18 +17975,15 @@ IL_0042:
 		NullCheck(L_11);
 		L_11->___deferredPurchases = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___deferredPurchases), (void*)L_15);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:102>
 		RuntimeObject* L_16 = __this->___m_Util;
 		U3CU3Ec__DisplayClass14_0_t4651BAC77ED49D1F1D459183E1AF3014190F81B2* L_17 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_18 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_18, L_17, (intptr_t)((void*)U3CU3Ec__DisplayClass14_0_U3COnPurchasesFetchedU3Eb__1_mE4804806CA953197AEB00A0310A11D38239016DE_RuntimeMethod_var), NULL);
 		NullCheck(L_16);
 		InterfaceActionInvoker1< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* >::Invoke(22, IUtil_t7909908832446A01C893925BD0795F01D065F23E_il2cpp_TypeInfo_var, L_16, L_18);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:103>
 		return;
 	}
 }
-// Method Definition Index: 89720
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_PurchaseRetrievalFailedForUnknownReasons_m44B23DDFF3FC5ED1B914C1CA55338F090710A117 (GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* __this, String_t* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19104,8 +18002,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_Pur
 	int32_t G_B3_1 = 0;
 	RuntimeObject* G_B3_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:107>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:108>
 		RuntimeObject* L_0 = __this->___m_FetchCallback;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -19147,11 +18043,9 @@ IL_0016:
 		PurchasesFetchFailureDescription__ctor_m4A06A8828BAA2C16CFC0E0EEFB461AE8730B9107(L_5, G_B4_1, G_B4_0, NULL);
 		NullCheck(G_B4_2);
 		InterfaceActionInvoker1< PurchasesFetchFailureDescription_t63013CCCB919EEC32CC959B46190D43C08CA293C* >::Invoke(1, IStorePurchaseFetchCallback_t6809F1A93AC828E66EEBADE9847D603700E93647_il2cpp_TypeInfo_var, G_B4_2, L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:109>
 		return;
 	}
 }
-// Method Definition Index: 89721
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* GooglePlayStoreFetchPurchasesService_PurchaseIsPurchased_mC4FC15590D0A7E17410D33EBF3D5919162F66EA5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19165,7 +18059,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084
 	Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* G_B2_0 = NULL;
 	Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:113>
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tA5AA492FE7D79A9A6FC2AE2A4A1D209E3B236BA8_il2cpp_TypeInfo_var);
 		Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* L_0 = ((U3CU3Ec_tA5AA492FE7D79A9A6FC2AE2A4A1D209E3B236BA8_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA5AA492FE7D79A9A6FC2AE2A4A1D209E3B236BA8_il2cpp_TypeInfo_var))->___U3CU3E9__16_0;
 		Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* L_1 = L_0;
@@ -19192,7 +18085,6 @@ IL_001f:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 89722
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* GooglePlayStoreFetchPurchasesService_PurchaseIsPending_m933C333452659098A42342B2D3540A109390E90A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19206,7 +18098,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084
 	Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* G_B2_0 = NULL;
 	Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:118>
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tA5AA492FE7D79A9A6FC2AE2A4A1D209E3B236BA8_il2cpp_TypeInfo_var);
 		Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* L_0 = ((U3CU3Ec_tA5AA492FE7D79A9A6FC2AE2A4A1D209E3B236BA8_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA5AA492FE7D79A9A6FC2AE2A4A1D209E3B236BA8_il2cpp_TypeInfo_var))->___U3CU3E9__17_0;
 		Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* L_1 = L_0;
@@ -19233,7 +18124,6 @@ IL_001f:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 89723
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_UpdateDeferredProductsByPurchases_mCBDD7706AF7ED9BB4B5D1F0612D06DA7E4340049 (GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* __this, List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* ___0_deferredPurchases, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19249,7 +18139,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_Upd
 	memset((&V_0), 0, sizeof(V_0));
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:123>
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_0 = ___0_deferredPurchases;
 		NullCheck(L_0);
 		Enumerator_t83F1C855E49C940A9339AE43EEA83AFF48F457AD L_1;
@@ -19274,18 +18163,15 @@ FINALLY_0023:
 
 IL_0009_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:123>
 				RuntimeObject* L_2;
 				L_2 = Enumerator_get_Current_m648CC08AE14ECA4074C3C0A0A800CDBA45161536_inline((&V_0), Enumerator_get_Current_m648CC08AE14ECA4074C3C0A0A800CDBA45161536_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:125>
 				RuntimeObject* L_3 = V_1;
 				GooglePlayStoreFetchPurchasesService_UpdateDeferredProductsByPurchase_m1F6AA8677D3FE9A83514C91ABDF5C94CFFA31BF2(__this, L_3, NULL);
 			}
 
 IL_0018_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:123>
 				bool L_4;
 				L_4 = Enumerator_MoveNext_m9C414148FF28B613A23A353EBD98B1C6EF9785E6((&V_0), Enumerator_MoveNext_m9C414148FF28B613A23A353EBD98B1C6EF9785E6_RuntimeMethod_var);
 				if (L_4)
@@ -19305,11 +18191,9 @@ IL_0018_1:
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:127>
 		return;
 	}
 }
-// Method Definition Index: 89724
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_UpdateDeferredProductsByPurchase_m1F6AA8677D3FE9A83514C91ABDF5C94CFFA31BF2 (GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* __this, RuntimeObject* ___0_deferredPurchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19326,7 +18210,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_Upd
 	memset((&V_0), 0, sizeof(V_0));
 	String_t* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:131>
 		RuntimeObject* L_0 = ___0_deferredPurchase;
 		NullCheck(L_0);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1;
@@ -19354,11 +18237,9 @@ FINALLY_0029:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:131>
 				String_t* L_3;
 				L_3 = Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_inline((&V_0), Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_RuntimeMethod_var);
 				V_1 = L_3;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:133>
 				RuntimeObject* L_4 = ___0_deferredPurchase;
 				String_t* L_5 = V_1;
 				GooglePlayStoreFetchPurchasesService_UpdateDeferredProduct_mC99E080023926B8E4F409707414AD3FDC3DC90FF(__this, L_4, L_5, NULL);
@@ -19366,7 +18247,6 @@ IL_000e_1:
 
 IL_001e_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:131>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED((&V_0), Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED_RuntimeMethod_var);
 				if (L_6)
@@ -19386,11 +18266,9 @@ IL_001e_1:
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:135>
 		return;
 	}
 }
-// Method Definition Index: 89725
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_UpdateDeferredProduct_mC99E080023926B8E4F409707414AD3FDC3DC90FF (GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* __this, RuntimeObject* ___0_deferredPurchase, String_t* ___1_sku, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19405,7 +18283,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFetchPurchasesService_Upd
 	RuntimeObject* G_B1_0 = NULL;
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:139>
 		RuntimeObject* L_0 = __this->___m_ProductCache;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -19432,7 +18309,6 @@ IL_000d:
 IL_0013:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:140>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_4 = V_0;
 		if (!L_4)
 		{
@@ -19440,7 +18316,6 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:142>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_5 = V_0;
 		RuntimeObject* L_6 = ___0_deferredPurchase;
 		NullCheck(L_6);
@@ -19448,7 +18323,6 @@ IL_0013:
 		L_7 = InterfaceFuncInvoker0< String_t* >::Invoke(3, IGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_il2cpp_TypeInfo_var, L_6);
 		NullCheck(L_5);
 		Product_set_receipt_m26FDBE6A50BB487E8B48EF8C9E25ED3466EBDB07(L_5, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:143>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_8 = V_0;
 		RuntimeObject* L_9 = ___0_deferredPurchase;
 		NullCheck(L_9);
@@ -19460,7 +18334,6 @@ IL_0013:
 
 IL_002f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:145>
 		return;
 	}
 }
@@ -19472,7 +18345,6 @@ IL_002f:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89726
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m3F01CE8BC0B692B1B4002616DBFA4EB7E9D88FA4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19489,7 +18361,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m3F01CE8BC0B692B1B4002616
 		return;
 	}
 }
-// Method Definition Index: 89727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mDAEF2BB583A8817FF98566FDD112604BD610679D (U3CU3Ec_tA5AA492FE7D79A9A6FC2AE2A4A1D209E3B236BA8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19497,7 +18368,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mDAEF2BB583A8817FF98566FDD
 		return;
 	}
 }
-// Method Definition Index: 89728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CPurchaseIsPurchasedU3Eb__16_0_m189E928E248D02B5C50B9F270D7DA9C7D005FFD8 (U3CU3Ec_tA5AA492FE7D79A9A6FC2AE2A4A1D209E3B236BA8* __this, RuntimeObject* ___0_purchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19507,7 +18377,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CPurchaseIsPurchasedU3Eb__16_0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:113>
 		RuntimeObject* L_0 = ___0_purchase;
 		NullCheck(L_0);
 		bool L_1;
@@ -19515,7 +18384,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CPurchaseIsPurchasedU3Eb__16_0
 		return L_1;
 	}
 }
-// Method Definition Index: 89729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CPurchaseIsPendingU3Eb__17_0_m6CE14B97F84F5E570DEA84CA4AB2F2613049C349 (U3CU3Ec_tA5AA492FE7D79A9A6FC2AE2A4A1D209E3B236BA8* __this, RuntimeObject* ___0_purchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19525,7 +18393,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CPurchaseIsPendingU3Eb__17_0_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:118>
 		RuntimeObject* L_0 = ___0_purchase;
 		NullCheck(L_0);
 		bool L_1;
@@ -19541,7 +18408,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CPurchaseIsPendingU3Eb__17_0_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89730
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_mE32D5FE0EA8FA0AE308244F8D83AE0F496676619 (U3CU3Ec__DisplayClass10_0_t801F66CB5820043DA959CD872DDF3C966FA7767A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19549,7 +18415,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_mE32D5FE
 		return;
 	}
 }
-// Method Definition Index: 89731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CGetGooglePurchaseU3Eb__0_m438DBED550002B6E15312E6A7050B2CAD629C716 (U3CU3Ec__DisplayClass10_0_t801F66CB5820043DA959CD872DDF3C966FA7767A* __this, List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* ___0_googlePurchases, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19568,7 +18433,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CGetGooglePu
 	List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* G_B1_1 = NULL;
 	U3CU3Ec__DisplayClass10_0_t801F66CB5820043DA959CD872DDF3C966FA7767A* G_B1_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:60>
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_0 = ___0_googlePurchases;
 		Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* L_1 = __this->___U3CU3E9__1;
 		Func_2_t5A1482F4030F0C7508BFD20F1505B11E98084628* L_2 = L_1;
@@ -19603,11 +18467,9 @@ IL_0021:
 		NullCheck(G_B2_2);
 		G_B2_2->___purchase = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B2_2->___purchase), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:61>
 		return;
 	}
 }
-// Method Definition Index: 89732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass10_0_U3CGetGooglePurchaseU3Eb__1_mC48024075D8C38230BE3768BBF91086C2A241FEC (U3CU3Ec__DisplayClass10_0_t801F66CB5820043DA959CD872DDF3C966FA7767A* __this, RuntimeObject* ___0_purchases, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19617,7 +18479,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass10_0_U3CGetGooglePu
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:60>
 		RuntimeObject* L_0 = ___0_purchases;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -19636,7 +18497,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass10_0_U3CGetGooglePu
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0__ctor_mD33511483C38FC01918C918C2A55649557073EBF (U3CU3Ec__DisplayClass12_0_tC9F86A9FF8C81B7AB864C6059663180315115531* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19644,7 +18504,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0__ctor_mD335114
 		return;
 	}
 }
-// Method Definition Index: 89734
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* U3CU3Ec__DisplayClass12_0_U3CBuildProductsFromPurchaseU3Eb__0_m1C0BD6BB6C0E651214F9341789DF1C0073BA85A0 (U3CU3Ec__DisplayClass12_0_tC9F86A9FF8C81B7AB864C6059663180315115531* __this, String_t* ___0_sku, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19656,7 +18515,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B97
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:72>
 		GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		RuntimeObject* L_1 = L_0->___m_ProductCache;
@@ -19681,11 +18539,9 @@ IL_0011:
 		return L_4;
 	}
 }
-// Method Definition Index: 89735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* U3CU3Ec__DisplayClass12_0_U3CBuildProductsFromPurchaseU3Eb__1_mD4F96152DB86AF057B6D91D9DE0EAB390891736C (U3CU3Ec__DisplayClass12_0_tC9F86A9FF8C81B7AB864C6059663180315115531* __this, Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* ___0_product, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:73>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_0 = ___0_product;
 		RuntimeObject* L_1 = __this->___purchase;
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_2;
@@ -19701,7 +18557,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B97
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0__ctor_m4EAECBF117AF2EAE46F77D1F6BE6E87999D1DF52 (U3CU3Ec__DisplayClass14_0_t4651BAC77ED49D1F1D459183E1AF3014190F81B2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19709,7 +18564,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0__ctor_m4EAECBF
 		return;
 	}
 }
-// Method Definition Index: 89737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* U3CU3Ec__DisplayClass14_0_U3COnPurchasesFetchedU3Eb__0_m796692F79DA863CC8C51E63EEB9697ACE200133A (U3CU3Ec__DisplayClass14_0_t4651BAC77ED49D1F1D459183E1AF3014190F81B2* __this, RuntimeObject* ___0_purchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19719,7 +18573,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Order_tD1825298A09BBF359EC2F7B272C72E11C0508A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:93>
 		GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		RuntimeObject* L_1 = L_0->___m_PurchaseConverter;
@@ -19733,11 +18586,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Order_tD1825298A09BBF359EC2F7B272C72E11C0508A
 		return L_5;
 	}
 }
-// Method Definition Index: 89738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0_U3COnPurchasesFetchedU3Eb__1_mE4804806CA953197AEB00A0310A11D38239016DE (U3CU3Ec__DisplayClass14_0_t4651BAC77ED49D1F1D459183E1AF3014190F81B2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:102>
 		GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* L_0 = __this->___U3CU3E4__this;
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_1 = __this->___deferredPurchases;
 		NullCheck(L_0);
@@ -19753,7 +18604,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0_U3COnPurchases
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m422CA53E6AAFEAB288B49D4ABF742E28B393198B (U3CU3Ec__DisplayClass9_0_t90EA1DA47BD9EFEA4033DC2AF6791102908CEE85* __this, const RuntimeMethod* method) 
 {
 	{
@@ -19761,11 +18611,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m422CA53E
 		return;
 	}
 }
-// Method Definition Index: 89740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3CFetchPurchasesU3Eb__0_m3495527B14544F41911C9F3A932DF8C7BDC278CE (U3CU3Ec__DisplayClass9_0_t90EA1DA47BD9EFEA4033DC2AF6791102908CEE85* __this, List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* ___0_googlePurchases, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:50>
 		Action_1_t39A998EC27FE5D8CEAC2D6D914EFB0C5A8263A74* L_0 = __this->___onQueryPurchaseSucceed;
 		GooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF* L_1 = __this->___U3CU3E4__this;
 		List_1_t2030F275FE4210EA51AE7A9FBFC052E505F70C62* L_2 = ___0_googlePurchases;
@@ -19774,7 +18622,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3CFetchPurchas
 		L_3 = GooglePlayStoreFetchPurchasesService_FillProductsWithPurchases_mE175108AF384D699CAEB2A48D602EC2BDD315ACB(L_1, L_2, NULL);
 		NullCheck(L_0);
 		Action_1_Invoke_mE1A91B8B3F5EB81A0C2CDD35E4BFA2ED73CB49E9_inline(L_0, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFetchPurchasesService.cs:51>
 		return;
 	}
 }
@@ -19786,7 +18633,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3CFetchPurchas
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFinishTransactionService__ctor_m7B7ADA11B54AE25AEFA346988DB82399D50083E6 (GooglePlayStoreFinishTransactionService_tD6DB26D70E76DD5D064E91BE0B21E791DE495E26* __this, RuntimeObject* ___0_googlePlayStoreService, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19797,46 +18643,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFinishTransactionService_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:22>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:24>
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*)il2cpp_codegen_object_new(HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03(L_0, HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
 		__this->___m_ProcessedPurchaseToken = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ProcessedPurchaseToken), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:25>
 		RuntimeObject* L_1 = ___0_googlePlayStoreService;
 		__this->___m_GooglePlayStoreService = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GooglePlayStoreService), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 89742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFinishTransactionService_SetProductCache_m860D8AFB7A6D4915AD8BF47B5EBD8E8B8906A90C (GooglePlayStoreFinishTransactionService_tD6DB26D70E76DD5D064E91BE0B21E791DE495E26* __this, RuntimeObject* ___0_productCache, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:30>
 		RuntimeObject* L_0 = ___0_productCache;
 		__this->___m_ProductCache = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ProductCache), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 89743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFinishTransactionService_SetConfirmCallback_mC9CBD844461BB8A6BA4568D187A7903F3E275329 (GooglePlayStoreFinishTransactionService_tD6DB26D70E76DD5D064E91BE0B21E791DE495E26* __this, RuntimeObject* ___0_confirmCallback, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:35>
 		RuntimeObject* L_0 = ___0_confirmCallback;
 		__this->___m_ConfirmCallback = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ConfirmCallback), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 89744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFinishTransactionService_FinishTransaction_m7FC84E8A0BBC8CA97D863D8F8B3A2F9DDE9C6EDA (GooglePlayStoreFinishTransactionService_tD6DB26D70E76DD5D064E91BE0B21E791DE495E26* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, String_t* ___1_purchaseToken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19875,7 +18710,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFinishTransactionService_
 		return;
 	}
 }
-// Method Definition Index: 89745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFinishTransactionService_HandleFinishTransaction_mB832E2DC7275A6A3AF81A5136F749CFD9CD58DDE (GooglePlayStoreFinishTransactionService_tD6DB26D70E76DD5D064E91BE0B21E791DE495E26* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, RuntimeObject* ___1_billingResult, RuntimeObject* ___2_purchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19915,7 +18749,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFinishTransactionService_
 	String_t* G_B17_0 = NULL;
 	GooglePlayStoreFinishTransactionService_tD6DB26D70E76DD5D064E91BE0B21E791DE495E26* G_B17_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:62>
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = __this->___m_ProcessedPurchaseToken;
 		RuntimeObject* L_1 = ___2_purchase;
 		NullCheck(L_1);
@@ -19930,13 +18763,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFinishTransactionService_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:64>
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:68>
 		RuntimeObject* L_4 = ___1_billingResult;
 		NullCheck(L_4);
 		int32_t L_5;
@@ -19947,9 +18778,7 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:70>
 		__this->___m_RetryCount = 0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:71>
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_6 = __this->___m_ProcessedPurchaseToken;
 		RuntimeObject* L_7 = ___2_purchase;
 		NullCheck(L_7);
@@ -19958,16 +18787,13 @@ IL_0014:
 		NullCheck(L_6);
 		bool L_9;
 		L_9 = HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D(L_6, L_8, HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:72>
 		RuntimeObject* L_10 = ___2_purchase;
 		GooglePlayStoreFinishTransactionService_CallPurchaseSucceededUpdateReceipt_mF49240F626040FA547D76DF9DC330827BDF15810(__this, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:73>
 		return;
 	}
 
 IL_003d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:77>
 		int32_t L_11 = __this->___m_RetryCount;
 		if ((((int32_t)L_11) > ((int32_t)5)))
 		{
@@ -19984,30 +18810,19 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:79>
 		int32_t L_14 = __this->___m_RetryCount;
 		__this->___m_RetryCount = ((int32_t)il2cpp_codegen_add(L_14, 1));
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:80>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_15 = ___0_product;
 		RuntimeObject* L_16 = ___2_purchase;
 		NullCheck(L_16);
 		String_t* L_17;
 		L_17 = InterfaceFuncInvoker0< String_t* >::Invoke(8, IGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_il2cpp_TypeInfo_var, L_16);
 		GooglePlayStoreFinishTransactionService_FinishTransaction_m7FC84E8A0BBC8CA97D863D8F8B3A2F9DDE9C6EDA(__this, L_15, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:81>
 		return;
 	}
 
 IL_006a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:86>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:87>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:88>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:89>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:90>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:91>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:92>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:93>
 		RuntimeObject* L_18 = __this->___m_ProductCache;
 		RuntimeObject* L_19 = L_18;
 		if (L_19)
@@ -20135,11 +18950,9 @@ IL_009e:
 		L_39 = InterfaceFuncInvoker0< String_t* >::Invoke(8, IGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_il2cpp_TypeInfo_var, L_38);
 		NullCheck(G_B18_1);
 		GooglePlayStoreFinishTransactionService_SendTransactionFailedCallback_m21E3E1035A80FFFC90659EE579E8DDBF4B482087(G_B18_1, L_37, L_39, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:94>
 		return;
 	}
 }
-// Method Definition Index: 89746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFinishTransactionService_SendTransactionFailedCallback_m21E3E1035A80FFFC90659EE579E8DDBF4B482087 (GooglePlayStoreFinishTransactionService_tD6DB26D70E76DD5D064E91BE0B21E791DE495E26* __this, PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* ___0_purchaseFailureDescription, String_t* ___1_purchaseToken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20151,7 +18964,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFinishTransactionService_
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:98>
 		RuntimeObject* L_0 = __this->___m_ConfirmCallback;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -20174,11 +18986,9 @@ IL_000b:
 		L_4 = PurchaseFailureDescription_ConvertToFailedOrder_m10E058F72558E6267F6F99384150FE3E5934B829(L_2, L_3, NULL);
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< FailedOrder_t4FF159EDE64FC2EAFB4439A3AEC7F46B62F55BD8* >::Invoke(1, IStorePurchaseConfirmCallback_t3C552367B2A49C2C1F4334243C5B28901A073240_il2cpp_TypeInfo_var, G_B2_0, L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:99>
 		return;
 	}
 }
-// Method Definition Index: 89747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFinishTransactionService_CallPurchaseSucceededUpdateReceipt_mF49240F626040FA547D76DF9DC330827BDF15810 (GooglePlayStoreFinishTransactionService_tD6DB26D70E76DD5D064E91BE0B21E791DE495E26* __this, RuntimeObject* ___0_googlePurchase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20191,7 +19001,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStoreFinishTransactionService_
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:103>
 		RuntimeObject* L_0 = __this->___m_ConfirmCallback;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -20213,11 +19022,9 @@ IL_000b:
 		L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(8, IGooglePurchase_tE2F0BF775C7B2F30ADF1BBB2F7DAB401659D28A1_il2cpp_TypeInfo_var, L_2);
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< String_t* >::Invoke(0, IStorePurchaseConfirmCallback_t3C552367B2A49C2C1F4334243C5B28901A073240_il2cpp_TypeInfo_var, G_B2_0, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:104>
 		return;
 	}
 }
-// Method Definition Index: 89748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePlayStoreFinishTransactionService_IsResponseCodeInRecoverableState_mD69961B895BA24CC88CB26203EBF69F54C2CC012 (RuntimeObject* ___0_billingResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20227,9 +19034,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GooglePlayStoreFinishTransactionService_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:111>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:112>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:113>
 		RuntimeObject* L_0 = ___0_billingResult;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -20270,7 +19074,6 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m024F27BC01665686CD21E6577DB14A0F7552DD9F (U3CU3Ec__DisplayClass9_0_t6D323D192623B052B0ECD71E14325119399F0495* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20278,11 +19081,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m024F27BC
 		return;
 	}
 }
-// Method Definition Index: 89750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3CFinishTransactionU3Eb__0_mF09ED42D4057A892299B31E6EEA3CB50340EFFC2 (U3CU3Ec__DisplayClass9_0_t6D323D192623B052B0ECD71E14325119399F0495* __this, RuntimeObject* ___0_billingResult, RuntimeObject* ___1_googlePurchase, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:43>
 		GooglePlayStoreFinishTransactionService_tD6DB26D70E76DD5D064E91BE0B21E791DE495E26* L_0 = __this->___U3CU3E4__this;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_1 = __this->___product;
 		RuntimeObject* L_2 = ___0_billingResult;
@@ -20300,7 +19101,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3CFinishTransa
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFinishTransactionU3Ed__9_MoveNext_mD032BE7D8515C02F93866ADEEF26046ECB066216 (U3CFinishTransactionU3Ed__9_tF0EADE4A9DBDCEBF35DA25839184F750002C021F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20390,8 +19190,6 @@ IL_003e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:42>
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:43>
 				GooglePlayStoreFinishTransactionService_tD6DB26D70E76DD5D064E91BE0B21E791DE495E26* L_9 = V_1;
 				NullCheck(L_9);
 				RuntimeObject* L_10 = L_9->___m_GooglePlayStoreService;
@@ -20442,7 +19240,6 @@ IL_00a1_2:
 IL_00bd_2:
 			{
 				TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:44>
 				goto IL_0130_1;
 			}
 		}
@@ -20460,16 +19257,7 @@ CATCH_00c6_1:
 		{
 			{
 				Exception_t* L_25 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:45>
 				V_3 = L_25;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:47>
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:48>
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:49>
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:50>
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:51>
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:52>
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:53>
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:54>
 				GooglePlayStoreFinishTransactionService_tD6DB26D70E76DD5D064E91BE0B21E791DE495E26* L_26 = V_1;
 				GooglePlayStoreFinishTransactionService_tD6DB26D70E76DD5D064E91BE0B21E791DE495E26* L_27 = V_1;
 				NullCheck(L_27);
@@ -20595,7 +19383,6 @@ IL_0111_1:
 				String_t* L_45 = __this->___purchaseToken;
 				NullCheck(G_B20_1);
 				GooglePlayStoreFinishTransactionService_SendTransactionFailedCallback_m21E3E1035A80FFFC90659EE579E8DDBF4B482087(G_B20_1, L_44, L_45, NULL);
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:55>
 				IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 				goto IL_0130_1;
 			}
@@ -20632,7 +19419,6 @@ CATCH_0132:
 
 IL_0152:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStoreFinishTransactionService.cs:57>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CU3E8__1 = (U3CU3Ec__DisplayClass9_0_t6D323D192623B052B0ECD71E14325119399F0495*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1), (void*)(U3CU3Ec__DisplayClass9_0_t6D323D192623B052B0ECD71E14325119399F0495*)NULL);
@@ -20652,7 +19438,6 @@ IL2CPP_EXTERN_C  void U3CFinishTransactionU3Ed__9_MoveNext_mD032BE7D8515C02F9386
 	_thisAdjusted = reinterpret_cast<U3CFinishTransactionU3Ed__9_tF0EADE4A9DBDCEBF35DA25839184F750002C021F*>(__this + _offset);
 	U3CFinishTransactionU3Ed__9_MoveNext_mD032BE7D8515C02F93866ADEEF26046ECB066216(_thisAdjusted, method);
 }
-// Method Definition Index: 89752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFinishTransactionU3Ed__9_SetStateMachine_mD7AF8FDC971BC150CE357471F3E2DE62EAFE1DA0 (U3CFinishTransactionU3Ed__9_tF0EADE4A9DBDCEBF35DA25839184F750002C021F* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -20677,21 +19462,16 @@ IL2CPP_EXTERN_C  void U3CFinishTransactionU3Ed__9_SetStateMachine_mD7AF8FDC971BC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStorePurchaseService__ctor_m6BC6832902DC8C22BAA16A1B7FDE0CDD996DD802 (GooglePlayStorePurchaseService_t7CC4E3D025753C067BF58BBE2726F3214F94D303* __this, RuntimeObject* ___0_googlePlayStoreService, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStorePurchaseService.cs:11>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStorePurchaseService.cs:13>
 		RuntimeObject* L_0 = ___0_googlePlayStoreService;
 		__this->___m_GooglePlayStoreService = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_GooglePlayStoreService), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStorePurchaseService.cs:14>
 		return;
 	}
 }
-// Method Definition Index: 89754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStorePurchaseService_Purchase_m874F789E0433D421B6C85DB61BEB26D035D11767 (GooglePlayStorePurchaseService_t7CC4E3D025753C067BF58BBE2726F3214F94D303* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20701,12 +19481,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStorePurchaseService_Purchase_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStorePurchaseService.cs:18>
 		RuntimeObject* L_0 = __this->___m_GooglePlayStoreService;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_1 = ___0_product;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* >::Invoke(1, IGooglePlayStoreService_t2150BD552434E043110FE996521A30B5027BFCED_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/Services/GooglePlayStorePurchaseService.cs:19>
 		return;
 	}
 }
@@ -20718,7 +19496,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglePlayStorePurchaseService_Purchase_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleReceiptExtensions_HasInAppPurchaseReceipts_m898D53C6836652FD3626F5DDB4348A24FA2EF1C4 (AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* ___0_appleReceipt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20739,7 +19516,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleReceiptExtensions_HasInAppPurchaseR
 	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 G_B5_0;
 	memset((&G_B5_0), 0, sizeof(G_B5_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleReceiptExtensions.cs:14>
 		AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* L_0 = ___0_appleReceipt;
 		if (L_0)
 		{
@@ -20791,7 +19567,6 @@ IL_0021:
 		return (bool)((int32_t)(((((int32_t)L_6) > ((int32_t)L_7))? 1 : 0)&(int32_t)L_8));
 	}
 }
-// Method Definition Index: 89772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* AppleReceiptExtensions_FindMostRecentReceiptForProduct_m23173CA324C2A6E7898D579C3C0E660B70ADABA9 (AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* ___0_appleReceipt, String_t* ___1_productId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20823,7 +19598,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAE
 		NullCheck(L_1);
 		L_1->___productId = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___productId), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleReceiptExtensions.cs:20>
 		AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* L_3 = ___0_appleReceipt;
 		NullCheck(L_3);
 		AppleInAppPurchaseReceiptU5BU5D_t78C9D228935E99563B38B77BBA52C2987C24CADE* L_4 = L_3->___inAppPurchaseReceipts;
@@ -20832,7 +19606,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAE
 		Predicate_1__ctor_m3243D6C248C4C29DED243FF426B86ADD8DF5AC7D(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass1_0_U3CFindMostRecentReceiptForProductU3Eb__0_m7ADA8DDB727820E2B49810560F1A21689F21434A_RuntimeMethod_var), NULL);
 		AppleInAppPurchaseReceiptU5BU5D_t78C9D228935E99563B38B77BBA52C2987C24CADE* L_7;
 		L_7 = Array_FindAll_TisAppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1_mB38F1E29A3B6881A34DC3072584E622042161074(L_4, L_6, Array_FindAll_TisAppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1_mB38F1E29A3B6881A34DC3072584E622042161074_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleReceiptExtensions.cs:21>
 		AppleInAppPurchaseReceiptU5BU5D_t78C9D228935E99563B38B77BBA52C2987C24CADE* L_8 = L_7;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t556056CBF103538C232723AFE46FDB9B4961C894_il2cpp_TypeInfo_var);
 		Comparison_1_tDFEB382F9505A5E6FF7911BB9F58134EEBFE02F2* L_9 = ((U3CU3Ec_t556056CBF103538C232723AFE46FDB9B4961C894_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t556056CBF103538C232723AFE46FDB9B4961C894_il2cpp_TypeInfo_var))->___U3CU3E9__1_1;
@@ -20864,13 +19637,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAE
 IL_0044:
 	{
 		Array_Sort_TisAppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1_m53F87C3B4CEA307073D4498FA99100FD48C05383(G_B2_1, G_B2_0, Array_Sort_TisAppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1_m53F87C3B4CEA307073D4498FA99100FD48C05383_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleReceiptExtensions.cs:22>
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_14;
 		L_14 = AppleReceiptExtensions_FirstNonCancelledReceipt_m72914BA90BBB4F73FA7E34DAAB5ACA55EE42D18F((RuntimeObject*)G_B2_2, NULL);
 		return L_14;
 	}
 }
-// Method Definition Index: 89773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* AppleReceiptExtensions_FirstNonCancelledReceipt_m72914BA90BBB4F73FA7E34DAAB5ACA55EE42D18F (RuntimeObject* ___0_receipts, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20887,7 +19658,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAE
 	Func_2_t52D1F93BCECD3B99A43DC546CB76156FB2AEFD3C* G_B1_0 = NULL;
 	RuntimeObject* G_B1_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleReceiptExtensions.cs:27>
 		RuntimeObject* L_0 = ___0_receipts;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t556056CBF103538C232723AFE46FDB9B4961C894_il2cpp_TypeInfo_var);
 		Func_2_t52D1F93BCECD3B99A43DC546CB76156FB2AEFD3C* L_1 = ((U3CU3Ec_t556056CBF103538C232723AFE46FDB9B4961C894_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t556056CBF103538C232723AFE46FDB9B4961C894_il2cpp_TypeInfo_var))->___U3CU3E9__2_0;
@@ -20920,7 +19690,6 @@ IL_0020:
 		return L_6;
 	}
 }
-// Method Definition Index: 89774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleReceiptExtensions_IsCancelled_m2BC91C66F4ED794D25331CE73CE948A5323806AA (AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* ___0_receipt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20930,7 +19699,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleReceiptExtensions_IsCancelled_m2BC9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleReceiptExtensions.cs:32>
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_0 = ___0_receipt;
 		NullCheck(L_0);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_1;
@@ -20950,7 +19718,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleReceiptExtensions_IsCancelled_m2BC9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m066F1C7FA6B92A08809757BFA0DD2B8F0BADE9A0 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20967,7 +19734,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m066F1C7FA6B92A08809757BF
 		return;
 	}
 }
-// Method Definition Index: 89776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m25258234F44D848411C1BF7B81DDC8AACCD86D64 (U3CU3Ec_t556056CBF103538C232723AFE46FDB9B4961C894* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20975,7 +19741,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m25258234F44D848411C1BF7B8
 		return;
 	}
 }
-// Method Definition Index: 89777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CFindMostRecentReceiptForProductU3Eb__1_1_mE69F37C16554B1F6E5158847C9146324BB59530A (U3CU3Ec_t556056CBF103538C232723AFE46FDB9B4961C894* __this, AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* ___0_b, AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* ___1_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20987,7 +19752,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CFindMostRecentReceiptForPr
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleReceiptExtensions.cs:21>
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_0 = ___1_a;
 		NullCheck(L_0);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_1;
@@ -21003,11 +19767,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CFindMostRecentReceiptForPr
 		return L_4;
 	}
 }
-// Method Definition Index: 89778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CFirstNonCancelledReceiptU3Eb__2_0_m2E88744379CD8D9D4D5251D6B9E1553C599455EA (U3CU3Ec_t556056CBF103538C232723AFE46FDB9B4961C894* __this, AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* ___0_receipt, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleReceiptExtensions.cs:27>
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_0 = ___0_receipt;
 		bool L_1;
 		L_1 = AppleReceiptExtensions_IsCancelled_m2BC91C66F4ED794D25331CE73CE948A5323806AA(L_0, NULL);
@@ -21022,7 +19784,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CFirstNonCancelledReceiptU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m7C3EADCF4046E87B176BC0176E6B355F04B243B9 (U3CU3Ec__DisplayClass1_0_t7F843709836B1BF5F5E198D1F001D6F659B803A6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21030,11 +19791,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m7C3EADCF
 		return;
 	}
 }
-// Method Definition Index: 89780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass1_0_U3CFindMostRecentReceiptForProductU3Eb__0_m7ADA8DDB727820E2B49810560F1A21689F21434A (U3CU3Ec__DisplayClass1_0_t7F843709836B1BF5F5E198D1F001D6F659B803A6* __this, AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* ___0_r, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleReceiptExtensions.cs:20>
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_0 = ___0_r;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -21082,7 +19841,6 @@ extern "C" void DEFAULT_CALL ReversePInvokeWrapper_AppleStoreImpl_Sk1MessageCall
 	AppleStoreImpl_Sk1MessageCallback_m32512EC7EACD1989B2038BC1FF1EB9B48290A14B(____0_subject_unmarshaled, ____1_payload_unmarshaled, ____2_receipt_unmarshaled, ____3_transactionId_unmarshaled, ____4_originalTransactionId_unmarshaled, static_cast<bool>(___5_isRestored), NULL);
 
 }
-// Method Definition Index: 89781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_add_OnPromotionalPurchaseIntercepted_m46487C5D2E2C50AA854F8D73AAC56EE218A9138B (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, Action_1_t89E7476130EB87E6F9C9FCBB2D6407FB99F11F84* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21125,7 +19883,6 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 89782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_remove_OnPromotionalPurchaseIntercepted_m8F68D399AD003A950C079BCBE3FE25B5AA121B0C (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, Action_1_t89E7476130EB87E6F9C9FCBB2D6407FB99F11F84* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21168,7 +19925,6 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 89783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl__ctor_m532A63C7D5842DDB8D415880EF0B58ACED060F19 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, RuntimeObject* ___0_cartValidator, RuntimeObject* ___1_fetchProductsService, RuntimeObject* ___2_transactionLog, RuntimeObject* ___3_util, RuntimeObject* ___4_logger, RuntimeObject* ___5_telemetryDiagnostics, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21180,33 +19936,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl__ctor_m532A63C7D5842DDB8D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:57>
 		RuntimeObject* L_0 = ___0_cartValidator;
 		RuntimeObject* L_1 = ___4_logger;
 		JsonStore__ctor_m62524191224A2FE257088431679C6DD0DCCB4A82(__this, L_0, L_1, _stringLiteral7535A877CC7A258810A546BD47780403A6033D8F, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:59>
 		Guid_t L_2 = ((Guid_t_StaticFields*)il2cpp_codegen_static_fields_for(Guid_t_il2cpp_TypeInfo_var))->___Empty;
 		__this->___m_AppAccountToken = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:60>
 		RuntimeObject* L_3 = ___3_util;
 		((AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_StaticFields*)il2cpp_codegen_static_fields_for(AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_il2cpp_TypeInfo_var))->___s_Util = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_StaticFields*)il2cpp_codegen_static_fields_for(AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_il2cpp_TypeInfo_var))->___s_Util), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:61>
 		((AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_StaticFields*)il2cpp_codegen_static_fields_for(AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_il2cpp_TypeInfo_var))->___s_Instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_StaticFields*)il2cpp_codegen_static_fields_for(AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_il2cpp_TypeInfo_var))->___s_Instance), (void*)__this);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:62>
 		RuntimeObject* L_4 = ___1_fetchProductsService;
 		__this->___m_FetchProductsService = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_FetchProductsService), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:63>
 		RuntimeObject* L_5 = ___2_transactionLog;
 		__this->___m_TransactionLog = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TransactionLog), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 89784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_SetNativeStore_mCDE69306570724FBD23E7A8788F769C77FE43690 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, RuntimeObject* ___0_apple, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21235,31 +19983,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_SetNativeStore_mCDE693065
 		NullCheck(L_1);
 		L_1->___apple = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___apple), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:67>
 		U3CU3Ec__DisplayClass22_0_t58BD5400A442850E23CFD68C5333DDEB0973C183* L_3 = V_0;
 		NullCheck(L_3);
 		RuntimeObject* L_4 = L_3->___apple;
 		JsonStore_SetNativeStore_m214D03245A3B3FDA823F64101B8DED0FD9784F00_inline(__this, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:68>
 		U3CU3Ec__DisplayClass22_0_t58BD5400A442850E23CFD68C5333DDEB0973C183* L_5 = V_0;
 		NullCheck(L_5);
 		RuntimeObject* L_6 = L_5->___apple;
 		__this->___m_Native = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Native), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:69>
 		RuntimeObject* L_7 = __this->___m_FetchProductsService;
 		U3CU3Ec__DisplayClass22_0_t58BD5400A442850E23CFD68C5333DDEB0973C183* L_8 = V_0;
 		NullCheck(L_8);
 		RuntimeObject* L_9 = L_8->___apple;
 		NullCheck(L_7);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IAppleFetchProductsService_tB32DAEE6718E9DCE2082D08F5DFE9C13EA9C09CC_il2cpp_TypeInfo_var, L_7, L_9);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:72>
 		U3CU3Ec__DisplayClass22_0_t58BD5400A442850E23CFD68C5333DDEB0973C183* L_10 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_11 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_11, L_10, (intptr_t)((void*)U3CU3Ec__DisplayClass22_0_U3CSetNativeStoreU3Eb__0_m9F6BBA4849F79C670E47095382980E319DA39332_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_add_quitting_m5767AC63F23ABFD5BC3D60710906643BA536CCC5(L_11, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:73>
 		il2cpp_codegen_runtime_class_init_inline(StoreKitSelector_t023F51AD15CD5DF94B40BF3D702A94C600A65012_il2cpp_TypeInfo_var);
 		bool L_12;
 		L_12 = StoreKitSelector_UseStoreKit1_mA84434742170AB872EFD3BAF1EB03703AE001CDF(NULL);
@@ -21269,7 +20012,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_SetNativeStore_mCDE693065
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:75>
 		U3CU3Ec__DisplayClass22_0_t58BD5400A442850E23CFD68C5333DDEB0973C183* L_13 = V_0;
 		NullCheck(L_13);
 		RuntimeObject* L_14 = L_13->___apple;
@@ -21282,7 +20024,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_SetNativeStore_mCDE693065
 
 IL_0066:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:80>
 		U3CU3Ec__DisplayClass22_0_t58BD5400A442850E23CFD68C5333DDEB0973C183* L_16 = V_0;
 		NullCheck(L_16);
 		RuntimeObject* L_17 = L_16->___apple;
@@ -21290,20 +20031,16 @@ IL_0066:
 		UnityPurchasingCallback__ctor_m27A3E4DAAE0D1E8DFC9377AFD7AF74236057A595(L_18, NULL, (intptr_t)((void*)AppleStoreImpl_MessageCallback_mCFEEF3D94AE82B4C92430B1BC2DB7957FACA7375_RuntimeMethod_var), NULL);
 		NullCheck(L_17);
 		InterfaceActionInvoker1< UnityPurchasingCallback_t3C1333A45134D9A999AB29AEEBF05883A9A707F3* >::Invoke(0, INativeAppleStore_t323BA5F90A2D47ADD128FFA1A623AF498D477DD3_il2cpp_TypeInfo_var, L_17, L_18);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:82>
 		return;
 	}
 }
-// Method Definition Index: 89785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AppleStoreImpl_GetNativeStore_m8B43487A216B899332B770AEF9574A90872BB505 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:86>
 		RuntimeObject* L_0 = __this->___m_Native;
 		return L_0;
 	}
 }
-// Method Definition Index: 89786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleStoreImpl_AppReceipt_mBBA5E7C97D116E32CB5767FA9F74C78A98973C7D (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21316,7 +20053,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleStoreImpl_AppReceipt_mBBA5E7C9
 	RuntimeObject* G_B3_0 = NULL;
 	RuntimeObject* G_B2_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:91>
 		il2cpp_codegen_runtime_class_init_inline(StoreKitSelector_t023F51AD15CD5DF94B40BF3D702A94C600A65012_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = StoreKitSelector_UseStoreKit1_mA84434742170AB872EFD3BAF1EB03703AE001CDF(NULL);
@@ -21326,7 +20062,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleStoreImpl_AppReceipt_mBBA5E7C9
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:93>
 		RuntimeObject* L_1 = __this->___m_Native;
 		RuntimeObject* L_2 = L_1;
 		if (L_2)
@@ -21350,12 +20085,10 @@ IL_0013:
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:97>
 		String_t* L_4 = __this->___appReceipt;
 		return L_4;
 	}
 }
-// Method Definition Index: 89787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_Connect_m6CADFE7360C1C7C098898C82EFCB3EE4E7AC2FF6 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21370,7 +20103,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_Connect_m6CADFE7360C1C7C0
 	RuntimeObject* G_B5_0 = NULL;
 	RuntimeObject* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:102>
 		RuntimeObject* L_0 = __this->___m_Native;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -21392,7 +20124,6 @@ IL_000c:
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:103>
 		RuntimeObject* L_2 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___ConnectCallback;
 		RuntimeObject* L_3 = L_2;
 		if (L_3)
@@ -21410,11 +20141,9 @@ IL_001c:
 	{
 		NullCheck(G_B5_0);
 		InterfaceActionInvoker0::Invoke(0, IStoreConnectCallback_t703F42DD8D29A2CC58697EDA14E22D1B7ABF42C4_il2cpp_TypeInfo_var, G_B5_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:104>
 		return;
 	}
 }
-// Method Definition Index: 89788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_FinishTransaction_m2CFFEE14A30DC10DBE238CE3ABF675E7A70D5544 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_productDefinition, String_t* ___1_transactionId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21424,20 +20153,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_FinishTransaction_m2CFFEE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:108>
 		RuntimeObject* L_0 = __this->___m_TransactionLog;
 		String_t* L_1 = ___1_transactionId;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< String_t* >::Invoke(2, ITransactionLog_tD07C94128722545C9D24720BC4B8A322C8D90ED7_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:109>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_2 = ___0_productDefinition;
 		String_t* L_3 = ___1_transactionId;
 		JsonStore_FinishTransaction_m7BFB0CE3FFBA5A81B754A5DA6E16E0E817416EB9(__this, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:110>
 		return;
 	}
 }
-// Method Definition Index: 89789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_Purchase_mFC0FB5372AB80B9EA6DEA60044D8E83A377DF87B (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, RuntimeObject* ___0_cart, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21451,12 +20176,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_Purchase_mFC0FB5372AB80B9
 	ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* V_0 = NULL;
 	String_t* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:114>
 		RuntimeObject* L_0 = ((JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382*)__this)->___m_CartValidator;
 		RuntimeObject* L_1 = ___0_cart;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, ICartValidator_t90FCA836A726E33FAFB5657646A89A15EE3562EB_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:115>
 		RuntimeObject* L_2 = ___0_cart;
 		NullCheck(L_2);
 		RuntimeObject* L_3;
@@ -21470,19 +20193,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_Purchase_mFC0FB5372AB80B9
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_6;
 		L_6 = Product_get_definition_m0B1DCF704219DD58B62DC2718C64D33DD690F92B_inline(L_5, NULL);
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:116>
 		String_t* L_7;
 		L_7 = AppleStoreImpl_PurchaseOptions_mB1F71351F3AA1C073897379166C51E8DF8983E44(__this, NULL);
 		V_1 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:117>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_8 = V_0;
 		String_t* L_9 = V_1;
 		VirtualActionInvoker2< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, String_t* >::Invoke(42, __this, L_8, L_9);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:118>
 		return;
 	}
 }
-// Method Definition Index: 89790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleStoreImpl_PurchaseOptions_mB1F71351F3AA1C073897379166C51E8DF8983E44 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21497,11 +20216,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleStoreImpl_PurchaseOptions_mB1F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:122>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:123>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:124>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:125>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:126>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_0 = (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710*)il2cpp_codegen_object_new(Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mC4F3DF292BAD88F4BF193C49CD689FAEBC4570A9(L_0, Dictionary_2__ctor_mC4F3DF292BAD88F4BF193C49CD689FAEBC4570A9_RuntimeMethod_var);
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_1 = L_0;
@@ -21517,13 +20231,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleStoreImpl_PurchaseOptions_mB1F
 		RuntimeObject* L_8 = Box(Guid_t_il2cpp_TypeInfo_var, &L_7);
 		NullCheck(L_5);
 		Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443(L_5, _stringLiteral9BBA7963C199710202C67FA1F6B62C551A1707B1, L_8, Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:128>
 		String_t* L_9;
 		L_9 = Json_Serialize_m6DCEB34129271A957E76CF51023724AD9A59C75A(L_5, NULL);
 		return L_9;
 	}
 }
-// Method Definition Index: 89791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_FetchProducts_m0A8BAEE871A47460375334CE25E568665B5328BD (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21559,7 +20271,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_FetchProducts_m0A8BAEE871
 		return;
 	}
 }
-// Method Definition Index: 89792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_FetchPurchases_m579082D514B0DD38CCD5BB57798DDF910323EA17 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21572,7 +20283,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_FetchPurchases_m579082D51
 	RuntimeObject* G_B4_0 = NULL;
 	RuntimeObject* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:163>
 		il2cpp_codegen_runtime_class_init_inline(StoreKitSelector_t023F51AD15CD5DF94B40BF3D702A94C600A65012_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = StoreKitSelector_UseStoreKit1_mA84434742170AB872EFD3BAF1EB03703AE001CDF(NULL);
@@ -21582,15 +20292,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_FetchPurchases_m579082D51
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:165>
 		AppleStoreImpl_OnPurchasesFetchedStoreKit1_m06DE31D4AEE52D366CAA24DF058A9B8C8C92280B(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:166>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:169>
 		RuntimeObject* L_1 = __this->___m_Native;
 		RuntimeObject* L_2 = L_1;
 		if (L_2)
@@ -21608,11 +20315,9 @@ IL_0019:
 	{
 		NullCheck(G_B4_0);
 		InterfaceActionInvoker0::Invoke(2, INativeStore_tC55554341D4FD7B2B305620B8F69626D8CB59628_il2cpp_TypeInfo_var, G_B4_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:170>
 		return;
 	}
 }
-// Method Definition Index: 89793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchasesFetchedStoreKit1_m06DE31D4AEE52D366CAA24DF058A9B8C8C92280B (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21628,14 +20333,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchasesFetchedStoreKi
 	RuntimeObject* G_B5_0 = NULL;
 	RuntimeObject* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:174>
 		String_t* L_0;
 		L_0 = AppleStoreImpl_AppReceipt_mBBA5E7C97D116E32CB5767FA9F74C78A98973C7D(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:175>
 		AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* L_1;
 		L_1 = AppleStoreImpl_GetAppleReceiptFromBase64String_m353CFAE5ADB81EC268A8242138DF6EA577728759(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:176>
 		AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* L_2 = V_0;
 		if (!L_2)
 		{
@@ -21654,25 +20356,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchasesFetchedStoreKi
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:178>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:181>
 		RuntimeObject* L_5 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___ProductCache;
 		NullCheck(L_5);
 		ReadOnlyObservableCollection_1_t2C48C2FE54854FC925DA0F37C335B869343C8046* L_6;
 		L_6 = InterfaceFuncInvoker0< ReadOnlyObservableCollection_1_t2C48C2FE54854FC925DA0F37C335B869343C8046* >::Invoke(0, IReadOnlyProductCache_tA2F8C14B33C953CB472AC88447E2809831BAE499_il2cpp_TypeInfo_var, L_5);
 		V_1 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:183>
 		ReadOnlyObservableCollection_1_t2C48C2FE54854FC925DA0F37C335B869343C8046* L_7 = V_1;
 		AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* L_8 = V_0;
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_9;
 		L_9 = AppleStoreImpl_CreateConfirmedOrdersForSK1_m63B098906708692312B54DFDBFE8FA2CC72DE60B(__this, L_7, L_8, NULL);
 		V_2 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:184>
 		RuntimeObject* L_10 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___PurchaseFetchCallback;
 		RuntimeObject* L_11 = L_10;
 		if (L_11)
@@ -21691,11 +20389,9 @@ IL_0038:
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_12 = V_2;
 		NullCheck(G_B5_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IStorePurchaseFetchCallback_t6809F1A93AC828E66EEBADE9847D603700E93647_il2cpp_TypeInfo_var, G_B5_0, L_12);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:185>
 		return;
 	}
 }
-// Method Definition Index: 89794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* AppleStoreImpl_CreateConfirmedOrdersForSK1_m63B098906708692312B54DFDBFE8FA2CC72DE60B (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, ReadOnlyObservableCollection_1_t2C48C2FE54854FC925DA0F37C335B869343C8046* ___0_products, AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* ___1_appleReceipt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21723,11 +20419,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t919E5CB114972DFCF14DD79496128FBE2062B
 	Nullable_1_t0ECB838EB0C9A81655750B26970F21CF9A83A5F7 V_7;
 	memset((&V_7), 0, sizeof(V_7));
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:189>
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_0 = (List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A*)il2cpp_codegen_object_new(List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A_il2cpp_TypeInfo_var);
 		List_1__ctor_m6841FD3CEDEA8EA46737298B557279EBF6385082(L_0, List_1__ctor_m6841FD3CEDEA8EA46737298B557279EBF6385082_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:191>
 		ReadOnlyObservableCollection_1_t2C48C2FE54854FC925DA0F37C335B869343C8046* L_1 = ___0_products;
 		NullCheck(L_1);
 		RuntimeObject* L_2;
@@ -21767,13 +20461,11 @@ IL_00df:
 
 IL_0012_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:191>
 				RuntimeObject* L_5 = V_1;
 				NullCheck(L_5);
 				Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_6;
 				L_6 = InterfaceFuncInvoker0< Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* >::Invoke(0, IEnumerator_1_tD1EE22C601F2F39E0E36F84D261DD3029BB6FD83_il2cpp_TypeInfo_var, L_5);
 				V_2 = L_6;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:193>
 				AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* L_7 = ___1_appleReceipt;
 				Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_8 = V_2;
 				NullCheck(L_8);
@@ -21785,7 +20477,6 @@ IL_0012_1:
 				AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_11;
 				L_11 = AppleStoreImpl_FindMostRecentReceipt_mB9141883FEA7DF46A1CCFE5F4EDD99E763F3BA9A(L_7, L_10, NULL);
 				V_3 = L_11;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:194>
 				AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_12 = V_3;
 				if (!L_12)
 				{
@@ -21793,7 +20484,6 @@ IL_0012_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:200>
 				RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_13 = { reinterpret_cast<intptr_t> (AppleStoreProductType_t2D336BD7707DF1B5178C4EB58ED6657B3293F72A_0_0_0_var) };
 				il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 				Type_t* L_14;
@@ -21808,7 +20498,6 @@ IL_0012_1:
 				il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.enum_class);
 				RuntimeObject* L_18;
 				L_18 = Enum_Parse_m2846B01D5DEA00E4674AED09DE0B2E59ECEED61F(L_14, L_17, NULL);
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:201>
 				V_6 = ((*(int32_t*)UnBox(L_18, AppleStoreProductType_t2D336BD7707DF1B5178C4EB58ED6657B3293F72A_il2cpp_TypeInfo_var)));
 				int32_t L_19 = V_6;
 				switch (L_19)
@@ -21837,7 +20526,6 @@ IL_0012_1:
 
 IL_006f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:204>
 				AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_20 = V_3;
 				SubscriptionInfo_tBBC3E8F5C9B34C4C3AA2253CC51AC64029C7FC75* L_21 = (SubscriptionInfo_tBBC3E8F5C9B34C4C3AA2253CC51AC64029C7FC75*)il2cpp_codegen_object_new(SubscriptionInfo_tBBC3E8F5C9B34C4C3AA2253CC51AC64029C7FC75_il2cpp_TypeInfo_var);
 				SubscriptionInfo__ctor_mCC603CC165555C22526157046FCC551F3FEC6126(L_21, L_20, (String_t*)NULL, NULL);
@@ -21852,9 +20540,6 @@ IL_006f_1:
 
 IL_007d_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:211>
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:212>
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:213>
 				Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_23 = V_2;
 				NullCheck(L_23);
 				ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_24;
@@ -21867,7 +20552,6 @@ IL_007d_1:
 				String_t* L_27;
 				L_27 = AppleInAppPurchaseReceipt_get_originalTransactionIdentifier_mAEBE0C2F85BD9F5F1574D3787274BF42C0E9567F_inline(L_26, NULL);
 				AppleStoreImpl_UpdateAppleProductFields_m6B27BF790093879099E07F46ACF5E308F973C229(__this, L_25, L_27, (bool)1, NULL);
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:215>
 				Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_28 = V_2;
 				NullCheck(L_28);
 				ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_29;
@@ -21888,7 +20572,6 @@ IL_007d_1:
 				ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_36;
 				L_36 = AppleStoreImpl_GenerateAppleConfirmedOrder_m87705DC1B248E65522BD2EB4A63B1F1663C598B6(__this, L_30, L_32, L_34, (-1), L_35, (String_t*)NULL, (RuntimeObject*)NULL, NULL);
 				V_5 = L_36;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:216>
 				List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_37 = V_0;
 				ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_38 = V_5;
 				NullCheck(L_37);
@@ -21897,7 +20580,6 @@ IL_007d_1:
 
 IL_00c9_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:191>
 				RuntimeObject* L_39 = V_1;
 				NullCheck(L_39);
 				bool L_40;
@@ -21919,17 +20601,14 @@ IL_00c9_1:
 
 IL_00e0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:223>
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_41 = V_0;
 		return L_41;
 	}
 }
-// Method Definition Index: 89795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleStoreImpl_HasInAppPurchaseReceipts_mBF52668D4B9DA21B10856787685CECD20EE5934F (AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* ___0_appleReceipt, const RuntimeMethod* method) 
 {
 	AppleInAppPurchaseReceiptU5BU5D_t78C9D228935E99563B38B77BBA52C2987C24CADE* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:228>
 		AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* L_0 = ___0_appleReceipt;
 		if (!L_0)
 		{
@@ -21958,51 +20637,39 @@ IL_0014:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 89796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_SetFetchStorePromotionOrderCallbacks_mBAE6154A72D64A5A42B78B9E2F0D329B0AEA60A6 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, Action_1_t39A998EC27FE5D8CEAC2D6D914EFB0C5A8263A74* ___0_successCallback, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___1_errorCallback, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:233>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = ___1_errorCallback;
 		__this->___m_FetchStorePromotionOrderError = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_FetchStorePromotionOrderError), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:234>
 		Action_1_t39A998EC27FE5D8CEAC2D6D914EFB0C5A8263A74* L_1 = ___0_successCallback;
 		__this->___m_FetchStorePromotionOrderSuccess = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_FetchStorePromotionOrderSuccess), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:235>
 		return;
 	}
 }
-// Method Definition Index: 89797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_SetFetchStorePromotionVisibilityCallbacks_m6E335A68755ED40A7A546B6518E9D17CE067CDA0 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, Action_2_t557C07266DE68D7A1708D82DB27944851C0718F7* ___0_successCallback, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___1_errorCallback, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:239>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = ___1_errorCallback;
 		__this->___m_FetchStorePromotionVisibilityError = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_FetchStorePromotionVisibilityError), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:240>
 		Action_2_t557C07266DE68D7A1708D82DB27944851C0718F7* L_1 = ___0_successCallback;
 		__this->___m_FetchStorePromotionVisibilitySuccess = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_FetchStorePromotionVisibilitySuccess), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:241>
 		return;
 	}
 }
-// Method Definition Index: 89798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_SetRestoreTransactionsCallback_mCF1CF9E75FABF43AE7F9A9A1944F0B167A5D41A2 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, Action_2_t8EADE87044ADE97906736D729EA2E3EF97F34F3D* ___0_successCallback, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:245>
 		Action_2_t8EADE87044ADE97906736D729EA2E3EF97F34F3D* L_0 = ___0_successCallback;
 		__this->___m_RestoreCallback = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RestoreCallback), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:246>
 		return;
 	}
 }
-// Method Definition Index: 89799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ClearTransactionLog_m985A081EA235E0C086DD04C58B14BF4383DE45AC (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22012,34 +20679,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ClearTransactionLog_m985A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:250>
 		RuntimeObject* L_0 = __this->___m_TransactionLog;
 		NullCheck(L_0);
 		InterfaceActionInvoker0::Invoke(0, ITransactionLog_tD07C94128722545C9D24720BC4B8A322C8D90ED7_il2cpp_TypeInfo_var, L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:251>
 		return;
 	}
 }
-// Method Definition Index: 89800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleStoreImpl_get_simulateAskToBuy_m85571DFEF511C76CA5B0DB854C231FA78DDA4ADB (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:253>
 		bool L_0 = __this->___U3CsimulateAskToBuyU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 89801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_set_simulateAskToBuy_mB6FB383B3367E1E72299A61D3CA8C74DD33D59EB (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:253>
 		bool L_0 = ___0_value;
 		__this->___U3CsimulateAskToBuyU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 89802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_SetAppAccountToken_m23A70A7B14496057E5695348588F7D40575FB232 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, Guid_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22052,7 +20712,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_SetAppAccountToken_m23A70
 	RuntimeObject* G_B3_0 = NULL;
 	RuntimeObject* G_B2_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:256>
 		il2cpp_codegen_runtime_class_init_inline(StoreKitSelector_t023F51AD15CD5DF94B40BF3D702A94C600A65012_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = StoreKitSelector_UseStoreKit1_mA84434742170AB872EFD3BAF1EB03703AE001CDF(NULL);
@@ -22062,7 +20721,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_SetAppAccountToken_m23A70
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:258>
 		RuntimeObject* L_1 = __this->___m_Native;
 		RuntimeObject* L_2 = L_1;
 		if (L_2)
@@ -22082,20 +20740,16 @@ IL_0012:
 		L_3 = Guid_ToString_m2BFFD5FA726E03FA707AAFCCF065896C46D5290C((&___0_value), NULL);
 		NullCheck(G_B3_0);
 		InterfaceActionInvoker1< String_t* >::Invoke(15, INativeAppleStore_t323BA5F90A2D47ADD128FFA1A623AF498D477DD3_il2cpp_TypeInfo_var, G_B3_0, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:259>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:262>
 		Guid_t L_4 = ___0_value;
 		__this->___m_AppAccountToken = L_4;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:263>
 		return;
 	}
 }
-// Method Definition Index: 89803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseDeferred_m82C6EDE0CE180D5A11419A28DCAD95502D7E1216 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_productDetails, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22113,15 +20767,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseDeferred_m82C6E
 	RuntimeObject* G_B3_0 = NULL;
 	RuntimeObject* G_B2_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:267>
 		String_t* L_0 = ___0_productDetails;
 		List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_1;
 		L_1 = JSONSerializer_DeserializeProductDescriptionsFromFetchProductsSk2_m6CADF12DD885B34666275DE418B055EC183AEBB6(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:268>
 		ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* L_2;
 		L_2 = Enumerable_FirstOrDefault_TisProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A_m9BADD2A23B7D4DCF0FE9A534DA4EDED5A3D26628(L_1, Enumerable_FirstOrDefault_TisProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A_m9BADD2A23B7D4DCF0FE9A534DA4EDED5A3D26628_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:269>
 		ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* L_3 = V_0;
 		if (!L_3)
 		{
@@ -22129,9 +20780,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseDeferred_m82C6E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:271>
 		il2cpp_codegen_initobj((&V_1), sizeof(Nullable_1_t0ECB838EB0C9A81655750B26970F21CF9A83A5F7));
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:272>
 		ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* L_4 = V_0;
 		NullCheck(L_4);
 		String_t* L_5;
@@ -22144,7 +20793,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseDeferred_m82C6E
 		DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F29192D7F56* L_9;
 		L_9 = AppleStoreImpl_GenerateAppleDeferredOrder_m7B589030A45DB3DBB427E2866385452113F96030(__this, L_5, L_7, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, (-1), L_8, (String_t*)NULL, NULL);
 		V_2 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:273>
 		RuntimeObject* L_10 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___PurchaseCallback;
 		RuntimeObject* L_11 = L_10;
 		if (L_11)
@@ -22167,11 +20815,9 @@ IL_003d:
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:275>
 		return;
 	}
 }
-// Method Definition Index: 89804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPromotionalPurchaseAttempted_mF651C7CB9A0E761DC987C0CDAFB1E62F248CB8A8 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_productId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22182,7 +20828,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPromotionalPurchaseAtte
 	}
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:279>
 		Action_1_t89E7476130EB87E6F9C9FCBB2D6407FB99F11F84* L_0 = __this->___OnPromotionalPurchaseIntercepted;
 		if (!L_0)
 		{
@@ -22190,14 +20835,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPromotionalPurchaseAtte
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:281>
 		RuntimeObject* L_1 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___ProductCache;
 		String_t* L_2 = ___0_productId;
 		NullCheck(L_1);
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_3;
 		L_3 = InterfaceFuncInvoker1< Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76*, String_t* >::Invoke(1, IReadOnlyProductCache_tA2F8C14B33C953CB472AC88447E2809831BAE499_il2cpp_TypeInfo_var, L_1, L_2);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:282>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_4 = V_0;
 		if (!L_4)
 		{
@@ -22205,7 +20848,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPromotionalPurchaseAtte
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:284>
 		Action_1_t89E7476130EB87E6F9C9FCBB2D6407FB99F11F84* L_5 = __this->___OnPromotionalPurchaseIntercepted;
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_6 = V_0;
 		NullCheck(L_5);
@@ -22214,11 +20856,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPromotionalPurchaseAtte
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:287>
 		return;
 	}
 }
-// Method Definition Index: 89805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchasesFetched_m42ECC5DBEDA50A55A419536172B1C0EBD1871AF9 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_json, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22232,17 +20872,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchasesFetched_m42ECC
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:291>
 		String_t* L_0 = ___0_json;
 		Dictionary_2_t8AEFEA4891FEBB224C85ADA66FB2500D9769EDC2* L_1;
 		L_1 = JSONSerializer_DeserializeFetchedPurchases_m68344744D09558F84F96C92EC2153643598EA3CA(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:292>
 		Dictionary_2_t8AEFEA4891FEBB224C85ADA66FB2500D9769EDC2* L_2 = V_0;
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_3;
 		L_3 = AppleStoreImpl_CreateOrdersFromFetchedPurchases_m16D10FE1B8C78FD6BFAF030368FF3536F7607EF9(__this, L_2, NULL);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:293>
 		RuntimeObject* L_4 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___PurchaseFetchCallback;
 		RuntimeObject* L_5 = L_4;
 		if (L_5)
@@ -22261,11 +20898,9 @@ IL_001a:
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_6 = V_1;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IStorePurchaseFetchCallback_t6809F1A93AC828E66EEBADE9847D603700E93647_il2cpp_TypeInfo_var, G_B2_0, L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:294>
 		return;
 	}
 }
-// Method Definition Index: 89806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* AppleStoreImpl_CreateOrdersFromFetchedPurchases_m16D10FE1B8C78FD6BFAF030368FF3536F7607EF9 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, Dictionary_2_t8AEFEA4891FEBB224C85ADA66FB2500D9769EDC2* ___0_fetchedPurchases, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22285,11 +20920,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t919E5CB114972DFCF14DD79496128FBE2062B
 	List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* V_2 = NULL;
 	Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:298>
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_0 = (List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A*)il2cpp_codegen_object_new(List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A_il2cpp_TypeInfo_var);
 		List_1__ctor_m6841FD3CEDEA8EA46737298B557279EBF6385082(L_0, List_1__ctor_m6841FD3CEDEA8EA46737298B557279EBF6385082_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:299>
 		Dictionary_2_t8AEFEA4891FEBB224C85ADA66FB2500D9769EDC2* L_1 = ___0_fetchedPurchases;
 		NullCheck(L_1);
 		bool L_2;
@@ -22300,7 +20933,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t919E5CB114972DFCF14DD79496128FBE2062B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:301>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_3 = V_1;
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_4;
 		L_4 = AppleStoreImpl_GenerateOrdersFromProducts_m0904CB559C3EE02F2AE337E3968B79838DCD9637(__this, L_3, (bool)1, NULL);
@@ -22309,11 +20941,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t919E5CB114972DFCF14DD79496128FBE2062B
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:304>
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_5 = (List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A*)il2cpp_codegen_object_new(List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A_il2cpp_TypeInfo_var);
 		List_1__ctor_m6841FD3CEDEA8EA46737298B557279EBF6385082(L_5, List_1__ctor_m6841FD3CEDEA8EA46737298B557279EBF6385082_RuntimeMethod_var);
 		V_2 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:305>
 		Dictionary_2_t8AEFEA4891FEBB224C85ADA66FB2500D9769EDC2* L_6 = ___0_fetchedPurchases;
 		NullCheck(L_6);
 		bool L_7;
@@ -22324,7 +20954,6 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:307>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_8 = V_3;
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_9;
 		L_9 = AppleStoreImpl_GenerateOrdersFromProducts_m0904CB559C3EE02F2AE337E3968B79838DCD9637(__this, L_8, (bool)0, NULL);
@@ -22333,7 +20962,6 @@ IL_001e:
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:310>
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_10 = V_0;
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_11 = V_2;
 		RuntimeObject* L_12;
@@ -22343,7 +20971,6 @@ IL_003c:
 		return L_13;
 	}
 }
-// Method Definition Index: 89807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* AppleStoreImpl_GenerateOrdersFromProducts_m0904CB559C3EE02F2AE337E3968B79838DCD9637 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ___0_transactions, bool ___1_isPending, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22385,11 +21012,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t919E5CB114972DFCF14DD79496128FBE2062B
 	Guid_t V_12;
 	memset((&V_12), 0, sizeof(V_12));
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:315>
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_0 = (List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A*)il2cpp_codegen_object_new(List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A_il2cpp_TypeInfo_var);
 		List_1__ctor_m6841FD3CEDEA8EA46737298B557279EBF6385082(L_0, List_1__ctor_m6841FD3CEDEA8EA46737298B557279EBF6385082_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:316>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_1 = ___0_transactions;
 		NullCheck(L_1);
 		Enumerator_t06A9DDA7FA9EA8BC40458E628EBAF7B3AA14EB62 L_2;
@@ -22414,11 +21039,9 @@ FINALLY_00eb:
 
 IL_0012_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:316>
 				KeyValuePair_2_tBEE55F2A4574C64393155C322376FD98C7BFC7B9 L_3;
 				L_3 = Enumerator_get_Current_mFAD52D332201C947C95ECF69DAE5C3319CA654F1_inline((&V_1), Enumerator_get_Current_mFAD52D332201C947C95ECF69DAE5C3319CA654F1_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:318>
 				RuntimeObject* L_4;
 				L_4 = KeyValuePair_2_get_Value_m2052BF44A3FDE623D98B0E6B6E227B2900034235_inline((&V_2), KeyValuePair_2_get_Value_m2052BF44A3FDE623D98B0E6B6E227B2900034235_RuntimeMethod_var);
 				V_3 = ((Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710*)IsInstClass((RuntimeObject*)L_4, Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710_il2cpp_TypeInfo_var));
@@ -22429,46 +21052,37 @@ IL_0012_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:323>
 				Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_6 = V_3;
 				RuntimeObject* L_7;
 				L_7 = AppleStoreImpl_TryGetSubscriptionInfoFromPayload_mD2876ADEE2630ABEB956E53020D3DAB997835B13(L_6, NULL);
 				V_4 = L_7;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:325>
 				Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_8 = V_3;
 				String_t* L_9;
 				L_9 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_8, _stringLiteral4B410F5F43A4714AE6474DB2282523C7FBE75CD1, NULL);
 				V_5 = L_9;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:326>
 				Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_10 = V_3;
 				String_t* L_11;
 				L_11 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_10, _stringLiteral269B276065AA2FD25E2FC1E4ED6E8FBDFB83D44D, NULL);
 				V_6 = L_11;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:327>
 				Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_12 = V_3;
 				String_t* L_13;
 				L_13 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_12, _stringLiteral143ACF5B5427633D39CFCBA045A9112E5681FD75, NULL);
 				V_7 = L_13;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:329>
 				Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_14 = V_3;
 				String_t* L_15;
 				L_15 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_14, _stringLiteral538E40513F62512345B3B485F8F68CB1A32284D5, NULL);
 				int32_t L_16;
 				L_16 = AppleStoreImpl_OwnershipTypeFromString_m6165233F06771342C1D13C90275DC3F0B23C8F6E(L_15, NULL);
 				V_8 = L_16;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:330>
 				Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_17 = V_3;
 				String_t* L_18;
 				L_18 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_17, _stringLiteral9BBA7963C199710202C67FA1F6B62C551A1707B1, NULL);
 				V_9 = L_18;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:331>
 				Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_19 = V_3;
 				String_t* L_20;
 				L_20 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_19, _stringLiteral36F291AF7CE4816CFDDFAFBE967E54B87EAB388C, NULL);
 				V_10 = L_20;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:332>
 				il2cpp_codegen_initobj((&V_11), sizeof(Nullable_1_t0ECB838EB0C9A81655750B26970F21CF9A83A5F7));
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:333>
 				String_t* L_21 = V_9;
 				bool L_22;
 				L_22 = Guid_TryParse_m0A3C27800A8CEB35EF6CABBABD87ED7F968A7B4D(L_21, (&V_12), NULL);
@@ -22478,14 +21092,12 @@ IL_0012_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:335>
 				Guid_t L_23 = V_12;
 				Nullable_1__ctor_mD2155EEC4DF44AF1AD75AEB77DA72D350854D0F2((&V_11), L_23, Nullable_1__ctor_mD2155EEC4DF44AF1AD75AEB77DA72D350854D0F2_RuntimeMethod_var);
 			}
 
 IL_00a4_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:338>
 				bool L_24 = ___1_isPending;
 				if (!L_24)
 				{
@@ -22493,7 +21105,6 @@ IL_00a4_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:340>
 				List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_25 = V_0;
 				String_t* L_26 = V_6;
 				String_t* L_27 = V_5;
@@ -22511,7 +21122,6 @@ IL_00a4_1:
 
 IL_00c3_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:344>
 				List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_34 = V_0;
 				String_t* L_35 = V_6;
 				String_t* L_36 = V_5;
@@ -22528,7 +21138,6 @@ IL_00c3_1:
 
 IL_00dd_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:316>
 				bool L_43;
 				L_43 = Enumerator_MoveNext_mBB43E0B46CDCD47543052FDB890026C269E6D96E((&V_1), Enumerator_MoveNext_mBB43E0B46CDCD47543052FDB890026C269E6D96E_RuntimeMethod_var);
 				if (L_43)
@@ -22548,12 +21157,10 @@ IL_00dd_1:
 
 IL_00f9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:348>
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_44 = V_0;
 		return L_44;
 	}
 }
-// Method Definition Index: 89808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AppleStoreImpl_TryGetSubscriptionInfoFromPayload_mD2876ADEE2630ABEB956E53020D3DAB997835B13 (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ___0_purchaseDetails, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22591,14 +21198,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AppleStoreImpl_TryGetSubscript
 	String_t* V_11 = NULL;
 	int32_t G_B9_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:353>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_0 = ___0_purchaseDetails;
 		String_t* L_1;
 		L_1 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_0, _stringLiteral0A05F966C448D0FD18C918766B523D576C657BA9, NULL);
 		int32_t L_2;
 		L_2 = AppleStoreImpl_TryGetProductTypeForTransaction_m353DDDEEAA89DDA365F5B79775B490844D1A72D1(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:354>
 		int32_t L_3 = V_0;
 		if ((((int32_t)L_3) == ((int32_t)3)))
 		{
@@ -22613,20 +21218,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AppleStoreImpl_TryGetSubscript
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:356>
 		return (RuntimeObject*)NULL;
 	}
 
 IL_001b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:359>
 		il2cpp_codegen_initobj((&V_1), sizeof(Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01));
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:360>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_5 = ___0_purchaseDetails;
 		NullCheck(L_5);
 		bool L_6;
 		L_6 = Dictionary_2_TryGetValue_mC14A0401676B34A68B06FC858BA801E7DF99B7D8(L_5, _stringLiteral1DF1D4E531E3A7A780572EFBB9909C178FF19780, (&V_2), Dictionary_2_TryGetValue_mC14A0401676B34A68B06FC858BA801E7DF99B7D8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:361>
 		if (!L_6)
 		{
 			goto IL_0049;
@@ -22642,25 +21243,20 @@ IL_001b:
 	{
 		RuntimeObject* L_8 = V_2;
 		V_3 = ((*(bool*)UnBox(L_8, il2cpp_defaults.boolean_class)));
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:363>
 		bool L_9 = V_3;
 		Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5((&V_1), L_9, Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_RuntimeMethod_var);
 	}
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:366>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_10 = ___0_purchaseDetails;
 		String_t* L_11;
 		L_11 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_10, _stringLiteral2341B8DF7F9AC07901B9D6E37521EEE95CC47D29, NULL);
 		V_4 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:368>
 		V_5 = (-1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:369>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_12 = ___0_purchaseDetails;
 		String_t* L_13;
 		L_13 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_12, _stringLiteralC576958190D7514EDCFA238360736904A8AEAE00, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:370>
 		bool L_14;
 		L_14 = Int32_TryParse_mC928DE2FEC1C35ED5298BDDCA9868076E94B8A21(L_13, (&V_7), NULL);
 		if (L_14)
@@ -22682,7 +21278,6 @@ IL_0070:
 IL_0072:
 	{
 		V_6 = G_B9_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:371>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_16 = { reinterpret_cast<intptr_t> (OfferType_t61C3EA0B92E8DB8414D2166CFB1FFD65882C3323_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_17;
@@ -22699,40 +21294,34 @@ IL_0072:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:373>
 		int32_t L_22 = V_6;
 		V_5 = L_22;
 	}
 
 IL_0090:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:376>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_23 = ___0_purchaseDetails;
 		String_t* L_24;
 		L_24 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_23, _stringLiteral716B5043CC49BDBE1FFD8E31D599806263085305, NULL);
 		Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC L_25;
 		L_25 = AppleStoreImpl_TryGetDateTimeFromSecondsString_mFA290D879E15682172180D7E7FDC69B9FF250D31(L_24, NULL);
 		V_8 = L_25;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:377>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_26 = ___0_purchaseDetails;
 		String_t* L_27;
 		L_27 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_26, _stringLiteral700B0E4A28DED46B6247709F17994B9099E3E3E8, NULL);
 		Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC L_28;
 		L_28 = AppleStoreImpl_TryGetDateTimeFromSecondsString_mFA290D879E15682172180D7E7FDC69B9FF250D31(L_27, NULL);
 		V_9 = L_28;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:378>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_29 = ___0_purchaseDetails;
 		String_t* L_30;
 		L_30 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_29, _stringLiteral8BC03D17512B9F6247AE186F9A298C3CDA6C3899, NULL);
 		Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC L_31;
 		L_31 = AppleStoreImpl_TryGetDateTimeFromSecondsString_mFA290D879E15682172180D7E7FDC69B9FF250D31(L_30, NULL);
 		V_10 = L_31;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:380>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_32 = ___0_purchaseDetails;
 		String_t* L_33;
 		L_33 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_32, _stringLiteralC2BDCB88DD8F3084110FD45659FF936CF82023E3, NULL);
 		V_11 = L_33;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:382>
 		int32_t L_34 = V_5;
 		String_t* L_35 = V_4;
 		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 L_36 = V_1;
@@ -22746,7 +21335,6 @@ IL_0090:
 		return L_42;
 	}
 }
-// Method Definition Index: 89809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC AppleStoreImpl_TryGetDateTimeFromSecondsString_mFA290D879E15682172180D7E7FDC69B9FF250D31 (String_t* ___0_secondsString, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22762,7 +21350,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1
 	Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:387>
 		String_t* L_0 = ___0_secondsString;
 		if (L_0)
 		{
@@ -22770,7 +21357,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:389>
 		il2cpp_codegen_initobj((&V_2), sizeof(Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC));
 		Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC L_1 = V_2;
 		return L_1;
@@ -22778,7 +21364,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1
 
 IL_000d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:392>
 		String_t* L_2 = ___0_secondsString;
 		bool L_3;
 		L_3 = Double_TryParse_m60AD55BC181D70F661BC2A2294E66B5466C3C018(L_2, (&V_0), NULL);
@@ -22788,7 +21373,6 @@ IL_000d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:394>
 		il2cpp_codegen_initobj((&V_2), sizeof(Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC));
 		Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC L_4 = V_2;
 		return L_4;
@@ -22796,10 +21380,8 @@ IL_000d:
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:397>
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime__ctor_mD89390EF215242275A4E8F78C2C3E8BC3EF6F3C3((&V_1), ((int32_t)1970), 1, 1, 0, 0, 0, 1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:398>
 		double L_5 = V_0;
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_6;
 		L_6 = DateTime_AddSeconds_mC5FE3FB22A1295CA747746ECE48B9D4A4B6B2E81((&V_1), L_5, NULL);
@@ -22809,7 +21391,6 @@ IL_0021:
 		return L_7;
 	}
 }
-// Method Definition Index: 89810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppleStoreImpl_TryGetProductTypeForTransaction_m353DDDEEAA89DDA365F5B79775B490844D1A72D1 (String_t* ___0_productTypeString, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22823,14 +21404,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppleStoreImpl_TryGetProductTypeForTr
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:403>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:404>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:405>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:406>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:407>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:408>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:409>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:410>
 		String_t* L_0 = ___0_productTypeString;
 		bool L_1;
 		L_1 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_0, _stringLiteral3CFFF5BCD050840BEA8E31AAC954BE9DBCC32DF6, NULL);
@@ -22872,35 +21445,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppleStoreImpl_TryGetProductTypeForTr
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:405>
 		V_0 = 1;
 		goto IL_0048;
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:406>
 		V_0 = 0;
 		goto IL_0048;
 	}
 
 IL_003e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:407>
 		V_0 = 2;
 		goto IL_0048;
 	}
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:408>
 		V_0 = 3;
 		goto IL_0048;
 	}
 
 IL_0046:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:409>
 		V_0 = (-1);
 	}
 
@@ -22910,7 +21478,6 @@ IL_0048:
 		return L_8;
 	}
 }
-// Method Definition Index: 89811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppleStoreImpl_OwnershipTypeFromString_m6165233F06771342C1D13C90275DC3F0B23C8F6E (String_t* ___0_ownershipTypeString, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22922,12 +21489,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppleStoreImpl_OwnershipTypeFromStrin
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:415>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:416>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:417>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:418>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:419>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:420>
 		String_t* L_0 = ___0_ownershipTypeString;
 		bool L_1;
 		L_1 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_0, _stringLiteral6DAB35E4EA4BBD5AF1473155FA1288D974D1DAD9, NULL);
@@ -22951,21 +21512,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppleStoreImpl_OwnershipTypeFromStrin
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:417>
 		V_0 = 0;
 		goto IL_0026;
 	}
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:418>
 		V_0 = 1;
 		goto IL_0026;
 	}
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:419>
 		V_0 = (-1);
 	}
 
@@ -22975,13 +21533,11 @@ IL_0026:
 		return L_4;
 	}
 }
-// Method Definition Index: 89812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnTransactionsRestoredSuccess_m632DC0B39774700CC117764CC2DD22761FC868C7 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, const RuntimeMethod* method) 
 {
 	Action_2_t8EADE87044ADE97906736D729EA2E3EF97F34F3D* G_B2_0 = NULL;
 	Action_2_t8EADE87044ADE97906736D729EA2E3EF97F34F3D* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:425>
 		Action_2_t8EADE87044ADE97906736D729EA2E3EF97F34F3D* L_0 = __this->___m_RestoreCallback;
 		Action_2_t8EADE87044ADE97906736D729EA2E3EF97F34F3D* L_1 = L_0;
 		if (L_1)
@@ -22999,17 +21555,14 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		Action_2_Invoke_mEBF6CAF1B381E482329CEE02CB25A980B145CB3E_inline(G_B2_0, (bool)1, (String_t*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:426>
 		return;
 	}
 }
-// Method Definition Index: 89813
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnTransactionsRestoredFail_m57DA15331B50D9BB44ED6AC5F38E9718C5CF7CC0 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_error, const RuntimeMethod* method) 
 {
 	Action_2_t8EADE87044ADE97906736D729EA2E3EF97F34F3D* G_B2_0 = NULL;
 	Action_2_t8EADE87044ADE97906736D729EA2E3EF97F34F3D* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:430>
 		Action_2_t8EADE87044ADE97906736D729EA2E3EF97F34F3D* L_0 = __this->___m_RestoreCallback;
 		Action_2_t8EADE87044ADE97906736D729EA2E3EF97F34F3D* L_1 = L_0;
 		if (L_1)
@@ -23028,11 +21581,9 @@ IL_000b:
 		String_t* L_2 = ___0_error;
 		NullCheck(G_B2_0);
 		Action_2_Invoke_mEBF6CAF1B381E482329CEE02CB25A980B145CB3E_inline(G_B2_0, (bool)0, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:431>
 		return;
 	}
 }
-// Method Definition Index: 89814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnEntitlementRevoked_mCBB565E49906860A4245835B38C998BB6C35AC3C (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_purchaseDetailsJson, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23043,22 +21594,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnEntitlementRevoked_mCBB
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:435>
 		String_t* L_0 = ___0_purchaseDetailsJson;
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_1;
 		L_1 = JSONSerializer_DeserializePurchaseDetails_mDFB2E0192D58AAF06EBD04A0999F99A6691FE02A(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:436>
 		String_t* L_2;
 		L_2 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_1, _stringLiteral269B276065AA2FD25E2FC1E4ED6E8FBDFB83D44D, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:438>
 		String_t* L_3 = V_0;
 		AppleStoreImpl_RevokeEntitlement_mD4544F48A55C359093EE2E4734892194B27C623F(__this, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:439>
 		return;
 	}
 }
-// Method Definition Index: 89815
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_RevokeEntitlement_mD4544F48A55C359093EE2E4734892194B27C623F (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_productId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23070,7 +21616,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_RevokeEntitlement_mD4544F
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:443>
 		RuntimeObject* L_0 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___EntitlementRevokedCallback;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -23089,11 +21634,9 @@ IL_000b:
 		String_t* L_2 = ___0_productId;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< String_t* >::Invoke(0, IOnEntitlementRevokedCallback_t67655B4E82465A8F66190AEFEF5C704783938207_il2cpp_TypeInfo_var, G_B2_0, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:444>
 		return;
 	}
 }
-// Method Definition Index: 89816
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnFetchStorePromotionOrderSucceeded_m8D878F40D8D4F0BAF134298528912B0D62331D1A (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_productIds, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23116,7 +21659,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnFetchStorePromotionOrde
 	RuntimeObject* V_3 = NULL;
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* V_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:448>
 		Action_1_t39A998EC27FE5D8CEAC2D6D914EFB0C5A8263A74* L_0 = __this->___m_FetchStorePromotionOrderSuccess;
 		if (!L_0)
 		{
@@ -23124,16 +21666,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnFetchStorePromotionOrde
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:450>
 		String_t* L_1 = ___0_productIds;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_2;
 		L_2 = MiniJsonExtensions_ArrayListFromJson_m3D4E8672DBBBDCC0FF667CFC6F8C81EBD2EAA08A(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:451>
 		List_1_t2801F698EAD8786A7B70E25C1DAD1A8801E530C5* L_3 = (List_1_t2801F698EAD8786A7B70E25C1DAD1A8801E530C5*)il2cpp_codegen_object_new(List_1_t2801F698EAD8786A7B70E25C1DAD1A8801E530C5_il2cpp_TypeInfo_var);
 		List_1__ctor_m6FC6B58DF27F4A96DD5891B8134E25A9E9891EDC(L_3, List_1__ctor_m6FC6B58DF27F4A96DD5891B8134E25A9E9891EDC_RuntimeMethod_var);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:453>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_4 = V_0;
 		if (!L_4)
 		{
@@ -23141,7 +21680,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnFetchStorePromotionOrde
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:455>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_5 = V_0;
 		NullCheck(L_5);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_6;
@@ -23166,18 +21704,15 @@ FINALLY_004f:
 
 IL_0021_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:455>
 				RuntimeObject* L_7;
 				L_7 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_2), Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_RuntimeMethod_var);
 				V_3 = L_7;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:457>
 				RuntimeObject* L_8 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___ProductCache;
 				RuntimeObject* L_9 = V_3;
 				NullCheck(L_8);
 				Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_10;
 				L_10 = InterfaceFuncInvoker1< Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76*, String_t* >::Invoke(2, IReadOnlyProductCache_tA2F8C14B33C953CB472AC88447E2809831BAE499_il2cpp_TypeInfo_var, L_8, ((String_t*)IsInstSealed((RuntimeObject*)L_9, il2cpp_defaults.string_class)));
 				V_4 = L_10;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:459>
 				List_1_t2801F698EAD8786A7B70E25C1DAD1A8801E530C5* L_11 = V_1;
 				Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_12 = V_4;
 				NullCheck(L_11);
@@ -23186,7 +21721,6 @@ IL_0021_1:
 
 IL_0044_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:455>
 				bool L_13;
 				L_13 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_2), Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_RuntimeMethod_var);
 				if (L_13)
@@ -23206,7 +21740,6 @@ IL_0044_1:
 
 IL_005d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:463>
 		Action_1_t39A998EC27FE5D8CEAC2D6D914EFB0C5A8263A74* L_14 = __this->___m_FetchStorePromotionOrderSuccess;
 		List_1_t2801F698EAD8786A7B70E25C1DAD1A8801E530C5* L_15 = V_1;
 		NullCheck(L_14);
@@ -23215,17 +21748,14 @@ IL_005d:
 
 IL_0069:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:465>
 		return;
 	}
 }
-// Method Definition Index: 89817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnFetchStorePromotionOrderFailed_mF541ABD4FAEF5A7A8FE11D7E643F2FB04221AC81 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_error, const RuntimeMethod* method) 
 {
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B2_0 = NULL;
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:469>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = __this->___m_FetchStorePromotionOrderError;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = L_0;
 		if (L_1)
@@ -23244,11 +21774,9 @@ IL_000b:
 		String_t* L_2 = ___0_error;
 		NullCheck(G_B2_0);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(G_B2_0, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:470>
 		return;
 	}
 }
-// Method Definition Index: 89818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnFetchStorePromotionVisibilitySucceeded_m71C074DC4B5FB02EDEB9E0D4B3798ECE1193D8B0 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23295,7 +21823,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnFetchStorePromotionVisi
 	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* G_B14_0 = NULL;
 	String_t* G_B16_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:474>
 		Action_2_t557C07266DE68D7A1708D82DB27944851C0718F7* L_0 = __this->___m_FetchStorePromotionVisibilitySuccess;
 		if (!L_0)
 		{
@@ -23303,9 +21830,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnFetchStorePromotionVisi
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:476>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:477>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:478>
 		String_t* L_1 = ___0_result;
 		RuntimeObject* L_2;
 		L_2 = Json_Deserialize_m411353A0E69459E17D90724CE6AD7AFB3E5104BA(L_1, NULL);
@@ -23386,7 +21910,6 @@ IL_005b:
 
 IL_0060:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:480>
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_15 = G_B8_0;
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_16 = L_15;
 		if (L_16)
@@ -23434,7 +21957,6 @@ IL_0072:
 IL_007b:
 	{
 		V_0 = G_B13_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:481>
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_20 = G_B13_1;
 		if (L_20)
 		{
@@ -23458,11 +21980,9 @@ IL_0083:
 
 IL_008d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:482>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.enum_class);
 		bool L_22;
 		L_22 = Enum_TryParse_TisAppleStorePromotionVisibility_tC4FE1A02E901A27ABA8B9EFEB09D22D49E8EAB6E_m70C9F0704E64E25A543A2606D9B28D33F85AF28B(G_B16_0, (&V_1), Enum_TryParse_TisAppleStorePromotionVisibility_tC4FE1A02E901A27ABA8B9EFEB09D22D49E8EAB6E_m70C9F0704E64E25A543A2606D9B28D33F85AF28B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:483>
 		Action_2_t557C07266DE68D7A1708D82DB27944851C0718F7* L_23 = __this->___m_FetchStorePromotionVisibilitySuccess;
 		String_t* L_24 = V_0;
 		int32_t L_25 = V_1;
@@ -23472,17 +21992,14 @@ IL_008d:
 
 IL_00a2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:485>
 		return;
 	}
 }
-// Method Definition Index: 89819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnFetchStorePromotionVisibilityFailed_mAE263BB8EABB2AF01ECE64BABEC179EC373D96A2 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_error, const RuntimeMethod* method) 
 {
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B2_0 = NULL;
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:489>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = __this->___m_FetchStorePromotionVisibilityError;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = L_0;
 		if (L_1)
@@ -23501,11 +22018,9 @@ IL_000b:
 		String_t* L_2 = ___0_error;
 		NullCheck(G_B2_0);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(G_B2_0, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:490>
 		return;
 	}
 }
-// Method Definition Index: 89820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_MessageCallback_mCFEEF3D94AE82B4C92430B1BC2DB7957FACA7375 (intptr_t ___0_subjectPtr, intptr_t ___1_payloadPtr, int32_t ___2_entitlementStatus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23537,10 +22052,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_MessageCallback_mCFEEF3D9
 		int32_t L_6 = ___2_entitlementStatus;
 		NullCheck(L_5);
 		L_5->___entitlementStatus = L_6;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:495>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:496>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:497>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:498>
 		RuntimeObject* L_7 = ((AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_StaticFields*)il2cpp_codegen_static_fields_for(AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_il2cpp_TypeInfo_var))->___s_Util;
 		RuntimeObject* L_8 = L_7;
 		if (L_8)
@@ -23561,11 +22072,9 @@ IL_0025:
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_10, L_9, (intptr_t)((void*)U3CU3Ec__DisplayClass60_0_U3CMessageCallbackU3Eb__0_mE911426B3448321DFCC6E8F2AB7335993E7A9179_RuntimeMethod_var), NULL);
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* >::Invoke(22, IUtil_t7909908832446A01C893925BD0795F01D065F23E_il2cpp_TypeInfo_var, G_B2_0, L_10);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:499>
 		return;
 	}
 }
-// Method Definition Index: 89821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ProcessCallbackMessage_m4DB30645F9DDB5560DD610701519FC79335864D0 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, intptr_t ___0_subjectPtr, intptr_t ___1_payloadPtr, int32_t ___2_entitlementStatus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23595,12 +22104,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ProcessCallbackMessage_m4
 	String_t* V_1 = NULL;
 	uint32_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:503>
 		intptr_t L_0 = ___0_subjectPtr;
 		String_t* L_1;
 		L_1 = AppleStoreImpl_ConvertPtrToString_m323307460422525572F4A73D8EACAAC1360C484E(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:504>
 		intptr_t L_2 = ___1_payloadPtr;
 		String_t* L_3;
 		L_3 = AppleStoreImpl_ConvertPtrToString_m323307460422525572F4A73D8EACAAC1360C484E(__this, L_2, NULL);
@@ -24055,162 +22562,127 @@ IL_0216:
 
 IL_0227:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:509>
 		RuntimeObject* L_64 = __this->___m_FetchProductsService;
 		String_t* L_65 = V_1;
 		NullCheck(L_64);
 		InterfaceActionInvoker1< String_t* >::Invoke(2, IAppleFetchProductsService_tB32DAEE6718E9DCE2082D08F5DFE9C13EA9C09CC_il2cpp_TypeInfo_var, L_64, L_65);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:510>
 		return;
 	}
 
 IL_0234:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:512>
 		RuntimeObject* L_66 = __this->___m_FetchProductsService;
 		String_t* L_67 = V_1;
 		NullCheck(L_66);
 		InterfaceActionInvoker1< String_t* >::Invoke(3, IAppleFetchProductsService_tB32DAEE6718E9DCE2082D08F5DFE9C13EA9C09CC_il2cpp_TypeInfo_var, L_66, L_67);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:513>
 		return;
 	}
 
 IL_0241:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:515>
 		String_t* L_68 = V_1;
 		AppleStoreImpl_OnPurchaseSucceeded_m4B8FC08664EFECF2F4A52AAC9C56B7CB572337E8(__this, L_68, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:516>
 		return;
 	}
 
 IL_0249:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:518>
 		String_t* L_69 = V_1;
 		JsonStore_OnPurchaseFailed_m0C825FF700780EF12B9F9739D0CB0778FD796CCC(__this, L_69, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:519>
 		return;
 	}
 
 IL_0251:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:521>
 		String_t* L_70 = V_1;
 		VirtualActionInvoker1< String_t* >::Invoke(41, __this, L_70);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:522>
 		return;
 	}
 
 IL_0259:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:524>
 		String_t* L_71 = V_1;
 		VirtualActionInvoker1< String_t* >::Invoke(46, __this, L_71);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:525>
 		return;
 	}
 
 IL_0261:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:527>
 		String_t* L_72 = V_1;
 		AppleStoreImpl_OnPromotionalPurchaseAttempted_mF651C7CB9A0E761DC987C0CDAFB1E62F248CB8A8(__this, L_72, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:528>
 		return;
 	}
 
 IL_0269:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:530>
 		String_t* L_73 = V_1;
 		AppleStoreImpl_OnFetchStorePromotionOrderSucceeded_m8D878F40D8D4F0BAF134298528912B0D62331D1A(__this, L_73, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:531>
 		return;
 	}
 
 IL_0271:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:533>
 		String_t* L_74 = V_1;
 		AppleStoreImpl_OnFetchStorePromotionOrderFailed_mF541ABD4FAEF5A7A8FE11D7E643F2FB04221AC81(__this, L_74, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:534>
 		return;
 	}
 
 IL_0279:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:536>
 		String_t* L_75 = V_1;
 		AppleStoreImpl_OnFetchStorePromotionVisibilitySucceeded_m71C074DC4B5FB02EDEB9E0D4B3798ECE1193D8B0(__this, L_75, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:537>
 		return;
 	}
 
 IL_0281:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:539>
 		String_t* L_76 = V_1;
 		AppleStoreImpl_OnFetchStorePromotionVisibilityFailed_mAE263BB8EABB2AF01ECE64BABEC179EC373D96A2(__this, L_76, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:540>
 		return;
 	}
 
 IL_0289:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:542>
 		AppleStoreImpl_OnTransactionsRestoredSuccess_m632DC0B39774700CC117764CC2DD22761FC868C7(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:543>
 		return;
 	}
 
 IL_0290:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:545>
 		String_t* L_77 = V_1;
 		AppleStoreImpl_OnTransactionsRestoredFail_m57DA15331B50D9BB44ED6AC5F38E9718C5CF7CC0(__this, L_77, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:546>
 		return;
 	}
 
 IL_0298:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:548>
 		String_t* L_78 = V_1;
 		AppleStoreImpl_OnEntitlementRevoked_mCBB565E49906860A4245835B38C998BB6C35AC3C(__this, L_78, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:549>
 		return;
 	}
 
 IL_02a0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:551>
 		String_t* L_79 = V_1;
 		int32_t L_80 = ___2_entitlementStatus;
 		AppleStoreImpl_OnCheckEntitlement_mFF0E99E0DBB2419A958625EDC2FF7359D68F7374(__this, L_79, L_80, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:552>
 		return;
 	}
 
 IL_02a9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:555>
 		String_t* L_81 = V_1;
 		AppleStoreImpl_OnAppReceiptRetrieved_m4C7C78977B859BD2D80346882EA82ECB11D04D1C(__this, L_81, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:556>
 		return;
 	}
 
 IL_02b1:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:559>
 		String_t* L_82 = V_1;
 		AppleStoreImpl_OnAppReceiptRefreshedFailed_mAA72DB8A5DFF580BA06E243CBB15AEACCAB8FC22(__this, L_82, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:567>
 		return;
 	}
 }
-// Method Definition Index: 89822
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleStoreImpl_ConvertPtrToString_m323307460422525572F4A73D8EACAAC1360C484E (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, intptr_t ___0_subjectPtr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24227,9 +22699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleStoreImpl_ConvertPtrToString_m
 	RuntimeObject* G_B5_0 = NULL;
 	RuntimeObject* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:571>
 		V_0 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:572>
 		intptr_t L_0 = ___0_subjectPtr;
 		bool L_1;
 		L_1 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_0, 0, NULL);
@@ -24239,7 +22709,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleStoreImpl_ConvertPtrToString_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:574>
 		intptr_t L_2 = ___0_subjectPtr;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		String_t* L_3;
@@ -24260,7 +22729,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppleStoreImpl_ConvertPtrToString_m
 IL_0022:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:577>
 		RuntimeObject* L_6 = __this->___m_Native;
 		RuntimeObject* L_7 = L_6;
 		if (L_7)
@@ -24283,39 +22751,30 @@ IL_002f:
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:580>
 		String_t* L_9 = V_0;
 		return L_9;
 	}
 }
-// Method Definition Index: 89823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_SetRefreshAppReceiptCallbacks_m6D19D869509B80773FF962A90EE9C2EF161BA723 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___0_successCallback, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___1_errorCallback, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:586>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = ___0_successCallback;
 		__this->___m_RefreshAppReceiptSuccessCallback = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RefreshAppReceiptSuccessCallback), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:587>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = ___1_errorCallback;
 		__this->___m_RefreshAppReceiptErrorCallback = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RefreshAppReceiptErrorCallback), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:588>
 		return;
 	}
 }
-// Method Definition Index: 89824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_SetRefreshAppReceipt_mB0AECD82BFFDFDFE78DD75E4120ADAC17122820E (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, bool ___0_refreshAppReceipt, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:593>
 		bool L_0 = ___0_refreshAppReceipt;
 		__this->___m_RefreshAppReceipt = L_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:594>
 		return;
 	}
 }
-// Method Definition Index: 89825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnAppReceiptRetrieved_m4C7C78977B859BD2D80346882EA82ECB11D04D1C (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_receipt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24329,11 +22788,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnAppReceiptRetrieved_m4C
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B5_0 = NULL;
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:599>
 		String_t* L_0 = ___0_receipt;
 		__this->___appReceipt = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___appReceipt), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:600>
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_1 = __this->___m_RefreshAppReceiptTask;
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_2 = L_1;
 		if (L_2)
@@ -24356,7 +22813,6 @@ IL_0013:
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:601>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_4 = __this->___m_RefreshAppReceiptSuccessCallback;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_5 = L_4;
 		if (L_5)
@@ -24375,11 +22831,9 @@ IL_0025:
 		String_t* L_6 = ___0_receipt;
 		NullCheck(G_B5_0);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(G_B5_0, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:602>
 		return;
 	}
 }
-// Method Definition Index: 89826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnAppReceiptRefreshedFailed_mAA72DB8A5DFF580BA06E243CBB15AEACCAB8FC22 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24393,7 +22847,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnAppReceiptRefreshedFail
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B5_0 = NULL;
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:607>
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_0 = __this->___m_RefreshAppReceiptTask;
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_1 = L_0;
 		if (L_1)
@@ -24416,7 +22869,6 @@ IL_000c:
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:608>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_3 = __this->___m_RefreshAppReceiptErrorCallback;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_4 = L_3;
 		if (L_4)
@@ -24435,11 +22887,9 @@ IL_001e:
 		String_t* L_5 = ___0_error;
 		NullCheck(G_B5_0);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(G_B5_0, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:609>
 		return;
 	}
 }
-// Method Definition Index: 89827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_CheckEntitlement_m21D01B9EB7E4D25856A3C19BA3F650C006A01B00 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_productDefinition, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24500,7 +22950,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_CheckEntitlement_m21D01B9
 		NullCheck(L_1);
 		L_1->___productDefinition = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___productDefinition), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:646>
 		il2cpp_codegen_runtime_class_init_inline(StoreKitSelector_t023F51AD15CD5DF94B40BF3D702A94C600A65012_il2cpp_TypeInfo_var);
 		bool L_3;
 		L_3 = StoreKitSelector_UseStoreKit1_mA84434742170AB872EFD3BAF1EB03703AE001CDF(NULL);
@@ -24510,9 +22959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_CheckEntitlement_m21D01B9
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:648>
 		V_1 = 0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:649>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		int32_t L_4;
 		L_4 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
@@ -24533,14 +22980,12 @@ IL_0028:
 
 IL_002d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:650>
 		RuntimeObject* L_5;
 		L_5 = UnityIAPServices_Purchase_mFE2F14BFE50DA96A0CDC1C5D55DAEBD508AB8070(G_B4_0, NULL);
 		NullCheck(L_5);
 		ReadOnlyObservableCollection_1_t09916B7A0FC0410428D732A0A2C4F3FE1C76F704* L_6;
 		L_6 = InterfaceFuncInvoker0< ReadOnlyObservableCollection_1_t09916B7A0FC0410428D732A0A2C4F3FE1C76F704* >::Invoke(8, IPurchaseService_t90AFB4B315013396442830754FCF0258C6073A43_il2cpp_TypeInfo_var, L_5);
 		V_2 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:651>
 		U3CU3Ec__DisplayClass67_0_t5C0CD6BAEDF5B6A81539CC44453CD1A1BBF70306* L_7 = V_0;
 		NullCheck(L_7);
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_8 = L_7->___productDefinition;
@@ -24571,7 +23016,6 @@ IL_002d:
 
 IL_005b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:655>
 		ReadOnlyObservableCollection_1_t09916B7A0FC0410428D732A0A2C4F3FE1C76F704* L_11 = V_2;
 		NullCheck(L_11);
 		RuntimeObject* L_12;
@@ -24611,13 +23055,11 @@ IL_00e0:
 
 IL_0065_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:655>
 				RuntimeObject* L_15 = V_4;
 				NullCheck(L_15);
 				Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_16;
 				L_16 = InterfaceFuncInvoker0< Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* >::Invoke(0, IEnumerator_1_tFD0D0803A181170868F6E613A0C34AD42F9225B1_il2cpp_TypeInfo_var, L_15);
 				V_5 = L_16;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:657>
 				Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_17 = V_5;
 				NullCheck(L_17);
 				RuntimeObject* L_18;
@@ -24670,7 +23112,6 @@ IL_0095_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:659>
 				Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_29 = V_5;
 				if (!((PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1*)IsInstClass((RuntimeObject*)L_29, PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1_il2cpp_TypeInfo_var)))
 				{
@@ -24678,14 +23119,12 @@ IL_0095_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:660>
 				V_1 = 2;
 				goto IL_01e7;
 			}
 
 IL_00b7_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:661>
 				Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_30 = V_5;
 				if (!((ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6*)IsInstClass((RuntimeObject*)L_30, ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6_il2cpp_TypeInfo_var)))
 				{
@@ -24693,15 +23132,12 @@ IL_00b7_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:662>
 				V_1 = 1;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:663>
 				goto IL_01e7;
 			}
 
 IL_00c7_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:655>
 				RuntimeObject* L_31 = V_4;
 				NullCheck(L_31);
 				bool L_32;
@@ -24725,7 +23161,6 @@ IL_00d0_1:
 
 IL_00e1:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:671>
 		ReadOnlyObservableCollection_1_t09916B7A0FC0410428D732A0A2C4F3FE1C76F704* L_33 = V_2;
 		NullCheck(L_33);
 		RuntimeObject* L_34;
@@ -24765,13 +23200,11 @@ IL_01cd:
 
 IL_00ee_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:671>
 				RuntimeObject* L_37 = V_4;
 				NullCheck(L_37);
 				Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_38;
 				L_38 = InterfaceFuncInvoker0< Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* >::Invoke(0, IEnumerator_1_tFD0D0803A181170868F6E613A0C34AD42F9225B1_il2cpp_TypeInfo_var, L_37);
 				V_6 = L_38;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:673>
 				Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_39 = V_6;
 				NullCheck(L_39);
 				RuntimeObject* L_40;
@@ -24824,7 +23257,6 @@ IL_011e_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:676>
 				Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_51 = V_6;
 				NullCheck(L_51);
 				RuntimeObject* L_52;
@@ -24855,11 +23287,9 @@ FINALLY_01a6_1:
 
 IL_0148_2:
 					{
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:676>
 						RuntimeObject* L_55;
 						L_55 = Enumerator_get_Current_mE9F05A1B8DFBED5806617097635CD89EC32B6F7F_inline((&V_7), Enumerator_get_Current_mE9F05A1B8DFBED5806617097635CD89EC32B6F7F_RuntimeMethod_var);
 						V_8 = L_55;
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:678>
 						RuntimeObject* L_56 = V_8;
 						NullCheck(L_56);
 						String_t* L_57;
@@ -24878,7 +23308,6 @@ IL_0148_2:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:681>
 						RuntimeObject* L_62 = V_8;
 						NullCheck(L_62);
 						SubscriptionInfo_tBBC3E8F5C9B34C4C3AA2253CC51AC64029C7FC75* L_63;
@@ -24902,7 +23331,6 @@ IL_0148_2:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:683>
 						Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_67 = V_6;
 						if (!((PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1*)IsInstClass((RuntimeObject*)L_67, PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1_il2cpp_TypeInfo_var)))
 						{
@@ -24910,14 +23338,12 @@ IL_0148_2:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:684>
 						V_1 = 2;
 						goto IL_01b4_1;
 					}
 
 IL_018e_2:
 					{
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:685>
 						Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_68 = V_6;
 						if (!((ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6*)IsInstClass((RuntimeObject*)L_68, ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6_il2cpp_TypeInfo_var)))
 						{
@@ -24925,15 +23351,12 @@ IL_018e_2:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:686>
 						V_1 = 1;
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:687>
 						goto IL_01b4_1;
 					}
 
 IL_019b_2:
 					{
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:676>
 						bool L_69;
 						L_69 = Enumerator_MoveNext_m4FB52B3630A52BFD575770780424515BCD3224F0((&V_7), Enumerator_MoveNext_m4FB52B3630A52BFD575770780424515BCD3224F0_RuntimeMethod_var);
 						if (L_69)
@@ -24955,7 +23378,6 @@ IL_01a4_2:
 
 IL_01b4_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:671>
 				RuntimeObject* L_70 = V_4;
 				NullCheck(L_70);
 				bool L_71;
@@ -24977,14 +23399,12 @@ IL_01b4_1:
 
 IL_01ce:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:696>
 		ReadOnlyObservableCollection_1_t09916B7A0FC0410428D732A0A2C4F3FE1C76F704* L_72 = V_2;
 		U3CU3Ec__DisplayClass67_0_t5C0CD6BAEDF5B6A81539CC44453CD1A1BBF70306* L_73 = V_0;
 		Func_2_tB2BD8E1AB7D75597DC450386B3678F0463F57B1F* L_74 = (Func_2_tB2BD8E1AB7D75597DC450386B3678F0463F57B1F*)il2cpp_codegen_object_new(Func_2_tB2BD8E1AB7D75597DC450386B3678F0463F57B1F_il2cpp_TypeInfo_var);
 		Func_2__ctor_m8FF0E3641360AC5038B5B9F3372C851E16F146E6(L_74, L_73, (intptr_t)((void*)U3CU3Ec__DisplayClass67_0_U3CCheckEntitlementU3Eb__0_m237C239BD2D4D4A8DBEA31D9F03928778BFA136F_RuntimeMethod_var), NULL);
 		bool L_75;
 		L_75 = Enumerable_Any_TisOrder_tD1825298A09BBF359EC2F7B272C72E11C0508A4F_mDE4488DD755211D879BC519E385FD238DDAF211B(L_72, L_74, Enumerable_Any_TisOrder_tD1825298A09BBF359EC2F7B272C72E11C0508A4F_mDE4488DD755211D879BC519E385FD238DDAF211B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:697>
 		if (L_75)
 		{
 			goto IL_01e5;
@@ -25007,7 +23427,6 @@ IL_01e6:
 
 IL_01e7:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:702>
 		U3CU3Ec__DisplayClass67_0_t5C0CD6BAEDF5B6A81539CC44453CD1A1BBF70306* L_76 = V_0;
 		NullCheck(L_76);
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_77 = L_76->___productDefinition;
@@ -25016,13 +23435,11 @@ IL_01e7:
 		L_78 = ProductDefinition_get_storeSpecificId_m67EC5C2564476BD154C8164613AB62A4DBEADEAC_inline(L_77, NULL);
 		int32_t L_79 = V_1;
 		AppleStoreImpl_OnCheckEntitlement_mFF0E99E0DBB2419A958625EDC2FF7359D68F7374(__this, L_78, L_79, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:703>
 		return;
 	}
 
 IL_01fa:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:705>
 		RuntimeObject* L_80 = __this->___m_Native;
 		RuntimeObject* L_81 = L_80;
 		if (L_81)
@@ -25047,11 +23464,9 @@ IL_0205:
 		NullCheck(G_B51_0);
 		bool L_85;
 		L_85 = InterfaceFuncInvoker1< bool, String_t* >::Invoke(5, INativeStore_tC55554341D4FD7B2B305620B8F69626D8CB59628_il2cpp_TypeInfo_var, G_B51_0, L_84);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:706>
 		return;
 	}
 }
-// Method Definition Index: 89828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnCheckEntitlement_mFF0E99E0DBB2419A958625EDC2FF7359D68F7374 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_productId, int32_t ___1_entitlementStatus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25077,14 +23492,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnCheckEntitlement_mFF0E9
 	RuntimeObject* G_B15_0 = NULL;
 	RuntimeObject* G_B14_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:710>
 		RuntimeObject* L_0 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___ProductCache;
 		String_t* L_1 = ___0_productId;
 		NullCheck(L_0);
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_2;
 		L_2 = InterfaceFuncInvoker1< Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76*, String_t* >::Invoke(2, IReadOnlyProductCache_tA2F8C14B33C953CB472AC88447E2809831BAE499_il2cpp_TypeInfo_var, L_0, L_1);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:711>
 		int32_t L_3 = ___1_entitlementStatus;
 		if (!L_3)
 		{
@@ -25092,7 +23505,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnCheckEntitlement_mFF0E9
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:713>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_4 = V_0;
 		NullCheck(L_4);
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_5;
@@ -25120,7 +23532,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnCheckEntitlement_mFF0E9
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:716>
 		RuntimeObject* L_9 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___EntitlementCallback;
 		RuntimeObject* L_10 = L_9;
 		if (L_10)
@@ -25142,13 +23553,11 @@ IL_0032:
 		L_12 = Product_get_definition_m0B1DCF704219DD58B62DC2718C64D33DD690F92B_inline(L_11, NULL);
 		NullCheck(G_B6_0);
 		InterfaceActionInvoker3< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, int32_t, String_t* >::Invoke(0, IStoreCheckEntitlementCallback_t2379555B5C96803542B88A754FA30E1E83EF1289_il2cpp_TypeInfo_var, G_B6_0, L_12, 2, (String_t*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:717>
 		return;
 	}
 
 IL_0040:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:720>
 		RuntimeObject* L_13 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___EntitlementCallback;
 		RuntimeObject* L_14 = L_13;
 		if (L_14)
@@ -25196,13 +23605,11 @@ IL_0059:
 	{
 		NullCheck(G_B12_2);
 		InterfaceActionInvoker3< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, int32_t, String_t* >::Invoke(0, IStoreCheckEntitlementCallback_t2379555B5C96803542B88A754FA30E1E83EF1289_il2cpp_TypeInfo_var, G_B12_2, G_B12_1, G_B12_0, (String_t*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:721>
 		return;
 	}
 
 IL_0060:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:725>
 		RuntimeObject* L_18 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___EntitlementCallback;
 		RuntimeObject* L_19 = L_18;
 		if (L_19)
@@ -25224,11 +23631,9 @@ IL_006b:
 		L_21 = Product_get_definition_m0B1DCF704219DD58B62DC2718C64D33DD690F92B_inline(L_20, NULL);
 		NullCheck(G_B15_0);
 		InterfaceActionInvoker3< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, int32_t, String_t* >::Invoke(0, IStoreCheckEntitlementCallback_t2379555B5C96803542B88A754FA30E1E83EF1289_il2cpp_TypeInfo_var, G_B15_0, L_21, 1, (String_t*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:726>
 		return;
 	}
 }
-// Method Definition Index: 89829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseSucceeded_m4B8FC08664EFECF2F4A52AAC9C56B7CB572337E8 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_purchaseDetailsJson, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25264,7 +23669,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseSucceeded_m4B8F
 		return;
 	}
 }
-// Method Definition Index: 89830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* AppleStoreImpl_RefreshAppReceiptAsync_m337D003E8CD42B1D75209B33F50CF17FE6ACE597 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25279,7 +23683,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6
 	RuntimeObject* G_B4_0 = NULL;
 	RuntimeObject* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:778>
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_0 = __this->___m_RefreshAppReceiptTask;
 		if (!L_0)
 		{
@@ -25287,7 +23690,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:780>
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_1 = __this->___m_RefreshAppReceiptTask;
 		NullCheck(L_1);
 		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_2;
@@ -25297,12 +23699,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:783>
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_3 = (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14*)il2cpp_codegen_object_new(TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14_il2cpp_TypeInfo_var);
 		TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646(L_3, TaskCompletionSource_1__ctor_mBAB8D6EFEAD1AA6482D19D7CE639528BE66AF646_RuntimeMethod_var);
 		__this->___m_RefreshAppReceiptTask = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RefreshAppReceiptTask), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:785>
 		RuntimeObject* L_4 = __this->___m_Native;
 		RuntimeObject* L_5 = L_4;
 		if (L_5)
@@ -25324,7 +23724,6 @@ IL_002b:
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:787>
 		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_6 = __this->___m_RefreshAppReceiptTask;
 		NullCheck(L_6);
 		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_7;
@@ -25332,7 +23731,6 @@ IL_0030:
 		return L_7;
 	}
 }
-// Method Definition Index: 89831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ProcessValidPurchase_m4B3C73D37A7A7E701FD978C8CCAE00FC1748E0C0 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_id, String_t* ___1_transactionId, String_t* ___2_originalTransactionId, String_t* ___3_expirationDate, int32_t ___4_ownershipType, Nullable_1_t0ECB838EB0C9A81655750B26970F21CF9A83A5F7 ___5_appAccountToken, String_t* ___6_signatureJws, RuntimeObject* ___7_subscriptionInfo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25342,7 +23740,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ProcessValidPurchase_m4B3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:792>
 		RuntimeObject* L_0 = __this->___m_TransactionLog;
 		String_t* L_1 = ___1_transactionId;
 		NullCheck(L_0);
@@ -25354,7 +23751,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ProcessValidPurchase_m4B3
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:794>
 		String_t* L_3 = ___0_id;
 		String_t* L_4 = ___1_transactionId;
 		String_t* L_5 = ___2_originalTransactionId;
@@ -25369,7 +23765,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ProcessValidPurchase_m4B3
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:798>
 		String_t* L_11 = ___0_id;
 		String_t* L_12 = ___1_transactionId;
 		String_t* L_13 = ___2_originalTransactionId;
@@ -25379,11 +23774,9 @@ IL_0022:
 		String_t* L_17 = ___6_signatureJws;
 		RuntimeObject* L_18 = ___7_subscriptionInfo;
 		AppleStoreImpl_ProcessLoggedPurchase_mAB17A7D88C8E83417125E46AB426A773DA79C72C(__this, L_11, L_12, L_13, L_14, L_15, L_16, L_17, L_18, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:800>
 		return;
 	}
 }
-// Method Definition Index: 89832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ProcessNewPurchase_mE4900919DA758A027B82A08D13ADC6C8C39993A4 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_id, String_t* ___1_transactionId, String_t* ___2_originalTransactionId, String_t* ___3_expirationDate, int32_t ___4_ownershipType, Nullable_1_t0ECB838EB0C9A81655750B26970F21CF9A83A5F7 ___5_appAccountToken, String_t* ___6_signatureJws, RuntimeObject* ___7_subscriptionInfo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25396,7 +23789,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ProcessNewPurchase_mE4900
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:804>
 		String_t* L_0 = ___0_id;
 		String_t* L_1 = ___1_transactionId;
 		String_t* L_2 = ___2_originalTransactionId;
@@ -25407,7 +23799,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ProcessNewPurchase_mE4900
 		PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* L_7;
 		L_7 = AppleStoreImpl_GenerateApplePendingOrder_mD5FA77CE282EA2B9FF95C38B359A415D247A2F48(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:805>
 		RuntimeObject* L_8 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___PurchaseCallback;
 		RuntimeObject* L_9 = L_8;
 		if (L_9)
@@ -25426,16 +23817,13 @@ IL_001d:
 		PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* L_10 = V_0;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* >::Invoke(0, IStorePurchaseCallback_t11CAECB80A57C28D5A888B8CD7DB7474D7CBE21C_il2cpp_TypeInfo_var, G_B2_0, L_10);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:806>
 		return;
 	}
 }
-// Method Definition Index: 89833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ProcessLoggedPurchase_mAB17A7D88C8E83417125E46AB426A773DA79C72C (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_id, String_t* ___1_transactionId, String_t* ___2_originalTransactionId, String_t* ___3_expirationDate, int32_t ___4_ownershipType, Nullable_1_t0ECB838EB0C9A81655750B26970F21CF9A83A5F7 ___5_appAccountToken, String_t* ___6_signatureJws, RuntimeObject* ___7_subscriptionInfo, const RuntimeMethod* method) 
 {
 	ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:810>
 		String_t* L_0 = ___0_id;
 		String_t* L_1 = ___1_transactionId;
 		String_t* L_2 = ___2_originalTransactionId;
@@ -25446,14 +23834,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ProcessLoggedPurchase_mAB
 		ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_7;
 		L_7 = AppleStoreImpl_GenerateAppleConfirmedOrder_m87705DC1B248E65522BD2EB4A63B1F1663C598B6(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:811>
 		ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_8 = V_0;
 		AppleStoreImpl_EnsureConfirmedOrderIsFinished_mC879141B28DE3CCCC31B0F06A1B18FFC8F4798C1(__this, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:812>
 		return;
 	}
 }
-// Method Definition Index: 89834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F29192D7F56* AppleStoreImpl_GenerateAppleDeferredOrder_m7B589030A45DB3DBB427E2866385452113F96030 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_id, String_t* ___1_transactionID, String_t* ___2_originalTransactionId, int32_t ___3_ownershipType, Nullable_1_t0ECB838EB0C9A81655750B26970F21CF9A83A5F7 ___4_appAccountToken, String_t* ___5_signatureJws, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25465,16 +23850,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:816>
 		String_t* L_0 = ___0_id;
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_1;
 		L_1 = JsonStore_FindProductById_m5808019C91A087739B1697411D0191C0ADD0C5D9(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:817>
 		CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_2;
 		L_2 = CartItem_op_Implicit_mB626594B3A9A7DCBC89AB8EAF4F16D4A78C36EB2(L_1, NULL);
 		Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2* L_3 = (Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2*)il2cpp_codegen_object_new(Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2_il2cpp_TypeInfo_var);
 		Cart__ctor_m430A326AA87F5849DFFDD5B41D426A7349105BC6(L_3, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:818>
 		String_t* L_4 = ___1_transactionID;
 		String_t* L_5 = ((JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382*)__this)->___m_StoreName;
 		String_t* L_6 = ___2_originalTransactionId;
@@ -25488,7 +23870,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F
 		return L_11;
 	}
 }
-// Method Definition Index: 89835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* AppleStoreImpl_GenerateApplePendingOrder_mD5FA77CE282EA2B9FF95C38B359A415D247A2F48 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_id, String_t* ___1_transactionID, String_t* ___2_originalTransactionId, int32_t ___3_ownershipType, Nullable_1_t0ECB838EB0C9A81655750B26970F21CF9A83A5F7 ___4_appAccountToken, String_t* ___5_signatureJws, RuntimeObject* ___6_subscriptionInfo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25500,16 +23881,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:823>
 		String_t* L_0 = ___0_id;
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_1;
 		L_1 = JsonStore_FindProductById_m5808019C91A087739B1697411D0191C0ADD0C5D9(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:824>
 		CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_2;
 		L_2 = CartItem_op_Implicit_mB626594B3A9A7DCBC89AB8EAF4F16D4A78C36EB2(L_1, NULL);
 		Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2* L_3 = (Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2*)il2cpp_codegen_object_new(Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2_il2cpp_TypeInfo_var);
 		Cart__ctor_m430A326AA87F5849DFFDD5B41D426A7349105BC6(L_3, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:825>
 		String_t* L_4 = ___1_transactionID;
 		String_t* L_5 = ((JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382*)__this)->___m_StoreName;
 		String_t* L_6 = ___2_originalTransactionId;
@@ -25524,7 +23902,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228E
 		return L_12;
 	}
 }
-// Method Definition Index: 89836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* AppleStoreImpl_GenerateAppleConfirmedOrder_m87705DC1B248E65522BD2EB4A63B1F1663C598B6 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_id, String_t* ___1_transactionID, String_t* ___2_originalTransactionId, int32_t ___3_ownershipType, Nullable_1_t0ECB838EB0C9A81655750B26970F21CF9A83A5F7 ___4_appAccountToken, String_t* ___5_signatureJws, RuntimeObject* ___6_subscriptionInfo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25536,16 +23913,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:830>
 		String_t* L_0 = ___0_id;
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_1;
 		L_1 = JsonStore_FindProductById_m5808019C91A087739B1697411D0191C0ADD0C5D9(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:831>
 		CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_2;
 		L_2 = CartItem_op_Implicit_mB626594B3A9A7DCBC89AB8EAF4F16D4A78C36EB2(L_1, NULL);
 		Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2* L_3 = (Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2*)il2cpp_codegen_object_new(Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2_il2cpp_TypeInfo_var);
 		Cart__ctor_m430A326AA87F5849DFFDD5B41D426A7349105BC6(L_3, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:832>
 		String_t* L_4 = ___1_transactionID;
 		String_t* L_5 = ((JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382*)__this)->___m_StoreName;
 		String_t* L_6 = ___2_originalTransactionId;
@@ -25560,7 +23934,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383
 		return L_12;
 	}
 }
-// Method Definition Index: 89837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_EnsureConfirmedOrderIsFinished_mC879141B28DE3CCCC31B0F06A1B18FFC8F4798C1 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* ___0_confirmedOrder, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25576,7 +23949,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_EnsureConfirmedOrderIsFin
 	CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* G_B1_0 = NULL;
 	ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:837>
 		ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_0 = ___0_confirmedOrder;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -25613,10 +23985,8 @@ IL_0017:
 IL_0021:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:838>
 		ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_7 = ___0_confirmedOrder;
 		AppleStoreImpl_InvokeDuplicateTransactionError_m6D3CA753B051CF61CA20288D00BD20E7E9C8C7FA(__this, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:839>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_8 = V_0;
 		ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_9 = ___0_confirmedOrder;
 		NullCheck(L_9);
@@ -25626,11 +23996,9 @@ IL_0021:
 		String_t* L_11;
 		L_11 = InterfaceFuncInvoker0< String_t* >::Invoke(5, IOrderInfo_t8F6EE055337893DD2EA2A1E2F9AA581DF29C52F0_il2cpp_TypeInfo_var, L_10);
 		JsonStore_FinishTransaction_m7BFB0CE3FFBA5A81B754A5DA6E16E0E817416EB9(__this, L_8, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:840>
 		return;
 	}
 }
-// Method Definition Index: 89838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_InvokeDuplicateTransactionError_m6D3CA753B051CF61CA20288D00BD20E7E9C8C7FA (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* ___0_confirmedOrder, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25659,7 +24027,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_InvokeDuplicateTransactio
 	RuntimeObject* G_B11_0 = NULL;
 	RuntimeObject* G_B10_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:844>
 		ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_0 = ___0_confirmedOrder;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -25693,7 +24060,6 @@ IL_0017:
 IL_001c:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:845>
 		SubscriptionInfo_tBBC3E8F5C9B34C4C3AA2253CC51AC64029C7FC75* L_6 = V_0;
 		if (!L_6)
 		{
@@ -25701,12 +24067,10 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:847>
 		SubscriptionInfo_tBBC3E8F5C9B34C4C3AA2253CC51AC64029C7FC75* L_7 = V_0;
 		NullCheck(L_7);
 		String_t* L_8 = L_7->___m_SubscriptionRenewalProductId;
 		V_1 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:848>
 		String_t* L_9 = V_1;
 		String_t* L_10 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		bool L_11;
@@ -25738,9 +24102,6 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:850>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:851>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:852>
 		ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_19 = ___0_confirmedOrder;
 		NullCheck(L_19);
 		RuntimeObject* L_20;
@@ -25763,7 +24124,6 @@ IL_001c:
 		FailedOrder_t4FF159EDE64FC2EAFB4439A3AEC7F46B62F55BD8* L_28 = (FailedOrder_t4FF159EDE64FC2EAFB4439A3AEC7F46B62F55BD8*)il2cpp_codegen_object_new(FailedOrder_t4FF159EDE64FC2EAFB4439A3AEC7F46B62F55BD8_il2cpp_TypeInfo_var);
 		FailedOrder__ctor_m196CEE463D06F9D302DB91C8378A3BE7D2C619E8(L_28, L_20, 6, L_27, NULL);
 		V_2 = L_28;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:853>
 		RuntimeObject* L_29 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___PurchaseCallback;
 		RuntimeObject* L_30 = L_29;
 		if (L_30)
@@ -25787,9 +24147,6 @@ IL_0091:
 
 IL_0098:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:858>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:859>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:860>
 		ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_32 = ___0_confirmedOrder;
 		NullCheck(L_32);
 		RuntimeObject* L_33;
@@ -25797,7 +24154,6 @@ IL_0098:
 		FailedOrder_t4FF159EDE64FC2EAFB4439A3AEC7F46B62F55BD8* L_34 = (FailedOrder_t4FF159EDE64FC2EAFB4439A3AEC7F46B62F55BD8*)il2cpp_codegen_object_new(FailedOrder_t4FF159EDE64FC2EAFB4439A3AEC7F46B62F55BD8_il2cpp_TypeInfo_var);
 		FailedOrder__ctor_m196CEE463D06F9D302DB91C8378A3BE7D2C619E8(L_34, L_33, 6, _stringLiteralBBB7E6B0F1D4E527CFD9144A8B16E6680B42BDEF, NULL);
 		V_3 = L_34;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:861>
 		RuntimeObject* L_35 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___PurchaseCallback;
 		RuntimeObject* L_36 = L_35;
 		if (L_36)
@@ -25820,11 +24176,9 @@ IL_00b5:
 
 IL_00bb:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:863>
 		return;
 	}
 }
-// Method Definition Index: 89839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_Sk1MessageCallback_m32512EC7EACD1989B2038BC1FF1EB9B48290A14B (String_t* ___0_subject, String_t* ___1_payload, String_t* ___2_receipt, String_t* ___3_transactionId, String_t* ___4_originalTransactionId, bool ___5_isRestored, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25873,10 +24227,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_Sk1MessageCallback_m32512
 		bool L_12 = ___5_isRestored;
 		NullCheck(L_11);
 		L_11->___isRestored = L_12;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:869>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:870>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:871>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:872>
 		RuntimeObject* L_13 = ((AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_StaticFields*)il2cpp_codegen_static_fields_for(AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_il2cpp_TypeInfo_var))->___s_Util;
 		RuntimeObject* L_14 = L_13;
 		if (L_14)
@@ -25897,11 +24247,9 @@ IL_003c:
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_16, L_15, (intptr_t)((void*)U3CU3Ec__DisplayClass79_0_U3CSk1MessageCallbackU3Eb__0_mC20C9CAAA9DA0C682ED5976F7123AB42A878A58C_RuntimeMethod_var), NULL);
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* >::Invoke(22, IUtil_t7909908832446A01C893925BD0795F01D065F23E_il2cpp_TypeInfo_var, G_B2_0, L_16);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:873>
 		return;
 	}
 }
-// Method Definition Index: 89840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ProcessMessage_m9DB47E621B681126B67BC73A8868235D1C7A0EA2 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_subject, String_t* ___1_payload, String_t* ___2_receipt, String_t* ___3_transactionId, String_t* ___4_originalTransactionId, bool ___5_isRestored, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25929,7 +24277,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ProcessMessage_m9DB47E621
 	String_t* G_B3_0 = NULL;
 	String_t* G_B2_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:877>
 		String_t* L_0 = ___2_receipt;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -25939,7 +24286,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_ProcessMessage_m9DB47E621
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:879>
 		String_t* L_2 = __this->___appReceipt;
 		String_t* L_3 = L_2;
 		if (L_3)
@@ -26323,134 +24669,105 @@ IL_01b9:
 
 IL_01c7:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:885>
 		RuntimeObject* L_53 = __this->___m_FetchProductsService;
 		String_t* L_54 = ___1_payload;
 		NullCheck(L_53);
 		InterfaceActionInvoker1< String_t* >::Invoke(2, IAppleFetchProductsService_tB32DAEE6718E9DCE2082D08F5DFE9C13EA9C09CC_il2cpp_TypeInfo_var, L_53, L_54);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:886>
 		return;
 	}
 
 IL_01d4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:888>
 		String_t* L_55 = ___1_payload;
 		String_t* L_56 = ___2_receipt;
 		String_t* L_57 = ___3_transactionId;
 		String_t* L_58 = ___4_originalTransactionId;
 		bool L_59 = ___5_isRestored;
 		AppleStoreImpl_OnPurchaseSucceeded_mD6CA33353A3F5EDC5AA22B06085816CF833ED854(__this, L_55, L_56, L_57, L_58, L_59, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:889>
 		return;
 	}
 
 IL_01e3:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:891>
 		String_t* L_60 = ___1_payload;
 		AppleStoreImpl_OnPurchaseFailedSk1_mB94ED6852718964B3EAF67E09D3FFD90CE9E5C57(__this, L_60, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:892>
 		return;
 	}
 
 IL_01eb:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:894>
 		String_t* L_61 = ___1_payload;
 		AppleStoreImpl_OnPurchaseDeferredSk1_m4B3188522C70BCCA0D1B72E99A5D8F31286F0B92(__this, L_61, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:895>
 		return;
 	}
 
 IL_01f3:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:897>
 		String_t* L_62 = ___1_payload;
 		AppleStoreImpl_OnPromotionalPurchaseAttempted_mF651C7CB9A0E761DC987C0CDAFB1E62F248CB8A8(__this, L_62, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:898>
 		return;
 	}
 
 IL_01fb:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:900>
 		String_t* L_63 = ___1_payload;
 		AppleStoreImpl_OnFetchStorePromotionOrderSucceeded_m8D878F40D8D4F0BAF134298528912B0D62331D1A(__this, L_63, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:901>
 		return;
 	}
 
 IL_0203:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:903>
 		AppleStoreImpl_OnFetchStorePromotionOrderFailed_mF541ABD4FAEF5A7A8FE11D7E643F2FB04221AC81(__this, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:904>
 		return;
 	}
 
 IL_020f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:906>
 		String_t* L_64 = ___1_payload;
 		AppleStoreImpl_OnFetchStorePromotionVisibilitySucceeded_m71C074DC4B5FB02EDEB9E0D4B3798ECE1193D8B0(__this, L_64, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:907>
 		return;
 	}
 
 IL_0217:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:909>
 		AppleStoreImpl_OnFetchStorePromotionVisibilityFailed_mAE263BB8EABB2AF01ECE64BABEC179EC373D96A2(__this, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:910>
 		return;
 	}
 
 IL_0223:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:912>
 		AppleStoreImpl_OnTransactionsRestoredSuccess_m632DC0B39774700CC117764CC2DD22761FC868C7(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:913>
 		return;
 	}
 
 IL_022a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:915>
 		String_t* L_65 = ___1_payload;
 		AppleStoreImpl_OnTransactionsRestoredFail_m57DA15331B50D9BB44ED6AC5F38E9718C5CF7CC0(__this, L_65, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:916>
 		return;
 	}
 
 IL_0232:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:918>
 		String_t* L_66 = ___1_payload;
 		AppleStoreImpl_OnAppReceiptRetrieved_m4C7C78977B859BD2D80346882EA82ECB11D04D1C(__this, L_66, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:919>
 		return;
 	}
 
 IL_023a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:921>
 		String_t* L_67 = ___1_payload;
 		AppleStoreImpl_OnAppReceiptRefreshedFailed_mAA72DB8A5DFF580BA06E243CBB15AEACCAB8FC22(__this, L_67, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:922>
 		return;
 	}
 
 IL_0242:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:924>
 		String_t* L_68 = ___1_payload;
 		AppleStoreImpl_OnEntitlementsRevokedSk1_mE8A59A881B7DC47696A9EFD8B774AF98250ACA69(__this, L_68, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:927>
 		return;
 	}
 }
-// Method Definition Index: 89841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseSucceeded_mD6CA33353A3F5EDC5AA22B06085816CF833ED854 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_id, String_t* ___1_receipt, String_t* ___2_transactionId, String_t* ___3_originalTransactionId, bool ___4_isRestored, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26464,16 +24781,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseSucceeded_mD6CA
 	memset((&V_1), 0, sizeof(V_1));
 	int32_t G_B4_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:931>
 		String_t* L_0 = ___1_receipt;
 		AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* L_1;
 		L_1 = AppleStoreImpl_GetAppleReceiptFromBase64String_m353CFAE5ADB81EC268A8242138DF6EA577728759(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:932>
 		String_t* L_2 = ___0_id;
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_3;
 		L_3 = AppleStoreImpl_FindMostRecentReceipt_mB9141883FEA7DF46A1CCFE5F4EDD99E763F3BA9A(L_1, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:934>
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_4 = V_0;
 		bool L_5;
 		L_5 = AppleStoreImpl_IsValidPurchaseStateSk1_mB0080F6A530EDA1028AA14D00FB3F326213F5515(L_4, NULL);
@@ -26483,7 +24797,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseSucceeded_mD6CA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:936>
 		bool L_6 = ___4_isRestored;
 		if (L_6)
 		{
@@ -26509,12 +24822,10 @@ IL_0026:
 IL_0027:
 	{
 		___4_isRestored = (bool)G_B4_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:937>
 		String_t* L_12 = ___0_id;
 		String_t* L_13 = ___3_originalTransactionId;
 		bool L_14 = ___4_isRestored;
 		AppleStoreImpl_UpdateAppleProductFields_m6B27BF790093879099E07F46ACF5E308F973C229(__this, L_12, L_13, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:939>
 		RuntimeObject* L_15 = __this->___m_TransactionLog;
 		String_t* L_16 = ___2_transactionId;
 		NullCheck(L_15);
@@ -26526,7 +24837,6 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:941>
 		String_t* L_18 = ___0_id;
 		String_t* L_19 = ___2_transactionId;
 		String_t* L_20 = ___3_originalTransactionId;
@@ -26540,7 +24850,6 @@ IL_0027:
 
 IL_0062:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:945>
 		String_t* L_24 = ___0_id;
 		String_t* L_25 = ___2_transactionId;
 		String_t* L_26 = ___3_originalTransactionId;
@@ -26554,14 +24863,11 @@ IL_0062:
 
 IL_0082:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:950>
 		String_t* L_30 = ___2_transactionId;
 		JsonStore_FinishTransaction_m7BFB0CE3FFBA5A81B754A5DA6E16E0E817416EB9(__this, (ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*)NULL, L_30, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:952>
 		return;
 	}
 }
-// Method Definition Index: 89842
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* AppleStoreImpl_FindMostRecentReceipt_mB9141883FEA7DF46A1CCFE5F4EDD99E763F3BA9A (AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* ___0_appleReceipt, String_t* ___1_productId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26593,7 +24899,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAE
 		NullCheck(L_1);
 		L_1->___productId = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___productId), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:956>
 		AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* L_3 = ___0_appleReceipt;
 		if (L_3)
 		{
@@ -26601,13 +24906,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAE
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:958>
 		return (AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1*)NULL;
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:961>
 		AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* L_4 = ___0_appleReceipt;
 		NullCheck(L_4);
 		AppleInAppPurchaseReceiptU5BU5D_t78C9D228935E99563B38B77BBA52C2987C24CADE* L_5 = L_4->___inAppPurchaseReceipts;
@@ -26616,7 +24919,6 @@ IL_0012:
 		Predicate_1__ctor_m3243D6C248C4C29DED243FF426B86ADD8DF5AC7D(L_7, L_6, (intptr_t)((void*)U3CU3Ec__DisplayClass82_0_U3CFindMostRecentReceiptU3Eb__0_m536EDDA5ECDC918DD78CFE682AFE3BB9A333EB17_RuntimeMethod_var), NULL);
 		AppleInAppPurchaseReceiptU5BU5D_t78C9D228935E99563B38B77BBA52C2987C24CADE* L_8;
 		L_8 = Array_FindAll_TisAppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1_mB38F1E29A3B6881A34DC3072584E622042161074(L_5, L_7, Array_FindAll_TisAppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1_mB38F1E29A3B6881A34DC3072584E622042161074_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:962>
 		AppleInAppPurchaseReceiptU5BU5D_t78C9D228935E99563B38B77BBA52C2987C24CADE* L_9 = L_8;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t76DB1B11D8F9C4B8E353171AB3DC1A15C85DA751_il2cpp_TypeInfo_var);
 		Comparison_1_tDFEB382F9505A5E6FF7911BB9F58134EEBFE02F2* L_10 = ((U3CU3Ec_t76DB1B11D8F9C4B8E353171AB3DC1A15C85DA751_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t76DB1B11D8F9C4B8E353171AB3DC1A15C85DA751_il2cpp_TypeInfo_var))->___U3CU3E9__82_1;
@@ -26648,13 +24950,11 @@ IL_0012:
 IL_0049:
 	{
 		Array_Sort_TisAppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1_m53F87C3B4CEA307073D4498FA99100FD48C05383(G_B4_1, G_B4_0, Array_Sort_TisAppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1_m53F87C3B4CEA307073D4498FA99100FD48C05383_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:963>
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_15;
 		L_15 = AppleStoreImpl_FirstNonCancelledReceipt_m6ECA9E2FB3FB528456A01B3F1E8BDEDC7EFD7631(G_B4_2, NULL);
 		return L_15;
 	}
 }
-// Method Definition Index: 89843
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* AppleStoreImpl_FirstNonCancelledReceipt_m6ECA9E2FB3FB528456A01B3F1E8BDEDC7EFD7631 (AppleInAppPurchaseReceiptU5BU5D_t78C9D228935E99563B38B77BBA52C2987C24CADE* ___0_foundReceipts, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26667,7 +24967,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAE
 	int32_t V_1 = 0;
 	AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:968>
 		AppleInAppPurchaseReceiptU5BU5D_t78C9D228935E99563B38B77BBA52C2987C24CADE* L_0 = ___0_foundReceipts;
 		V_0 = L_0;
 		V_1 = 0;
@@ -26676,14 +24975,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAE
 
 IL_0006:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:968>
 		AppleInAppPurchaseReceiptU5BU5D_t78C9D228935E99563B38B77BBA52C2987C24CADE* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:970>
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_5 = V_2;
 		NullCheck(L_5);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_6;
@@ -26698,7 +24995,6 @@ IL_0006:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:972>
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_9 = V_2;
 		return L_9;
 	}
@@ -26711,7 +25007,6 @@ IL_001e:
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:968>
 		int32_t L_11 = V_1;
 		AppleInAppPurchaseReceiptU5BU5D_t78C9D228935E99563B38B77BBA52C2987C24CADE* L_12 = V_0;
 		NullCheck(L_12);
@@ -26721,11 +25016,9 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:976>
 		return (AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1*)NULL;
 	}
 }
-// Method Definition Index: 89844
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* AppleStoreImpl_GetAppleReceiptFromBase64String_m353CFAE5ADB81EC268A8242138DF6EA577728759 (String_t* ___0_receipt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26739,9 +25032,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleReceipt_tB2915CCCD56B311245D0225CD39B580
 	AppleReceiptParser_t300675C8552873E2C5FDBD61DF17370F70EC192B* V_1 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:981>
 		V_0 = (AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1*)NULL;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:982>
 		String_t* L_0 = ___0_receipt;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -26751,14 +25042,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleReceipt_tB2915CCCD56B311245D0225CD39B580
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:984>
 		AppleReceiptParser_t300675C8552873E2C5FDBD61DF17370F70EC192B* L_2 = (AppleReceiptParser_t300675C8552873E2C5FDBD61DF17370F70EC192B*)il2cpp_codegen_object_new(AppleReceiptParser_t300675C8552873E2C5FDBD61DF17370F70EC192B_il2cpp_TypeInfo_var);
 		AppleReceiptParser__ctor_m2C77E15695BB79581B0165390302CA690713B001(L_2, NULL);
 		V_1 = L_2;
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:987>
 		AppleReceiptParser_t300675C8552873E2C5FDBD61DF17370F70EC192B* L_3 = V_1;
 		String_t* L_4 = ___0_receipt;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
@@ -26768,7 +25057,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleReceipt_tB2915CCCD56B311245D0225CD39B580
 		AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* L_6;
 		L_6 = AppleReceiptParser_Parse_m9285EDF56FB4FE8E459A0FAF41A68BA223331A65(L_3, L_5, NULL);
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:988>
 		goto IL_0022;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -26784,20 +25072,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleReceipt_tB2915CCCD56B311245D0225CD39B580
 CATCH_001f:
 	{
 		Exception_t* L_7 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:989>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:992>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0022;
 	}
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:994>
 		AppleReceipt_tB2915CCCD56B311245D0225CD39B580B9EF5DDE1* L_8 = V_0;
 		return L_8;
 	}
 }
-// Method Definition Index: 89845
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleStoreImpl_IsValidPurchaseStateSk1_mB0080F6A530EDA1028AA14D00FB3F326213F5515 (AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* ___0_mostRecentReceipt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26811,9 +25095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleStoreImpl_IsValidPurchaseStateSk1_m
 	bool V_0 = false;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:999>
 		V_0 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1000>
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_0 = ___0_mostRecentReceipt;
 		if (!L_0)
 		{
@@ -26821,7 +25103,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleStoreImpl_IsValidPurchaseStateSk1_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1002>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (AppleStoreProductType_t2D336BD7707DF1B5178C4EB58ED6657B3293F72A_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_2;
@@ -26836,14 +25117,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleStoreImpl_IsValidPurchaseStateSk1_m
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.enum_class);
 		RuntimeObject* L_6;
 		L_6 = Enum_Parse_m2846B01D5DEA00E4674AED09DE0B2E59ECEED61F(L_2, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1003>
 		if ((!(((uint32_t)((*(int32_t*)UnBox(L_6, AppleStoreProductType_t2D336BD7707DF1B5178C4EB58ED6657B3293F72A_il2cpp_TypeInfo_var)))) == ((uint32_t)3))))
 		{
 			goto IL_003a;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1006>
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_7 = ___0_mostRecentReceipt;
 		SubscriptionInfo_tBBC3E8F5C9B34C4C3AA2253CC51AC64029C7FC75* L_8 = (SubscriptionInfo_tBBC3E8F5C9B34C4C3AA2253CC51AC64029C7FC75*)il2cpp_codegen_object_new(SubscriptionInfo_tBBC3E8F5C9B34C4C3AA2253CC51AC64029C7FC75_il2cpp_TypeInfo_var);
 		SubscriptionInfo__ctor_mCC603CC165555C22526157046FCC551F3FEC6126(L_8, L_7, (String_t*)NULL, NULL);
@@ -26856,30 +25135,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleStoreImpl_IsValidPurchaseStateSk1_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1008>
 		V_0 = (bool)0;
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1012>
 		bool L_10 = V_0;
 		return L_10;
 	}
 }
-// Method Definition Index: 89846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleStoreImpl_IsRestored_m883771B1354FFACB837778FE87611A1E9D9D4D3E (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_productId, AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* ___1_productReceipt, String_t* ___2_transactionId, String_t* ___3_originalTransactionId, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* V_1 = NULL;
 	bool G_B5_0 = false;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1019>
 		String_t* L_0 = ___0_productId;
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_1;
 		L_1 = JsonStore_FindProductById_m5808019C91A087739B1697411D0191C0ADD0C5D9(__this, L_0, NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1020>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_2 = V_1;
 		NullCheck(L_2);
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_3;
@@ -26893,16 +25167,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleStoreImpl_IsRestored_m883771B1354FF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1022>
 		V_0 = (bool)0;
 		goto IL_003a;
 	}
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1026>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1027>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1028>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_5 = V_1;
 		NullCheck(L_5);
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_6;
@@ -26940,22 +25210,18 @@ IL_0039:
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1055>
 		bool L_14 = V_0;
 		return L_14;
 	}
 }
-// Method Definition Index: 89847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_UpdateAppleProductFields_m6B27BF790093879099E07F46ACF5E308F973C229 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_id, String_t* ___1_originalTransactionId, bool ___2_isRestored, const RuntimeMethod* method) 
 {
 	Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1060>
 		String_t* L_0 = ___0_id;
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_1;
 		L_1 = JsonStore_FindProductById_m5808019C91A087739B1697411D0191C0ADD0C5D9(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1061>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_2 = V_0;
 		NullCheck(L_2);
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_3;
@@ -26969,12 +25235,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_UpdateAppleProductFields_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1063>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_5 = V_0;
 		bool L_6 = ___2_isRestored;
 		NullCheck(L_5);
 		Product_set_appleProductIsRestored_m07289411734C7D4BB11056F42578E16A8337DFF0_inline(L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1064>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_7 = V_0;
 		String_t* L_8 = ___1_originalTransactionId;
 		NullCheck(L_7);
@@ -26983,28 +25247,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_UpdateAppleProductFields_
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1066>
 		return;
 	}
 }
-// Method Definition Index: 89848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseFailedSk1_mB94ED6852718964B3EAF67E09D3FFD90CE9E5C57 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_json, const RuntimeMethod* method) 
 {
 	PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* V_0 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	try
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1072>
 		String_t* L_0 = ___0_json;
 		RuntimeObject* L_1 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___ProductCache;
 		PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_2;
 		L_2 = JSONSerializer_DeserializeFailureReason_mB4E7BB4A618ECF74104CA10C0EB9FC9895D0469B(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1073>
 		PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_3 = V_0;
 		String_t* L_4 = ___0_json;
 		JsonStore_OnPurchaseFailed_mAEDB5809D8A5E27229038678B93F246F46174D0E(__this, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1074>
 		goto IL_003c;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -27020,8 +25279,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseFailedSk1_mB94E
 CATCH_0017:
 	{
 		RuntimeObject* L_5 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1075>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1077>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_6;
 		L_6 = Product_CreateUnknownProduct_m0AAFF6778423348537C2543D013DB39B67852DBA(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB25E5D970F1BA00B800BB11A853ED3D42ADEF9AC)), NULL);
 		CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_7;
@@ -27029,18 +25286,15 @@ CATCH_0017:
 		PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_8 = (PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380_il2cpp_TypeInfo_var)));
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_8, L_7, ((int32_t)10), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral002BAD3D9A2D735AF99EE6658B2A7D29B9166910)), NULL);
 		JsonStore_OnPurchaseFailed_mAEDB5809D8A5E27229038678B93F246F46174D0E(__this, L_8, (String_t*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1078>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_003c;
 	}
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1079>
 		return;
 	}
 }
-// Method Definition Index: 89849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseDeferredSk1_m4B3188522C70BCCA0D1B72E99A5D8F31286F0B92 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_productId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27057,12 +25311,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseDeferredSk1_m4B
 	RuntimeObject* G_B3_0 = NULL;
 	RuntimeObject* G_B2_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1083>
 		String_t* L_0 = ___0_productId;
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_1;
 		L_1 = JsonStore_FindProductById_m5808019C91A087739B1697411D0191C0ADD0C5D9(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1084>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_2 = V_0;
 		NullCheck(L_2);
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_3;
@@ -27076,9 +25328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseDeferredSk1_m4B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1086>
 		il2cpp_codegen_initobj((&V_1), sizeof(Nullable_1_t0ECB838EB0C9A81655750B26970F21CF9A83A5F7));
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1087>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_5 = V_0;
 		NullCheck(L_5);
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_6;
@@ -27090,7 +25340,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnPurchaseDeferredSk1_m4B
 		DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F29192D7F56* L_9;
 		L_9 = AppleStoreImpl_GenerateAppleDeferredOrder_m7B589030A45DB3DBB427E2866385452113F96030(__this, L_7, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, (-1), L_8, (String_t*)NULL, NULL);
 		V_2 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1088>
 		RuntimeObject* L_10 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___PurchaseCallback;
 		RuntimeObject* L_11 = L_10;
 		if (L_11)
@@ -27113,11 +25362,9 @@ IL_0048:
 
 IL_004e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1090>
 		return;
 	}
 }
-// Method Definition Index: 89850
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnEntitlementsRevokedSk1_mE8A59A881B7DC47696A9EFD8B774AF98250ACA69 (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, String_t* ___0_productIds, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27133,11 +25380,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppleStoreImpl_OnEntitlementsRevokedSk1_
 	memset((&V_0), 0, sizeof(V_0));
 	String_t* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1094>
 		String_t* L_0 = ___0_productIds;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1;
 		L_1 = MiniJsonExtensions_ArrayListFromJson_m3D4E8672DBBBDCC0FF667CFC6F8C81EBD2EAA08A(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1096>
 		NullCheck(L_1);
 		Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A L_2;
 		L_2 = List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC(L_1, List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_RuntimeMethod_var);
@@ -27161,18 +25406,15 @@ FINALLY_002d:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1096>
 				RuntimeObject* L_3;
 				L_3 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_0), Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_RuntimeMethod_var);
 				V_1 = ((String_t*)CastclassSealed((RuntimeObject*)L_3, il2cpp_defaults.string_class));
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1098>
 				String_t* L_4 = V_1;
 				AppleStoreImpl_RevokeEntitlement_mD4544F48A55C359093EE2E4734892194B27C623F(__this, L_4, NULL);
 			}
 
 IL_0022_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1096>
 				bool L_5;
 				L_5 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_0), Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_RuntimeMethod_var);
 				if (L_5)
@@ -27192,11 +25434,9 @@ IL_0022_1:
 
 IL_003b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1101>
 		return;
 	}
 }
-// Method Definition Index: 89851
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleStoreImpl_U3CIsRestoredU3Eg__IsSubscriptionRestoredU7C86_0_mBB8BEC800480911F623216AF6D0A86FE4774F43E (AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* ___0_productReceipt, Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* ___1_previousProduct, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27221,9 +25461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleStoreImpl_U3CIsRestoredU3Eg__IsSubs
 	memset((&G_B4_0), 0, sizeof(G_B4_0));
 	int32_t G_B9_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1033>
 		V_0 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1034>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_0 = ___1_previousProduct;
 		NullCheck(L_0);
 		bool L_1;
@@ -27234,7 +25472,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleStoreImpl_U3CIsRestoredU3Eg__IsSubs
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1036>
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_2 = ___0_productReceipt;
 		if (L_2)
 		{
@@ -27263,18 +25500,13 @@ IL_0018:
 IL_0023:
 	{
 		V_1 = G_B4_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1037>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_7 = ___1_previousProduct;
 		SubscriptionManager_t8A5C1B7775177296CD6B895FAC6500EE2D36C9EE* L_8 = (SubscriptionManager_t8A5C1B7775177296CD6B895FAC6500EE2D36C9EE*)il2cpp_codegen_object_new(SubscriptionManager_t8A5C1B7775177296CD6B895FAC6500EE2D36C9EE_il2cpp_TypeInfo_var);
 		SubscriptionManager__ctor_mE14A873E61E74DDF669E3A332B12A9F451AD6B98(L_8, L_7, (String_t*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1038>
 		NullCheck(L_8);
 		SubscriptionInfo_tBBC3E8F5C9B34C4C3AA2253CC51AC64029C7FC75* L_9;
 		L_9 = SubscriptionManager_getSubscriptionInfo_m2F21A9B1AC127612EC4D8A05354B4F8D0AD4DF3A(L_8, NULL);
 		V_2 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1039>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1040>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1041>
 		SubscriptionInfo_tBBC3E8F5C9B34C4C3AA2253CC51AC64029C7FC75* L_10 = V_2;
 		if (!L_10)
 		{
@@ -27330,22 +25562,18 @@ IL_0061:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1043>
 		V_0 = (bool)1;
 	}
 
 IL_0065:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1047>
 		bool L_20 = V_0;
 		return L_20;
 	}
 }
-// Method Definition Index: 89852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppleStoreImpl_U3CIsRestoredU3Eg__IsNonSubscriptionRestoredU7C86_1_m2B6825FBB8722305EE2974B955A81A5A80F2FFE8 (String_t* ___0_transactionId, String_t* ___1_originalTransactionId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:1052>
 		String_t* L_0 = ___1_originalTransactionId;
 		if (!L_0)
 		{
@@ -27373,7 +25601,6 @@ IL_000b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89853
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m48C181CDF25B4497E2BB39E048C0B9ABA3AB6DAA (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27390,7 +25617,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m48C181CDF25B4497E2BB39E0
 		return;
 	}
 }
-// Method Definition Index: 89854
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m74BCF9D6321040BBDCA2DCFDCE4F88B3E4FB8310 (U3CU3Ec_t76DB1B11D8F9C4B8E353171AB3DC1A15C85DA751* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27398,7 +25624,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m74BCF9D6321040BBDCA2DCFDC
 		return;
 	}
 }
-// Method Definition Index: 89855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3COnFetchStorePromotionVisibilitySucceededU3Eb__58_0_mC1CDD25152A259EE22A1DCF756AD8B2C7A50F7C2 (U3CU3Ec_t76DB1B11D8F9C4B8E353171AB3DC1A15C85DA751* __this, KeyValuePair_2_tBEE55F2A4574C64393155C322376FD98C7BFC7B9 ___0_k, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27408,13 +25633,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3COnFetchStorePromotionVis
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:478>
 		String_t* L_0;
 		L_0 = KeyValuePair_2_get_Key_mA64FF29A08423140758B0276333D1A89C71B793A_inline((&___0_k), KeyValuePair_2_get_Key_mA64FF29A08423140758B0276333D1A89C71B793A_RuntimeMethod_var);
 		return L_0;
 	}
 }
-// Method Definition Index: 89856
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3COnFetchStorePromotionVisibilitySucceededU3Eb__58_1_mCB28BC0B67B4701F3344EAEA78B009A71D8436B4 (U3CU3Ec_t76DB1B11D8F9C4B8E353171AB3DC1A15C85DA751* __this, KeyValuePair_2_tBEE55F2A4574C64393155C322376FD98C7BFC7B9 ___0_k, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27424,7 +25647,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3COnFetchStorePromotionVis
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:478>
 		RuntimeObject* L_0;
 		L_0 = KeyValuePair_2_get_Value_m2052BF44A3FDE623D98B0E6B6E227B2900034235_inline((&___0_k), KeyValuePair_2_get_Value_m2052BF44A3FDE623D98B0E6B6E227B2900034235_RuntimeMethod_var);
 		NullCheck(L_0);
@@ -27433,7 +25655,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3COnFetchStorePromotionVis
 		return L_1;
 	}
 }
-// Method Definition Index: 89857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CFindMostRecentReceiptU3Eb__82_1_m79EADCA0ECBC127906D21F33610C7CC7A48E0CCA (U3CU3Ec_t76DB1B11D8F9C4B8E353171AB3DC1A15C85DA751* __this, AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* ___0_b, AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* ___1_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27445,7 +25666,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CFindMostRecentReceiptU3Eb_
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:962>
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_0 = ___1_a;
 		NullCheck(L_0);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_1;
@@ -27469,7 +25689,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CFindMostRecentReceiptU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass22_0__ctor_mE08F1EFB89E139C82A57580CB3010251EF0A23BA (U3CU3Ec__DisplayClass22_0_t58BD5400A442850E23CFD68C5333DDEB0973C183* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27477,7 +25696,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass22_0__ctor_mE08F1EF
 		return;
 	}
 }
-// Method Definition Index: 89859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass22_0_U3CSetNativeStoreU3Eb__0_m9F6BBA4849F79C670E47095382980E319DA39332 (U3CU3Ec__DisplayClass22_0_t58BD5400A442850E23CFD68C5333DDEB0973C183* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27487,7 +25705,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass22_0_U3CSetNativeSt
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:72>
 		RuntimeObject* L_0 = __this->___apple;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< UnityPurchasingCallback_t3C1333A45134D9A999AB29AEEBF05883A9A707F3* >::Invoke(0, INativeAppleStore_t323BA5F90A2D47ADD128FFA1A623AF498D477DD3_il2cpp_TypeInfo_var, L_0, (UnityPurchasingCallback_t3C1333A45134D9A999AB29AEEBF05883A9A707F3*)NULL);
@@ -27502,7 +25719,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass22_0_U3CSetNativeSt
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass60_0__ctor_mE9DBD493FB18577913987D6F57465BF37AE22176 (U3CU3Ec__DisplayClass60_0_tAF7489F3F5885A162EB52EA8187F7108D381A68C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27510,7 +25726,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass60_0__ctor_mE9DBD49
 		return;
 	}
 }
-// Method Definition Index: 89861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass60_0_U3CMessageCallbackU3Eb__0_mE911426B3448321DFCC6E8F2AB7335993E7A9179 (U3CU3Ec__DisplayClass60_0_tAF7489F3F5885A162EB52EA8187F7108D381A68C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27522,7 +25737,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass60_0_U3CMessageCall
 	AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* G_B2_0 = NULL;
 	AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:497>
 		AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_0 = ((AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_StaticFields*)il2cpp_codegen_static_fields_for(AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_il2cpp_TypeInfo_var))->___s_Instance;
 		AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_1 = L_0;
 		if (L_1)
@@ -27543,7 +25757,6 @@ IL_000a:
 		int32_t L_4 = __this->___entitlementStatus;
 		NullCheck(G_B2_0);
 		AppleStoreImpl_ProcessCallbackMessage_m4DB30645F9DDB5560DD610701519FC79335864D0(G_B2_0, L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:498>
 		return;
 	}
 }
@@ -27555,7 +25768,6 @@ IL_000a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass67_0__ctor_m938B30E979DDAA18D73842E48F0CE3BC76C0FF5B (U3CU3Ec__DisplayClass67_0_t5C0CD6BAEDF5B6A81539CC44453CD1A1BBF70306* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27563,7 +25775,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass67_0__ctor_m938B30E
 		return;
 	}
 }
-// Method Definition Index: 89863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass67_0_U3CCheckEntitlementU3Eb__0_m237C239BD2D4D4A8DBEA31D9F03928778BFA136F (U3CU3Ec__DisplayClass67_0_t5C0CD6BAEDF5B6A81539CC44453CD1A1BBF70306* __this, Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* ___0_order, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27578,7 +25789,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass67_0_U3CCheckEntitl
 	CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* G_B2_0 = NULL;
 	String_t* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:696>
 		Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* L_0 = ___0_order;
 		if (!((PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1*)IsInstClass((RuntimeObject*)L_0, PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1_il2cpp_TypeInfo_var)))
 		{
@@ -27646,7 +25856,6 @@ IL_003f:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass79_0__ctor_mFC4DD1B7E569F4112473A4BE6CBFCD193985306F (U3CU3Ec__DisplayClass79_0_t23D664529A1DA21D29ABC7CFB36A0D9EA0EF2B94* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27654,7 +25863,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass79_0__ctor_mFC4DD1B
 		return;
 	}
 }
-// Method Definition Index: 89865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass79_0_U3CSk1MessageCallbackU3Eb__0_mC20C9CAAA9DA0C682ED5976F7123AB42A878A58C (U3CU3Ec__DisplayClass79_0_t23D664529A1DA21D29ABC7CFB36A0D9EA0EF2B94* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27666,7 +25874,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass79_0_U3CSk1MessageC
 	AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* G_B2_0 = NULL;
 	AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:871>
 		AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_0 = ((AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_StaticFields*)il2cpp_codegen_static_fields_for(AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_il2cpp_TypeInfo_var))->___s_Instance;
 		AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_1 = L_0;
 		if (L_1)
@@ -27690,7 +25897,6 @@ IL_000a:
 		bool L_7 = __this->___isRestored;
 		NullCheck(G_B2_0);
 		AppleStoreImpl_ProcessMessage_m9DB47E621B681126B67BC73A8868235D1C7A0EA2(G_B2_0, L_2, L_3, L_4, L_5, L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:872>
 		return;
 	}
 }
@@ -27702,7 +25908,6 @@ IL_000a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass82_0__ctor_m5F620D48742DE36D273C82FFAF38CD66513F26D4 (U3CU3Ec__DisplayClass82_0_t102122D8B51D629A710997B78DF627BCC314789F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27710,11 +25915,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass82_0__ctor_m5F620D4
 		return;
 	}
 }
-// Method Definition Index: 89867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass82_0_U3CFindMostRecentReceiptU3Eb__0_m536EDDA5ECDC918DD78CFE682AFE3BB9A333EB17 (U3CU3Ec__DisplayClass82_0_t102122D8B51D629A710997B78DF627BCC314789F* __this, AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* ___0_r, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:961>
 		AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* L_0 = ___0_r;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -27733,7 +25936,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass82_0_U3CFindMostRec
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFetchProductsU3Ed__29_MoveNext_mB41DD6BE5478014107C67BEF522FC1608960B790 (U3CFetchProductsU3Ed__29_t3D62C0D31B1129C956D39A866EF6C9E4B9C45E1E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27788,7 +25990,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFetchProductsU3Ed__29_MoveNext_mB41DD
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:135>
 				AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_4 = V_1;
 				NullCheck(L_4);
 				RuntimeObject* L_5 = L_4->___m_FetchProductsService;
@@ -27835,7 +26036,6 @@ IL_0073_2:
 				List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_16;
 				L_16 = TaskAwaiter_1_GetResult_m9BAE6B6C14735B7ABA5CAD2EA7473D235EB05B5B((&V_3), TaskAwaiter_1_GetResult_m9BAE6B6C14735B7ABA5CAD2EA7473D235EB05B5B_RuntimeMethod_var);
 				V_2 = L_16;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:137>
 				AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_17 = V_1;
 				NullCheck(L_17);
 				RuntimeObject* L_18 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)L_17)->___ProductsCallback;
@@ -27860,7 +26060,6 @@ IL_0087_2:
 
 IL_008d_2:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:139>
 				AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_21 = V_1;
 				NullCheck(L_21);
 				bool L_22 = L_21->___m_IsTransactionObserverEnabled;
@@ -27870,7 +26069,6 @@ IL_008d_2:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:141>
 				AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_23 = V_1;
 				NullCheck(L_23);
 				RuntimeObject* L_24 = L_23->___m_Native;
@@ -27894,7 +26092,6 @@ IL_00a1_2:
 
 IL_00a6_2:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:142>
 				AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_26 = V_1;
 				NullCheck(L_26);
 				L_26->___m_IsTransactionObserverEnabled = (bool)1;
@@ -27902,7 +26099,6 @@ IL_00a6_2:
 
 IL_00ad_2:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:146>
 				AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_27 = V_1;
 				NullCheck(L_27);
 				Action_1_t89E7476130EB87E6F9C9FCBB2D6407FB99F11F84* L_28 = L_27->___OnPromotionalPurchaseIntercepted;
@@ -27912,7 +26108,6 @@ IL_00ad_2:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:148>
 				AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_29 = V_1;
 				NullCheck(L_29);
 				RuntimeObject* L_30 = L_29->___m_Native;
@@ -27936,7 +26131,6 @@ IL_00c1_2:
 
 IL_00c6_2:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:150>
 				goto IL_0107_1;
 			}
 		}
@@ -27959,9 +26153,7 @@ CATCH_00c8_1:
 		{
 			{
 				FetchProductsException_t55DC71A9397E5A17BEDAD2919BDA041B332304CE* L_32 = ((FetchProductsException_t55DC71A9397E5A17BEDAD2919BDA041B332304CE*)IL2CPP_GET_ACTIVE_EXCEPTION(FetchProductsException_t55DC71A9397E5A17BEDAD2919BDA041B332304CE*));;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:151>
 				V_4 = L_32;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:153>
 				AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_33 = V_1;
 				NullCheck(L_33);
 				RuntimeObject* L_34 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)L_33)->___ProductsCallback;
@@ -27989,7 +26181,6 @@ IL_00d6_1:
 
 IL_00e2_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:154>
 				IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 				goto IL_0107_1;
 			}
@@ -27999,9 +26190,7 @@ CATCH_00e4_1:
 		{
 			{
 				Exception_t* L_38 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:155>
 				V_5 = L_38;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:157>
 				AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_39 = V_1;
 				NullCheck(L_39);
 				RuntimeObject* L_40 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)L_39)->___ProductsCallback;
@@ -28031,7 +26220,6 @@ IL_00f2_1:
 
 IL_0105_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:158>
 				IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 				goto IL_0107_1;
 			}
@@ -28066,7 +26254,6 @@ CATCH_0109:
 
 IL_0122:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:159>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_48 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_48, NULL);
@@ -28084,7 +26271,6 @@ IL2CPP_EXTERN_C  void U3CFetchProductsU3Ed__29_MoveNext_mB41DD6BE5478014107C67BE
 	_thisAdjusted = reinterpret_cast<U3CFetchProductsU3Ed__29_t3D62C0D31B1129C956D39A866EF6C9E4B9C45E1E*>(__this + _offset);
 	U3CFetchProductsU3Ed__29_MoveNext_mB41DD6BE5478014107C67BEF522FC1608960B790(_thisAdjusted, method);
 }
-// Method Definition Index: 89869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFetchProductsU3Ed__29_SetStateMachine_mF94D662ACECCF08B1F904CC7A4043224746B6288 (U3CFetchProductsU3Ed__29_t3D62C0D31B1129C956D39A866EF6C9E4B9C45E1E* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -28109,7 +26295,6 @@ IL2CPP_EXTERN_C  void U3CFetchProductsU3Ed__29_SetStateMachine_mF94D662ACECCF08B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnPurchaseSucceededU3Ed__69_MoveNext_m3BC4AD85F2331D131A56264355E21DE5BB7DC12B (U3COnPurchaseSucceededU3Ed__69_t06CCFEBEB03285BC275B57212B6B81D1E85ACF9D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28164,7 +26349,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnPurchaseSucceededU3Ed__69_MoveNext_
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:731>
 			AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_3 = V_1;
 			NullCheck(L_3);
 			bool L_4 = L_3->___m_RefreshAppReceipt;
@@ -28191,7 +26375,6 @@ FINALLY_0094_1:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:743>
 						AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_6 = V_1;
 						NullCheck(L_6);
 						L_6->___m_RefreshAppReceiptTask = (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14*)NULL;
@@ -28216,7 +26399,6 @@ IL_009f_1:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:735>
 						AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_8 = V_1;
 						NullCheck(L_8);
 						Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_9;
@@ -28259,7 +26441,6 @@ IL_0077_3:
 					{
 						bool L_18;
 						L_18 = TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B((&V_12), TaskAwaiter_1_GetResult_mB0D209154690F6972CF22B23275167F6A404B08B_RuntimeMethod_var);
-						//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:736>
 						goto IL_0092_2;
 					}
 				}
@@ -28276,9 +26457,7 @@ IL_0077_3:
 CATCH_0081_2:
 				{
 					Exception_t* L_19 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-					//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:737>
 					V_13 = L_19;
-					//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:739>
 					AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_20 = V_1;
 					Exception_t* L_21 = V_13;
 					NullCheck(L_21);
@@ -28286,7 +26465,6 @@ CATCH_0081_2:
 					L_22 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_21);
 					NullCheck(L_20);
 					AppleStoreImpl_OnAppReceiptRefreshedFailed_mAA72DB8A5DFF580BA06E243CBB15AEACCAB8FC22(L_20, L_22, NULL);
-					//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:740>
 					IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 					goto IL_0092_2;
 				}
@@ -28304,54 +26482,43 @@ IL_0092_2:
 
 IL_00a0_1:
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:747>
 			String_t* L_23 = __this->___purchaseDetailsJson;
 			Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_24;
 			L_24 = JSONSerializer_DeserializePurchaseDetails_mDFB2E0192D58AAF06EBD04A0999F99A6691FE02A(L_23, NULL);
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:749>
 			Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_25 = L_24;
 			RuntimeObject* L_26;
 			L_26 = AppleStoreImpl_TryGetSubscriptionInfoFromPayload_mD2876ADEE2630ABEB956E53020D3DAB997835B13(L_25, NULL);
 			V_2 = L_26;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:751>
 			Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_27 = L_25;
 			String_t* L_28;
 			L_28 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_27, _stringLiteral269B276065AA2FD25E2FC1E4ED6E8FBDFB83D44D, NULL);
 			V_3 = L_28;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:752>
 			Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_29 = L_27;
 			String_t* L_30;
 			L_30 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_29, _stringLiteral4B410F5F43A4714AE6474DB2282523C7FBE75CD1, NULL);
 			V_4 = L_30;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:753>
 			Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_31 = L_29;
 			String_t* L_32;
 			L_32 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_31, _stringLiteral143ACF5B5427633D39CFCBA045A9112E5681FD75, NULL);
 			V_5 = L_32;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:754>
 			Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_33 = L_31;
 			String_t* L_34;
 			L_34 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_33, _stringLiteral716B5043CC49BDBE1FFD8E31D599806263085305, NULL);
 			V_6 = L_34;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:755>
 			Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_35 = L_33;
 			String_t* L_36;
 			L_36 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_35, _stringLiteral538E40513F62512345B3B485F8F68CB1A32284D5, NULL);
 			int32_t L_37;
 			L_37 = AppleStoreImpl_OwnershipTypeFromString_m6165233F06771342C1D13C90275DC3F0B23C8F6E(L_36, NULL);
 			V_7 = L_37;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:756>
 			Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_38 = L_35;
 			String_t* L_39;
 			L_39 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_38, _stringLiteral9BBA7963C199710202C67FA1F6B62C551A1707B1, NULL);
 			V_8 = L_39;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:757>
 			String_t* L_40;
 			L_40 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_38, _stringLiteral36F291AF7CE4816CFDDFAFBE967E54B87EAB388C, NULL);
 			V_9 = L_40;
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:759>
 			il2cpp_codegen_initobj((&V_10), sizeof(Nullable_1_t0ECB838EB0C9A81655750B26970F21CF9A83A5F7));
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:760>
 			String_t* L_41 = V_8;
 			bool L_42;
 			L_42 = Guid_TryParse_m0A3C27800A8CEB35EF6CABBABD87ED7F968A7B4D(L_41, (&V_11), NULL);
@@ -28361,14 +26528,12 @@ IL_00a0_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:762>
 			Guid_t L_43 = V_11;
 			Nullable_1__ctor_mD2155EEC4DF44AF1AD75AEB77DA72D350854D0F2((&V_10), L_43, Nullable_1__ctor_mD2155EEC4DF44AF1AD75AEB77DA72D350854D0F2_RuntimeMethod_var);
 		}
 
 IL_012c_1:
 		{
-			//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:772>
 			AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_44 = V_1;
 			String_t* L_45 = V_3;
 			String_t* L_46 = V_4;
@@ -28407,7 +26572,6 @@ CATCH_0142:
 
 IL_015b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:773>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_56 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_56, NULL);
@@ -28425,7 +26589,6 @@ IL2CPP_EXTERN_C  void U3COnPurchaseSucceededU3Ed__69_MoveNext_m3BC4AD85F2331D131
 	_thisAdjusted = reinterpret_cast<U3COnPurchaseSucceededU3Ed__69_t06CCFEBEB03285BC275B57212B6B81D1E85ACF9D*>(__this + _offset);
 	U3COnPurchaseSucceededU3Ed__69_MoveNext_m3BC4AD85F2331D131A56264355E21DE5BB7DC12B(_thisAdjusted, method);
 }
-// Method Definition Index: 89871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnPurchaseSucceededU3Ed__69_SetStateMachine_mA6DC05A98B53874AD84C7CBDF9A666C0EC5F9040 (U3COnPurchaseSucceededU3Ed__69_t06CCFEBEB03285BC275B57212B6B81D1E85ACF9D* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -28450,11 +26613,9 @@ IL2CPP_EXTERN_C  void U3COnPurchaseSucceededU3Ed__69_SetStateMachine_mA6DC05A98B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedAppleStoreImpl__ctor_mF20D561EDBDF405778401A4884538829775CA876 (MetricizedAppleStoreImpl_t9FDC2636C667615302686AF7D2BE026AB5D20D1A* __this, RuntimeObject* ___0_cartValidator, RuntimeObject* ___1_fetchProductsService, RuntimeObject* ___2_transactionLog, RuntimeObject* ___3_util, RuntimeObject* ___4_logger, RuntimeObject* ___5_telemetryDiagnostics, RuntimeObject* ___6_telemetryMetricsService, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/MetricizedAppleStoreImpl.cs:21>
 		RuntimeObject* L_0 = ___0_cartValidator;
 		RuntimeObject* L_1 = ___1_fetchProductsService;
 		RuntimeObject* L_2 = ___2_transactionLog;
@@ -28462,15 +26623,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedAppleStoreImpl__ctor_mF20D561E
 		RuntimeObject* L_4 = ___4_logger;
 		RuntimeObject* L_5 = ___5_telemetryDiagnostics;
 		AppleStoreImpl__ctor_m532A63C7D5842DDB8D415880EF0B58ACED060F19(__this, L_0, L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/MetricizedAppleStoreImpl.cs:23>
 		RuntimeObject* L_6 = ___6_telemetryMetricsService;
 		__this->___m_TelemetryMetricsService = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TelemetryMetricsService), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/MetricizedAppleStoreImpl.cs:24>
 		return;
 	}
 }
-// Method Definition Index: 89873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedAppleStoreImpl_FetchProducts_m354CF31CFF013DB9D858C60478A39FAB990A9ACB (MetricizedAppleStoreImpl_t9FDC2636C667615302686AF7D2BE026AB5D20D1A* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28497,9 +26655,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedAppleStoreImpl_FetchProducts_m
 		NullCheck(L_2);
 		L_2->___products = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___products), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/MetricizedAppleStoreImpl.cs:28>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/MetricizedAppleStoreImpl.cs:29>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/MetricizedAppleStoreImpl.cs:30>
 		RuntimeObject* L_4 = __this->___m_TelemetryMetricsService;
 		U3CU3Ec__DisplayClass2_0_t41FB922FBB33F7D6F0A40C0E45CE8E511089D7C5* L_5 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
@@ -28508,11 +26663,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedAppleStoreImpl_FetchProducts_m
 		TelemetryMetricDefinition_tBB0362023A1A641091D68F93E8E8D0DAD31FDC4F L_7 = ((TelemetryMetricDefinitions_t186426A0121DA4C9C5221BBE3EB8C219D091C4D4_StaticFields*)il2cpp_codegen_static_fields_for(TelemetryMetricDefinitions_t186426A0121DA4C9C5221BBE3EB8C219D091C4D4_il2cpp_TypeInfo_var))->___fetchProductsName;
 		NullCheck(L_4);
 		InterfaceActionInvoker2< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*, TelemetryMetricDefinition_tBB0362023A1A641091D68F93E8E8D0DAD31FDC4F >::Invoke(0, ITelemetryMetricsService_tB2F4226EB1CC72C85577025598818A0930784932_il2cpp_TypeInfo_var, L_4, L_6, L_7);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/MetricizedAppleStoreImpl.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 89874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedAppleStoreImpl_Purchase_m6341B7E642244FB8BFD29CBB82604E1C3CAD2815 (MetricizedAppleStoreImpl_t9FDC2636C667615302686AF7D2BE026AB5D20D1A* __this, RuntimeObject* ___0_cart, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28539,8 +26692,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedAppleStoreImpl_Purchase_m6341B
 		NullCheck(L_2);
 		L_2->___cart = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___cart), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/MetricizedAppleStoreImpl.cs:35>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/MetricizedAppleStoreImpl.cs:36>
 		RuntimeObject* L_4 = __this->___m_TelemetryMetricsService;
 		U3CU3Ec__DisplayClass3_0_t2BDEBA826B2E14D66C924A5D265E397F9DD39C6E* L_5 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
@@ -28549,11 +26700,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedAppleStoreImpl_Purchase_m6341B
 		TelemetryMetricDefinition_tBB0362023A1A641091D68F93E8E8D0DAD31FDC4F L_7 = ((TelemetryMetricDefinitions_t186426A0121DA4C9C5221BBE3EB8C219D091C4D4_StaticFields*)il2cpp_codegen_static_fields_for(TelemetryMetricDefinitions_t186426A0121DA4C9C5221BBE3EB8C219D091C4D4_il2cpp_TypeInfo_var))->___initPurchaseName;
 		NullCheck(L_4);
 		InterfaceActionInvoker2< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*, TelemetryMetricDefinition_tBB0362023A1A641091D68F93E8E8D0DAD31FDC4F >::Invoke(0, ITelemetryMetricsService_tB2F4226EB1CC72C85577025598818A0930784932_il2cpp_TypeInfo_var, L_4, L_6, L_7);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/MetricizedAppleStoreImpl.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 89875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedAppleStoreImpl_U3CU3En__0_m0E236A4782A797B923385DDBBA97770B85C6B49D (MetricizedAppleStoreImpl_t9FDC2636C667615302686AF7D2BE026AB5D20D1A* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	{
@@ -28562,7 +26711,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedAppleStoreImpl_U3CU3En__0_m0E2
 		return;
 	}
 }
-// Method Definition Index: 89876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedAppleStoreImpl_U3CU3En__1_mC938A56C9828719A5BACE8ADF1744AFDD2C08F6E (MetricizedAppleStoreImpl_t9FDC2636C667615302686AF7D2BE026AB5D20D1A* __this, RuntimeObject* ___0_cart, const RuntimeMethod* method) 
 {
 	{
@@ -28579,7 +26727,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedAppleStoreImpl_U3CU3En__1_mC93
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m75BA11760AB06036193ED73C6EA870CE49C836B6 (U3CU3Ec__DisplayClass2_0_t41FB922FBB33F7D6F0A40C0E45CE8E511089D7C5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28587,11 +26734,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m75BA1176
 		return;
 	}
 }
-// Method Definition Index: 89878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3CFetchProductsU3Eb__0_m7EB83E80A453E8FC7EA28D4C68FAB0D93C45F567 (U3CU3Ec__DisplayClass2_0_t41FB922FBB33F7D6F0A40C0E45CE8E511089D7C5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/MetricizedAppleStoreImpl.cs:29>
 		MetricizedAppleStoreImpl_t9FDC2636C667615302686AF7D2BE026AB5D20D1A* L_0 = __this->___U3CU3E4__this;
 		RuntimeObject* L_1 = __this->___products;
 		NullCheck(L_0);
@@ -28607,7 +26752,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3CFetchProduct
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m83FF040B5A11C332758A1F159CEBA40A7FA97902 (U3CU3Ec__DisplayClass3_0_t2BDEBA826B2E14D66C924A5D265E397F9DD39C6E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28615,11 +26759,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m83FF040B
 		return;
 	}
 }
-// Method Definition Index: 89880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CPurchaseU3Eb__0_m74641A36872FE71A1BBF00EE3D4B88090E4B8412 (U3CU3Ec__DisplayClass3_0_t2BDEBA826B2E14D66C924A5D265E397F9DD39C6E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/MetricizedAppleStoreImpl.cs:36>
 		MetricizedAppleStoreImpl_t9FDC2636C667615302686AF7D2BE026AB5D20D1A* L_0 = __this->___U3CU3E4__this;
 		RuntimeObject* L_1 = __this->___cart;
 		NullCheck(L_0);
@@ -28635,43 +26777,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CPurchaseU3Eb
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89882
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_SetNativeStore_m214D03245A3B3FDA823F64101B8DED0FD9784F00 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, RuntimeObject* ___0_native, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:40>
 		RuntimeObject* L_0 = ___0_native;
 		__this->___m_Store = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Store), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 89883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore__ctor_m62524191224A2FE257088431679C6DD0DCCB4A82 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, RuntimeObject* ___0_cartValidator, RuntimeObject* ___1_logger, String_t* ___2_storeName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:31>
 		__this->___m_LastPurchaseErrorCode = ((int32_t)29);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:43>
 		InternalStore__ctor_mA69902ACA246ACEDE967486AB987A016D4484E74(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:45>
 		RuntimeObject* L_0 = ___0_cartValidator;
 		__this->___m_CartValidator = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CartValidator), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:46>
 		RuntimeObject* L_1 = ___1_logger;
 		__this->___Logger = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Logger), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:47>
 		String_t* L_2 = ___2_storeName;
 		__this->___m_StoreName = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_StoreName), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:48>
 		return;
 	}
 }
-// Method Definition Index: 89884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_FetchProducts_m19A9EF5C7442D89CFA26BDC11CB45A52B6535442 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28683,7 +26814,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_FetchProducts_m19A9EF5C7442D89
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:52>
 		RuntimeObject* L_0 = __this->___m_Store;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -28704,11 +26834,9 @@ IL_000b:
 		L_3 = JSONSerializer_SerializeProductDefs_m754249C0723C7F3B0675F43F0202D758E847ECE8(L_2, NULL);
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< String_t* >::Invoke(1, INativeStore_tC55554341D4FD7B2B305620B8F69626D8CB59628_il2cpp_TypeInfo_var, G_B2_0, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:53>
 		return;
 	}
 }
-// Method Definition Index: 89885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_ProcessManagedStoreResponse_m5520ABD44C28028BDB8D48DA4A70046D3F2B594C (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D* ___0_storeProducts, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28725,7 +26853,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_ProcessManagedStoreResponse_m5
 	RuntimeObject* G_B9_0 = NULL;
 	RuntimeObject* G_B8_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:57>
 		bool L_0 = __this->___m_IsRefreshing;
 		if (!L_0)
 		{
@@ -28733,9 +26860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_ProcessManagedStoreResponse_m5
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:59>
 		__this->___m_IsRefreshing = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:62>
 		List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D* L_1 = ___0_storeProducts;
 		if (!L_1)
 		{
@@ -28760,24 +26885,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_ProcessManagedStoreResponse_m5
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:64>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = __this->___m_RefreshCallback;
 		NullCheck(L_5);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:65>
 		__this->___m_RefreshCallback = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RefreshCallback), (void*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:66>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:70>
 		HashSet_1_tEA6B83AEE18B1DBC3B6EEBF8892A79C2419555B0* L_6 = (HashSet_1_tEA6B83AEE18B1DBC3B6EEBF8892A79C2419555B0*)il2cpp_codegen_object_new(HashSet_1_tEA6B83AEE18B1DBC3B6EEBF8892A79C2419555B0_il2cpp_TypeInfo_var);
 		HashSet_1__ctor_m5C009DD0D55C6591EF333E450C21D28A80E10522(L_6, HashSet_1__ctor_m5C009DD0D55C6591EF333E450C21D28A80E10522_RuntimeMethod_var);
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:71>
 		List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D* L_7 = ___0_storeProducts;
 		if (!L_7)
 		{
@@ -28785,7 +26905,6 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:73>
 		HashSet_1_tEA6B83AEE18B1DBC3B6EEBF8892A79C2419555B0* L_8 = V_0;
 		List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D* L_9 = ___0_storeProducts;
 		NullCheck(L_8);
@@ -28794,7 +26913,6 @@ IL_0035:
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:76>
 		RuntimeObject* L_10 = __this->___m_Store;
 		RuntimeObject* L_11 = L_10;
 		if (L_11)
@@ -28815,11 +26933,9 @@ IL_0050:
 		L_13 = JSONSerializer_SerializeProductDefs_m754249C0723C7F3B0675F43F0202D758E847ECE8(L_12, NULL);
 		NullCheck(G_B9_0);
 		InterfaceActionInvoker1< String_t* >::Invoke(1, INativeStore_tC55554341D4FD7B2B305620B8F69626D8CB59628_il2cpp_TypeInfo_var, G_B9_0, L_13);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:77>
 		return;
 	}
 }
-// Method Definition Index: 89886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_FetchPurchases_m9AA4962A4F25126B8AA4F3BD83B60CE31978E705 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28831,7 +26947,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_FetchPurchases_m9AA4962A4F2512
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:81>
 		RuntimeObject* L_0 = __this->___m_Store;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -28849,11 +26964,9 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker0::Invoke(2, INativeStore_tC55554341D4FD7B2B305620B8F69626D8CB59628_il2cpp_TypeInfo_var, G_B2_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:82>
 		return;
 	}
 }
-// Method Definition Index: 89887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnProductsFetchFailed_m476E37B6295FA30B281348393F41A7128D47C532 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, String_t* ___0_jsonFailureDescription, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28866,12 +26979,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnProductsFetchFailed_m476E37B
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:86>
 		String_t* L_0 = ___0_jsonFailureDescription;
 		ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271* L_1;
 		L_1 = JSONSerializer_DeserializeProductFetchFailureDescription_m246139ED389A21CD7A30A581E4B4A36B4EEB1483(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:87>
 		RuntimeObject* L_2 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___ProductsCallback;
 		RuntimeObject* L_3 = L_2;
 		if (L_3)
@@ -28890,11 +27001,9 @@ IL_0012:
 		ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271* L_4 = V_0;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271* >::Invoke(1, IStoreProductsCallback_t27E2FA33A2DDF103DA24D23E3C456A502CE73BE1_il2cpp_TypeInfo_var, G_B2_0, L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 89888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchasesRetrievalFailed_m094C427534806B805B1448BCCFCCFE3E85BE943E (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, String_t* ___0_jsonFailureDescription, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28907,12 +27016,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchasesRetrievalFailed_m09
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:92>
 		String_t* L_0 = ___0_jsonFailureDescription;
 		PurchasesFetchFailureDescription_t63013CCCB919EEC32CC959B46190D43C08CA293C* L_1;
 		L_1 = JSONSerializer_DeserializePurchasesFetchFailureDescription_m1CFBC43E4B1ED2677A7C44680A0375BF8749A7B0(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:93>
 		RuntimeObject* L_2 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___PurchaseFetchCallback;
 		RuntimeObject* L_3 = L_2;
 		if (L_3)
@@ -28931,11 +27038,9 @@ IL_0012:
 		PurchasesFetchFailureDescription_t63013CCCB919EEC32CC959B46190D43C08CA293C* L_4 = V_0;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< PurchasesFetchFailureDescription_t63013CCCB919EEC32CC959B46190D43C08CA293C* >::Invoke(1, IStorePurchaseFetchCallback_t6809F1A93AC828E66EEBADE9847D603700E93647_il2cpp_TypeInfo_var, G_B2_0, L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:94>
 		return;
 	}
 }
-// Method Definition Index: 89889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchasesFetched_m236A2ECE06BB835D4421F546A791B675A6BC8881 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, String_t* ___0_json, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28949,17 +27054,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchasesFetched_m236A2ECE06
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:98>
 		String_t* L_0 = ___0_json;
 		List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_1;
 		L_1 = JSONSerializer_DeserializeProductDescriptions_mCB8571BAF0E025CD2C024C953B530D9F94F01B1B(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:99>
 		List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_2 = V_0;
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_3;
 		L_3 = JsonStore_CreateOrdersFromFetchedPurchases_m96B3CA11C7F2FC778E1452A2BC51EF4BFC2BC684(__this, L_2, NULL);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:100>
 		RuntimeObject* L_4 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___PurchaseFetchCallback;
 		RuntimeObject* L_5 = L_4;
 		if (L_5)
@@ -28978,11 +27080,9 @@ IL_001a:
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_6 = V_1;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IStorePurchaseFetchCallback_t6809F1A93AC828E66EEBADE9847D603700E93647_il2cpp_TypeInfo_var, G_B2_0, L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:101>
 		return;
 	}
 }
-// Method Definition Index: 89890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* JsonStore_CreateOrdersFromFetchedPurchases_m96B3CA11C7F2FC778E1452A2BC51EF4BFC2BC684 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* ___0_productDescriptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29002,11 +27102,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t919E5CB114972DFCF14DD79496128FBE2062B
 	memset((&V_1), 0, sizeof(V_1));
 	ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:105>
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_0 = (List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A*)il2cpp_codegen_object_new(List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A_il2cpp_TypeInfo_var);
 		List_1__ctor_m6841FD3CEDEA8EA46737298B557279EBF6385082(L_0, List_1__ctor_m6841FD3CEDEA8EA46737298B557279EBF6385082_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:106>
 		List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_1 = ___0_productDescriptions;
 		NullCheck(L_1);
 		Enumerator_t29E666362D336F6EA713AC0C05491BA31C2A8FA5 L_2;
@@ -29031,11 +27129,9 @@ FINALLY_0068:
 
 IL_000f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:106>
 				ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* L_3;
 				L_3 = Enumerator_get_Current_m565E770BB948856D6C64B8338D1C7ABA117B43C5_inline((&V_1), Enumerator_get_Current_m565E770BB948856D6C64B8338D1C7ABA117B43C5_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:108>
 				ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* L_4 = V_2;
 				NullCheck(L_4);
 				int32_t L_5 = L_4->___type;
@@ -29045,7 +27141,6 @@ IL_000f_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:110>
 				List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_6 = V_0;
 				ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* L_7 = V_2;
 				NullCheck(L_7);
@@ -29068,7 +27163,6 @@ IL_000f_1:
 
 IL_003f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:114>
 				List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_14 = V_0;
 				ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* L_15 = V_2;
 				NullCheck(L_15);
@@ -29090,7 +27184,6 @@ IL_003f_1:
 
 IL_005d_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:106>
 				bool L_22;
 				L_22 = Enumerator_MoveNext_m6EFBCAF3C06FDB1DF47837B4DD0A581F44AE1663((&V_1), Enumerator_MoveNext_m6EFBCAF3C06FDB1DF47837B4DD0A581F44AE1663_RuntimeMethod_var);
 				if (L_22)
@@ -29110,12 +27203,10 @@ IL_005d_1:
 
 IL_0076:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:118>
 		List_1_t919E5CB114972DFCF14DD79496128FBE2062B41A* L_23 = V_0;
 		return L_23;
 	}
 }
-// Method Definition Index: 89891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_Purchase_mC966098C5F403CE3FCACC00C794765C30E974920 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, RuntimeObject* ___0_cart, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29128,12 +27219,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_Purchase_mC966098C5F403CE3FCAC
 	}
 	ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:123>
 		RuntimeObject* L_0 = __this->___m_CartValidator;
 		RuntimeObject* L_1 = ___0_cart;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, ICartValidator_t90FCA836A726E33FAFB5657646A89A15EE3562EB_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:124>
 		RuntimeObject* L_2 = ___0_cart;
 		NullCheck(L_2);
 		RuntimeObject* L_3;
@@ -29147,15 +27236,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_Purchase_mC966098C5F403CE3FCAC
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_6;
 		L_6 = Product_get_definition_m0B1DCF704219DD58B62DC2718C64D33DD690F92B_inline(L_5, NULL);
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:125>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_7 = V_0;
 		String_t* L_8 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		VirtualActionInvoker2< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, String_t* >::Invoke(42, __this, L_7, L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:126>
 		return;
 	}
 }
-// Method Definition Index: 89892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_Purchase_m4B2FEE4BECCD2850D4018A89DAB228F1EB01AA52 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_productDefinition, String_t* ___1_developerPayload, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29167,7 +27253,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_Purchase_m4B2FEE4BECCD2850D401
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:130>
 		RuntimeObject* L_0 = __this->___m_Store;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -29189,11 +27274,9 @@ IL_000b:
 		String_t* L_4 = ___1_developerPayload;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(3, INativeStore_tC55554341D4FD7B2B305620B8F69626D8CB59628_il2cpp_TypeInfo_var, G_B2_0, L_3, L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:131>
 		return;
 	}
 }
-// Method Definition Index: 89893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_FinishTransaction_mCC09F556BA355E7387B2AA477371C0B7E5A86387 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* ___0_pendingOrder, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29213,7 +27296,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_FinishTransaction_mCC09F556BA3
 	RuntimeObject* G_B5_0 = NULL;
 	RuntimeObject* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:135>
 		RuntimeObject* L_0 = __this->___m_CartValidator;
 		PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* L_1 = ___0_pendingOrder;
 		NullCheck(L_1);
@@ -29221,7 +27303,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_FinishTransaction_mCC09F556BA3
 		L_2 = Order_get_CartOrdered_m134E21BEDE41F469365E67B54F1132986016525A_inline(L_1, NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, ICartValidator_t90FCA836A726E33FAFB5657646A89A15EE3562EB_il2cpp_TypeInfo_var, L_0, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:136>
 		PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* L_3 = ___0_pendingOrder;
 		NullCheck(L_3);
 		RuntimeObject* L_4;
@@ -29258,7 +27339,6 @@ IL_0028:
 IL_0032:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:137>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_10 = V_0;
 		PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* L_11 = ___0_pendingOrder;
 		NullCheck(L_11);
@@ -29268,7 +27348,6 @@ IL_0032:
 		String_t* L_13;
 		L_13 = InterfaceFuncInvoker0< String_t* >::Invoke(5, IOrderInfo_t8F6EE055337893DD2EA2A1E2F9AA581DF29C52F0_il2cpp_TypeInfo_var, L_12);
 		VirtualActionInvoker2< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, String_t* >::Invoke(43, __this, L_10, L_13);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:138>
 		RuntimeObject* L_14 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___ConfirmCallback;
 		RuntimeObject* L_15 = L_14;
 		if (L_15)
@@ -29293,11 +27372,9 @@ IL_0050:
 		L_18 = InterfaceFuncInvoker0< String_t* >::Invoke(5, IOrderInfo_t8F6EE055337893DD2EA2A1E2F9AA581DF29C52F0_il2cpp_TypeInfo_var, L_17);
 		NullCheck(G_B5_0);
 		InterfaceActionInvoker1< String_t* >::Invoke(0, IStorePurchaseConfirmCallback_t3C552367B2A49C2C1F4334243C5B28901A073240_il2cpp_TypeInfo_var, G_B5_0, L_18);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:139>
 		return;
 	}
 }
-// Method Definition Index: 89894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_FinishTransaction_m7BFB0CE3FFBA5A81B754A5DA6E16E0E817416EB9 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_productDefinition, String_t* ___1_transactionId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29311,7 +27388,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_FinishTransaction_m7BFB0CE3FFB
 	RuntimeObject* G_B5_0 = NULL;
 	RuntimeObject* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:145>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_0 = ___0_productDefinition;
 		if (!L_0)
 		{
@@ -29334,7 +27410,6 @@ IL_000b:
 IL_000c:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:146>
 		RuntimeObject* L_3 = __this->___m_Store;
 		RuntimeObject* L_4 = L_3;
 		if (L_4)
@@ -29354,11 +27429,9 @@ IL_0018:
 		String_t* L_6 = ___1_transactionId;
 		NullCheck(G_B5_0);
 		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(4, INativeStore_tC55554341D4FD7B2B305620B8F69626D8CB59628_il2cpp_TypeInfo_var, G_B5_0, L_5, L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:147>
 		return;
 	}
 }
-// Method Definition Index: 89895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_Connect_mFF141A405B58BECFCE7F858E759E5EB13AD63935 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29370,7 +27443,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_Connect_mFF141A405B58BECFCE7F8
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:151>
 		RuntimeObject* L_0 = __this->___m_Store;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -29388,11 +27460,9 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker0::Invoke(0, INativeStore_tC55554341D4FD7B2B305620B8F69626D8CB59628_il2cpp_TypeInfo_var, G_B2_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:152>
 		return;
 	}
 }
-// Method Definition Index: 89896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnStoreConnectionSucceeded_m1D632DBA0A0EF855664FE2F98770F7DFCB329E89 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29404,7 +27474,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnStoreConnectionSucceeded_m1D
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:156>
 		RuntimeObject* L_0 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___ConnectCallback;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -29422,11 +27491,9 @@ IL_000b:
 	{
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker0::Invoke(0, IStoreConnectCallback_t703F42DD8D29A2CC58697EDA14E22D1B7ABF42C4_il2cpp_TypeInfo_var, G_B2_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:157>
 		return;
 	}
 }
-// Method Definition Index: 89897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnStoreConnectionFailed_m5513623CA8C44899D945D1A1354052917D077023 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, String_t* ___0_jsonFailureDescription, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29439,12 +27506,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnStoreConnectionFailed_m55136
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:161>
 		String_t* L_0 = ___0_jsonFailureDescription;
 		StoreConnectionFailureDescription_t6A3E0D46B5D9DF5E2929B1FA36C4CB366E63CF8A* L_1;
 		L_1 = JSONSerializer_DeserializeConnectionFailureDescription_m09104008E02B8F9090E2B06BEAF3FC9D12C89A56(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:162>
 		RuntimeObject* L_2 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___ConnectCallback;
 		RuntimeObject* L_3 = L_2;
 		if (L_3)
@@ -29463,11 +27528,9 @@ IL_0012:
 		StoreConnectionFailureDescription_t6A3E0D46B5D9DF5E2929B1FA36C4CB366E63CF8A* L_4 = V_0;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< StoreConnectionFailureDescription_t6A3E0D46B5D9DF5E2929B1FA36C4CB366E63CF8A* >::Invoke(1, IStoreConnectCallback_t703F42DD8D29A2CC58697EDA14E22D1B7ABF42C4_il2cpp_TypeInfo_var, G_B2_0, L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:163>
 		return;
 	}
 }
-// Method Definition Index: 89898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_CheckEntitlement_m1245507A6CEF2936EEB2DB3099C1B1A078BA5A4B (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_product, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29479,7 +27542,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_CheckEntitlement_m1245507A6CEF
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:167>
 		RuntimeObject* L_0 = __this->___m_Store;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -29501,11 +27563,9 @@ IL_000b:
 		NullCheck(G_B2_0);
 		bool L_4;
 		L_4 = InterfaceFuncInvoker1< bool, String_t* >::Invoke(5, INativeStore_tC55554341D4FD7B2B305620B8F69626D8CB59628_il2cpp_TypeInfo_var, G_B2_0, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:168>
 		return;
 	}
 }
-// Method Definition Index: 89899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnProductsFetched_m4BC92952FB262730D095E22C85CBA758E034DFD2 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, String_t* ___0_json, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29518,12 +27578,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnProductsFetched_m4BC92952FB2
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:173>
 		String_t* L_0 = ___0_json;
 		List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_1;
 		L_1 = JSONSerializer_DeserializeProductDescriptions_mCB8571BAF0E025CD2C024C953B530D9F94F01B1B(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:175>
 		RuntimeObject* L_2 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___ProductsCallback;
 		RuntimeObject* L_3 = L_2;
 		if (L_3)
@@ -29542,11 +27600,9 @@ IL_0012:
 		List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_4 = V_0;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IStoreProductsCallback_t27E2FA33A2DDF103DA24D23E3C456A502CE73BE1_il2cpp_TypeInfo_var, G_B2_0, L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:176>
 		return;
 	}
 }
-// Method Definition Index: 89900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchaseSucceeded_m75872562FD3164B9A54CEA354151AAC2744FF69F (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, String_t* ___0_id, String_t* ___1_receipt, String_t* ___2_transactionID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29559,14 +27615,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchaseSucceeded_m75872562F
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:180>
 		String_t* L_0 = ___0_id;
 		String_t* L_1 = ___1_receipt;
 		String_t* L_2 = ___2_transactionID;
 		PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* L_3;
 		L_3 = JsonStore_GeneratePendingOrder_mF13885F566A00A93746D5A6C0855E9144A10FC33(__this, L_0, L_1, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:181>
 		RuntimeObject* L_4 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___PurchaseCallback;
 		RuntimeObject* L_5 = L_4;
 		if (L_5)
@@ -29585,11 +27639,9 @@ IL_0015:
 		PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* L_6 = V_0;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* >::Invoke(0, IStorePurchaseCallback_t11CAECB80A57C28D5A888B8CD7DB7474D7CBE21C_il2cpp_TypeInfo_var, G_B2_0, L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:182>
 		return;
 	}
 }
-// Method Definition Index: 89901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F29192D7F56* JsonStore_GenerateDeferredOrder_mEFE7ECC0C0D96021D1C47462631B6D063D37DFF0 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, String_t* ___0_id, String_t* ___1_receipt, String_t* ___2_transactionID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29601,16 +27653,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:186>
 		String_t* L_0 = ___0_id;
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_1;
 		L_1 = JsonStore_FindProductById_m5808019C91A087739B1697411D0191C0ADD0C5D9(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:187>
 		CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_2;
 		L_2 = CartItem_op_Implicit_mB626594B3A9A7DCBC89AB8EAF4F16D4A78C36EB2(L_1, NULL);
 		Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2* L_3 = (Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2*)il2cpp_codegen_object_new(Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2_il2cpp_TypeInfo_var);
 		Cart__ctor_m430A326AA87F5849DFFDD5B41D426A7349105BC6(L_3, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:188>
 		String_t* L_4 = ___1_receipt;
 		String_t* L_5 = ___2_transactionID;
 		String_t* L_6 = __this->___m_StoreName;
@@ -29621,7 +27670,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F
 		return L_8;
 	}
 }
-// Method Definition Index: 89902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* JsonStore_GeneratePendingOrder_mF13885F566A00A93746D5A6C0855E9144A10FC33 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, String_t* ___0_id, String_t* ___1_receipt, String_t* ___2_transactionID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29633,16 +27681,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:193>
 		String_t* L_0 = ___0_id;
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_1;
 		L_1 = JsonStore_FindProductById_m5808019C91A087739B1697411D0191C0ADD0C5D9(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:194>
 		CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_2;
 		L_2 = CartItem_op_Implicit_mB626594B3A9A7DCBC89AB8EAF4F16D4A78C36EB2(L_1, NULL);
 		Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2* L_3 = (Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2*)il2cpp_codegen_object_new(Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2_il2cpp_TypeInfo_var);
 		Cart__ctor_m430A326AA87F5849DFFDD5B41D426A7349105BC6(L_3, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:195>
 		String_t* L_4 = ___1_receipt;
 		String_t* L_5 = ___2_transactionID;
 		String_t* L_6 = __this->___m_StoreName;
@@ -29653,7 +27698,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228E
 		return L_8;
 	}
 }
-// Method Definition Index: 89903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* JsonStore_GenerateConfirmedOrder_mACAB95273A0E2C0CC0F5FABE9D96226DE19344D0 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, String_t* ___0_id, String_t* ___1_receipt, String_t* ___2_transactionID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29665,16 +27709,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:200>
 		String_t* L_0 = ___0_id;
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_1;
 		L_1 = JsonStore_FindProductById_m5808019C91A087739B1697411D0191C0ADD0C5D9(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:201>
 		CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_2;
 		L_2 = CartItem_op_Implicit_mB626594B3A9A7DCBC89AB8EAF4F16D4A78C36EB2(L_1, NULL);
 		Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2* L_3 = (Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2*)il2cpp_codegen_object_new(Cart_tC1517899E2C6172B959C42C5DEE40B36FF39DFA2_il2cpp_TypeInfo_var);
 		Cart__ctor_m430A326AA87F5849DFFDD5B41D426A7349105BC6(L_3, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:202>
 		String_t* L_4 = ___1_receipt;
 		String_t* L_5 = ___2_transactionID;
 		String_t* L_6 = __this->___m_StoreName;
@@ -29685,7 +27726,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383
 		return L_8;
 	}
 }
-// Method Definition Index: 89904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* JsonStore_FindProductById_m5808019C91A087739B1697411D0191C0ADD0C5D9 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, String_t* ___0_productId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29695,7 +27735,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B97
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:207>
 		RuntimeObject* L_0 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___ProductCache;
 		String_t* L_1 = ___0_productId;
 		NullCheck(L_0);
@@ -29704,7 +27743,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B97
 		return L_2;
 	}
 }
-// Method Definition Index: 89905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchaseFailed_m0C825FF700780EF12B9F9739D0CB0778FD796CCC (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, String_t* ___0_json, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29725,28 +27763,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchaseFailed_m0C825FF70078
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	try
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:214>
 		String_t* L_0 = ___0_json;
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_1;
 		L_1 = JSONSerializer_DeserializePurchaseDetails_mDFB2E0192D58AAF06EBD04A0999F99A6691FE02A(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:216>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_2 = L_1;
 		String_t* L_3;
 		L_3 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_2, _stringLiteral269B276065AA2FD25E2FC1E4ED6E8FBDFB83D44D, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:217>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_4 = L_2;
 		String_t* L_5;
 		L_5 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_4, _stringLiteral3BA6C8061B5DCCBB674ED949A7E218AFB55FA9EF, NULL);
 		V_1 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:218>
 		String_t* L_6;
 		L_6 = SerializationExtensions_TryGetString_m54C939D55C99F644AC475B0A1C956F0A3B064587(L_4, _stringLiteral012A18907B249DF0954BFA806717C2FD7DDB76F9, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		int32_t L_7;
 		L_7 = Convert_ToInt32_m0C3F3778B1D646778F41B6912138AEEEE6BEB9D4(L_6, NULL);
 		V_2 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:220>
 		RuntimeObject* L_8 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___ProductCache;
 		String_t* L_9 = V_0;
 		NullCheck(L_8);
@@ -29759,10 +27792,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchaseFailed_m0C825FF70078
 		PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_14 = (PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380*)il2cpp_codegen_object_new(PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380_il2cpp_TypeInfo_var);
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_14, L_11, L_12, L_13, NULL);
 		V_3 = L_14;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:221>
 		PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_15 = V_3;
 		JsonStore_OnPurchaseFailed_mAEDB5809D8A5E27229038678B93F246F46174D0E(__this, L_15, (String_t*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:222>
 		goto IL_0076;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -29778,8 +27809,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchaseFailed_m0C825FF70078
 CATCH_0051:
 	{
 		RuntimeObject* L_16 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:223>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:225>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_17;
 		L_17 = Product_CreateUnknownProduct_m0AAFF6778423348537C2543D013DB39B67852DBA(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB25E5D970F1BA00B800BB11A853ED3D42ADEF9AC)), NULL);
 		CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_18;
@@ -29787,18 +27816,15 @@ CATCH_0051:
 		PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_19 = (PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380_il2cpp_TypeInfo_var)));
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_19, L_18, ((int32_t)10), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral002BAD3D9A2D735AF99EE6658B2A7D29B9166910)), NULL);
 		JsonStore_OnPurchaseFailed_mAEDB5809D8A5E27229038678B93F246F46174D0E(__this, L_19, (String_t*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:226>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0076;
 	}
 
 IL_0076:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:227>
 		return;
 	}
 }
-// Method Definition Index: 89906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchaseFailed_mAEDB5809D8A5E27229038678B93F246F46174D0E (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* ___0_failure, String_t* ___1_json, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29811,16 +27837,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchaseFailed_mAEDB5809D8A5
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:231>
 		PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_0 = ___0_failure;
 		__this->___LastPurchaseFailureDescription = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___LastPurchaseFailureDescription), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:232>
 		String_t* L_1 = ___1_json;
 		int32_t L_2;
 		L_2 = JsonStore_ParseStoreSpecificPurchaseErrorCode_m579FA062735AC33A73F243C432DF014E4C0567A7(L_1, NULL);
 		__this->___m_LastPurchaseErrorCode = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:234>
 		RuntimeObject* L_3 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___PurchaseCallback;
 		RuntimeObject* L_4 = L_3;
 		if (L_4)
@@ -29842,11 +27865,9 @@ IL_001e:
 		L_6 = PurchaseFailureDescription_ConvertToFailedOrder_m10E058F72558E6267F6F99384150FE3E5934B829(L_5, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< FailedOrder_t4FF159EDE64FC2EAFB4439A3AEC7F46B62F55BD8* >::Invoke(1, IStorePurchaseCallback_t11CAECB80A57C28D5A888B8CD7DB7474D7CBE21C_il2cpp_TypeInfo_var, G_B2_0, L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:235>
 		return;
 	}
 }
-// Method Definition Index: 89907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchaseDeferred_mDB140534C694F34EB6E492C6CBF12BE7FF348453 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, String_t* ___0_productDetails, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29861,15 +27882,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchaseDeferred_mDB140534C6
 	RuntimeObject* G_B3_0 = NULL;
 	RuntimeObject* G_B2_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:240>
 		String_t* L_0 = ___0_productDetails;
 		List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_1;
 		L_1 = JSONSerializer_DeserializeProductDescriptions_mCB8571BAF0E025CD2C024C953B530D9F94F01B1B(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:241>
 		ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* L_2;
 		L_2 = Enumerable_FirstOrDefault_TisProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A_m9BADD2A23B7D4DCF0FE9A534DA4EDED5A3D26628(L_1, Enumerable_FirstOrDefault_TisProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A_m9BADD2A23B7D4DCF0FE9A534DA4EDED5A3D26628_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:242>
 		ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* L_3 = V_0;
 		if (!L_3)
 		{
@@ -29877,7 +27895,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchaseDeferred_mDB140534C6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:244>
 		ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* L_4 = V_0;
 		NullCheck(L_4);
 		String_t* L_5;
@@ -29893,7 +27910,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonStore_OnPurchaseDeferred_mDB140534C6
 		DeferredOrder_tCADDDD9E5E73B0B3679BEC0800A80F29192D7F56* L_10;
 		L_10 = JsonStore_GenerateDeferredOrder_mEFE7ECC0C0D96021D1C47462631B6D063D37DFF0(__this, L_5, L_7, L_9, NULL);
 		V_1 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:245>
 		RuntimeObject* L_11 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___PurchaseCallback;
 		RuntimeObject* L_12 = L_11;
 		if (L_12)
@@ -29916,29 +27932,23 @@ IL_0033:
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:247>
 		return;
 	}
 }
-// Method Definition Index: 89908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* JsonStore_GetLastPurchaseFailureDescription_m8021BDB98446347A794E173D112DA8871069F6D9 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:251>
 		PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_0 = __this->___LastPurchaseFailureDescription;
 		return L_0;
 	}
 }
-// Method Definition Index: 89909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JsonStore_GetLastStoreSpecificPurchaseErrorCode_m8ED33C8126DC8050647D31BC9F794337ECC5EA66 (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:256>
 		int32_t L_0 = __this->___m_LastPurchaseErrorCode;
 		return L_0;
 	}
 }
-// Method Definition Index: 89910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JsonStore_ParseStoreSpecificPurchaseErrorCode_m579FA062735AC33A73F243C432DF014E4C0567A7 (String_t* ___0_json, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29955,7 +27965,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JsonStore_ParseStoreSpecificPurchaseE
 	Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* V_0 = NULL;
 	String_t* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:262>
 		String_t* L_0 = ___0_json;
 		if (L_0)
 		{
@@ -29963,18 +27972,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JsonStore_ParseStoreSpecificPurchaseE
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:264>
 		return (int32_t)(((int32_t)29));
 	}
 
 IL_0006:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:268>
 		String_t* L_1 = ___0_json;
 		RuntimeObject* L_2;
 		L_2 = MiniJson_JsonDecode_mB2C7BA2DFF09CC1279E59CE347E54803E995F7E3(L_1, NULL);
 		V_0 = ((Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710*)IsInstClass((RuntimeObject*)L_2, Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:269>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_3 = V_0;
 		if (!L_3)
 		{
@@ -30009,14 +28015,11 @@ IL_0006:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:271>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_11 = V_0;
 		NullCheck(L_11);
 		RuntimeObject* L_12;
 		L_12 = Dictionary_2_get_Item_m371FC5B3D39406E297F2626B159BA1A3E32917B5(L_11, _stringLiteral1653E97E041046F9D4DFE0D41C5FF4CC11E9940E, Dictionary_2_get_Item_m371FC5B3D39406E297F2626B159BA1A3E32917B5_RuntimeMethod_var);
 		V_1 = ((String_t*)CastclassSealed((RuntimeObject*)L_12, il2cpp_defaults.string_class));
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:272>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:273>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_13 = { reinterpret_cast<intptr_t> (StoreSpecificPurchaseErrorCode_t0DC624B15FB0F4EDB8B8A3B6A3B2401F0C622BCA_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_14;
@@ -30030,15 +28033,12 @@ IL_0006:
 
 IL_006a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:276>
 		return (int32_t)(((int32_t)29));
 	}
 }
-// Method Definition Index: 89911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JsonStore_CheckConnectionState_mCE0AE837A5912ECC51D704971BDA59174775423C (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:286>
 		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_0 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
 		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_0, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&JsonStore_CheckConnectionState_mCE0AE837A5912ECC51D704971BDA59174775423C_RuntimeMethod_var)));
@@ -30052,24 +28052,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JsonStore_CheckConnectionState_mCE0AE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedJsonStore__ctor_m3BD268108C9DA1966DFF8E45634C92CA2886DDF3 (MetricizedJsonStore_t1D9379281CCBEB0B9E593AD36A62E9841D9290A3* __this, RuntimeObject* ___0_cartValidator, RuntimeObject* ___1_logger, String_t* ___2_storeName, RuntimeObject* ___3_telemetryMetricsService, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/MetricizedJsonStore.cs:11>
 		RuntimeObject* L_0 = ___0_cartValidator;
 		RuntimeObject* L_1 = ___1_logger;
 		String_t* L_2 = ___2_storeName;
 		JsonStore__ctor_m62524191224A2FE257088431679C6DD0DCCB4A82(__this, L_0, L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/MetricizedJsonStore.cs:13>
 		RuntimeObject* L_3 = ___3_telemetryMetricsService;
 		__this->___m_TelemetryMetricsService = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TelemetryMetricsService), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/MetricizedJsonStore.cs:14>
 		return;
 	}
 }
-// Method Definition Index: 89913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedJsonStore_FetchProducts_mFBB7B559B0187EE055774308B289109E5B1DADE7 (MetricizedJsonStore_t1D9379281CCBEB0B9E593AD36A62E9841D9290A3* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30096,9 +28091,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedJsonStore_FetchProducts_mFBB7B
 		NullCheck(L_2);
 		L_2->___products = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___products), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/MetricizedJsonStore.cs:18>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/MetricizedJsonStore.cs:19>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/MetricizedJsonStore.cs:20>
 		RuntimeObject* L_4 = __this->___m_TelemetryMetricsService;
 		U3CU3Ec__DisplayClass2_0_t1180A8A2A7F4C4640D5F428EBDDFD457AC6A03AE* L_5 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
@@ -30107,11 +28099,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedJsonStore_FetchProducts_mFBB7B
 		TelemetryMetricDefinition_tBB0362023A1A641091D68F93E8E8D0DAD31FDC4F L_7 = ((TelemetryMetricDefinitions_t186426A0121DA4C9C5221BBE3EB8C219D091C4D4_StaticFields*)il2cpp_codegen_static_fields_for(TelemetryMetricDefinitions_t186426A0121DA4C9C5221BBE3EB8C219D091C4D4_il2cpp_TypeInfo_var))->___fetchProductsName;
 		NullCheck(L_4);
 		InterfaceActionInvoker2< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*, TelemetryMetricDefinition_tBB0362023A1A641091D68F93E8E8D0DAD31FDC4F >::Invoke(0, ITelemetryMetricsService_tB2F4226EB1CC72C85577025598818A0930784932_il2cpp_TypeInfo_var, L_4, L_6, L_7);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/MetricizedJsonStore.cs:21>
 		return;
 	}
 }
-// Method Definition Index: 89914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedJsonStore_Purchase_mF4C129691A16E974EC1F675002536B674E15EE8A (MetricizedJsonStore_t1D9379281CCBEB0B9E593AD36A62E9841D9290A3* __this, RuntimeObject* ___0_cart, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30138,9 +28128,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedJsonStore_Purchase_mF4C129691A
 		NullCheck(L_2);
 		L_2->___cart = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___cart), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/MetricizedJsonStore.cs:25>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/MetricizedJsonStore.cs:26>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/MetricizedJsonStore.cs:27>
 		RuntimeObject* L_4 = __this->___m_TelemetryMetricsService;
 		U3CU3Ec__DisplayClass3_0_t6D89FC92A325C55D8187D36A04535B182CBA1BA0* L_5 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
@@ -30149,11 +28136,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedJsonStore_Purchase_mF4C129691A
 		TelemetryMetricDefinition_tBB0362023A1A641091D68F93E8E8D0DAD31FDC4F L_7 = ((TelemetryMetricDefinitions_t186426A0121DA4C9C5221BBE3EB8C219D091C4D4_StaticFields*)il2cpp_codegen_static_fields_for(TelemetryMetricDefinitions_t186426A0121DA4C9C5221BBE3EB8C219D091C4D4_il2cpp_TypeInfo_var))->___initPurchaseName;
 		NullCheck(L_4);
 		InterfaceActionInvoker2< Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*, TelemetryMetricDefinition_tBB0362023A1A641091D68F93E8E8D0DAD31FDC4F >::Invoke(0, ITelemetryMetricsService_tB2F4226EB1CC72C85577025598818A0930784932_il2cpp_TypeInfo_var, L_4, L_6, L_7);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/MetricizedJsonStore.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 89915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedJsonStore_U3CU3En__0_mA230533FE788D21C33E2DC4F2423FEB755C318BC (MetricizedJsonStore_t1D9379281CCBEB0B9E593AD36A62E9841D9290A3* __this, RuntimeObject* ___0_products, const RuntimeMethod* method) 
 {
 	{
@@ -30162,7 +28147,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedJsonStore_U3CU3En__0_mA230533F
 		return;
 	}
 }
-// Method Definition Index: 89916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedJsonStore_U3CU3En__1_mFD1B12498C2D7C354143BF01A5C9261F80F522A3 (MetricizedJsonStore_t1D9379281CCBEB0B9E593AD36A62E9841D9290A3* __this, RuntimeObject* ___0_cart, const RuntimeMethod* method) 
 {
 	{
@@ -30179,7 +28163,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricizedJsonStore_U3CU3En__1_mFD1B1249
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m0DF1696A68CAA3229726AA4AF65119CAF33E8F17 (U3CU3Ec__DisplayClass2_0_t1180A8A2A7F4C4640D5F428EBDDFD457AC6A03AE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30187,11 +28170,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m0DF1696A
 		return;
 	}
 }
-// Method Definition Index: 89918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3CFetchProductsU3Eb__0_mF050BD5206884172DEEA3717131DFF9CCEF864DD (U3CU3Ec__DisplayClass2_0_t1180A8A2A7F4C4640D5F428EBDDFD457AC6A03AE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/MetricizedJsonStore.cs:19>
 		MetricizedJsonStore_t1D9379281CCBEB0B9E593AD36A62E9841D9290A3* L_0 = __this->___U3CU3E4__this;
 		RuntimeObject* L_1 = __this->___products;
 		NullCheck(L_0);
@@ -30207,7 +28188,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3CFetchProduct
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89919
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m136703AB36B57E1BC30A381F06C4D6B8E29D1155 (U3CU3Ec__DisplayClass3_0_t6D89FC92A325C55D8187D36A04535B182CBA1BA0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30215,11 +28195,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m136703AB
 		return;
 	}
 }
-// Method Definition Index: 89920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CPurchaseU3Eb__0_mE81482A7ECFB3D74D521622B457BAB14B12C447E (U3CU3Ec__DisplayClass3_0_t6D89FC92A325C55D8187D36A04535B182CBA1BA0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/MetricizedJsonStore.cs:26>
 		MetricizedJsonStore_t1D9379281CCBEB0B9E593AD36A62E9841D9290A3* L_0 = __this->___U3CU3E4__this;
 		RuntimeObject* L_1 = __this->___cart;
 		NullCheck(L_0);
@@ -30235,7 +28213,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CPurchaseU3Eb
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NativeStoreProvider_GetStorekit_m3E24CD8C8B51F1C63DE883CD01DE0052EA9323B0 (NativeStoreProvider_t62C06D21A45F2802CA4D7C9E600DC3DB8DBA66E0* __this, RuntimeObject* ___0_callback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30247,12 +28224,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NativeStoreProvider_GetStoreki
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/NativeStoreProvider.cs:10>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/NativeStoreProvider.cs:11>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/NativeStoreProvider.cs:12>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/NativeStoreProvider.cs:13>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/NativeStoreProvider.cs:14>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/NativeStoreProvider.cs:15>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
@@ -30273,7 +28244,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NativeStoreProvider_GetStoreki
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/NativeStoreProvider.cs:17>
 		iOSStoreBindings_t7C502D722C49D6692D48A604FB06B1DF135F4943* L_2 = (iOSStoreBindings_t7C502D722C49D6692D48A604FB06B1DF135F4943*)il2cpp_codegen_object_new(iOSStoreBindings_t7C502D722C49D6692D48A604FB06B1DF135F4943_il2cpp_TypeInfo_var);
 		iOSStoreBindings__ctor_mF65D152738953AAA855A7193685532FC1AD7B2F5(L_2, NULL);
 		return L_2;
@@ -30281,13 +28251,11 @@ IL_0011:
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/NativeStoreProvider.cs:19>
 		OSXStoreBindings_tE511ABF925EFF341C1502B35CEDE28266CD1A645* L_3 = (OSXStoreBindings_tE511ABF925EFF341C1502B35CEDE28266CD1A645*)il2cpp_codegen_object_new(OSXStoreBindings_tE511ABF925EFF341C1502B35CEDE28266CD1A645_il2cpp_TypeInfo_var);
 		OSXStoreBindings__ctor_m858AEA206C8B4F7BCA3D0A062F94CB5ACBF692E3(L_3, NULL);
 		return L_3;
 	}
 }
-// Method Definition Index: 89922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeStoreProvider__ctor_m173965452066140B1D509803FA66FA64E3F31654 (NativeStoreProvider_t62C06D21A45F2802CA4D7C9E600DC3DB8DBA66E0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30303,7 +28271,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeStoreProvider__ctor_m1739654520661
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceDependencyFactoryInjector_SetStoreManagerFactory_m7BF06A50D0D389169A05F055AB27E4C8884C849E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30313,15 +28280,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceDependencyFactoryInjector_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceDependencyFactoryInjector.cs:8>
 		ProductServiceFactoryManager_t894CAA67B1D44E337FECC80322E62EADE7116FFE* L_0;
 		L_0 = ProductServiceFactoryManager_Instance_m7C4CDDD42F7E1C0DDDABCD546A843EC785AF1FF6(NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceDependencyFactoryInjector.cs:9>
 		ProductServiceFactory_t55342FA95F11D27EE533424FE782731969BE316C* L_1;
 		L_1 = ProductServiceFactory_Instance_m8E25D980DF9335A3D161594423F6B0AA50DB7804(NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IProductServiceFactoryManagerInjectionPoint_t85C7C80A690E6998545C2E84FDDAFC7D6E7511EC_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceDependencyFactoryInjector.cs:10>
 		return;
 	}
 }
@@ -30333,7 +28297,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceDependencyFactoryInjector_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProductServiceFactory_t55342FA95F11D27EE533424FE782731969BE316C* ProductServiceFactory_Instance_m8E25D980DF9335A3D161594423F6B0AA50DB7804 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30345,7 +28308,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProductServiceFactory_t55342FA95F11D27EE53342
 	ProductServiceFactory_t55342FA95F11D27EE533424FE782731969BE316C* G_B2_0 = NULL;
 	ProductServiceFactory_t55342FA95F11D27EE533424FE782731969BE316C* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:20>
 		ProductServiceFactory_t55342FA95F11D27EE533424FE782731969BE316C* L_0 = ((ProductServiceFactory_t55342FA95F11D27EE533424FE782731969BE316C_StaticFields*)il2cpp_codegen_static_fields_for(ProductServiceFactory_t55342FA95F11D27EE533424FE782731969BE316C_il2cpp_TypeInfo_var))->___s_Instance;
 		ProductServiceFactory_t55342FA95F11D27EE533424FE782731969BE316C* L_1 = L_0;
 		if (L_1)
@@ -30369,7 +28331,6 @@ IL_0014:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 89925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceFactory__ctor_m1456DB00B0BC5EEEFE4CF79CF7FE5CE2BC6E34DA (ProductServiceFactory_t55342FA95F11D27EE533424FE782731969BE316C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30385,30 +28346,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceFactory__ctor_m1456DB00B0B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:16>
 		Dictionary_2_t1A739BCF227A8BDFF682696D3906ACCC9C131115* L_0 = (Dictionary_2_t1A739BCF227A8BDFF682696D3906ACCC9C131115*)il2cpp_codegen_object_new(Dictionary_2_t1A739BCF227A8BDFF682696D3906ACCC9C131115_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mEA355333C40BCEA6DCF1C121674F4BB677B6D239(L_0, Dictionary_2__ctor_mEA355333C40BCEA6DCF1C121674F4BB677B6D239_RuntimeMethod_var);
 		__this->___m_ProductServiceInstantiationByName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ProductServiceInstantiationByName), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:23>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:25>
 		Dictionary_2_t1A739BCF227A8BDFF682696D3906ACCC9C131115* L_1 = __this->___m_ProductServiceInstantiationByName;
 		Func_2_t556B97B39AC3D477400A6C2275ABFC3265538DBB* L_2 = (Func_2_t556B97B39AC3D477400A6C2275ABFC3265538DBB*)il2cpp_codegen_object_new(Func_2_t556B97B39AC3D477400A6C2275ABFC3265538DBB_il2cpp_TypeInfo_var);
 		Func_2__ctor_m196E1C86790FB621841BCBE809CA36C6F7A5D6B2(L_2, NULL, (intptr_t)((void*)ProductServiceFactory_CreateAppleProductService_mFB378A07D86455880127F48B622A1590EAC7F3F6_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		Dictionary_2_Add_m06F91C503083A89BB4C0E5A325264F9B2A86B1CA(L_1, _stringLiteral7535A877CC7A258810A546BD47780403A6033D8F, L_2, Dictionary_2_Add_m06F91C503083A89BB4C0E5A325264F9B2A86B1CA_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:26>
 		Dictionary_2_t1A739BCF227A8BDFF682696D3906ACCC9C131115* L_3 = __this->___m_ProductServiceInstantiationByName;
 		Func_2_t556B97B39AC3D477400A6C2275ABFC3265538DBB* L_4 = (Func_2_t556B97B39AC3D477400A6C2275ABFC3265538DBB*)il2cpp_codegen_object_new(Func_2_t556B97B39AC3D477400A6C2275ABFC3265538DBB_il2cpp_TypeInfo_var);
 		Func_2__ctor_m196E1C86790FB621841BCBE809CA36C6F7A5D6B2(L_4, NULL, (intptr_t)((void*)ProductServiceFactory_CreateAppleProductService_mFB378A07D86455880127F48B622A1590EAC7F3F6_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		Dictionary_2_Add_m06F91C503083A89BB4C0E5A325264F9B2A86B1CA(L_3, _stringLiteralD3FA52E2FCB7530CC7BD3604D153C81F34D48B93, L_4, Dictionary_2_Add_m06F91C503083A89BB4C0E5A325264F9B2A86B1CA_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:27>
 		return;
 	}
 }
-// Method Definition Index: 89926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceFactory_RegisterNewService_mBD85E831D9040E6EDFCFE5D49A8313EE8003BBDF (ProductServiceFactory_t55342FA95F11D27EE533424FE782731969BE316C* __this, String_t* ___0_name, Func_1_t3A4F8CABF9549326F3CECEEDE566E16C2D2E250E* ___1_createFunction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30430,7 +28385,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceFactory_RegisterNewService
 		NullCheck(L_1);
 		L_1->___createFunction = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___createFunction), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:36>
 		Dictionary_2_t1A739BCF227A8BDFF682696D3906ACCC9C131115* L_3 = __this->___m_ProductServiceInstantiationByName;
 		String_t* L_4 = ___0_name;
 		U3CU3Ec__DisplayClass4_0_t42C7C6664F1F0209051308A62598E7FF0C0CCD3F* L_5 = V_0;
@@ -30438,11 +28392,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceFactory_RegisterNewService
 		Func_2__ctor_m196E1C86790FB621841BCBE809CA36C6F7A5D6B2(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass4_0_U3CRegisterNewServiceU3Eg__CreateCustomProductServiceDiscardParamsU7C0_mE471DC4217ACB28D1FCDDDD33516CFB2F6BFC824_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		Dictionary_2_Add_m06F91C503083A89BB4C0E5A325264F9B2A86B1CA(L_3, L_4, L_6, Dictionary_2_Add_m06F91C503083A89BB4C0E5A325264F9B2A86B1CA_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 89927
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceFactory_RegisterNewExtendedService_mF8E3061AB978C48E2B16682913B24AF204A80DF8 (ProductServiceFactory_t55342FA95F11D27EE533424FE782731969BE316C* __this, String_t* ___0_name, Func_2_tE47E98917AF978AE03B7A0423A41ACAB2EF28320* ___1_createFunction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30464,7 +28416,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceFactory_RegisterNewExtende
 		NullCheck(L_1);
 		L_1->___createFunction = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___createFunction), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:46>
 		Dictionary_2_t1A739BCF227A8BDFF682696D3906ACCC9C131115* L_3 = __this->___m_ProductServiceInstantiationByName;
 		String_t* L_4 = ___0_name;
 		U3CU3Ec__DisplayClass5_0_tAE0AC9AF9B6145B4D158AC5A5A537F14EA0BB260* L_5 = V_0;
@@ -30472,11 +28423,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceFactory_RegisterNewExtende
 		Func_2__ctor_m196E1C86790FB621841BCBE809CA36C6F7A5D6B2(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3CRegisterNewExtendedServiceU3Eg__CreateCustomProductServiceDiscardParamsU7C0_m55C0019BB1D801AB51493D094E612C21C6FA41F1_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		Dictionary_2_Add_m06F91C503083A89BB4C0E5A325264F9B2A86B1CA(L_3, L_4, L_6, Dictionary_2_Add_m06F91C503083A89BB4C0E5A325264F9B2A86B1CA_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 89928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ProductServiceFactory_Create_m9009477401B579DC60C9B1B82EB48F75AC629C0A (ProductServiceFactory_t55342FA95F11D27EE533424FE782731969BE316C* __this, RuntimeObject* ___0_store, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30494,7 +28443,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ProductServiceFactory_Create_m
 	RuntimeObject* G_B7_0 = NULL;
 	RuntimeObject* G_B6_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:52>
 		Dictionary_2_t1A739BCF227A8BDFF682696D3906ACCC9C131115* L_0 = __this->___m_ProductServiceInstantiationByName;
 		RuntimeObject* L_1 = ___0_store;
 		NullCheck(L_1);
@@ -30571,7 +28519,6 @@ IL_0045:
 		return G_B7_0;
 	}
 }
-// Method Definition Index: 89929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProductService_t593738048B6845C91DA73CE3C06278A052F2535A* ProductServiceFactory_CreateGenericProductService_m30F5FAB94B5A3B9B931402EA1CA4E1AD5C4E8694 (RuntimeObject* ___0_storeWrapper, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30583,15 +28530,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProductService_t593738048B6845C91DA73CE3C0627
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:57>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_0 = (DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D*)il2cpp_codegen_object_new(DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D_il2cpp_TypeInfo_var);
 		DependencyInjectionService__ctor_m139C1394C0B0DA0624D03A67B6ECB1E9E26C52F8(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:58>
 		RuntimeObject* L_1 = ___0_storeWrapper;
 		RuntimeObject* L_2 = V_0;
 		ProductServiceFactory_AddProductServiceDependencies_mCC28B7C0945225568017406FE422B02153147E3A(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:59>
 		RuntimeObject* L_3 = V_0;
 		NullCheck(L_3);
 		ProductService_t593738048B6845C91DA73CE3C06278A052F2535A* L_4;
@@ -30599,7 +28543,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProductService_t593738048B6845C91DA73CE3C0627
 		return L_4;
 	}
 }
-// Method Definition Index: 89930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceFactory_AddProductServiceDependencies_mCC28B7C0945225568017406FE422B02153147E3A (RuntimeObject* ___0_store, RuntimeObject* ___1_di, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30613,7 +28556,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceFactory_AddProductServiceD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:64>
 		RuntimeObject* L_0 = ___1_di;
 		UnityUtil_tB10963C315BF47D886342969F3E7A343BECE37DE* L_1;
 		L_1 = UnityUtilContainer_Instance_mBEB1BE2054288BB0C3DCD4BCCBBB90DB48EBD860(NULL);
@@ -30621,7 +28563,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceFactory_AddProductServiceD
 		RetryService__ctor_mF5D5020CA5EFC3F9483E04E3828A5EB57641A127(L_2, L_1, NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_0, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:65>
 		RuntimeObject* L_3 = ___1_di;
 		RuntimeObject* L_4 = ___0_store;
 		NullCheck(L_4);
@@ -30629,24 +28570,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductServiceFactory_AddProductServiceD
 		L_5 = InterfaceFuncInvoker0< Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8* >::Invoke(0, IStoreWrapper_t0FB353744DBE496942B823F02655E331B7D2E789_il2cpp_TypeInfo_var, L_4);
 		NullCheck(L_3);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_3, L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:66>
 		RuntimeObject* L_6 = ___1_di;
 		RuntimeObject* L_7 = ___0_store;
 		NullCheck(L_6);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_6, L_7);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:67>
 		RuntimeObject* L_8 = ___1_di;
 		NullCheck(L_8);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisFetchProductsUseCase_tB999B8EA0DDA2FA57AD26298C2064B6F7D89D664_mE08D99F15B1066F648FEEDD62BC24938C922A247_RuntimeMethod_var, L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:68>
 		RuntimeObject* L_9 = ___1_di;
 		NullCheck(L_9);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisProductService_t593738048B6845C91DA73CE3C06278A052F2535A_m67E157E948CEB69788A857077BA5618E1E5702B0_RuntimeMethod_var, L_9);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:69>
 		return;
 	}
 }
-// Method Definition Index: 89931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleStoreExtendedProductService_t117E7DCBE1444273630CDE4B76E6FF2572E9C042* ProductServiceFactory_CreateAppleProductService_mFB378A07D86455880127F48B622A1590EAC7F3F6 (RuntimeObject* ___0_store, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30674,7 +28610,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleStoreExtendedProductService_t117E7DCBE14
 	AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* G_B1_0 = NULL;
 	RuntimeObject* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:74>
 		RuntimeObject* L_0 = ___0_store;
 		NullCheck(L_0);
 		Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8* L_1;
@@ -30703,7 +28638,6 @@ IL_0012:
 IL_0017:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:75>
 		RuntimeObject* L_4 = V_0;
 		if (L_4)
 		{
@@ -30711,7 +28645,6 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:77>
 		Exception_t* L_5 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral23F639ADE6905D77FF153F8011B6E43685261970)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ProductServiceFactory_CreateAppleProductService_mFB378A07D86455880127F48B622A1590EAC7F3F6_RuntimeMethod_var)));
@@ -30719,29 +28652,23 @@ IL_0017:
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:80>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_6 = (DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D*)il2cpp_codegen_object_new(DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D_il2cpp_TypeInfo_var);
 		DependencyInjectionService__ctor_m139C1394C0B0DA0624D03A67B6ECB1E9E26C52F8(L_6, NULL);
 		V_1 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:82>
 		RuntimeObject* L_7 = V_1;
 		RuntimeObject* L_8 = V_0;
 		NullCheck(L_7);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_7, L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:83>
 		RuntimeObject* L_9 = V_1;
 		RuntimeObject* L_10 = ___0_store;
 		NullCheck(L_9);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_9, L_10);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:84>
 		RuntimeObject* L_11 = V_1;
 		NullCheck(L_11);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisFetchStorePromotionOrderUseCase_t37C4970FBE030B75FA670356EDD5414AC32ECABE_m37D3046597C3319CDDC87E72D4A23AF3FFA27A86_RuntimeMethod_var, L_11);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:85>
 		RuntimeObject* L_12 = V_1;
 		NullCheck(L_12);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisFetchStorePromotionVisibilityUseCase_t48ADA9B3BF6C7EA99229CB0E311C5617871827B5_m302B92B22189920E9B953BA53F7C29206E225BEE_RuntimeMethod_var, L_12);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:86>
 		RuntimeObject* L_13 = V_1;
 		StoreFactory_t4D683356716139EAF019284712C961E526F5C663* L_14;
 		L_14 = StoreFactory_Instance_m2F5F04638558BEA6D1FA5FB9931C8E9353EE18CD(NULL);
@@ -30749,39 +28676,30 @@ IL_0026:
 		RuntimeObject* L_15 = L_14->___TelemetryDiagnosticsInstanceWrapper;
 		NullCheck(L_13);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_13, L_15);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:87>
 		RuntimeObject* L_16 = V_1;
 		NullCheck(L_16);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisTelemetryDiagnostics_t9696CF18DA832145796506DC55B3E3EA948BE0F3_m3A3E690382130A275C8FBF5061E5C55636EB0029_RuntimeMethod_var, L_16);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:88>
 		RuntimeObject* L_17 = V_1;
 		NullCheck(L_17);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisAppleFetchProductsService_tBC594A315D8B61B7317C3907193734530BD7689E_m615F0F7D151731C89F29B5CB3DBA914251D1CCFA_RuntimeMethod_var, L_17);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:89>
 		RuntimeObject* L_18 = V_1;
 		NullCheck(L_18);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGetIntroductoryPriceDictionaryUseCase_t43D91EC284BF237B7667679754F2F649D874F28D_mEBFD17B4EA9B9DF46610AD22484BAD3BBE654FC1_RuntimeMethod_var, L_18);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:90>
 		RuntimeObject* L_19 = V_1;
 		NullCheck(L_19);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGetProductDetailsUseCase_tB41BA2F4891BC25B1F7B0EFB25701CBF0C71B512_mA560A4061108FD4B6326192F99DB5EF5AF3C9EAD_RuntimeMethod_var, L_19);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:91>
 		RuntimeObject* L_20 = V_1;
 		NullCheck(L_20);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisSetStorePromotionOrderUseCase_tFFCA78690D9C7F601A0649161B535EB76580CFB3_mA9CD2F75E8776661D941E68A0C54426AD5C7B23E_RuntimeMethod_var, L_20);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:92>
 		RuntimeObject* L_21 = V_1;
 		NullCheck(L_21);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisSetStorePromotionVisibilityUseCase_t9D056F6C0327FDAFB1FDCC54B06E3BEC3B302D79_m6D19A104CE0B936F333DD513ECF0827120E63318_RuntimeMethod_var, L_21);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:94>
 		RuntimeObject* L_22 = ___0_store;
 		RuntimeObject* L_23 = V_1;
 		ProductServiceFactory_AddProductServiceDependencies_mCC28B7C0945225568017406FE422B02153147E3A(L_22, L_23, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:95>
 		RuntimeObject* L_24 = V_1;
 		NullCheck(L_24);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisAppleStoreExtendedProductService_t117E7DCBE1444273630CDE4B76E6FF2572E9C042_m042C97B12446A59CBDCB377C8EF758E03277E274_RuntimeMethod_var, L_24);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:97>
 		RuntimeObject* L_25 = V_1;
 		NullCheck(L_25);
 		AppleStoreExtendedProductService_t117E7DCBE1444273630CDE4B76E6FF2572E9C042* L_26;
@@ -30797,7 +28715,6 @@ IL_0026:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m2AB44B81779DA1FE2D6736E7A4CE87B58A12E496 (U3CU3Ec__DisplayClass4_0_t42C7C6664F1F0209051308A62598E7FF0C0CCD3F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30805,7 +28722,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m2AB44B81
 		return;
 	}
 }
-// Method Definition Index: 89933
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass4_0_U3CRegisterNewServiceU3Eg__CreateCustomProductServiceDiscardParamsU7C0_mE471DC4217ACB28D1FCDDDD33516CFB2F6BFC824 (U3CU3Ec__DisplayClass4_0_t42C7C6664F1F0209051308A62598E7FF0C0CCD3F* __this, RuntimeObject* ___0_storeWrapper, const RuntimeMethod* method) 
 {
 	Func_1_t3A4F8CABF9549326F3CECEEDE566E16C2D2E250E* G_B2_0 = NULL;
@@ -30814,7 +28730,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass4_0_U3CRe
 	RuntimeObject* G_B5_0 = NULL;
 	RuntimeObject* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:33>
 		Func_1_t3A4F8CABF9549326F3CECEEDE566E16C2D2E250E* L_0 = __this->___createFunction;
 		Func_1_t3A4F8CABF9549326F3CECEEDE566E16C2D2E250E* L_1 = L_0;
 		if (L_1)
@@ -30866,7 +28781,6 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89934
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m00F6CF0E3050B2F5219A3129E1E579553C55B182 (U3CU3Ec__DisplayClass5_0_tAE0AC9AF9B6145B4D158AC5A5A537F14EA0BB260* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30874,7 +28788,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m00F6CF0E
 		return;
 	}
 }
-// Method Definition Index: 89935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass5_0_U3CRegisterNewExtendedServiceU3Eg__CreateCustomProductServiceDiscardParamsU7C0_m55C0019BB1D801AB51493D094E612C21C6FA41F1 (U3CU3Ec__DisplayClass5_0_tAE0AC9AF9B6145B4D158AC5A5A537F14EA0BB260* __this, RuntimeObject* ___0_storeWrapper, const RuntimeMethod* method) 
 {
 	Func_2_tE47E98917AF978AE03B7A0423A41ACAB2EF28320* G_B2_0 = NULL;
@@ -30883,7 +28796,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass5_0_U3CRe
 	ExtensibleProductService_t49604AC92A8E3731998AC81618DEB0DACC560029* G_B5_0 = NULL;
 	ExtensibleProductService_t49604AC92A8E3731998AC81618DEB0DACC560029* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Product/ProductServiceFactory.cs:43>
 		Func_2_tE47E98917AF978AE03B7A0423A41ACAB2EF28320* L_0 = __this->___createFunction;
 		Func_2_tE47E98917AF978AE03B7A0423A41ACAB2EF28320* L_1 = L_0;
 		if (L_1)
@@ -30938,7 +28850,6 @@ IL_0022:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89936
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceDependencyFactoryInjector_SetStoreManagerFactory_m65DE94A701551BFDF999E0E9F9156556A6F886FE (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30948,15 +28859,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceDependencyFactoryInjector
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceDependencyFactoryInjector.cs:8>
 		PurchaseServiceFactoryManager_tFBECE6F154C295A6DE066C3CAA42CD7265B4D2EA* L_0;
 		L_0 = PurchaseServiceFactoryManager_Instance_mF1A7B0524774EAED84DF8431EEE1BD2F9577E84E(NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceDependencyFactoryInjector.cs:9>
 		PurchaseServiceFactory_tBA8B1539E42988F4818021B6E487118B7E111DED* L_1;
 		L_1 = PurchaseServiceFactory_Instance_mF748B298EB64C5BB7F56E52C33D2F26CD95168EC(NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IPurchaseServiceFactoryManagerInjectionPoint_tC52AD2BEA5C8111AB03EB7410AE5885A0C4D66BB_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceDependencyFactoryInjector.cs:10>
 		return;
 	}
 }
@@ -30968,7 +28876,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceDependencyFactoryInjector
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89937
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PurchaseServiceFactory_tBA8B1539E42988F4818021B6E487118B7E111DED* PurchaseServiceFactory_Instance_mF748B298EB64C5BB7F56E52C33D2F26CD95168EC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30980,7 +28887,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PurchaseServiceFactory_tBA8B1539E42988F481802
 	PurchaseServiceFactory_tBA8B1539E42988F4818021B6E487118B7E111DED* G_B2_0 = NULL;
 	PurchaseServiceFactory_tBA8B1539E42988F4818021B6E487118B7E111DED* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:25>
 		PurchaseServiceFactory_tBA8B1539E42988F4818021B6E487118B7E111DED* L_0 = ((PurchaseServiceFactory_tBA8B1539E42988F4818021B6E487118B7E111DED_StaticFields*)il2cpp_codegen_static_fields_for(PurchaseServiceFactory_tBA8B1539E42988F4818021B6E487118B7E111DED_il2cpp_TypeInfo_var))->___s_Instance;
 		PurchaseServiceFactory_tBA8B1539E42988F4818021B6E487118B7E111DED* L_1 = L_0;
 		if (L_1)
@@ -31004,7 +28910,6 @@ IL_0014:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 89938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceFactory__ctor_m463D2F2206F247A9B1A68E2167A22887D301D7A7 (PurchaseServiceFactory_tBA8B1539E42988F4818021B6E487118B7E111DED* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31022,36 +28927,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceFactory__ctor_m463D2F2206
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:21>
 		Dictionary_2_tF9FC20829DA9657442F688B90B815CFE9530BE49* L_0 = (Dictionary_2_tF9FC20829DA9657442F688B90B815CFE9530BE49*)il2cpp_codegen_object_new(Dictionary_2_tF9FC20829DA9657442F688B90B815CFE9530BE49_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mB85482651393B76CA7E1CCC87754ECA1B36B3D0A(L_0, Dictionary_2__ctor_mB85482651393B76CA7E1CCC87754ECA1B36B3D0A_RuntimeMethod_var);
 		__this->___m_PurchaseServiceInstantiationByName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PurchaseServiceInstantiationByName), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:28>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:30>
 		Dictionary_2_tF9FC20829DA9657442F688B90B815CFE9530BE49* L_1 = __this->___m_PurchaseServiceInstantiationByName;
 		Func_2_t38F4DA5D2237A699300D7F77B71DF965E4A49984* L_2 = (Func_2_t38F4DA5D2237A699300D7F77B71DF965E4A49984*)il2cpp_codegen_object_new(Func_2_t38F4DA5D2237A699300D7F77B71DF965E4A49984_il2cpp_TypeInfo_var);
 		Func_2__ctor_m88EB8461D47C1A595B22D5D06175064A59479374(L_2, NULL, (intptr_t)((void*)PurchaseServiceFactory_CreateGooglePurchaseService_m4854187DBE27D4B3B0B3CEFF9DF2ADAD0D206EA8_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		Dictionary_2_Add_mF692B7F4FEAD6F7770E219D25946F7872EA411F6(L_1, _stringLiteral6079AE2B62685587AFC3A5F43EAFD2948D574952, L_2, Dictionary_2_Add_mF692B7F4FEAD6F7770E219D25946F7872EA411F6_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:31>
 		Dictionary_2_tF9FC20829DA9657442F688B90B815CFE9530BE49* L_3 = __this->___m_PurchaseServiceInstantiationByName;
 		Func_2_t38F4DA5D2237A699300D7F77B71DF965E4A49984* L_4 = (Func_2_t38F4DA5D2237A699300D7F77B71DF965E4A49984*)il2cpp_codegen_object_new(Func_2_t38F4DA5D2237A699300D7F77B71DF965E4A49984_il2cpp_TypeInfo_var);
 		Func_2__ctor_m88EB8461D47C1A595B22D5D06175064A59479374(L_4, NULL, (intptr_t)((void*)PurchaseServiceFactory_CreateApplePurchaseService_mD7A0F14E7A39C3E02FEE75BECC93B92E4C4F953E_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		Dictionary_2_Add_mF692B7F4FEAD6F7770E219D25946F7872EA411F6(L_3, _stringLiteral7535A877CC7A258810A546BD47780403A6033D8F, L_4, Dictionary_2_Add_mF692B7F4FEAD6F7770E219D25946F7872EA411F6_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:32>
 		Dictionary_2_tF9FC20829DA9657442F688B90B815CFE9530BE49* L_5 = __this->___m_PurchaseServiceInstantiationByName;
 		Func_2_t38F4DA5D2237A699300D7F77B71DF965E4A49984* L_6 = (Func_2_t38F4DA5D2237A699300D7F77B71DF965E4A49984*)il2cpp_codegen_object_new(Func_2_t38F4DA5D2237A699300D7F77B71DF965E4A49984_il2cpp_TypeInfo_var);
 		Func_2__ctor_m88EB8461D47C1A595B22D5D06175064A59479374(L_6, NULL, (intptr_t)((void*)PurchaseServiceFactory_CreateApplePurchaseService_mD7A0F14E7A39C3E02FEE75BECC93B92E4C4F953E_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		Dictionary_2_Add_mF692B7F4FEAD6F7770E219D25946F7872EA411F6(L_5, _stringLiteralD3FA52E2FCB7530CC7BD3604D153C81F34D48B93, L_6, Dictionary_2_Add_mF692B7F4FEAD6F7770E219D25946F7872EA411F6_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:33>
 		return;
 	}
 }
-// Method Definition Index: 89939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceFactory_RegisterNewService_m176649AE08CD402440D5BA29521C66010BE5A1C5 (PurchaseServiceFactory_tBA8B1539E42988F4818021B6E487118B7E111DED* __this, String_t* ___0_name, Func_1_tFFDD28FA2C3B7DBBB0B3937812C2803B1E2228D5* ___1_createFunction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31073,7 +28971,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceFactory_RegisterNewServic
 		NullCheck(L_1);
 		L_1->___createFunction = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___createFunction), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:42>
 		Dictionary_2_tF9FC20829DA9657442F688B90B815CFE9530BE49* L_3 = __this->___m_PurchaseServiceInstantiationByName;
 		String_t* L_4 = ___0_name;
 		U3CU3Ec__DisplayClass4_0_t49BD1C1C6A720F67D9019113A8858AB34EE57F26* L_5 = V_0;
@@ -31081,11 +28978,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceFactory_RegisterNewServic
 		Func_2__ctor_m88EB8461D47C1A595B22D5D06175064A59479374(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass4_0_U3CRegisterNewServiceU3Eg__CreateCustomProductServiceDiscardParamsU7C0_m4CAEBA33284CCF0ACE1F72C9B2B743F6A6078697_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		Dictionary_2_Add_mF692B7F4FEAD6F7770E219D25946F7872EA411F6(L_3, L_4, L_6, Dictionary_2_Add_mF692B7F4FEAD6F7770E219D25946F7872EA411F6_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 89940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceFactory_RegisterNewExtendedService_m2367EB9CEEA1A43889927655D6068E9E9CD399BC (PurchaseServiceFactory_tBA8B1539E42988F4818021B6E487118B7E111DED* __this, String_t* ___0_name, Func_2_t0B87A485757B6280EEA0C7FD90CA730C3142C9A9* ___1_createFunction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31107,7 +29002,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceFactory_RegisterNewExtend
 		NullCheck(L_1);
 		L_1->___createFunction = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___createFunction), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:52>
 		Dictionary_2_tF9FC20829DA9657442F688B90B815CFE9530BE49* L_3 = __this->___m_PurchaseServiceInstantiationByName;
 		String_t* L_4 = ___0_name;
 		U3CU3Ec__DisplayClass5_0_tA927A0EFD7309820506948984DACD747D904AFAF* L_5 = V_0;
@@ -31115,11 +29009,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceFactory_RegisterNewExtend
 		Func_2__ctor_m88EB8461D47C1A595B22D5D06175064A59479374(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3CRegisterNewExtendedServiceU3Eg__CreateCustomProductServiceDiscardParamsU7C0_mE71F138E6F30D1DC03C70F2234AEC176A70733C2_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		Dictionary_2_Add_mF692B7F4FEAD6F7770E219D25946F7872EA411F6(L_3, L_4, L_6, Dictionary_2_Add_mF692B7F4FEAD6F7770E219D25946F7872EA411F6_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:53>
 		return;
 	}
 }
-// Method Definition Index: 89941
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PurchaseServiceFactory_Create_m155D2D67EA03113410C3FB1858343321DE751DC1 (PurchaseServiceFactory_tBA8B1539E42988F4818021B6E487118B7E111DED* __this, RuntimeObject* ___0_store, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31137,7 +29029,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PurchaseServiceFactory_Create_
 	RuntimeObject* G_B7_0 = NULL;
 	RuntimeObject* G_B6_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:57>
 		Dictionary_2_tF9FC20829DA9657442F688B90B815CFE9530BE49* L_0 = __this->___m_PurchaseServiceInstantiationByName;
 		RuntimeObject* L_1 = ___0_store;
 		NullCheck(L_1);
@@ -31214,7 +29105,6 @@ IL_0045:
 		return G_B7_0;
 	}
 }
-// Method Definition Index: 89942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PurchaseService_tA32C67F8193AAE937E736946E3BB1B5DE025A57B* PurchaseServiceFactory_CreateDefaultPurchaseService_mE31CDD1C9632D174F75C9819042CCB69E100C9FF (RuntimeObject* ___0_store, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31227,19 +29117,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PurchaseService_tA32C67F8193AAE937E736946E3BB
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:62>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_0 = (DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D*)il2cpp_codegen_object_new(DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D_il2cpp_TypeInfo_var);
 		DependencyInjectionService__ctor_m139C1394C0B0DA0624D03A67B6ECB1E9E26C52F8(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:63>
 		RuntimeObject* L_1 = ___0_store;
 		RuntimeObject* L_2 = V_0;
 		PurchaseServiceFactory_AddPurchaseServiceDependencies_m6D95E7C37472BF1DED7D5E7908705D5B34510923(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:64>
 		RuntimeObject* L_3 = V_0;
 		NullCheck(L_3);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisPurchaseService_tA32C67F8193AAE937E736946E3BB1B5DE025A57B_m9B53DF1FF2ADF59B4FA54261BA38DB1EB0CD7C33_RuntimeMethod_var, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:65>
 		RuntimeObject* L_4 = V_0;
 		NullCheck(L_4);
 		PurchaseService_tA32C67F8193AAE937E736946E3BB1B5DE025A57B* L_5;
@@ -31247,7 +29133,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PurchaseService_tA32C67F8193AAE937E736946E3BB
 		return L_5;
 	}
 }
-// Method Definition Index: 89943
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceFactory_AddPurchaseServiceDependencies_m6D95E7C37472BF1DED7D5E7908705D5B34510923 (RuntimeObject* ___0_store, RuntimeObject* ___1_di, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31265,12 +29150,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceFactory_AddPurchaseServic
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:70>
 		RuntimeObject* L_0 = ___1_di;
 		RuntimeObject* L_1 = ___0_store;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:71>
 		RuntimeObject* L_2 = ___1_di;
 		RuntimeObject* L_3 = ___0_store;
 		NullCheck(L_3);
@@ -31278,11 +29161,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceFactory_AddPurchaseServic
 		L_4 = InterfaceFuncInvoker0< Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8* >::Invoke(0, IStoreWrapper_t0FB353744DBE496942B823F02655E331B7D2E789_il2cpp_TypeInfo_var, L_3);
 		NullCheck(L_2);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_2, L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:72>
 		RuntimeObject* L_5 = ___1_di;
 		NullCheck(L_5);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisFetchPurchasesUseCase_tAF4721C6DB44BB009DBDE41C6B31DC6AC887B64C_mF9E50172DCDF770BD3C4263225B8849C36F8F8CB_RuntimeMethod_var, L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:73>
 		RuntimeObject* L_6 = ___1_di;
 		RuntimeObject* L_7 = ___0_store;
 		NullCheck(L_7);
@@ -31298,41 +29179,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceFactory_AddPurchaseServic
 		L_12 = PurchaseUseCaseFactory_Create_mB91F208AC90FD8A6AC3FFBFF32455A027E0783C3(L_8, L_11, NULL);
 		NullCheck(L_6);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_6, L_12);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:74>
 		RuntimeObject* L_13 = ___1_di;
 		NullCheck(L_13);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisConfirmOrderUseCase_t975D0DB6A83A909369A669B7D4F272D16F63B33C_mDDCC76A81C2350CE7D753A716726F5117235D5F5_RuntimeMethod_var, L_13);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:75>
 		RuntimeObject* L_14 = ___1_di;
 		NullCheck(L_14);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisCheckEntitlementUseCase_t11A0099AA2E65B13C29A51151B09D167FC63E2C2_m949BCA4840765873EDB1F04E6240A40D5D0D6FCE_RuntimeMethod_var, L_14);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:76>
 		RuntimeObject* L_15 = ___1_di;
 		NullCheck(L_15);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisOnEntitlementRevokedUseCase_t7247ECE9CBE5A77F1DC8A4BDD3F3BC8923E1E8E8_m82BDA3963CB45B38651CCED0C0A9CA41517AB8EB_RuntimeMethod_var, L_15);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:77>
 		RuntimeObject* L_16 = ___1_di;
 		NullCheck(L_16);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisAnalyticsClient_t08E19D85E0B9DDF7837CEB7DA58BB0FB50C07E12_m934E389638B71D49BACEC9DF433DB2F23533F44B_RuntimeMethod_var, L_16);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:78>
 		RuntimeObject* L_17 = ___1_di;
 		NullCheck(L_17);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisAppleRefreshAppReceiptUseCase_t349126EC10F41CA1B136BD4A69FF4D66FE4540C9_mF801E58071467512B1C6C2C138E9EA041053A7D2_RuntimeMethod_var, L_17);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:98>
 		RuntimeObject* L_18 = ___1_di;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		RuntimeObject* L_19;
 		L_19 = Debug_get_unityLogger_m4FDE4D41C187123244FE13124DA636BB50C9C1E1_inline(NULL);
 		NullCheck(L_18);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_18, L_19);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:99>
 		RuntimeObject* L_20 = ___1_di;
 		PurchaseServiceFactory_AddAnalyticsDependencies_m296F6AFE8E6AD21B42D0AA72EFACD1DCD7563ADE(L_20, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:100>
 		return;
 	}
 }
-// Method Definition Index: 89944
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceFactory_AddAnalyticsDependencies_m296F6AFE8E6AD21B42D0AA72EFACD1DCD7563ADE (RuntimeObject* ___0_di, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31342,15 +29214,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseServiceFactory_AddAnalyticsDepen
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:111>
 		RuntimeObject* L_0 = ___0_di;
 		NullCheck(L_0);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisEmptyAnalyticsAdapter_t39584EBA9FA9221A29573EA761809B6A63D6849E_m3E1A9753EF731502FCA8BD27ECCAE48311F60C01_RuntimeMethod_var, L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:113>
 		return;
 	}
 }
-// Method Definition Index: 89945
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GooglePlayStoreExtendedPurchaseService_t67112E175FFC65AB0E074DCD2948014F1E02E88C* PurchaseServiceFactory_CreateGooglePurchaseService_m4854187DBE27D4B3B0B3CEFF9DF2ADAD0D206EA8 (RuntimeObject* ___0_store, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31366,15 +29235,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GooglePlayStoreExtendedPurchaseService_t67112
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:117>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_0 = (DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D*)il2cpp_codegen_object_new(DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D_il2cpp_TypeInfo_var);
 		DependencyInjectionService__ctor_m139C1394C0B0DA0624D03A67B6ECB1E9E26C52F8(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:119>
 		RuntimeObject* L_1 = V_0;
 		NullCheck(L_1);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayRestoreTransactionUseCase_tE9B2DD70C41C1C40A4768AF7CAAFCF00B2EA7E5D_m575DC6F1E36147FD0333370783BDA1AA9EB4DBAB_RuntimeMethod_var, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:120>
 		RuntimeObject* L_2 = V_0;
 		StoreFactory_t4D683356716139EAF019284712C961E526F5C663* L_3;
 		L_3 = StoreFactory_Instance_m2F5F04638558BEA6D1FA5FB9931C8E9353EE18CD(NULL);
@@ -31382,19 +29248,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GooglePlayStoreExtendedPurchaseService_t67112
 		RuntimeObject* L_4 = L_3->___TelemetryDiagnosticsInstanceWrapper;
 		NullCheck(L_2);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_2, L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:121>
 		RuntimeObject* L_5 = V_0;
 		NullCheck(L_5);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisTelemetryDiagnostics_t9696CF18DA832145796506DC55B3E3EA948BE0F3_m3A3E690382130A275C8FBF5061E5C55636EB0029_RuntimeMethod_var, L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:123>
 		RuntimeObject* L_6 = ___0_store;
 		RuntimeObject* L_7 = V_0;
 		PurchaseServiceFactory_AddPurchaseServiceDependencies_m6D95E7C37472BF1DED7D5E7908705D5B34510923(L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:124>
 		RuntimeObject* L_8 = V_0;
 		NullCheck(L_8);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayStoreExtendedPurchaseService_t67112E175FFC65AB0E074DCD2948014F1E02E88C_mBBC5A64137301BDED8433F440BB2E80C36C9F93D_RuntimeMethod_var, L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:126>
 		RuntimeObject* L_9 = V_0;
 		NullCheck(L_9);
 		GooglePlayStoreExtendedPurchaseService_t67112E175FFC65AB0E074DCD2948014F1E02E88C* L_10;
@@ -31402,7 +29264,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GooglePlayStoreExtendedPurchaseService_t67112
 		return L_10;
 	}
 }
-// Method Definition Index: 89946
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleStoreExtendedPurchaseService_t40CCAC0C4DD434BDE35AFB84B680C696FAC6FC06* PurchaseServiceFactory_CreateApplePurchaseService_mD7A0F14E7A39C3E02FEE75BECC93B92E4C4F953E (RuntimeObject* ___0_store, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31428,7 +29289,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleStoreExtendedPurchaseService_t40CCAC0C4D
 	AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* G_B1_0 = NULL;
 	RuntimeObject* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:131>
 		RuntimeObject* L_0 = ___0_store;
 		NullCheck(L_0);
 		Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8* L_1;
@@ -31457,7 +29317,6 @@ IL_0012:
 IL_0017:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:132>
 		RuntimeObject* L_4 = V_0;
 		if (L_4)
 		{
@@ -31465,7 +29324,6 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:134>
 		Exception_t* L_5 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral23F639ADE6905D77FF153F8011B6E43685261970)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&PurchaseServiceFactory_CreateApplePurchaseService_mD7A0F14E7A39C3E02FEE75BECC93B92E4C4F953E_RuntimeMethod_var)));
@@ -31473,48 +29331,37 @@ IL_0017:
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:137>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_6 = (DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D*)il2cpp_codegen_object_new(DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D_il2cpp_TypeInfo_var);
 		DependencyInjectionService__ctor_m139C1394C0B0DA0624D03A67B6ECB1E9E26C52F8(L_6, NULL);
 		V_1 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:139>
 		RuntimeObject* L_7 = V_1;
 		RuntimeObject* L_8 = V_0;
 		NullCheck(L_7);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_7, L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:140>
 		RuntimeObject* L_9 = V_1;
 		NullCheck(L_9);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisAppReceiptUseCase_tD67CA43290DE93F4AC3FA34D4B93D024C93FBC4B_m5BFD6B5D8CA869EB59640F5BDE0B4B4F621FCAD0_RuntimeMethod_var, L_9);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:141>
 		RuntimeObject* L_10 = V_1;
 		NullCheck(L_10);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisContinuePromotionalPurchasesUseCase_tC287244E1CB9346314A4293220218AE9BDDFABF8_m8A823F170F0CDC0D32355A89456779A9593D5BF8_RuntimeMethod_var, L_10);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:142>
 		RuntimeObject* L_11 = V_1;
 		NullCheck(L_11);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisPresentCodeRedemptionSheetUseCase_t1B9A1605F0976BF3016728FE0505D043B30F3FD6_m013274CEA7DA4C5ED3FC96464E00906AC64042C7_RuntimeMethod_var, L_11);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:143>
 		RuntimeObject* L_12 = V_1;
 		NullCheck(L_12);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisAppleRestoreTransactionsUseCase_t7D30E2DB9D52FDDA1AD6DA44C1C8FC61C77D9D1A_m3F9F297EB9C32A484A3D51C70370ABEDD72790F5_RuntimeMethod_var, L_12);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:144>
 		RuntimeObject* L_13 = V_1;
 		NullCheck(L_13);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisSetPromotionalPurchaseInterceptorCallbackUseCase_t3F098D096B662588687A2386BA19EF56B2B84069_m26AAED87228514A9A59AFA32D44837F6431D152D_RuntimeMethod_var, L_13);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:145>
 		RuntimeObject* L_14 = V_1;
 		NullCheck(L_14);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisSimulateAskToBuyUseCase_t2D30F910CB5D2EC5C1D0D01CEA1EA3AA910D11F3_m338D548296887BBB242946F74195BEFBA03B081B_RuntimeMethod_var, L_14);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:147>
 		RuntimeObject* L_15 = ___0_store;
 		RuntimeObject* L_16 = V_1;
 		PurchaseServiceFactory_AddPurchaseServiceDependencies_m6D95E7C37472BF1DED7D5E7908705D5B34510923(L_15, L_16, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:148>
 		RuntimeObject* L_17 = V_1;
 		NullCheck(L_17);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisAppleStoreExtendedPurchaseService_t40CCAC0C4DD434BDE35AFB84B680C696FAC6FC06_m2E0B52B6FFC9BEB78DD376F3D5AC5C35CDFF835F_RuntimeMethod_var, L_17);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:150>
 		RuntimeObject* L_18 = V_1;
 		NullCheck(L_18);
 		AppleStoreExtendedPurchaseService_t40CCAC0C4DD434BDE35AFB84B680C696FAC6FC06* L_19;
@@ -31530,7 +29377,6 @@ IL_0026:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89947
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m78F9EC29F18B0D058AC3EA9184C2EE0035D5EC2F (U3CU3Ec__DisplayClass4_0_t49BD1C1C6A720F67D9019113A8858AB34EE57F26* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31538,7 +29384,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m78F9EC29
 		return;
 	}
 }
-// Method Definition Index: 89948
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass4_0_U3CRegisterNewServiceU3Eg__CreateCustomProductServiceDiscardParamsU7C0_m4CAEBA33284CCF0ACE1F72C9B2B743F6A6078697 (U3CU3Ec__DisplayClass4_0_t49BD1C1C6A720F67D9019113A8858AB34EE57F26* __this, RuntimeObject* ___0_storeWrapper, const RuntimeMethod* method) 
 {
 	Func_1_tFFDD28FA2C3B7DBBB0B3937812C2803B1E2228D5* G_B2_0 = NULL;
@@ -31547,7 +29392,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass4_0_U3CRe
 	RuntimeObject* G_B5_0 = NULL;
 	RuntimeObject* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:39>
 		Func_1_tFFDD28FA2C3B7DBBB0B3937812C2803B1E2228D5* L_0 = __this->___createFunction;
 		Func_1_tFFDD28FA2C3B7DBBB0B3937812C2803B1E2228D5* L_1 = L_0;
 		if (L_1)
@@ -31599,7 +29443,6 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89949
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m024881E8E4A6EFB4A649A12333CF4BFDE6E45E7F (U3CU3Ec__DisplayClass5_0_tA927A0EFD7309820506948984DACD747D904AFAF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -31607,7 +29450,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m024881E8
 		return;
 	}
 }
-// Method Definition Index: 89950
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass5_0_U3CRegisterNewExtendedServiceU3Eg__CreateCustomProductServiceDiscardParamsU7C0_mE71F138E6F30D1DC03C70F2234AEC176A70733C2 (U3CU3Ec__DisplayClass5_0_tA927A0EFD7309820506948984DACD747D904AFAF* __this, RuntimeObject* ___0_storeWrapper, const RuntimeMethod* method) 
 {
 	Func_2_t0B87A485757B6280EEA0C7FD90CA730C3142C9A9* G_B2_0 = NULL;
@@ -31616,7 +29458,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass5_0_U3CRe
 	ExtensiblePurchaseService_t20C36BBF051B9F9FDAFF8C8FEA80F953A5770191* G_B5_0 = NULL;
 	ExtensiblePurchaseService_t20C36BBF051B9F9FDAFF8C8FEA80F953A5770191* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Purchasing/PurchaseServiceFactory.cs:49>
 		Func_2_t0B87A485757B6280EEA0C7FD90CA730C3142C9A9* L_0 = __this->___createFunction;
 		Func_2_t0B87A485757B6280EEA0C7FD90CA730C3142C9A9* L_1 = L_0;
 		if (L_1)
@@ -31671,7 +29512,6 @@ IL_0022:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89951
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory__ctor_m1AC71B66CA57E57DE987438FD36D80E6A0F8CCCF (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, RuntimeObject* ___0_util, RuntimeObject* ___1_logger, RuntimeObject* ___2_nativeStoreProvider, RuntimeObject* ___3_telemetryDiagnosticsInstanceWrapper, RuntimeObject* ___4_telemetryMetricsInstanceWrapper, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31682,40 +29522,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory__ctor_m1AC71B66CA57E57DE987
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:25>
 		Dictionary_2_tF7CFF9BE858EEB7D662AFD3CBF269C145EBA47FF* L_0 = (Dictionary_2_tF7CFF9BE858EEB7D662AFD3CBF269C145EBA47FF*)il2cpp_codegen_object_new(Dictionary_2_tF7CFF9BE858EEB7D662AFD3CBF269C145EBA47FF_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m736B77471C42C47476D6A311C5225757A2DEF60C(L_0, Dictionary_2__ctor_m736B77471C42C47476D6A311C5225757A2DEF60C_RuntimeMethod_var);
 		__this->___m_StoreInstantiationByName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_StoreInstantiationByName), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:27>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:29>
 		RuntimeObject* L_1 = ___0_util;
 		__this->___m_Util = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Util), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:30>
 		RuntimeObject* L_2 = ___1_logger;
 		__this->___m_Logger = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Logger), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:31>
 		RuntimeObject* L_3 = ___2_nativeStoreProvider;
 		__this->___m_NativeStoreProvider = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_NativeStoreProvider), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:32>
 		RuntimeObject* L_4 = ___3_telemetryDiagnosticsInstanceWrapper;
 		__this->___TelemetryDiagnosticsInstanceWrapper = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___TelemetryDiagnosticsInstanceWrapper), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:33>
 		RuntimeObject* L_5 = ___4_telemetryMetricsInstanceWrapper;
 		__this->___TelemetryMetricsInstanceWrapper = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___TelemetryMetricsInstanceWrapper), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:34>
 		StoreFactory_RegisterBaseStores_m85DC6B36C5DF16E5DD6755D4E563D00B8DD00186(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 89952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StoreFactory_t4D683356716139EAF019284712C961E526F5C663* StoreFactory_Instance_m2F5F04638558BEA6D1FA5FB9931C8E9353EE18CD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31732,7 +29562,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StoreFactory_t4D683356716139EAF019284712C961E
 	UnityUtil_tB10963C315BF47D886342969F3E7A343BECE37DE* V_1 = NULL;
 	NativeStoreProvider_t62C06D21A45F2802CA4D7C9E600DC3DB8DBA66E0* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:39>
 		StoreFactory_t4D683356716139EAF019284712C961E526F5C663* L_0 = ((StoreFactory_t4D683356716139EAF019284712C961E526F5C663_StaticFields*)il2cpp_codegen_static_fields_for(StoreFactory_t4D683356716139EAF019284712C961E526F5C663_il2cpp_TypeInfo_var))->___s_Instance;
 		if (L_0)
 		{
@@ -31740,22 +29569,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StoreFactory_t4D683356716139EAF019284712C961E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:41>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		RuntimeObject* L_1;
 		L_1 = Debug_get_unityLogger_m4FDE4D41C187123244FE13124DA636BB50C9C1E1_inline(NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:42>
 		UnityUtil_tB10963C315BF47D886342969F3E7A343BECE37DE* L_2;
 		L_2 = UnityUtilContainer_Instance_mBEB1BE2054288BB0C3DCD4BCCBBB90DB48EBD860(NULL);
 		V_1 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:43>
 		NativeStoreProvider_t62C06D21A45F2802CA4D7C9E600DC3DB8DBA66E0* L_3 = (NativeStoreProvider_t62C06D21A45F2802CA4D7C9E600DC3DB8DBA66E0*)il2cpp_codegen_object_new(NativeStoreProvider_t62C06D21A45F2802CA4D7C9E600DC3DB8DBA66E0_il2cpp_TypeInfo_var);
 		NativeStoreProvider__ctor_m173965452066140B1D509803FA66FA64E3F31654(L_3, NULL);
 		V_2 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:44>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:45>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:46>
 		UnityUtil_tB10963C315BF47D886342969F3E7A343BECE37DE* L_4 = V_1;
 		RuntimeObject* L_5 = V_0;
 		NativeStoreProvider_t62C06D21A45F2802CA4D7C9E600DC3DB8DBA66E0* L_6 = V_2;
@@ -31775,12 +29598,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StoreFactory_t4D683356716139EAF019284712C961E
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:49>
 		StoreFactory_t4D683356716139EAF019284712C961E526F5C663* L_14 = ((StoreFactory_t4D683356716139EAF019284712C961E526F5C663_StaticFields*)il2cpp_codegen_static_fields_for(StoreFactory_t4D683356716139EAF019284712C961E526F5C663_il2cpp_TypeInfo_var))->___s_Instance;
 		return L_14;
 	}
 }
-// Method Definition Index: 89953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_RegisterBaseStores_m85DC6B36C5DF16E5DD6755D4E563D00B8DD00186 (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31798,27 +29619,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_RegisterBaseStores_m85DC6B3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:54>
 		Func_1_tBD55D64867C1E7EBA8872D3ADF65437ACE3E5BB8* L_0 = (Func_1_tBD55D64867C1E7EBA8872D3ADF65437ACE3E5BB8*)il2cpp_codegen_object_new(Func_1_tBD55D64867C1E7EBA8872D3ADF65437ACE3E5BB8_il2cpp_TypeInfo_var);
 		Func_1__ctor_mBCDF50D95196D4C94F9368E7A81873322117F1A0(L_0, __this, (intptr_t)((void*)StoreFactory_InstantiateAppleStore_m9C701D4A4D860389A4A0065E319C9F3BC264EB37_RuntimeMethod_var), NULL);
 		StoreFactory_RegisterStore_mE670A3D071CB80BDED978B136006EDAD4E1EF740(__this, _stringLiteral7535A877CC7A258810A546BD47780403A6033D8F, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:55>
 		Func_1_tBD55D64867C1E7EBA8872D3ADF65437ACE3E5BB8* L_1 = (Func_1_tBD55D64867C1E7EBA8872D3ADF65437ACE3E5BB8*)il2cpp_codegen_object_new(Func_1_tBD55D64867C1E7EBA8872D3ADF65437ACE3E5BB8_il2cpp_TypeInfo_var);
 		Func_1__ctor_mBCDF50D95196D4C94F9368E7A81873322117F1A0(L_1, __this, (intptr_t)((void*)StoreFactory_InstantiateFakeStore_mF3F35D27851C0B4918F5ECD31021D29FBA29830F_RuntimeMethod_var), NULL);
 		StoreFactory_RegisterStore_mE670A3D071CB80BDED978B136006EDAD4E1EF740(__this, _stringLiteral4F7579260D4E21D507DB3C0F00F4343D036BAE2B, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:56>
 		Func_1_tBD55D64867C1E7EBA8872D3ADF65437ACE3E5BB8* L_2 = (Func_1_tBD55D64867C1E7EBA8872D3ADF65437ACE3E5BB8*)il2cpp_codegen_object_new(Func_1_tBD55D64867C1E7EBA8872D3ADF65437ACE3E5BB8_il2cpp_TypeInfo_var);
 		Func_1__ctor_mBCDF50D95196D4C94F9368E7A81873322117F1A0(L_2, __this, (intptr_t)((void*)StoreFactory_InstantiateMacAppStore_mB102FF41516980D679DC0D3CE5F4C485C433FE0A_RuntimeMethod_var), NULL);
 		StoreFactory_RegisterStore_mE670A3D071CB80BDED978B136006EDAD4E1EF740(__this, _stringLiteralD3FA52E2FCB7530CC7BD3604D153C81F34D48B93, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:57>
 		Func_1_tBD55D64867C1E7EBA8872D3ADF65437ACE3E5BB8* L_3 = (Func_1_tBD55D64867C1E7EBA8872D3ADF65437ACE3E5BB8*)il2cpp_codegen_object_new(Func_1_tBD55D64867C1E7EBA8872D3ADF65437ACE3E5BB8_il2cpp_TypeInfo_var);
 		Func_1__ctor_mBCDF50D95196D4C94F9368E7A81873322117F1A0(L_3, __this, (intptr_t)((void*)StoreFactory_InstantiateGooglePlayStore_m489CF8B80983A8AB83C63D4ADFF4E0BEBCA0163F_RuntimeMethod_var), NULL);
 		StoreFactory_RegisterStore_mE670A3D071CB80BDED978B136006EDAD4E1EF740(__this, _stringLiteral6079AE2B62685587AFC3A5F43EAFD2948D574952, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:58>
 		return;
 	}
 }
-// Method Definition Index: 89954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_RegisterStore_mE670A3D071CB80BDED978B136006EDAD4E1EF740 (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, String_t* ___0_storeName, Func_1_tBD55D64867C1E7EBA8872D3ADF65437ACE3E5BB8* ___1_function, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31828,17 +29643,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_RegisterStore_mE670A3D071CB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:62>
 		Dictionary_2_tF7CFF9BE858EEB7D662AFD3CBF269C145EBA47FF* L_0 = __this->___m_StoreInstantiationByName;
 		String_t* L_1 = ___0_storeName;
 		Func_1_tBD55D64867C1E7EBA8872D3ADF65437ACE3E5BB8* L_2 = ___1_function;
 		NullCheck(L_0);
 		Dictionary_2_set_Item_mE66F9889F94A06CD41580901ED6BA8DB6138FCF3(L_0, L_1, L_2, Dictionary_2_set_Item_mE66F9889F94A06CD41580901ED6BA8DB6138FCF3_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:63>
 		return;
 	}
 }
-// Method Definition Index: 89955
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_CreateStore_m8D9335450899B72C264C7A9B4411AB6EB5B3A444 (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, String_t* ___0_storeName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31852,7 +29664,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_CreateStore_m8D93
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	try
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:69>
 		Dictionary_2_tF7CFF9BE858EEB7D662AFD3CBF269C145EBA47FF* L_0 = __this->___m_StoreInstantiationByName;
 		String_t* L_1 = ___0_storeName;
 		NullCheck(L_0);
@@ -31877,9 +29688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_CreateStore_m8D93
 CATCH_0014:
 	{
 		Exception_t* L_4 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:71>
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:73>
 		String_t* L_5 = ___0_storeName;
 		String_t* L_6;
 		L_6 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralAAC587CDEB36CBCB7E342C955E8FBD6FFC976493)), L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D)), NULL);
@@ -31892,12 +29701,10 @@ CATCH_0014:
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:75>
 		RuntimeObject* L_9 = V_0;
 		return L_9;
 	}
 }
-// Method Definition Index: 89956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_RemoveStore_m776588B8A00499802373053134F75D9A9C4F2273 (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, String_t* ___0_storeName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31907,17 +29714,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_RemoveStore_m776588B8A00499
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:80>
 		Dictionary_2_tF7CFF9BE858EEB7D662AFD3CBF269C145EBA47FF* L_0 = __this->___m_StoreInstantiationByName;
 		String_t* L_1 = ___0_storeName;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = Dictionary_2_Remove_mAFB951E4D77CEAC627A84B592778573E3773B7D2(L_0, L_1, Dictionary_2_Remove_mAFB951E4D77CEAC627A84B592778573E3773B7D2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 89957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_CreateBaseDiService_m8642B20BCF06D4257571BF6A9293DCCCA0F8EE49 (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31928,22 +29732,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_CreateBaseDiServi
 	}
 	DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:85>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_0 = (DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D*)il2cpp_codegen_object_new(DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D_il2cpp_TypeInfo_var);
 		DependencyInjectionService__ctor_m139C1394C0B0DA0624D03A67B6ECB1E9E26C52F8(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:86>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_1 = V_0;
 		StoreFactory_AddUtilsDependencies_m47459352C7B983D7DF3C6EEFA4CC370A616A077C(__this, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:87>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_2 = V_0;
 		StoreFactory_AddTelemetryDependencies_m3103EC0A1DAC0DB2CB3AE6E17E7BFE0D34581636(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:88>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_3 = V_0;
 		return L_3;
 	}
 }
-// Method Definition Index: 89958
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_AddUtilsDependencies_m47459352C7B983D7DF3C6EEFA4CC370A616A077C (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, RuntimeObject* ___0_di, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31953,21 +29752,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_AddUtilsDependencies_m47459
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:93>
 		RuntimeObject* L_0 = ___0_di;
 		RuntimeObject* L_1 = __this->___m_Util;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:94>
 		RuntimeObject* L_2 = ___0_di;
 		RuntimeObject* L_3 = __this->___m_Logger;
 		NullCheck(L_2);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_2, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:95>
 		return;
 	}
 }
-// Method Definition Index: 89959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_AddTelemetryDependencies_m3103EC0A1DAC0DB2CB3AE6E17E7BFE0D34581636 (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, RuntimeObject* ___0_di, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31979,29 +29774,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_AddTelemetryDependencies_m3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:99>
 		RuntimeObject* L_0 = ___0_di;
 		RuntimeObject* L_1 = __this->___TelemetryMetricsInstanceWrapper;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:100>
 		RuntimeObject* L_2 = ___0_di;
 		RuntimeObject* L_3 = __this->___TelemetryDiagnosticsInstanceWrapper;
 		NullCheck(L_2);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_2, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:101>
 		RuntimeObject* L_4 = ___0_di;
 		NullCheck(L_4);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisTelemetryDiagnostics_t9696CF18DA832145796506DC55B3E3EA948BE0F3_m3A3E690382130A275C8FBF5061E5C55636EB0029_RuntimeMethod_var, L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:102>
 		RuntimeObject* L_5 = ___0_di;
 		NullCheck(L_5);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisTelemetryMetricsService_tF9F2BC9AEFFCEE4A111778EB9CCBA4AA62341C0E_mB6A2DD8F9DCF3583F1BCA41ED4043B02265D5C24_RuntimeMethod_var, L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:103>
 		return;
 	}
 }
-// Method Definition Index: 89960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_InstantiateAppleStore_m9C701D4A4D860389A4A0065E319C9F3BC264EB37 (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32012,13 +29801,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_InstantiateAppleS
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:107>
 		RuntimeObject* L_0;
 		L_0 = StoreFactory_InstantiateAppleAppStore_mFA29C089B2A8B72C95A7E20A9CADF1CA10EBF9F2(__this, _stringLiteral7535A877CC7A258810A546BD47780403A6033D8F, _stringLiteral5BE65A14601C7B58025A80F178B595186A496026, NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 89961
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_InstantiateMacAppStore_mB102FF41516980D679DC0D3CE5F4C485C433FE0A (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32029,13 +29816,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_InstantiateMacApp
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:112>
 		RuntimeObject* L_0;
 		L_0 = StoreFactory_InstantiateAppleAppStore_mFA29C089B2A8B72C95A7E20A9CADF1CA10EBF9F2(__this, _stringLiteralD3FA52E2FCB7530CC7BD3604D153C81F34D48B93, _stringLiteralD8F989DED5444187D2FA111D14051AEC7C757414, NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 89962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_InstantiateAppleAppStore_mFA29C089B2A8B72C95A7E20A9CADF1CA10EBF9F2 (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, String_t* ___0_storeName, String_t* ___1_storeDisplayName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32048,27 +29833,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_InstantiateAppleA
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:117>
 		RuntimeObject* L_0;
 		L_0 = StoreFactory_CreateBaseDiService_m8642B20BCF06D4257571BF6A9293DCCCA0F8EE49(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:118>
 		RuntimeObject* L_1 = V_0;
 		String_t* L_2 = ___1_storeDisplayName;
 		AppleAppStoreCartValidator_tA4FB8D58D3E47D05087598FEF3F97D0538CC4D7E* L_3 = (AppleAppStoreCartValidator_tA4FB8D58D3E47D05087598FEF3F97D0538CC4D7E*)il2cpp_codegen_object_new(AppleAppStoreCartValidator_tA4FB8D58D3E47D05087598FEF3F97D0538CC4D7E_il2cpp_TypeInfo_var);
 		AppleAppStoreCartValidator__ctor_m804EBB441DB28BFDD501120212E3B5106E0C4813(L_3, L_2, NULL);
 		NullCheck(L_1);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_1, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:119>
 		RuntimeObject* L_4 = V_0;
 		StoreFactory_AddMetricizedAppleStoreDependencies_mF7F2F4FDABAEFF9CCC3827B769DDB13700A75598(__this, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:120>
 		RuntimeObject* L_5 = V_0;
 		NullCheck(L_5);
 		AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_6;
 		L_6 = GenericInterfaceFuncInvoker0< AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* >::Invoke(IDependencyInjectionService_GetInstance_TisAppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_mCA3C71E5D5FF7E6613F2D764A6956C25BFB78AEC_RuntimeMethod_var, L_5);
 		StoreFactory_CreateAndAssignNativeAppleStore_m1E99FBF3F87CC5F1B385C98178A264547A4218A4(__this, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:121>
 		String_t* L_7 = ___0_storeName;
 		RuntimeObject* L_8 = V_0;
 		RuntimeObject* L_9;
@@ -32076,7 +29856,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_InstantiateAppleA
 		return L_9;
 	}
 }
-// Method Definition Index: 89963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_AddMetricizedAppleStoreDependencies_mF7F2F4FDABAEFF9CCC3827B769DDB13700A75598 (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, RuntimeObject* ___0_di, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32088,25 +29867,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_AddMetricizedAppleStoreDepe
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:126>
 		RuntimeObject* L_0 = ___0_di;
 		NullCheck(L_0);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisAppleFetchProductsService_tBC594A315D8B61B7317C3907193734530BD7689E_m615F0F7D151731C89F29B5CB3DBA914251D1CCFA_RuntimeMethod_var, L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:127>
 		RuntimeObject* L_1 = ___0_di;
 		NullCheck(L_1);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisMetricizedAppleStoreImpl_t9FDC2636C667615302686AF7D2BE026AB5D20D1A_mD5485B1358653647DD2D342B334270B441AC9BB7_RuntimeMethod_var, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:128>
 		RuntimeObject* L_2 = ___0_di;
 		RuntimeObject* L_3;
 		L_3 = StoreFactory_BuildTransactionLog_m60C8795EFCA81F135D77B6948AADE9DEEE5E1E33(NULL);
 		NullCheck(L_2);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_2, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:129>
 		return;
 	}
 }
-// Method Definition Index: 89964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_BuildTransactionLog_m60C8795EFCA81F135D77B6948AADE9DEEE5E1E33 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32117,7 +29891,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_BuildTransactionL
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:133>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		String_t* L_0;
 		L_0 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
@@ -32126,7 +29899,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_BuildTransactionL
 		return L_1;
 	}
 }
-// Method Definition Index: 89965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_CreateAndAssignNativeAppleStore_m1E99FBF3F87CC5F1B385C98178A264547A4218A4 (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* ___0_store, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32137,23 +29909,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_CreateAndAssignNativeAppleS
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:138>
 		RuntimeObject* L_0 = __this->___m_NativeStoreProvider;
 		AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_1 = ___0_store;
 		NullCheck(L_0);
 		RuntimeObject* L_2;
 		L_2 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(0, INativeStoreProvider_t00CE125D48359FC07B185AD247C03659368BC941_il2cpp_TypeInfo_var, L_0, L_1);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:139>
 		AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* L_3 = ___0_store;
 		RuntimeObject* L_4 = V_0;
 		NullCheck(L_3);
 		AppleStoreImpl_SetNativeStore_mCDE69306570724FBD23E7A8788F769C77FE43690(L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:140>
 		return;
 	}
 }
-// Method Definition Index: 89966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_InstantiateFakeStore_mF3F35D27851C0B4918F5ECD31021D29FBA29830F (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32166,21 +29934,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_InstantiateFakeSt
 	int32_t V_0 = 0;
 	FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:144>
 		V_0 = 1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:151>
 		int32_t L_0 = V_0;
 		FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* L_1;
 		L_1 = StoreFactory_CreateFakeStoreByUIMode_m0DE5A20C531073AF3291A5A9E7C48B3D630A377F(__this, L_0, NULL);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:152>
 		FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* L_2 = V_1;
 		StoreWrapper_t104339D29A439B3B52E6AA124A6E7431B8B0DEE0* L_3 = (StoreWrapper_t104339D29A439B3B52E6AA124A6E7431B8B0DEE0*)il2cpp_codegen_object_new(StoreWrapper_t104339D29A439B3B52E6AA124A6E7431B8B0DEE0_il2cpp_TypeInfo_var);
 		StoreWrapper__ctor_m82156E76AF18143252B2EC8CD54BBF5976315911(L_3, _stringLiteral4F7579260D4E21D507DB3C0F00F4343D036BAE2B, L_2, NULL);
 		return L_3;
 	}
 }
-// Method Definition Index: 89967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* StoreFactory_CreateFakeStoreByUIMode_m0DE5A20C531073AF3291A5A9E7C48B3D630A377F (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, int32_t ___0_useFakeStoreUIMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32193,11 +29957,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888
 	}
 	FakeStoreCartValidator_t453E980CF187926C869989B3E79811392A4F458D* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:157>
 		FakeStoreCartValidator_t453E980CF187926C869989B3E79811392A4F458D* L_0 = (FakeStoreCartValidator_t453E980CF187926C869989B3E79811392A4F458D*)il2cpp_codegen_object_new(FakeStoreCartValidator_t453E980CF187926C869989B3E79811392A4F458D_il2cpp_TypeInfo_var);
 		FakeStoreCartValidator__ctor_mC4029E706AEB16AB42224A0CA3F1C89B15403271(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:158>
 		int32_t L_1 = ___0_useFakeStoreUIMode;
 		if (!L_1)
 		{
@@ -32205,7 +29967,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:162>
 		FakeStoreCartValidator_t453E980CF187926C869989B3E79811392A4F458D* L_2 = V_0;
 		RuntimeObject* L_3 = __this->___m_Logger;
 		UIFakeStore_t9B84AD7EFB76D715C405CE8A3F31669BA7032D15* L_4 = (UIFakeStore_t9B84AD7EFB76D715C405CE8A3F31669BA7032D15*)il2cpp_codegen_object_new(UIFakeStore_t9B84AD7EFB76D715C405CE8A3F31669BA7032D15_il2cpp_TypeInfo_var);
@@ -32219,7 +29980,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:165>
 		FakeStoreCartValidator_t453E980CF187926C869989B3E79811392A4F458D* L_7 = V_0;
 		RuntimeObject* L_8 = __this->___m_Logger;
 		FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* L_9 = (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5*)il2cpp_codegen_object_new(FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5_il2cpp_TypeInfo_var);
@@ -32227,7 +29987,6 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 89968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_InstantiateGooglePlayStore_m489CF8B80983A8AB83C63D4ADFF4E0BEBCA0163F (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32238,27 +29997,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_InstantiateGoogle
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:170>
 		RuntimeObject* L_0;
 		L_0 = StoreFactory_CreateBaseDiService_m8642B20BCF06D4257571BF6A9293DCCCA0F8EE49(__this, NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:171>
 		RuntimeObject* L_1 = V_0;
 		StoreFactory_AddGooglePlayStoreServices_m0A942704802446BA530653F0161EDF219C3827DB(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:172>
 		RuntimeObject* L_2 = V_0;
 		StoreFactory_AddGooglePlayStoreServiceAars_m8F5DA32C6A4D0E6100129C8AA0883E7B5F38A66F(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:173>
 		RuntimeObject* L_3 = V_0;
 		StoreFactory_LinkGooglePlayStoreDependencies_m77636BA605131EB44BFAEFD328B58EDD834ECA10(__this, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:175>
 		RuntimeObject* L_4 = V_0;
 		RuntimeObject* L_5;
 		L_5 = StoreFactory_CreateStoreWrapper_m4F9BBF13C023A05213BD1C1B36B07FE432413A8B(_stringLiteral6079AE2B62685587AFC3A5F43EAFD2948D574952, L_4, NULL);
 		return L_5;
 	}
 }
-// Method Definition Index: 89969
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_CreateStoreWrapper_m4F9BBF13C023A05213BD1C1B36B07FE432413A8B (String_t* ___0_storeName, RuntimeObject* ___1_di, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32269,7 +30022,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_CreateStoreWrappe
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:180>
 		String_t* L_0 = ___0_storeName;
 		RuntimeObject* L_1 = ___1_di;
 		NullCheck(L_1);
@@ -32280,7 +30032,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreFactory_CreateStoreWrappe
 		return L_3;
 	}
 }
-// Method Definition Index: 89970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_LinkGooglePlayStoreDependencies_m77636BA605131EB44BFAEFD328B58EDD834ECA10 (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, RuntimeObject* ___0_di, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32295,7 +30046,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_LinkGooglePlayStoreDependen
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:185>
 		RuntimeObject* L_0 = ___0_di;
 		NullCheck(L_0);
 		GooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0* L_1;
@@ -32306,10 +30056,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_LinkGooglePlayStoreDependen
 		L_3 = GenericInterfaceFuncInvoker0< GooglePurchasesUpdatedListener_tD37F910F43AC0055E353215A2F8EB3E845DA802F* >::Invoke(IDependencyInjectionService_GetInstance_TisGooglePurchasesUpdatedListener_tD37F910F43AC0055E353215A2F8EB3E845DA802F_mDF0737BCCA8FBB0FDA0AD4768B7D25E41C1B2719_RuntimeMethod_var, L_2);
 		NullCheck(L_1);
 		GooglePurchasesUpdatedHandler_SubscribeToPurchasesUpdatedEvent_m28B9BD0E0255C7824DEFD09E72D26FF4DD1DBC6D(L_1, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:186>
 		RuntimeObject* L_4 = ___0_di;
 		StoreFactory_LinkProductCache_mFA3E335F7695A62A5859D81462C37E9910D2B0FE(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:187>
 		RuntimeObject* L_5 = __this->___m_Util;
 		RuntimeObject* L_6 = ___0_di;
 		NullCheck(L_6);
@@ -32320,11 +30068,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_LinkGooglePlayStoreDependen
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_9, L_8, (intptr_t)((void*)GetInterfaceMethodInfo(L_8, 2, IGooglePlayStore_tC823734DB8D8AC51338B1AF6293E2913E4E3E20E_il2cpp_TypeInfo_var)), NULL);
 		NullCheck(L_5);
 		InterfaceActionInvoker1< Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* >::Invoke(23, IUtil_t7909908832446A01C893925BD0795F01D065F23E_il2cpp_TypeInfo_var, L_5, L_9);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:188>
 		return;
 	}
 }
-// Method Definition Index: 89971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_LinkProductCache_mFA3E335F7695A62A5859D81462C37E9910D2B0FE (RuntimeObject* ___0_di, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32344,7 +30090,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_LinkProductCache_mFA3E335F7
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:192>
 		RuntimeObject* L_0 = ___0_di;
 		NullCheck(L_0);
 		GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D* L_1;
@@ -32352,7 +30097,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_LinkProductCache_mFA3E335F7
 		NullCheck(L_1);
 		RuntimeObject* L_2 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)L_1)->___ProductCache;
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:193>
 		RuntimeObject* L_3 = ___0_di;
 		NullCheck(L_3);
 		RuntimeObject* L_4;
@@ -32360,7 +30104,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_LinkProductCache_mFA3E335F7
 		RuntimeObject* L_5 = V_0;
 		NullCheck(L_4);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IGooglePlayStoreFetchPurchasesService_t4FDF4E4DC1B1C646B6362994C6071DD9B0AF69E7_il2cpp_TypeInfo_var, L_4, L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:194>
 		RuntimeObject* L_6 = ___0_di;
 		NullCheck(L_6);
 		RuntimeObject* L_7;
@@ -32368,7 +30111,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_LinkProductCache_mFA3E335F7
 		RuntimeObject* L_8 = V_0;
 		NullCheck(L_7);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IGooglePlayStoreFinishTransactionService_t8C9993BA107C28BD0545288F9103BA4305632B8A_il2cpp_TypeInfo_var, L_7, L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:195>
 		RuntimeObject* L_9 = ___0_di;
 		NullCheck(L_9);
 		RuntimeObject* L_10;
@@ -32376,7 +30118,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_LinkProductCache_mFA3E335F7
 		RuntimeObject* L_11 = V_0;
 		NullCheck(L_10);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(1, IGooglePurchaseService_tECBA22EBFF0E7E34E2065AF5C0DC97DF368DB68D_il2cpp_TypeInfo_var, L_10, L_11);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:196>
 		RuntimeObject* L_12 = ___0_di;
 		NullCheck(L_12);
 		RuntimeObject* L_13;
@@ -32384,7 +30125,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_LinkProductCache_mFA3E335F7
 		RuntimeObject* L_14 = V_0;
 		NullCheck(L_13);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(1, IGooglePurchasesUpdatedHandler_t3EAEE9FF3952BB23F72B0F251D7C686F3C1967F2_il2cpp_TypeInfo_var, L_13, L_14);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:197>
 		RuntimeObject* L_15 = ___0_di;
 		NullCheck(L_15);
 		GooglePlayPurchaseCallback_t9B716FF48C7A7FA3EE451B98FD2A984397979FEE* L_16;
@@ -32392,11 +30132,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_LinkProductCache_mFA3E335F7
 		RuntimeObject* L_17 = V_0;
 		NullCheck(L_16);
 		GooglePlayPurchaseCallback_SetProductCache_m7F48205E0A17EDE4CA7136C31326246D2DD2C9C1_inline(L_16, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:198>
 		return;
 	}
 }
-// Method Definition Index: 89972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_AddGooglePlayStoreServices_m0A942704802446BA530653F0161EDF219C3827DB (RuntimeObject* ___0_di, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32417,59 +30155,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_AddGooglePlayStoreServices_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:202>
 		RuntimeObject* L_0 = ___0_di;
 		NullCheck(L_0);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisProductDetailsConverter_t3B5F595B574B4ACC2B7BFEFDC00362F57828B498_m81B322F1B5E442C6534749788C3A94ED6FC8A868_RuntimeMethod_var, L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:203>
 		RuntimeObject* L_1 = ___0_di;
 		NullCheck(L_1);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePurchaseConverter_tCA4DF370A6C73A8F842083617495DE2C48201B1C_m05199D5F4D3D488E1588D6845E8D25B81B20D6D0_RuntimeMethod_var, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:204>
 		RuntimeObject* L_2 = ___0_di;
 		NullCheck(L_2);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayPurchaseCallback_t9B716FF48C7A7FA3EE451B98FD2A984397979FEE_m8501E9A8541D14B0ADFF8BE5B0E82C7F53F25AC2_RuntimeMethod_var, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:205>
 		RuntimeObject* L_3 = ___0_di;
 		NullCheck(L_3);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayStorePurchaseService_t7CC4E3D025753C067BF58BBE2726F3214F94D303_m01361741ECDBE035CC82A1EF2C3B2C5118B5EEEC_RuntimeMethod_var, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:206>
 		RuntimeObject* L_4 = ___0_di;
 		NullCheck(L_4);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayStoreFinishTransactionService_tD6DB26D70E76DD5D064E91BE0B21E791DE495E26_mDEB91B2A8AD567C786E13BC51CD710AA1CF9978F_RuntimeMethod_var, L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:207>
 		RuntimeObject* L_5 = ___0_di;
 		NullCheck(L_5);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayStoreFetchPurchasesService_t41130E671E3422790A6563086BEE9F15889C2EFF_m424A3E88D2204EF3FAC8AA1CC4E09DEAB7C6EE5F_RuntimeMethod_var, L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:208>
 		RuntimeObject* L_6 = ___0_di;
 		NullCheck(L_6);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisTelemetryMetricsInstanceWrapper_t8BBD5E54C0ADCBF6C7F691F26D481EEB9C2AAC01_m11C3F602A9F6EBB11AF9A6B57A03DE47CF9E672C_RuntimeMethod_var, L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:209>
 		RuntimeObject* L_7 = ___0_di;
 		NullCheck(L_7);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayStoreFetchProductsService_t28A6623656FC9B06EDA8D8B3FB829408C5468D26_m48E392DB5326B6386E9EACD0F9DAD4D1D6879D30_RuntimeMethod_var, L_7);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:210>
 		RuntimeObject* L_8 = ___0_di;
 		NullCheck(L_8);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayStoreCheckEntitlementService_t78CE96F2367D2CDD1E1A16E11A20EC5685965A41_m0AC15FF34A672284A900F100AE13C74A069838AB_RuntimeMethod_var, L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:211>
 		RuntimeObject* L_9 = ___0_di;
 		NullCheck(L_9);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayStoreChangeSubscriptionService_t00C32C598D60689E18206463A8CED7E9A65397C9_mD83BB3B92A1049CE617342D3FB7137092E889E5B_RuntimeMethod_var, L_9);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:212>
 		RuntimeObject* L_10 = ___0_di;
 		NullCheck(L_10);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayCartValidator_t438FB3C9EE6E8F22283A8224AA997FB7353B2F61_mCC6ADC3A5475B2343CEEF8F8B59FC7D8B0116D4D_RuntimeMethod_var, L_10);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:213>
 		RuntimeObject* L_11 = ___0_di;
 		NullCheck(L_11);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D_m8564EE46DD28B80E48BC6EA9F489A3767D334FE7_RuntimeMethod_var, L_11);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:214>
 		return;
 	}
 }
-// Method Definition Index: 89973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_AddGooglePlayStoreServiceAars_m8F5DA32C6A4D0E6100129C8AA0883E7B5F38A66F (StoreFactory_t4D683356716139EAF019284712C961E526F5C663* __this, RuntimeObject* ___0_di, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32493,67 +30217,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_AddGooglePlayStoreServiceAa
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:218>
 		RuntimeObject* L_0 = ___0_di;
 		NullCheck(L_0);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGoogleLastKnownProductService_tE6BB08B41CE8AACB01D7927F06E15DF672A301D7_m8C5278E6FCEA2E9B69F3D826666F02B2B8462158_RuntimeMethod_var, L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:219>
 		RuntimeObject* L_1 = ___0_di;
 		NullCheck(L_1);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePurchaseStateEnumProvider_t011E4AA2923CC14A6C617ABAAD1C5AEE9FDE8029_m6B3F4AC04F8C255935509592D0A232939254CFE6_RuntimeMethod_var, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:220>
 		RuntimeObject* L_2 = ___0_di;
 		NullCheck(L_2);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePurchaseBuilder_t9338444FC120B655340FB645C403E1AA6EE78942_mD10CB4E373EE239FE13B7D3553F0F112C2C6F9B4_RuntimeMethod_var, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:221>
 		RuntimeObject* L_3 = ___0_di;
 		NullCheck(L_3);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePurchasesUpdatedListener_tD37F910F43AC0055E353215A2F8EB3E845DA802F_m6F181A549579A273356115662884D41D0B9CBE38_RuntimeMethod_var, L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:222>
 		RuntimeObject* L_4 = ___0_di;
 		NullCheck(L_4);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGoogleBillingClient_t4EEB5FBD2B0851BDD13CCDD4FA905F0CD5A9CD54_m333367A627B52DCA02C5D38AFF8AD9381438E7D5_RuntimeMethod_var, L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:223>
 		RuntimeObject* L_5 = ___0_di;
 		NullCheck(L_5);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGoogleCachedQueryProductDetailsService_t617A1AA248BE6941DB6FE7EF75474F3525DAB1E1_m0BAA18290D443FFD1C57436E8B7F6C2178D2A315_RuntimeMethod_var, L_5);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:224>
 		RuntimeObject* L_6 = ___0_di;
 		NullCheck(L_6);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisQueryProductDetailsService_tA18BAECC4CA791AF9070CB47D17ED4D6DEDF1851_m5D03885ADF667CCEC7258A438FF5E23D12875CBA_RuntimeMethod_var, L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:225>
 		RuntimeObject* L_7 = ___0_di;
 		NullCheck(L_7);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePurchaseService_tEB6A096517A2C55D2D8593348BE2EBDAEFE4BD61_mE60E41268F974CB2030B6AED329D150803778E2A_RuntimeMethod_var, L_7);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:226>
 		RuntimeObject* L_8 = ___0_di;
 		NullCheck(L_8);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGoogleQueryPurchasesUseCase_tB92697DD2FD128DEDAC33DB4E285F9F86B7C36A1_m23588CA1F61A84E6D8D4C3224E2EE1A6CEF98A65_RuntimeMethod_var, L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:227>
 		RuntimeObject* L_9 = ___0_di;
 		NullCheck(L_9);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGoogleFinishTransactionUseCase_tED699603B61FD57E8B0A9E0DBF54D172708B24EE_m866AE56943CA3A85135DCEB8FE4D9A2E37F91614_RuntimeMethod_var, L_9);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:228>
 		RuntimeObject* L_10 = ___0_di;
 		NullCheck(L_10);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayCheckEntitlementUseCase_t97DB215B00056BFCD58DD9AC33A07FECD3AD7BFE_m1BCD522C3BA9E74C6FBF610BF3F69AD814A71B69_RuntimeMethod_var, L_10);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:229>
 		RuntimeObject* L_11 = ___0_di;
 		NullCheck(L_11);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisBillingClientStateListener_t9BACCEF92ECA646BB4504E9DE71C2FD2AACA6FF7_m79D4CCA76B201838F53AC874F4EC46C890A89939_RuntimeMethod_var, L_11);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:230>
 		RuntimeObject* L_12 = ___0_di;
 		NullCheck(L_12);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayStoreConnectionService_t2C50535EB35107AFB0A5EC1B4B6280348C4CC155_m01F3F190F2958FB1149910972FE04FA718963A0B_RuntimeMethod_var, L_12);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:231>
 		RuntimeObject* L_13 = ___0_di;
 		NullCheck(L_13);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePurchasesUpdatedHandler_t0007186F6CCF686A0B91DAEA95E04EDCFE316AD0_mC350CBCC40EFE05EBE1E7717A9786D8E5D5808FF_RuntimeMethod_var, L_13);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:232>
 		RuntimeObject* L_14 = ___0_di;
 		NullCheck(L_14);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisMetricizedGooglePlayStoreService_t0F7ADD13BD18EDE78D62A8F02B0B732C83A12462_m697DCF823610284DE2A6F158DADEC59417DA9F39_RuntimeMethod_var, L_14);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreFactory.cs:233>
 		return;
 	}
 }
@@ -32565,7 +30273,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreFactory_AddGooglePlayStoreServiceAa
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreManagerFactoryInjector_SetStoreManagerFactory_m80583B7A0BE7913041A5CB129976F7BEB91D4FEF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32575,15 +30282,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreManagerFactoryInjector_SetStoreMana
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreManagerFactoryInjector.cs:8>
 		StoreManager_t8821B062DF410ABD07576CF9A92E075CDDB888F7* L_0;
 		L_0 = StoreManager_Instance_m053E4BD88769A66B1F426E082B95DC2A04327AA0(NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreManagerFactoryInjector.cs:9>
 		StoreFactory_t4D683356716139EAF019284712C961E526F5C663* L_1;
 		L_1 = StoreFactory_Instance_m2F5F04638558BEA6D1FA5FB9931C8E9353EE18CD(NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IStoreManagerFactoryInjectionPoint_tBAE12C841EE6811BD2ECC6D1C1D12297246BFFCC_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreManagerFactoryInjector.cs:10>
 		return;
 	}
 }
@@ -32595,7 +30299,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreManagerFactoryInjector_SetStoreMana
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceDependencyFactoryInjector_SetStoreManagerFactory_m6435128C28226B4B4FE1052BA57F33E707A36DE3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32605,15 +30308,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceDependencyFactoryInjector_Se
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceDependencyFactoryInjector.cs:8>
 		StoreServiceFactoryManager_tE33680B904D0BC20DBB559D601C3C879860354E1* L_0;
 		L_0 = StoreServiceFactoryManager_Instance_m517683D0F007D06F9291F7BC4ACFABA10D76DB55(NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceDependencyFactoryInjector.cs:9>
 		StoreServiceFactory_t6096ABA5206EF50071FCE31733B0208614918FF9* L_1;
 		L_1 = StoreServiceFactory_Instance_m75761D3FB939DBC73CF993FCCDAE5E94859F77C4(NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IStoreServiceFactoryManagerInjectionPoint_tE8BF3F16B3F90CCABF982C74C652F99B1579E6B7_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceDependencyFactoryInjector.cs:10>
 		return;
 	}
 }
@@ -32625,7 +30325,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceDependencyFactoryInjector_Se
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StoreServiceFactory_t6096ABA5206EF50071FCE31733B0208614918FF9* StoreServiceFactory_Instance_m75761D3FB939DBC73CF993FCCDAE5E94859F77C4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32637,7 +30336,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StoreServiceFactory_t6096ABA5206EF50071FCE317
 	StoreServiceFactory_t6096ABA5206EF50071FCE31733B0208614918FF9* G_B2_0 = NULL;
 	StoreServiceFactory_t6096ABA5206EF50071FCE31733B0208614918FF9* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:24>
 		StoreServiceFactory_t6096ABA5206EF50071FCE31733B0208614918FF9* L_0 = ((StoreServiceFactory_t6096ABA5206EF50071FCE31733B0208614918FF9_StaticFields*)il2cpp_codegen_static_fields_for(StoreServiceFactory_t6096ABA5206EF50071FCE31733B0208614918FF9_il2cpp_TypeInfo_var))->___s_Instance;
 		StoreServiceFactory_t6096ABA5206EF50071FCE31733B0208614918FF9* L_1 = L_0;
 		if (L_1)
@@ -32661,7 +30359,6 @@ IL_0014:
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 89977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceFactory__ctor_m2B4987B631A0747CAF9A3E49FF992B24D903A5F9 (StoreServiceFactory_t6096ABA5206EF50071FCE31733B0208614918FF9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32679,36 +30376,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceFactory__ctor_m2B4987B631A07
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:20>
 		Dictionary_2_tD2587D43343B0604D97EC701DAD12C984DD1B24F* L_0 = (Dictionary_2_tD2587D43343B0604D97EC701DAD12C984DD1B24F*)il2cpp_codegen_object_new(Dictionary_2_tD2587D43343B0604D97EC701DAD12C984DD1B24F_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m9966F1E20E8A374063167661F294DCE5E0D4AF5E(L_0, Dictionary_2__ctor_m9966F1E20E8A374063167661F294DCE5E0D4AF5E_RuntimeMethod_var);
 		__this->___m_StoreServiceInstantiationByName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_StoreServiceInstantiationByName), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:27>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:29>
 		Dictionary_2_tD2587D43343B0604D97EC701DAD12C984DD1B24F* L_1 = __this->___m_StoreServiceInstantiationByName;
 		Func_3_tE20ED2922A5F06D43F8C1F43BA41F0EACD6A5659* L_2 = (Func_3_tE20ED2922A5F06D43F8C1F43BA41F0EACD6A5659*)il2cpp_codegen_object_new(Func_3_tE20ED2922A5F06D43F8C1F43BA41F0EACD6A5659_il2cpp_TypeInfo_var);
 		Func_3__ctor_m400D0BA64AE9EAF49049665D90160867D1180D11(L_2, NULL, (intptr_t)((void*)StoreServiceFactory_CreateGoogleStoreService_m8D7678598AAD0F170733200F24ED507A790741A5_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		Dictionary_2_Add_m063F29938CF6EF35BB39384FFD453B272CF52D76(L_1, _stringLiteral6079AE2B62685587AFC3A5F43EAFD2948D574952, L_2, Dictionary_2_Add_m063F29938CF6EF35BB39384FFD453B272CF52D76_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:30>
 		Dictionary_2_tD2587D43343B0604D97EC701DAD12C984DD1B24F* L_3 = __this->___m_StoreServiceInstantiationByName;
 		Func_3_tE20ED2922A5F06D43F8C1F43BA41F0EACD6A5659* L_4 = (Func_3_tE20ED2922A5F06D43F8C1F43BA41F0EACD6A5659*)il2cpp_codegen_object_new(Func_3_tE20ED2922A5F06D43F8C1F43BA41F0EACD6A5659_il2cpp_TypeInfo_var);
 		Func_3__ctor_m400D0BA64AE9EAF49049665D90160867D1180D11(L_4, NULL, (intptr_t)((void*)StoreServiceFactory_CreateAppleStoreService_mF068006631EE26612DAD2DD6EE8AEBC7CBC85CBC_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		Dictionary_2_Add_m063F29938CF6EF35BB39384FFD453B272CF52D76(L_3, _stringLiteral7535A877CC7A258810A546BD47780403A6033D8F, L_4, Dictionary_2_Add_m063F29938CF6EF35BB39384FFD453B272CF52D76_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:31>
 		Dictionary_2_tD2587D43343B0604D97EC701DAD12C984DD1B24F* L_5 = __this->___m_StoreServiceInstantiationByName;
 		Func_3_tE20ED2922A5F06D43F8C1F43BA41F0EACD6A5659* L_6 = (Func_3_tE20ED2922A5F06D43F8C1F43BA41F0EACD6A5659*)il2cpp_codegen_object_new(Func_3_tE20ED2922A5F06D43F8C1F43BA41F0EACD6A5659_il2cpp_TypeInfo_var);
 		Func_3__ctor_m400D0BA64AE9EAF49049665D90160867D1180D11(L_6, NULL, (intptr_t)((void*)StoreServiceFactory_CreateAppleStoreService_mF068006631EE26612DAD2DD6EE8AEBC7CBC85CBC_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		Dictionary_2_Add_m063F29938CF6EF35BB39384FFD453B272CF52D76(L_5, _stringLiteralD3FA52E2FCB7530CC7BD3604D153C81F34D48B93, L_6, Dictionary_2_Add_m063F29938CF6EF35BB39384FFD453B272CF52D76_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 89978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceFactory_RegisterNewService_mBBC011BEB39A9FF056D019D64EFBD0A0B88A6EE9 (StoreServiceFactory_t6096ABA5206EF50071FCE31733B0208614918FF9* __this, String_t* ___0_name, Func_1_tDE4860BE55B2A47FCF399AE00AB8B20B0DB28B0B* ___1_createFunction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32730,7 +30420,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceFactory_RegisterNewService_m
 		NullCheck(L_1);
 		L_1->___createFunction = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___createFunction), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:41>
 		Dictionary_2_tD2587D43343B0604D97EC701DAD12C984DD1B24F* L_3 = __this->___m_StoreServiceInstantiationByName;
 		String_t* L_4 = ___0_name;
 		U3CU3Ec__DisplayClass4_0_t4B9AE1632FA900FE3C6078F76C10560BB91E1486* L_5 = V_0;
@@ -32738,11 +30427,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceFactory_RegisterNewService_m
 		Func_3__ctor_m400D0BA64AE9EAF49049665D90160867D1180D11(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass4_0_U3CRegisterNewServiceU3Eg__CreateCustomStoreServiceDiscardParamsU7C0_mDF5260366D165D565B61DADFF1B89941CFD311FB_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		Dictionary_2_Add_m063F29938CF6EF35BB39384FFD453B272CF52D76(L_3, L_4, L_6, Dictionary_2_Add_m063F29938CF6EF35BB39384FFD453B272CF52D76_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:42>
 		return;
 	}
 }
-// Method Definition Index: 89979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceFactory_RegisterNewExtendedService_m4694C22FDAC58DD31F50CD189B43822FCBD92D35 (StoreServiceFactory_t6096ABA5206EF50071FCE31733B0208614918FF9* __this, String_t* ___0_name, Func_2_t19C4942D1590A39146C932EB75269F4716B792D1* ___1_createFunction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32764,7 +30451,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceFactory_RegisterNewExtendedS
 		NullCheck(L_1);
 		L_1->___createFunction = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___createFunction), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:51>
 		Dictionary_2_tD2587D43343B0604D97EC701DAD12C984DD1B24F* L_3 = __this->___m_StoreServiceInstantiationByName;
 		String_t* L_4 = ___0_name;
 		U3CU3Ec__DisplayClass5_0_tCD5BD09C3E1D1C133759868EA70C776A19487ABB* L_5 = V_0;
@@ -32772,11 +30458,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceFactory_RegisterNewExtendedS
 		Func_3__ctor_m400D0BA64AE9EAF49049665D90160867D1180D11(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3CRegisterNewExtendedServiceU3Eg__CreateCustomStoreServiceDiscardParamsU7C0_mB33EF82E4CB8B6256560D390BD08D6BE36B5D590_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		Dictionary_2_Add_m063F29938CF6EF35BB39384FFD453B272CF52D76(L_3, L_4, L_6, Dictionary_2_Add_m063F29938CF6EF35BB39384FFD453B272CF52D76_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 89980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreServiceFactory_Create_m876EC3945B78219653B9ADBB77FF240E80E91B7E (StoreServiceFactory_t6096ABA5206EF50071FCE31733B0208614918FF9* __this, RuntimeObject* ___0_store, RuntimeObject* ___1_retryPolicy, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32800,7 +30484,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoreServiceFactory_Create_m87
 	RuntimeObject* G_B11_0 = NULL;
 	RuntimeObject* G_B10_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:56>
 		Dictionary_2_tD2587D43343B0604D97EC701DAD12C984DD1B24F* L_0 = __this->___m_StoreServiceInstantiationByName;
 		RuntimeObject* L_1 = ___0_store;
 		NullCheck(L_1);
@@ -32913,7 +30596,6 @@ IL_0065:
 		return G_B11_0;
 	}
 }
-// Method Definition Index: 89981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StoreService_t631148A0254FF7BA14318F549E8E1D5B50DB31E9* StoreServiceFactory_CreateGenericStoreService_m1153B676F6C6AEBB57075FDDC1AB774D431EC4A9 (RuntimeObject* ___0_retryPolicy, RuntimeObject* ___1_storeWrapper, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32924,22 +30606,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StoreService_t631148A0254FF7BA14318F549E8E1D5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:61>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_0 = (DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D*)il2cpp_codegen_object_new(DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D_il2cpp_TypeInfo_var);
 		DependencyInjectionService__ctor_m139C1394C0B0DA0624D03A67B6ECB1E9E26C52F8(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:62>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_1 = L_0;
 		RuntimeObject* L_2 = ___0_retryPolicy;
 		RuntimeObject* L_3 = ___1_storeWrapper;
 		StoreServiceFactory_AddStoreServiceDependencies_m7681E1D2FF0F14F09D40815C8C260C2053B48B61(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:63>
 		NullCheck(L_1);
 		StoreService_t631148A0254FF7BA14318F549E8E1D5B50DB31E9* L_4;
 		L_4 = GenericInterfaceFuncInvoker0< StoreService_t631148A0254FF7BA14318F549E8E1D5B50DB31E9* >::Invoke(IDependencyInjectionService_GetInstance_TisStoreService_t631148A0254FF7BA14318F549E8E1D5B50DB31E9_m91FD4BF5E10FC28C0CA0F9E01ACB990C71DE0992_RuntimeMethod_var, L_1);
 		return L_4;
 	}
 }
-// Method Definition Index: 89982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceFactory_AddStoreServiceDependencies_m7681E1D2FF0F14F09D40815C8C260C2053B48B61 (RuntimeObject* ___0_di, RuntimeObject* ___1_retryPolicy, RuntimeObject* ___2_store, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32954,17 +30632,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceFactory_AddStoreServiceDepen
 	}
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:68>
 		RuntimeObject* L_0 = ___0_di;
 		UnityUtil_tB10963C315BF47D886342969F3E7A343BECE37DE* L_1;
 		L_1 = UnityUtilContainer_Instance_mBEB1BE2054288BB0C3DCD4BCCBBB90DB48EBD860(NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:69>
 		RuntimeObject* L_2 = ___0_di;
 		NullCheck(L_2);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisRetryService_t1E59500406F552274F35DCF7D03B0F90D11EB460_mB2AB5274C999B1093BC7EDC7386BD81883DB783E_RuntimeMethod_var, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:70>
 		StoreConnectUseCaseFactory_t45BB564108F8E29A4DA34FFFE2B155AE3F792DC2* L_3 = (StoreConnectUseCaseFactory_t45BB564108F8E29A4DA34FFFE2B155AE3F792DC2*)il2cpp_codegen_object_new(StoreConnectUseCaseFactory_t45BB564108F8E29A4DA34FFFE2B155AE3F792DC2_il2cpp_TypeInfo_var);
 		StoreConnectUseCaseFactory__ctor_m4A10810CA9A9555CB3198C5E6268A89980482799(L_3, NULL);
 		RuntimeObject* L_4 = ___2_store;
@@ -32976,12 +30651,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceFactory_AddStoreServiceDepen
 		RuntimeObject* L_7;
 		L_7 = StoreConnectUseCaseFactory_CreateUseCase_mEEE9D8C587C02F7A525F52183FD344F48A15A826(L_3, L_4, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:71>
 		RuntimeObject* L_8 = ___0_di;
 		RuntimeObject* L_9 = V_0;
 		NullCheck(L_8);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_8, L_9);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:72>
 		RuntimeObject* L_10 = ___1_retryPolicy;
 		if (!L_10)
 		{
@@ -32989,7 +30662,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceFactory_AddStoreServiceDepen
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:74>
 		RuntimeObject* L_11 = ___0_di;
 		RuntimeObject* L_12 = ___1_retryPolicy;
 		NullCheck(L_11);
@@ -32998,15 +30670,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoreServiceFactory_AddStoreServiceDepen
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:77>
 		RuntimeObject* L_13 = ___0_di;
 		NullCheck(L_13);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisStoreService_t631148A0254FF7BA14318F549E8E1D5B50DB31E9_mE0B2727A55D8FE0ECA923E6D071196DAF72F0421_RuntimeMethod_var, L_13);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:78>
 		return;
 	}
 }
-// Method Definition Index: 89983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GooglePlayStoreExtendedService_t5CAE4341C12D9B64B31855AFFCA484333FAB8A26* StoreServiceFactory_CreateGoogleStoreService_m8D7678598AAD0F170733200F24ED507A790741A5 (RuntimeObject* ___0_retryPolicy, RuntimeObject* ___1_store, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33025,17 +30694,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GooglePlayStoreExtendedService_t5CAE4341C12D9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:82>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_0 = (DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D*)il2cpp_codegen_object_new(DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D_il2cpp_TypeInfo_var);
 		DependencyInjectionService__ctor_m139C1394C0B0DA0624D03A67B6ECB1E9E26C52F8(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:84>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_1 = L_0;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		RuntimeObject* L_2;
 		L_2 = Debug_get_unityLogger_m4FDE4D41C187123244FE13124DA636BB50C9C1E1_inline(NULL);
 		NullCheck(L_1);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_1, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:85>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_3 = L_1;
 		RuntimeObject* L_4 = ___1_store;
 		NullCheck(L_4);
@@ -33045,35 +30711,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GooglePlayStoreExtendedService_t5CAE4341C12D9
 		RuntimeObject* L_6 = ((GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D*)CastclassClass((RuntimeObject*)L_5, GooglePlayStore_tE3781DBFF92CC937151A85783D037A05B289A04D_il2cpp_TypeInfo_var))->___m_BillingClient;
 		NullCheck(L_3);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_3, L_6);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:86>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_7 = L_3;
 		NullCheck(L_7);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayStoreSetObfuscatedIdUseCase_tEBF3A90BA82FF3F56C35690180D6E19113EB07A1_mAE4D93E16B05459494C461DCF123DE31B6A069C2_RuntimeMethod_var, L_7);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:87>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_8 = L_7;
 		NullCheck(L_8);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGoogleQueryPurchasesUseCase_tB92697DD2FD128DEDAC33DB4E285F9F86B7C36A1_m23588CA1F61A84E6D8D4C3224E2EE1A6CEF98A65_RuntimeMethod_var, L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:88>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_9 = L_8;
 		NullCheck(L_9);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayStoreConnectionUseCase_t3DB023E5EEE2236B50E09DDE3EE77DCB693EC969_m07FBD7EF4DDD0769B93866DA9483BF00F32885A9_RuntimeMethod_var, L_9);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:90>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_10 = L_9;
 		RuntimeObject* L_11 = ___0_retryPolicy;
 		RuntimeObject* L_12 = ___1_store;
 		StoreServiceFactory_AddStoreServiceDependencies_m7681E1D2FF0F14F09D40815C8C260C2053B48B61(L_10, L_11, L_12, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:91>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_13 = L_10;
 		NullCheck(L_13);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisGooglePlayStoreExtendedService_t5CAE4341C12D9B64B31855AFFCA484333FAB8A26_m065892C394CDE2217C5511D6B0D05DC05D86CF51_RuntimeMethod_var, L_13);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:93>
 		NullCheck(L_13);
 		GooglePlayStoreExtendedService_t5CAE4341C12D9B64B31855AFFCA484333FAB8A26* L_14;
 		L_14 = GenericInterfaceFuncInvoker0< GooglePlayStoreExtendedService_t5CAE4341C12D9B64B31855AFFCA484333FAB8A26* >::Invoke(IDependencyInjectionService_GetInstance_TisGooglePlayStoreExtendedService_t5CAE4341C12D9B64B31855AFFCA484333FAB8A26_m1FA521EA1487D34B214112461DE0824EC73538B5_RuntimeMethod_var, L_13);
 		return L_14;
 	}
 }
-// Method Definition Index: 89984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleStoreExtendedService_t01BBE266FCCFF985A5E6E8FC28DE77E8F0686235* StoreServiceFactory_CreateAppleStoreService_mF068006631EE26612DAD2DD6EE8AEBC7CBC85CBC (RuntimeObject* ___0_retryPolicy, RuntimeObject* ___1_store, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33095,7 +30754,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AppleStoreExtendedService_t01BBE266FCCFF985A5
 	AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* G_B1_0 = NULL;
 	RuntimeObject* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:98>
 		RuntimeObject* L_0 = ___1_store;
 		NullCheck(L_0);
 		Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8* L_1;
@@ -33124,7 +30782,6 @@ IL_0012:
 IL_0017:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:99>
 		RuntimeObject* L_4 = V_0;
 		if (L_4)
 		{
@@ -33132,7 +30789,6 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:101>
 		Exception_t* L_5 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral23F639ADE6905D77FF153F8011B6E43685261970)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StoreServiceFactory_CreateAppleStoreService_mF068006631EE26612DAD2DD6EE8AEBC7CBC85CBC_RuntimeMethod_var)));
@@ -33140,15 +30796,12 @@ IL_0017:
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:104>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_6 = (DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D*)il2cpp_codegen_object_new(DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D_il2cpp_TypeInfo_var);
 		DependencyInjectionService__ctor_m139C1394C0B0DA0624D03A67B6ECB1E9E26C52F8(L_6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:106>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_7 = L_6;
 		RuntimeObject* L_8 = V_0;
 		NullCheck(L_7);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_7, L_8);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:107>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_9 = L_7;
 		RuntimeObject* L_10 = ___1_store;
 		NullCheck(L_10);
@@ -33156,28 +30809,22 @@ IL_0026:
 		L_11 = InterfaceFuncInvoker0< Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8* >::Invoke(0, IStoreWrapper_t0FB353744DBE496942B823F02655E331B7D2E789_il2cpp_TypeInfo_var, L_10);
 		NullCheck(L_9);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IDependencyInjectionService_t016A47807EE99AF1197F2E4D1A24A43359C986EC_il2cpp_TypeInfo_var, L_9, ((AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8*)CastclassClass((RuntimeObject*)L_11, AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8_il2cpp_TypeInfo_var)));
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:108>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_12 = L_9;
 		NullCheck(L_12);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisCanMakePaymentsUseCase_t3497E559B984C1F5BB974079809B8CD93E0F497D_mC6B181F97FFD706D82E5C7E621EA4766ED0C7966_RuntimeMethod_var, L_12);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:109>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_13 = L_12;
 		NullCheck(L_13);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisSetAppAccountTokenUseCase_tC12D074DE746D9174E42EB24A243131405C52EB4_m605A50A1C0E303F9810CE9C88AEACFAD6CFF4661_RuntimeMethod_var, L_13);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:110>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_14 = L_13;
 		NullCheck(L_14);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisClearAppleTransactionLogsUseCase_t9575A50BADC3E55B744A6AF134E487EC57A1FBA4_mD25E0499CA6A4C3A1719C4C0404820C69C09A7DE_RuntimeMethod_var, L_14);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:112>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_15 = L_14;
 		RuntimeObject* L_16 = ___0_retryPolicy;
 		RuntimeObject* L_17 = ___1_store;
 		StoreServiceFactory_AddStoreServiceDependencies_m7681E1D2FF0F14F09D40815C8C260C2053B48B61(L_15, L_16, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:113>
 		DependencyInjectionService_tBAB5FAD9EA0BA30E0FC4CA09A5EFDC27B6B9564D* L_18 = L_15;
 		NullCheck(L_18);
 		GenericInterfaceActionInvoker0::Invoke(IDependencyInjectionService_AddService_TisAppleStoreExtendedService_t01BBE266FCCFF985A5E6E8FC28DE77E8F0686235_m2C804A1A8633304FB582AEBE4786F94A720C1E02_RuntimeMethod_var, L_18);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:115>
 		NullCheck(L_18);
 		AppleStoreExtendedService_t01BBE266FCCFF985A5E6E8FC28DE77E8F0686235* L_19;
 		L_19 = GenericInterfaceFuncInvoker0< AppleStoreExtendedService_t01BBE266FCCFF985A5E6E8FC28DE77E8F0686235* >::Invoke(IDependencyInjectionService_GetInstance_TisAppleStoreExtendedService_t01BBE266FCCFF985A5E6E8FC28DE77E8F0686235_m1AA2A22FFB1AB1BDFA4B2E3B2E2A760B37748D45_RuntimeMethod_var, L_18);
@@ -33192,7 +30839,6 @@ IL_0026:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m7A72CF63122BF46B1E92D872054CB0F9AB637978 (U3CU3Ec__DisplayClass4_0_t4B9AE1632FA900FE3C6078F76C10560BB91E1486* __this, const RuntimeMethod* method) 
 {
 	{
@@ -33200,7 +30846,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m7A72CF63
 		return;
 	}
 }
-// Method Definition Index: 89986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass4_0_U3CRegisterNewServiceU3Eg__CreateCustomStoreServiceDiscardParamsU7C0_mDF5260366D165D565B61DADFF1B89941CFD311FB (U3CU3Ec__DisplayClass4_0_t4B9AE1632FA900FE3C6078F76C10560BB91E1486* __this, RuntimeObject* ___0_retryPolicy, RuntimeObject* ___1_storeWrapper, const RuntimeMethod* method) 
 {
 	Func_1_tDE4860BE55B2A47FCF399AE00AB8B20B0DB28B0B* G_B2_0 = NULL;
@@ -33209,7 +30854,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass4_0_U3CRe
 	RuntimeObject* G_B5_0 = NULL;
 	RuntimeObject* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:38>
 		Func_1_tDE4860BE55B2A47FCF399AE00AB8B20B0DB28B0B* L_0 = __this->___createFunction;
 		Func_1_tDE4860BE55B2A47FCF399AE00AB8B20B0DB28B0B* L_1 = L_0;
 		if (L_1)
@@ -33261,7 +30905,6 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_mF7F12A2026A3322B80542E55C53F84DD241038B0 (U3CU3Ec__DisplayClass5_0_tCD5BD09C3E1D1C133759868EA70C776A19487ABB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -33269,7 +30912,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_mF7F12A20
 		return;
 	}
 }
-// Method Definition Index: 89988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass5_0_U3CRegisterNewExtendedServiceU3Eg__CreateCustomStoreServiceDiscardParamsU7C0_mB33EF82E4CB8B6256560D390BD08D6BE36B5D590 (U3CU3Ec__DisplayClass5_0_tCD5BD09C3E1D1C133759868EA70C776A19487ABB* __this, RuntimeObject* ___0_retryPolicy, RuntimeObject* ___1_storeWrapper, const RuntimeMethod* method) 
 {
 	Func_2_t19C4942D1590A39146C932EB75269F4716B792D1* G_B2_0 = NULL;
@@ -33278,7 +30920,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec__DisplayClass5_0_U3CRe
 	ExtensibleStoreService_tB65A7113DA10AF673FC6F4D8C102C2230BE15628* G_B5_0 = NULL;
 	ExtensibleStoreService_tB65A7113DA10AF673FC6F4D8C102C2230BE15628* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Core/Store/StoreServiceFactory.cs:48>
 		Func_2_t19C4942D1590A39146C932EB75269F4716B792D1* L_0 = __this->___createFunction;
 		Func_2_t19C4942D1590A39146C932EB75269F4716B792D1* L_1 = L_0;
 		if (L_1)
@@ -33334,7 +30975,6 @@ IL_0023:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogRequest__ctor_m38811C130CC42DCDF37E39562A2CDA181461C92C (DialogRequest_tF4B71D2D0F84FE8E7829C8019B9F885A20E6807C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -33350,27 +30990,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DialogRequest__ctor_m38811C130CC42DCDF37
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FakeStore_get_unavailableProductId_m30D3DB99CF73D837FCB91A4A098B1A98D9112762 (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:20>
 		String_t* L_0 = __this->___U3CunavailableProductIdU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 89991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_set_unavailableProductId_m65C11DCBEA7FD1B8AC76475A6BAE652516EE0C83 (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:20>
 		String_t* L_0 = ___0_value;
 		__this->___U3CunavailableProductIdU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CunavailableProductIdU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 89992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore__ctor_mB7BD5E3F6D3CD4DC8117A6A27AEE1773A59C324E (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, RuntimeObject* ___0_cartValidator, RuntimeObject* ___1_logger, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33382,32 +31017,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore__ctor_mB7BD5E3F6D3CD4DC8117A6A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:19>
 		List_1_tD593E8F1A833AEBC39A4E25263932A9BDE34A8E5* L_0 = (List_1_tD593E8F1A833AEBC39A4E25263932A9BDE34A8E5*)il2cpp_codegen_object_new(List_1_tD593E8F1A833AEBC39A4E25263932A9BDE34A8E5_il2cpp_TypeInfo_var);
 		List_1__ctor_m94632CDD174269EA44D977C146D834C4FA717DD2(L_0, List_1__ctor_m94632CDD174269EA44D977C146D834C4FA717DD2_RuntimeMethod_var);
 		__this->___m_ConfirmedOrders = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ConfirmedOrders), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:26>
 		RuntimeObject* L_1 = ___0_cartValidator;
 		RuntimeObject* L_2 = ___1_logger;
 		JsonStore__ctor_m62524191224A2FE257088431679C6DD0DCCB4A82(__this, L_1, L_2, _stringLiteral4F7579260D4E21D507DB3C0F00F4343D036BAE2B, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:28>
 		JsonStore_SetNativeStore_m214D03245A3B3FDA823F64101B8DED0FD9784F00_inline(__this, __this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 89993
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_Connect_m7C832AD453CFB2E6B8B3AB3A4709E63B8F28CC20 (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:34>
 		JsonStore_OnStoreConnectionSucceeded_m1D632DBA0A0EF855664FE2F98770F7DFCB329E89(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 89994
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_FetchProducts_mD4EBA7E895745D3FCAB83AB916296FE3F9C02763 (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, String_t* ___0_json, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33422,26 +31049,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_FetchProducts_mD4EBA7E895745D3
 	}
 	List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:40>
 		String_t* L_0 = ___0_json;
 		RuntimeObject* L_1;
 		L_1 = MiniJson_JsonDecode_mB2C7BA2DFF09CC1279E59CE347E54803E995F7E3(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:41>
 		List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D* L_2;
 		L_2 = ProductDefinitionExtensions_DecodeJSON_m07309CE8CC68991BF1735A5D35543F892E6988D0(((List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*)CastclassClass((RuntimeObject*)L_1, List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_il2cpp_TypeInfo_var)), _stringLiteral4F7579260D4E21D507DB3C0F00F4343D036BAE2B, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:42>
 		List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D* L_3 = V_0;
 		List_1_t9E641B4FFC528D06A05DB8AD9BA033A49206004D* L_4;
 		L_4 = Enumerable_ToList_TisProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD_mB682B5BDD25822B4ED6A465FC73020798EC9C68E(L_3, Enumerable_ToList_TisProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD_mB682B5BDD25822B4ED6A465FC73020798EC9C68E_RuntimeMethod_var);
 		ReadOnlyCollection_1_tA372A75743504437C77AA1383641FA51A6A9A8F9* L_5 = (ReadOnlyCollection_1_tA372A75743504437C77AA1383641FA51A6A9A8F9*)il2cpp_codegen_object_new(ReadOnlyCollection_1_tA372A75743504437C77AA1383641FA51A6A9A8F9_il2cpp_TypeInfo_var);
 		ReadOnlyCollection_1__ctor_m853E6DCF13ED700C4DA0D2CF2B54DB1B3A4FF5F0(L_5, L_4, ReadOnlyCollection_1__ctor_m853E6DCF13ED700C4DA0D2CF2B54DB1B3A4FF5F0_RuntimeMethod_var);
 		FakeStore_StoreFetchProducts_m4B353070A5C16CF8DD486E491DD06537343ABAA3(__this, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 89995
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_StoreFetchProducts_m4B353070A5C16CF8DD486E491DD06537343ABAA3 (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, ReadOnlyCollection_1_tA372A75743504437C77AA1383641FA51A6A9A8F9* ___0_productDefinitions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33476,14 +31098,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_StoreFetchProducts_m4B353070A5
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:48>
 		U3CU3Ec__DisplayClass13_0_t3E77C47514ECCD55D8E21A34A3C7584B522D1CA5* L_2 = V_0;
 		List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_3 = (List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D*)il2cpp_codegen_object_new(List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D_il2cpp_TypeInfo_var);
 		List_1__ctor_mEC31258BBEAB41C7466DA7D600E9307C1AC99479(L_3, List_1__ctor_mEC31258BBEAB41C7466DA7D600E9307C1AC99479_RuntimeMethod_var);
 		NullCheck(L_2);
 		L_2->___products = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___products), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:49>
 		ReadOnlyCollection_1_tA372A75743504437C77AA1383641FA51A6A9A8F9* L_4 = ___0_productDefinitions;
 		NullCheck(L_4);
 		RuntimeObject* L_5;
@@ -33523,13 +31143,11 @@ IL_0070:
 
 IL_0021_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:49>
 				RuntimeObject* L_8 = V_1;
 				NullCheck(L_8);
 				ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_9;
 				L_9 = InterfaceFuncInvoker0< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* >::Invoke(0, IEnumerator_1_tAFB5E5CCED9DEEA334AB963181D0E98947DB6E68_il2cpp_TypeInfo_var, L_8);
 				V_2 = L_9;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:51>
 				String_t* L_10;
 				L_10 = FakeStore_get_unavailableProductId_m30D3DB99CF73D837FCB91A4A098B1A98D9112762_inline(__this, NULL);
 				ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_11 = V_2;
@@ -33544,7 +31162,6 @@ IL_0021_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:53>
 				U3CU3Ec__DisplayClass13_0_t3E77C47514ECCD55D8E21A34A3C7584B522D1CA5* L_14 = V_0;
 				NullCheck(L_14);
 				List_1_t39710FB9475F02E110B45F35CE6451A789EBF76D* L_15 = L_14->___products;
@@ -33566,7 +31183,6 @@ IL_0021_1:
 
 IL_005d_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:49>
 				RuntimeObject* L_22 = V_1;
 				NullCheck(L_22);
 				bool L_23;
@@ -33588,8 +31204,6 @@ IL_005d_1:
 
 IL_0071:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:75>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:76>
 		int32_t L_24 = __this->___UIMode;
 		if ((!(((uint32_t)L_24) == ((uint32_t)2))))
 		{
@@ -33614,14 +31228,12 @@ IL_0090:
 
 IL_0091:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:77>
 		if (G_B12_0)
 		{
 			goto IL_00a9;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:79>
 		RuntimeObject* L_29 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___ProductsCallback;
 		RuntimeObject* L_30 = L_29;
 		if (L_30)
@@ -33646,11 +31258,9 @@ IL_009e:
 
 IL_00a9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 89996
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProductMetadata_t2D6C6454A305A6790D8903169E3B136EB13417E1* FakeStore_GetOrCreateProductMetadata_mCE5CF4547FCDB95719A03FEE9776B2BF2DA9A4B0 (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, String_t* ___0_productId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33673,7 +31283,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProductMetadata_t2D6C6454A305A6790D8903169E3B
 	RuntimeObject* V_2 = NULL;
 	ProductCatalogItem_t2184E6EDD2136F8ED9DB359B7AC6D3612A8A11B6* V_3 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:85>
 		String_t* L_0 = ___0_productId;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral55FF688AF78C878A3CD94D0F8CC9551438239DC7, L_0, NULL);
@@ -33683,11 +31292,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProductMetadata_t2D6C6454A305A6790D8903169E3B
 		ProductMetadata_t2D6C6454A305A6790D8903169E3B136EB13417E1* L_3 = (ProductMetadata_t2D6C6454A305A6790D8903169E3B136EB13417E1*)il2cpp_codegen_object_new(ProductMetadata_t2D6C6454A305A6790D8903169E3B136EB13417E1_il2cpp_TypeInfo_var);
 		ProductMetadata__ctor_m589425880925A9302EE537CE0047FA1BB0347DC0(L_3, _stringLiteral283A5E2C7FF2F98F76268C8CFB12CA428D08EF99, L_1, _stringLiteral13743C90B453AEAD327DE6167BA279E29EB4F10F, _stringLiteralC0FB8B944A767E1AACE82F930D95E69ED912ADAD, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:86>
 		ProductCatalog_t0294AD87A86E15C2485C625A0FF6CADE049556F9* L_4;
 		L_4 = ProductCatalog_LoadDefaultCatalog_mDCE9392BAC3240DD2E5BC1CA30ED6FC7165F06F2(NULL);
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:87>
 		ProductCatalog_t0294AD87A86E15C2485C625A0FF6CADE049556F9* L_5 = V_1;
 		if (!L_5)
 		{
@@ -33695,7 +31302,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProductMetadata_t2D6C6454A305A6790D8903169E3B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:89>
 		ProductCatalog_t0294AD87A86E15C2485C625A0FF6CADE049556F9* L_6 = V_1;
 		NullCheck(L_6);
 		RuntimeObject* L_7;
@@ -33738,13 +31344,11 @@ IL_00a5:
 
 IL_0041_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:89>
 				RuntimeObject* L_11 = V_2;
 				NullCheck(L_11);
 				ProductCatalogItem_t2184E6EDD2136F8ED9DB359B7AC6D3612A8A11B6* L_12;
 				L_12 = InterfaceFuncInvoker0< ProductCatalogItem_t2184E6EDD2136F8ED9DB359B7AC6D3612A8A11B6* >::Invoke(0, IEnumerator_1_t22A3F83C2E90433106737FFEB955CC8D9C0C70C0_il2cpp_TypeInfo_var, L_11);
 				V_3 = L_12;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:91>
 				ProductCatalogItem_t2184E6EDD2136F8ED9DB359B7AC6D3612A8A11B6* L_13 = V_3;
 				NullCheck(L_13);
 				String_t* L_14 = L_13->___id;
@@ -33757,7 +31361,6 @@ IL_0041_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:93>
 				ProductCatalogItem_t2184E6EDD2136F8ED9DB359B7AC6D3612A8A11B6* L_17 = V_3;
 				NullCheck(L_17);
 				Price_tCDFAE63928D70E125D83136B691B13CDF992FCB8* L_18 = L_17->___googlePrice;
@@ -33790,7 +31393,6 @@ IL_0041_1:
 
 IL_0092_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:89>
 				RuntimeObject* L_31 = V_2;
 				NullCheck(L_31);
 				bool L_32;
@@ -33812,12 +31414,10 @@ IL_0092_1:
 
 IL_00a6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:98>
 		ProductMetadata_t2D6C6454A305A6790D8903169E3B136EB13417E1* L_33 = V_0;
 		return L_33;
 	}
 }
-// Method Definition Index: 89997
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_FetchExistingPurchases_m763191D00EEBCBBF1B27DE09E9DA2833800BFCE3 (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33829,7 +31429,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_FetchExistingPurchases_m763191
 	RuntimeObject* G_B2_0 = NULL;
 	RuntimeObject* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:104>
 		RuntimeObject* L_0 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___PurchaseFetchCallback;
 		RuntimeObject* L_1 = L_0;
 		if (L_1)
@@ -33848,25 +31447,20 @@ IL_000b:
 		List_1_tD593E8F1A833AEBC39A4E25263932A9BDE34A8E5* L_2 = __this->___m_ConfirmedOrders;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(0, IStorePurchaseFetchCallback_t6809F1A93AC828E66EEBADE9847D603700E93647_il2cpp_TypeInfo_var, G_B2_0, L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:105>
 		return;
 	}
 }
-// Method Definition Index: 89998
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_Purchase_m488CF2E1618466D86181BBEE82A2F96D4F4B0DD6 (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, String_t* ___0_productJson, String_t* ___1_optionsJson, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:110>
 		String_t* L_0 = ___0_productJson;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_1;
 		L_1 = FakeStore_ParseProductDefinition_mC6205476E00B94B688C0D100FF01E42381672246(__this, L_0, NULL);
 		String_t* L_2 = ___1_optionsJson;
 		FakeStore_FakePurchase_m4D57E3BE2B149DCDC3CDB0A75288FAC8B0AD6A2D(__this, L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:111>
 		return;
 	}
 }
-// Method Definition Index: 89999
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* FakeStore_ParseProductDefinition_mC6205476E00B94B688C0D100FF01E42381672246 (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, String_t* ___0_productJSON, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33883,33 +31477,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProductDefinition_tB486F56477C49E81BA6704C2DD
 	String_t* V_1 = NULL;
 	RuntimeObject* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:115>
 		String_t* L_0 = ___0_productJSON;
 		RuntimeObject* L_1;
 		L_1 = MiniJson_JsonDecode_mB2C7BA2DFF09CC1279E59CE347E54803E995F7E3(L_0, NULL);
 		V_0 = ((Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710*)CastclassClass((RuntimeObject*)L_1, Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:119>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_2 = V_0;
 		NullCheck(L_2);
 		bool L_3;
 		L_3 = Dictionary_2_TryGetValue_mC14A0401676B34A68B06FC858BA801E7DF99B7D8(L_2, _stringLiteral996E5360F80E16B2189CC1E536C91CE68083F694, (&V_2), Dictionary_2_TryGetValue_mC14A0401676B34A68B06FC858BA801E7DF99B7D8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:120>
 		RuntimeObject* L_4 = V_2;
 		NullCheck(L_4);
 		String_t* L_5;
 		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_4);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:122>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_6 = V_0;
 		NullCheck(L_6);
 		bool L_7;
 		L_7 = Dictionary_2_TryGetValue_mC14A0401676B34A68B06FC858BA801E7DF99B7D8(L_6, _stringLiteralC4FD5B06A6B7174802B6D991C7560C98FB781820, (&V_2), Dictionary_2_TryGetValue_mC14A0401676B34A68B06FC858BA801E7DF99B7D8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:123>
 		RuntimeObject* L_8 = V_2;
 		NullCheck(L_8);
 		String_t* L_9;
 		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_8);
 		V_1 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:126>
 		String_t* L_10 = V_1;
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_11 = V_0;
 		int32_t L_12;
@@ -33919,7 +31507,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProductDefinition_tB486F56477C49E81BA6704C2DD
 		return L_13;
 	}
 }
-// Method Definition Index: 90000
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FakeStore_ParseProductType_m7DAA131D6797C8D7F9C11B75BD08F90E9022A55C (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ___0_dictionary, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33934,18 +31521,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FakeStore_ParseProductType_m7DAA131D6
 	RuntimeObject* V_0 = NULL;
 	String_t* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:131>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_0 = ___0_dictionary;
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = Dictionary_2_TryGetValue_mC14A0401676B34A68B06FC858BA801E7DF99B7D8(L_0, _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7, (&V_0), Dictionary_2_TryGetValue_mC14A0401676B34A68B06FC858BA801E7DF99B7D8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:133>
 		RuntimeObject* L_2 = V_0;
 		NullCheck(L_2);
 		String_t* L_3;
 		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_2);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:135>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_4 = { reinterpret_cast<intptr_t> (ProductType_t3E3C0899CBE746FF7DBF4CC3071C10CDB9600DB3_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_5;
@@ -33973,11 +31557,9 @@ IL_0029:
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.enum_class);
 		RuntimeObject* L_11;
 		L_11 = Enum_Parse_m2846B01D5DEA00E4674AED09DE0B2E59ECEED61F(L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:136>
 		return ((*(int32_t*)UnBox(L_11, ProductType_t3E3C0899CBE746FF7DBF4CC3071C10CDB9600DB3_il2cpp_TypeInfo_var)));
 	}
 }
-// Method Definition Index: 90001
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_FakePurchase_m4D57E3BE2B149DCDC3CDB0A75288FAC8B0AD6A2D (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_productDefinition, String_t* ___1_developerPayload, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -34013,7 +31595,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_FakePurchase_m4D57E3BE2B149DCD
 		NullCheck(L_2);
 		L_2->___productDefinition = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___productDefinition), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:142>
 		U3CU3Ec__DisplayClass19_0_t3721237C9DF4D8931C58C14F6EFE9FD6F7809394* L_4 = V_0;
 		NullCheck(L_4);
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_5 = L_4->___productDefinition;
@@ -34026,7 +31607,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_FakePurchase_m4D57E3BE2B149DCD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:144>
 		U3CU3Ec__DisplayClass19_0_t3721237C9DF4D8931C58C14F6EFE9FD6F7809394* L_7 = V_0;
 		NullCheck(L_7);
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_8 = L_7->___productDefinition;
@@ -34049,7 +31629,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_FakePurchase_m4D57E3BE2B149DCD
 		ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_17 = (ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6*)il2cpp_codegen_object_new(ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6_il2cpp_TypeInfo_var);
 		ConfirmedOrder__ctor_m54554CD6B6C4E5ACA18A8ED4B306E5D210AC36C7(L_17, L_15, L_16, NULL);
 		V_1 = L_17;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:145>
 		List_1_tD593E8F1A833AEBC39A4E25263932A9BDE34A8E5* L_18 = __this->___m_ConfirmedOrders;
 		ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_19 = V_1;
 		NullCheck(L_18);
@@ -34058,7 +31637,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_FakePurchase_m4D57E3BE2B149DCD
 
 IL_006d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:169>
 		U3CU3Ec__DisplayClass19_0_t3721237C9DF4D8931C58C14F6EFE9FD6F7809394* L_20 = V_0;
 		NullCheck(L_20);
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_21 = L_20->___productDefinition;
@@ -34073,7 +31651,6 @@ IL_006d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:172>
 		U3CU3Ec__DisplayClass19_0_t3721237C9DF4D8931C58C14F6EFE9FD6F7809394* L_25 = V_0;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_26 = { reinterpret_cast<intptr_t> (PurchaseFailureReason_t0567DFEBCC078229A0C360E2CE3F0E6CFA8B819E_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -34088,11 +31665,9 @@ IL_006d:
 
 IL_00a8:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:174>
 		return;
 	}
 }
-// Method Definition Index: 90002
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FakeStore_CheckEntitlement_mFEFB0061732DD9C1ADF1326AAFAE8878E4C617AC (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, String_t* ___0_productJSON, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -34112,16 +31687,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FakeStore_CheckEntitlement_mFEFB0061732D
 	RuntimeObject* G_B4_0 = NULL;
 	bool G_B4_1 = false;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:179>
 		String_t* L_0 = ___0_productJSON;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_1;
 		L_1 = FakeStore_ParseProductDefinition_mC6205476E00B94B688C0D100FF01E42381672246(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:181>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_2 = V_0;
 		bool L_3;
 		L_3 = FakeStore_CheckIfProductEntitled_m7F7D2B67CED1D6A235DE77289A11A36FBF80DEDE(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:183>
 		bool L_4 = L_3;
 		if (L_4)
 		{
@@ -34145,7 +31717,6 @@ IL_0015:
 IL_0016:
 	{
 		V_1 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:184>
 		RuntimeObject* L_5 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___EntitlementCallback;
 		RuntimeObject* L_6 = L_5;
 		if (L_6)
@@ -34167,11 +31738,9 @@ IL_0022:
 		int32_t L_8 = V_1;
 		NullCheck(G_B5_0);
 		InterfaceActionInvoker3< ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD*, int32_t, String_t* >::Invoke(0, IStoreCheckEntitlementCallback_t2379555B5C96803542B88A754FA30E1E83EF1289_il2cpp_TypeInfo_var, G_B5_0, L_7, L_8, (String_t*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:186>
 		return G_B5_1;
 	}
 }
-// Method Definition Index: 90003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FakeStore_CheckIfProductEntitled_m7F7D2B67CED1D6A235DE77289A11A36FBF80DEDE (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* ___0_definition, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -34208,7 +31777,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FakeStore_CheckIfProductEntitled_m7F7D2B
 		NullCheck(L_1);
 		L_1->___definition = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___definition), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:191>
 		List_1_tD593E8F1A833AEBC39A4E25263932A9BDE34A8E5* L_3 = __this->___m_ConfirmedOrders;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t34DDC9AE0972DD3AC304B03EC2231CD6EFFC23F6_il2cpp_TypeInfo_var);
 		Func_2_t063D54127DE1CF5B1D6C2A98FEB2B7F4BCA0B85D* L_4 = ((U3CU3Ec_t34DDC9AE0972DD3AC304B03EC2231CD6EFFC23F6_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t34DDC9AE0972DD3AC304B03EC2231CD6EFFC23F6_il2cpp_TypeInfo_var))->___U3CU3E9__21_0;
@@ -34266,7 +31834,6 @@ IL_0056:
 	{
 		RuntimeObject* L_15;
 		L_15 = Enumerable_Select_TisCartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F_TisProduct_tD279BF775D345330FEE8405D2F53EC5D6B971C76_m74BACDEDA411F01E5B6813196B9EA2061EB6682A(G_B4_1, G_B4_0, Enumerable_Select_TisCartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F_TisProduct_tD279BF775D345330FEE8405D2F53EC5D6B971C76_m74BACDEDA411F01E5B6813196B9EA2061EB6682A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:192>
 		U3CU3Ec__DisplayClass21_0_tFF702608041B512E573500B1CA83CDFEA42C61DC* L_16 = V_0;
 		Func_2_t2B539365183E500E62EED28CBA4D3F8F80371E86* L_17 = (Func_2_t2B539365183E500E62EED28CBA4D3F8F80371E86*)il2cpp_codegen_object_new(Func_2_t2B539365183E500E62EED28CBA4D3F8F80371E86_il2cpp_TypeInfo_var);
 		Func_2__ctor_mEB9B05FF5F99EA74169EE8BA841B79DE9910B4EE(L_17, L_16, (intptr_t)((void*)U3CU3Ec__DisplayClass21_0_U3CCheckIfProductEntitledU3Eb__2_m75FA3CDAFB92A541F9D9DD3D24209A1D186C9C48_RuntimeMethod_var), NULL);
@@ -34275,7 +31842,6 @@ IL_0056:
 		return L_18;
 	}
 }
-// Method Definition Index: 90004
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_RestoreTransactions_m1FFF3A39F1F9549CD9B6C2FC3594B7169640B4FF (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, Action_2_t8EADE87044ADE97906736D729EA2E3EF97F34F3D* ___0_callback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -34296,7 +31862,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_RestoreTransactions_m1FFF3A39F
 	RuntimeObject* G_B4_0 = NULL;
 	RuntimeObject* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:197>
 		List_1_tD593E8F1A833AEBC39A4E25263932A9BDE34A8E5* L_0 = __this->___m_ConfirmedOrders;
 		NullCheck(L_0);
 		Enumerator_tC7056E1C9BAA97C4367D088B48A952E42C6BC842 L_1;
@@ -34321,11 +31886,9 @@ FINALLY_0045:
 
 IL_000e_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:197>
 				ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_2;
 				L_2 = Enumerator_get_Current_mE467726DACEFC4A81FEF89BE7D9504967EC13163_inline((&V_0), Enumerator_get_Current_mE467726DACEFC4A81FEF89BE7D9504967EC13163_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:199>
 				ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_3 = V_1;
 				NullCheck(L_3);
 				RuntimeObject* L_4;
@@ -34337,7 +31900,6 @@ IL_000e_1:
 				PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1* L_7 = (PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1*)il2cpp_codegen_object_new(PendingOrder_tA824D1CD7AE6E3362EFE213FDA0228EC4889A4B1_il2cpp_TypeInfo_var);
 				PendingOrder__ctor_m672E2830CD72D681FE8550D6CE5132753030B38B(L_7, L_4, L_6, NULL);
 				V_2 = L_7;
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:200>
 				RuntimeObject* L_8 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)__this)->___PurchaseCallback;
 				RuntimeObject* L_9 = L_8;
 				if (L_9)
@@ -34360,7 +31922,6 @@ IL_0034_1:
 
 IL_003a_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:197>
 				bool L_11;
 				L_11 = Enumerator_MoveNext_mE154CF9B551EAAE766C8D147330C6F452663179B((&V_0), Enumerator_MoveNext_mE154CF9B551EAAE766C8D147330C6F452663179B_RuntimeMethod_var);
 				if (L_11)
@@ -34380,7 +31941,6 @@ IL_003a_1:
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:203>
 		Action_2_t8EADE87044ADE97906736D729EA2E3EF97F34F3D* L_12 = ___0_callback;
 		if (!L_12)
 		{
@@ -34395,19 +31955,15 @@ IL_0053:
 
 IL_005e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:204>
 		return;
 	}
 }
-// Method Definition Index: 90005
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_FinishTransaction_m05A8088429D4B6B3BD26CA985E4D0632A44F36AD (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, String_t* ___0_productJSON, String_t* ___1_transactionID, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:211>
 		return;
 	}
 }
-// Method Definition Index: 90007
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_U3CU3En__0_m5CEA381D5ABCDF42CED20913373A2BAC03E6324A (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, String_t* ___0_id, String_t* ___1_receipt, String_t* ___2_transactionID, const RuntimeMethod* method) 
 {
 	{
@@ -34434,7 +31990,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FakeStore_U3CU3En__0_m5CEA381D5ABCDF42CE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m4FD2BEFEEC18D26CF88FB564750531419DF48C32 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -34451,7 +32006,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m4FD2BEFEEC18D26CF88FB564
 		return;
 	}
 }
-// Method Definition Index: 90009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mBC6C405B489E1321598CC7BFA32D8D573580DA3D (U3CU3Ec_t34DDC9AE0972DD3AC304B03EC2231CD6EFFC23F6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -34459,7 +32013,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mBC6C405B489E1321598CC7BFA
 		return;
 	}
 }
-// Method Definition Index: 90010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CCheckIfProductEntitledU3Eb__21_0_m363AAA35F1752CD4FA4F368008C64AF50A6BCAE7 (U3CU3Ec_t34DDC9AE0972DD3AC304B03EC2231CD6EFFC23F6* __this, ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* ___0_order, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -34469,7 +32022,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CCheckIfProductEntit
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:191>
 		ConfirmedOrder_t27BA06F8EB8FD59B566EB3A751383DC30DD752F6* L_0 = ___0_order;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -34480,11 +32032,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CCheckIfProductEntit
 		return L_2;
 	}
 }
-// Method Definition Index: 90011
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* U3CU3Ec_U3CCheckIfProductEntitledU3Eb__21_1_m2B0968D7AB7C6D516A70B51B4281949281870DE7 (U3CU3Ec_t34DDC9AE0972DD3AC304B03EC2231CD6EFFC23F6* __this, CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* ___0_item, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:191>
 		CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_0 = ___0_item;
 		NullCheck(L_0);
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_1;
@@ -34500,7 +32050,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B97
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90012
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0__ctor_mC5943198958CCBA6ACA8B94328FFE46E13FBBED3 (U3CU3Ec__DisplayClass13_0_t3E77C47514ECCD55D8E21A34A3C7584B522D1CA5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -34508,7 +32057,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0__ctor_mC594319
 		return;
 	}
 }
-// Method Definition Index: 90013
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CStoreFetchProductsU3Eg__handleAllowInitializeOrFetchProductsU7C0_m3E3FD4EA25556C78148FABE76A4BE909D60D4AAA (U3CU3Ec__DisplayClass13_0_t3E77C47514ECCD55D8E21A34A3C7584B522D1CA5* __this, bool ___0_allow, int32_t ___1_failureReason, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -34524,7 +32072,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CStoreFetchP
 	RuntimeObject* G_B6_0 = NULL;
 	RuntimeObject* G_B5_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:59>
 		bool L_0 = ___0_allow;
 		if (!L_0)
 		{
@@ -34532,7 +32079,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CStoreFetchP
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:61>
 		FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* L_1 = __this->___U3CU3E4__this;
 		NullCheck(L_1);
 		RuntimeObject* L_2 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)L_1)->___ProductsCallback;
@@ -34558,12 +32104,6 @@ IL_0013:
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:65>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:66>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:67>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:68>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:69>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:70>
 		FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* L_5 = __this->___U3CU3E4__this;
 		NullCheck(L_5);
 		RuntimeObject* L_6 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)L_5)->___ProductsCallback;
@@ -34586,7 +32126,6 @@ IL_002f:
 		ProductFetchFailureDescription__ctor_m478115AB3D52F9E466D2A3710C480C1F1018B992(L_9, L_8, _stringLiteral98F77A7F5C09D548142D88B4906D89BAFE0833E8, (bool)0, NULL);
 		NullCheck(G_B6_0);
 		InterfaceActionInvoker1< ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271* >::Invoke(1, IStoreProductsCallback_t27E2FA33A2DDF103DA24D23E3C456A502CE73BE1_il2cpp_TypeInfo_var, G_B6_0, L_9);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:72>
 		return;
 	}
 }
@@ -34598,7 +32137,6 @@ IL_002f:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0__ctor_mAD24CDDAA4886C0AB1D15955B71B8942EC437DCB (U3CU3Ec__DisplayClass19_0_t3721237C9DF4D8931C58C14F6EFE9FD6F7809394* __this, const RuntimeMethod* method) 
 {
 	{
@@ -34606,7 +32144,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0__ctor_mAD24CDD
 		return;
 	}
 }
-// Method Definition Index: 90015
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0_U3CFakePurchaseU3Eg__handleAllowPurchaseU7C0_mAB1810A8A5A088CF354290ACEBDBA4C5A5679AD9 (U3CU3Ec__DisplayClass19_0_t3721237C9DF4D8931C58C14F6EFE9FD6F7809394* __this, bool ___0_allow, int32_t ___1_failureReason, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -34625,7 +32162,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0_U3CFakePurchas
 	memset((&V_0), 0, sizeof(V_0));
 	PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:150>
 		bool L_0 = ___0_allow;
 		if (!L_0)
 		{
@@ -34633,7 +32169,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0_U3CFakePurchas
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:152>
 		FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* L_1 = __this->___U3CU3E4__this;
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_2 = __this->___productDefinition;
 		NullCheck(L_2);
@@ -34651,7 +32186,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0_U3CFakePurchas
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:156>
 		int32_t L_6 = ___1_failureReason;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (PurchaseFailureReason_t0567DFEBCC078229A0C360E2CE3F0E6CFA8B819E_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -34666,13 +32200,11 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:158>
 		___1_failureReason = 4;
 	}
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:161>
 		FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* L_10 = __this->___U3CU3E4__this;
 		NullCheck(L_10);
 		RuntimeObject* L_11 = ((Store_t70C9396EB82AE8E8781FE311A06AA6F191E41BD8*)L_10)->___ProductCache;
@@ -34683,281 +32215,220 @@ IL_0051:
 		NullCheck(L_11);
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_14;
 		L_14 = InterfaceFuncInvoker1< Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76*, String_t* >::Invoke(2, IReadOnlyProductCache_tA2F8C14B33C953CB472AC88447E2809831BAE499_il2cpp_TypeInfo_var, L_11, L_13);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:162>
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:163>
 		CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* L_15;
 		L_15 = CartItem_op_Implicit_mB626594B3A9A7DCBC89AB8EAF4F16D4A78C36EB2(L_14, NULL);
 		int32_t L_16 = ___1_failureReason;
 		PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_17 = (PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380*)il2cpp_codegen_object_new(PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380_il2cpp_TypeInfo_var);
 		PurchaseFailureDescription__ctor_mD1E120E019EDCF2CC59A9C5504C4B4A01D902465(L_17, L_15, L_16, _stringLiteralD016F89FD67D342DCC411DCF51E41A3D635BEF7D, NULL);
 		V_1 = L_17;
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:165>
 		FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* L_18 = __this->___U3CU3E4__this;
 		PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* L_19 = V_1;
 		NullCheck(L_18);
 		JsonStore_OnPurchaseFailed_mAEDB5809D8A5E27229038678B93F246F46174D0E(L_18, L_19, (String_t*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:167>
 		return;
 	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 86152
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Order_get_CartOrdered_m134E21BEDE41F469365E67B54F1132986016525A_inline (Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Core/Purchasing/Models/Order.cs:13>
 		RuntimeObject* L_0 = __this->___U3CCartOrderedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 86154
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Order_get_Info_m00C5CEF797606F36178D40872C6D15342AF5DAFF_inline (Order_tD1825298A09BBF359EC2F7B272C72E11C0508A4F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Core/Purchasing/Models/Order.cs:18>
 		RuntimeObject* L_0 = __this->___U3CInfoU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 86093
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* CartItem_get_Product_m1CEE0F7667AB0B7C4454FC03F60C44890FFEF9F9_inline (CartItem_t2AD57E121E5F61C1B5A69160E39D32C1E126C42F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Core/Purchasing/Models/CartItem.cs:13>
 		Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* L_0 = __this->___U3CProductU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 86120
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t FailedOrder_get_FailureReason_m7D2EA6813A9EFB3801495F7FBAA3E0A3146EAB56_inline (FailedOrder_t4FF159EDE64FC2EAFB4439A3AEC7F46B62F55BD8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Core/Purchasing/Models/FailedOrder.cs:17>
 		int32_t L_0 = __this->___m_FailureReason;
 		return L_0;
 	}
 }
-// Method Definition Index: 86121
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* FailedOrder_get_Details_m541342A2CD35295A103C15595A666EC8EE56CA54_inline (FailedOrder_t4FF159EDE64FC2EAFB4439A3AEC7F46B62F55BD8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Core/Purchasing/Models/FailedOrder.cs:22>
 		String_t* L_0 = __this->___m_Details;
 		return L_0;
 	}
 }
-// Method Definition Index: 86964
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductMetadata_t2D6C6454A305A6790D8903169E3B136EB13417E1* Product_get_metadata_m72DA1FE5EBC2909BEDA01D4F7DDDEEF64D9E0E2E_inline (Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Product.cs:43>
 		ProductMetadata_t2D6C6454A305A6790D8903169E3B136EB13417E1* L_0 = __this->___U3CmetadataU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 87017
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductMetadata_get_localizedTitle_m7E11CABC47D881332415816A44875CBB025DC359_inline (ProductMetadata_t2D6C6454A305A6790D8903169E3B136EB13417E1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/ProductMetadata.cs:56>
 		String_t* L_0 = __this->___U3ClocalizedTitleU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 86962
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* Product_get_definition_m0B1DCF704219DD58B62DC2718C64D33DD690F92B_inline (Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Product.cs:37>
 		ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* L_0 = __this->___U3CdefinitionU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 87000
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductDefinition_get_storeSpecificId_m67EC5C2564476BD154C8164613AB62A4DBEADEAC_inline (ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/ProductDefinition.cs:91>
 		String_t* L_0 = __this->___U3CstoreSpecificIdU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 87030
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PurchaseFailureDescription_get_reason_m8F7F89D8472AD84B5BB6E3612E67C50D764AA4C5_inline (PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/PurchaseFailureDescription.cs:41>
 		int32_t L_0 = __this->___U3CreasonU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 87032
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* PurchaseFailureDescription_get_message_mC34364558B2C00B589EE42393F91945960DC4438_inline (PurchaseFailureDescription_tE326F164DDF7A364E3355DBA29FC683682E23380* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/PurchaseFailureDescription.cs:46>
 		String_t* L_0 = __this->___U3CmessageU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 87002
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ProductDefinition_get_type_m06713F1930454961F16BB38AD5B74695FB880371_inline (ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/ProductDefinition.cs:96>
 		int32_t L_0 = __this->___U3CtypeU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 86998
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductDefinition_get_id_mB6D0D1382CB55ED6D3BB44669B66B83135E50C46_inline (ProductDefinition_tB486F56477C49E81BA6704C2DD31F373CDCCC1BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/ProductDefinition.cs:86>
 		String_t* L_0 = __this->___U3CidU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 874
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 86969
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Product_set_transactionID_mEB0EEC10D24C7172DDF38FA3CF553A54A9A998C7_inline (Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Product.cs:64>
 		String_t* L_0 = ___0_value;
 		__this->___U3CtransactionIDU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtransactionIDU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 87348
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductMetadata_t2D6C6454A305A6790D8903169E3B136EB13417E1* ProductDescription_get_metadata_m90B0E9E6F346FA02655F72A548C2BDB80A4C3C37_inline (ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Extension/ProductDescription.cs:76>
 		ProductMetadata_t2D6C6454A305A6790D8903169E3B136EB13417E1* L_0 = __this->___U3CmetadataU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 87251
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271* FetchProductsException_get_FailureDescription_mB420F18581EA8D2B9E676F80B71CE592373A9B9B_inline (FetchProductsException_t55DC71A9397E5A17BEDAD2919BDA041B332304CE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Stores/BaseStore/Exceptions/FetchProductsException.cs:7>
 		ProductFetchFailureDescription_t7B508F9835AA360A79DDE8E50C377CF82B4E8271* L_0 = __this->___U3CFailureDescriptionU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 87346
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductDescription_get_storeSpecificId_m8D92682CA9FE225A810FB3E1FD1DC5F767229E74_inline (ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Extension/ProductDescription.cs:59>
 		String_t* L_0 = __this->___U3CstoreSpecificIdU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 86968
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Product_get_transactionID_m0E32BFB2A2534498A9D67B1048D1A8545FFC2353_inline (Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Product.cs:64>
 		String_t* L_0 = __this->___U3CtransactionIDU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 98370
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D AppleInAppPurchaseReceipt_get_cancellationDate_m8D281D6DA6898DCD0A697C651E8DC5A71C75926A_inline (AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/SecurityCore/AppleReceipt.cs:96>
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = __this->___U3CcancellationDateU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 98364
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D AppleInAppPurchaseReceipt_get_purchaseDate_m7EAEFDFD682231B7337481FF2865F67B1D882262_inline (AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/SecurityCore/AppleReceipt.cs:80>
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = __this->___U3CpurchaseDateU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 98358
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AppleInAppPurchaseReceipt_get_productID_m63220C43A43698508C41748AC8A8973C3A821A41_inline (AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/SecurityCore/AppleReceipt.cs:65>
 		String_t* L_0 = __this->___U3CproductIDU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 89882
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void JsonStore_SetNativeStore_m214D03245A3B3FDA823F64101B8DED0FD9784F00_inline (JsonStore_tC69006F3B9EE2E2B4C8CFD2C5C77AB1EF42F5382* __this, RuntimeObject* ___0_native, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:40>
 		RuntimeObject* L_0 = ___0_native;
 		__this->___m_Store = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Store), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/BaseStore/JSONStore.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 89800
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool AppleStoreImpl_get_simulateAskToBuy_m85571DFEF511C76CA5B0DB854C231FA78DDA4ADB_inline (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:253>
 		bool L_0 = __this->___U3CsimulateAskToBuyU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 98374
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AppleInAppPurchaseReceipt_get_productType_m5A3C2664F17A21A98B267B8E49695082148CE1E9_inline (AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/SecurityCore/AppleReceipt.cs:106>
 		int32_t L_0 = __this->___U3CproductTypeU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 98362
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AppleInAppPurchaseReceipt_get_originalTransactionIdentifier_mAEBE0C2F85BD9F5F1574D3787274BF42C0E9567F_inline (AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/SecurityCore/AppleReceipt.cs:75>
 		String_t* L_0 = __this->___U3CoriginalTransactionIdentifierU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 98360
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AppleInAppPurchaseReceipt_get_transactionID_m357DBC667B344D253270FFDE0B5F11CBF6334DCA_inline (AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/SecurityCore/AppleReceipt.cs:70>
 		String_t* L_0 = __this->___U3CtransactionIDU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 87352
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductDescription_get_transactionId_m435D8A4B206F4FDB8315B5294CEBF05A8AD361B3_inline (ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Extension/ProductDescription.cs:86>
 		String_t* L_0 = __this->___U3CtransactionIdU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 3906
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
 {
 	{
@@ -34966,55 +32437,44 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 86973
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Product_set_appleProductIsRestored_m07289411734C7D4BB11056F42578E16A8337DFF0_inline (Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Product.cs:78>
 		bool L_0 = ___0_value;
 		__this->___U3CappleProductIsRestoredU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 86971
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Product_set_appleOriginalTransactionID_m817A6AB44042D5CC1974BDBDFA6F08A72E0A7F7B_inline (Product_tD279BF775D345330FEE8405D2F53EC5D6B971C76* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Product.cs:72>
 		String_t* L_0 = ___0_value;
 		__this->___U3CappleOriginalTransactionIDU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CappleOriginalTransactionIDU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 98368
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D AppleInAppPurchaseReceipt_get_subscriptionExpirationDate_m2CA5A6A1E85AF5E5230AA07DCB299DAE9735A621_inline (AppleInAppPurchaseReceipt_t5DC5C0301A5F1EDBAEFE3423D6909D65BE6786E1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/SecurityCore/AppleReceipt.cs:90>
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = __this->___U3CsubscriptionExpirationDateU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 87350
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ProductDescription_get_receipt_m6E886A4EB190545A1ACD75C294419AA448ABFF21_inline (ProductDescription_t1E61258FE3B049F43A5F1A3F5DE9BB55A2C1075A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Extension/ProductDescription.cs:81>
 		String_t* L_0 = __this->___U3CreceiptU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 89785
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* AppleStoreImpl_GetNativeStore_m8B43487A216B899332B770AEF9574A90872BB505_inline (AppleStoreImpl_tABE7AFF7508B6E04D004AA43268E30E8592580C8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/AppleAppStore/AppleStoreImpl.cs:86>
 		RuntimeObject* L_0 = __this->___m_Native;
 		return L_0;
 	}
 }
-// Method Definition Index: 42866
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Debug_get_unityLogger_m4FDE4D41C187123244FE13124DA636BB50C9C1E1_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -35029,37 +32489,29 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Debug_get_unityLog
 		return L_0;
 	}
 }
-// Method Definition Index: 89654
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GooglePlayPurchaseCallback_SetProductCache_m7F48205E0A17EDE4CA7136C31326246D2DD2C9C1_inline (GooglePlayPurchaseCallback_t9B716FF48C7A7FA3EE451B98FD2A984397979FEE* __this, RuntimeObject* ___0_productCache, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:30>
 		RuntimeObject* L_0 = ___0_productCache;
 		__this->___m_ProductCache = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ProductCache), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/Android/GooglePlay/GooglePlayPurchaseCallback.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 89990
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* FakeStore_get_unavailableProductId_m30D3DB99CF73D837FCB91A4A098B1A98D9112762_inline (FakeStore_tD4A91B0895B93ACCAE6190035DC0CBC888EBCAA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Stores/FakeStore/FakeStore.cs:20>
 		String_t* L_0 = __this->___U3CunavailableProductIdU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 86715
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ProductCatalog_get_allProducts_m77C39EFD582C9D2120D63757A6B1FB422B52CA23_inline (ProductCatalog_t0294AD87A86E15C2485C625A0FF6CADE049556F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.purchasing@6d21c7e374c4/Runtime/Purchasing/Extension/ProductCatalog.cs:1218>
 		List_1_t6065F245B4CD9AAC17A76C2CF10A86B8E62FA229* L_0 = __this->___products;
 		return L_0;
 	}
 }
-// Method Definition Index: 11281
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Value_mC6BD8075F9C9DDEF7B4D731E5C38EC19103988E7_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35067,7 +32519,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get
 		return L_0;
 	}
 }
-// Method Definition Index: 3279
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -35077,25 +32528,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD
 		return L_0;
 	}
 }
-// Method Definition Index: 878
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 878
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m3BFB5987F7235AEF25980B76D635DBD5B56B0F7A_gshared_inline (Action_2_t9C4E97D0565650F0AEF7C72077EB8A0F9326E40B* __this, RuntimeObject* ___0_arg1, int32_t ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 876
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 11289
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35103,7 +32550,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
-// Method Definition Index: 11353
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35111,7 +32557,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 2189
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Nullable_1_GetValueOrDefault_m26287DBB36429B2E2FBCB3F96F439248F8CAA8BB_gshared_inline (Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35119,7 +32564,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Nullable_1_GetValueOrDefa
 		return L_0;
 	}
 }
-// Method Definition Index: 2187
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mB1F55188CDD50D6D725D41F55D2F2540CD15FB20_gshared_inline (Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35127,7 +32571,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mB1F
 		return L_0;
 	}
 }
-// Method Definition Index: 4887
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* TaskCompletionSource_1_get_Task_mF44990297C25C7DBE1E65241C03D0120CB551552_gshared_inline (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35135,7 +32578,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218
 		return L_0;
 	}
 }
-// Method Definition Index: 75973
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Empty_TisRuntimeObject_mA90CDE158774C34A28C07CEEA9E9EA2A61618238_gshared_inline (const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -35145,13 +32587,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Empty_T
 		return (RuntimeObject*)L_0;
 	}
 }
-// Method Definition Index: 876
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mBF7DDBCD230E9D28EDF45D3E65F907DE1AE0CCBC_gshared_inline (Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* __this, int32_t ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 11300
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
@@ -35189,7 +32629,6 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 4887
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_tDF6755931ADF5913629FA0B8E5826884D8E52D05* TaskCompletionSource_1_get_Task_m84DB6EC4B76240C331D3206610D3A9D7CFC431C7_gshared_inline (TaskCompletionSource_1_tA78CA27714E4CD962D59DE7C8BCBEBE4533481B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35197,7 +32636,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_tDF6755931ADF5913629FA0B8E
 		return L_0;
 	}
 }
-// Method Definition Index: 2189
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Nullable_1_GetValueOrDefault_m8D130DB7F2A1E694736B449176F9C26DB456597B_gshared_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35205,7 +32643,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Nullable_1_GetValueOrDefa
 		return L_0;
 	}
 }
-// Method Definition Index: 2187
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mCF2FD8B3055FA87FC9C504F2122B3B0FAEDE3EC9_gshared_inline (Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35213,7 +32650,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mCF2
 		return L_0;
 	}
 }
-// Method Definition Index: 11196
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 Enumerator_get_Current_mE3475384B761E1C7971D3639BD09117FE8363422_gshared_inline (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35221,13 +32657,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tFC32D250721629385
 		return L_0;
 	}
 }
-// Method Definition Index: 878
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m5387D08742D6C89CAB31D981C0F63C08D70AB3AD_gshared_inline (Action_2_t4E94B0FCA1084D7868DB11A50767A4916CA3D3FB* __this, bool ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, bool, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 4887
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_gshared_inline (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35235,7 +32669,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F73005
 		return L_0;
 	}
 }
-// Method Definition Index: 2187
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m092C73DCE052BFB5C60A39EF9F4E3401AA95221C_gshared_inline (Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35243,7 +32676,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m092
 		return L_0;
 	}
 }
-// Method Definition Index: 2189
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D Nullable_1_GetValueOrDefault_mBE26FDBA8873F7AE883FF290864E1D2665EAC52F_gshared_inline (Nullable_1_tEADC262F7F8B8BC4CC0A003DBDD3CA7C1B63F9AC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35251,7 +32683,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89
 		return L_0;
 	}
 }
-// Method Definition Index: 11280
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35259,19 +32690,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get
 		return L_0;
 	}
 }
-// Method Definition Index: 894
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_gshared_inline (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 892
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_1_Invoke_m1412272198DFA4066C83206E5B43353AF10A2EEE_gshared_inline (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* __this, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 896
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_m31D9E56C7CAE538FD8564F34CABA2C2A537ED393_gshared_inline (Func_3_tAB0692B406AF1455ADB5F518BF283E084B5E8566* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);

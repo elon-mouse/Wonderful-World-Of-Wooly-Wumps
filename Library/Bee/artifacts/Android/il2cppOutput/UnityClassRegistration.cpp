@@ -15,9 +15,6 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_Audio();
 	RegisterModule_Audio();
 
-	void RegisterModule_CrashReporting();
-	RegisterModule_CrashReporting();
-
 	void RegisterModule_GraphicsStateCollectionSerializer();
 	RegisterModule_GraphicsStateCollectionSerializer();
 
@@ -54,9 +51,6 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_JSONSerialize();
 	RegisterModule_JSONSerialize();
 
-	void RegisterModule_Insights();
-	RegisterModule_Insights();
-
 	void RegisterModule_Physics();
 	RegisterModule_Physics();
 
@@ -77,6 +71,9 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 
 	void RegisterModule_SpriteShape();
 	RegisterModule_SpriteShape();
+
+	void RegisterModule_SpriteMask();
+	RegisterModule_SpriteMask();
 
 	void RegisterModule_Subsystems();
 	RegisterModule_Subsystems();
@@ -99,9 +96,6 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_Tilemap();
 	RegisterModule_Tilemap();
 
-	void RegisterModule_SpriteMask();
-	RegisterModule_SpriteMask();
-
 	void RegisterModule_UI();
 	RegisterModule_UI();
 
@@ -110,15 +104,6 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 
 	void RegisterModule_UnityAnalyticsCommon();
 	RegisterModule_UnityAnalyticsCommon();
-
-	void RegisterModule_UnityConnect();
-	RegisterModule_UnityConnect();
-
-	void RegisterModule_UnityAnalytics();
-	RegisterModule_UnityAnalytics();
-
-	void RegisterModule_UnityConsent();
-	RegisterModule_UnityConsent();
 
 	void RegisterModule_UnityWebRequest();
 	RegisterModule_UnityWebRequest();
@@ -230,7 +215,6 @@ namespace UI { class Canvas; } template <> void RegisterUnityClass<UI::Canvas>(c
 namespace UI { class CanvasGroup; } template <> void RegisterUnityClass<UI::CanvasGroup>(const char*);
 namespace UI { class CanvasRenderer; } template <> void RegisterUnityClass<UI::CanvasRenderer>(const char*);
 class UIRenderer; template <> void RegisterUnityClass<UIRenderer>(const char*);
-class UnityConnectSettings; template <> void RegisterUnityClass<UnityConnectSettings>(const char*);
 class VFXManager; template <> void RegisterUnityClass<VFXManager>(const char*);
 class VFXRenderer; template <> void RegisterUnityClass<VFXRenderer>(const char*);
 class VisualEffect; template <> void RegisterUnityClass<VisualEffect>(const char*);
@@ -241,7 +225,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 94 non stripped classes
+	//Total: 93 non stripped classes
 	//0. Animator
 	RegisterUnityClass<Animator>("Animation");
 	//1. AnimatorController
@@ -418,17 +402,15 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
 	//87. UIRenderer
 	RegisterUnityClass<UIRenderer>("UIElements");
-	//88. UnityConnectSettings
-	RegisterUnityClass<UnityConnectSettings>("UnityConnect");
-	//89. VFXManager
+	//88. VFXManager
 	RegisterUnityClass<VFXManager>("VFX");
-	//90. VFXRenderer
+	//89. VFXRenderer
 	RegisterUnityClass<VFXRenderer>("VFX");
-	//91. VisualEffect
+	//90. VisualEffect
 	RegisterUnityClass<VisualEffect>("VFX");
-	//92. VisualEffectAsset
+	//91. VisualEffectAsset
 	RegisterUnityClass<VisualEffectAsset>("VFX");
-	//93. VisualEffectObject
+	//92. VisualEffectObject
 	RegisterUnityClass<VisualEffectObject>("VFX");
 
 }

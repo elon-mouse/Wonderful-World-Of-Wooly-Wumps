@@ -9,7 +9,7 @@
     <element name="" element-id="202" assign-type="None" raw-value="implementation project(':unityLibrary')" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
   </element>
   <element name="android" element-id="117" assign-type="None" type="Unity.Android.Gradle.Android" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="114">
-    <element name="namespace" element-id="118" assign-type="None" property-value="com.DefaultCompany.Myproject" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
+    <element name="namespace" element-id="118" assign-type="None" property-value="com.elonmouse.woolywumpus" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
     <element name="ndkPath" element-id="120" assign-type="None" property-value="/Applications/Unity/Hub/Editor/6000.3.2f1/PlaybackEngines/AndroidPlayer/NDK" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
     <element name="ndkVersion" element-id="121" assign-type="None" property-value="27.2.12479018" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
     <element name="compileSdk" element-id="122" assign-type="None" property-value="36" type="Unity.Android.Gradle.PropertyUnsignedInteger" base-type="BaseProperty" is-default="true" dependencies="" />
@@ -19,8 +19,8 @@
       <element name="targetCompatibility" element-id="127" assign-type="None" property-value="Version_17" type="Unity.Android.Gradle.PropertyEnum`1" base-type="BaseProperty" is-default="true" dependencies="" />
     </element>
     <element name="defaultConfig" element-id="128" assign-type="None" type="Unity.Android.Gradle.Flavor" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
-      <element name="applicationId" element-id="129" assign-type="None" property-value="com.DefaultCompany.Myproject" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
-      <element name="versionName" element-id="134" assign-type="None" property-value="1.0" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
+      <element name="applicationId" element-id="129" assign-type="None" property-value="com.elonmouse.woolywumpus" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
+      <element name="versionName" element-id="134" assign-type="None" property-value="0.1.1" type="Unity.Android.Gradle.PropertyString" base-type="BaseProperty" is-default="true" dependencies="" />
       <element name="minSdk" element-id="136" assign-type="None" property-value="25" type="Unity.Android.Gradle.PropertyUnsignedInteger" base-type="BaseProperty" is-default="true" dependencies="" />
       <element name="targetSdk" element-id="137" assign-type="None" property-value="36" type="Unity.Android.Gradle.PropertyUnsignedInteger" base-type="BaseProperty" is-default="true" dependencies="" />
       <element name="versionCode" element-id="138" assign-type="None" property-value="1" type="Unity.Android.Gradle.PropertyUnsignedInteger" base-type="BaseProperty" is-default="true" dependencies="" />
@@ -41,31 +41,37 @@
         <element name="useLegacyPackaging" element-id="184" assign-type="None" property-value="True" type="Unity.Android.Gradle.PropertyBoolean" base-type="BaseProperty" is-default="true" dependencies="" />
       </element>
     </element>
-    <element name="buildTypes" element-id="186" assign-type="None" type="Unity.Android.Gradle.BuildTypes" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
+    <element name="buildTypes" element-id="186" assign-type="None" type="Unity.Android.Gradle.BuildTypes" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="195">
       <element name="debug" element-id="203" assign-type="None" type="Unity.Android.Gradle.BuildType" base-type="Unity.Android.Gradle.BaseBlock" is-default="false" dependencies="">
         <element name="minifyEnabled" element-id="204" assign-type="Equals" property-value="False" type="Unity.Android.Gradle.PropertyBoolean" base-type="BaseProperty" is-default="true" dependencies="" />
         <element name="proguardFiles" element-id="205" assign-type="None" raw-value="getDefaultProguardFile('proguard-android.txt')" type="Unity.Android.Gradle.PropertyStringArray" base-type="BaseProperty" is-default="true" dependencies="" />
         <element name="jniDebuggable" element-id="206" assign-type="Equals" property-value="True" type="Unity.Android.Gradle.PropertyBoolean" base-type="BaseProperty" is-default="true" dependencies="" />
-        <element name="signingConfig" element-id="208" assign-type="None" property-value="signingConfigs.debug" type="Unity.Android.Gradle.Property`1" base-type="BaseProperty" is-default="true" dependencies="" />
+        <element name="signingConfig" element-id="208" assign-type="None" property-value="signingConfigs.release" type="Unity.Android.Gradle.Property`1" base-type="BaseProperty" is-default="true" dependencies="" />
       </element>
       <element name="release" element-id="209" assign-type="None" type="Unity.Android.Gradle.BuildType" base-type="Unity.Android.Gradle.BaseBlock" is-default="false" dependencies="">
         <element name="minifyEnabled" element-id="210" assign-type="Equals" property-value="False" type="Unity.Android.Gradle.PropertyBoolean" base-type="BaseProperty" is-default="true" dependencies="" />
         <element name="proguardFiles" element-id="211" assign-type="None" raw-value="getDefaultProguardFile('proguard-android.txt')" type="Unity.Android.Gradle.PropertyStringArray" base-type="BaseProperty" is-default="true" dependencies="" />
-        <element name="signingConfig" element-id="214" assign-type="None" property-value="signingConfigs.debug" type="Unity.Android.Gradle.Property`1" base-type="BaseProperty" is-default="true" dependencies="" />
+        <element name="signingConfig" element-id="214" assign-type="None" property-value="signingConfigs.release" type="Unity.Android.Gradle.Property`1" base-type="BaseProperty" is-default="true" dependencies="" />
       </element>
     </element>
-    <element name="bundle" element-id="215" assign-type="None" type="Unity.Android.Gradle.Bundle" base-type="Unity.Android.Gradle.BaseBlock" is-default="false" dependencies="">
-      <element name="language" element-id="216" assign-type="None" type="Unity.Android.Gradle.BundleElement" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
-        <element name="enableSplit" element-id="217" assign-type="Equals" property-value="False" type="Unity.Android.Gradle.PropertyBoolean" base-type="BaseProperty" is-default="true" dependencies="" />
+    <element name="signingConfigs" element-id="195" assign-type="None" type="Unity.Android.Gradle.SigningConfigs" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
+      <element name="release" element-id="215" assign-type="None" raw-value="storeFile file('/Users/arman/Library/Mobile Documents/com~apple~CloudDocs/Documents/user.keystore')&#xA;storePassword 'BlueMouse'&#xA;keyAlias 'wooly-wumpus'&#xA;keyPassword 'BlueMouse'" type="Unity.Android.Gradle.SigningConfig" base-type="Unity.Android.Gradle.BaseBlock" is-default="false" dependencies="" />
+    </element>
+    <element name="androidComponents" element-id="196" assign-type="None" type="Unity.Android.Gradle.AndroidComponents" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
+      <element name="onVariants" element-id="197" assign-type="Parentheses" property-value="selector().all(), { variant -&gt;&#xA;    variant.bundleConfig.addMetadataFile(&#xA;        &quot;com.unity&quot;,&#xA;        project.layout.file(project.providers.provider { new File(&quot;dependencies.pb&quot;) })&#xA;    )&#xA;    variant.bundleConfig.addMetadataFile(&#xA;        &quot;com.unity&quot;,&#xA;        project.layout.file(project.providers.provider { new File(&quot;app-metadata.properties&quot;) })&#xA;    )&#xA;}" type="Unity.Android.Gradle.Property`1" base-type="BaseProperty" is-default="true" dependencies="" />
+    </element>
+    <element name="bundle" element-id="220" assign-type="None" type="Unity.Android.Gradle.Bundle" base-type="Unity.Android.Gradle.BaseBlock" is-default="false" dependencies="">
+      <element name="language" element-id="221" assign-type="None" type="Unity.Android.Gradle.BundleElement" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
+        <element name="enableSplit" element-id="222" assign-type="Equals" property-value="False" type="Unity.Android.Gradle.PropertyBoolean" base-type="BaseProperty" is-default="true" dependencies="" />
       </element>
-      <element name="density" element-id="218" assign-type="None" type="Unity.Android.Gradle.BundleElement" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
-        <element name="enableSplit" element-id="219" assign-type="Equals" property-value="False" type="Unity.Android.Gradle.PropertyBoolean" base-type="BaseProperty" is-default="true" dependencies="" />
+      <element name="density" element-id="223" assign-type="None" type="Unity.Android.Gradle.BundleElement" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
+        <element name="enableSplit" element-id="224" assign-type="Equals" property-value="False" type="Unity.Android.Gradle.PropertyBoolean" base-type="BaseProperty" is-default="true" dependencies="" />
       </element>
-      <element name="abi" element-id="220" assign-type="None" type="Unity.Android.Gradle.BundleElement" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
-        <element name="enableSplit" element-id="221" assign-type="Equals" property-value="True" type="Unity.Android.Gradle.PropertyBoolean" base-type="BaseProperty" is-default="true" dependencies="" />
+      <element name="abi" element-id="225" assign-type="None" type="Unity.Android.Gradle.BundleElement" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
+        <element name="enableSplit" element-id="226" assign-type="Equals" property-value="True" type="Unity.Android.Gradle.PropertyBoolean" base-type="BaseProperty" is-default="true" dependencies="" />
       </element>
-      <element name="texture" element-id="222" assign-type="None" type="Unity.Android.Gradle.BundleElement" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
-        <element name="enableSplit" element-id="223" assign-type="Equals" property-value="True" type="Unity.Android.Gradle.PropertyBoolean" base-type="BaseProperty" is-default="true" dependencies="" />
+      <element name="texture" element-id="227" assign-type="None" type="Unity.Android.Gradle.BundleElement" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
+        <element name="enableSplit" element-id="228" assign-type="Equals" property-value="True" type="Unity.Android.Gradle.PropertyBoolean" base-type="BaseProperty" is-default="true" dependencies="" />
       </element>
     </element>
   </element>

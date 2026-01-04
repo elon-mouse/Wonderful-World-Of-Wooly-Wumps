@@ -1,36 +1,95 @@
 using UnityEngine;
-using Terresquall;
+using UnityEngine.InputSystem;
+
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] private float speed = 8f;
+    [SerializeField] private float jumpingPower = 12f;
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private LayerMask groundLayer;
+
+    private Rigidbody2D rb;
+    private PlayerInput playerInput;
+    private InputAction moveAction;
+    private InputAction jumpAction;
+
     private float horizontal;
     private bool isFacingRight = true;
 
-    [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private Transform groundCheck;
-    [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private float speed;
-    [SerializeField] private float jumpingPower;
-    void Update()
+    private void Awake()
     {
-        horizontal = VirtualJoystick.GetAxisRaw("Horizontal");
-        horizontal = Input.GetAxisRaw("Horizontal");
+        rb = GetComponent<Rigidbody2D>();
+        playerInput = GetComponent<PlayerInput>();
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (playerInput == null)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
+            Debug.LogError("❌ PlayerInput component missing!");
+            enabled = false;
+            return;
         }
 
-        if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
+        if (playerInput.actions == null)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+            Debug.LogError("❌ PlayerInput has no Input Actions assigned!");
+            enabled = false;
+            return;
         }
 
+        moveAction = playerInput.actions["Move"];
+        jumpAction = playerInput.actions["Jump"];
+
+        if (moveAction == null || jumpAction == null)
+        {
+            Debug.LogError("❌ Move or Jump action not found. Check Action Map name!");
+            enabled = false;
+        }
+    }
+
+    private void OnEnable()
+    {
+        if (jumpAction != null)
+        {
+            jumpAction.performed += OnJump;
+            jumpAction.canceled += OnJumpCancel;
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (jumpAction != null)
+        {
+            jumpAction.performed -= OnJump;
+            jumpAction.canceled -= OnJumpCancel;
+        }
+    }
+
+    private void Update()
+    {
+        if (moveAction == null) return;
+
+        horizontal = moveAction.ReadValue<Vector2>().x;
         Flip();
     }
 
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
+    }
+
+    private void OnJump(InputAction.CallbackContext context)
+    {
+        if (IsGrounded())
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
+        }
+    }
+
+    private void OnJumpCancel(InputAction.CallbackContext context)
+    {
+        if (rb.linearVelocity.y > 0f)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+        }
     }
 
     private bool IsGrounded()
@@ -40,12 +99,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void Flip()
     {
-        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
+        if ((isFacingRight && horizontal < 0f) || (!isFacingRight && horizontal > 0f))
         {
             isFacingRight = !isFacingRight;
-            Vector3 localScale = transform.localScale;
-            localScale.x *= -1f;
-            transform.localScale = localScale;
+            Vector3 scale = transform.localScale;
+            scale.x *= -1f;
+            transform.localScale = scale;
         }
     }
 }

@@ -1753,7 +1753,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t BitConverter_DoubleToInt6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t93B6FF8BFAC90C3915AF15D0CBF28961801F6ACE UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBB4FDEABAA002AD98D9A2B28FB8605502C990502 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1787,7 +1786,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t93B6FF8BFAC90C3915AF15D0CBF28
 		return L_6;
 	}
 }
-// Method Definition Index: 95069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m9DEDF85C8BFEA23248A12BD5B40978400DF1007C (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tA69711B1251FF2D7ADA0FDF95128DAF958D57771* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1873,7 +1871,6 @@ IL2CPP_EXTERN_C void MonoScriptData_t93B6FF8BFAC90C3915AF15D0CBF28961801F6ACE_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanarGraph_RemoveDuplicateEdges_m4BD4BCB21678A1ACF9CAA2D7C1CCEA846DEA607E (Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* ___0_edges, int32_t* ___1_edgeCount, Array_1_t20CE0BD535FE6EB0564B4289C0D7C9CF43FE49D1 ___2_duplicates, int32_t ___3_duplicateCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1904,7 +1901,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanarGraph_RemoveDuplicateEdges_m4BD4BC
 	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_10;
 	memset((&V_10), 0, sizeof(V_10));
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:18>
 		int32_t L_0 = ___3_duplicateCount;
 		if (L_0)
 		{
@@ -1912,20 +1908,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanarGraph_RemoveDuplicateEdges_m4BD4BC
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:20>
 		V_1 = 0;
 		goto IL_0063;
 	}
 
 IL_0007:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:22>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_1 = ___0_edges;
 		int32_t L_2 = V_1;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_3;
 		L_3 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5(L_1, L_2, Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
 		V_2 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:23>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_4 = ___0_edges;
 		int32_t L_5 = V_1;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_6;
@@ -1939,7 +1932,6 @@ IL_0007:
 		int32_t L_12;
 		L_12 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(L_7, L_11, NULL);
 		(&V_2)->___x = L_12;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:24>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_13 = ___0_edges;
 		int32_t L_14 = V_1;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_15;
@@ -1953,19 +1945,16 @@ IL_0007:
 		int32_t L_21;
 		L_21 = math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline(L_16, L_20, NULL);
 		(&V_2)->___y = L_21;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:25>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_22 = ___0_edges;
 		int32_t L_23 = V_1;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_24 = V_2;
 		Array_1_set_Item_m38A85354C46345F8E6149795DDD4942A22C4308B(L_22, L_23, L_24, Array_1_set_Item_m38A85354C46345F8E6149795DDD4942A22C4308B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:20>
 		int32_t L_25 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_25, 1));
 	}
 
 IL_0063:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:20>
 		int32_t L_26 = V_1;
 		int32_t* L_27 = ___1_edgeCount;
 		int32_t L_28 = *((int32_t*)L_27);
@@ -1980,56 +1969,47 @@ IL_0063:
 
 IL_006a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:30>
 		V_3 = 0;
 		goto IL_00c4;
 	}
 
 IL_006e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:32>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_29 = ___0_edges;
 		int32_t L_30 = V_3;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_31;
 		L_31 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5(L_29, L_30, Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
 		V_4 = L_31;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:33>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_32 = V_4;
 		int32_t L_33 = L_32.___x;
 		int32_t L_34;
 		L_34 = Array_1_get_Item_mB05509E8044477617EC9523DC3985F3936CEE2CD((&___2_duplicates), L_33, Array_1_get_Item_mB05509E8044477617EC9523DC3985F3936CEE2CD_RuntimeMethod_var);
 		V_5 = L_34;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:34>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_35 = V_4;
 		int32_t L_36 = L_35.___y;
 		int32_t L_37;
 		L_37 = Array_1_get_Item_mB05509E8044477617EC9523DC3985F3936CEE2CD((&___2_duplicates), L_36, Array_1_get_Item_mB05509E8044477617EC9523DC3985F3936CEE2CD_RuntimeMethod_var);
 		V_6 = L_37;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:35>
 		int32_t L_38 = V_5;
 		int32_t L_39 = V_6;
 		int32_t L_40;
 		L_40 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(L_38, L_39, NULL);
 		(&V_4)->___x = L_40;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:36>
 		int32_t L_41 = V_5;
 		int32_t L_42 = V_6;
 		int32_t L_43;
 		L_43 = math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline(L_41, L_42, NULL);
 		(&V_4)->___y = L_43;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:37>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_44 = ___0_edges;
 		int32_t L_45 = V_3;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_46 = V_4;
 		Array_1_set_Item_m38A85354C46345F8E6149795DDD4942A22C4308B(L_44, L_45, L_46, Array_1_set_Item_m38A85354C46345F8E6149795DDD4942A22C4308B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:30>
 		int32_t L_47 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_47, 1));
 	}
 
 IL_00c4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:30>
 		int32_t L_48 = V_3;
 		int32_t* L_49 = ___1_edgeCount;
 		int32_t L_50 = *((int32_t*)L_49);
@@ -2041,7 +2021,6 @@ IL_00c4:
 
 IL_00c9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:43>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_51 = ___0_edges;
 		void* L_52;
 		L_52 = Array_1_get_UnsafePtr_m26777C86BCB024527C5FD0EF87991C78FA221A63(L_51, Array_1_get_UnsafePtr_m26777C86BCB024527C5FD0EF87991C78FA221A63_RuntimeMethod_var);
@@ -2051,28 +2030,23 @@ IL_00c9:
 		TessEdgeCompare_tB8FAAD6FDA5527AE0C99137AB99CA3AB44881792 L_55 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_InsertionSort_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_TisTessEdgeCompare_tB8FAAD6FDA5527AE0C99137AB99CA3AB44881792_m6BA4685DD8669B58FE9D34A5F2AFB9C62549CEF1(L_52, 0, ((int32_t)il2cpp_codegen_subtract(L_54, 1)), L_55, ModuleHandle_InsertionSort_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_TisTessEdgeCompare_tB8FAAD6FDA5527AE0C99137AB99CA3AB44881792_m6BA4685DD8669B58FE9D34A5F2AFB9C62549CEF1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:46>
 		V_0 = 1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:47>
 		V_8 = 1;
 		goto IL_0143;
 	}
 
 IL_00ea:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:49>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_56 = ___0_edges;
 		int32_t L_57 = V_8;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_58;
 		L_58 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5(L_56, ((int32_t)il2cpp_codegen_subtract(L_57, 1)), Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
 		V_9 = L_58;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:50>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_59 = ___0_edges;
 		int32_t L_60 = V_8;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_61;
 		L_61 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5(L_59, L_60, Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
 		V_10 = L_61;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:51>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_62 = V_10;
 		int32_t L_63 = L_62.___x;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_64 = V_9;
@@ -2095,7 +2069,6 @@ IL_00ea:
 
 IL_0120:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:53>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_70 = V_10;
 		int32_t L_71 = L_70.___x;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_72 = V_10;
@@ -2106,7 +2079,6 @@ IL_0120:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:55>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_74 = ___0_edges;
 		int32_t L_75 = V_0;
 		int32_t L_76 = L_75;
@@ -2117,14 +2089,12 @@ IL_0120:
 
 IL_013d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:47>
 		int32_t L_78 = V_8;
 		V_8 = ((int32_t)il2cpp_codegen_add(L_78, 1));
 	}
 
 IL_0143:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:47>
 		int32_t L_79 = V_8;
 		int32_t* L_80 = ___1_edgeCount;
 		int32_t L_81 = *((int32_t*)L_80);
@@ -2134,15 +2104,12 @@ IL_0143:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:57>
 		int32_t* L_82 = ___1_edgeCount;
 		int32_t L_83 = V_0;
 		*((int32_t*)L_82) = (int32_t)L_83;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:58>
 		return;
 	}
 }
-// Method Definition Index: 95101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_CheckCollinear_m2C20CF3CBD2F6C1598261C0D2F07A77B52DACF26 (double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___0_a0, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___1_a1, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___2_b0, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___3_b1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2163,19 +2130,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_CheckCollinear_m2C20CF3CBD2F
 	double V_5 = 0.0;
 	double V_6 = 0.0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:62>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_0 = ___0_a0;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:63>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_1 = ___1_a1;
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:64>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_2 = ___2_b0;
 		V_2 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:65>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_3 = ___3_b1;
 		V_3 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:67>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_4 = V_1;
 		double L_5 = L_4.___y;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_6 = V_0;
@@ -2185,7 +2147,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_CheckCollinear_m2C20CF3CBD2F
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_10 = V_0;
 		double L_11 = L_10.___x;
 		V_4 = ((double)(((double)il2cpp_codegen_subtract(L_5, L_7))/((double)il2cpp_codegen_subtract(L_9, L_11))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:68>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_12 = V_2;
 		double L_13 = L_12.___y;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_14 = V_0;
@@ -2195,7 +2156,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_CheckCollinear_m2C20CF3CBD2F
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_18 = V_0;
 		double L_19 = L_18.___x;
 		V_5 = ((double)(((double)il2cpp_codegen_subtract(L_13, L_15))/((double)il2cpp_codegen_subtract(L_17, L_19))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:69>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_20 = V_3;
 		double L_21 = L_20.___y;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_22 = V_0;
@@ -2205,7 +2165,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_CheckCollinear_m2C20CF3CBD2F
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_26 = V_0;
 		double L_27 = L_26.___x;
 		V_6 = ((double)(((double)il2cpp_codegen_subtract(L_21, L_23))/((double)il2cpp_codegen_subtract(L_25, L_27))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:70>
 		double L_28 = V_4;
 		bool L_29;
 		L_29 = math_isinf_m4901864832BAA489A01E23F560733ACEF6E3ED60_inline(L_28, NULL);
@@ -2261,7 +2220,6 @@ IL_009d:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 95102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_LineLineIntersection_m6A19D4B59781E13C978432AFAD7D233879D3EEBC (double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___0_a0, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___1_a1, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___2_b0, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___3_b1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2276,7 +2234,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_LineLineIntersection_m6A19D4
 	double V_2 = 0.0;
 	double V_3 = 0.0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:75>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_0 = ___0_a0;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_1 = ___2_b0;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_2 = ___3_b1;
@@ -2284,14 +2241,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_LineLineIntersection_m6A19D4
 		double L_3;
 		L_3 = ModuleHandle_OrientFastDouble_mD284B0A55AF9518B1D1CE25F7F7F266CA2439232(L_0, L_1, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:76>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_4 = ___1_a1;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_5 = ___2_b0;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_6 = ___3_b1;
 		double L_7;
 		L_7 = ModuleHandle_OrientFastDouble_mD284B0A55AF9518B1D1CE25F7F7F266CA2439232(L_4, L_5, L_6, NULL);
 		V_1 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:77>
 		double L_8 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_il2cpp_TypeInfo_var);
 		double L_9 = ((PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_StaticFields*)il2cpp_codegen_static_fields_for(PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_il2cpp_TypeInfo_var))->___kEpsilon;
@@ -2332,13 +2287,11 @@ IL_0022:
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:79>
 		return (bool)0;
 	}
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:82>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_16 = ___2_b0;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_17 = ___0_a0;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_18 = ___1_a1;
@@ -2346,14 +2299,12 @@ IL_0036:
 		double L_19;
 		L_19 = ModuleHandle_OrientFastDouble_mD284B0A55AF9518B1D1CE25F7F7F266CA2439232(L_16, L_17, L_18, NULL);
 		V_2 = L_19;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:83>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_20 = ___3_b1;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_21 = ___0_a0;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_22 = ___1_a1;
 		double L_23;
 		L_23 = ModuleHandle_OrientFastDouble_mD284B0A55AF9518B1D1CE25F7F7F266CA2439232(L_20, L_21, L_22, NULL);
 		V_3 = L_23;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:84>
 		double L_24 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_il2cpp_TypeInfo_var);
 		double L_25 = ((PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_StaticFields*)il2cpp_codegen_static_fields_for(PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_il2cpp_TypeInfo_var))->___kEpsilon;
@@ -2394,13 +2345,11 @@ IL_0058:
 
 IL_006a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:86>
 		return (bool)0;
 	}
 
 IL_006c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:90>
 		double L_32 = V_0;
 		double L_33;
 		L_33 = math_abs_mDF669CF3AF2C60713E8E118578461CDA050DAFD0_inline(L_32, NULL);
@@ -2445,7 +2394,6 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:92>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_44 = ___0_a0;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_45 = ___1_a1;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_46 = ___2_b0;
@@ -2458,11 +2406,9 @@ IL_006c:
 
 IL_00aa:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:95>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 95103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_LineLineIntersection_m4A8A7E8A3A7F6783ED000E66F573B4F6FD700AFB (double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___0_p1, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___1_p2, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___2_p3, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___3_p4, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA* ___4_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2479,37 +2425,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_LineLineIntersection_m4A8A7E
 	double V_5 = 0.0;
 	double V_6 = 0.0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:100>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_0 = ___1_p2;
 		double L_1 = L_0.___x;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_2 = ___0_p1;
 		double L_3 = L_2.___x;
 		V_0 = ((double)il2cpp_codegen_subtract(L_1, L_3));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:101>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_4 = ___1_p2;
 		double L_5 = L_4.___y;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_6 = ___0_p1;
 		double L_7 = L_6.___y;
 		V_1 = ((double)il2cpp_codegen_subtract(L_5, L_7));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:102>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_8 = ___3_p4;
 		double L_9 = L_8.___x;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_10 = ___2_p3;
 		double L_11 = L_10.___x;
 		V_2 = ((double)il2cpp_codegen_subtract(L_9, L_11));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:103>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_12 = ___3_p4;
 		double L_13 = L_12.___y;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_14 = ___2_p3;
 		double L_15 = L_14.___y;
 		V_3 = ((double)il2cpp_codegen_subtract(L_13, L_15));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:104>
 		double L_16 = V_0;
 		double L_17 = V_3;
 		double L_18 = V_1;
 		double L_19 = V_2;
 		V_4 = ((double)il2cpp_codegen_subtract(((double)il2cpp_codegen_multiply(L_16, L_17)), ((double)il2cpp_codegen_multiply(L_18, L_19))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:105>
 		double L_20 = V_4;
 		double L_21;
 		L_21 = math_abs_mDF669CF3AF2C60713E8E118578461CDA050DAFD0_inline(L_20, NULL);
@@ -2521,30 +2461,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_LineLineIntersection_m4A8A7E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:107>
 		return (bool)0;
 	}
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:110>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_23 = ___2_p3;
 		double L_24 = L_23.___x;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_25 = ___0_p1;
 		double L_26 = L_25.___x;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:111>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_27 = ___2_p3;
 		double L_28 = L_27.___y;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_29 = ___0_p1;
 		double L_30 = L_29.___y;
 		V_5 = ((double)il2cpp_codegen_subtract(L_28, L_30));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:112>
 		double L_31 = V_3;
 		double L_32 = V_5;
 		double L_33 = V_2;
 		double L_34 = V_4;
 		V_6 = ((double)(((double)il2cpp_codegen_subtract(((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_subtract(L_24, L_26)), L_31)), ((double)il2cpp_codegen_multiply(L_32, L_33))))/L_34));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:113>
 		double L_35 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_il2cpp_TypeInfo_var);
 		double L_36 = ((PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_StaticFields*)il2cpp_codegen_static_fields_for(PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_il2cpp_TypeInfo_var))->___kEpsilon;
@@ -2563,31 +2498,26 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:115>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA* L_39 = ___4_result;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_40 = ___0_p1;
 		double L_41 = L_40.___x;
 		double L_42 = V_6;
 		double L_43 = V_0;
 		L_39->___x = ((double)il2cpp_codegen_add(L_41, ((double)il2cpp_codegen_multiply(L_42, L_43))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:116>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA* L_44 = ___4_result;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_45 = ___0_p1;
 		double L_46 = L_45.___y;
 		double L_47 = V_6;
 		double L_48 = V_1;
 		L_44->___y = ((double)il2cpp_codegen_add(L_46, ((double)il2cpp_codegen_multiply(L_47, L_48))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:117>
 		return (bool)1;
 	}
 
 IL_00bc:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:119>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 95104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_CalculateEdgeIntersections_m1C01C196ED8AE622F14AC3F6380650D5DDC35B06 (Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD ___0_edges, int32_t ___1_edgeCount, Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2 ___2_points, int32_t ___3_pointCount, Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* ___4_results, Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* ___5_intersects, int32_t* ___6_resultCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2625,17 +2555,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_CalculateEdgeIntersections_m
 	memset((&V_9), 0, sizeof(V_9));
 	int32_t V_10 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:124>
 		int32_t* L_0 = ___6_resultCount;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:126>
 		V_1 = 0;
 		goto IL_0119;
 	}
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:128>
 		int32_t L_1 = V_1;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_1, 1));
 		goto IL_010e;
@@ -2643,17 +2570,14 @@ IL_000b:
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:130>
 		int32_t L_2 = V_1;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_3;
 		L_3 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5((&___0_edges), L_2, Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
 		V_3 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:131>
 		int32_t L_4 = V_2;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_5;
 		L_5 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5((&___0_edges), L_4, Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
 		V_4 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:132>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_6 = V_3;
 		int32_t L_7 = L_6.___x;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_8 = V_4;
@@ -2694,34 +2618,28 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:135>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_22 = V_3;
 		int32_t L_23 = L_22.___x;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_24;
 		L_24 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749((&___2_points), L_23, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		V_5 = L_24;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:136>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_25 = V_3;
 		int32_t L_26 = L_25.___y;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_27;
 		L_27 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749((&___2_points), L_26, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		V_6 = L_27;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:137>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_28 = V_4;
 		int32_t L_29 = L_28.___x;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_30;
 		L_30 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749((&___2_points), L_29, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		V_7 = L_30;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:138>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_31 = V_4;
 		int32_t L_32 = L_31.___y;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_33;
 		L_33 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749((&___2_points), L_32, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		V_8 = L_33;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:139>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_34 = ((double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA_StaticFields*)il2cpp_codegen_static_fields_for(double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA_il2cpp_TypeInfo_var))->___zero;
 		V_9 = L_34;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:140>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_35 = V_5;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_36 = V_6;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_37 = V_7;
@@ -2735,7 +2653,6 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:142>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_40 = V_5;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_41 = V_6;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_42 = V_7;
@@ -2749,7 +2666,6 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:145>
 		int32_t* L_45 = ___6_resultCount;
 		int32_t L_46 = *((int32_t*)L_45);
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_47 = ___5_intersects;
@@ -2761,19 +2677,16 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:146>
 		return (bool)0;
 	}
 
 IL_00e2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:148>
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_49 = ___5_intersects;
 		int32_t* L_50 = ___6_resultCount;
 		int32_t L_51 = *((int32_t*)L_50);
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_52 = V_9;
 		Array_1_set_Item_m227C5C31A1BD6B4DA770DB79FB8ED376B2CA1BA5(L_49, L_51, L_52, Array_1_set_Item_m227C5C31A1BD6B4DA770DB79FB8ED376B2CA1BA5_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:149>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_53 = ___4_results;
 		int32_t* L_54 = ___6_resultCount;
 		int32_t* L_55 = ___6_resultCount;
@@ -2792,14 +2705,12 @@ IL_00e2:
 
 IL_010a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:128>
 		int32_t L_62 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_62, 1));
 	}
 
 IL_010e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:128>
 		int32_t L_63 = V_2;
 		int32_t L_64 = ___1_edgeCount;
 		if ((((int32_t)L_63) < ((int32_t)L_64)))
@@ -2808,14 +2719,12 @@ IL_010e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:126>
 		int32_t L_65 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_65, 1));
 	}
 
 IL_0119:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:126>
 		int32_t L_66 = V_1;
 		int32_t L_67 = ___1_edgeCount;
 		if ((((int32_t)L_66) < ((int32_t)L_67)))
@@ -2824,7 +2733,6 @@ IL_0119:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:156>
 		int32_t* L_68 = ___6_resultCount;
 		int32_t L_69 = *((int32_t*)L_68);
 		int32_t L_70 = ___1_edgeCount;
@@ -2836,21 +2744,16 @@ IL_0119:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:158>
 		return (bool)0;
 	}
 
 IL_012e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:161>
 		il2cpp_codegen_initobj((&V_0), sizeof(IntersectionCompare_t58DDF7784915148C94176FC168AB4B9B296080AA));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:162>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD L_72 = ___0_edges;
 		(&V_0)->___edges = L_72;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:163>
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2 L_73 = ___2_points;
 		(&V_0)->___points = L_73;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:166>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_74 = ___4_results;
 		void* L_75;
 		L_75 = Array_1_get_UnsafePtr_m26777C86BCB024527C5FD0EF87991C78FA221A63(L_74, Array_1_get_UnsafePtr_m26777C86BCB024527C5FD0EF87991C78FA221A63_RuntimeMethod_var);
@@ -2859,11 +2762,9 @@ IL_012e:
 		IntersectionCompare_t58DDF7784915148C94176FC168AB4B9B296080AA L_78 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_InsertionSort_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_TisIntersectionCompare_t58DDF7784915148C94176FC168AB4B9B296080AA_mBA50BE46B9044B583EF6C7D7B72FC722778DA8C9(L_75, 0, ((int32_t)il2cpp_codegen_subtract(L_77, 1)), L_78, ModuleHandle_InsertionSort_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_TisIntersectionCompare_t58DDF7784915148C94176FC168AB4B9B296080AA_mBA50BE46B9044B583EF6C7D7B72FC722778DA8C9_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:169>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 95105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_CalculateTJunctions_m1644F4F05010E0F99BF4E212729750B4E2EB2EA4 (Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD ___0_edges, int32_t ___1_edgeCount, Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2 ___2_points, int32_t ___3_pointCount, Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD ___4_results, int32_t* ___5_resultCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2888,29 +2789,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_CalculateTJunctions_m1644F4F
 	memset((&V_5), 0, sizeof(V_5));
 	int32_t V_6 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:174>
 		int32_t* L_0 = ___5_resultCount;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:176>
 		V_0 = 0;
 		goto IL_00a1;
 	}
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:178>
 		V_1 = 0;
 		goto IL_0096;
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:180>
 		int32_t L_1 = V_0;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_2;
 		L_2 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5((&___0_edges), L_1, Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
 		V_2 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:181>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_3 = V_2;
 		int32_t L_4 = L_3.___x;
 		int32_t L_5 = V_1;
@@ -2929,28 +2825,23 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:184>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_9 = V_2;
 		int32_t L_10 = L_9.___x;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_11;
 		L_11 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749((&___2_points), L_10, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:185>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_12 = V_2;
 		int32_t L_13 = L_12.___y;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_14;
 		L_14 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749((&___2_points), L_13, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		V_3 = L_14;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:186>
 		int32_t L_15 = V_1;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_16;
 		L_16 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749((&___2_points), L_15, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		V_4 = L_16;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:187>
 		int32_t L_17 = V_1;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_18;
 		L_18 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749((&___2_points), L_17, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		V_5 = L_18;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:188>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_19 = V_3;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_20 = V_4;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_21 = V_5;
@@ -2963,7 +2854,6 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:191>
 		int32_t* L_23 = ___5_resultCount;
 		int32_t L_24 = *((int32_t*)L_23);
 		int32_t L_25;
@@ -2974,13 +2864,11 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:192>
 		return (bool)0;
 	}
 
 IL_0076:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:193>
 		int32_t* L_26 = ___5_resultCount;
 		int32_t* L_27 = ___5_resultCount;
 		int32_t L_28 = *((int32_t*)L_27);
@@ -2998,14 +2886,12 @@ IL_0076:
 
 IL_0092:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:178>
 		int32_t L_34 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_34, 1));
 	}
 
 IL_0096:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:178>
 		int32_t L_35 = V_1;
 		int32_t L_36 = ___3_pointCount;
 		if ((((int32_t)L_35) < ((int32_t)L_36)))
@@ -3014,14 +2900,12 @@ IL_0096:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:176>
 		int32_t L_37 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_37, 1));
 	}
 
 IL_00a1:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:176>
 		int32_t L_38 = V_0;
 		int32_t L_39 = ___1_edgeCount;
 		if ((((int32_t)L_38) < ((int32_t)L_39)))
@@ -3030,11 +2914,9 @@ IL_00a1:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:198>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 95106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_CutEdges_m97A6AB066AE8E9FD110209F2370306C34CE5740D (Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* ___0_points, int32_t* ___1_pointCount, Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* ___2_edges, int32_t* ___3_edgeCount, Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* ___4_tJunctions, int32_t* ___5_tJunctionCount, Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD ___6_intersections, Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2 ___7_intersects, int32_t ___8_intersectionCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3080,35 +2962,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_CutEdges_m97A6AB066AE8E9FD11
 	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_18;
 	memset((&V_18), 0, sizeof(V_18));
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:203>
 		V_0 = 0;
 		goto IL_00a2;
 	}
 
 IL_0007:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:205>
 		int32_t L_0 = V_0;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_1;
 		L_1 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5((&___6_intersections), L_0, Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:206>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_2 = L_1;
 		int32_t L_3 = L_2.___x;
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:207>
 		int32_t L_4 = L_2.___y;
 		V_2 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:209>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_5 = ((int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_StaticFields*)il2cpp_codegen_static_fields_for(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_il2cpp_TypeInfo_var))->___zero;
 		V_3 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:210>
 		int32_t L_6 = V_1;
 		(&V_3)->___x = L_6;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:211>
 		int32_t* L_7 = ___1_pointCount;
 		int32_t L_8 = *((int32_t*)L_7);
 		(&V_3)->___y = L_8;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:212>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_9 = ___4_tJunctions;
 		int32_t* L_10 = ___5_tJunctionCount;
 		int32_t* L_11 = ___5_tJunctionCount;
@@ -3119,17 +2993,13 @@ IL_0007:
 		int32_t L_14 = V_5;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_15 = V_3;
 		Array_1_set_Item_m38A85354C46345F8E6149795DDD4942A22C4308B(L_9, L_14, L_15, Array_1_set_Item_m38A85354C46345F8E6149795DDD4942A22C4308B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:213>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_16 = ((int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_StaticFields*)il2cpp_codegen_static_fields_for(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_il2cpp_TypeInfo_var))->___zero;
 		V_4 = L_16;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:214>
 		int32_t L_17 = V_2;
 		(&V_4)->___x = L_17;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:215>
 		int32_t* L_18 = ___1_pointCount;
 		int32_t L_19 = *((int32_t*)L_18);
 		(&V_4)->___y = L_19;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:216>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_20 = ___4_tJunctions;
 		int32_t* L_21 = ___5_tJunctionCount;
 		int32_t* L_22 = ___5_tJunctionCount;
@@ -3140,7 +3010,6 @@ IL_0007:
 		int32_t L_25 = V_5;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_26 = V_4;
 		Array_1_set_Item_m38A85354C46345F8E6149795DDD4942A22C4308B(L_20, L_25, L_26, Array_1_set_Item_m38A85354C46345F8E6149795DDD4942A22C4308B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:219>
 		int32_t* L_27 = ___1_pointCount;
 		int32_t L_28 = *((int32_t*)L_27);
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_29 = ___0_points;
@@ -3152,13 +3021,11 @@ IL_0007:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:220>
 		return (bool)0;
 	}
 
 IL_0084:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:222>
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_31 = ___0_points;
 		int32_t* L_32 = ___1_pointCount;
 		int32_t* L_33 = ___1_pointCount;
@@ -3171,14 +3038,12 @@ IL_0084:
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_38;
 		L_38 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749((&___7_intersects), L_37, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		Array_1_set_Item_m227C5C31A1BD6B4DA770DB79FB8ED376B2CA1BA5(L_31, L_36, L_38, Array_1_set_Item_m227C5C31A1BD6B4DA770DB79FB8ED376B2CA1BA5_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:203>
 		int32_t L_39 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_39, 1));
 	}
 
 IL_00a2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:203>
 		int32_t L_40 = V_0;
 		int32_t L_41 = ___8_intersectionCount;
 		if ((((int32_t)L_40) < ((int32_t)L_41)))
@@ -3187,7 +3052,6 @@ IL_00a2:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:227>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_42 = ___4_tJunctions;
 		void* L_43;
 		L_43 = Array_1_get_UnsafePtr_m26777C86BCB024527C5FD0EF87991C78FA221A63(L_42, Array_1_get_UnsafePtr_m26777C86BCB024527C5FD0EF87991C78FA221A63_RuntimeMethod_var);
@@ -3197,7 +3061,6 @@ IL_00a2:
 		TessJunctionCompare_tBE8F00803FEA987F275233A03F3BA5539139D153 L_46 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_InsertionSort_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_TisTessJunctionCompare_tBE8F00803FEA987F275233A03F3BA5539139D153_m2FFC09A4CFF78B0418ADF2D002FBE62F2427D570(L_43, 0, ((int32_t)il2cpp_codegen_subtract(L_45, 1)), L_46, ModuleHandle_InsertionSort_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_TisTessJunctionCompare_tBE8F00803FEA987F275233A03F3BA5539139D153_m2FFC09A4CFF78B0418ADF2D002FBE62F2427D570_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:231>
 		int32_t* L_47 = ___5_tJunctionCount;
 		int32_t L_48 = *((int32_t*)L_47);
 		V_7 = ((int32_t)il2cpp_codegen_subtract(L_48, 1));
@@ -3206,43 +3069,35 @@ IL_00a2:
 
 IL_00d2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:233>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_49 = ___4_tJunctions;
 		int32_t L_50 = V_7;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_51;
 		L_51 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5(L_49, L_50, Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
 		V_8 = L_51;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:234>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_52 = V_8;
 		int32_t L_53 = L_52.___x;
 		V_9 = L_53;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:235>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_54 = ___2_edges;
 		int32_t L_55 = V_9;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_56;
 		L_56 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5(L_54, L_55, Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
 		V_10 = L_56;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:236>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_57 = V_10;
 		int32_t L_58 = L_57.___x;
 		V_11 = L_58;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:237>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_59 = V_10;
 		int32_t L_60 = L_59.___y;
 		V_12 = L_60;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:240>
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_61 = ___0_points;
 		int32_t L_62 = V_11;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_63;
 		L_63 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749(L_61, L_62, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		V_13 = L_63;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:241>
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_64 = ___0_points;
 		int32_t L_65 = V_12;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_66;
 		L_66 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749(L_64, L_65, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		V_14 = L_66;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:242>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_67 = V_13;
 		double L_68 = L_67.___x;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_69 = V_14;
@@ -3275,21 +3130,16 @@ IL_00d2:
 
 IL_015a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:244>
 		int32_t L_79 = V_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:245>
 		int32_t L_80 = V_12;
 		V_11 = L_80;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:246>
 		V_12 = L_79;
 	}
 
 IL_0162:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:250>
 		int32_t L_81 = V_11;
 		(&V_10)->___x = L_81;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:251>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_82 = V_8;
 		int32_t L_83 = L_82.___y;
 		int32_t L_84 = L_83;
@@ -3297,7 +3147,6 @@ IL_0162:
 		(&V_10)->___y = L_84;
 		int32_t L_85 = V_5;
 		V_15 = L_85;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:252>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_86 = ___2_edges;
 		int32_t L_87 = V_9;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_88 = V_10;
@@ -3307,7 +3156,6 @@ IL_0162:
 
 IL_018c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:258>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_89 = ___4_tJunctions;
 		int32_t L_90 = V_7;
 		int32_t L_91 = ((int32_t)il2cpp_codegen_subtract(L_90, 1));
@@ -3316,15 +3164,11 @@ IL_018c:
 		L_92 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5(L_89, L_91, Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
 		int32_t L_93 = L_92.___y;
 		V_17 = L_93;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:259>
 		il2cpp_codegen_initobj((&V_18), sizeof(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:260>
 		int32_t L_94 = V_15;
 		(&V_18)->___x = L_94;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:261>
 		int32_t L_95 = V_17;
 		(&V_18)->___y = L_95;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:262>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_96 = ___2_edges;
 		int32_t* L_97 = ___3_edgeCount;
 		int32_t* L_98 = ___3_edgeCount;
@@ -3335,14 +3179,12 @@ IL_018c:
 		int32_t L_101 = V_5;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_102 = V_18;
 		Array_1_set_Item_m38A85354C46345F8E6149795DDD4942A22C4308B(L_96, L_101, L_102, Array_1_set_Item_m38A85354C46345F8E6149795DDD4942A22C4308B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:263>
 		int32_t L_103 = V_17;
 		V_15 = L_103;
 	}
 
 IL_01d3:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:256>
 		int32_t L_104 = V_7;
 		if ((((int32_t)L_104) <= ((int32_t)0)))
 		{
@@ -3364,15 +3206,11 @@ IL_01d3:
 
 IL_01ec:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:266>
 		il2cpp_codegen_initobj((&V_16), sizeof(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:267>
 		int32_t L_110 = V_15;
 		(&V_16)->___x = L_110;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:268>
 		int32_t L_111 = V_12;
 		(&V_16)->___y = L_111;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:269>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_112 = ___2_edges;
 		int32_t* L_113 = ___3_edgeCount;
 		int32_t* L_114 = ___3_edgeCount;
@@ -3383,14 +3221,12 @@ IL_01ec:
 		int32_t L_117 = V_5;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_118 = V_16;
 		Array_1_set_Item_m38A85354C46345F8E6149795DDD4942A22C4308B(L_112, L_117, L_118, Array_1_set_Item_m38A85354C46345F8E6149795DDD4942A22C4308B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:231>
 		int32_t L_119 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_subtract(L_119, 1));
 	}
 
 IL_0220:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:231>
 		int32_t L_120 = V_7;
 		if ((((int32_t)L_120) >= ((int32_t)0)))
 		{
@@ -3398,11 +3234,9 @@ IL_0220:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:272>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 95107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanarGraph_RemoveDuplicatePoints_mAF205F732573BA4C5AB76533AE3526CBD0115972 (Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* ___0_points, int32_t* ___1_pointCount, Array_1_t20CE0BD535FE6EB0564B4289C0D7C9CF43FE49D1* ___2_duplicates, int32_t* ___3_duplicateCount, int32_t ___4_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3426,21 +3260,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanarGraph_RemoveDuplicatePoints_mAF205
 	int32_t V_7 = 0;
 	int32_t V_8 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:277>
 		int32_t* L_0 = ___1_pointCount;
 		int32_t L_1 = *((int32_t*)L_0);
 		int32_t L_2 = ___4_allocator;
 		TessLink_t2F5A0EEBBC50006D766F4B0642BA7FDBED0C3E63 L_3;
 		L_3 = TessLink_CreateLink_mDE5AB7EC269D0FA73DC352FD5D2B2C863BB4DF30(L_1, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:279>
 		V_1 = 0;
 		goto IL_0044;
 	}
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:281>
 		int32_t L_4 = V_1;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_4, 1));
 		goto IL_003b;
@@ -3448,7 +3279,6 @@ IL_000e:
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:283>
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_5 = ___0_points;
 		int32_t L_6 = V_1;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_7;
@@ -3467,7 +3297,6 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:285>
 		int32_t L_13 = V_1;
 		int32_t L_14 = V_2;
 		TessLink_Link_m74A93722E653788463D9BAF7176D259A210150E7((&V_0), L_13, L_14, NULL);
@@ -3475,14 +3304,12 @@ IL_0014:
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:281>
 		int32_t L_15 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_15, 1));
 	}
 
 IL_003b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:281>
 		int32_t L_16 = V_2;
 		int32_t* L_17 = ___1_pointCount;
 		int32_t L_18 = *((int32_t*)L_17);
@@ -3492,14 +3319,12 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:279>
 		int32_t L_19 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_19, 1));
 	}
 
 IL_0044:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:279>
 		int32_t L_20 = V_1;
 		int32_t* L_21 = ___1_pointCount;
 		int32_t L_22 = *((int32_t*)L_21);
@@ -3509,22 +3334,18 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:290>
 		int32_t* L_23 = ___3_duplicateCount;
 		*((int32_t*)L_23) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:291>
 		V_3 = 0;
 		goto IL_0085;
 	}
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:293>
 		int32_t L_24 = V_3;
 		int32_t L_25;
 		L_25 = TessLink_Find_mFAFEEFC0DE81DE074103B5B1E11B898D532FDF05((&V_0), L_24, NULL);
 		V_4 = L_25;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:294>
 		int32_t L_26 = V_4;
 		int32_t L_27 = V_3;
 		if ((((int32_t)L_26) == ((int32_t)L_27)))
@@ -3533,12 +3354,10 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:296>
 		int32_t* L_28 = ___3_duplicateCount;
 		int32_t* L_29 = ___3_duplicateCount;
 		int32_t L_30 = *((int32_t*)L_29);
 		*((int32_t*)L_28) = (int32_t)((int32_t)il2cpp_codegen_add(L_30, 1));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:297>
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_31 = ___0_points;
 		int32_t L_32 = V_4;
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_33 = ___0_points;
@@ -3556,14 +3375,12 @@ IL_0050:
 
 IL_0081:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:291>
 		int32_t L_40 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_40, 1));
 	}
 
 IL_0085:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:291>
 		int32_t L_41 = V_3;
 		int32_t* L_42 = ___1_pointCount;
 		int32_t L_43 = *((int32_t*)L_42);
@@ -3573,7 +3390,6 @@ IL_0085:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:302>
 		int32_t* L_44 = ___3_duplicateCount;
 		int32_t L_45 = *((int32_t*)L_44);
 		if (!L_45)
@@ -3582,25 +3398,20 @@ IL_0085:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:305>
 		int32_t* L_46 = ___1_pointCount;
 		int32_t L_47 = *((int32_t*)L_46);
 		V_5 = L_47;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:306>
 		int32_t* L_48 = ___1_pointCount;
 		*((int32_t*)L_48) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:307>
 		V_6 = 0;
 		goto IL_00df;
 	}
 
 IL_009d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:309>
 		int32_t L_49 = V_6;
 		int32_t L_50;
 		L_50 = TessLink_Find_mFAFEEFC0DE81DE074103B5B1E11B898D532FDF05((&V_0), L_49, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:310>
 		int32_t L_51 = V_6;
 		if ((!(((uint32_t)L_50) == ((uint32_t)L_51))))
 		{
@@ -3608,13 +3419,11 @@ IL_009d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:312>
 		Array_1_t20CE0BD535FE6EB0564B4289C0D7C9CF43FE49D1* L_52 = ___2_duplicates;
 		int32_t L_53 = V_6;
 		int32_t* L_54 = ___1_pointCount;
 		int32_t L_55 = *((int32_t*)L_54);
 		Array_1_set_Item_m9C732922E961EF10557ABDC8BB2A0C4392725F10(L_52, L_53, L_55, Array_1_set_Item_m9C732922E961EF10557ABDC8BB2A0C4392725F10_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:313>
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_56 = ___0_points;
 		int32_t* L_57 = ___1_pointCount;
 		int32_t* L_58 = ___1_pointCount;
@@ -3633,7 +3442,6 @@ IL_009d:
 
 IL_00d0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:317>
 		Array_1_t20CE0BD535FE6EB0564B4289C0D7C9CF43FE49D1* L_65 = ___2_duplicates;
 		int32_t L_66 = V_6;
 		Array_1_set_Item_m9C732922E961EF10557ABDC8BB2A0C4392725F10(L_65, L_66, (-1), Array_1_set_Item_m9C732922E961EF10557ABDC8BB2A0C4392725F10_RuntimeMethod_var);
@@ -3641,14 +3449,12 @@ IL_00d0:
 
 IL_00d9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:307>
 		int32_t L_67 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_67, 1));
 	}
 
 IL_00df:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:307>
 		int32_t L_68 = V_6;
 		int32_t L_69 = V_5;
 		if ((((int32_t)L_68) < ((int32_t)L_69)))
@@ -3657,14 +3463,12 @@ IL_00df:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:322>
 		V_8 = 0;
 		goto IL_0112;
 	}
 
 IL_00ea:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:324>
 		Array_1_t20CE0BD535FE6EB0564B4289C0D7C9CF43FE49D1* L_70 = ___2_duplicates;
 		int32_t L_71 = V_8;
 		int32_t L_72;
@@ -3675,7 +3479,6 @@ IL_00ea:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:326>
 		Array_1_t20CE0BD535FE6EB0564B4289C0D7C9CF43FE49D1* L_73 = ___2_duplicates;
 		int32_t L_74 = V_8;
 		Array_1_t20CE0BD535FE6EB0564B4289C0D7C9CF43FE49D1* L_75 = ___2_duplicates;
@@ -3689,14 +3492,12 @@ IL_00ea:
 
 IL_010c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:322>
 		int32_t L_79 = V_8;
 		V_8 = ((int32_t)il2cpp_codegen_add(L_79, 1));
 	}
 
 IL_0112:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:322>
 		int32_t L_80 = V_8;
 		int32_t L_81 = V_5;
 		if ((((int32_t)L_80) < ((int32_t)L_81)))
@@ -3707,14 +3508,11 @@ IL_0112:
 
 IL_0118:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:332>
 		TessLink_t2F5A0EEBBC50006D766F4B0642BA7FDBED0C3E63 L_82 = V_0;
 		TessLink_DestroyLink_mD74097587877DEC31033410C4A2159A64BBD206C(L_82, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:333>
 		return;
 	}
 }
-// Method Definition Index: 95108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_Validate_mB9C1CC7BF7AA0DB3A5AA6358C99B6CF539EA44BB (int32_t ___0_allocator, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___1_inputPoints, int32_t ___2_pointCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* ___3_inputEdges, int32_t ___4_edgeCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___5_outputPoints, int32_t* ___6_outputPointCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* ___7_outputEdges, int32_t* ___8_outputEdgeCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3760,63 +3558,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlanarGraph_Validate_mB9C1CC7BF7AA0DB3A5
 	int32_t V_16 = 0;
 	int32_t G_B10_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:338>
 		int32_t* L_0 = ___6_outputPointCount;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:339>
 		int32_t* L_1 = ___8_outputEdgeCount;
 		*((int32_t*)L_1) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:343>
 		V_0 = (10000.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:344>
 		int32_t L_2 = ___4_edgeCount;
 		V_1 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:345>
 		V_2 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:346>
 		V_3 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:349>
 		int32_t L_3 = ___4_edgeCount;
 		V_4 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:350>
 		int32_t L_4 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		int32_t L_5 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxEdgeCount;
 		int32_t L_6 = ___0_allocator;
 		Array_1__ctor_m0B297F546E62CFAF4D2073B0855BF391A543A36B((&V_5), L_4, L_5, L_6, 0, Array_1__ctor_m0B297F546E62CFAF4D2073B0855BF391A543A36B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:351>
 		int32_t L_7 = V_4;
 		int32_t L_8 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxEdgeCount;
 		int32_t L_9 = ___0_allocator;
 		Array_1__ctor_mF91D51D0F21A68928CB1D07E027A64F855C486F2((&V_6), L_7, L_8, L_9, 0, Array_1__ctor_mF91D51D0F21A68928CB1D07E027A64F855C486F2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:352>
 		int32_t L_10 = V_4;
 		int32_t L_11 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxEdgeCount;
 		int32_t L_12 = ___0_allocator;
 		Array_1__ctor_mF91D51D0F21A68928CB1D07E027A64F855C486F2((&V_7), L_10, L_11, L_12, 0, Array_1__ctor_mF91D51D0F21A68928CB1D07E027A64F855C486F2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:353>
 		int32_t L_13 = V_4;
 		int32_t L_14 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxEdgeCount;
 		int32_t L_15 = ___0_allocator;
 		Array_1__ctor_mF91D51D0F21A68928CB1D07E027A64F855C486F2((&V_8), L_13, L_14, L_15, 0, Array_1__ctor_mF91D51D0F21A68928CB1D07E027A64F855C486F2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:354>
 		int32_t L_16 = ___2_pointCount;
 		int32_t L_17 = ___2_pointCount;
 		int32_t L_18 = ___0_allocator;
 		Array_1__ctor_m0CFE7B1127F6256DCDDB5B424D7D05D210F31440((&V_9), ((int32_t)il2cpp_codegen_multiply(L_16, 2)), ((int32_t)il2cpp_codegen_multiply(L_17, 8)), L_18, 0, Array_1__ctor_m0CFE7B1127F6256DCDDB5B424D7D05D210F31440_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:355>
 		int32_t L_19 = ___2_pointCount;
 		int32_t L_20 = ___2_pointCount;
 		int32_t L_21 = ___0_allocator;
 		Array_1__ctor_m0CFE7B1127F6256DCDDB5B424D7D05D210F31440((&V_10), ((int32_t)il2cpp_codegen_multiply(L_19, 2)), ((int32_t)il2cpp_codegen_multiply(L_20, 8)), L_21, 0, Array_1__ctor_m0CFE7B1127F6256DCDDB5B424D7D05D210F31440_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:358>
 		V_11 = 0;
 		goto IL_00a7;
 	}
 
 IL_007c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:359>
 		int32_t L_22 = V_11;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_23 = ___1_inputPoints;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_24 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_23);
@@ -3830,14 +3613,12 @@ IL_007c:
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_29;
 		L_29 = double2_op_Implicit_m168C031549D6C086B7C49ECA5B18C892B3112F17_inline(L_28, NULL);
 		Array_1_set_Item_m227C5C31A1BD6B4DA770DB79FB8ED376B2CA1BA5((&V_9), L_22, L_29, Array_1_set_Item_m227C5C31A1BD6B4DA770DB79FB8ED376B2CA1BA5_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:358>
 		int32_t L_30 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_30, 1));
 	}
 
 IL_00a7:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:358>
 		int32_t L_31 = V_11;
 		int32_t L_32 = ___2_pointCount;
 		if ((((int32_t)L_31) < ((int32_t)L_32)))
@@ -3846,7 +3627,6 @@ IL_00a7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:362>
 		void* L_33;
 		L_33 = Array_1_get_UnsafeReadOnlyPtr_mC924B9708B1F6F6AF096FB12EEB05DA5008BAFCA((&V_6), Array_1_get_UnsafeReadOnlyPtr_mC924B9708B1F6F6AF096FB12EEB05DA5008BAFCA_RuntimeMethod_var);
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_34 = ___3_inputEdges;
@@ -3856,7 +3636,6 @@ IL_00a7:
 		int32_t L_37 = ___4_edgeCount;
 		uint32_t L_38 = sizeof(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A);
 		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_33, L_36, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_37, (int32_t)L_38))), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:366>
 		Array_1_t20CE0BD535FE6EB0564B4289C0D7C9CF43FE49D1 L_39 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_il2cpp_TypeInfo_var);
 		PlanarGraph_RemoveDuplicateEdges_m4BD4BCB21678A1ACF9CAA2D7C1CCEA846DEA607E((&V_6), (&___4_edgeCount), L_39, 0, NULL);
@@ -3865,9 +3644,7 @@ IL_00a7:
 
 IL_00db:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:372>
 		V_13 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:373>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD L_40 = V_6;
 		int32_t L_41 = ___4_edgeCount;
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2 L_42 = V_9;
@@ -3876,7 +3653,6 @@ IL_00db:
 		bool L_44;
 		L_44 = PlanarGraph_CalculateEdgeIntersections_m1C01C196ED8AE622F14AC3F6380650D5DDC35B06(L_40, L_41, L_42, L_43, (&V_8), (&V_10), (&V_13), NULL);
 		V_3 = L_44;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:374>
 		bool L_45 = V_3;
 		if (!L_45)
 		{
@@ -3884,9 +3660,7 @@ IL_00db:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:378>
 		V_14 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:379>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD L_46 = V_6;
 		int32_t L_47 = ___4_edgeCount;
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2 L_48 = V_9;
@@ -3896,7 +3670,6 @@ IL_00db:
 		bool L_51;
 		L_51 = PlanarGraph_CalculateTJunctions_m1644F4F05010E0F99BF4E212729750B4E2EB2EA4(L_46, L_47, L_48, L_49, L_50, (&V_14), NULL);
 		V_3 = L_51;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:380>
 		bool L_52 = V_3;
 		if (!L_52)
 		{
@@ -3904,7 +3677,6 @@ IL_00db:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:384>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD L_53 = V_8;
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2 L_54 = V_10;
 		int32_t L_55 = V_13;
@@ -3912,7 +3684,6 @@ IL_00db:
 		bool L_56;
 		L_56 = PlanarGraph_CutEdges_m97A6AB066AE8E9FD110209F2370306C34CE5740D((&V_9), (&___2_pointCount), (&V_6), (&___4_edgeCount), (&V_7), (&V_14), L_53, L_54, L_55, NULL);
 		V_3 = L_56;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:385>
 		bool L_57 = V_3;
 		if (!L_57)
 		{
@@ -3920,17 +3691,13 @@ IL_00db:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:389>
 		V_15 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:390>
 		int32_t L_58 = ___0_allocator;
 		il2cpp_codegen_runtime_class_init_inline(PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_il2cpp_TypeInfo_var);
 		PlanarGraph_RemoveDuplicatePoints_mAF205F732573BA4C5AB76533AE3526CBD0115972((&V_9), (&___2_pointCount), (&V_5), (&V_15), L_58, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:391>
 		Array_1_t20CE0BD535FE6EB0564B4289C0D7C9CF43FE49D1 L_59 = V_5;
 		int32_t L_60 = V_15;
 		PlanarGraph_RemoveDuplicateEdges_m4BD4BCB21678A1ACF9CAA2D7C1CCEA846DEA607E((&V_6), (&___4_edgeCount), L_59, L_60, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:393>
 		int32_t L_61 = V_13;
 		if (L_61)
 		{
@@ -3955,7 +3722,6 @@ IL_0150:
 
 IL_0151:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:369>
 		bool L_63 = V_2;
 		if (!L_63)
 		{
@@ -3974,7 +3740,6 @@ IL_0151:
 
 IL_015f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:396>
 		bool L_66 = V_3;
 		if (!L_66)
 		{
@@ -3982,15 +3747,12 @@ IL_015f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:399>
 		int32_t* L_67 = ___8_outputEdgeCount;
 		int32_t L_68 = ___4_edgeCount;
 		*((int32_t*)L_67) = (int32_t)L_68;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:400>
 		int32_t* L_69 = ___6_outputPointCount;
 		int32_t L_70 = ___2_pointCount;
 		*((int32_t*)L_69) = (int32_t)L_70;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:403>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_71 = ___7_outputEdges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_72 = (*(NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)L_71);
 		void* L_73;
@@ -4000,14 +3762,12 @@ IL_015f:
 		int32_t L_75 = ___4_edgeCount;
 		uint32_t L_76 = sizeof(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A);
 		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_73, L_74, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_75, (int32_t)L_76))), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:405>
 		V_16 = 0;
 		goto IL_01ca;
 	}
 
 IL_0192:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:406>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_77 = ___5_outputPoints;
 		int32_t L_78 = V_16;
 		int32_t L_79 = V_16;
@@ -4024,14 +3784,12 @@ IL_0192:
 		memset((&L_87), 0, sizeof(L_87));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_87), ((float)((double)(L_81/((double)L_82)))), ((float)((double)(L_85/((double)L_86)))), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_77)->___m_Buffer, L_78, (L_87));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:405>
 		int32_t L_88 = V_16;
 		V_16 = ((int32_t)il2cpp_codegen_add(L_88, 1));
 	}
 
 IL_01ca:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:405>
 		int32_t L_89 = V_16;
 		int32_t L_90 = ___2_pointCount;
 		if ((((int32_t)L_89) < ((int32_t)L_90)))
@@ -4042,19 +3800,12 @@ IL_01ca:
 
 IL_01cf:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:409>
 		Array_1_Dispose_mEA744518F677D653CE904FC454F6CF8BD4A28AB4((&V_6), Array_1_Dispose_mEA744518F677D653CE904FC454F6CF8BD4A28AB4_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:410>
 		Array_1_Dispose_mADA6CDC4BD596715FB3E7BDEFA1F1E2BE868518E((&V_9), Array_1_Dispose_mADA6CDC4BD596715FB3E7BDEFA1F1E2BE868518E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:411>
 		Array_1_Dispose_mADA6CDC4BD596715FB3E7BDEFA1F1E2BE868518E((&V_10), Array_1_Dispose_mADA6CDC4BD596715FB3E7BDEFA1F1E2BE868518E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:412>
 		Array_1_Dispose_m3C3ED8A395CD6C23DCB87D063E2C5EE49DE1B473((&V_5), Array_1_Dispose_m3C3ED8A395CD6C23DCB87D063E2C5EE49DE1B473_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:413>
 		Array_1_Dispose_mEA744518F677D653CE904FC454F6CF8BD4A28AB4((&V_7), Array_1_Dispose_mEA744518F677D653CE904FC454F6CF8BD4A28AB4_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:414>
 		Array_1_Dispose_mEA744518F677D653CE904FC454F6CF8BD4A28AB4((&V_8), Array_1_Dispose_mEA744518F677D653CE904FC454F6CF8BD4A28AB4_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:416>
 		bool L_91 = V_3;
 		if (!L_91)
 		{
@@ -4071,7 +3822,6 @@ IL_0201:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 95109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanarGraph__cctor_m237102EAFF388BCF5B853FB5A810FF295CA02E7F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4081,9 +3831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanarGraph__cctor_m237102EAFF388BCF5B85
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:12>
 		((PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_StaticFields*)il2cpp_codegen_static_fields_for(PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_il2cpp_TypeInfo_var))->___kEpsilon = (1.0000000000000001E-05);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/PlanarGraph.cs:13>
 		((PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_StaticFields*)il2cpp_codegen_static_fields_for(PlanarGraph_t02FA29BC8B741D8D08171DFE1F302C9154F29DB4_il2cpp_TypeInfo_var))->___kMaxIntersectionTolerance = 4;
 		return;
 	}
@@ -4096,18 +3844,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanarGraph__cctor_m237102EAFF388BCF5B85
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Refinery_RequiresRefining_m4EA65D4D6DC9952D1929E4137B766D381D50AAEC (UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E ___0_tri, float ___1_maxArea, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:20>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_0 = ___0_tri;
 		float L_1 = L_0.___area;
 		float L_2 = ___1_maxArea;
 		return (bool)((((float)L_1) > ((float)L_2))? 1 : 0);
 	}
 }
-// Method Definition Index: 95111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refinery_FetchEncroachedSegments_m121F47268DE44EC2B1CD13283FABF82B4EA85842 (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___0_pgPoints, int32_t ___1_pgPointCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 ___2_pgEdges, int32_t ___3_pgEdgeCount, Array_1_t4755D7DF14191323C2964AF4A78CFEFBCB90A6CE* ___4_encroach, int32_t* ___5_encroachCount, UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A ___6_c, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4130,31 +3875,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refinery_FetchEncroachedSegments_m121F47
 	memset((&V_6), 0, sizeof(V_6));
 	int32_t V_7 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:25>
 		V_0 = 0;
 		goto IL_00d0;
 	}
 
 IL_0007:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:27>
 		int32_t L_0 = V_0;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_1;
 		L_1 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&___2_pgEdges))->___m_Buffer, L_0);
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:28>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_2 = V_1;
 		int32_t L_3 = L_2.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4;
 		L_4 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_pgPoints))->___m_Buffer, L_3);
 		V_2 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:29>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_5 = V_1;
 		int32_t L_6 = L_5.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_pgPoints))->___m_Buffer, L_6);
 		V_3 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:32>
 		UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A L_8 = ___6_c;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9 = L_8.___center;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = V_2;
@@ -4181,25 +3921,21 @@ IL_0007:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:36>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_18 = V_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_19 = V_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_20;
 		L_20 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_18, L_19, NULL);
 		V_4 = L_20;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:37>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_21 = V_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_22 = V_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_23;
 		L_23 = float2_op_Addition_m718974663A956F64D7C45D06C088550637F13693_inline(L_21, L_22, NULL);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_24;
 		L_24 = float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_inline(L_23, (0.5f), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:38>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_25 = V_4;
 		float L_26;
 		L_26 = math_length_m3DB47D254C8544FBB740A892B4AE2143E8F45634_inline(L_25, NULL);
 		V_5 = ((float)il2cpp_codegen_multiply(L_26, (0.5f)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:39>
 		UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A L_27 = ___6_c;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_28 = L_27.___center;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_29;
@@ -4213,18 +3949,13 @@ IL_0007:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:42>
 		il2cpp_codegen_initobj((&V_6), sizeof(UEncroachingSegment_t4B5747FEABEE5473FDE3D8FD80213DAF038BFB95));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:43>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_32 = V_2;
 		(&V_6)->___a = L_32;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:44>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_33 = V_3;
 		(&V_6)->___b = L_33;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:45>
 		int32_t L_34 = V_0;
 		(&V_6)->___index = L_34;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:46>
 		Array_1_t4755D7DF14191323C2964AF4A78CFEFBCB90A6CE* L_35 = ___4_encroach;
 		int32_t* L_36 = ___5_encroachCount;
 		int32_t* L_37 = ___5_encroachCount;
@@ -4239,14 +3970,12 @@ IL_0007:
 
 IL_00cc:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:25>
 		int32_t L_42 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_42, 1));
 	}
 
 IL_00d0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:25>
 		int32_t L_43 = V_0;
 		int32_t L_44 = ___3_pgEdgeCount;
 		if ((((int32_t)L_43) < ((int32_t)L_44)))
@@ -4255,35 +3984,28 @@ IL_00d0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:48>
 		return;
 	}
 }
-// Method Definition Index: 95112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refinery_InsertVertex_mCA9503EA509CE393850604C957C00C51AFE48F6E (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___0_pgPoints, int32_t* ___1_pgPointCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_newVertex, int32_t* ___3_nid, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:52>
 		int32_t* L_0 = ___3_nid;
 		int32_t* L_1 = ___1_pgPointCount;
 		int32_t L_2 = *((int32_t*)L_1);
 		*((int32_t*)L_0) = (int32_t)L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:53>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_3 = ___0_pgPoints;
 		int32_t* L_4 = ___3_nid;
 		int32_t L_5 = *((int32_t*)L_4);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___2_newVertex;
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_3)->___m_Buffer, L_5, (L_6));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:54>
 		int32_t* L_7 = ___1_pgPointCount;
 		int32_t* L_8 = ___1_pgPointCount;
 		int32_t L_9 = *((int32_t*)L_8);
 		*((int32_t*)L_7) = (int32_t)((int32_t)il2cpp_codegen_add(L_9, 1));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:55>
 		return;
 	}
 }
-// Method Definition Index: 95113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refinery_SplitSegments_m0757F012E06D755761CEF82647C757CB26A735CC (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___0_pgPoints, int32_t* ___1_pgPointCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* ___2_pgEdges, int32_t* ___3_pgEdgeCount, UEncroachingSegment_t4B5747FEABEE5473FDE3D8FD80213DAF038BFB95 ___4_es, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4306,39 +4028,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refinery_SplitSegments_m0757F012E06D7557
 	int32_t V_7 = 0;
 	int32_t G_B4_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:59>
 		UEncroachingSegment_t4B5747FEABEE5473FDE3D8FD80213DAF038BFB95 L_0 = ___4_es;
 		int32_t L_1 = L_0.___index;
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:60>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_2 = ___2_pgEdges;
 		int32_t L_3 = V_0;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_4;
 		L_4 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_2)->___m_Buffer, L_3);
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:61>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_5 = ___0_pgPoints;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_6 = V_1;
 		int32_t L_7 = L_6.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8;
 		L_8 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_5)->___m_Buffer, L_7);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:62>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_9 = ___0_pgPoints;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_10 = V_1;
 		int32_t L_11 = L_10.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_12;
 		L_12 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_9)->___m_Buffer, L_11);
 		V_2 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:63>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_13 = V_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_14;
 		L_14 = float2_op_Addition_m718974663A956F64D7C45D06C088550637F13693_inline(L_8, L_13, NULL);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_15;
 		L_15 = float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_inline(L_14, (0.5f), NULL);
 		V_3 = L_15;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:64>
 		V_4 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:65>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_16 = V_1;
 		int32_t L_17 = L_16.___x;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_18 = V_1;
@@ -4351,7 +4066,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refinery_SplitSegments_m0757F012E06D7557
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:67>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_21 = V_1;
 		int32_t L_22 = L_21.___x;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_23 = V_1;
@@ -4378,19 +4092,16 @@ IL_006b:
 IL_0071:
 	{
 		V_4 = G_B4_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:68>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_29 = ___0_pgPoints;
 		int32_t* L_30 = ___1_pgPointCount;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_31 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Refinery_t6A185F7E65E3C5A1BF654A3D7561040CDDD0E54D_il2cpp_TypeInfo_var);
 		Refinery_InsertVertex_mCA9503EA509CE393850604C957C00C51AFE48F6E(L_29, L_30, L_31, (&V_4), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:71>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_32 = ___2_pgEdges;
 		int32_t L_33 = V_0;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_34;
 		L_34 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_32)->___m_Buffer, L_33);
 		V_5 = L_34;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:72>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_35 = ___2_pgEdges;
 		int32_t L_36 = V_0;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_37 = V_5;
@@ -4400,7 +4111,6 @@ IL_0071:
 		memset((&L_40), 0, sizeof(L_40));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_40), L_38, L_39, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_35)->___m_Buffer, L_36, (L_40));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:73>
 		int32_t* L_41 = ___3_pgEdgeCount;
 		int32_t L_42 = *((int32_t*)L_41);
 		V_6 = L_42;
@@ -4409,7 +4119,6 @@ IL_0071:
 
 IL_00a1:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:74>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_43 = ___2_pgEdges;
 		int32_t L_44 = V_6;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_45 = ___2_pgEdges;
@@ -4417,14 +4126,12 @@ IL_00a1:
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_47;
 		L_47 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_45)->___m_Buffer, ((int32_t)il2cpp_codegen_subtract(L_46, 1)));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_43)->___m_Buffer, L_44, (L_47));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:73>
 		int32_t L_48 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_subtract(L_48, 1));
 	}
 
 IL_00b9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:73>
 		int32_t L_49 = V_6;
 		int32_t L_50 = V_0;
 		if ((((int32_t)L_49) > ((int32_t)((int32_t)il2cpp_codegen_add(L_50, 1)))))
@@ -4433,7 +4140,6 @@ IL_00b9:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:75>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_51 = ___2_pgEdges;
 		int32_t L_52 = V_0;
 		int32_t L_53 = V_4;
@@ -4443,7 +4149,6 @@ IL_00b9:
 		memset((&L_56), 0, sizeof(L_56));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_56), L_53, L_55, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_51)->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_52, 1)), (L_56));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:76>
 		int32_t* L_57 = ___3_pgEdgeCount;
 		int32_t* L_58 = ___3_pgEdgeCount;
 		int32_t L_59 = *((int32_t*)L_58);
@@ -4453,11 +4158,9 @@ IL_00b9:
 
 IL_00de:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:80>
 		int32_t* L_60 = ___1_pgPointCount;
 		int32_t L_61 = *((int32_t*)L_60);
 		V_4 = L_61;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:81>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_62 = ___0_pgPoints;
 		int32_t* L_63 = ___1_pgPointCount;
 		int32_t* L_64 = ___1_pgPointCount;
@@ -4468,7 +4171,6 @@ IL_00de:
 		int32_t L_67 = V_7;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_68 = V_3;
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_62)->___m_Buffer, L_67, (L_68));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:82>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_69 = ___2_pgEdges;
 		int32_t L_70 = V_0;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_71 = V_1;
@@ -4482,7 +4184,6 @@ IL_00de:
 		memset((&L_77), 0, sizeof(L_77));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_77), L_75, L_76, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_69)->___m_Buffer, L_70, (L_77));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:83>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_78 = ___2_pgEdges;
 		int32_t* L_79 = ___3_pgEdgeCount;
 		int32_t* L_80 = ___3_pgEdgeCount;
@@ -4502,11 +4203,9 @@ IL_00de:
 		memset((&L_90), 0, sizeof(L_90));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_90), L_88, L_89, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_78)->___m_Buffer, L_83, (L_90));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:85>
 		return;
 	}
 }
-// Method Definition Index: 95114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Refinery_Condition_m6C3A1C309B279D858D172E5E0593673A5912D98E (int32_t ___0_allocator, float ___1_factorArea, float ___2_targetArea, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___3_pgPoints, int32_t* ___4_pgPointCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* ___5_pgEdges, int32_t* ___6_pgEdgeCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___7_vertices, int32_t* ___8_vertexCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___9_indices, int32_t* ___10_indexCount, float* ___11_maxArea, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4544,37 +4243,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Refinery_Condition_m6C3A1C309B279D858D17
 	int32_t V_15 = 0;
 	float G_B3_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:91>
 		float* L_0 = ___11_maxArea;
 		*((float*)L_0) = (float)(0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:92>
 		V_0 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:93>
 		V_1 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:94>
 		V_2 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:95>
 		V_3 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:98>
 		V_4 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:98>
 		V_5 = (-1);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:98>
 		int32_t* L_1 = ___4_pgPointCount;
 		int32_t L_2 = *((int32_t*)L_1);
 		V_6 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:99>
 		int32_t L_3 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		int32_t L_4 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxEdgeCount;
 		int32_t L_5 = ___0_allocator;
 		Array_1__ctor_mFB247231D91D44E9E413D53643729FFC18308CC0((&V_7), L_3, L_4, L_5, 0, Array_1__ctor_mFB247231D91D44E9E413D53643729FFC18308CC0_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:100>
 		int32_t L_6 = V_6;
 		int32_t L_7 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxTriangleCount;
 		int32_t L_8 = ___0_allocator;
 		Array_1__ctor_mF5017833EA3480BE19BD0DFB06FEDB77AD9A83ED((&V_8), ((int32_t)il2cpp_codegen_multiply(L_6, 4)), L_7, L_8, 0, Array_1__ctor_mF5017833EA3480BE19BD0DFB06FEDB77AD9A83ED_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:101>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_9 = ___7_vertices;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_10 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_9);
 		int32_t* L_11 = ___8_vertexCount;
@@ -4585,7 +4273,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Refinery_Condition_m6C3A1C309B279D858D17
 		int32_t L_16 = *((int32_t*)L_15);
 		float* L_17 = ___11_maxArea;
 		ModuleHandle_BuildTriangles_mBC0D2742F3949422FB5CE7261A722A4EDED0CFFC(L_10, L_12, L_14, L_16, (&V_8), (&V_4), L_17, (&V_1), (&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:102>
 		float L_18 = ___1_factorArea;
 		if ((!(((float)L_18) == ((float)(0.0f)))))
 		{
@@ -4612,12 +4299,10 @@ IL_0073:
 IL_0083:
 	{
 		___1_factorArea = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:103>
 		float* L_24 = ___11_maxArea;
 		float L_25 = *((float*)L_24);
 		float L_26 = ___1_factorArea;
 		V_9 = ((float)il2cpp_codegen_multiply(L_25, L_26));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:104>
 		float L_27 = V_9;
 		float L_28 = ___2_targetArea;
 		float L_29;
@@ -4628,14 +4313,12 @@ IL_0083:
 
 IL_009b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:111>
 		V_10 = 0;
 		goto IL_00be;
 	}
 
 IL_00a0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:113>
 		int32_t L_30 = V_10;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_31;
 		L_31 = Array_1_get_Item_mD599A8099BD593DE4251A515EFB0C9C7E3264236((&V_8), L_30, Array_1_get_Item_mD599A8099BD593DE4251A515EFB0C9C7E3264236_RuntimeMethod_var);
@@ -4649,23 +4332,19 @@ IL_00a0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:115>
 		int32_t L_34 = V_10;
 		V_5 = L_34;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:116>
 		goto IL_00c4;
 	}
 
 IL_00b8:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:111>
 		int32_t L_35 = V_10;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_00be:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:111>
 		int32_t L_36 = V_10;
 		int32_t L_37 = V_4;
 		if ((((int32_t)L_36) < ((int32_t)L_37)))
@@ -4676,7 +4355,6 @@ IL_00be:
 
 IL_00c4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:123>
 		int32_t L_38 = V_5;
 		if ((((int32_t)L_38) == ((int32_t)(-1))))
 		{
@@ -4684,14 +4362,11 @@ IL_00c4:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:127>
 		int32_t L_39 = V_5;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_40;
 		L_40 = Array_1_get_Item_mD599A8099BD593DE4251A515EFB0C9C7E3264236((&V_8), L_39, Array_1_get_Item_mD599A8099BD593DE4251A515EFB0C9C7E3264236_RuntimeMethod_var);
 		V_11 = L_40;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:128>
 		V_12 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:129>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_41 = ___3_pgPoints;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_42 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_41);
 		int32_t* L_43 = ___4_pgPointCount;
@@ -4704,7 +4379,6 @@ IL_00c4:
 		UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A L_50 = L_49.___c;
 		il2cpp_codegen_runtime_class_init_inline(Refinery_t6A185F7E65E3C5A1BF654A3D7561040CDDD0E54D_il2cpp_TypeInfo_var);
 		Refinery_FetchEncroachedSegments_m121F47268DE44EC2B1CD13283FABF82B4EA85842(L_42, L_44, L_46, L_48, (&V_7), (&V_12), L_50, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:132>
 		int32_t L_51 = V_12;
 		if (!L_51)
 		{
@@ -4712,14 +4386,12 @@ IL_00c4:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:134>
 		V_13 = 0;
 		goto IL_0121;
 	}
 
 IL_0106:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:136>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_52 = ___3_pgPoints;
 		int32_t* L_53 = ___4_pgPointCount;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_54 = ___5_pgEdges;
@@ -4729,14 +4401,12 @@ IL_0106:
 		L_57 = Array_1_get_Item_m566E39997A30D2270FB738CA8908E4E7272E7309((&V_7), L_56, Array_1_get_Item_m566E39997A30D2270FB738CA8908E4E7272E7309_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(Refinery_t6A185F7E65E3C5A1BF654A3D7561040CDDD0E54D_il2cpp_TypeInfo_var);
 		Refinery_SplitSegments_m0757F012E06D755761CEF82647C757CB26A735CC(L_52, L_53, L_54, L_55, L_57, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:134>
 		int32_t L_58 = V_13;
 		V_13 = ((int32_t)il2cpp_codegen_add(L_58, 1));
 	}
 
 IL_0121:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:134>
 		int32_t L_59 = V_13;
 		int32_t L_60 = V_12;
 		if ((((int32_t)L_59) < ((int32_t)L_60)))
@@ -4750,12 +4420,10 @@ IL_0121:
 
 IL_0129:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:142>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_61 = V_11;
 		UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A L_62 = L_61.___c;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_63 = L_62.___center;
 		V_14 = L_63;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:143>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_64 = ___3_pgPoints;
 		int32_t* L_65 = ___4_pgPointCount;
 		int32_t* L_66 = ___4_pgPointCount;
@@ -4770,13 +4438,10 @@ IL_0129:
 
 IL_014d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:147>
 		int32_t* L_71 = ___10_indexCount;
 		*((int32_t*)L_71) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:147>
 		int32_t* L_72 = ___8_vertexCount;
 		*((int32_t*)L_72) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:148>
 		int32_t L_73 = ___0_allocator;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_74 = ___3_pgPoints;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_75 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_74);
@@ -4793,13 +4458,9 @@ IL_014d:
 		bool L_86;
 		L_86 = Tessellator_Tessellate_m3EB11B589A3E3E8563756605E2C94CEBBC7F2F31(L_73, L_75, L_77, L_79, L_81, L_82, L_83, L_84, L_85, NULL);
 		V_3 = L_86;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:151>
 		V_12 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:151>
 		V_4 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:151>
 		V_5 = (-1);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:152>
 		bool L_87 = V_3;
 		if (!L_87)
 		{
@@ -4807,7 +4468,6 @@ IL_014d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:153>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_88 = ___7_vertices;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_89 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_88);
 		int32_t* L_90 = ___8_vertexCount;
@@ -4823,7 +4483,6 @@ IL_014d:
 
 IL_01a6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:156>
 		int32_t* L_97 = ___4_pgPointCount;
 		int32_t L_98 = *((int32_t*)L_97);
 		int32_t L_99 = V_6;
@@ -4835,19 +4494,16 @@ IL_01a6:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:157>
 		goto IL_01c2;
 	}
 
 IL_01b5:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:161>
 		V_2 = (bool)1;
 	}
 
 IL_01b7:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:107>
 		bool L_101 = V_2;
 		bool L_102 = V_3;
 		if (((int32_t)(((((int32_t)L_101) == ((int32_t)0))? 1 : 0)&(int32_t)L_102)))
@@ -4858,16 +4514,12 @@ IL_01b7:
 
 IL_01c2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:167>
 		Array_1_Dispose_mADFF51CEAB3F73FC7821EB64774332CBFB83BE12((&V_8), Array_1_Dispose_mADFF51CEAB3F73FC7821EB64774332CBFB83BE12_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:168>
 		Array_1_Dispose_m6599D8E8C4E8415489AE2A49E4E7239177E84F57((&V_7), Array_1_Dispose_m6599D8E8C4E8415489AE2A49E4E7239177E84F57_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:169>
 		bool L_103 = V_2;
 		return L_103;
 	}
 }
-// Method Definition Index: 95115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refinery__cctor_m8CC81D621E197C54AFDE164722945ACE75F06624 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4877,11 +4529,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refinery__cctor_m8CC81D621E197C54AFDE164
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:11>
 		((Refinery_t6A185F7E65E3C5A1BF654A3D7561040CDDD0E54D_StaticFields*)il2cpp_codegen_static_fields_for(Refinery_t6A185F7E65E3C5A1BF654A3D7561040CDDD0E54D_il2cpp_TypeInfo_var))->___kMinAreaFactor = (0.0482000001f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:12>
 		((Refinery_t6A185F7E65E3C5A1BF654A3D7561040CDDD0E54D_StaticFields*)il2cpp_codegen_static_fields_for(Refinery_t6A185F7E65E3C5A1BF654A3D7561040CDDD0E54D_il2cpp_TypeInfo_var))->___kMaxAreaFactor = (0.481999993f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Refinery.cs:14>
 		((Refinery_t6A185F7E65E3C5A1BF654A3D7561040CDDD0E54D_StaticFields*)il2cpp_codegen_static_fields_for(Refinery_t6A185F7E65E3C5A1BF654A3D7561040CDDD0E54D_il2cpp_TypeInfo_var))->___kMaxSteinerCount = ((int32_t)4084);
 		return;
 	}
@@ -4894,7 +4543,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refinery__cctor_m8CC81D621E197C54AFDE164
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen_RefineEdges_m914F0B0D1F7193F66F410668153ECBC3E7BA6BBB (NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* ___0_refinedEdges, NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* ___1_delaEdges, int32_t* ___2_delaEdgeCount, NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* ___3_voronoiEdges, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4917,33 +4565,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen_RefineEdges_m914F0B0D1F7193F66F
 	int4_tBA77D4945786DE82C3A487B33955EA1004996052 V_8;
 	memset((&V_8), 0, sizeof(V_8));
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:18>
 		int32_t* L_0 = ___2_delaEdgeCount;
 		int32_t L_1 = *((int32_t*)L_0);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:19>
 		int32_t* L_2 = ___2_delaEdgeCount;
 		*((int32_t*)L_2) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:22>
 		V_1 = 0;
 		goto IL_0060;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:24>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_3 = ___1_delaEdges;
 		int32_t L_4 = V_1;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_3)->___m_Buffer, L_4);
 		V_2 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:25>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_6 = ___1_delaEdges;
 		int32_t L_7 = V_1;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_8;
 		L_8 = IL2CPP_NATIVEARRAY_GET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_6)->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_7, 1)));
 		V_3 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:26>
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_9 = V_2;
 		int32_t L_10 = L_9.___x;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_11 = V_3;
@@ -4964,18 +4606,15 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:29>
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_17 = V_3;
 		int32_t L_18 = L_17.___z;
 		(&V_2)->___w = L_18;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:30>
 		int32_t L_19 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_19, 1));
 	}
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:33>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_20 = ___0_refinedEdges;
 		int32_t* L_21 = ___2_delaEdgeCount;
 		int32_t* L_22 = ___2_delaEdgeCount;
@@ -4986,14 +4625,12 @@ IL_0049:
 		int32_t L_25 = V_4;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_26 = V_2;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_20)->___m_Buffer, L_25, (L_26));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:22>
 		int32_t L_27 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_0060:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:22>
 		int32_t L_28 = V_1;
 		int32_t L_29 = V_0;
 		if ((((int32_t)L_28) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_29, 1)))))
@@ -5002,28 +4639,24 @@ IL_0060:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:37>
 		V_5 = 0;
 		goto IL_00b1;
 	}
 
 IL_006b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:39>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_30 = ___0_refinedEdges;
 		int32_t L_31 = V_5;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_32;
 		L_32 = IL2CPP_NATIVEARRAY_GET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_30)->___m_Buffer, L_31);
 		int32_t L_33 = L_32.___z;
 		V_6 = L_33;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:40>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_34 = ___0_refinedEdges;
 		int32_t L_35 = V_5;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_36;
 		L_36 = IL2CPP_NATIVEARRAY_GET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_34)->___m_Buffer, L_35);
 		int32_t L_37 = L_36.___w;
 		V_7 = L_37;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:43>
 		int32_t L_38 = V_6;
 		if ((((int32_t)L_38) == ((int32_t)(-1))))
 		{
@@ -5038,12 +4671,10 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:46>
 		int32_t L_40 = V_7;
 		int32_t L_41 = V_6;
 		int32_t L_42 = V_5;
 		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&V_8), L_40, L_41, L_42, 0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:47>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_43 = ___3_voronoiEdges;
 		int32_t L_44 = V_5;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_45 = V_8;
@@ -5052,14 +4683,12 @@ IL_006b:
 
 IL_00ab:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:37>
 		int32_t L_46 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_46, 1));
 	}
 
 IL_00b1:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:37>
 		int32_t L_47 = V_5;
 		int32_t* L_48 = ___2_delaEdgeCount;
 		int32_t L_49 = *((int32_t*)L_48);
@@ -5069,7 +4698,6 @@ IL_00b1:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:51>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_50 = ___0_refinedEdges;
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200 L_51 = (*(NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200*)L_50);
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_52 = ___1_delaEdges;
@@ -5078,27 +4706,22 @@ IL_00b1:
 		int32_t L_55 = *((int32_t*)L_54);
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_Copy_Tisint4_tBA77D4945786DE82C3A487B33955EA1004996052_m6491337629866A11E52EEDCFF95572D420F6CF90(L_51, L_53, L_55, ModuleHandle_Copy_Tisint4_tBA77D4945786DE82C3A487B33955EA1004996052_m6491337629866A11E52EEDCFF95572D420F6CF90_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 95117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen_GetAffectingEdges_mE425C25391BA739301127B8403F38CE0985040FA (int32_t ___0_pointIndex, NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200 ___1_edges, int32_t ___2_edgeCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___3_resultSet, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___4_checkSet, int32_t* ___5_resultCount, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:57>
 		int32_t* L_0 = ___5_resultCount;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:58>
 		V_0 = 0;
 		goto IL_0047;
 	}
 
 IL_0008:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:60>
 		int32_t L_1 = ___0_pointIndex;
 		int32_t L_2 = V_0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_3;
@@ -5123,7 +4746,6 @@ IL_0008:
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:61>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_9 = ___3_resultSet;
 		int32_t* L_10 = ___5_resultCount;
 		int32_t* L_11 = ___5_resultCount;
@@ -5138,18 +4760,15 @@ IL_0028:
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:62>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_16 = ___4_checkSet;
 		int32_t L_17 = V_0;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_16)->___m_Buffer, L_17, (0));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:58>
 		int32_t L_18 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_18, 1));
 	}
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:58>
 		int32_t L_19 = V_0;
 		int32_t L_20 = ___2_edgeCount;
 		if ((((int32_t)L_19) < ((int32_t)L_20)))
@@ -5158,24 +4777,20 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 95118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen_CentroidByPoints_mD181064D3B258FDBC8BB36711C67869DFF719FD8 (int32_t ___0_triIndex, NativeArray_1_t9D3993C203DF036C34CDD1F41416541D312F1587 ___1_triangles, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___2_centroidTris, int32_t* ___3_centroidCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___4_aggregate, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___5_point, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:69>
 		V_0 = 0;
 		goto IL_0013;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:70>
 		int32_t L_0 = ___0_triIndex;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_1 = ___2_centroidTris;
 		int32_t L_2 = V_0;
@@ -5187,20 +4802,17 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:71>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:69>
 		int32_t L_4 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_4, 1));
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:69>
 		int32_t L_5 = V_0;
 		int32_t* L_6 = ___3_centroidCount;
 		int32_t L_7 = *((int32_t*)L_6);
@@ -5210,7 +4822,6 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:72>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_8 = ___2_centroidTris;
 		int32_t* L_9 = ___3_centroidCount;
 		int32_t* L_10 = ___3_centroidCount;
@@ -5221,7 +4832,6 @@ IL_0013:
 		int32_t L_13 = V_1;
 		int32_t L_14 = ___0_triIndex;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_8)->___m_Buffer, L_13, (L_14));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:73>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_15 = ___4_aggregate;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_16 = ___4_aggregate;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_17 = (*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)L_16);
@@ -5233,7 +4843,6 @@ IL_0013:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_22;
 		L_22 = float2_op_Addition_m718974663A956F64D7C45D06C088550637F13693_inline(L_17, L_21, NULL);
 		*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)L_15 = L_22;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:74>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_23 = ___5_point;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_24 = ___4_aggregate;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_25 = (*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)L_24);
@@ -5242,11 +4851,9 @@ IL_0013:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_28;
 		L_28 = float2_op_Division_m4AA175CD0895AA1A50F5A73B54722CA53876EE6A_inline(L_25, ((float)L_27), NULL);
 		*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)L_23 = L_28;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:75>
 		return;
 	}
 }
-// Method Definition Index: 95119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen_CentroidByPolygon_mBFA60C01A996E080A9C37EF3B4D6C07B9F815004 (int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___0_e, NativeArray_1_t9D3993C203DF036C34CDD1F41416541D312F1587 ___1_triangles, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___2_centroid, float* ___3_area, float* ___4_distance, const RuntimeMethod* method) 
 {
 	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA V_0;
@@ -5255,7 +4862,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen_CentroidByPolygon_mBFA60C01A996
 	memset((&V_1), 0, sizeof(V_1));
 	float V_2 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:79>
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_0 = ___0_e;
 		int32_t L_1 = L_0.___x;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_2;
@@ -5263,7 +4869,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen_CentroidByPolygon_mBFA60C01A996
 		UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A L_3 = L_2.___c;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = L_3.___center;
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:80>
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_5 = ___0_e;
 		int32_t L_6 = L_5.___y;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_7;
@@ -5271,7 +4876,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen_CentroidByPolygon_mBFA60C01A996
 		UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A L_8 = L_7.___c;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9 = L_8.___center;
 		V_1 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:81>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = V_0;
 		float L_11 = L_10.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_12 = V_1;
@@ -5281,7 +4885,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen_CentroidByPolygon_mBFA60C01A996
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_16 = V_0;
 		float L_17 = L_16.___y;
 		V_2 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_11, L_13)), ((float)il2cpp_codegen_multiply(L_15, L_17))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:82>
 		float* L_18 = ___4_distance;
 		float* L_19 = ___4_distance;
 		float L_20 = *((float*)L_19);
@@ -5290,13 +4893,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen_CentroidByPolygon_mBFA60C01A996
 		float L_23;
 		L_23 = math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_inline(L_21, L_22, NULL);
 		*((float*)L_18) = (float)((float)il2cpp_codegen_add(L_20, L_23));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:83>
 		float* L_24 = ___3_area;
 		float* L_25 = ___3_area;
 		float L_26 = *((float*)L_25);
 		float L_27 = V_2;
 		*((float*)L_24) = (float)((float)il2cpp_codegen_add(L_26, L_27));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:84>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_28 = ___2_centroid;
 		float* L_29 = (float*)(&L_28->___x);
 		float* L_30 = L_29;
@@ -5307,7 +4908,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen_CentroidByPolygon_mBFA60C01A996
 		float L_35 = L_34.___x;
 		float L_36 = V_2;
 		*((float*)L_30) = (float)((float)il2cpp_codegen_add(L_31, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_33, L_35)), L_36))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:85>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_37 = ___2_centroid;
 		float* L_38 = (float*)(&L_37->___y);
 		float* L_39 = L_38;
@@ -5318,11 +4918,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen_CentroidByPolygon_mBFA60C01A996
 		float L_44 = L_43.___y;
 		float L_45 = V_2;
 		*((float*)L_39) = (float)((float)il2cpp_codegen_add(L_40, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(L_42, L_44)), L_45))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:86>
 		return;
 	}
 }
-// Method Definition Index: 95120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Smoothen_ConnectTriangles_m356CE5E58898A0C0018CD8A45997AA97817981D1 (NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* ___0_connectedTri, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___1_affectEdges, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___2_checkSet, NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200 ___3_voronoiEdges, int32_t ___4_triangleCount, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -5331,17 +4929,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Smoothen_ConnectTriangles_m356CE5E58898A
 	bool V_3 = false;
 	int32_t V_4 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:91>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_0 = ___1_affectEdges;
 		int32_t L_1;
 		L_1 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_0)->___m_Buffer, 0);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:92>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_2 = ___1_affectEdges;
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_2)->___m_Buffer, 0);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:93>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_4 = ___0_connectedTri;
 		int32_t L_5 = V_0;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_6;
@@ -5355,24 +4950,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Smoothen_ConnectTriangles_m356CE5E58898A
 		memset((&L_11), 0, sizeof(L_11));
 		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_11), L_7, L_10, 0, 0, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_4)->___m_Buffer, 0, (L_11));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:94>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_12 = ___2_checkSet;
 		int32_t L_13 = V_1;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_12)->___m_Buffer, L_13, (1));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:96>
 		V_2 = 1;
 		goto IL_01d9;
 	}
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:98>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_14 = ___1_affectEdges;
 		int32_t L_15 = V_2;
 		int32_t L_16;
 		L_16 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_14)->___m_Buffer, L_15);
 		V_1 = L_16;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:99>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_17 = ___2_checkSet;
 		int32_t L_18 = V_1;
 		int32_t L_19;
@@ -5383,7 +4974,6 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:101>
 		int32_t L_20 = V_1;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_21;
 		L_21 = IL2CPP_NATIVEARRAY_GET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, ((&___3_voronoiEdges))->___m_Buffer, L_20);
@@ -5399,7 +4989,6 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:103>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_27 = ___0_connectedTri;
 		int32_t L_28 = V_2;
 		int32_t L_29 = V_1;
@@ -5414,17 +5003,14 @@ IL_0047:
 		memset((&L_35), 0, sizeof(L_35));
 		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_35), L_31, L_34, 0, 0, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_27)->___m_Buffer, L_28, (L_35));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:104>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_36 = ___2_checkSet;
 		int32_t L_37 = V_1;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_36)->___m_Buffer, L_37, (1));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:105>
 		goto IL_01d5;
 	}
 
 IL_00ad:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:109>
 		int32_t L_38 = V_1;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_39;
 		L_39 = IL2CPP_NATIVEARRAY_GET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, ((&___3_voronoiEdges))->___m_Buffer, L_38);
@@ -5440,7 +5026,6 @@ IL_00ad:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:111>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_45 = ___0_connectedTri;
 		int32_t L_46 = V_2;
 		int32_t L_47 = V_1;
@@ -5455,32 +5040,26 @@ IL_00ad:
 		memset((&L_53), 0, sizeof(L_53));
 		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_53), L_49, L_52, 0, 0, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_45)->___m_Buffer, L_46, (L_53));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:112>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_54 = ___2_checkSet;
 		int32_t L_55 = V_1;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_54)->___m_Buffer, L_55, (1));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:113>
 		goto IL_01d5;
 	}
 
 IL_00ff:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:118>
 		V_3 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:119>
 		V_4 = 0;
 		goto IL_01c7;
 	}
 
 IL_0109:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:121>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_56 = ___1_affectEdges;
 		int32_t L_57 = V_4;
 		int32_t L_58;
 		L_58 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_56)->___m_Buffer, L_57);
 		V_1 = L_58;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:122>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_59 = ___2_checkSet;
 		int32_t L_60 = V_1;
 		int32_t L_61;
@@ -5491,7 +5070,6 @@ IL_0109:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:124>
 		int32_t L_62 = V_1;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_63;
 		L_63 = IL2CPP_NATIVEARRAY_GET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, ((&___3_voronoiEdges))->___m_Buffer, L_62);
@@ -5507,7 +5085,6 @@ IL_0109:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:126>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_69 = ___0_connectedTri;
 		int32_t L_70 = V_2;
 		int32_t L_71 = V_1;
@@ -5522,19 +5099,15 @@ IL_0109:
 		memset((&L_77), 0, sizeof(L_77));
 		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_77), L_73, L_76, 0, 0, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_69)->___m_Buffer, L_70, (L_77));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:127>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_78 = ___2_checkSet;
 		int32_t L_79 = V_1;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_78)->___m_Buffer, L_79, (1));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:128>
 		V_3 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:129>
 		goto IL_01d0;
 	}
 
 IL_0170:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:131>
 		int32_t L_80 = V_1;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_81;
 		L_81 = IL2CPP_NATIVEARRAY_GET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, ((&___3_voronoiEdges))->___m_Buffer, L_80);
@@ -5550,7 +5123,6 @@ IL_0170:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:133>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_87 = ___0_connectedTri;
 		int32_t L_88 = V_2;
 		int32_t L_89 = V_1;
@@ -5565,26 +5137,21 @@ IL_0170:
 		memset((&L_95), 0, sizeof(L_95));
 		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_95), L_91, L_94, 0, 0, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_87)->___m_Buffer, L_88, (L_95));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:134>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_96 = ___2_checkSet;
 		int32_t L_97 = V_1;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_96)->___m_Buffer, L_97, (1));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:135>
 		V_3 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:136>
 		goto IL_01d0;
 	}
 
 IL_01c1:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:119>
 		int32_t L_98 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_98, 1));
 	}
 
 IL_01c7:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:119>
 		int32_t L_99 = V_4;
 		int32_t L_100 = ___4_triangleCount;
 		if ((((int32_t)L_99) < ((int32_t)L_100)))
@@ -5595,7 +5162,6 @@ IL_01c7:
 
 IL_01d0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:139>
 		bool L_101 = V_3;
 		if (L_101)
 		{
@@ -5603,20 +5169,17 @@ IL_01d0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:140>
 		return (bool)0;
 	}
 
 IL_01d5:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:96>
 		int32_t L_102 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_102, 1));
 	}
 
 IL_01d9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:96>
 		int32_t L_103 = V_2;
 		int32_t L_104 = ___4_triangleCount;
 		if ((((int32_t)L_103) < ((int32_t)L_104)))
@@ -5625,11 +5188,9 @@ IL_01d9:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:143>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 95121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Smoothen_Condition_m6DA3DC27448AE26EC40CA95F100303F2BF5AE142 (int32_t ___0_allocator, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___1_pgPoints, int32_t ___2_pgPointCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 ___3_pgEdges, int32_t ___4_pgEdgeCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___5_vertices, int32_t* ___6_vertexCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___7_indices, int32_t* ___8_indexCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5692,68 +5253,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Smoothen_Condition_m6DA3DC27448AE26EC40C
 	int32_t V_31 = 0;
 	int32_t G_B22_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:152>
 		V_0 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:152>
 		V_1 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:152>
 		V_2 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:152>
 		V_3 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:152>
 		V_4 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:152>
 		V_5 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:152>
 		V_6 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:152>
 		V_7 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:153>
 		V_8 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:153>
 		V_9 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:154>
 		V_10 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:154>
 		V_11 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:154>
 		V_12 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:155>
 		int32_t* L_0 = ___8_indexCount;
 		int32_t L_1 = *((int32_t*)L_0);
 		int32_t L_2 = ___0_allocator;
 		NativeArray_1__ctor_m400FEA2DAAC55094687BE348B9676B9F483C9222((&V_13), L_1, L_2, 1, NativeArray_1__ctor_m400FEA2DAAC55094687BE348B9676B9F483C9222_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:156>
 		int32_t* L_3 = ___8_indexCount;
 		int32_t L_4 = *((int32_t*)L_3);
 		int32_t L_5 = ___0_allocator;
 		NativeArray_1__ctor_mC01F44D62CB455BB4FE045F1FFB6BBD3516CB265((&V_14), L_4, L_5, 1, NativeArray_1__ctor_mC01F44D62CB455BB4FE045F1FFB6BBD3516CB265_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:157>
 		int32_t* L_6 = ___8_indexCount;
 		int32_t L_7 = *((int32_t*)L_6);
 		int32_t L_8 = ___0_allocator;
 		NativeArray_1__ctor_mC01F44D62CB455BB4FE045F1FFB6BBD3516CB265((&V_15), L_7, L_8, 1, NativeArray_1__ctor_mC01F44D62CB455BB4FE045F1FFB6BBD3516CB265_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:158>
 		int32_t* L_9 = ___6_vertexCount;
 		int32_t L_10 = *((int32_t*)L_9);
 		int32_t L_11 = ___0_allocator;
 		NativeArray_1__ctor_mC01F44D62CB455BB4FE045F1FFB6BBD3516CB265((&V_16), L_10, L_11, 1, NativeArray_1__ctor_mC01F44D62CB455BB4FE045F1FFB6BBD3516CB265_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:159>
 		int32_t* L_12 = ___8_indexCount;
 		int32_t L_13 = *((int32_t*)L_12);
 		int32_t L_14 = ___0_allocator;
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_17), L_13, L_14, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:160>
 		int32_t* L_15 = ___8_indexCount;
 		int32_t L_16 = *((int32_t*)L_15);
 		int32_t L_17 = ___0_allocator;
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_18), L_16, L_17, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:161>
 		int32_t* L_18 = ___6_vertexCount;
 		int32_t L_19 = *((int32_t*)L_18);
 		int32_t L_20 = ___0_allocator;
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_19), L_19, L_20, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:162>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_21 = ___5_vertices;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_22 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_21);
 		int32_t* L_23 = ___6_vertexCount;
@@ -5764,13 +5304,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Smoothen_Condition_m6DA3DC27448AE26EC40C
 		int32_t L_28 = *((int32_t*)L_27);
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_BuildTrianglesAndEdges_mCF04E3E12DA8E5B16B5DBD03206D8029B94614F2(L_22, L_24, L_26, L_28, (&V_13), (&V_10), (&V_14), (&V_11), (&V_0), (&V_4), (&V_2), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:163>
 		int32_t L_29 = V_11;
 		int32_t L_30 = ___0_allocator;
 		NativeArray_1__ctor_mC01F44D62CB455BB4FE045F1FFB6BBD3516CB265((&V_20), L_29, L_30, 1, NativeArray_1__ctor_mC01F44D62CB455BB4FE045F1FFB6BBD3516CB265_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:168>
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:169>
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:170>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200 L_31 = V_14;
 		void* L_32;
 		L_32 = NativeArrayUnsafeUtility_GetUnsafeBufferPointerWithoutChecks_Tisint4_tBA77D4945786DE82C3A487B33955EA1004996052_mB537AB040DF35BD6BE8FEBE48C04901884E592E3(L_31, NativeArrayUnsafeUtility_GetUnsafeBufferPointerWithoutChecks_Tisint4_tBA77D4945786DE82C3A487B33955EA1004996052_mB537AB040DF35BD6BE8FEBE48C04901884E592E3_RuntimeMethod_var);
@@ -5778,38 +5314,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Smoothen_Condition_m6DA3DC27448AE26EC40C
 		il2cpp_codegen_initobj((&V_23), sizeof(DelaEdgeCompare_t71277AC31E4CB04EEA732A99D57ECB6C612AD370));
 		DelaEdgeCompare_t71277AC31E4CB04EEA732A99D57ECB6C612AD370 L_34 = V_23;
 		ModuleHandle_InsertionSort_Tisint4_tBA77D4945786DE82C3A487B33955EA1004996052_TisDelaEdgeCompare_t71277AC31E4CB04EEA732A99D57ECB6C612AD370_m994912BFABC2929C8C302E455B6E4E0F89A3C48F(L_32, 0, ((int32_t)il2cpp_codegen_subtract(L_33, 1)), L_34, ModuleHandle_InsertionSort_Tisint4_tBA77D4945786DE82C3A487B33955EA1004996052_TisDelaEdgeCompare_t71277AC31E4CB04EEA732A99D57ECB6C612AD370_m994912BFABC2929C8C302E455B6E4E0F89A3C48F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:174>
 		il2cpp_codegen_runtime_class_init_inline(Smoothen_t2669845717E6B60A555F24D6545A373D1F476486_il2cpp_TypeInfo_var);
 		Smoothen_RefineEdges_m914F0B0D1F7193F66F410668153ECBC3E7BA6BBB((&V_20), (&V_14), (&V_11), (&V_15), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:177>
 		V_24 = 0;
 		goto IL_01ca;
 	}
 
 IL_00f9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:181>
 		int32_t L_35 = V_24;
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200 L_36 = V_14;
 		int32_t L_37 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(Smoothen_t2669845717E6B60A555F24D6545A373D1F476486_il2cpp_TypeInfo_var);
 		Smoothen_GetAffectingEdges_mE425C25391BA739301127B8403F38CE0985040FA(L_35, L_36, L_37, (&V_18), (&V_17), (&V_12), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:182>
 		int32_t L_38 = V_12;
 		V_25 = (bool)((!(((uint32_t)L_38) <= ((uint32_t)0)))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:185>
 		V_26 = 0;
 		goto IL_014e;
 	}
 
 IL_0116:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:188>
 		int32_t L_39 = V_26;
 		int32_t L_40;
 		L_40 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&V_18))->___m_Buffer, L_39);
 		V_27 = L_40;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:189>
 		int32_t L_41 = V_27;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_42;
 		L_42 = IL2CPP_NATIVEARRAY_GET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, ((&V_14))->___m_Buffer, L_41);
@@ -5832,22 +5361,18 @@ IL_0116:
 
 IL_0143:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:191>
 		V_25 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:192>
 		goto IL_0154;
 	}
 
 IL_0148:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:185>
 		int32_t L_47 = V_26;
 		V_26 = ((int32_t)il2cpp_codegen_add(L_47, 1));
 	}
 
 IL_014e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:185>
 		int32_t L_48 = V_26;
 		int32_t L_49 = V_12;
 		if ((((int32_t)L_48) < ((int32_t)L_49)))
@@ -5858,7 +5383,6 @@ IL_014e:
 
 IL_0154:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:197>
 		bool L_50 = V_25;
 		if (!L_50)
 		{
@@ -5866,14 +5390,12 @@ IL_0154:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:199>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200 L_51 = V_15;
 		int32_t L_52 = V_12;
 		il2cpp_codegen_runtime_class_init_inline(Smoothen_t2669845717E6B60A555F24D6545A373D1F476486_il2cpp_TypeInfo_var);
 		bool L_53;
 		L_53 = Smoothen_ConnectTriangles_m356CE5E58898A0C0018CD8A45997AA97817981D1((&V_16), (&V_18), (&V_17), L_51, L_52, NULL);
 		V_8 = L_53;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:200>
 		bool L_54 = V_8;
 		if (!L_54)
 		{
@@ -5881,35 +5403,28 @@ IL_0154:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:205>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_55 = ((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_StaticFields*)il2cpp_codegen_static_fields_for(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_il2cpp_TypeInfo_var))->___zero;
 		V_28 = L_55;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:206>
 		V_29 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:206>
 		V_30 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:207>
 		V_31 = 0;
 		goto IL_01a3;
 	}
 
 IL_0187:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:209>
 		int32_t L_56 = V_31;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_57;
 		L_57 = IL2CPP_NATIVEARRAY_GET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, ((&V_16))->___m_Buffer, L_56);
 		NativeArray_1_t9D3993C203DF036C34CDD1F41416541D312F1587 L_58 = V_13;
 		il2cpp_codegen_runtime_class_init_inline(Smoothen_t2669845717E6B60A555F24D6545A373D1F476486_il2cpp_TypeInfo_var);
 		Smoothen_CentroidByPolygon_mBFA60C01A996E080A9C37EF3B4D6C07B9F815004(L_57, L_58, (&V_28), (&V_29), (&V_30), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:207>
 		int32_t L_59 = V_31;
 		V_31 = ((int32_t)il2cpp_codegen_add(L_59, 1));
 	}
 
 IL_01a3:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:207>
 		int32_t L_60 = V_31;
 		int32_t L_61 = V_12;
 		if ((((int32_t)L_60) < ((int32_t)L_61)))
@@ -5918,13 +5433,11 @@ IL_01a3:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:211>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_62 = V_28;
 		float L_63 = V_29;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_64;
 		L_64 = float2_op_Division_m4AA175CD0895AA1A50F5A73B54722CA53876EE6A_inline(L_62, ((float)il2cpp_codegen_multiply((3.0f), L_63)), NULL);
 		V_28 = L_64;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:212>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_65 = ___1_pgPoints;
 		int32_t L_66 = V_24;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_67 = V_28;
@@ -5933,14 +5446,12 @@ IL_01a3:
 
 IL_01c4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:177>
 		int32_t L_68 = V_24;
 		V_24 = ((int32_t)il2cpp_codegen_add(L_68, 1));
 	}
 
 IL_01ca:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:177>
 		int32_t L_69 = V_24;
 		int32_t* L_70 = ___6_vertexCount;
 		int32_t L_71 = *((int32_t*)L_70);
@@ -5952,23 +5463,17 @@ IL_01ca:
 
 IL_01d4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:218>
 		int32_t* L_72 = ___8_indexCount;
 		int32_t L_73 = *((int32_t*)L_72);
 		V_21 = L_73;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:218>
 		int32_t* L_74 = ___6_vertexCount;
 		int32_t L_75 = *((int32_t*)L_74);
 		V_22 = L_75;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:219>
 		int32_t* L_76 = ___8_indexCount;
 		*((int32_t*)L_76) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:219>
 		int32_t* L_77 = ___6_vertexCount;
 		*((int32_t*)L_77) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:219>
 		V_10 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:220>
 		bool L_78 = V_8;
 		if (!L_78)
 		{
@@ -5976,7 +5481,6 @@ IL_01d4:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:222>
 		int32_t L_79 = ___0_allocator;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_80 = ___1_pgPoints;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_81 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_80);
@@ -5990,7 +5494,6 @@ IL_01d4:
 		bool L_89;
 		L_89 = Tessellator_Tessellate_m3EB11B589A3E3E8563756605E2C94CEBBC7F2F31(L_79, L_81, L_82, L_83, L_84, L_85, L_86, L_87, L_88, NULL);
 		V_9 = L_89;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:223>
 		bool L_90 = V_9;
 		if (!L_90)
 		{
@@ -5998,7 +5501,6 @@ IL_01d4:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:224>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_91 = ___5_vertices;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_92 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_91);
 		int32_t* L_93 = ___6_vertexCount;
@@ -6013,7 +5515,6 @@ IL_01d4:
 
 IL_0234:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:226>
 		bool L_99 = V_9;
 		if (!L_99)
 		{
@@ -6051,23 +5552,14 @@ IL_0251:
 
 IL_0253:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:230>
 		NativeArray_1_Dispose_m87F2F3A9B22D85C7B4248C626854931B6897838F((&V_13), NativeArray_1_Dispose_m87F2F3A9B22D85C7B4248C626854931B6897838F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:231>
 		NativeArray_1_Dispose_m38861384F84F1CD89A47D663C29D3ED425C5CCE0((&V_14), NativeArray_1_Dispose_m38861384F84F1CD89A47D663C29D3ED425C5CCE0_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:232>
 		NativeArray_1_Dispose_m38861384F84F1CD89A47D663C29D3ED425C5CCE0((&V_20), NativeArray_1_Dispose_m38861384F84F1CD89A47D663C29D3ED425C5CCE0_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:233>
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_17), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:234>
 		NativeArray_1_Dispose_m38861384F84F1CD89A47D663C29D3ED425C5CCE0((&V_15), NativeArray_1_Dispose_m38861384F84F1CD89A47D663C29D3ED425C5CCE0_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:235>
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_18), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:236>
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_19), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:237>
 		NativeArray_1_Dispose_m38861384F84F1CD89A47D663C29D3ED425C5CCE0((&V_16), NativeArray_1_Dispose_m38861384F84F1CD89A47D663C29D3ED425C5CCE0_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:238>
 		bool L_106 = V_9;
 		if (!L_106)
 		{
@@ -6095,7 +5587,6 @@ IL_029e:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 95122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen__cctor_mE7B9458D88A04E0EDD3D990F32ECFA42A105847E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6105,9 +5596,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen__cctor_mE7B9458D88A04E0EDD3D990
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:12>
 		((Smoothen_t2669845717E6B60A555F24D6545A373D1F476486_StaticFields*)il2cpp_codegen_static_fields_for(Smoothen_t2669845717E6B60A555F24D6545A373D1F476486_il2cpp_TypeInfo_var))->___kMaxAreaTolerance = (1.84200001f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Smoothen.cs:13>
 		((Smoothen_t2669845717E6B60A555F24D6545A373D1F476486_StaticFields*)il2cpp_codegen_static_fields_for(Smoothen_t2669845717E6B60A555F24D6545A373D1F476486_il2cpp_TypeInfo_var))->___kMaxEdgeTolerance = (2.48200011f);
 		return;
 	}
@@ -6120,7 +5609,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Smoothen__cctor_mE7B9458D88A04E0EDD3D990
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tessellator_FindSplit_m7EEFF84B65CCEAC234D6BD19180AA65DCB9F1FDE (UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE ___0_hull, UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 ___1_edge, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6131,9 +5619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tessellator_FindSplit_m7EEFF84B65CCEAC2
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:55>
 		V_0 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:56>
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_0 = ___0_hull;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = L_0.___a;
 		float L_2 = L_1.___x;
@@ -6146,7 +5632,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tessellator_FindSplit_m7EEFF84B65CCEAC2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:58>
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_6 = ___0_hull;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7 = L_6.___a;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_8 = ___0_hull;
@@ -6162,7 +5647,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tessellator_FindSplit_m7EEFF84B65CCEAC2
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:62>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_13 = ___1_edge;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_14 = L_13.___b;
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_15 = ___1_edge;
@@ -6177,7 +5661,6 @@ IL_0038:
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:65>
 		float L_20 = V_0;
 		if ((((float)(0.0f)) == ((float)L_20)))
 		{
@@ -6185,14 +5668,12 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:67>
 		float L_21 = V_0;
 		return L_21;
 	}
 
 IL_005a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:70>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_22 = ___1_edge;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_23 = L_22.___b;
 		float L_24 = L_23.___x;
@@ -6205,7 +5686,6 @@ IL_005a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:72>
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_28 = ___0_hull;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_29 = L_28.___a;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_30 = ___0_hull;
@@ -6221,7 +5701,6 @@ IL_005a:
 
 IL_008c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:76>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_35 = ___1_edge;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_36 = L_35.___b;
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_37 = ___1_edge;
@@ -6236,7 +5715,6 @@ IL_008c:
 
 IL_00a4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:79>
 		float L_42 = V_0;
 		if ((((float)(0.0f)) == ((float)L_42)))
 		{
@@ -6244,14 +5722,12 @@ IL_00a4:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:81>
 		float L_43 = V_0;
 		return L_43;
 	}
 
 IL_00ae:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:83>
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_44 = ___0_hull;
 		int32_t L_45 = L_44.___idx;
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_46 = ___1_edge;
@@ -6259,14 +5735,11 @@ IL_00ae:
 		return ((float)((int32_t)il2cpp_codegen_subtract(L_45, L_47)));
 	}
 }
-// Method Definition Index: 95124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_SetAllocator_mD0233B1C112FFE7BFB90F4A13722AAAD49EF3C46 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, int32_t ___0_allocator, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:106>
 		int32_t L_0 = ___0_allocator;
 		__this->___m_Allocator = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:107>
 		return;
 	}
 }
@@ -6277,7 +5750,6 @@ IL2CPP_EXTERN_C  void Tessellator_SetAllocator_mD0233B1C112FFE7BFB90F4A13722AAAD
 	_thisAdjusted = reinterpret_cast<Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3*>(__this + _offset);
 	Tessellator_SetAllocator_mD0233B1C112FFE7BFB90F4A13722AAAD49EF3C46_inline(_thisAdjusted, ___0_allocator, method);
 }
-// Method Definition Index: 95125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_AddPoint_mBDF7196470641275050A71A48B5CF45404F370B8 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, NativeArray_1_tD8F1D9134318BE0ED52F8A8AE252F649A17B1C8C ___0_hulls, int32_t ___1_hullCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___2_points, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_p, int32_t ___4_idx, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6308,7 +5780,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_AddPoint_mBDF719647064127505
 	int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF V_9;
 	memset((&V_9), 0, sizeof(V_9));
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:111>
 		NativeArray_1_tD8F1D9134318BE0ED52F8A8AE252F649A17B1C8C L_0 = ___0_hulls;
 		int32_t L_1 = ___1_hullCount;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___3_p;
@@ -6318,7 +5789,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_AddPoint_mBDF719647064127505
 		int32_t L_4;
 		L_4 = ModuleHandle_GetLower_TisUHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_TisTestHullPointL_t4D389B83F798993513916C22E8F7928E7752760B_m6017AC2A14595E08BB5199890B104FA89F1A0624(L_0, L_1, L_2, L_3, ModuleHandle_GetLower_TisUHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_TisTestHullPointL_t4D389B83F798993513916C22E8F7928E7752760B_m6017AC2A14595E08BB5199890B104FA89F1A0624_RuntimeMethod_var);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:112>
 		NativeArray_1_tD8F1D9134318BE0ED52F8A8AE252F649A17B1C8C L_5 = ___0_hulls;
 		int32_t L_6 = ___1_hullCount;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7 = ___3_p;
@@ -6327,7 +5797,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_AddPoint_mBDF719647064127505
 		int32_t L_9;
 		L_9 = ModuleHandle_GetUpper_TisUHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_TisTestHullPointU_t28A65D866BF5362A53D90E02F055D5EBC33503BD_mFC561B08420ACD0A6D8ABE43C18D0B33D080E7CF(L_5, L_6, L_7, L_8, ModuleHandle_GetUpper_TisUHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_TisTestHullPointU_t28A65D866BF5362A53D90E02F055D5EBC33503BD_mFC561B08420ACD0A6D8ABE43C18D0B33D080E7CF_RuntimeMethod_var);
 		V_1 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:113>
 		int32_t L_10 = V_0;
 		if ((((int32_t)L_10) < ((int32_t)0)))
 		{
@@ -6344,13 +5813,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_AddPoint_mBDF719647064127505
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:114>
 		return (bool)0;
 	}
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:115>
 		int32_t L_12 = V_0;
 		V_4 = L_12;
 		goto IL_0222;
@@ -6358,12 +5825,10 @@ IL_0030:
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:117>
 		int32_t L_13 = V_4;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_14;
 		L_14 = IL2CPP_NATIVEARRAY_GET_ITEM(UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE, ((&___0_hulls))->___m_Buffer, L_13);
 		V_5 = L_14;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:119>
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_15 = V_5;
 		int32_t L_16 = L_15.___ilcount;
 		V_6 = L_16;
@@ -6372,24 +5837,19 @@ IL_0038:
 
 IL_004e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:122>
 		il2cpp_codegen_initobj((&V_7), sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:123>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_17 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_5)->___ilarray);
 		int32_t L_18 = V_6;
 		int32_t L_19;
 		L_19 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D(L_17, ((int32_t)il2cpp_codegen_subtract(L_18, 1)), ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		(&V_7)->___x = L_19;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:124>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_20 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_5)->___ilarray);
 		int32_t L_21 = V_6;
 		int32_t L_22;
 		L_22 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D(L_20, ((int32_t)il2cpp_codegen_subtract(L_21, 2)), ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		(&V_7)->___y = L_22;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:125>
 		int32_t L_23 = ___4_idx;
 		(&V_7)->___z = L_23;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:126>
 		Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9* L_24 = (Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9*)(&__this->___m_Cells);
 		int32_t L_25 = __this->___m_CellCount;
 		V_8 = L_25;
@@ -6398,14 +5858,12 @@ IL_004e:
 		int32_t L_27 = V_8;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_28 = V_7;
 		Array_1_set_Item_m07361D422EFA9F3686FBD16BA7EDFC0E25091BF9(L_24, L_27, L_28, Array_1_set_Item_m07361D422EFA9F3686FBD16BA7EDFC0E25091BF9_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:127>
 		int32_t L_29 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_subtract(L_29, 1));
 	}
 
 IL_00b4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:120>
 		int32_t L_30 = V_6;
 		if ((((int32_t)L_30) <= ((int32_t)1)))
 		{
@@ -6437,10 +5895,8 @@ IL_00b4:
 
 IL_00f8:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:130>
 		int32_t L_41 = V_6;
 		(&V_5)->___ilcount = ((int32_t)il2cpp_codegen_add(L_41, 1));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:131>
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_42 = V_5;
 		int32_t L_43 = L_42.___ilcount;
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_44 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_5)->___ilarray);
@@ -6452,18 +5908,15 @@ IL_00f8:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:132>
 		return (bool)0;
 	}
 
 IL_011a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:133>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_46 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_5)->___ilarray);
 		int32_t L_47 = V_6;
 		int32_t L_48 = ___4_idx;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_46, L_47, L_48, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:135>
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_49 = V_5;
 		int32_t L_50 = L_49.___iucount;
 		V_6 = L_50;
@@ -6472,24 +5925,19 @@ IL_011a:
 
 IL_0135:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:138>
 		il2cpp_codegen_initobj((&V_9), sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:139>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_51 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_5)->___iuarray);
 		int32_t L_52 = V_6;
 		int32_t L_53;
 		L_53 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D(L_51, ((int32_t)il2cpp_codegen_subtract(L_52, 2)), ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		(&V_9)->___x = L_53;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:140>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_54 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_5)->___iuarray);
 		int32_t L_55 = V_6;
 		int32_t L_56;
 		L_56 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D(L_54, ((int32_t)il2cpp_codegen_subtract(L_55, 1)), ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		(&V_9)->___y = L_56;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:141>
 		int32_t L_57 = ___4_idx;
 		(&V_9)->___z = L_57;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:142>
 		Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9* L_58 = (Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9*)(&__this->___m_Cells);
 		int32_t L_59 = __this->___m_CellCount;
 		V_8 = L_59;
@@ -6498,14 +5946,12 @@ IL_0135:
 		int32_t L_61 = V_8;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_62 = V_9;
 		Array_1_set_Item_m07361D422EFA9F3686FBD16BA7EDFC0E25091BF9(L_58, L_61, L_62, Array_1_set_Item_m07361D422EFA9F3686FBD16BA7EDFC0E25091BF9_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:143>
 		int32_t L_63 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_subtract(L_63, 1));
 	}
 
 IL_019b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:136>
 		int32_t L_64 = V_6;
 		if ((((int32_t)L_64) <= ((int32_t)1)))
 		{
@@ -6537,10 +5983,8 @@ IL_019b:
 
 IL_01df:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:146>
 		int32_t L_75 = V_6;
 		(&V_5)->___iucount = ((int32_t)il2cpp_codegen_add(L_75, 1));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:147>
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_76 = V_5;
 		int32_t L_77 = L_76.___iucount;
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_78 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_5)->___iuarray);
@@ -6552,29 +5996,24 @@ IL_01df:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:148>
 		return (bool)0;
 	}
 
 IL_0201:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:149>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_80 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_5)->___iuarray);
 		int32_t L_81 = V_6;
 		int32_t L_82 = ___4_idx;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_80, L_81, L_82, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:151>
 		int32_t L_83 = V_4;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_84 = V_5;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE, ((&___0_hulls))->___m_Buffer, L_83, (L_84));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:115>
 		int32_t L_85 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_85, 1));
 	}
 
 IL_0222:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:115>
 		int32_t L_86 = V_4;
 		int32_t L_87 = V_1;
 		if ((((int32_t)L_86) < ((int32_t)L_87)))
@@ -6583,7 +6022,6 @@ IL_0222:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:153>
 		return (bool)1;
 	}
 }
@@ -6596,12 +6034,10 @@ IL2CPP_EXTERN_C  bool Tessellator_AddPoint_mBDF7196470641275050A71A48B5CF45404F3
 	_returnValue = Tessellator_AddPoint_mBDF7196470641275050A71A48B5CF45404F370B8(_thisAdjusted, ___0_hulls, ___1_hullCount, ___2_points, ___3_p, ___4_idx, method);
 	return _returnValue;
 }
-// Method Definition Index: 95126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_InsertHull_m67DF1406D733E2AE81A169BBAE3A80FFBBD3E8CB (NativeArray_1_tD8F1D9134318BE0ED52F8A8AE252F649A17B1C8C ___0_Hulls, int32_t ___1_Pos, int32_t* ___2_Count, UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE ___3_Value, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:158>
 		int32_t* L_0 = ___2_Count;
 		int32_t L_1 = *((int32_t*)L_0);
 		int32_t L_2;
@@ -6612,7 +6048,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_InsertHull_m67DF1406D733E2AE
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:160>
 		int32_t* L_3 = ___2_Count;
 		int32_t L_4 = *((int32_t*)L_3);
 		V_0 = L_4;
@@ -6621,20 +6056,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_InsertHull_m67DF1406D733E2AE
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:161>
 		int32_t L_5 = V_0;
 		int32_t L_6 = V_0;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_ITEM(UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE, ((&___0_Hulls))->___m_Buffer, ((int32_t)il2cpp_codegen_subtract(L_6, 1)));
 		IL2CPP_NATIVEARRAY_SET_ITEM(UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE, ((&___0_Hulls))->___m_Buffer, L_5, (L_7));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:160>
 		int32_t L_8 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
 	}
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:160>
 		int32_t L_9 = V_0;
 		int32_t L_10 = ___1_Pos;
 		if ((((int32_t)L_9) > ((int32_t)L_10)))
@@ -6643,11 +6075,9 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:162>
 		int32_t L_11 = ___1_Pos;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_12 = ___3_Value;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE, ((&___0_Hulls))->___m_Buffer, L_11, (L_12));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:163>
 		int32_t* L_13 = ___2_Count;
 		int32_t* L_14 = ___2_Count;
 		int32_t L_15 = *((int32_t*)L_14);
@@ -6656,16 +6086,13 @@ IL_0028:
 
 IL_003b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:165>
 		return;
 	}
 }
-// Method Definition Index: 95127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_EraseHull_m55761C9B5B7B9432851CA29CD8722FA40E3B1DDA (NativeArray_1_tD8F1D9134318BE0ED52F8A8AE252F649A17B1C8C ___0_Hulls, int32_t ___1_Pos, int32_t* ___2_Count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:169>
 		int32_t* L_0 = ___2_Count;
 		int32_t L_1 = *((int32_t*)L_0);
 		int32_t L_2;
@@ -6676,7 +6103,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_EraseHull_m55761C9B5B7B94328
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:171>
 		int32_t L_3 = ___1_Pos;
 		V_0 = L_3;
 		goto IL_0025;
@@ -6684,20 +6110,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_EraseHull_m55761C9B5B7B94328
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:172>
 		int32_t L_4 = V_0;
 		int32_t L_5 = V_0;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_ITEM(UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE, ((&___0_Hulls))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_5, 1)));
 		IL2CPP_NATIVEARRAY_SET_ITEM(UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE, ((&___0_Hulls))->___m_Buffer, L_4, (L_6));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:171>
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:171>
 		int32_t L_8 = V_0;
 		int32_t* L_9 = ___2_Count;
 		int32_t L_10 = *((int32_t*)L_9);
@@ -6707,7 +6130,6 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:173>
 		int32_t* L_11 = ___2_Count;
 		int32_t* L_12 = ___2_Count;
 		int32_t L_13 = *((int32_t*)L_12);
@@ -6716,11 +6138,9 @@ IL_0025:
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:175>
 		return;
 	}
 }
-// Method Definition Index: 95128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_SplitHulls_m41280B60D1379FF22538AE33BF6BECF5FD78FD2E (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, NativeArray_1_tD8F1D9134318BE0ED52F8A8AE252F649A17B1C8C ___0_hulls, int32_t* ___1_hullCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___2_points, UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 ___3_evt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6743,7 +6163,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_SplitHulls_m41280B60D1379FF2
 	memset((&V_4), 0, sizeof(V_4));
 	int32_t V_5 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:179>
 		NativeArray_1_tD8F1D9134318BE0ED52F8A8AE252F649A17B1C8C L_0 = ___0_hulls;
 		int32_t* L_1 = ___1_hullCount;
 		int32_t L_2 = *((int32_t*)L_1);
@@ -6754,7 +6173,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_SplitHulls_m41280B60D1379FF2
 		int32_t L_5;
 		L_5 = ModuleHandle_GetLower_TisUHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE_TisUEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48_TisTestHullEventLe_tF30B6E451DCE62C79025219C71FA1C609455FA3B_m85C9460EACBB13028CD0E17C1BBD798865003053(L_0, L_2, L_3, L_4, ModuleHandle_GetLower_TisUHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE_TisUEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48_TisTestHullEventLe_tF30B6E451DCE62C79025219C71FA1C609455FA3B_m85C9460EACBB13028CD0E17C1BBD798865003053_RuntimeMethod_var);
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:180>
 		int32_t L_6 = V_0;
 		if ((((int32_t)L_6) >= ((int32_t)0)))
 		{
@@ -6762,37 +6180,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_SplitHulls_m41280B60D1379FF2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:181>
 		return (bool)0;
 	}
 
 IL_001b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:183>
 		int32_t L_7 = V_0;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_8;
 		L_8 = IL2CPP_NATIVEARRAY_GET_ITEM(UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE, ((&___0_hulls))->___m_Buffer, L_7);
 		V_1 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:186>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_9 = ___3_evt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = L_9.___a;
 		(&V_2)->___a = L_10;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:187>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_11 = ___3_evt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_12 = L_11.___b;
 		(&V_2)->___b = L_12;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:188>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_13 = ___3_evt;
 		int32_t L_14 = L_13.___idx;
 		(&V_2)->___idx = L_14;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:190>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_15 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_1)->___iuarray);
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_16 = V_1;
 		int32_t L_17 = L_16.___iucount;
 		int32_t L_18;
 		L_18 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D(L_15, ((int32_t)il2cpp_codegen_subtract(L_17, 1)), ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		V_3 = L_18;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:191>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_19 = __this->___m_IUArray;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_20 = V_2;
 		int32_t L_21 = L_20.___idx;
@@ -6802,18 +6213,15 @@ IL_001b:
 		memset((&L_24), 0, sizeof(L_24));
 		ArraySlice_1__ctor_m7A156B6BBBF0785BBA752D05CDB8E23C2201117D((&L_24), L_19, ((int32_t)il2cpp_codegen_multiply(L_21, L_22)), L_23, ArraySlice_1__ctor_m7A156B6BBBF0785BBA752D05CDB8E23C2201117D_RuntimeMethod_var);
 		(&V_2)->___iuarray = L_24;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:192>
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_25 = V_1;
 		int32_t L_26 = L_25.___iucount;
 		(&V_2)->___iucount = L_26;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:193>
 		V_5 = 0;
 		goto IL_00bc;
 	}
 
 IL_009a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:194>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_27 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_2)->___iuarray);
 		int32_t L_28 = V_5;
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_29 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_1)->___iuarray);
@@ -6821,14 +6229,12 @@ IL_009a:
 		int32_t L_31;
 		L_31 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D(L_29, L_30, ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_27, L_28, L_31, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:193>
 		int32_t L_32 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_32, 1));
 	}
 
 IL_00bc:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:193>
 		int32_t L_33 = V_5;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_34 = V_2;
 		int32_t L_35 = L_34.___iucount;
@@ -6838,17 +6244,13 @@ IL_00bc:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:195>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_36 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_1)->___iuarray);
 		int32_t L_37 = V_3;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_36, 0, L_37, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:196>
 		(&V_1)->___iucount = 1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:197>
 		int32_t L_38 = V_0;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_39 = V_1;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE, ((&___0_hulls))->___m_Buffer, L_38, (L_39));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:199>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_40 = __this->___m_ILArray;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_41 = V_2;
 		int32_t L_42 = L_41.___idx;
@@ -6858,19 +6260,15 @@ IL_00bc:
 		memset((&L_45), 0, sizeof(L_45));
 		ArraySlice_1__ctor_m7A156B6BBBF0785BBA752D05CDB8E23C2201117D((&L_45), L_40, ((int32_t)il2cpp_codegen_multiply(L_42, L_43)), L_44, ArraySlice_1__ctor_m7A156B6BBBF0785BBA752D05CDB8E23C2201117D_RuntimeMethod_var);
 		(&V_2)->___ilarray = L_45;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:200>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_46 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_2)->___ilarray);
 		int32_t L_47 = V_3;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_46, 0, L_47, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:201>
 		(&V_2)->___ilcount = 1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:203>
 		NativeArray_1_tD8F1D9134318BE0ED52F8A8AE252F649A17B1C8C L_48 = ___0_hulls;
 		int32_t L_49 = V_0;
 		int32_t* L_50 = ___1_hullCount;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_51 = V_2;
 		Tessellator_InsertHull_m67DF1406D733E2AE81A169BBAE3A80FFBBD3E8CB(L_48, ((int32_t)il2cpp_codegen_add(L_49, 1)), L_50, L_51, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:204>
 		return (bool)1;
 	}
 }
@@ -6883,7 +6281,6 @@ IL2CPP_EXTERN_C  bool Tessellator_SplitHulls_m41280B60D1379FF22538AE33BF6BECF5FD
 	_returnValue = Tessellator_SplitHulls_m41280B60D1379FF22538AE33BF6BECF5FD78FD2E(_thisAdjusted, ___0_hulls, ___1_hullCount, ___2_points, ___3_evt, method);
 	return _returnValue;
 }
-// Method Definition Index: 95129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_MergeHulls_mC03CD5E5E3CCF9C79960C2A7F528824CA3EC9352 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, NativeArray_1_tD8F1D9134318BE0ED52F8A8AE252F649A17B1C8C ___0_hulls, int32_t* ___1_hullCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___2_points, UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 ___3_evt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6906,18 +6303,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_MergeHulls_mC03CD5E5E3CCF9C7
 	memset((&V_4), 0, sizeof(V_4));
 	int32_t V_5 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:209>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_0 = ___3_evt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = L_0.___a;
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:210>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_2 = ___3_evt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_3 = L_2.___b;
 		(&___3_evt)->___a = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:211>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = V_0;
 		(&___3_evt)->___b = L_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:212>
 		NativeArray_1_tD8F1D9134318BE0ED52F8A8AE252F649A17B1C8C L_5 = ___0_hulls;
 		int32_t* L_6 = ___1_hullCount;
 		int32_t L_7 = *((int32_t*)L_6);
@@ -6928,7 +6321,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_MergeHulls_mC03CD5E5E3CCF9C7
 		int32_t L_10;
 		L_10 = ModuleHandle_GetEqual_TisUHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE_TisUEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48_TisTestHullEventE_tFB8BB5AA140989DF47068D7406312F122D863003_m5629C0E90AC42FA3722789B4E25147F7EF89ACF5(L_5, L_7, L_8, L_9, ModuleHandle_GetEqual_TisUHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE_TisUEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48_TisTestHullEventE_tFB8BB5AA140989DF47068D7406312F122D863003_m5629C0E90AC42FA3722789B4E25147F7EF89ACF5_RuntimeMethod_var);
 		V_1 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:213>
 		int32_t L_11 = V_1;
 		if ((((int32_t)L_11) >= ((int32_t)0)))
 		{
@@ -6936,34 +6328,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_MergeHulls_mC03CD5E5E3CCF9C7
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:214>
 		return (bool)0;
 	}
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:216>
 		int32_t L_12 = V_1;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_13;
 		L_13 = IL2CPP_NATIVEARRAY_GET_ITEM(UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE, ((&___0_hulls))->___m_Buffer, L_12);
 		V_2 = L_13;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:217>
 		int32_t L_14 = V_1;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_15;
 		L_15 = IL2CPP_NATIVEARRAY_GET_ITEM(UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE, ((&___0_hulls))->___m_Buffer, ((int32_t)il2cpp_codegen_subtract(L_14, 1)));
 		V_3 = L_15;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:219>
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_16 = V_2;
 		int32_t L_17 = L_16.___iucount;
 		(&V_3)->___iucount = L_17;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:220>
 		V_5 = 0;
 		goto IL_0081;
 	}
 
 IL_005f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:221>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_18 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_3)->___iuarray);
 		int32_t L_19 = V_5;
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_20 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_2)->___iuarray);
@@ -6971,14 +6357,12 @@ IL_005f:
 		int32_t L_22;
 		L_22 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D(L_20, L_21, ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_18, L_19, L_22, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:220>
 		int32_t L_23 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_23, 1));
 	}
 
 IL_0081:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:220>
 		int32_t L_24 = V_5;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_25 = V_3;
 		int32_t L_26 = L_25.___iucount;
@@ -6988,16 +6372,13 @@ IL_0081:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:223>
 		int32_t L_27 = V_1;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_28 = V_3;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE, ((&___0_hulls))->___m_Buffer, ((int32_t)il2cpp_codegen_subtract(L_27, 1)), (L_28));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:224>
 		NativeArray_1_tD8F1D9134318BE0ED52F8A8AE252F649A17B1C8C L_29 = ___0_hulls;
 		int32_t L_30 = V_1;
 		int32_t* L_31 = ___1_hullCount;
 		Tessellator_EraseHull_m55761C9B5B7B9432851CA29CD8722FA40E3B1DDA(L_29, L_30, L_31, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:225>
 		return (bool)1;
 	}
 }
@@ -7010,7 +6391,6 @@ IL2CPP_EXTERN_C  bool Tessellator_MergeHulls_mC03CD5E5E3CCF9C79960C2A7F528824CA3
 	_returnValue = Tessellator_MergeHulls_mC03CD5E5E3CCF9C79960C2A7F528824CA3EC9352(_thisAdjusted, ___0_hulls, ___1_hullCount, ___2_points, ___3_evt, method);
 	return _returnValue;
 }
-// Method Definition Index: 95130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_InsertUniqueEdge_mFCA7027EFF547D248252183B4AE5FF3394342C7D (NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 ___0_edges, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___1_e, int32_t* ___2_edgeCount, const RuntimeMethod* method) 
 {
 	TessEdgeCompare_tB8FAAD6FDA5527AE0C99137AB99CA3AB44881792 V_0;
@@ -7019,18 +6399,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_InsertUniqueEdge_mFCA7027EFF
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:230>
 		il2cpp_codegen_initobj((&V_0), sizeof(TessEdgeCompare_tB8FAAD6FDA5527AE0C99137AB99CA3AB44881792));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:231>
 		V_1 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:232>
 		V_2 = 0;
 		goto IL_0026;
 	}
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:233>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_0 = ___1_e;
 		int32_t L_1 = V_2;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_2;
@@ -7043,20 +6419,17 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:234>
 		V_1 = (bool)0;
 	}
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:232>
 		int32_t L_4 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_4, 1));
 	}
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:232>
 		bool L_5 = V_1;
 		if (!L_5)
 		{
@@ -7075,7 +6448,6 @@ IL_0026:
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:235>
 		bool L_9 = V_1;
 		if (!L_9)
 		{
@@ -7083,7 +6455,6 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:236>
 		int32_t* L_10 = ___2_edgeCount;
 		int32_t* L_11 = ___2_edgeCount;
 		int32_t L_12 = *((int32_t*)L_11);
@@ -7097,11 +6468,9 @@ IL_002e:
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:237>
 		return;
 	}
 }
-// Method Definition Index: 95131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_PrepareDelaunay_mEAADB0F4F68B596340D857E668110C2A613CA4E8 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 ___0_edges, int32_t ___1_edgeCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7151,17 +6520,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_PrepareDelaunay_mEAADB0F4F68
 	int32_t G_B7_0 = 0;
 	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* G_B7_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:241>
 		int32_t L_0 = __this->___m_CellCount;
 		__this->___m_StarCount = ((int32_t)il2cpp_codegen_multiply(L_0, 3));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:242>
 		int32_t L_1 = __this->___m_StarCount;
 		int32_t L_2 = __this->___m_Allocator;
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582 L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		NativeArray_1__ctor_m66E802B851172EDB9065713A6B38DD1618E3D3B2((&L_3), L_1, L_2, 1, NativeArray_1__ctor_m66E802B851172EDB9065713A6B38DD1618E3D3B2_RuntimeMethod_var);
 		__this->___m_Stars = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:243>
 		int32_t L_4 = __this->___m_StarCount;
 		int32_t L_5 = __this->___m_StarCount;
 		int32_t L_6 = __this->___m_Allocator;
@@ -7169,25 +6535,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_PrepareDelaunay_mEAADB0F4F68
 		memset((&L_7), 0, sizeof(L_7));
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&L_7), ((int32_t)il2cpp_codegen_multiply(L_4, L_5)), L_6, 0, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
 		__this->___m_SPArray = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:245>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:246>
 		int32_t L_8 = __this->___m_StarCount;
 		int32_t L_9 = __this->___m_Allocator;
 		NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13((&V_1), L_8, L_9, 1, NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:249>
 		V_2 = 0;
 		goto IL_00ff;
 	}
 
 IL_0062:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:251>
 		int32_t L_10 = V_2;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&___0_edges))->___m_Buffer, L_10);
 		V_3 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:252>
 		int32_t L_12 = V_2;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_13;
 		L_13 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&___0_edges))->___m_Buffer, L_12);
@@ -7226,7 +6587,6 @@ IL_0098:
 IL_00a5:
 	{
 		G_B4_1->___x = G_B4_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:253>
 		int32_t L_24 = V_2;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_25;
 		L_25 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&___0_edges))->___m_Buffer, L_24);
@@ -7265,22 +6625,18 @@ IL_00d7:
 IL_00e4:
 	{
 		G_B7_1->___y = G_B7_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:254>
 		int32_t L_36 = V_2;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_37 = V_3;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&___0_edges))->___m_Buffer, L_36, (L_37));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:255>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_38 = V_1;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_39 = V_3;
 		Tessellator_InsertUniqueEdge_mFCA7027EFF547D248252183B4AE5FF3394342C7D(L_38, L_39, (&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:249>
 		int32_t L_40 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_40, 1));
 	}
 
 IL_00ff:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:249>
 		int32_t L_41 = V_2;
 		int32_t L_42 = ___1_edgeCount;
 		if ((((int32_t)L_41) < ((int32_t)L_42)))
@@ -7289,35 +6645,30 @@ IL_00ff:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:258>
 		int32_t L_43 = V_0;
 		int32_t L_44 = __this->___m_Allocator;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_45;
 		memset((&L_45), 0, sizeof(L_45));
 		NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13((&L_45), L_43, L_44, 1, NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var);
 		__this->___m_Edges = L_45;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:259>
 		V_4 = 0;
 		goto IL_013a;
 	}
 
 IL_011e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:260>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_46 = (NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)(&__this->___m_Edges);
 		int32_t L_47 = V_4;
 		int32_t L_48 = V_4;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_49;
 		L_49 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&V_1))->___m_Buffer, L_48);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_46)->___m_Buffer, L_47, (L_49));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:259>
 		int32_t L_50 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_50, 1));
 	}
 
 IL_013a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:259>
 		int32_t L_51 = V_4;
 		int32_t L_52 = V_0;
 		if ((((int32_t)L_51) < ((int32_t)L_52)))
@@ -7326,11 +6677,7 @@ IL_013a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:261>
 		NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2((&V_1), NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:265>
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:266>
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:267>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_53 = __this->___m_Edges;
 		void* L_54;
 		L_54 = NativeArrayUnsafeUtility_GetUnsafeBufferPointerWithoutChecks_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_m25C40908D798F72BB7C4D9BFB9701455549FC47D(L_53, NativeArrayUnsafeUtility_GetUnsafeBufferPointerWithoutChecks_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_m25C40908D798F72BB7C4D9BFB9701455549FC47D_RuntimeMethod_var);
@@ -7341,20 +6688,17 @@ IL_013a:
 		TessEdgeCompare_tB8FAAD6FDA5527AE0C99137AB99CA3AB44881792 L_57 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_InsertionSort_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_TisTessEdgeCompare_tB8FAAD6FDA5527AE0C99137AB99CA3AB44881792_m6BA4685DD8669B58FE9D34A5F2AFB9C62549CEF1(L_54, 0, ((int32_t)il2cpp_codegen_subtract(L_56, 1)), L_57, ModuleHandle_InsertionSort_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_TisTessEdgeCompare_tB8FAAD6FDA5527AE0C99137AB99CA3AB44881792_m6BA4685DD8669B58FE9D34A5F2AFB9C62549CEF1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:271>
 		V_6 = 0;
 		goto IL_01c0;
 	}
 
 IL_0173:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:273>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_58 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_59 = V_6;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_60;
 		L_60 = IL2CPP_NATIVEARRAY_GET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_58)->___m_Buffer, L_59);
 		V_7 = L_60;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:274>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_61 = __this->___m_SPArray;
 		int32_t L_62 = V_6;
 		int32_t L_63 = __this->___m_StarCount;
@@ -7363,21 +6707,17 @@ IL_0173:
 		memset((&L_65), 0, sizeof(L_65));
 		ArraySlice_1__ctor_m7A156B6BBBF0785BBA752D05CDB8E23C2201117D((&L_65), L_61, ((int32_t)il2cpp_codegen_multiply(L_62, L_63)), L_64, ArraySlice_1__ctor_m7A156B6BBBF0785BBA752D05CDB8E23C2201117D_RuntimeMethod_var);
 		(&V_7)->___points = L_65;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:275>
 		(&V_7)->___pointCount = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:276>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_66 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_67 = V_6;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_68 = V_7;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_66)->___m_Buffer, L_67, (L_68));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:271>
 		int32_t L_69 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_69, 1));
 	}
 
 IL_01c0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:271>
 		int32_t L_70 = V_6;
 		int32_t L_71 = __this->___m_StarCount;
 		if ((((int32_t)L_70) < ((int32_t)L_71)))
@@ -7386,53 +6726,45 @@ IL_01c0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:280>
 		V_8 = 0;
 		goto IL_032e;
 	}
 
 IL_01d2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:282>
 		Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9* L_72 = (Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9*)(&__this->___m_Cells);
 		int32_t L_73 = V_8;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_74;
 		L_74 = Array_1_get_Item_mC1F7BD8F220A6934025499E93C47A5910A14EBC7(L_72, L_73, Array_1_get_Item_mC1F7BD8F220A6934025499E93C47A5910A14EBC7_RuntimeMethod_var);
 		int32_t L_75 = L_74.___x;
 		V_9 = L_75;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:283>
 		Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9* L_76 = (Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9*)(&__this->___m_Cells);
 		int32_t L_77 = V_8;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_78;
 		L_78 = Array_1_get_Item_mC1F7BD8F220A6934025499E93C47A5910A14EBC7(L_76, L_77, Array_1_get_Item_mC1F7BD8F220A6934025499E93C47A5910A14EBC7_RuntimeMethod_var);
 		int32_t L_79 = L_78.___y;
 		V_10 = L_79;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:284>
 		Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9* L_80 = (Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9*)(&__this->___m_Cells);
 		int32_t L_81 = V_8;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_82;
 		L_82 = Array_1_get_Item_mC1F7BD8F220A6934025499E93C47A5910A14EBC7(L_80, L_81, Array_1_get_Item_mC1F7BD8F220A6934025499E93C47A5910A14EBC7_RuntimeMethod_var);
 		int32_t L_83 = L_82.___z;
 		V_11 = L_83;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:285>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_84 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_85 = V_9;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_86;
 		L_86 = IL2CPP_NATIVEARRAY_GET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_84)->___m_Buffer, L_85);
 		V_12 = L_86;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:286>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_87 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_88 = V_10;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_89;
 		L_89 = IL2CPP_NATIVEARRAY_GET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_87)->___m_Buffer, L_88);
 		V_13 = L_89;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:287>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_90 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_91 = V_11;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_92;
 		L_92 = IL2CPP_NATIVEARRAY_GET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_90)->___m_Buffer, L_91);
 		V_14 = L_92;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:288>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_93 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_12)->___points);
 		int32_t* L_94 = (int32_t*)(&(&V_12)->___pointCount);
 		int32_t* L_95 = L_94;
@@ -7443,7 +6775,6 @@ IL_01d2:
 		int32_t L_98 = V_15;
 		int32_t L_99 = V_10;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_93, L_98, L_99, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:289>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_100 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_12)->___points);
 		int32_t* L_101 = (int32_t*)(&(&V_12)->___pointCount);
 		int32_t* L_102 = L_101;
@@ -7454,7 +6785,6 @@ IL_01d2:
 		int32_t L_105 = V_15;
 		int32_t L_106 = V_11;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_100, L_105, L_106, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:290>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_107 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_13)->___points);
 		int32_t* L_108 = (int32_t*)(&(&V_13)->___pointCount);
 		int32_t* L_109 = L_108;
@@ -7465,7 +6795,6 @@ IL_01d2:
 		int32_t L_112 = V_15;
 		int32_t L_113 = V_11;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_107, L_112, L_113, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:291>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_114 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_13)->___points);
 		int32_t* L_115 = (int32_t*)(&(&V_13)->___pointCount);
 		int32_t* L_116 = L_115;
@@ -7476,7 +6805,6 @@ IL_01d2:
 		int32_t L_119 = V_15;
 		int32_t L_120 = V_9;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_114, L_119, L_120, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:292>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_121 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_14)->___points);
 		int32_t* L_122 = (int32_t*)(&(&V_14)->___pointCount);
 		int32_t* L_123 = L_122;
@@ -7487,7 +6815,6 @@ IL_01d2:
 		int32_t L_126 = V_15;
 		int32_t L_127 = V_9;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_121, L_126, L_127, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:293>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_128 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_14)->___points);
 		int32_t* L_129 = (int32_t*)(&(&V_14)->___pointCount);
 		int32_t* L_130 = L_129;
@@ -7498,29 +6825,24 @@ IL_01d2:
 		int32_t L_133 = V_15;
 		int32_t L_134 = V_10;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_128, L_133, L_134, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:294>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_135 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_136 = V_9;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_137 = V_12;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_135)->___m_Buffer, L_136, (L_137));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:295>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_138 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_139 = V_10;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_140 = V_13;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_138)->___m_Buffer, L_139, (L_140));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:296>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_141 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_142 = V_11;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_143 = V_14;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_141)->___m_Buffer, L_142, (L_143));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:280>
 		int32_t L_144 = V_8;
 		V_8 = ((int32_t)il2cpp_codegen_add(L_144, 1));
 	}
 
 IL_032e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:280>
 		int32_t L_145 = V_8;
 		int32_t L_146 = __this->___m_CellCount;
 		if ((((int32_t)L_145) < ((int32_t)L_146)))
@@ -7529,7 +6851,6 @@ IL_032e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:299>
 		return;
 	}
 }
@@ -7540,7 +6861,6 @@ IL2CPP_EXTERN_C  void Tessellator_PrepareDelaunay_mEAADB0F4F68B596340D857E668110
 	_thisAdjusted = reinterpret_cast<Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3*>(__this + _offset);
 	Tessellator_PrepareDelaunay_mEAADB0F4F68B596340D857E668110C2A613CA4E8(_thisAdjusted, ___0_edges, ___1_edgeCount, method);
 }
-// Method Definition Index: 95132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tessellator_OppositeOf_mB3604C8586A1358F603C27E05D24168F06257103 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7554,16 +6874,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tessellator_OppositeOf_mB3604C8586A13
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:303>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_0 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_1 = ___1_b;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_2;
 		L_2 = IL2CPP_NATIVEARRAY_GET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_0)->___m_Buffer, L_1);
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B L_3 = L_2.___points;
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:304>
 		V_1 = 1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:304>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_4 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_5 = ___1_b;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_6;
@@ -7575,7 +6892,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tessellator_OppositeOf_mB3604C8586A13
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:305>
 		int32_t L_8 = V_1;
 		int32_t L_9;
 		L_9 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D((&V_0), L_8, ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
@@ -7586,7 +6902,6 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:306>
 		int32_t L_11 = V_1;
 		int32_t L_12;
 		L_12 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D((&V_0), ((int32_t)il2cpp_codegen_subtract(L_11, 1)), ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
@@ -7595,14 +6910,12 @@ IL_0028:
 
 IL_003e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:304>
 		int32_t L_13 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 2));
 	}
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:304>
 		int32_t L_14 = V_1;
 		int32_t L_15 = V_2;
 		if ((((int32_t)L_14) < ((int32_t)L_15)))
@@ -7611,7 +6924,6 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:307>
 		return (-1);
 	}
 }
@@ -7624,7 +6936,6 @@ IL2CPP_EXTERN_C  int32_t Tessellator_OppositeOf_mB3604C8586A1358F603C27E05D24168
 	_returnValue = Tessellator_OppositeOf_mB3604C8586A1358F603C27E05D24168F06257103(_thisAdjusted, ___0_a, ___1_b, method);
 	return _returnValue;
 }
-// Method Definition Index: 95133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tessellator_FindConstraint_mC0DED9A33B6967DBC980E841462CE7956833D599 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7647,7 +6958,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tessellator_FindConstraint_mC0DED9A33
 	int32_t G_B6_0 = 0;
 	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* G_B6_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:323>
 		int32_t L_0 = ___0_a;
 		int32_t L_1 = ___1_b;
 		if ((((int32_t)L_0) < ((int32_t)L_1)))
@@ -7674,7 +6984,6 @@ IL_0009:
 IL_000a:
 	{
 		G_B3_1->___x = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:324>
 		int32_t L_4 = ___0_a;
 		int32_t L_5 = ___1_b;
 		if ((((int32_t)L_4) > ((int32_t)L_5)))
@@ -7701,7 +7010,6 @@ IL_0018:
 IL_0019:
 	{
 		G_B6_1->___y = G_B6_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:325>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_8 = __this->___m_Edges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_9 = (NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)(&__this->___m_Edges);
 		int32_t L_10;
@@ -7724,7 +7032,6 @@ IL2CPP_EXTERN_C  int32_t Tessellator_FindConstraint_mC0DED9A33B6967DBC980E841462
 	_returnValue = Tessellator_FindConstraint_mC0DED9A33B6967DBC980E841462CE7956833D599(_thisAdjusted, ___0_a, ___1_b, method);
 	return _returnValue;
 }
-// Method Definition Index: 95134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_AddTriangle_mDA63B6E6783AB998FABA70DC5014E49A74D6CD0B (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, int32_t ___0_i, int32_t ___1_j, int32_t ___2_k, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7741,25 +7048,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_AddTriangle_mDA63B6E6783AB99
 	memset((&V_2), 0, sizeof(V_2));
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:330>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_0 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_1 = ___0_i;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_2;
 		L_2 = IL2CPP_NATIVEARRAY_GET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_0)->___m_Buffer, L_1);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:331>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_3 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_4 = ___1_j;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_3)->___m_Buffer, L_4);
 		V_1 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:332>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_6 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_7 = ___2_k;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_8;
 		L_8 = IL2CPP_NATIVEARRAY_GET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_6)->___m_Buffer, L_7);
 		V_2 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:333>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_9 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_0)->___points);
 		int32_t* L_10 = (int32_t*)(&(&V_0)->___pointCount);
 		int32_t* L_11 = L_10;
@@ -7770,7 +7073,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_AddTriangle_mDA63B6E6783AB99
 		int32_t L_14 = V_3;
 		int32_t L_15 = ___1_j;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_9, L_14, L_15, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:334>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_16 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_0)->___points);
 		int32_t* L_17 = (int32_t*)(&(&V_0)->___pointCount);
 		int32_t* L_18 = L_17;
@@ -7781,7 +7083,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_AddTriangle_mDA63B6E6783AB99
 		int32_t L_21 = V_3;
 		int32_t L_22 = ___2_k;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_16, L_21, L_22, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:335>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_23 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_1)->___points);
 		int32_t* L_24 = (int32_t*)(&(&V_1)->___pointCount);
 		int32_t* L_25 = L_24;
@@ -7792,7 +7093,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_AddTriangle_mDA63B6E6783AB99
 		int32_t L_28 = V_3;
 		int32_t L_29 = ___2_k;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_23, L_28, L_29, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:336>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_30 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_1)->___points);
 		int32_t* L_31 = (int32_t*)(&(&V_1)->___pointCount);
 		int32_t* L_32 = L_31;
@@ -7803,7 +7103,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_AddTriangle_mDA63B6E6783AB99
 		int32_t L_35 = V_3;
 		int32_t L_36 = ___0_i;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_30, L_35, L_36, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:337>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_37 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_2)->___points);
 		int32_t* L_38 = (int32_t*)(&(&V_2)->___pointCount);
 		int32_t* L_39 = L_38;
@@ -7814,7 +7113,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_AddTriangle_mDA63B6E6783AB99
 		int32_t L_42 = V_3;
 		int32_t L_43 = ___0_i;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_37, L_42, L_43, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:338>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_44 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_2)->___points);
 		int32_t* L_45 = (int32_t*)(&(&V_2)->___pointCount);
 		int32_t* L_46 = L_45;
@@ -7825,22 +7123,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_AddTriangle_mDA63B6E6783AB99
 		int32_t L_49 = V_3;
 		int32_t L_50 = ___1_j;
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600(L_44, L_49, L_50, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:339>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_51 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_52 = ___0_i;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_53 = V_0;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_51)->___m_Buffer, L_52, (L_53));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:340>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_54 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_55 = ___1_j;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_56 = V_1;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_54)->___m_Buffer, L_55, (L_56));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:341>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_57 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_58 = ___2_k;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_59 = V_2;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_57)->___m_Buffer, L_58, (L_59));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:342>
 		return;
 	}
 }
@@ -7851,7 +7145,6 @@ IL2CPP_EXTERN_C  void Tessellator_AddTriangle_mDA63B6E6783AB998FABA70DC5014E49A7
 	_thisAdjusted = reinterpret_cast<Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3*>(__this + _offset);
 	Tessellator_AddTriangle_mDA63B6E6783AB998FABA70DC5014E49A74D6CD0B(_thisAdjusted, ___0_i, ___1_j, ___2_k, method);
 }
-// Method Definition Index: 95135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_RemovePair_m8BA0B1208FA0DB43FC7EC02062C2D58784A656A5 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, int32_t ___0_r, int32_t ___1_j, int32_t ___2_k, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7868,19 +7161,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_RemovePair_m8BA0B1208FA0DB43
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:346>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_0 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_1 = ___0_r;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_2;
 		L_2 = IL2CPP_NATIVEARRAY_GET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_0)->___m_Buffer, L_1);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:347>
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_3 = V_0;
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B L_4 = L_3.___points;
 		V_1 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:348>
 		V_2 = 1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:348>
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_5 = V_0;
 		int32_t L_6 = L_5.___pointCount;
 		V_3 = L_6;
@@ -7889,7 +7178,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_RemovePair_m8BA0B1208FA0DB43
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:350>
 		int32_t L_7 = V_2;
 		int32_t L_8;
 		L_8 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D((&V_1), ((int32_t)il2cpp_codegen_subtract(L_7, 1)), ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
@@ -7910,44 +7198,36 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:352>
 		int32_t L_13 = V_2;
 		int32_t L_14 = V_3;
 		int32_t L_15;
 		L_15 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D((&V_1), ((int32_t)il2cpp_codegen_subtract(L_14, 2)), ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600((&V_1), ((int32_t)il2cpp_codegen_subtract(L_13, 1)), L_15, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:353>
 		int32_t L_16 = V_2;
 		int32_t L_17 = V_3;
 		int32_t L_18;
 		L_18 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D((&V_1), ((int32_t)il2cpp_codegen_subtract(L_17, 1)), ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600((&V_1), L_16, L_18, ArraySlice_1_set_Item_m8BB5395537E7EFB6D4EB98044440039F23824600_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:354>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B L_19 = V_1;
 		(&V_0)->___points = L_19;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:355>
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_20 = V_0;
 		int32_t L_21 = L_20.___pointCount;
 		(&V_0)->___pointCount = ((int32_t)il2cpp_codegen_subtract(L_21, 2));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:356>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_22 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_23 = ___0_r;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_24 = V_0;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_22)->___m_Buffer, L_23, (L_24));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:357>
 		return;
 	}
 
 IL_0082:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:348>
 		int32_t L_25 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_25, 2));
 	}
 
 IL_0086:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:348>
 		int32_t L_26 = V_2;
 		int32_t L_27 = V_3;
 		if ((((int32_t)L_26) < ((int32_t)L_27)))
@@ -7956,7 +7236,6 @@ IL_0086:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:360>
 		return;
 	}
 }
@@ -7967,26 +7246,21 @@ IL2CPP_EXTERN_C  void Tessellator_RemovePair_m8BA0B1208FA0DB43FC7EC02062C2D58784
 	_thisAdjusted = reinterpret_cast<Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3*>(__this + _offset);
 	Tessellator_RemovePair_m8BA0B1208FA0DB43FC7EC02062C2D58784A656A5(_thisAdjusted, ___0_r, ___1_j, ___2_k, method);
 }
-// Method Definition Index: 95136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_RemoveTriangle_mF1C2F14B224CDEF0E6389CF24790EEC9D48DA2A8 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, int32_t ___0_i, int32_t ___1_j, int32_t ___2_k, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:364>
 		int32_t L_0 = ___0_i;
 		int32_t L_1 = ___1_j;
 		int32_t L_2 = ___2_k;
 		Tessellator_RemovePair_m8BA0B1208FA0DB43FC7EC02062C2D58784A656A5(__this, L_0, L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:365>
 		int32_t L_3 = ___1_j;
 		int32_t L_4 = ___2_k;
 		int32_t L_5 = ___0_i;
 		Tessellator_RemovePair_m8BA0B1208FA0DB43FC7EC02062C2D58784A656A5(__this, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:366>
 		int32_t L_6 = ___2_k;
 		int32_t L_7 = ___0_i;
 		int32_t L_8 = ___1_j;
 		Tessellator_RemovePair_m8BA0B1208FA0DB43FC7EC02062C2D58784A656A5(__this, L_6, L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:367>
 		return;
 	}
 }
@@ -7997,45 +7271,37 @@ IL2CPP_EXTERN_C  void Tessellator_RemoveTriangle_mF1C2F14B224CDEF0E6389CF24790EE
 	_thisAdjusted = reinterpret_cast<Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3*>(__this + _offset);
 	Tessellator_RemoveTriangle_mF1C2F14B224CDEF0E6389CF24790EEC9D48DA2A8(_thisAdjusted, ___0_i, ___1_j, ___2_k, method);
 }
-// Method Definition Index: 95137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_EdgeFlip_m2EFC2678083E4647B8993B6AD464544BD9C89BE4 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, int32_t ___0_i, int32_t ___1_j, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:371>
 		int32_t L_0 = ___0_i;
 		int32_t L_1 = ___1_j;
 		int32_t L_2;
 		L_2 = Tessellator_OppositeOf_mB3604C8586A1358F603C27E05D24168F06257103(__this, L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:372>
 		int32_t L_3 = ___1_j;
 		int32_t L_4 = ___0_i;
 		int32_t L_5;
 		L_5 = Tessellator_OppositeOf_mB3604C8586A1358F603C27E05D24168F06257103(__this, L_3, L_4, NULL);
 		V_1 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:373>
 		int32_t L_6 = ___0_i;
 		int32_t L_7 = ___1_j;
 		int32_t L_8 = V_0;
 		Tessellator_RemoveTriangle_mF1C2F14B224CDEF0E6389CF24790EEC9D48DA2A8(__this, L_6, L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:374>
 		int32_t L_9 = ___1_j;
 		int32_t L_10 = ___0_i;
 		int32_t L_11 = V_1;
 		Tessellator_RemoveTriangle_mF1C2F14B224CDEF0E6389CF24790EEC9D48DA2A8(__this, L_9, L_10, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:375>
 		int32_t L_12 = ___0_i;
 		int32_t L_13 = V_1;
 		int32_t L_14 = V_0;
 		Tessellator_AddTriangle_mDA63B6E6783AB998FABA70DC5014E49A74D6CD0B(__this, L_12, L_13, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:376>
 		int32_t L_15 = ___1_j;
 		int32_t L_16 = V_0;
 		int32_t L_17 = V_1;
 		Tessellator_AddTriangle_mDA63B6E6783AB998FABA70DC5014E49A74D6CD0B(__this, L_15, L_16, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:377>
 		return;
 	}
 }
@@ -8046,7 +7312,6 @@ IL2CPP_EXTERN_C  void Tessellator_EdgeFlip_m2EFC2678083E4647B8993B6AD464544BD9C8
 	_thisAdjusted = reinterpret_cast<Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3*>(__this + _offset);
 	Tessellator_EdgeFlip_m2EFC2678083E4647B8993B6AD464544BD9C89BE4(_thisAdjusted, ___0_i, ___1_j, method);
 }
-// Method Definition Index: 95138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_Flip_m8891166DD0D6693315A882BA942FDEFA7463CAE2 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___0_points, Array_1_t20CE0BD535FE6EB0564B4289C0D7C9CF43FE49D1* ___1_stack, int32_t* ___2_stackCount, int32_t ___3_a, int32_t ___4_b, int32_t ___5_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8060,13 +7325,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_Flip_m8891166DD0D6693315A882
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:381>
 		int32_t L_0 = ___3_a;
 		int32_t L_1 = ___4_b;
 		int32_t L_2;
 		L_2 = Tessellator_OppositeOf_mB3604C8586A1358F603C27E05D24168F06257103(__this, L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:383>
 		int32_t L_3 = V_0;
 		if ((((int32_t)L_3) >= ((int32_t)0)))
 		{
@@ -8074,13 +7337,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_Flip_m8891166DD0D6693315A882
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:385>
 		return (bool)1;
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:388>
 		int32_t L_4 = ___4_b;
 		int32_t L_5 = ___3_a;
 		if ((((int32_t)L_4) >= ((int32_t)L_5)))
@@ -8089,25 +7350,18 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:390>
 		int32_t L_6 = ___3_a;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:391>
 		int32_t L_7 = ___4_b;
 		___3_a = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:392>
 		___4_b = L_6;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:393>
 		int32_t L_8 = ___5_x;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:394>
 		int32_t L_9 = V_0;
 		___5_x = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:395>
 		V_0 = L_8;
 	}
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:398>
 		int32_t L_10 = ___3_a;
 		int32_t L_11 = ___4_b;
 		int32_t L_12;
@@ -8118,13 +7372,11 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:400>
 		return (bool)1;
 	}
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:403>
 		int32_t L_13 = ___3_a;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_14;
 		L_14 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_points))->___m_Buffer, L_13);
@@ -8146,7 +7398,6 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:405>
 		int32_t* L_22 = ___2_stackCount;
 		int32_t L_23 = *((int32_t*)L_22);
 		Array_1_t20CE0BD535FE6EB0564B4289C0D7C9CF43FE49D1* L_24 = ___1_stack;
@@ -8158,13 +7409,11 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:406>
 		return (bool)0;
 	}
 
 IL_006c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:407>
 		Array_1_t20CE0BD535FE6EB0564B4289C0D7C9CF43FE49D1* L_26 = ___1_stack;
 		int32_t* L_27 = ___2_stackCount;
 		int32_t* L_28 = ___2_stackCount;
@@ -8175,7 +7424,6 @@ IL_006c:
 		int32_t L_31 = V_1;
 		int32_t L_32 = ___3_a;
 		Array_1_set_Item_m9C732922E961EF10557ABDC8BB2A0C4392725F10(L_26, L_31, L_32, Array_1_set_Item_m9C732922E961EF10557ABDC8BB2A0C4392725F10_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:408>
 		Array_1_t20CE0BD535FE6EB0564B4289C0D7C9CF43FE49D1* L_33 = ___1_stack;
 		int32_t* L_34 = ___2_stackCount;
 		int32_t* L_35 = ___2_stackCount;
@@ -8190,7 +7438,6 @@ IL_006c:
 
 IL_008e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:411>
 		return (bool)1;
 	}
 }
@@ -8203,7 +7450,6 @@ IL2CPP_EXTERN_C  bool Tessellator_Flip_m8891166DD0D6693315A882BA942FDEFA7463CAE2
 	_returnValue = Tessellator_Flip_m8891166DD0D6693315A882BA942FDEFA7463CAE2(_thisAdjusted, ___0_points, ___1_stack, ___2_stackCount, ___3_a, ___4_b, ___5_x, method);
 	return _returnValue;
 }
-// Method Definition Index: 95139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9 Tessellator_GetCells_m9A270E7F88ACA2B9A82DB96D416507C6F6306A5D (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, int32_t* ___0_count, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8228,18 +7474,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Array_1_t1533746A012CB5D934186A687D1317C6DD0E
 	memset((&V_8), 0, sizeof(V_8));
 	int32_t V_9 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:416>
 		int32_t L_0 = __this->___m_NumPoints;
 		int32_t L_1 = __this->___m_NumPoints;
 		int32_t L_2 = __this->___m_NumPoints;
 		int32_t L_3 = __this->___m_Allocator;
 		Array_1__ctor_mFBE64F8175ACD89D547D11E5F7832748E4189992((&V_0), ((int32_t)il2cpp_codegen_multiply(L_0, 4)), ((int32_t)il2cpp_codegen_multiply(L_1, ((int32_t)il2cpp_codegen_add(L_2, 1)))), L_3, 0, Array_1__ctor_mFBE64F8175ACD89D547D11E5F7832748E4189992_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:417>
 		int32_t* L_4 = ___0_count;
 		*((int32_t*)L_4) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:418>
 		V_1 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:418>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_5 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_5)->___m_Length);
@@ -8249,16 +7491,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Array_1_t1533746A012CB5D934186A687D1317C6DD0E
 
 IL_003b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:420>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_7 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_8 = V_1;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_9;
 		L_9 = IL2CPP_NATIVEARRAY_GET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_7)->___m_Buffer, L_8);
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B L_10 = L_9.___points;
 		V_3 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:421>
 		V_4 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:421>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_11 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_12 = V_1;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_13;
@@ -8270,17 +7509,14 @@ IL_003b:
 
 IL_0065:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:423>
 		int32_t L_15 = V_4;
 		int32_t L_16;
 		L_16 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D((&V_3), L_15, ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		V_6 = L_16;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:424>
 		int32_t L_17 = V_4;
 		int32_t L_18;
 		L_18 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D((&V_3), ((int32_t)il2cpp_codegen_add(L_17, 1)), ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		V_7 = L_18;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:425>
 		int32_t L_19 = V_1;
 		int32_t L_20 = V_6;
 		int32_t L_21 = V_7;
@@ -8292,18 +7528,13 @@ IL_0065:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:427>
 		il2cpp_codegen_initobj((&V_8), sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:428>
 		int32_t L_23 = V_1;
 		(&V_8)->___x = L_23;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:429>
 		int32_t L_24 = V_6;
 		(&V_8)->___y = L_24;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:430>
 		int32_t L_25 = V_7;
 		(&V_8)->___z = L_25;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:431>
 		int32_t* L_26 = ___0_count;
 		int32_t* L_27 = ___0_count;
 		int32_t L_28 = *((int32_t*)L_27);
@@ -8317,14 +7548,12 @@ IL_0065:
 
 IL_00c0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:421>
 		int32_t L_32 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_32, 2));
 	}
 
 IL_00c6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:421>
 		int32_t L_33 = V_4;
 		int32_t L_34 = V_5;
 		if ((((int32_t)L_33) < ((int32_t)L_34)))
@@ -8333,14 +7562,12 @@ IL_00c6:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:418>
 		int32_t L_35 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_00d0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:418>
 		int32_t L_36 = V_1;
 		int32_t L_37 = V_2;
 		if ((((int32_t)L_36) < ((int32_t)L_37)))
@@ -8349,7 +7576,6 @@ IL_00d0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:436>
 		Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9 L_38 = V_0;
 		return L_38;
 	}
@@ -8363,7 +7589,6 @@ IL2CPP_EXTERN_C  Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9 Tessellator_G
 	_returnValue = Tessellator_GetCells_m9A270E7F88ACA2B9A82DB96D416507C6F6306A5D(_thisAdjusted, ___0_count, method);
 	return _returnValue;
 }
-// Method Definition Index: 95140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_ApplyDelaunay_m22E8AFD34B62640DE1668419D66DDE47E9CB1F4E (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___0_points, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 ___1_edges, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8405,7 +7630,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_ApplyDelaunay_m22E8AFD34B626
 	int32_t G_B41_0 = 0;
 	int32_t G_B44_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:443>
 		int32_t L_0 = __this->___m_CellCount;
 		if (L_0)
 		{
@@ -8413,53 +7637,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_ApplyDelaunay_m22E8AFD34B626
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:444>
 		return (bool)0;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:446>
 		int32_t L_1 = __this->___m_NumPoints;
 		int32_t L_2 = __this->___m_NumPoints;
 		int32_t L_3 = __this->___m_NumPoints;
 		int32_t L_4 = __this->___m_Allocator;
 		Array_1__ctor_m0B297F546E62CFAF4D2073B0855BF391A543A36B((&V_0), ((int32_t)il2cpp_codegen_multiply(L_1, 4)), ((int32_t)il2cpp_codegen_multiply(L_2, ((int32_t)il2cpp_codegen_add(L_3, 1)))), L_4, 0, Array_1__ctor_m0B297F546E62CFAF4D2073B0855BF391A543A36B_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:447>
 		V_1 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:448>
 		V_2 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:450>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_5 = ___1_edges;
 		int32_t L_6 = __this->___m_NumEdges;
 		Tessellator_PrepareDelaunay_mEAADB0F4F68B596340D857E668110C2A613CA4E8(__this, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:451>
 		V_4 = 0;
 		goto IL_014f;
 	}
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:453>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_7 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_8 = V_4;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_9;
 		L_9 = IL2CPP_NATIVEARRAY_GET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_7)->___m_Buffer, L_8);
 		V_5 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:454>
 		V_6 = 1;
 		goto IL_013b;
 	}
 
 IL_005f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:456>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_10 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_5)->___points);
 		int32_t L_11 = V_6;
 		int32_t L_12;
 		L_12 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D(L_10, L_11, ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		V_7 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:458>
 		int32_t L_13 = V_7;
 		int32_t L_14 = V_4;
 		if ((((int32_t)L_13) < ((int32_t)L_14)))
@@ -8468,7 +7682,6 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:463>
 		int32_t L_15 = V_4;
 		int32_t L_16 = V_7;
 		int32_t L_17;
@@ -8479,22 +7692,18 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:468>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_18 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_5)->___points);
 		int32_t L_19 = V_6;
 		int32_t L_20;
 		L_20 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D(L_18, ((int32_t)il2cpp_codegen_subtract(L_19, 1)), ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		V_8 = L_20;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:468>
 		V_9 = (-1);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:469>
 		V_10 = 1;
 		goto IL_00ce;
 	}
 
 IL_00a2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:471>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_21 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_5)->___points);
 		int32_t L_22 = V_10;
 		int32_t L_23;
@@ -8506,26 +7715,22 @@ IL_00a2:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:473>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_25 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_5)->___points);
 		int32_t L_26 = V_10;
 		int32_t L_27;
 		L_27 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D(L_25, L_26, ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		V_9 = L_27;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:474>
 		goto IL_00d9;
 	}
 
 IL_00c8:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:469>
 		int32_t L_28 = V_10;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_28, 2));
 	}
 
 IL_00ce:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:469>
 		int32_t L_29 = V_10;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_30 = V_5;
 		int32_t L_31 = L_30.___pointCount;
@@ -8537,7 +7742,6 @@ IL_00ce:
 
 IL_00d9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:478>
 		int32_t L_32 = V_9;
 		if ((((int32_t)L_32) < ((int32_t)0)))
 		{
@@ -8545,7 +7749,6 @@ IL_00d9:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:483>
 		int32_t L_33 = V_4;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_34;
 		L_34 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_points))->___m_Buffer, L_33);
@@ -8567,7 +7770,6 @@ IL_00d9:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:485>
 		int32_t L_42 = V_1;
 		int32_t L_43;
 		L_43 = Array_1_get_Length_mF0AB3E6221670235383E6179BBC02B1956C3E7B5((&V_0), Array_1_get_Length_mF0AB3E6221670235383E6179BBC02B1956C3E7B5_RuntimeMethod_var);
@@ -8577,21 +7779,17 @@ IL_00d9:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:487>
 		V_2 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:488>
 		goto IL_0149;
 	}
 
 IL_0119:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:491>
 		int32_t L_44 = V_1;
 		int32_t L_45 = L_44;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_45, 1));
 		int32_t L_46 = V_4;
 		Array_1_set_Item_m9C732922E961EF10557ABDC8BB2A0C4392725F10((&V_0), L_45, L_46, Array_1_set_Item_m9C732922E961EF10557ABDC8BB2A0C4392725F10_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:492>
 		int32_t L_47 = V_1;
 		int32_t L_48 = L_47;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_48, 1));
@@ -8601,14 +7799,12 @@ IL_0119:
 
 IL_0135:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:454>
 		int32_t L_50 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_50, 2));
 	}
 
 IL_013b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:454>
 		int32_t L_51 = V_6;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_52 = V_5;
 		int32_t L_53 = L_52.___pointCount;
@@ -8620,14 +7816,12 @@ IL_013b:
 
 IL_0149:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:451>
 		int32_t L_54 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_54, 1));
 	}
 
 IL_014f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:451>
 		bool L_55 = V_2;
 		if (!L_55)
 		{
@@ -8645,7 +7839,6 @@ IL_014f:
 
 IL_015f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:497>
 		int32_t L_58 = __this->___m_NumPoints;
 		int32_t L_59 = __this->___m_NumPoints;
 		V_3 = ((int32_t)il2cpp_codegen_multiply(L_58, L_59));
@@ -8654,52 +7847,41 @@ IL_015f:
 
 IL_0172:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:500>
 		int32_t L_60 = V_1;
 		int32_t L_61;
 		L_61 = Array_1_get_Item_mB05509E8044477617EC9523DC3985F3936CEE2CD((&V_0), ((int32_t)il2cpp_codegen_subtract(L_60, 1)), Array_1_get_Item_mB05509E8044477617EC9523DC3985F3936CEE2CD_RuntimeMethod_var);
 		V_11 = L_61;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:501>
 		int32_t L_62 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_62, 1));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:502>
 		int32_t L_63 = V_1;
 		int32_t L_64;
 		L_64 = Array_1_get_Item_mB05509E8044477617EC9523DC3985F3936CEE2CD((&V_0), ((int32_t)il2cpp_codegen_subtract(L_63, 1)), Array_1_get_Item_mB05509E8044477617EC9523DC3985F3936CEE2CD_RuntimeMethod_var);
 		V_12 = L_64;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:503>
 		int32_t L_65 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_65, 1));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:505>
 		V_13 = (-1);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:505>
 		V_14 = (-1);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:506>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_66 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		int32_t L_67 = V_12;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_68;
 		L_68 = IL2CPP_NATIVEARRAY_GET_ITEM(UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9, (L_66)->___m_Buffer, L_67);
 		V_15 = L_68;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:507>
 		V_16 = 1;
 		goto IL_01ea;
 	}
 
 IL_01ac:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:509>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_69 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_15)->___points);
 		int32_t L_70 = V_16;
 		int32_t L_71;
 		L_71 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D(L_69, ((int32_t)il2cpp_codegen_subtract(L_70, 1)), ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		V_17 = L_71;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:510>
 		ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* L_72 = (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B*)(&(&V_15)->___points);
 		int32_t L_73 = V_16;
 		int32_t L_74;
 		L_74 = ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D(L_72, L_73, ArraySlice_1_get_Item_m5820179268EA4F923EFEEF49294C5B0F007FA53D_RuntimeMethod_var);
 		V_18 = L_74;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:511>
 		int32_t L_75 = V_17;
 		int32_t L_76 = V_11;
 		if ((!(((uint32_t)L_75) == ((uint32_t)L_76))))
@@ -8708,7 +7890,6 @@ IL_01ac:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:513>
 		int32_t L_77 = V_18;
 		V_14 = L_77;
 		goto IL_01e4;
@@ -8716,7 +7897,6 @@ IL_01ac:
 
 IL_01da:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:515>
 		int32_t L_78 = V_18;
 		int32_t L_79 = V_11;
 		if ((!(((uint32_t)L_78) == ((uint32_t)L_79))))
@@ -8725,21 +7905,18 @@ IL_01da:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:517>
 		int32_t L_80 = V_17;
 		V_13 = L_80;
 	}
 
 IL_01e4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:507>
 		int32_t L_81 = V_16;
 		V_16 = ((int32_t)il2cpp_codegen_add(L_81, 2));
 	}
 
 IL_01ea:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:507>
 		int32_t L_82 = V_16;
 		UStar_t2600D12793B74BE9DBE602129A44F9970E5B8CD9 L_83 = V_15;
 		int32_t L_84 = L_83.___pointCount;
@@ -8749,7 +7926,6 @@ IL_01ea:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:521>
 		int32_t L_85 = V_13;
 		if ((((int32_t)L_85) < ((int32_t)0)))
 		{
@@ -8764,7 +7940,6 @@ IL_01ea:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:526>
 		int32_t L_87 = V_12;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_88;
 		L_88 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_points))->___m_Buffer, L_87);
@@ -8786,11 +7961,9 @@ IL_01ea:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:531>
 		int32_t L_96 = V_12;
 		int32_t L_97 = V_11;
 		Tessellator_EdgeFlip_m2EFC2678083E4647B8993B6AD464544BD9C89BE4(__this, L_96, L_97, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:533>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_98 = ___0_points;
 		int32_t L_99 = V_13;
 		int32_t L_100 = V_12;
@@ -8798,7 +7971,6 @@ IL_01ea:
 		bool L_102;
 		L_102 = Tessellator_Flip_m8891166DD0D6693315A882BA942FDEFA7463CAE2(__this, L_98, (&V_0), (&V_1), L_99, L_100, L_101, NULL);
 		V_2 = L_102;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:534>
 		bool L_103 = V_2;
 		if (!L_103)
 		{
@@ -8824,7 +7996,6 @@ IL_0262:
 IL_0263:
 	{
 		V_2 = (bool)G_B35_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:535>
 		bool L_109 = V_2;
 		if (!L_109)
 		{
@@ -8850,7 +8021,6 @@ IL_027a:
 IL_027b:
 	{
 		V_2 = (bool)G_B38_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:536>
 		bool L_115 = V_2;
 		if (!L_115)
 		{
@@ -8876,7 +8046,6 @@ IL_0292:
 IL_0293:
 	{
 		V_2 = (bool)G_B41_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:537>
 		bool L_121 = V_2;
 		if (!L_121)
 		{
@@ -8903,7 +8072,6 @@ IL_02a2:
 
 IL_02a3:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:498>
 		int32_t L_124 = V_1;
 		bool L_125 = V_2;
 		if (((int32_t)(((((int32_t)L_124) > ((int32_t)0))? 1 : 0)&(int32_t)L_125)))
@@ -8912,9 +8080,7 @@ IL_02a3:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:540>
 		Array_1_Dispose_m3C3ED8A395CD6C23DCB87D063E2C5EE49DE1B473((&V_0), Array_1_Dispose_m3C3ED8A395CD6C23DCB87D063E2C5EE49DE1B473_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:541>
 		bool L_126 = V_2;
 		return L_126;
 	}
@@ -8928,7 +8094,6 @@ IL2CPP_EXTERN_C  bool Tessellator_ApplyDelaunay_m22E8AFD34B62640DE1668419D66DDE4
 	_returnValue = Tessellator_ApplyDelaunay_m22E8AFD34B62640DE1668419D66DDE47E9CB1F4E(_thisAdjusted, ___0_points, ___1_edges, method);
 	return _returnValue;
 }
-// Method Definition Index: 95141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tessellator_FindNeighbor_mBB5B6E1CFB6C816CB2EE3F45AC1E29B15DBD8207 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9 ___0_cells, int32_t ___1_count, int32_t ___2_a, int32_t ___3_b, int32_t ___4_c, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8946,16 +8111,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tessellator_FindNeighbor_mBB5B6E1CFB6
 	TestCellE_t61EAAF000C7DBB7CC89E7AE1F6F12214AC1C07C9 V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:556>
 		int32_t L_0 = ___2_a;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:556>
 		int32_t L_1 = ___3_b;
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:556>
 		int32_t L_2 = ___4_c;
 		V_2 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:557>
 		int32_t L_3 = ___3_b;
 		int32_t L_4 = ___4_c;
 		if ((((int32_t)L_3) >= ((int32_t)L_4)))
@@ -8964,7 +8125,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tessellator_FindNeighbor_mBB5B6E1CFB6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:559>
 		int32_t L_5 = ___3_b;
 		int32_t L_6 = ___2_a;
 		if ((((int32_t)L_5) >= ((int32_t)L_6)))
@@ -8973,13 +8133,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tessellator_FindNeighbor_mBB5B6E1CFB6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:561>
 		int32_t L_7 = ___3_b;
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:562>
 		int32_t L_8 = ___4_c;
 		V_1 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:563>
 		int32_t L_9 = ___2_a;
 		V_2 = L_9;
 		goto IL_002a;
@@ -8987,7 +8144,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tessellator_FindNeighbor_mBB5B6E1CFB6
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:566>
 		int32_t L_10 = ___4_c;
 		int32_t L_11 = ___2_a;
 		if ((((int32_t)L_10) >= ((int32_t)L_11)))
@@ -8996,20 +8152,16 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:568>
 		int32_t L_12 = ___4_c;
 		V_0 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:569>
 		int32_t L_13 = ___2_a;
 		V_1 = L_13;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:570>
 		int32_t L_14 = ___3_b;
 		V_2 = L_14;
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:573>
 		int32_t L_15 = V_0;
 		if ((((int32_t)L_15) >= ((int32_t)0)))
 		{
@@ -9017,22 +8169,17 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:575>
 		return (-1);
 	}
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:579>
 		int32_t L_16 = V_0;
 		(&V_3)->___x = L_16;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:580>
 		int32_t L_17 = V_1;
 		(&V_3)->___y = L_17;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:581>
 		int32_t L_18 = V_2;
 		(&V_3)->___z = L_18;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:582>
 		Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9 L_19 = ___0_cells;
 		int32_t L_20 = ___1_count;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_21 = V_3;
@@ -9053,7 +8200,6 @@ IL2CPP_EXTERN_C  int32_t Tessellator_FindNeighbor_mBB5B6E1CFB6C816CB2EE3F45AC1E2
 	_returnValue = Tessellator_FindNeighbor_mBB5B6E1CFB6C816CB2EE3F45AC1E29B15DBD8207(_thisAdjusted, ___0_cells, ___1_count, ___2_a, ___3_b, ___4_c, method);
 	return _returnValue;
 }
-// Method Definition Index: 95142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9 Tessellator_Constrain_mB83988169B046690C3D80CA111718DC809A3CCB0 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, int32_t* ___0_count, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9112,40 +8258,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Array_1_t1533746A012CB5D934186A687D1317C6DD0E
 	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* G_B23_2 = NULL;
 	int32_t G_B23_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:587>
 		int32_t* L_0 = ___0_count;
 		Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9 L_1;
 		L_1 = Tessellator_GetCells_m9A270E7F88ACA2B9A82DB96D416507C6F6306A5D(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:588>
 		int32_t* L_2 = ___0_count;
 		int32_t L_3 = *((int32_t*)L_2);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:589>
 		V_7 = 0;
 		goto IL_0094;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:591>
 		int32_t L_4 = V_7;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_5;
 		L_5 = Array_1_get_Item_mC1F7BD8F220A6934025499E93C47A5910A14EBC7((&V_0), L_4, Array_1_get_Item_mC1F7BD8F220A6934025499E93C47A5910A14EBC7_RuntimeMethod_var);
 		V_8 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:592>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_6 = V_8;
 		int32_t L_7 = L_6.___x;
 		V_9 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:592>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_8 = V_8;
 		int32_t L_9 = L_8.___y;
 		V_10 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:592>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_10 = V_8;
 		int32_t L_11 = L_10.___z;
 		V_11 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:593>
 		int32_t L_12 = V_10;
 		int32_t L_13 = V_11;
 		if ((((int32_t)L_12) >= ((int32_t)L_13)))
@@ -9154,7 +8292,6 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:595>
 		int32_t L_14 = V_10;
 		int32_t L_15 = V_9;
 		if ((((int32_t)L_14) >= ((int32_t)L_15)))
@@ -9163,13 +8300,10 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:597>
 		int32_t L_16 = V_10;
 		(&V_8)->___x = L_16;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:598>
 		int32_t L_17 = V_11;
 		(&V_8)->___y = L_17;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:599>
 		int32_t L_18 = V_9;
 		(&V_8)->___z = L_18;
 		goto IL_0083;
@@ -9177,7 +8311,6 @@ IL_0013:
 
 IL_0062:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:602>
 		int32_t L_19 = V_11;
 		int32_t L_20 = V_9;
 		if ((((int32_t)L_19) >= ((int32_t)L_20)))
@@ -9186,31 +8319,25 @@ IL_0062:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:604>
 		int32_t L_21 = V_11;
 		(&V_8)->___x = L_21;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:605>
 		int32_t L_22 = V_9;
 		(&V_8)->___y = L_22;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:606>
 		int32_t L_23 = V_10;
 		(&V_8)->___z = L_23;
 	}
 
 IL_0083:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:609>
 		int32_t L_24 = V_7;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_25 = V_8;
 		Array_1_set_Item_m07361D422EFA9F3686FBD16BA7EDFC0E25091BF9((&V_0), L_24, L_25, Array_1_set_Item_m07361D422EFA9F3686FBD16BA7EDFC0E25091BF9_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:589>
 		int32_t L_26 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_26, 1));
 	}
 
 IL_0094:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:589>
 		int32_t L_27 = V_7;
 		int32_t L_28 = V_1;
 		if ((((int32_t)L_27) < ((int32_t)L_28)))
@@ -9219,9 +8346,6 @@ IL_0094:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:614>
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:615>
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:616>
 		void* L_29;
 		L_29 = Array_1_get_UnsafePtr_m40FAF937C01E03C11E323A56A92B67D1F3EE7FF3((&V_0), Array_1_get_UnsafePtr_m40FAF937C01E03C11E323A56A92B67D1F3EE7FF3_RuntimeMethod_var);
 		int32_t L_30 = __this->___m_CellCount;
@@ -9229,67 +8353,53 @@ IL_0094:
 		TessCellCompare_t74157D34A5BC0261A18491A63CBF98426EA0358A L_31 = V_12;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_InsertionSort_Tisint3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_TisTessCellCompare_t74157D34A5BC0261A18491A63CBF98426EA0358A_mB62730AA751E47C01B4456E1AE1BDA3F103E9846(L_29, 0, ((int32_t)il2cpp_codegen_subtract(L_30, 1)), L_31, ModuleHandle_InsertionSort_Tisint3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_TisTessCellCompare_t74157D34A5BC0261A18491A63CBF98426EA0358A_mB62730AA751E47C01B4456E1AE1BDA3F103E9846_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:620>
 		int32_t L_32 = V_1;
 		int32_t L_33 = __this->___m_Allocator;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_34;
 		memset((&L_34), 0, sizeof(L_34));
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&L_34), L_32, L_33, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
 		__this->___m_Flags = L_34;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:621>
 		int32_t L_35 = V_1;
 		int32_t L_36 = __this->___m_Allocator;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_37;
 		memset((&L_37), 0, sizeof(L_37));
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&L_37), ((int32_t)il2cpp_codegen_multiply(L_35, 3)), L_36, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
 		__this->___m_Neighbors = L_37;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:622>
 		int32_t L_38 = V_1;
 		int32_t L_39 = __this->___m_Allocator;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_40;
 		memset((&L_40), 0, sizeof(L_40));
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&L_40), ((int32_t)il2cpp_codegen_multiply(L_38, 3)), L_39, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
 		__this->___m_Constraints = L_40;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:623>
 		int32_t L_41 = V_1;
 		int32_t L_42 = __this->___m_Allocator;
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_2), ((int32_t)il2cpp_codegen_multiply(L_41, 3)), L_42, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:624>
 		int32_t L_43 = V_1;
 		int32_t L_44 = __this->___m_Allocator;
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_3), ((int32_t)il2cpp_codegen_multiply(L_43, 3)), L_44, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:626>
 		V_4 = 1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:626>
 		V_5 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:626>
 		V_6 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:628>
 		V_13 = 0;
 		goto IL_0239;
 	}
 
 IL_012b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:630>
 		int32_t L_45 = V_13;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_46;
 		L_46 = Array_1_get_Item_mC1F7BD8F220A6934025499E93C47A5910A14EBC7((&V_0), L_45, Array_1_get_Item_mC1F7BD8F220A6934025499E93C47A5910A14EBC7_RuntimeMethod_var);
 		V_14 = L_46;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:631>
 		V_15 = 0;
 		goto IL_022b;
 	}
 
 IL_013e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:633>
 		int32_t L_47 = V_15;
 		V_16 = L_47;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:633>
 		int32_t L_48 = V_15;
 		V_17 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_48, 1))%3));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:634>
 		int32_t L_49 = V_16;
 		if (!L_49)
 		{
@@ -9328,7 +8438,6 @@ IL_0165:
 IL_016c:
 	{
 		V_16 = G_B15_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:635>
 		int32_t L_57 = V_17;
 		if (!L_57)
 		{
@@ -9367,13 +8476,11 @@ IL_0189:
 IL_0190:
 	{
 		V_17 = G_B20_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:637>
 		int32_t L_65 = V_17;
 		int32_t L_66 = V_16;
 		int32_t L_67;
 		L_67 = Tessellator_OppositeOf_mB3604C8586A1358F603C27E05D24168F06257103(__this, L_65, L_66, NULL);
 		V_18 = L_67;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:638>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_68 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Neighbors);
 		int32_t L_69 = V_13;
 		int32_t L_70 = V_15;
@@ -9389,7 +8496,6 @@ IL_0190:
 		V_20 = L_78;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_68)->___m_Buffer, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(3, L_69)), L_70)), (L_78));
 		int32_t L_79 = V_20;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:639>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_80 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Constraints);
 		int32_t L_81 = V_13;
 		int32_t L_82 = V_15;
@@ -9431,14 +8537,12 @@ IL_01e2:
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (G_B23_2)->___m_Buffer, G_B23_1, (L_86));
 		int32_t L_87 = V_20;
 		V_19 = L_87;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:640>
 		if ((((int32_t)G_B23_3) >= ((int32_t)0)))
 		{
 			goto IL_0225;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:642>
 		int32_t L_88 = V_19;
 		if (!L_88)
 		{
@@ -9446,7 +8550,6 @@ IL_01e2:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:644>
 		int32_t L_89 = V_5;
 		int32_t L_90 = L_89;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_90, 1));
@@ -9457,13 +8560,11 @@ IL_01e2:
 
 IL_0207:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:648>
 		int32_t L_92 = V_6;
 		int32_t L_93 = L_92;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_93, 1));
 		int32_t L_94 = V_13;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, ((&V_3))->___m_Buffer, L_93, (L_94));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:649>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_95 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Flags);
 		int32_t L_96 = V_13;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_95)->___m_Buffer, L_96, (1));
@@ -9471,14 +8572,12 @@ IL_0207:
 
 IL_0225:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:631>
 		int32_t L_97 = V_15;
 		V_15 = ((int32_t)il2cpp_codegen_add(L_97, 1));
 	}
 
 IL_022b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:631>
 		int32_t L_98 = V_15;
 		if ((((int32_t)L_98) < ((int32_t)3)))
 		{
@@ -9486,14 +8585,12 @@ IL_022b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:628>
 		int32_t L_99 = V_13;
 		V_13 = ((int32_t)il2cpp_codegen_add(L_99, 1));
 	}
 
 IL_0239:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:628>
 		int32_t L_100 = V_13;
 		int32_t L_101 = V_1;
 		if ((((int32_t)L_100) < ((int32_t)L_101)))
@@ -9507,15 +8604,12 @@ IL_0239:
 
 IL_0246:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:659>
 		int32_t L_102 = V_6;
 		int32_t L_103;
 		L_103 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&V_3))->___m_Buffer, ((int32_t)il2cpp_codegen_subtract(L_102, 1)));
 		V_21 = L_103;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:660>
 		int32_t L_104 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_subtract(L_104, 1));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:661>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_105 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Flags);
 		int32_t L_106 = V_21;
 		int32_t L_107;
@@ -9527,30 +8621,25 @@ IL_0246:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:666>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_109 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Flags);
 		int32_t L_110 = V_21;
 		int32_t L_111 = V_4;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_109)->___m_Buffer, L_110, (L_111));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:667>
 		int32_t L_112 = V_21;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_113;
 		L_113 = Array_1_get_Item_mC1F7BD8F220A6934025499E93C47A5910A14EBC7((&V_0), L_112, Array_1_get_Item_mC1F7BD8F220A6934025499E93C47A5910A14EBC7_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:668>
 		V_22 = 0;
 		goto IL_02ff;
 	}
 
 IL_028c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:670>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_114 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Neighbors);
 		int32_t L_115 = V_21;
 		int32_t L_116 = V_22;
 		int32_t L_117;
 		L_117 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_114)->___m_Buffer, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(3, L_115)), L_116)));
 		V_23 = L_117;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:671>
 		int32_t L_118 = V_23;
 		if ((((int32_t)L_118) < ((int32_t)0)))
 		{
@@ -9568,7 +8657,6 @@ IL_028c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:673>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_122 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Constraints);
 		int32_t L_123 = V_21;
 		int32_t L_124 = V_22;
@@ -9580,7 +8668,6 @@ IL_028c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:675>
 		int32_t L_126 = V_5;
 		int32_t L_127 = L_126;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_127, 1));
@@ -9591,13 +8678,11 @@ IL_028c:
 
 IL_02da:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:679>
 		int32_t L_129 = V_6;
 		int32_t L_130 = L_129;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_130, 1));
 		int32_t L_131 = V_23;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, ((&V_3))->___m_Buffer, L_130, (L_131));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:680>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_132 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Flags);
 		int32_t L_133 = V_23;
 		int32_t L_134 = V_4;
@@ -9606,14 +8691,12 @@ IL_02da:
 
 IL_02f9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:668>
 		int32_t L_135 = V_22;
 		V_22 = ((int32_t)il2cpp_codegen_add(L_135, 1));
 	}
 
 IL_02ff:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:668>
 		int32_t L_136 = V_22;
 		if ((((int32_t)L_136) < ((int32_t)3)))
 		{
@@ -9623,7 +8706,6 @@ IL_02ff:
 
 IL_0304:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:657>
 		int32_t L_137 = V_6;
 		if ((((int32_t)L_137) > ((int32_t)0)))
 		{
@@ -9631,27 +8713,23 @@ IL_0304:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:686>
 		V_24 = 0;
 		goto IL_0329;
 	}
 
 IL_0311:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:687>
 		int32_t L_138 = V_24;
 		int32_t L_139 = V_24;
 		int32_t L_140;
 		L_140 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&V_2))->___m_Buffer, L_139);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, ((&V_3))->___m_Buffer, L_138, (L_140));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:686>
 		int32_t L_141 = V_24;
 		V_24 = ((int32_t)il2cpp_codegen_add(L_141, 1));
 	}
 
 IL_0329:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:686>
 		int32_t L_142 = V_24;
 		int32_t L_143 = V_5;
 		if ((((int32_t)L_142) < ((int32_t)L_143)))
@@ -9660,19 +8738,15 @@ IL_0329:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:688>
 		int32_t L_144 = V_5;
 		V_6 = L_144;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:689>
 		V_5 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:690>
 		int32_t L_145 = V_4;
 		V_4 = ((-L_145));
 	}
 
 IL_033b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:655>
 		int32_t L_146 = V_6;
 		if ((((int32_t)L_146) > ((int32_t)0)))
 		{
@@ -9687,11 +8761,8 @@ IL_033b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:693>
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_3), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:694>
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_2), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:695>
 		Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9 L_148 = V_0;
 		return L_148;
 	}
@@ -9705,7 +8776,6 @@ IL2CPP_EXTERN_C  Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9 Tessellator_C
 	_returnValue = Tessellator_Constrain_mB83988169B046690C3D80CA111718DC809A3CCB0(_thisAdjusted, ___0_count, method);
 	return _returnValue;
 }
-// Method Definition Index: 95143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tA39D7DB71ADA458A72B67FD0C6E1FF021412BA57 Tessellator_RemoveExterior_mC35CA28B5C5C1A6457C34715EA3649E566A14B00 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, int32_t* ___0_cellCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9724,27 +8794,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tA39D7DB71ADA458A72B67FD0C6E1FF
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:700>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:701>
 		Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9 L_0;
 		L_0 = Tessellator_Constrain_mB83988169B046690C3D80CA111718DC809A3CCB0(__this, (&V_0), NULL);
 		V_1 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:702>
 		int32_t L_1 = V_0;
 		int32_t L_2 = __this->___m_Allocator;
 		NativeArray_1__ctor_mEFB2363DF23CE325BB07F64D5297DE7530D4A83F((&V_2), L_1, L_2, 1, NativeArray_1__ctor_mEFB2363DF23CE325BB07F64D5297DE7530D4A83F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:703>
 		int32_t* L_3 = ___0_cellCount;
 		*((int32_t*)L_3) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:704>
 		V_3 = 0;
 		goto IL_004f;
 	}
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:706>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_4 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Flags);
 		int32_t L_5 = V_3;
 		int32_t L_6;
@@ -9755,7 +8819,6 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:708>
 		int32_t* L_7 = ___0_cellCount;
 		int32_t* L_8 = ___0_cellCount;
 		int32_t L_9 = *((int32_t*)L_8);
@@ -9771,14 +8834,12 @@ IL_0021:
 
 IL_004b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:704>
 		int32_t L_14 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_004f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:704>
 		int32_t L_15 = V_3;
 		int32_t L_16 = V_0;
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
@@ -9787,9 +8848,7 @@ IL_004f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:712>
 		Array_1_Dispose_mC88B262340162B014DD3BCE7BD906E61595EE6F1((&V_1), Array_1_Dispose_mC88B262340162B014DD3BCE7BD906E61595EE6F1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:713>
 		NativeArray_1_tA39D7DB71ADA458A72B67FD0C6E1FF021412BA57 L_17 = V_2;
 		return L_17;
 	}
@@ -9803,7 +8862,6 @@ IL2CPP_EXTERN_C  NativeArray_1_tA39D7DB71ADA458A72B67FD0C6E1FF021412BA57 Tessell
 	_returnValue = Tessellator_RemoveExterior_mC35CA28B5C5C1A6457C34715EA3649E566A14B00(_thisAdjusted, ___0_cellCount, method);
 	return _returnValue;
 }
-// Method Definition Index: 95144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tA39D7DB71ADA458A72B67FD0C6E1FF021412BA57 Tessellator_RemoveInterior_m8C9F53C6E83C695B2774C0083D633A8A2D5778B7 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, int32_t ___0_cellCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9821,26 +8879,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tA39D7DB71ADA458A72B67FD0C6E1FF
 	memset((&V_2), 0, sizeof(V_2));
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:718>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:719>
 		Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9 L_0;
 		L_0 = Tessellator_Constrain_mB83988169B046690C3D80CA111718DC809A3CCB0(__this, (&V_0), NULL);
 		V_1 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:720>
 		int32_t L_1 = V_0;
 		int32_t L_2 = __this->___m_Allocator;
 		NativeArray_1__ctor_mEFB2363DF23CE325BB07F64D5297DE7530D4A83F((&V_2), L_1, L_2, 1, NativeArray_1__ctor_mEFB2363DF23CE325BB07F64D5297DE7530D4A83F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:721>
 		___0_cellCount = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:722>
 		V_3 = 0;
 		goto IL_0049;
 	}
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:724>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_3 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Flags);
 		int32_t L_4 = V_3;
 		int32_t L_5;
@@ -9851,7 +8903,6 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:726>
 		int32_t L_6 = ___0_cellCount;
 		int32_t L_7 = L_6;
 		___0_cellCount = ((int32_t)il2cpp_codegen_add(L_7, 1));
@@ -9863,14 +8914,12 @@ IL_0021:
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:722>
 		int32_t L_10 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_0049:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:722>
 		int32_t L_11 = V_3;
 		int32_t L_12 = V_0;
 		if ((((int32_t)L_11) < ((int32_t)L_12)))
@@ -9879,9 +8928,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:730>
 		Array_1_Dispose_mC88B262340162B014DD3BCE7BD906E61595EE6F1((&V_1), Array_1_Dispose_mC88B262340162B014DD3BCE7BD906E61595EE6F1_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:731>
 		NativeArray_1_tA39D7DB71ADA458A72B67FD0C6E1FF021412BA57 L_13 = V_2;
 		return L_13;
 	}
@@ -9895,7 +8942,6 @@ IL2CPP_EXTERN_C  NativeArray_1_tA39D7DB71ADA458A72B67FD0C6E1FF021412BA57 Tessell
 	_returnValue = Tessellator_RemoveInterior_m8C9F53C6E83C695B2774C0083D633A8A2D5778B7(_thisAdjusted, ___0_cellCount, method);
 	return _returnValue;
 }
-// Method Definition Index: 95145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_Triangulate_mEDF1BD94E8DCCD0D95B061B6FAC8C118D580FA32 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___0_points, int32_t ___1_pointCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 ___2_edges, int32_t ___3_edgeCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9948,22 +8994,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_Triangulate_mEDF1BD94E8DCCD0
 	int32_t V_20 = 0;
 	int32_t V_21 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:736>
 		int32_t L_0 = ___3_edgeCount;
 		__this->___m_NumEdges = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:737>
 		int32_t L_1 = ___3_edgeCount;
 		__this->___m_NumHulls = ((int32_t)il2cpp_codegen_multiply(L_1, 2));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:738>
 		int32_t L_2 = ___1_pointCount;
 		__this->___m_NumPoints = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:739>
 		__this->___m_CellCount = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:740>
 		int32_t L_3 = __this->___m_NumHulls;
 		int32_t L_4 = __this->___m_NumHulls;
 		V_0 = ((int32_t)il2cpp_codegen_multiply(L_3, ((int32_t)il2cpp_codegen_add(L_4, 1))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:741>
 		int32_t L_5 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		int32_t L_6 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxTriangleCount;
@@ -9972,69 +9012,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_Triangulate_mEDF1BD94E8DCCD0
 		memset((&L_8), 0, sizeof(L_8));
 		Array_1__ctor_mFBE64F8175ACD89D547D11E5F7832748E4189992((&L_8), L_5, L_6, L_7, 0, Array_1__ctor_mFBE64F8175ACD89D547D11E5F7832748E4189992_RuntimeMethod_var);
 		__this->___m_Cells = L_8;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:742>
 		int32_t L_9 = V_0;
 		int32_t L_10 = __this->___m_Allocator;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_11;
 		memset((&L_11), 0, sizeof(L_11));
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&L_11), L_9, L_10, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
 		__this->___m_ILArray = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:743>
 		int32_t L_12 = V_0;
 		int32_t L_13 = __this->___m_Allocator;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_14;
 		memset((&L_14), 0, sizeof(L_14));
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&L_14), L_12, L_13, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
 		__this->___m_IUArray = L_14;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:745>
 		int32_t L_15 = __this->___m_NumPoints;
 		int32_t L_16 = __this->___m_Allocator;
 		NativeArray_1__ctor_m522B79865E90DCFF4A5D4DEC825F9FEB020B94DA((&V_1), ((int32_t)il2cpp_codegen_multiply(L_15, 8)), L_16, 1, NativeArray_1__ctor_m522B79865E90DCFF4A5D4DEC825F9FEB020B94DA_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:746>
 		V_2 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:748>
 		int32_t L_17 = __this->___m_NumPoints;
 		int32_t L_18 = __this->___m_NumEdges;
 		int32_t L_19 = __this->___m_Allocator;
 		NativeArray_1__ctor_m01409EC44A39A38AB1BF6F2D80CB237238198295((&V_3), ((int32_t)il2cpp_codegen_add(L_17, ((int32_t)il2cpp_codegen_multiply(L_18, 2)))), L_19, 1, NativeArray_1__ctor_m01409EC44A39A38AB1BF6F2D80CB237238198295_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:749>
 		V_4 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:751>
 		V_8 = 0;
 		goto IL_00f7;
 	}
 
 IL_00ab:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:753>
 		il2cpp_codegen_initobj((&V_9), sizeof(UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:754>
 		int32_t L_20 = V_8;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_21;
 		L_21 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_points))->___m_Buffer, L_20);
 		(&V_9)->___a = L_21;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:755>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_22 = (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)(&(&V_9)->___b);
 		il2cpp_codegen_initobj(L_22, sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:756>
 		int32_t L_23 = V_8;
 		(&V_9)->___idx = L_23;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:757>
 		(&V_9)->___type = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:758>
 		int32_t L_24 = V_4;
 		int32_t L_25 = L_24;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_25, 1));
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_26 = V_9;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48, ((&V_3))->___m_Buffer, L_25, (L_26));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:751>
 		int32_t L_27 = V_8;
 		V_8 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_00f7:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:751>
 		int32_t L_28 = V_8;
 		int32_t L_29 = __this->___m_NumPoints;
 		if ((((int32_t)L_28) < ((int32_t)L_29)))
@@ -10043,31 +9068,26 @@ IL_00f7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:761>
 		V_10 = 0;
 		goto IL_024b;
 	}
 
 IL_0109:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:763>
 		int32_t L_30 = V_10;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_31;
 		L_31 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&___2_edges))->___m_Buffer, L_30);
 		V_11 = L_31;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:764>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_32 = V_11;
 		int32_t L_33 = L_32.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_34;
 		L_34 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_points))->___m_Buffer, L_33);
 		V_12 = L_34;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:765>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_35 = V_11;
 		int32_t L_36 = L_35.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_37;
 		L_37 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_points))->___m_Buffer, L_36);
 		V_13 = L_37;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:766>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_38 = V_12;
 		float L_39 = L_38.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_40 = V_13;
@@ -10078,39 +9098,27 @@ IL_0109:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:768>
 		il2cpp_codegen_initobj((&V_14), sizeof(UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:769>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_42 = V_12;
 		(&V_14)->___a = L_42;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:770>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_43 = V_13;
 		(&V_14)->___b = L_43;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:771>
 		int32_t L_44 = V_10;
 		(&V_14)->___idx = L_44;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:772>
 		(&V_14)->___type = 2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:774>
 		il2cpp_codegen_initobj((&V_15), sizeof(UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:775>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_45 = V_13;
 		(&V_15)->___a = L_45;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:776>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_46 = V_12;
 		(&V_15)->___b = L_46;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:777>
 		int32_t L_47 = V_10;
 		(&V_15)->___idx = L_47;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:778>
 		(&V_15)->___type = 1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:780>
 		int32_t L_48 = V_4;
 		int32_t L_49 = L_48;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_49, 1));
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_50 = V_14;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48, ((&V_3))->___m_Buffer, L_49, (L_50));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:781>
 		int32_t L_51 = V_4;
 		int32_t L_52 = L_51;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_52, 1));
@@ -10121,7 +9129,6 @@ IL_0109:
 
 IL_01bf:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:783>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_54 = V_12;
 		float L_55 = L_54.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_56 = V_13;
@@ -10132,39 +9139,27 @@ IL_01bf:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:785>
 		il2cpp_codegen_initobj((&V_16), sizeof(UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:786>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_58 = V_13;
 		(&V_16)->___a = L_58;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:787>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_59 = V_12;
 		(&V_16)->___b = L_59;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:788>
 		int32_t L_60 = V_10;
 		(&V_16)->___idx = L_60;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:789>
 		(&V_16)->___type = 2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:791>
 		il2cpp_codegen_initobj((&V_17), sizeof(UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:792>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_61 = V_12;
 		(&V_17)->___a = L_61;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:793>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_62 = V_13;
 		(&V_17)->___b = L_62;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:794>
 		int32_t L_63 = V_10;
 		(&V_17)->___idx = L_63;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:795>
 		(&V_17)->___type = 1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:797>
 		int32_t L_64 = V_4;
 		int32_t L_65 = L_64;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_65, 1));
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_66 = V_16;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48, ((&V_3))->___m_Buffer, L_65, (L_66));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:798>
 		int32_t L_67 = V_4;
 		int32_t L_68 = L_67;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_68, 1));
@@ -10174,14 +9169,12 @@ IL_01bf:
 
 IL_0245:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:761>
 		int32_t L_70 = V_10;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_70, 1));
 	}
 
 IL_024b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:761>
 		int32_t L_71 = V_10;
 		int32_t L_72 = __this->___m_NumEdges;
 		if ((((int32_t)L_71) < ((int32_t)L_72)))
@@ -10190,9 +9183,6 @@ IL_024b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:804>
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:805>
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:806>
 		NativeArray_1_tF1DCF10BD0CB67989CD3C47CC51F68551481F273 L_73 = V_3;
 		void* L_74;
 		L_74 = NativeArrayUnsafeUtility_GetUnsafeBufferPointerWithoutChecks_TisUEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48_m24F720575D8ADA94ABCB20F0D37D88E488DA3F38(L_73, NativeArrayUnsafeUtility_GetUnsafeBufferPointerWithoutChecks_TisUEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48_m24F720575D8ADA94ABCB20F0D37D88E488DA3F38_RuntimeMethod_var);
@@ -10201,9 +9191,7 @@ IL_024b:
 		TessEventCompare_tD6565A5DC4D93CD0DD8131A7083C3DC87BBCF05C L_76 = V_18;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_InsertionSort_TisUEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48_TisTessEventCompare_tD6565A5DC4D93CD0DD8131A7083C3DC87BBCF05C_m19D912FA8F3DC74C3D946BE1F0B6A16FEB0E0501(L_74, 0, ((int32_t)il2cpp_codegen_subtract(L_75, 1)), L_76, ModuleHandle_InsertionSort_TisUEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48_TisTessEventCompare_tD6565A5DC4D93CD0DD8131A7083C3DC87BBCF05C_m19D912FA8F3DC74C3D946BE1F0B6A16FEB0E0501_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:810>
 		V_5 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:811>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_77;
 		L_77 = IL2CPP_NATIVEARRAY_GET_ITEM(UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48, ((&V_3))->___m_Buffer, 0);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_78 = L_77.___a;
@@ -10217,23 +9205,17 @@ IL_024b:
 		float L_84;
 		L_84 = math_pow_m2B2C611A37952CFB13BB0AE800A6A601A2E4A49B_inline((2.0f), (-16.0f), NULL);
 		V_6 = ((float)il2cpp_codegen_subtract(L_79, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add((1.0f), L_83)), L_84))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:813>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_85 = (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)(&(&V_7)->___a);
 		float L_86 = V_6;
 		L_85->___x = L_86;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:814>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_87 = (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)(&(&V_7)->___a);
 		L_87->___y = (1.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:815>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_88 = (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)(&(&V_7)->___b);
 		float L_89 = V_6;
 		L_88->___x = L_89;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:816>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_90 = (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)(&(&V_7)->___b);
 		L_90->___y = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:817>
 		(&V_7)->___idx = (-1);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:818>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_91 = __this->___m_ILArray;
 		int32_t L_92 = __this->___m_NumHulls;
 		int32_t L_93 = __this->___m_NumHulls;
@@ -10242,7 +9224,6 @@ IL_024b:
 		memset((&L_95), 0, sizeof(L_95));
 		ArraySlice_1__ctor_m7A156B6BBBF0785BBA752D05CDB8E23C2201117D((&L_95), L_91, ((int32_t)il2cpp_codegen_multiply(L_92, L_93)), L_94, ArraySlice_1__ctor_m7A156B6BBBF0785BBA752D05CDB8E23C2201117D_RuntimeMethod_var);
 		(&V_7)->___ilarray = L_95;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:819>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_96 = __this->___m_IUArray;
 		int32_t L_97 = __this->___m_NumHulls;
 		int32_t L_98 = __this->___m_NumHulls;
@@ -10251,19 +9232,14 @@ IL_024b:
 		memset((&L_100), 0, sizeof(L_100));
 		ArraySlice_1__ctor_m7A156B6BBBF0785BBA752D05CDB8E23C2201117D((&L_100), L_96, ((int32_t)il2cpp_codegen_multiply(L_97, L_98)), L_99, ArraySlice_1__ctor_m7A156B6BBBF0785BBA752D05CDB8E23C2201117D_RuntimeMethod_var);
 		(&V_7)->___iuarray = L_100;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:820>
 		(&V_7)->___ilcount = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:821>
 		(&V_7)->___iucount = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:822>
 		int32_t L_101 = V_2;
 		int32_t L_102 = L_101;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_102, 1));
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_103 = V_7;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE, ((&V_1))->___m_Buffer, L_102, (L_103));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:825>
 		V_19 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:825>
 		int32_t L_104 = V_4;
 		V_20 = L_104;
 		goto IL_03e8;
@@ -10271,7 +9247,6 @@ IL_024b:
 
 IL_036e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:828>
 		int32_t L_105 = V_19;
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_106;
 		L_106 = IL2CPP_NATIVEARRAY_GET_ITEM(UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48, ((&V_3))->___m_Buffer, L_105);
@@ -10296,7 +9271,6 @@ IL_036e:
 
 IL_0389:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:832>
 		NativeArray_1_tD8F1D9134318BE0ED52F8A8AE252F649A17B1C8C L_110 = V_1;
 		int32_t L_111 = V_2;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_112 = ___0_points;
@@ -10311,13 +9285,11 @@ IL_0389:
 		bool L_119;
 		L_119 = Tessellator_AddPoint_mBDF7196470641275050A71A48B5CF45404F370B8(__this, L_110, L_111, L_112, L_115, L_118, NULL);
 		V_5 = L_119;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:834>
 		goto IL_03de;
 	}
 
 IL_03b2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:838>
 		NativeArray_1_tD8F1D9134318BE0ED52F8A8AE252F649A17B1C8C L_120 = V_1;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_121 = ___0_points;
 		int32_t L_122 = V_19;
@@ -10326,13 +9298,11 @@ IL_03b2:
 		bool L_124;
 		L_124 = Tessellator_SplitHulls_m41280B60D1379FF22538AE33BF6BECF5FD78FD2E(__this, L_120, (&V_2), L_121, L_123, NULL);
 		V_5 = L_124;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:840>
 		goto IL_03de;
 	}
 
 IL_03c9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:844>
 		NativeArray_1_tD8F1D9134318BE0ED52F8A8AE252F649A17B1C8C L_125 = V_1;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_126 = ___0_points;
 		int32_t L_127 = V_19;
@@ -10345,7 +9315,6 @@ IL_03c9:
 
 IL_03de:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:849>
 		bool L_130 = V_5;
 		if (!L_130)
 		{
@@ -10353,14 +9322,12 @@ IL_03de:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:825>
 		int32_t L_131 = V_19;
 		V_19 = ((int32_t)il2cpp_codegen_add(L_131, 1));
 	}
 
 IL_03e8:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:825>
 		int32_t L_132 = V_19;
 		int32_t L_133 = V_20;
 		if ((((int32_t)L_132) < ((int32_t)L_133)))
@@ -10371,11 +9338,8 @@ IL_03e8:
 
 IL_03ee:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:853>
 		NativeArray_1_Dispose_m375D1B306ADD6785F6D9118B95F49795EA4AEB30((&V_3), NativeArray_1_Dispose_m375D1B306ADD6785F6D9118B95F49795EA4AEB30_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:854>
 		NativeArray_1_Dispose_mE1BFAD55ED60725A66FE0A16D813AD5381E50C11((&V_1), NativeArray_1_Dispose_mE1BFAD55ED60725A66FE0A16D813AD5381E50C11_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:855>
 		bool L_134 = V_5;
 		return L_134;
 	}
@@ -10389,7 +9353,6 @@ IL2CPP_EXTERN_C  bool Tessellator_Triangulate_mEDF1BD94E8DCCD0D95B061B6FAC8C118D
 	_returnValue = Tessellator_Triangulate_mEDF1BD94E8DCCD0D95B061B6FAC8C118D580FA32(_thisAdjusted, ___0_points, ___1_pointCount, ___2_edges, ___3_edgeCount, method);
 	return _returnValue;
 }
-// Method Definition Index: 95146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_Tessellate_m3EB11B589A3E3E8563756605E2C94CEBBC7F2F31 (int32_t ___0_allocator, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___1_pgPoints, int32_t ___2_pgPointCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 ___3_pgEdges, int32_t ___4_pgEdgeCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___5_outputVertices, int32_t* ___6_vertexCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___7_outputIndices, int32_t* ___8_indexCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10414,18 +9377,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_Tessellate_m3EB11B589A3E3E85
 	int32_t G_B3_0 = 0;
 	int32_t G_B14_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:861>
 		il2cpp_codegen_initobj((&V_0), sizeof(Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:862>
 		int32_t L_0 = ___0_allocator;
 		Tessellator_SetAllocator_mD0233B1C112FFE7BFB90F4A13722AAAD49EF3C46_inline((&V_0), L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:863>
 		V_1 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:863>
 		V_2 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:864>
 		V_3 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:866>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_1 = ___1_pgPoints;
 		int32_t L_2 = ___2_pgPointCount;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_3 = ___3_pgEdges;
@@ -10433,7 +9390,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tessellator_Tessellate_m3EB11B589A3E3E85
 		bool L_5;
 		L_5 = Tessellator_Triangulate_mEDF1BD94E8DCCD0D95B061B6FAC8C118D580FA32((&V_0), L_1, L_2, L_3, L_4, NULL);
 		V_3 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:867>
 		bool L_6 = V_3;
 		if (!L_6)
 		{
@@ -10457,7 +9413,6 @@ IL_0031:
 IL_0032:
 	{
 		V_3 = (bool)G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:869>
 		bool L_10 = V_3;
 		if (!L_10)
 		{
@@ -10465,36 +9420,30 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:872>
 		NativeArray_1_tA39D7DB71ADA458A72B67FD0C6E1FF021412BA57 L_11;
 		L_11 = Tessellator_RemoveExterior_mC35CA28B5C5C1A6457C34715EA3649E566A14B00((&V_0), (&V_2), NULL);
 		V_4 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:873>
 		V_5 = 0;
 		goto IL_0117;
 	}
 
 IL_004c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:875>
 		int32_t L_12 = V_5;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_13;
 		L_13 = IL2CPP_NATIVEARRAY_GET_ITEM(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF, ((&V_4))->___m_Buffer, L_12);
 		int32_t L_14 = L_13.___x;
 		V_6 = (uint16_t)((int32_t)(uint16_t)L_14);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:876>
 		int32_t L_15 = V_5;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_16;
 		L_16 = IL2CPP_NATIVEARRAY_GET_ITEM(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF, ((&V_4))->___m_Buffer, L_15);
 		int32_t L_17 = L_16.___y;
 		V_7 = (uint16_t)((int32_t)(uint16_t)L_17);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:877>
 		int32_t L_18 = V_5;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_19;
 		L_19 = IL2CPP_NATIVEARRAY_GET_ITEM(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF, ((&V_4))->___m_Buffer, L_18);
 		int32_t L_20 = L_19.___z;
 		V_8 = (uint16_t)((int32_t)(uint16_t)L_20);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:878>
 		uint16_t L_21 = V_6;
 		uint16_t L_22 = V_7;
 		if ((((int32_t)L_21) == ((int32_t)L_22)))
@@ -10519,7 +9468,6 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:880>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_27 = ___7_outputIndices;
 		int32_t* L_28 = ___8_indexCount;
 		int32_t* L_29 = ___8_indexCount;
@@ -10530,7 +9478,6 @@ IL_004c:
 		int32_t L_32 = V_9;
 		uint16_t L_33 = V_6;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_27)->___m_Buffer, L_32, (L_33));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:881>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_34 = ___7_outputIndices;
 		int32_t* L_35 = ___8_indexCount;
 		int32_t* L_36 = ___8_indexCount;
@@ -10541,7 +9488,6 @@ IL_004c:
 		int32_t L_39 = V_9;
 		uint16_t L_40 = V_8;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_34)->___m_Buffer, L_39, (L_40));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:882>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_41 = ___7_outputIndices;
 		int32_t* L_42 = ___8_indexCount;
 		int32_t* L_43 = ___8_indexCount;
@@ -10556,7 +9502,6 @@ IL_004c:
 
 IL_00d6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:884>
 		int32_t L_48 = V_5;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_49;
 		L_49 = IL2CPP_NATIVEARRAY_GET_ITEM(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF, ((&V_4))->___m_Buffer, L_48);
@@ -10577,14 +9522,12 @@ IL_00d6:
 		int32_t L_60;
 		L_60 = math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline(L_58, L_59, NULL);
 		V_1 = L_60;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:873>
 		int32_t L_61 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_61, 1));
 	}
 
 IL_0117:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:873>
 		int32_t L_62 = V_5;
 		int32_t L_63 = V_2;
 		if ((((int32_t)L_62) < ((int32_t)L_63)))
@@ -10593,7 +9536,6 @@ IL_0117:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:886>
 		int32_t L_64 = V_1;
 		if (L_64)
 		{
@@ -10614,14 +9556,12 @@ IL_0125:
 IL_0128:
 	{
 		V_1 = G_B14_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:887>
 		V_10 = 0;
 		goto IL_0152;
 	}
 
 IL_012e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:888>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_66 = ___5_outputVertices;
 		int32_t* L_67 = ___6_vertexCount;
 		int32_t* L_68 = ___6_vertexCount;
@@ -10634,14 +9574,12 @@ IL_012e:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_73;
 		L_73 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___1_pgPoints))->___m_Buffer, L_72);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_66)->___m_Buffer, L_71, (L_73));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:887>
 		int32_t L_74 = V_10;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_74, 1));
 	}
 
 IL_0152:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:887>
 		int32_t L_75 = V_10;
 		int32_t L_76 = V_1;
 		if ((((int32_t)L_75) < ((int32_t)L_76)))
@@ -10650,20 +9588,16 @@ IL_0152:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:889>
 		NativeArray_1_Dispose_m0015D099CB0B1F5A98810933273CC400B0BD4213((&V_4), NativeArray_1_Dispose_m0015D099CB0B1F5A98810933273CC400B0BD4213_RuntimeMethod_var);
 	}
 
 IL_015e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:892>
 		Tessellator_Cleanup_mD62652EF03E447E90D6374B21895AB59072A3B75((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:893>
 		bool L_77 = V_3;
 		return L_77;
 	}
 }
-// Method Definition Index: 95147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_Cleanup_mD62652EF03E447E90D6374B21895AB59072A3B75 (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10680,7 +9614,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_Cleanup_mD62652EF03E447E90D6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:898>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_0 = (NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)(&__this->___m_Edges);
 		bool L_1;
 		L_1 = NativeArray_1_get_IsCreated_m5BE85069615B49772C9DB202004FA2FD36F418F2_inline(L_0, NativeArray_1_get_IsCreated_m5BE85069615B49772C9DB202004FA2FD36F418F2_RuntimeMethod_var);
@@ -10690,14 +9623,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tessellator_Cleanup_mD62652EF03E447E90D6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:898>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_2 = (NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)(&__this->___m_Edges);
 		NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2(L_2, NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2_RuntimeMethod_var);
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:899>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_3 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		bool L_4;
 		L_4 = NativeArray_1_get_IsCreated_m5C025C1130167400C7A090BCA17032DEC9121068_inline(L_3, NativeArray_1_get_IsCreated_m5C025C1130167400C7A090BCA17032DEC9121068_RuntimeMethod_var);
@@ -10707,14 +9638,12 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:899>
 		NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* L_5 = (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582*)(&__this->___m_Stars);
 		NativeArray_1_Dispose_mD5A1F243B11C81DC458BA9ABC3D208035F840810(L_5, NativeArray_1_Dispose_mD5A1F243B11C81DC458BA9ABC3D208035F840810_RuntimeMethod_var);
 	}
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:900>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_6 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_SPArray);
 		bool L_7;
 		L_7 = NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_inline(L_6, NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_RuntimeMethod_var);
@@ -10724,14 +9653,12 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:900>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_8 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_SPArray);
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E(L_8, NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
 	}
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:901>
 		Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9* L_9 = (Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9*)(&__this->___m_Cells);
 		bool L_10;
 		L_10 = Array_1_get_IsCreated_m44DD2713C28C6B536B227F85ED47F33202B5D096(L_9, Array_1_get_IsCreated_m44DD2713C28C6B536B227F85ED47F33202B5D096_RuntimeMethod_var);
@@ -10741,14 +9668,12 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:901>
 		Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9* L_11 = (Array_1_t1533746A012CB5D934186A687D1317C6DD0E8BC9*)(&__this->___m_Cells);
 		Array_1_Dispose_mC88B262340162B014DD3BCE7BD906E61595EE6F1(L_11, Array_1_Dispose_mC88B262340162B014DD3BCE7BD906E61595EE6F1_RuntimeMethod_var);
 	}
 
 IL_0060:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:902>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_12 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_ILArray);
 		bool L_13;
 		L_13 = NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_inline(L_12, NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_RuntimeMethod_var);
@@ -10758,14 +9683,12 @@ IL_0060:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:902>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_14 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_ILArray);
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E(L_14, NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
 	}
 
 IL_0078:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:903>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_15 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_IUArray);
 		bool L_16;
 		L_16 = NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_inline(L_15, NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_RuntimeMethod_var);
@@ -10775,14 +9698,12 @@ IL_0078:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:903>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_17 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_IUArray);
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E(L_17, NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
 	}
 
 IL_0090:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:904>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_18 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Flags);
 		bool L_19;
 		L_19 = NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_inline(L_18, NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_RuntimeMethod_var);
@@ -10792,14 +9713,12 @@ IL_0090:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:904>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_20 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Flags);
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E(L_20, NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
 	}
 
 IL_00a8:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:905>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_21 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Neighbors);
 		bool L_22;
 		L_22 = NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_inline(L_21, NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_RuntimeMethod_var);
@@ -10809,14 +9728,12 @@ IL_00a8:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:905>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_23 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Neighbors);
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E(L_23, NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
 	}
 
 IL_00c0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:906>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_24 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Constraints);
 		bool L_25;
 		L_25 = NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_inline(L_24, NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_RuntimeMethod_var);
@@ -10826,14 +9743,12 @@ IL_00c0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:906>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_26 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___m_Constraints);
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E(L_26, NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
 	}
 
 IL_00d8:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:907>
 		return;
 	}
 }
@@ -10852,7 +9767,6 @@ IL2CPP_EXTERN_C  void Tessellator_Cleanup_mD62652EF03E447E90D6374B21895AB59072A3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullPointL_Test_mFFB799A0A608010AA7A00AECB121CA485508D3FC (TestHullPointL_t4D389B83F798993513916C22E8F7928E7752760B* __this, UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE ___0_h, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_p, float* ___2_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10862,7 +9776,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullPointL_Test_mFFB799A0A608010AA7A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:39>
 		float* L_0 = ___2_t;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_1 = ___0_h;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = L_1.___a;
@@ -10873,7 +9786,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullPointL_Test_mFFB799A0A608010AA7A
 		float L_6;
 		L_6 = ModuleHandle_OrientFast_m437EC497545DA10AEA60FF6D19D98367878448F9(L_2, L_4, L_5, NULL);
 		*((float*)L_0) = (float)L_6;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:40>
 		float* L_7 = ___2_t;
 		float L_8 = *((float*)L_7);
 		return (bool)((((float)L_8) < ((float)(0.0f)))? 1 : 0);
@@ -10896,7 +9808,6 @@ IL2CPP_EXTERN_C  bool TestHullPointL_Test_mFFB799A0A608010AA7A00AECB121CA485508D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullPointU_Test_mFB4072C78BD14C4254E4466A6910EC43B48F806F (TestHullPointU_t28A65D866BF5362A53D90E02F055D5EBC33503BD* __this, UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE ___0_h, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_p, float* ___2_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10906,7 +9817,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullPointU_Test_mFB4072C78BD14C4254E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:48>
 		float* L_0 = ___2_t;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_1 = ___0_h;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = L_1.___a;
@@ -10917,7 +9827,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullPointU_Test_mFB4072C78BD14C4254E
 		float L_6;
 		L_6 = ModuleHandle_OrientFast_m437EC497545DA10AEA60FF6D19D98367878448F9(L_2, L_4, L_5, NULL);
 		*((float*)L_0) = (float)L_6;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:49>
 		float* L_7 = ___2_t;
 		float L_8 = *((float*)L_7);
 		return (bool)((((float)L_8) > ((float)(0.0f)))? 1 : 0);
@@ -10940,18 +9849,15 @@ IL2CPP_EXTERN_C  bool TestHullPointU_Test_mFB4072C78BD14C4254E4466A6910EC43B48F8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullEventLe_Test_mB26988EC179628C07833DB1923209744350C7852 (TestHullEventLe_tF30B6E451DCE62C79025219C71FA1C609455FA3B* __this, UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE ___0_h, UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 ___1_p, float* ___2_t, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:90>
 		float* L_0 = ___2_t;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_1 = ___0_h;
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_2 = ___1_p;
 		float L_3;
 		L_3 = Tessellator_FindSplit_m7EEFF84B65CCEAC234D6BD19180AA65DCB9F1FDE(L_1, L_2, NULL);
 		*((float*)L_0) = (float)L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:91>
 		float* L_4 = ___2_t;
 		float L_5 = *((float*)L_4);
 		return (bool)((((int32_t)((!(((float)L_5) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -10974,18 +9880,15 @@ IL2CPP_EXTERN_C  bool TestHullEventLe_Test_mB26988EC179628C07833DB1923209744350C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullEventE_Test_m3F5754510484A9A9775553F649BF5D1576A13689 (TestHullEventE_tFB8BB5AA140989DF47068D7406312F122D863003* __this, UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE ___0_h, UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 ___1_p, float* ___2_t, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:99>
 		float* L_0 = ___2_t;
 		UHull_t120C7AC3AB30ADD49845481C37359ADE2DB360EE L_1 = ___0_h;
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_2 = ___1_p;
 		float L_3;
 		L_3 = Tessellator_FindSplit_m7EEFF84B65CCEAC234D6BD19180AA65DCB9F1FDE(L_1, L_2, NULL);
 		*((float*)L_0) = (float)L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:100>
 		float* L_4 = ___2_t;
 		float L_5 = *((float*)L_4);
 		return (bool)((((float)L_5) == ((float)(0.0f)))? 1 : 0);
@@ -11008,22 +9911,18 @@ IL2CPP_EXTERN_C  bool TestHullEventE_Test_m3F5754510484A9A9775553F649BF5D1576A13
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestEdgePointE_Test_m0A78F3EABC68CD0992FB01DD956897B480542A77 (TestEdgePointE_tC8D47FD9F66ED7CA2903686221939B67EE826BDB* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_h, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___1_p, float* ___2_t, const RuntimeMethod* method) 
 {
 	TessEdgeCompare_tB8FAAD6FDA5527AE0C99137AB99CA3AB44881792 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:314>
 		il2cpp_codegen_initobj((&V_0), sizeof(TessEdgeCompare_tB8FAAD6FDA5527AE0C99137AB99CA3AB44881792));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:315>
 		float* L_0 = ___2_t;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_1 = ___0_h;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_2 = ___1_p;
 		int32_t L_3;
 		L_3 = TessEdgeCompare_Compare_mD9295D4C8DFA530C2A527AF00B76E90D71F92DB2((&V_0), L_1, L_2, NULL);
 		*((float*)L_0) = (float)((float)L_3);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:316>
 		float* L_4 = ___2_t;
 		float L_5 = *((float*)L_4);
 		return (bool)((((float)L_5) == ((float)(0.0f)))? 1 : 0);
@@ -11046,22 +9945,18 @@ IL2CPP_EXTERN_C  bool TestEdgePointE_Test_m0A78F3EABC68CD0992FB01DD956897B480542
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestCellE_Test_mD7712C00B9AFEF847F2C2DD7599CD79F18470A4E (TestCellE_t61EAAF000C7DBB7CC89E7AE1F6F12214AC1C07C9* __this, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___0_h, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___1_p, float* ___2_t, const RuntimeMethod* method) 
 {
 	TessCellCompare_t74157D34A5BC0261A18491A63CBF98426EA0358A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:548>
 		il2cpp_codegen_initobj((&V_0), sizeof(TessCellCompare_t74157D34A5BC0261A18491A63CBF98426EA0358A));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:549>
 		float* L_0 = ___2_t;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_1 = ___0_h;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_2 = ___1_p;
 		int32_t L_3;
 		L_3 = TessCellCompare_Compare_mBAE987CDAB366826FCD0DF8D442AA9A4FB688351((&V_0), L_1, L_2, NULL);
 		*((float*)L_0) = (float)((float)L_3);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:550>
 		float* L_4 = ___2_t;
 		float L_5 = *((float*)L_4);
 		return (bool)((((float)L_5) == ((float)(0.0f)))? 1 : 0);
@@ -11084,7 +9979,6 @@ IL2CPP_EXTERN_C  bool TestCellE_Test_mD7712C00B9AFEF847F2C2DD7599CD79F18470A4E_A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ConvexHull2D_DistancePointToLine_mED7E7CBD0318C93CA3A1F40C7A6356556E5EA45C (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_pq, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_p0, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_p1, const RuntimeMethod* method) 
 {
 	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA V_0;
@@ -11093,23 +9987,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ConvexHull2D_DistancePointToLine_mED7E7
 	float V_2 = 0.0f;
 	float V_3 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:35>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___2_p1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___1_p0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
 		L_2 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:36>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_3 = ___0_pq;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___1_p0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_5;
 		L_5 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:38>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = V_0;
 		float L_7;
 		L_7 = math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_inline(L_5, L_6, NULL);
 		V_1 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:39>
 		float L_8 = V_1;
 		if ((!(((float)L_8) <= ((float)(0.0f)))))
 		{
@@ -11117,7 +10007,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ConvexHull2D_DistancePointToLine_mED7E7
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:40>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9 = ___1_p0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = ___0_pq;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_11;
@@ -11129,13 +10018,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ConvexHull2D_DistancePointToLine_mED7E7
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:42>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_13 = V_0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_14 = V_0;
 		float L_15;
 		L_15 = math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_inline(L_13, L_14, NULL);
 		V_2 = L_15;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:43>
 		float L_16 = V_2;
 		float L_17 = V_1;
 		if ((!(((float)L_16) <= ((float)L_17))))
@@ -11144,7 +10031,6 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:44>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_18 = ___2_p1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_19 = ___0_pq;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_20;
@@ -11156,11 +10042,9 @@ IL_002b:
 
 IL_0044:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:46>
 		float L_22 = V_1;
 		float L_23 = V_2;
 		V_3 = ((float)(L_22/L_23));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:47>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_24 = ___1_p0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_25 = V_0;
 		float L_26 = V_3;
@@ -11168,7 +10052,6 @@ IL_0044:
 		L_27 = float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_inline(L_25, L_26, NULL);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_28;
 		L_28 = float2_op_Addition_m718974663A956F64D7C45D06C088550637F13693_inline(L_24, L_27, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:48>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_29 = ___0_pq;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_30;
 		L_30 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_28, L_29, NULL);
@@ -11177,11 +10060,9 @@ IL_0044:
 		return L_31;
 	}
 }
-// Method Definition Index: 95155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ConvexHull2D_Sign_m30968B27AE2F8D65D17029A9AFFB79BC51DD815B (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_p1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_p2, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_p3, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:53>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_p1;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___2_p3;
@@ -11201,7 +10082,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ConvexHull2D_Sign_m30968B27AE2F8D65D170
 		return ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_9, L_11)), ((float)il2cpp_codegen_subtract(L_13, L_15))))));
 	}
 }
-// Method Definition Index: 95156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexHull2D_PointInTriangle_mBDA1AD5F2684473F5E0440264C3D59939B2E52B6 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_pt, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_v1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_v2, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_v3, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11221,28 +10101,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexHull2D_PointInTriangle_mBDA1AD5F26
 	float G_B4_1 = 0.0f;
 	int32_t G_B8_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:61>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___1_v1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___2_v2;
 		il2cpp_codegen_runtime_class_init_inline(ConvexHull2D_t6BC530BFFEBEC40725275B14BE084F8C8CEEFE4B_il2cpp_TypeInfo_var);
 		float L_3;
 		L_3 = ConvexHull2D_Sign_m30968B27AE2F8D65D17029A9AFFB79BC51DD815B(L_0, L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:62>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_5 = ___2_v2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___3_v3;
 		float L_7;
 		L_7 = ConvexHull2D_Sign_m30968B27AE2F8D65D17029A9AFFB79BC51DD815B(L_4, L_5, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:63>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9 = ___3_v3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = ___1_v1;
 		float L_11;
 		L_11 = ConvexHull2D_Sign_m30968B27AE2F8D65D17029A9AFFB79BC51DD815B(L_8, L_9, L_10, NULL);
 		V_1 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:65>
 		float L_12 = L_3;
 		if ((((float)L_12) < ((float)(0.0f))))
 		{
@@ -11276,7 +10152,6 @@ IL_0034:
 IL_0035:
 	{
 		V_2 = (bool)G_B4_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:66>
 		if ((((float)G_B4_1) > ((float)(0.0f))))
 		{
 			goto IL_004f;
@@ -11303,13 +10178,11 @@ IL_004f:
 IL_0050:
 	{
 		V_3 = (bool)G_B8_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:68>
 		bool L_17 = V_2;
 		bool L_18 = V_3;
 		return (bool)((((int32_t)((int32_t)((int32_t)L_17&(int32_t)L_18))) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 95157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConvexHull2D_FetchPointsOutsideTriangle_m03330DBB97F7054911F1C5C5F9842F0133DC2B88 (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___0_input, int32_t ___1_inputCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___2_output, int32_t* ___3_outputCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___4_lp, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___5_p, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___6_rp, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11321,14 +10194,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConvexHull2D_FetchPointsOutsideTriangle_
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:74>
 		V_0 = 0;
 		goto IL_0032;
 	}
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:76>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_0 = ___0_input;
 		int32_t L_1 = V_0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -11339,14 +10210,12 @@ IL_0004:
 		il2cpp_codegen_runtime_class_init_inline(ConvexHull2D_t6BC530BFFEBEC40725275B14BE084F8C8CEEFE4B_il2cpp_TypeInfo_var);
 		bool L_6;
 		L_6 = ConvexHull2D_PointInTriangle_mBDA1AD5F2684473F5E0440264C3D59939B2E52B6(L_2, L_3, L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:77>
 		if (L_6)
 		{
 			goto IL_002e;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:79>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_7 = ___2_output;
 		int32_t* L_8 = ___3_outputCount;
 		int32_t* L_9 = ___3_outputCount;
@@ -11364,14 +10233,12 @@ IL_0004:
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:74>
 		int32_t L_16 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 	}
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:74>
 		int32_t L_17 = V_0;
 		int32_t L_18 = ___1_inputCount;
 		if ((((int32_t)L_17) < ((int32_t)L_18)))
@@ -11380,11 +10247,9 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 95158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConvexHull2D_FetchPointsOnRight_m02E07DA7ABC2A208B13E1075EC4F7B9045484E63 (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___0_input, int32_t ___1_inputCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___2_output, int32_t* ___3_outputCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___4_l, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___5_r, const RuntimeMethod* method) 
 {
 	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA V_0;
@@ -11394,20 +10259,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConvexHull2D_FetchPointsOnRight_m02E07DA
 	memset((&V_2), 0, sizeof(V_2));
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:86>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___5_r;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___4_l;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
 		L_2 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:87>
 		V_1 = 0;
 		goto IL_0059;
 	}
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:89>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_3 = ___5_r;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_4 = ___0_input;
 		int32_t L_5 = V_1;
@@ -11416,7 +10278,6 @@ IL_000e:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7;
 		L_7 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_3, L_6, NULL);
 		V_2 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:90>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8 = V_0;
 		float L_9 = L_8.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = V_2;
@@ -11425,14 +10286,12 @@ IL_000e:
 		float L_13 = L_12.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_14 = V_2;
 		float L_15 = L_14.___x;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:91>
 		if ((!(((float)((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_9, L_11)), ((float)il2cpp_codegen_multiply(L_13, L_15))))) > ((float)(0.0f)))))
 		{
 			goto IL_0055;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:93>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_16 = ___2_output;
 		int32_t* L_17 = ___3_outputCount;
 		int32_t* L_18 = ___3_outputCount;
@@ -11450,14 +10309,12 @@ IL_000e:
 
 IL_0055:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:87>
 		int32_t L_25 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_25, 1));
 	}
 
 IL_0059:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:87>
 		int32_t L_26 = V_1;
 		int32_t L_27 = ___1_inputCount;
 		if ((((int32_t)L_26) < ((int32_t)L_27)))
@@ -11466,11 +10323,9 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:96>
 		return;
 	}
 }
-// Method Definition Index: 95159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConvexHull2D_FetchPoints_m1C80B7E894F4E3C7941525938F28C4192204D9F0 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___0_input, int32_t ___1_inputCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___2_lp, int32_t* ___3_lpCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___4_rp, int32_t* ___5_rpCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___6_l, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___7_r, const RuntimeMethod* method) 
 {
 	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA V_0;
@@ -11484,32 +10339,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConvexHull2D_FetchPoints_m1C80B7E894F4E3
 	float G_B3_0 = 0.0f;
 	float G_B2_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:101>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___7_r;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___6_l;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
 		L_2 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:102>
 		V_1 = 0;
 		goto IL_007f;
 	}
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:104>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_3 = ___0_input;
 		int32_t L_4 = V_1;
 		uint32_t L_5 = sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = (*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)il2cpp_codegen_add((intptr_t)L_3, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_4), (int32_t)L_5)))));
 		V_2 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:105>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7 = ___7_r;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8 = V_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9;
 		L_9 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_7, L_8, NULL);
 		V_3 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:106>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = V_0;
 		float L_11 = L_10.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_12 = V_3;
@@ -11518,7 +10368,6 @@ IL_000e:
 		float L_15 = L_14.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_16 = V_3;
 		float L_17 = L_16.___x;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:107>
 		float L_18 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_11, L_13)), ((float)il2cpp_codegen_multiply(L_15, L_17))));
 		if ((!(((float)L_18) > ((float)(0.0f)))))
 		{
@@ -11528,7 +10377,6 @@ IL_000e:
 		G_B2_0 = L_18;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:109>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_19 = ___2_lp;
 		int32_t* L_20 = ___3_lpCount;
 		int32_t* L_21 = ___3_lpCount;
@@ -11544,14 +10392,12 @@ IL_000e:
 
 IL_005e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:111>
 		if ((!(((float)G_B3_0) < ((float)(0.0f)))))
 		{
 			goto IL_007b;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:113>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_26 = ___4_rp;
 		int32_t* L_27 = ___5_rpCount;
 		int32_t* L_28 = ___5_rpCount;
@@ -11566,14 +10412,12 @@ IL_005e:
 
 IL_007b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:102>
 		int32_t L_33 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_33, 1));
 	}
 
 IL_007f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:102>
 		int32_t L_34 = V_1;
 		int32_t L_35 = ___1_inputCount;
 		if ((((int32_t)L_34) < ((int32_t)L_35)))
@@ -11582,11 +10426,9 @@ IL_007f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:116>
 		return;
 	}
 }
-// Method Definition Index: 95160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConvexHull2D_Generate_m574A0345F29BB39BAE4E59C3366D06B456EDF9B9 (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___0_output, int32_t* ___1_outputCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___2_input, int32_t ___3_inputCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___4_l, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___5_r, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11618,36 +10460,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConvexHull2D_Generate_m574A0345F29BB39BA
 	memset((&V_12), 0, sizeof(V_12));
 	int32_t V_13 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:122>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___4_l;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___4_l;
 		float L_3 = L_2.___y;
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&V_0), L_1, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:123>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___5_r;
 		float L_5 = L_4.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___5_r;
 		float L_7 = L_6.___y;
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&V_1), L_5, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:124>
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&V_2), (0.0f), (0.0f), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:127>
 		V_3 = (9.99999975E-06f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:128>
 		float L_8 = V_3;
 		V_4 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:128>
 		float L_9 = V_3;
 		V_5 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:129>
 		V_6 = 0;
 		goto IL_0076;
 	}
 
 IL_004c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:131>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_10 = ___2_input;
 		int32_t L_11 = V_6;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_12;
@@ -11658,7 +10492,6 @@ IL_004c:
 		float L_15;
 		L_15 = ConvexHull2D_DistancePointToLine_mED7E7CBD0318C93CA3A1F40C7A6356556E5EA45C(L_12, L_13, L_14, NULL);
 		V_4 = L_15;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:132>
 		float L_16 = V_4;
 		float L_17 = V_5;
 		if ((!(((float)L_16) > ((float)L_17))))
@@ -11667,27 +10500,23 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:134>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_18 = ___2_input;
 		int32_t L_19 = V_6;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_20;
 		L_20 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_18)->___m_Buffer, L_19);
 		V_2 = L_20;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:135>
 		float L_21 = V_4;
 		V_5 = L_21;
 	}
 
 IL_0070:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:129>
 		int32_t L_22 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_22, 1));
 	}
 
 IL_0076:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:129>
 		int32_t L_23 = V_6;
 		int32_t L_24 = ___3_inputCount;
 		if ((((int32_t)L_23) < ((int32_t)L_24)))
@@ -11696,7 +10525,6 @@ IL_0076:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:140>
 		float L_25 = V_5;
 		float L_26 = V_3;
 		if ((((float)L_25) == ((float)L_26)))
@@ -11705,7 +10533,6 @@ IL_0076:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:143>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_27 = ___0_output;
 		int32_t* L_28 = ___1_outputCount;
 		int32_t* L_29 = ___1_outputCount;
@@ -11716,12 +10543,9 @@ IL_0076:
 		int32_t L_32 = V_13;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_33 = V_2;
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_27)->___m_Buffer, L_32, (L_33));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:146>
 		V_7 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:147>
 		int32_t L_34 = ___3_inputCount;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_8), L_34, 2, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:148>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_35 = ___2_input;
 		int32_t L_36 = ___3_inputCount;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_37 = ___4_l;
@@ -11729,17 +10553,13 @@ IL_0076:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_39 = ___5_r;
 		il2cpp_codegen_runtime_class_init_inline(ConvexHull2D_t6BC530BFFEBEC40725275B14BE084F8C8CEEFE4B_il2cpp_TypeInfo_var);
 		ConvexHull2D_FetchPointsOutsideTriangle_m03330DBB97F7054911F1C5C5F9842F0133DC2B88(L_35, L_36, (&V_8), (&V_7), L_37, L_38, L_39, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:151>
 		V_9 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:152>
 		int32_t L_40 = V_7;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_10), L_40, 2, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:153>
 		int32_t L_41 = V_7;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_42 = ___4_l;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_43 = V_2;
 		ConvexHull2D_FetchPointsOnRight_m02E07DA7ABC2A208B13E1075EC4F7B9045484E63((&V_8), L_41, (&V_10), (&V_9), L_42, L_43, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:154>
 		int32_t L_44 = V_9;
 		if (!L_44)
 		{
@@ -11747,7 +10567,6 @@ IL_0076:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:155>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_45 = ___0_output;
 		int32_t* L_46 = ___1_outputCount;
 		int32_t L_47 = V_9;
@@ -11759,18 +10578,14 @@ IL_0076:
 
 IL_00e3:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:157>
 		V_11 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:158>
 		int32_t L_50 = V_7;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_12), L_50, 2, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:159>
 		int32_t L_51 = V_7;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_52 = V_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_53 = ___5_r;
 		il2cpp_codegen_runtime_class_init_inline(ConvexHull2D_t6BC530BFFEBEC40725275B14BE084F8C8CEEFE4B_il2cpp_TypeInfo_var);
 		ConvexHull2D_FetchPointsOnRight_m02E07DA7ABC2A208B13E1075EC4F7B9045484E63((&V_8), L_51, (&V_12), (&V_11), L_52, L_53, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:160>
 		int32_t L_54 = V_11;
 		if (!L_54)
 		{
@@ -11778,7 +10593,6 @@ IL_00e3:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:161>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_55 = ___0_output;
 		int32_t* L_56 = ___1_outputCount;
 		int32_t L_57 = V_11;
@@ -11790,21 +10604,16 @@ IL_00e3:
 
 IL_0113:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:164>
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_12), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:165>
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_10), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:166>
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_8), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
 	}
 
 IL_0128:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:169>
 		return;
 	}
 }
-// Method Definition Index: 95161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ConvexHull2D_CheckSide_m7355E13DDA607128E8140E407E919E45E1183A1D (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___0_convex, int32_t ___1_start, int32_t ___2_end, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_p, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___4_d, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -11818,11 +10627,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ConvexHull2D_CheckSide_m7355E13DDA607
 	float G_B4_1 = 0.0f;
 	int32_t G_B7_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:173>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:173>
 		V_1 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:175>
 		int32_t L_0 = ___1_start;
 		V_2 = L_0;
 		goto IL_0050;
@@ -11830,7 +10636,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ConvexHull2D_CheckSide_m7355E13DDA607
 
 IL_0008:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:177>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_1 = ___0_convex;
 		int32_t L_2 = V_2;
 		uint32_t L_3 = sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA);
@@ -11839,12 +10644,10 @@ IL_0008:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6;
 		L_6 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_4, L_5, NULL);
 		V_3 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:178>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7 = ___4_d;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8 = V_3;
 		float L_9;
 		L_9 = math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_inline(L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:179>
 		float L_10 = L_9;
 		if ((((float)L_10) > ((float)(0.0f))))
 		{
@@ -11870,7 +10673,6 @@ IL_0032:
 IL_0035:
 	{
 		V_0 = G_B4_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:180>
 		if ((((float)G_B4_1) < ((float)(0.0f))))
 		{
 			goto IL_0040;
@@ -11891,7 +10693,6 @@ IL_0040:
 IL_0043:
 	{
 		V_1 = G_B7_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:181>
 		int32_t L_15 = V_0;
 		if (!L_15)
 		{
@@ -11906,20 +10707,17 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:183>
 		return 0;
 	}
 
 IL_004c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:175>
 		int32_t L_17 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_17, 1));
 	}
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:175>
 		int32_t L_18 = V_2;
 		int32_t L_19 = ___2_end;
 		if ((((int32_t)L_18) < ((int32_t)L_19)))
@@ -11928,7 +10726,6 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:188>
 		int32_t L_20 = V_0;
 		if ((((int32_t)L_20) > ((int32_t)0)))
 		{
@@ -11944,7 +10741,6 @@ IL_005a:
 		return 1;
 	}
 }
-// Method Definition Index: 95162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexHull2D_CheckCollisionSeparatingAxis_mDA9A1393801E5701D3366DE3914D67B0A092BDD5 (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___0_convex1_, int32_t ___1_start1, int32_t ___2_end1, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___3_convex2_, int32_t ___4_start2, int32_t ___5_end2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11969,22 +10765,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexHull2D_CheckCollisionSeparatingAxi
 	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA V_9;
 	memset((&V_9), 0, sizeof(V_9));
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:196>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_0 = ___0_convex1_;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_1 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_0);
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_mB49F42F585177D2DE669D92F4909054633CA6CB5(L_1, NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_mB49F42F585177D2DE669D92F4909054633CA6CB5_RuntimeMethod_var);
 		V_0 = (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:197>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_3 = ___3_convex2_;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_4 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_3);
 		void* L_5;
 		L_5 = NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_mB49F42F585177D2DE669D92F4909054633CA6CB5(L_4, NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_mB49F42F585177D2DE669D92F4909054633CA6CB5_RuntimeMethod_var);
 		V_1 = (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:199>
 		int32_t L_6 = ___1_start1;
 		V_2 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:199>
 		int32_t L_7 = ___2_end1;
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_7, 1));
 		goto IL_0088;
@@ -11992,13 +10784,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexHull2D_CheckCollisionSeparatingAxi
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:201>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_8 = V_0;
 		int32_t L_9 = V_2;
 		uint32_t L_10 = sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_11 = (*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)il2cpp_codegen_add((intptr_t)L_8, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_9), (int32_t)L_10)))));
 		V_4 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:202>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_12 = V_0;
 		int32_t L_13 = V_2;
 		uint32_t L_14 = sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA);
@@ -12010,13 +10800,11 @@ IL_0020:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_20;
 		L_20 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_15, L_19, NULL);
 		V_5 = L_20;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:203>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_21 = V_5;
 		float L_22 = L_21.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_23 = V_5;
 		float L_24 = L_23.___x;
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&V_5), L_22, ((-L_24)), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:204>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_25 = V_1;
 		int32_t L_26 = ___4_start2;
 		int32_t L_27 = ___5_end2;
@@ -12031,13 +10819,11 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:205>
 		return (bool)0;
 	}
 
 IL_0082:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:199>
 		int32_t L_31 = V_2;
 		int32_t L_32 = L_31;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_32, 1));
@@ -12046,7 +10832,6 @@ IL_0082:
 
 IL_0088:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:199>
 		int32_t L_33 = V_2;
 		int32_t L_34 = ___2_end1;
 		if ((((int32_t)L_33) < ((int32_t)L_34)))
@@ -12055,10 +10840,8 @@ IL_0088:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:208>
 		int32_t L_35 = ___4_start2;
 		V_6 = L_35;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:208>
 		int32_t L_36 = ___5_end2;
 		V_7 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
 		goto IL_0104;
@@ -12066,13 +10849,11 @@ IL_0088:
 
 IL_0098:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:210>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_37 = V_1;
 		int32_t L_38 = V_6;
 		uint32_t L_39 = sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_40 = (*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)il2cpp_codegen_add((intptr_t)L_37, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_38), (int32_t)L_39)))));
 		V_8 = L_40;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:211>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_41 = V_1;
 		int32_t L_42 = V_6;
 		uint32_t L_43 = sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA);
@@ -12084,13 +10865,11 @@ IL_0098:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_49;
 		L_49 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_44, L_48, NULL);
 		V_9 = L_49;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:212>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_50 = V_9;
 		float L_51 = L_50.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_52 = V_9;
 		float L_53 = L_52.___x;
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&V_9), L_51, ((-L_53)), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:213>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_54 = V_0;
 		int32_t L_55 = ___1_start1;
 		int32_t L_56 = ___2_end1;
@@ -12105,13 +10884,11 @@ IL_0098:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:214>
 		return (bool)0;
 	}
 
 IL_00fb:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:208>
 		int32_t L_60 = V_6;
 		int32_t L_61 = L_60;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_61, 1));
@@ -12120,7 +10897,6 @@ IL_00fb:
 
 IL_0104:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:208>
 		int32_t L_62 = V_6;
 		int32_t L_63 = ___5_end2;
 		if ((((int32_t)L_62) < ((int32_t)L_63)))
@@ -12129,11 +10905,9 @@ IL_0104:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:217>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 95163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexHull2D_LineLineIntersection_mB723F6E004ED3742A48BEFB2ECCD911C8BFB4B63 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_p1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_p2, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_p3, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_p4, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___4_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12150,37 +10924,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexHull2D_LineLineIntersection_mB723F
 	float V_5 = 0.0f;
 	float V_6 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:222>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___1_p2;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___0_p1;
 		float L_3 = L_2.___x;
 		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:223>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___1_p2;
 		float L_5 = L_4.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___0_p1;
 		float L_7 = L_6.___y;
 		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:224>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8 = ___3_p4;
 		float L_9 = L_8.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = ___2_p3;
 		float L_11 = L_10.___x;
 		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:225>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_12 = ___3_p4;
 		float L_13 = L_12.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_14 = ___2_p3;
 		float L_15 = L_14.___y;
 		V_3 = ((float)il2cpp_codegen_subtract(L_13, L_15));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:226>
 		float L_16 = V_0;
 		float L_17 = V_3;
 		float L_18 = V_1;
 		float L_19 = V_2;
 		V_4 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_16, L_17)), ((float)il2cpp_codegen_multiply(L_18, L_19))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:227>
 		float L_20 = V_4;
 		float L_21;
 		L_21 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_20, NULL);
@@ -12192,30 +10960,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConvexHull2D_LineLineIntersection_mB723F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:229>
 		return (bool)0;
 	}
 
 IL_0051:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:232>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_23 = ___2_p3;
 		float L_24 = L_23.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_25 = ___0_p1;
 		float L_26 = L_25.___x;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:233>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_27 = ___2_p3;
 		float L_28 = L_27.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_29 = ___0_p1;
 		float L_30 = L_29.___y;
 		V_5 = ((float)il2cpp_codegen_subtract(L_28, L_30));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:234>
 		float L_31 = V_3;
 		float L_32 = V_5;
 		float L_33 = V_2;
 		float L_34 = V_4;
 		V_6 = ((float)(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_24, L_26)), L_31)), ((float)il2cpp_codegen_multiply(L_32, L_33))))/L_34));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:235>
 		float L_35 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(ConvexHull2D_t6BC530BFFEBEC40725275B14BE084F8C8CEEFE4B_il2cpp_TypeInfo_var);
 		float L_36 = ((ConvexHull2D_t6BC530BFFEBEC40725275B14BE084F8C8CEEFE4B_StaticFields*)il2cpp_codegen_static_fields_for(ConvexHull2D_t6BC530BFFEBEC40725275B14BE084F8C8CEEFE4B_il2cpp_TypeInfo_var))->___kEpsilon;
@@ -12234,31 +10997,26 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:237>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_39 = ___4_result;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_40 = ___0_p1;
 		float L_41 = L_40.___x;
 		float L_42 = V_6;
 		float L_43 = V_0;
 		L_39->___x = ((float)il2cpp_codegen_add(L_41, ((float)il2cpp_codegen_multiply(L_42, L_43))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:238>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_44 = ___4_result;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_45 = ___0_p1;
 		float L_46 = L_45.___y;
 		float L_47 = V_6;
 		float L_48 = V_1;
 		L_44->___y = ((float)il2cpp_codegen_add(L_46, ((float)il2cpp_codegen_multiply(L_47, L_48))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:239>
 		return (bool)1;
 	}
 
 IL_00b8:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:241>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 95164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ConvexHull2D_Generate_m4ABB7C4B0836C2056CE579E244D477F64A62C311 (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___0_result, float4_t89D9A294E7A79BD81BFBDD18654508532958555E* ___1_aabb, int32_t* ___2_pointCount, int32_t ___3_seed, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___4_vertexInput, int32_t ___5_vertexCount, float ___6_extrude, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12356,38 +11114,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 	float G_B60_0 = 0.0f;
 	float G_B63_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:248>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_0 = ___4_vertexInput;
 		V_0 = (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:249>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_1 = ___0_result;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_2 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_1);
 		void* L_3;
 		L_3 = NativeArrayUnsafeUtility_GetUnsafePtr_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_mF8681C266E2AAA7B24482A37961639C05A6C1045(L_2, NativeArrayUnsafeUtility_GetUnsafePtr_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_mF8681C266E2AAA7B24482A37961639C05A6C1045_RuntimeMethod_var);
 		V_1 = (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:250>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_StaticFields*)il2cpp_codegen_static_fields_for(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_il2cpp_TypeInfo_var))->___zero;
 		V_6 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:251>
 		V_7 = ((std::numeric_limits<float>::max)());
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:251>
 		V_8 = ((std::numeric_limits<float>::max)());
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:252>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5 = ((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_StaticFields*)il2cpp_codegen_static_fields_for(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_il2cpp_TypeInfo_var))->___zero;
 		V_9 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:253>
 		float L_6 = ((std::numeric_limits<float>::max)());
 		V_16 = L_6;
 		(&V_5)->___y = L_6;
 		float L_7 = V_16;
 		(&V_2)->___x = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:254>
 		float L_8 = (-(std::numeric_limits<float>::max)());
 		V_16 = L_8;
 		(&V_4)->___y = L_8;
 		float L_9 = V_16;
 		(&V_3)->___x = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:255>
 		float L_10 = (0.0f);
 		V_16 = L_10;
 		(&V_5)->___x = L_10;
@@ -12401,19 +11150,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC37
 		(&V_3)->___y = L_14;
 		float L_15 = V_16;
 		(&V_2)->___y = L_15;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:258>
 		V_10 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:259>
 		int32_t L_16 = ___5_vertexCount;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_11), L_16, 2, 0, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:262>
 		V_17 = 0;
 		goto IL_0165;
 	}
 
 IL_00a1:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:264>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_17 = V_2;
 		float L_18 = L_17.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_19 = V_0;
@@ -12444,7 +11189,6 @@ IL_00bd:
 IL_00ce:
 	{
 		V_2 = G_B4_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:265>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_28 = V_3;
 		float L_29 = L_28.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_30 = V_0;
@@ -12475,7 +11219,6 @@ IL_00eb:
 IL_00fc:
 	{
 		V_3 = G_B7_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:266>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_39 = V_5;
 		float L_40 = L_39.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_41 = V_0;
@@ -12506,7 +11249,6 @@ IL_011b:
 IL_012c:
 	{
 		V_5 = G_B10_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:267>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_50 = V_4;
 		float L_51 = L_50.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_52 = V_0;
@@ -12537,14 +11279,12 @@ IL_014c:
 IL_015d:
 	{
 		V_4 = G_B13_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:262>
 		int32_t L_61 = V_17;
 		V_17 = ((int32_t)il2cpp_codegen_add(L_61, 1));
 	}
 
 IL_0165:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:262>
 		int32_t L_62 = V_17;
 		int32_t L_63 = ___5_vertexCount;
 		if ((((int32_t)L_62) < ((int32_t)L_63)))
@@ -12553,36 +11293,28 @@ IL_0165:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:271>
 		int32_t L_64 = V_10;
 		int32_t L_65 = L_64;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_65, 1));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_66 = V_2;
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&V_11))->___m_Buffer, L_65, (L_66));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:272>
 		int32_t L_67 = V_10;
 		int32_t L_68 = L_67;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_68, 1));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_69 = V_3;
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&V_11))->___m_Buffer, L_68, (L_69));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:275>
 		V_12 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:275>
 		V_13 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:276>
 		int32_t L_70 = ___5_vertexCount;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_14), L_70, 2, 0, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:277>
 		int32_t L_71 = ___5_vertexCount;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_15), L_71, 2, 0, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:278>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_72 = V_0;
 		int32_t L_73 = ___5_vertexCount;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_74 = V_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_75 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(ConvexHull2D_t6BC530BFFEBEC40725275B14BE084F8C8CEEFE4B_il2cpp_TypeInfo_var);
 		ConvexHull2D_FetchPoints_m1C80B7E894F4E3C7941525938F28C4192204D9F0(L_72, L_73, (&V_14), (&V_12), (&V_15), (&V_13), L_74, L_75, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:281>
 		int32_t L_76 = V_12;
 		if (!L_76)
 		{
@@ -12590,7 +11322,6 @@ IL_0165:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:282>
 		int32_t L_77 = V_12;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_78 = V_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_79 = V_3;
@@ -12600,7 +11331,6 @@ IL_0165:
 
 IL_01cd:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:283>
 		int32_t L_80 = V_13;
 		if (!L_80)
 		{
@@ -12608,7 +11338,6 @@ IL_01cd:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:284>
 		int32_t L_81 = V_13;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_82 = V_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_83 = V_2;
@@ -12618,7 +11347,6 @@ IL_01cd:
 
 IL_01e0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:286>
 		int32_t L_84 = V_10;
 		if ((((int32_t)L_84) < ((int32_t)3)))
 		{
@@ -12626,28 +11354,23 @@ IL_01e0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:289>
 		int32_t L_85 = V_10;
 		NativeArray_1__ctor_m965B9BE6DD806F31A767FF7CB33BEA509B7C90D7((&V_18), L_85, 2, 0, NativeArray_1__ctor_m965B9BE6DD806F31A767FF7CB33BEA509B7C90D7_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:290>
 		NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 L_86 = V_18;
 		void* L_87;
 		L_87 = NativeArrayUnsafeUtility_GetUnsafePtr_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_mD2D2FCAFD0BEFBC1F126084C52FD469B360E9759(L_86, NativeArrayUnsafeUtility_GetUnsafePtr_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_mD2D2FCAFD0BEFBC1F126084C52FD469B360E9759_RuntimeMethod_var);
 		V_19 = (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)L_87;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:292>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_88 = V_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_89 = V_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_90;
 		L_90 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_88, L_89, NULL);
 		V_20 = L_90;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:293>
 		V_25 = 0;
 		goto IL_027e;
 	}
 
 IL_020a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:295>
 		int32_t L_91 = V_25;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_92;
 		L_92 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&V_11))->___m_Buffer, L_91);
@@ -12655,9 +11378,7 @@ IL_020a:
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_93;
 		L_93 = float2_get_xyx_mBBBD5F2750F0FD078B17C8D9BD024693887A088A_inline((&V_27), NULL);
 		V_26 = L_93;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:296>
 		(&V_26)->___z = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:297>
 		int32_t L_94 = V_25;
 		if ((((int32_t)L_94) <= ((int32_t)1)))
 		{
@@ -12665,14 +11386,12 @@ IL_020a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:299>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_95 = V_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_96;
 		L_96 = float3_get_xy_mFD536022DC4F5162E2FE30328BE2418E4878349A_inline((&V_26), NULL);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_97;
 		L_97 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_95, L_96, NULL);
 		V_28 = L_97;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:300>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_98 = V_20;
 		float L_99 = L_98.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_100 = V_28;
@@ -12686,20 +11405,17 @@ IL_020a:
 
 IL_0264:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:302>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_106 = V_19;
 		int32_t L_107 = V_25;
 		uint32_t L_108 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_109 = V_26;
 		*(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_106, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_107), (int32_t)L_108)))) = L_109;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:293>
 		int32_t L_110 = V_25;
 		V_25 = ((int32_t)il2cpp_codegen_add(L_110, 1));
 	}
 
 IL_027e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:293>
 		int32_t L_111 = V_25;
 		int32_t L_112 = V_10;
 		if ((((int32_t)L_111) < ((int32_t)L_112)))
@@ -12708,21 +11424,18 @@ IL_027e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:306>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_113 = V_19;
 		int32_t L_114 = V_10;
 		il2cpp_codegen_initobj((&V_29), sizeof(F3Compare_t5AE289BFE8E4ED7EFB6887586F6CE181DFD72E90));
 		F3Compare_t5AE289BFE8E4ED7EFB6887586F6CE181DFD72E90 L_115 = V_29;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_InsertionSort_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_TisF3Compare_t5AE289BFE8E4ED7EFB6887586F6CE181DFD72E90_mE3C19E277610341A1C497A21FE4F886D0322FF5D((void*)L_113, 0, ((int32_t)il2cpp_codegen_subtract(L_114, 1)), L_115, ModuleHandle_InsertionSort_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_TisF3Compare_t5AE289BFE8E4ED7EFB6887586F6CE181DFD72E90_mE3C19E277610341A1C497A21FE4F886D0322FF5D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:309>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_116 = V_1;
 		int32_t* L_117 = ___2_pointCount;
 		int32_t L_118 = *((int32_t*)L_117);
 		uint32_t L_119 = sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_120 = V_2;
 		*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)il2cpp_codegen_add((intptr_t)L_116, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_118), (int32_t)L_119)))) = L_120;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:310>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_121 = V_6;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_122 = V_1;
 		int32_t* L_123 = ___2_pointCount;
@@ -12737,14 +11450,12 @@ IL_027e:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_130;
 		L_130 = float2_op_Addition_m718974663A956F64D7C45D06C088550637F13693_inline(L_121, L_129, NULL);
 		V_6 = L_130;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:311>
 		V_31 = 0;
 		goto IL_033b;
 	}
 
 IL_02d5:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:313>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_131 = V_19;
 		int32_t L_132 = V_31;
 		uint32_t L_133 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
@@ -12756,7 +11467,6 @@ IL_02d5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:315>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_135 = V_1;
 		int32_t* L_136 = ___2_pointCount;
 		int32_t L_137 = *((int32_t*)L_136);
@@ -12767,7 +11477,6 @@ IL_02d5:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_142;
 		L_142 = float3_get_xy_mFD536022DC4F5162E2FE30328BE2418E4878349A_inline((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_139, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_140), (int32_t)L_141)))), NULL);
 		*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)il2cpp_codegen_add((intptr_t)L_135, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_137), (int32_t)L_138)))) = L_142;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:316>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_143 = V_6;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_144 = V_1;
 		int32_t* L_145 = ___2_pointCount;
@@ -12786,14 +11495,12 @@ IL_02d5:
 
 IL_0335:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:311>
 		int32_t L_153 = V_31;
 		V_31 = ((int32_t)il2cpp_codegen_add(L_153, 1));
 	}
 
 IL_033b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:311>
 		int32_t L_154 = V_31;
 		int32_t L_155 = V_10;
 		if ((((int32_t)L_154) < ((int32_t)L_155)))
@@ -12802,14 +11509,12 @@ IL_033b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:319>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_156 = V_1;
 		int32_t* L_157 = ___2_pointCount;
 		int32_t L_158 = *((int32_t*)L_157);
 		uint32_t L_159 = sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_160 = V_3;
 		*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)il2cpp_codegen_add((intptr_t)L_156, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_158), (int32_t)L_159)))) = L_160;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:320>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_161 = V_6;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_162 = V_1;
 		int32_t* L_163 = ___2_pointCount;
@@ -12824,7 +11529,6 @@ IL_033b:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_170;
 		L_170 = float2_op_Addition_m718974663A956F64D7C45D06C088550637F13693_inline(L_161, L_169, NULL);
 		V_6 = L_170;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:321>
 		int32_t L_171 = V_10;
 		V_32 = ((int32_t)il2cpp_codegen_subtract(L_171, 1));
 		goto IL_03e5;
@@ -12832,7 +11536,6 @@ IL_033b:
 
 IL_037f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:323>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* L_172 = V_19;
 		int32_t L_173 = V_32;
 		uint32_t L_174 = sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E);
@@ -12844,7 +11547,6 @@ IL_037f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:325>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_176 = V_1;
 		int32_t* L_177 = ___2_pointCount;
 		int32_t L_178 = *((int32_t*)L_177);
@@ -12855,7 +11557,6 @@ IL_037f:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_183;
 		L_183 = float3_get_xy_mFD536022DC4F5162E2FE30328BE2418E4878349A_inline((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)((float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E*)il2cpp_codegen_add((intptr_t)L_180, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_181), (int32_t)L_182)))), NULL);
 		*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)il2cpp_codegen_add((intptr_t)L_176, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_178), (int32_t)L_179)))) = L_183;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:326>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_184 = V_6;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_185 = V_1;
 		int32_t* L_186 = ___2_pointCount;
@@ -12874,14 +11575,12 @@ IL_037f:
 
 IL_03df:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:321>
 		int32_t L_194 = V_32;
 		V_32 = ((int32_t)il2cpp_codegen_subtract(L_194, 1));
 	}
 
 IL_03e5:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:321>
 		int32_t L_195 = V_32;
 		if ((((int32_t)L_195) > ((int32_t)0)))
 		{
@@ -12889,14 +11588,12 @@ IL_03e5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:329>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_196 = V_6;
 		int32_t* L_197 = ___2_pointCount;
 		int32_t L_198 = *((int32_t*)L_197);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_199;
 		L_199 = float2_op_Division_m4AA175CD0895AA1A50F5A73B54722CA53876EE6A_inline(L_196, ((float)L_198), NULL);
 		V_6 = L_199;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:330>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_200 = V_1;
 		int32_t* L_201 = ___2_pointCount;
 		int32_t* L_202 = ___2_pointCount;
@@ -12908,19 +11605,16 @@ IL_03e5:
 		uint32_t L_206 = sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_207 = V_2;
 		*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)il2cpp_codegen_add((intptr_t)L_200, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_205), (int32_t)L_206)))) = L_207;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:333>
 		float L_208 = ((std::numeric_limits<float>::max)());
 		V_16 = L_208;
 		(&V_5)->___y = L_208;
 		float L_209 = V_16;
 		(&V_2)->___x = L_209;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:334>
 		float L_210 = (-(std::numeric_limits<float>::max)());
 		V_16 = L_210;
 		(&V_4)->___y = L_210;
 		float L_211 = V_16;
 		(&V_3)->___x = L_211;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:335>
 		float L_212 = (0.0f);
 		V_16 = L_212;
 		(&V_5)->___x = L_212;
@@ -12934,20 +11628,17 @@ IL_03e5:
 		(&V_3)->___y = L_216;
 		float L_217 = V_16;
 		(&V_2)->___y = L_217;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:337>
 		V_33 = 0;
 		goto IL_059b;
 	}
 
 IL_047a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:339>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_218 = V_1;
 		int32_t L_219 = V_33;
 		uint32_t L_220 = sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_221 = (*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)il2cpp_codegen_add((intptr_t)L_218, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_219), (int32_t)L_220)))));
 		V_34 = L_221;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:340>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_222 = V_34;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_223 = V_6;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_224;
@@ -12957,7 +11648,6 @@ IL_047a:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_226;
 		L_226 = math_normalizesafe_m97C40D83EC2D071F43246BA8AEC266C379CF6B74_inline(L_224, L_225, NULL);
 		V_35 = L_226;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:341>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_227 = V_1;
 		int32_t L_228 = V_33;
 		uint32_t L_229 = sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA);
@@ -12975,7 +11665,6 @@ IL_047a:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_238;
 		L_238 = float2_op_Addition_m718974663A956F64D7C45D06C088550637F13693_inline(L_230, L_237, NULL);
 		*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)il2cpp_codegen_add((intptr_t)L_227, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_228), (int32_t)L_229)))) = L_238;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:343>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_239 = V_2;
 		float L_240 = L_239.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_241 = V_1;
@@ -13006,7 +11695,6 @@ IL_04f3:
 IL_0504:
 	{
 		V_2 = G_B39_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:344>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_250 = V_3;
 		float L_251 = L_250.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_252 = V_1;
@@ -13037,7 +11725,6 @@ IL_0521:
 IL_0532:
 	{
 		V_3 = G_B42_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:345>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_261 = V_5;
 		float L_262 = L_261.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_263 = V_1;
@@ -13068,7 +11755,6 @@ IL_0551:
 IL_0562:
 	{
 		V_5 = G_B45_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:346>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_272 = V_4;
 		float L_273 = L_272.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_274 = V_1;
@@ -13099,14 +11785,12 @@ IL_0582:
 IL_0593:
 	{
 		V_4 = G_B48_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:337>
 		int32_t L_283 = V_33;
 		V_33 = ((int32_t)il2cpp_codegen_add(L_283, 1));
 	}
 
 IL_059b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:337>
 		int32_t L_284 = V_33;
 		int32_t* L_285 = ___2_pointCount;
 		int32_t L_286 = *((int32_t*)L_285);
@@ -13116,27 +11800,22 @@ IL_059b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:349>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_287 = V_2;
 		float L_288 = L_287.___x;
 		V_7 = L_288;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:350>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_289 = V_5;
 		float L_290 = L_289.___y;
 		V_8 = L_290;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:351>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_291 = V_3;
 		float L_292 = L_291.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_293 = V_2;
 		float L_294 = L_293.___x;
 		(&V_9)->___x = ((float)il2cpp_codegen_subtract(L_292, L_294));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:352>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_295 = V_4;
 		float L_296 = L_295.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_297 = V_5;
 		float L_298 = L_297.___y;
 		(&V_9)->___y = ((float)il2cpp_codegen_subtract(L_296, L_298));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:353>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_299 = V_6;
 		float L_300 = L_299.___x;
 		float L_301 = V_7;
@@ -13144,22 +11823,16 @@ IL_059b:
 		float L_303 = L_302.___y;
 		float L_304 = V_8;
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&V_6), ((float)il2cpp_codegen_subtract(L_300, L_301)), ((float)il2cpp_codegen_subtract(L_303, L_304)), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:355>
 		V_21 = (9999999.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:355>
 		V_22 = (9999999.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:356>
 		V_23 = (-9999999.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:356>
 		V_24 = (-9999999.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:358>
 		V_36 = 0;
 		goto IL_070e;
 	}
 
 IL_061e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:360>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_305 = V_1;
 		int32_t L_306 = V_36;
 		uint32_t L_307 = sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA);
@@ -13177,13 +11850,11 @@ IL_061e:
 		float L_316;
 		L_316 = math_floor_m0FDF19C33B0B1062079FCB10FB081869AEC1FB48_inline(((float)il2cpp_codegen_subtract(L_314, L_315)), NULL);
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&V_37), ((float)il2cpp_codegen_cast_double_to_int<int32_t>(L_310)), ((float)il2cpp_codegen_cast_double_to_int<int32_t>(L_316)), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:361>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_317 = V_1;
 		int32_t L_318 = V_36;
 		uint32_t L_319 = sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_320 = V_37;
 		*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)il2cpp_codegen_add((intptr_t)L_317, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_318), (int32_t)L_319)))) = L_320;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:362>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_321 = V_37;
 		float L_322 = L_321.___x;
 		float L_323 = V_21;
@@ -13208,7 +11879,6 @@ IL_067d:
 IL_0684:
 	{
 		V_21 = G_B54_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:363>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_327 = V_37;
 		float L_328 = L_327.___x;
 		float L_329 = V_23;
@@ -13233,7 +11903,6 @@ IL_0695:
 IL_069c:
 	{
 		V_23 = G_B57_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:364>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_333 = V_37;
 		float L_334 = L_333.___y;
 		float L_335 = V_22;
@@ -13258,7 +11927,6 @@ IL_06ad:
 IL_06b4:
 	{
 		V_22 = G_B60_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:365>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_339 = V_37;
 		float L_340 = L_339.___y;
 		float L_341 = V_24;
@@ -13283,7 +11951,6 @@ IL_06c5:
 IL_06cc:
 	{
 		V_24 = G_B63_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:367>
 		int32_t L_345 = V_36;
 		if (!L_345)
 		{
@@ -13291,7 +11958,6 @@ IL_06cc:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:368>
 		float* L_346 = (float*)(&(&V_9)->___z);
 		float* L_347 = L_346;
 		float L_348 = *((float*)L_347);
@@ -13312,14 +11978,12 @@ IL_06cc:
 
 IL_0708:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:358>
 		int32_t L_359 = V_36;
 		V_36 = ((int32_t)il2cpp_codegen_add(L_359, 1));
 	}
 
 IL_070e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:358>
 		int32_t L_360 = V_36;
 		int32_t* L_361 = ___2_pointCount;
 		int32_t L_362 = *((int32_t*)L_361);
@@ -13329,54 +11993,43 @@ IL_070e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:372>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_363 = ___1_aabb;
 		float L_364 = V_23;
 		float L_365 = V_21;
 		L_363->___z = ((float)il2cpp_codegen_subtract(L_364, ((float)(L_365/(2.0f)))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:373>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_366 = ___1_aabb;
 		float L_367 = V_24;
 		float L_368 = V_22;
 		L_366->___w = ((float)il2cpp_codegen_subtract(L_367, ((float)(L_368/(2.0f)))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:374>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_369 = ___1_aabb;
 		float L_370 = V_21;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_371 = ___1_aabb;
 		float L_372 = L_371->___z;
 		L_369->___x = ((float)il2cpp_codegen_add(L_370, L_372));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:375>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_373 = ___1_aabb;
 		float L_374 = V_22;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E* L_375 = ___1_aabb;
 		float L_376 = L_375->___w;
 		L_373->___y = ((float)il2cpp_codegen_add(L_374, L_376));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:379>
 		NativeArray_1_Dispose_mE40D457AF008BEE531917D94D3A83296CCF8906C((&V_18), NativeArray_1_Dispose_mE40D457AF008BEE531917D94D3A83296CCF8906C_RuntimeMethod_var);
 		goto IL_076a;
 	}
 
 IL_0760:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:383>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral627C7DB05921DF67DA3A22E1976B914D7E7B333A, NULL);
 	}
 
 IL_076a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:386>
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_15), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:387>
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_14), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:388>
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_11), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:389>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_377 = V_9;
 		return L_377;
 	}
 }
-// Method Definition Index: 95165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConvexHull2D__cctor_mC55F084B8BE1BA8AAE1BC42243E2B6EE75D15956 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13386,7 +12039,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConvexHull2D__cctor_mC55F084B8BE1BA8AAE1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:20>
 		((ConvexHull2D_t6BC530BFFEBEC40725275B14BE084F8C8CEEFE4B_StaticFields*)il2cpp_codegen_static_fields_for(ConvexHull2D_t6BC530BFFEBEC40725275B14BE084F8C8CEEFE4B_il2cpp_TypeInfo_var))->___kEpsilon = (9.99999975E-06f);
 		return;
 	}
@@ -13399,11 +12051,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConvexHull2D__cctor_mC55F084B8BE1BA8AAE1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t F3Compare_Compare_m751154522B19F6E68FA1BDAC4A9BC900D16F64D9 (F3Compare_t5AE289BFE8E4ED7EFB6887586F6CE181DFD72E90* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:26>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
 		float L_1 = L_0.___x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_y;
@@ -13414,7 +12064,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t F3Compare_Compare_m751154522B19F6E68F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:27>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___0_x;
 		float L_5 = L_4.___x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = ___1_y;
@@ -13435,7 +12084,6 @@ IL_001e:
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UHull.cs:28>
 		return 0;
 	}
 }
@@ -13520,11 +12168,9 @@ IL2CPP_EXTERN_C  int32_t F3Compare_Compare_m751154522B19F6E68FA1BDAC4A9BC900D16F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XCompare_Compare_m2C8C02429EAA63BC352FAB454EFC619735DD0FD4 (XCompare_t30819BBDCD8A7E8AB523C32D8630CE7C5587083E* __this, double ___0_a, double ___1_b, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:80>
 		double L_0 = ___0_a;
 		double L_1 = ___1_b;
 		if ((((double)L_0) < ((double)L_1)))
@@ -13558,7 +12204,6 @@ IL2CPP_EXTERN_C  int32_t XCompare_Compare_m2C8C02429EAA63BC352FAB454EFC619735DD0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntersectionCompare_Compare_mE4DE2982303B88DBD5D08E01BDEBBCA7AB2EB949 (IntersectionCompare_t58DDF7784915148C94176FC168AB4B9B296080AA* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_a, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13583,35 +12228,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntersectionCompare_Compare_mE4DE2982
 	memset((&V_5), 0, sizeof(V_5));
 	int32_t V_6 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:94>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_0 = (Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD*)(&__this->___edges);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_1 = ___0_a;
 		int32_t L_2 = L_1.___x;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_3;
 		L_3 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5(L_0, L_2, Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:95>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_4 = (Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD*)(&__this->___edges);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_5 = ___0_a;
 		int32_t L_6 = L_5.___y;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_7;
 		L_7 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5(L_4, L_6, Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
 		V_1 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:96>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_8 = (Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD*)(&__this->___edges);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_9 = ___1_b;
 		int32_t L_10 = L_9.___x;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_11;
 		L_11 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5(L_8, L_10, Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
 		V_2 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:97>
 		Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD* L_12 = (Array_1_t0708450511873DC6AFDD8C987A16D8F498A0F3BD*)(&__this->___edges);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_13 = ___1_b;
 		int32_t L_14 = L_13.___y;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_15;
 		L_15 = Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5(L_12, L_14, Array_1_get_Item_m9757F03F2F337DEE7BB63B231054F6C82237A1E5_RuntimeMethod_var);
 		V_3 = L_15;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:99>
 		U3CxvasortU3Ee__FixedBuffer_tD22E41B89FB209204AB6DF5A01FFE4A05D4F7099* L_16 = (U3CxvasortU3Ee__FixedBuffer_tD22E41B89FB209204AB6DF5A01FFE4A05D4F7099*)(&__this->___xvasort);
 		double* L_17 = (double*)(&L_16->___FixedElementField);
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_18 = (Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2*)(&__this->___points);
@@ -13621,7 +12261,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntersectionCompare_Compare_mE4DE2982
 		L_21 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749(L_18, L_20, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		double L_22 = L_21.___x;
 		*((double*)L_17) = (double)L_22;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:100>
 		U3CxvasortU3Ee__FixedBuffer_tD22E41B89FB209204AB6DF5A01FFE4A05D4F7099* L_23 = (U3CxvasortU3Ee__FixedBuffer_tD22E41B89FB209204AB6DF5A01FFE4A05D4F7099*)(&__this->___xvasort);
 		double* L_24 = (double*)(&L_23->___FixedElementField);
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_25 = (Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2*)(&__this->___points);
@@ -13631,7 +12270,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntersectionCompare_Compare_mE4DE2982
 		L_28 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749(L_25, L_27, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		double L_29 = L_28.___x;
 		*((double*)((double*)il2cpp_codegen_add((intptr_t)L_24, 8))) = (double)L_29;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:101>
 		U3CxvasortU3Ee__FixedBuffer_tD22E41B89FB209204AB6DF5A01FFE4A05D4F7099* L_30 = (U3CxvasortU3Ee__FixedBuffer_tD22E41B89FB209204AB6DF5A01FFE4A05D4F7099*)(&__this->___xvasort);
 		double* L_31 = (double*)(&L_30->___FixedElementField);
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_32 = (Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2*)(&__this->___points);
@@ -13641,7 +12279,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntersectionCompare_Compare_mE4DE2982
 		L_35 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749(L_32, L_34, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		double L_36 = L_35.___x;
 		*((double*)((double*)il2cpp_codegen_add((intptr_t)L_31, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), 8))))) = (double)L_36;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:102>
 		U3CxvasortU3Ee__FixedBuffer_tD22E41B89FB209204AB6DF5A01FFE4A05D4F7099* L_37 = (U3CxvasortU3Ee__FixedBuffer_tD22E41B89FB209204AB6DF5A01FFE4A05D4F7099*)(&__this->___xvasort);
 		double* L_38 = (double*)(&L_37->___FixedElementField);
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_39 = (Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2*)(&__this->___points);
@@ -13651,7 +12288,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntersectionCompare_Compare_mE4DE2982
 		L_42 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749(L_39, L_41, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		double L_43 = L_42.___x;
 		*((double*)((double*)il2cpp_codegen_add((intptr_t)L_38, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), 8))))) = (double)L_43;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:104>
 		U3CxvbsortU3Ee__FixedBuffer_tEAAC37E6704910756C328AC1F435452B260870B0* L_44 = (U3CxvbsortU3Ee__FixedBuffer_tEAAC37E6704910756C328AC1F435452B260870B0*)(&__this->___xvbsort);
 		double* L_45 = (double*)(&L_44->___FixedElementField);
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_46 = (Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2*)(&__this->___points);
@@ -13661,7 +12297,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntersectionCompare_Compare_mE4DE2982
 		L_49 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749(L_46, L_48, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		double L_50 = L_49.___x;
 		*((double*)L_45) = (double)L_50;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:105>
 		U3CxvbsortU3Ee__FixedBuffer_tEAAC37E6704910756C328AC1F435452B260870B0* L_51 = (U3CxvbsortU3Ee__FixedBuffer_tEAAC37E6704910756C328AC1F435452B260870B0*)(&__this->___xvbsort);
 		double* L_52 = (double*)(&L_51->___FixedElementField);
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_53 = (Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2*)(&__this->___points);
@@ -13671,7 +12306,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntersectionCompare_Compare_mE4DE2982
 		L_56 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749(L_53, L_55, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		double L_57 = L_56.___x;
 		*((double*)((double*)il2cpp_codegen_add((intptr_t)L_52, 8))) = (double)L_57;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:106>
 		U3CxvbsortU3Ee__FixedBuffer_tEAAC37E6704910756C328AC1F435452B260870B0* L_58 = (U3CxvbsortU3Ee__FixedBuffer_tEAAC37E6704910756C328AC1F435452B260870B0*)(&__this->___xvbsort);
 		double* L_59 = (double*)(&L_58->___FixedElementField);
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_60 = (Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2*)(&__this->___points);
@@ -13681,7 +12315,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntersectionCompare_Compare_mE4DE2982
 		L_63 = Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749(L_60, L_62, Array_1_get_Item_mC808570EAAECAFF660F44C2BC0889E4DADD1E749_RuntimeMethod_var);
 		double L_64 = L_63.___x;
 		*((double*)((double*)il2cpp_codegen_add((intptr_t)L_59, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), 8))))) = (double)L_64;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:107>
 		U3CxvbsortU3Ee__FixedBuffer_tEAAC37E6704910756C328AC1F435452B260870B0* L_65 = (U3CxvbsortU3Ee__FixedBuffer_tEAAC37E6704910756C328AC1F435452B260870B0*)(&__this->___xvbsort);
 		double* L_66 = (double*)(&L_65->___FixedElementField);
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_67 = (Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2*)(&__this->___points);
@@ -13694,9 +12327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntersectionCompare_Compare_mE4DE2982
 		U3CxvasortU3Ee__FixedBuffer_tD22E41B89FB209204AB6DF5A01FFE4A05D4F7099* L_72 = (U3CxvasortU3Ee__FixedBuffer_tD22E41B89FB209204AB6DF5A01FFE4A05D4F7099*)(&__this->___xvasort);
 		double* L_73 = (double*)(&L_72->___FixedElementField);
 		V_4 = L_73;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:109>
 		double* L_74 = V_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:111>
 		il2cpp_codegen_initobj((&V_5), sizeof(XCompare_t30819BBDCD8A7E8AB523C32D8630CE7C5587083E));
 		XCompare_t30819BBDCD8A7E8AB523C32D8630CE7C5587083E L_75 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
@@ -13705,21 +12336,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntersectionCompare_Compare_mE4DE2982
 		U3CxvbsortU3Ee__FixedBuffer_tEAAC37E6704910756C328AC1F435452B260870B0* L_76 = (U3CxvbsortU3Ee__FixedBuffer_tEAAC37E6704910756C328AC1F435452B260870B0*)(&__this->___xvbsort);
 		double* L_77 = (double*)(&L_76->___FixedElementField);
 		V_4 = L_77;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:114>
 		double* L_78 = V_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:116>
 		il2cpp_codegen_initobj((&V_5), sizeof(XCompare_t30819BBDCD8A7E8AB523C32D8630CE7C5587083E));
 		XCompare_t30819BBDCD8A7E8AB523C32D8630CE7C5587083E L_79 = V_5;
 		ModuleHandle_InsertionSort_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_TisXCompare_t30819BBDCD8A7E8AB523C32D8630CE7C5587083E_mC01E3A6444446A6616E375C66029A783A2256AA3((void*)((uintptr_t)L_78), 0, 3, L_79, ModuleHandle_InsertionSort_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_TisXCompare_t30819BBDCD8A7E8AB523C32D8630CE7C5587083E_mC01E3A6444446A6616E375C66029A783A2256AA3_RuntimeMethod_var);
 		V_4 = (double*)((uintptr_t)0);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:119>
 		V_6 = 0;
 		goto IL_021f;
 	}
 
 IL_01bf:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:120>
 		U3CxvasortU3Ee__FixedBuffer_tD22E41B89FB209204AB6DF5A01FFE4A05D4F7099* L_80 = (U3CxvasortU3Ee__FixedBuffer_tD22E41B89FB209204AB6DF5A01FFE4A05D4F7099*)(&__this->___xvasort);
 		double* L_81 = (double*)(&L_80->___FixedElementField);
 		int32_t L_82 = V_6;
@@ -13734,7 +12361,6 @@ IL_01bf:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:121>
 		U3CxvasortU3Ee__FixedBuffer_tD22E41B89FB209204AB6DF5A01FFE4A05D4F7099* L_88 = (U3CxvasortU3Ee__FixedBuffer_tD22E41B89FB209204AB6DF5A01FFE4A05D4F7099*)(&__this->___xvasort);
 		double* L_89 = (double*)(&L_88->___FixedElementField);
 		int32_t L_90 = V_6;
@@ -13759,14 +12385,12 @@ IL_0217:
 
 IL_0219:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:119>
 		int32_t L_96 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_96, 1));
 	}
 
 IL_021f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:119>
 		int32_t L_97 = V_6;
 		if ((((int32_t)L_97) < ((int32_t)4)))
 		{
@@ -13774,7 +12398,6 @@ IL_021f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:122>
 		Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2* L_98 = (Array_1_tF6203B441F9B2CC5C5F92B2A7D8914F0544CE7F2*)(&__this->___points);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_99 = V_0;
 		int32_t L_100 = L_99.___x;
@@ -13834,7 +12457,6 @@ IL2CPP_EXTERN_C  int32_t IntersectionCompare_Compare_mE4DE2982303B88DBD5D08E01BD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessEventCompare_Compare_mC9C917FCD344EC3C154098A7C3DA095493F2BE64 (TessEventCompare_tD6565A5DC4D93CD0DD8131A7083C3DC87BBCF05C* __this, UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 ___0_a, UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13847,7 +12469,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessEventCompare_Compare_mC9C917FCD34
 	int32_t V_1 = 0;
 	float V_2 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:130>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_0 = ___0_a;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = L_0.___a;
 		float L_2 = L_1.___x;
@@ -13855,7 +12476,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessEventCompare_Compare_mC9C917FCD34
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = L_3.___a;
 		float L_5 = L_4.___x;
 		V_0 = ((float)il2cpp_codegen_subtract(L_2, L_5));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:131>
 		float L_6 = V_0;
 		if ((((float)(0.0f)) == ((float)L_6)))
 		{
@@ -13863,7 +12483,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessEventCompare_Compare_mC9C917FCD34
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:132>
 		float L_7 = V_0;
 		if ((((float)L_7) > ((float)(0.0f))))
 		{
@@ -13881,7 +12500,6 @@ IL_002a:
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:134>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_8 = ___0_a;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9 = L_8.___a;
 		float L_10 = L_9.___y;
@@ -13889,7 +12507,6 @@ IL_002c:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_12 = L_11.___a;
 		float L_13 = L_12.___y;
 		V_0 = ((float)il2cpp_codegen_subtract(L_10, L_13));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:135>
 		float L_14 = V_0;
 		if ((((float)(0.0f)) == ((float)L_14)))
 		{
@@ -13897,7 +12514,6 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:136>
 		float L_15 = V_0;
 		if ((((float)L_15) > ((float)(0.0f))))
 		{
@@ -13915,13 +12531,11 @@ IL_0056:
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:138>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_16 = ___0_a;
 		int32_t L_17 = L_16.___type;
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_18 = ___1_b;
 		int32_t L_19 = L_18.___type;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_17, L_19));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:139>
 		int32_t L_20 = V_1;
 		if (!L_20)
 		{
@@ -13929,14 +12543,12 @@ IL_0058:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:140>
 		int32_t L_21 = V_1;
 		return L_21;
 	}
 
 IL_006b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:142>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_22 = ___0_a;
 		int32_t L_23 = L_22.___type;
 		if (!L_23)
@@ -13945,7 +12557,6 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:144>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_24 = ___0_a;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_25 = L_24.___a;
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_26 = ___0_a;
@@ -13956,7 +12567,6 @@ IL_006b:
 		float L_30;
 		L_30 = ModuleHandle_OrientFast_m437EC497545DA10AEA60FF6D19D98367878448F9(L_25, L_27, L_29, NULL);
 		V_2 = L_30;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:145>
 		float L_31 = V_2;
 		if ((((float)(0.0f)) == ((float)L_31)))
 		{
@@ -13964,7 +12574,6 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:147>
 		float L_32 = V_2;
 		if ((((float)L_32) > ((float)(0.0f))))
 		{
@@ -13982,7 +12591,6 @@ IL_009d:
 
 IL_009f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:151>
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_33 = ___0_a;
 		int32_t L_34 = L_33.___idx;
 		UEvent_tAA238B4F530A2AB0CA3D77B5D6AB2BA12E5D1F48 L_35 = ___1_b;
@@ -14007,18 +12615,15 @@ IL2CPP_EXTERN_C  int32_t TessEventCompare_Compare_mC9C917FCD344EC3C154098A7C3DA0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessEdgeCompare_Compare_mD9295D4C8DFA530C2A527AF00B76E90D71F92DB2 (TessEdgeCompare_tB8FAAD6FDA5527AE0C99137AB99CA3AB44881792* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_a, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___1_b, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:159>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_0 = ___0_a;
 		int32_t L_1 = L_0.___x;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_2 = ___1_b;
 		int32_t L_3 = L_2.___x;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, L_3));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:160>
 		int32_t L_4 = V_0;
 		if (!L_4)
 		{
@@ -14026,20 +12631,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessEdgeCompare_Compare_mD9295D4C8DFA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:161>
 		int32_t L_5 = V_0;
 		return L_5;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:162>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_6 = ___0_a;
 		int32_t L_7 = L_6.___y;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_8 = ___1_b;
 		int32_t L_9 = L_8.___y;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_7, L_9));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:163>
 		int32_t L_10 = V_0;
 		return L_10;
 	}
@@ -14061,18 +12663,15 @@ IL2CPP_EXTERN_C  int32_t TessEdgeCompare_Compare_mD9295D4C8DFA530C2A527AF00B76E9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessCellCompare_Compare_mBAE987CDAB366826FCD0DF8D442AA9A4FB688351 (TessCellCompare_t74157D34A5BC0261A18491A63CBF98426EA0358A* __this, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___0_a, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___1_b, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:171>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_0 = ___0_a;
 		int32_t L_1 = L_0.___x;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_2 = ___1_b;
 		int32_t L_3 = L_2.___x;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, L_3));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:172>
 		int32_t L_4 = V_0;
 		if (!L_4)
 		{
@@ -14080,20 +12679,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessCellCompare_Compare_mBAE987CDAB36
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:173>
 		int32_t L_5 = V_0;
 		return L_5;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:174>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_6 = ___0_a;
 		int32_t L_7 = L_6.___y;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_8 = ___1_b;
 		int32_t L_9 = L_8.___y;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_7, L_9));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:175>
 		int32_t L_10 = V_0;
 		if (!L_10)
 		{
@@ -14101,20 +12697,17 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:176>
 		int32_t L_11 = V_0;
 		return L_11;
 	}
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:177>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_12 = ___0_a;
 		int32_t L_13 = L_12.___z;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_14 = ___1_b;
 		int32_t L_15 = L_14.___z;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_13, L_15));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:178>
 		int32_t L_16 = V_0;
 		return L_16;
 	}
@@ -14136,18 +12729,15 @@ IL2CPP_EXTERN_C  int32_t TessCellCompare_Compare_mBAE987CDAB366826FCD0DF8D442AA9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessJunctionCompare_Compare_m01205F9F920EF4FA358BC4D6DDF1566F197FDCA7 (TessJunctionCompare_tBE8F00803FEA987F275233A03F3BA5539139D153* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_a, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___1_b, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:186>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_0 = ___0_a;
 		int32_t L_1 = L_0.___x;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_2 = ___1_b;
 		int32_t L_3 = L_2.___x;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, L_3));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:187>
 		int32_t L_4 = V_0;
 		if (!L_4)
 		{
@@ -14155,20 +12745,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessJunctionCompare_Compare_m01205F9F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:188>
 		int32_t L_5 = V_0;
 		return L_5;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:189>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_6 = ___0_a;
 		int32_t L_7 = L_6.___y;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_8 = ___1_b;
 		int32_t L_9 = L_8.___y;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_7, L_9));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:190>
 		int32_t L_10 = V_0;
 		return L_10;
 	}
@@ -14190,18 +12777,15 @@ IL2CPP_EXTERN_C  int32_t TessJunctionCompare_Compare_m01205F9F920EF4FA358BC4D6DD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelaEdgeCompare_Compare_m12BDA8FF5BB8871BF1A0A2994584DD3CB4776815 (DelaEdgeCompare_t71277AC31E4CB04EEA732A99D57ECB6C612AD370* __this, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___0_a, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___1_b, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:198>
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_0 = ___0_a;
 		int32_t L_1 = L_0.___x;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_2 = ___1_b;
 		int32_t L_3 = L_2.___x;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, L_3));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:199>
 		int32_t L_4 = V_0;
 		if (!L_4)
 		{
@@ -14209,20 +12793,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelaEdgeCompare_Compare_m12BDA8FF5BB8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:200>
 		int32_t L_5 = V_0;
 		return L_5;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:201>
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_6 = ___0_a;
 		int32_t L_7 = L_6.___y;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_8 = ___1_b;
 		int32_t L_9 = L_8.___y;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_7, L_9));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:202>
 		int32_t L_10 = V_0;
 		if (!L_10)
 		{
@@ -14230,20 +12811,17 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:203>
 		int32_t L_11 = V_0;
 		return L_11;
 	}
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:204>
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_12 = ___0_a;
 		int32_t L_13 = L_12.___z;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_14 = ___1_b;
 		int32_t L_15 = L_14.___z;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_13, L_15));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:205>
 		int32_t L_16 = V_0;
 		if (!L_16)
 		{
@@ -14251,20 +12829,17 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:206>
 		int32_t L_17 = V_0;
 		return L_17;
 	}
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:207>
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_18 = ___0_a;
 		int32_t L_19 = L_18.___w;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_20 = ___1_b;
 		int32_t L_21 = L_20.___w;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_19, L_21));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:208>
 		int32_t L_22 = V_0;
 		return L_22;
 	}
@@ -14286,7 +12861,6 @@ IL2CPP_EXTERN_C  int32_t DelaEdgeCompare_Compare_m12BDA8FF5BB8871BF1A0A2994584DD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TessLink_t2F5A0EEBBC50006D766F4B0642BA7FDBED0C3E63 TessLink_CreateLink_mDE5AB7EC269D0FA73DC352FD5D2B2C863BB4DF30 (int32_t ___0_count, int32_t ___1_allocator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14299,46 +12873,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TessLink_t2F5A0EEBBC50006D766F4B0642BA7FDBED0
 	memset((&V_0), 0, sizeof(V_0));
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:220>
 		il2cpp_codegen_initobj((&V_0), sizeof(TessLink_t2F5A0EEBBC50006D766F4B0642BA7FDBED0C3E63));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:221>
 		int32_t L_0 = ___0_count;
 		int32_t L_1 = ___1_allocator;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&L_2), L_0, L_1, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
 		(&V_0)->___roots = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:222>
 		int32_t L_3 = ___0_count;
 		int32_t L_4 = ___1_allocator;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&L_5), L_3, L_4, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
 		(&V_0)->___ranks = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:224>
 		V_1 = 0;
 		goto IL_004a;
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:226>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_6 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&(&V_0)->___roots);
 		int32_t L_7 = V_1;
 		int32_t L_8 = V_1;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_6)->___m_Buffer, L_7, (L_8));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:227>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_9 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&(&V_0)->___ranks);
 		int32_t L_10 = V_1;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_9)->___m_Buffer, L_10, (0));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:224>
 		int32_t L_11 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_004a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:224>
 		int32_t L_12 = V_1;
 		int32_t L_13 = ___0_count;
 		if ((((int32_t)L_12) < ((int32_t)L_13)))
@@ -14347,12 +12913,10 @@ IL_004a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:229>
 		TessLink_t2F5A0EEBBC50006D766F4B0642BA7FDBED0C3E63 L_14 = V_0;
 		return L_14;
 	}
 }
-// Method Definition Index: 95176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TessLink_DestroyLink_mD74097587877DEC31033410C4A2159A64BBD206C (TessLink_t2F5A0EEBBC50006D766F4B0642BA7FDBED0C3E63 ___0_link, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14362,22 +12926,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TessLink_DestroyLink_mD74097587877DEC310
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:234>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_0 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&(&___0_link)->___ranks);
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E(L_0, NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:235>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_1 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&(&___0_link)->___roots);
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E(L_1, NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:236>
 		return;
 	}
 }
-// Method Definition Index: 95177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessLink_Find_mFAFEEFC0DE81DE074103B5B1E11B898D532FDF05 (TessLink_t2F5A0EEBBC50006D766F4B0642BA7FDBED0C3E63* __this, int32_t ___0_x, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:240>
 		int32_t L_0 = ___0_x;
 		V_0 = L_0;
 		goto IL_0012;
@@ -14385,7 +12944,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessLink_Find_mFAFEEFC0DE81DE074103B5
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:243>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_1 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_2 = ___0_x;
 		int32_t L_3;
@@ -14395,7 +12953,6 @@ IL_0004:
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:241>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_4 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_5 = ___0_x;
 		int32_t L_6;
@@ -14412,23 +12969,19 @@ IL_0012:
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:247>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_8 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_9 = V_0;
 		int32_t L_10;
 		L_10 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_8)->___m_Buffer, L_9);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:248>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_11 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_12 = V_0;
 		int32_t L_13 = ___0_x;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_11)->___m_Buffer, L_12, (L_13));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:249>
 		V_0 = L_10;
 	}
 
 IL_003d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:245>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_14 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_15 = V_0;
 		int32_t L_16;
@@ -14440,7 +12993,6 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:251>
 		int32_t L_18 = ___0_x;
 		return L_18;
 	}
@@ -14454,7 +13006,6 @@ IL2CPP_EXTERN_C  int32_t TessLink_Find_mFAFEEFC0DE81DE074103B5B1E11B898D532FDF05
 	_returnValue = TessLink_Find_mFAFEEFC0DE81DE074103B5B1E11B898D532FDF05(_thisAdjusted, ___0_x, method);
 	return _returnValue;
 }
-// Method Definition Index: 95178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TessLink_Link_m74A93722E653788463D9BAF7176D259A210150E7 (TessLink_t2F5A0EEBBC50006D766F4B0642BA7FDBED0C3E63* __this, int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -14464,17 +13015,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TessLink_Link_m74A93722E653788463D9BAF71
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:256>
 		int32_t L_0 = ___0_x;
 		int32_t L_1;
 		L_1 = TessLink_Find_mFAFEEFC0DE81DE074103B5B1E11B898D532FDF05(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:257>
 		int32_t L_2 = ___1_y;
 		int32_t L_3;
 		L_3 = TessLink_Find_mFAFEEFC0DE81DE074103B5B1E11B898D532FDF05(__this, L_2, NULL);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:258>
 		int32_t L_4 = V_0;
 		int32_t L_5 = V_1;
 		if ((!(((uint32_t)L_4) == ((uint32_t)L_5))))
@@ -14483,25 +13031,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TessLink_Link_m74A93722E653788463D9BAF71
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:260>
 		return;
 	}
 
 IL_0015:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:262>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_6 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___ranks);
 		int32_t L_7 = V_0;
 		int32_t L_8;
 		L_8 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_6)->___m_Buffer, L_7);
 		V_2 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:263>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_9 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___ranks);
 		int32_t L_10 = V_1;
 		int32_t L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_9)->___m_Buffer, L_10);
 		V_3 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:264>
 		int32_t L_12 = V_2;
 		int32_t L_13 = V_3;
 		if ((((int32_t)L_12) >= ((int32_t)L_13)))
@@ -14510,7 +13054,6 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:266>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_14 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_15 = V_0;
 		int32_t L_16 = V_1;
@@ -14520,7 +13063,6 @@ IL_0015:
 
 IL_0041:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:268>
 		int32_t L_17 = V_3;
 		int32_t L_18 = V_2;
 		if ((((int32_t)L_17) >= ((int32_t)L_18)))
@@ -14529,7 +13071,6 @@ IL_0041:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:270>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_19 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_20 = V_1;
 		int32_t L_21 = V_0;
@@ -14539,12 +13080,10 @@ IL_0041:
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:274>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_22 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_23 = V_1;
 		int32_t L_24 = V_0;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_22)->___m_Buffer, L_23, (L_24));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:275>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_25 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___ranks);
 		int32_t L_26 = V_0;
 		V_4 = L_26;
@@ -14556,7 +13095,6 @@ IL_0053:
 		int32_t L_30 = V_4;
 		int32_t L_31 = V_5;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_27)->___m_Buffer, L_30, (L_31));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:277>
 		return;
 	}
 }
@@ -14575,15 +13113,12 @@ IL2CPP_EXTERN_C  void TessLink_Link_m74A93722E653788463D9BAF7176D259A210150E7_Ad
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_OrientFast_m437EC497545DA10AEA60FF6D19D98367878448F9 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_a, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_b, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_c, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:429>
 		V_0 = (1.11022302E-16f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:430>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___1_b;
 		float L_1 = L_0.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___0_a;
@@ -14601,7 +13136,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_OrientFast_m437EC497545DA1
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_14 = ___1_b;
 		float L_15 = L_14.___y;
 		V_1 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_9, L_11)), ((float)il2cpp_codegen_subtract(L_13, L_15))))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:431>
 		float L_16 = V_1;
 		float L_17;
 		L_17 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_16, NULL);
@@ -14612,26 +13146,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_OrientFast_m437EC497545DA1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:431>
 		return (0.0f);
 	}
 
 IL_004d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:432>
 		float L_19 = V_1;
 		return L_19;
 	}
 }
-// Method Definition Index: 95187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ModuleHandle_OrientFastDouble_mD284B0A55AF9518B1D1CE25F7F7F266CA2439232 (double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___0_a, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___1_b, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___2_c, const RuntimeMethod* method) 
 {
 	double V_0 = 0.0;
 	double V_1 = 0.0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:438>
 		V_0 = (1.1102230246251565E-16);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:439>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_0 = ___1_b;
 		double L_1 = L_0.___y;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_2 = ___0_a;
@@ -14649,7 +13178,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ModuleHandle_OrientFastDouble_mD284B0A
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_14 = ___1_b;
 		double L_15 = L_14.___y;
 		V_1 = ((double)il2cpp_codegen_subtract(((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_subtract(L_1, L_3)), ((double)il2cpp_codegen_subtract(L_5, L_7)))), ((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_subtract(L_9, L_11)), ((double)il2cpp_codegen_subtract(L_13, L_15))))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:440>
 		double L_16 = V_1;
 		double L_17;
 		L_17 = math_abs_mDF669CF3AF2C60713E8E118578461CDA050DAFD0_inline(L_16, NULL);
@@ -14660,18 +13188,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ModuleHandle_OrientFastDouble_mD284B0A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:440>
 		return (0.0);
 	}
 
 IL_0055:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:441>
 		double L_19 = V_1;
 		return L_19;
 	}
 }
-// Method Definition Index: 95188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A ModuleHandle_CircumCircle_m1018DA7F863CEC3CF2E9276A894F126BA9F16410 (UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E ___0_tri, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -14688,7 +13213,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE
 	UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A V_11;
 	memset((&V_11), 0, sizeof(V_11));
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:446>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_0 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = L_0.___va;
 		float L_2 = L_1.___x;
@@ -14696,7 +13220,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = L_3.___va;
 		float L_5 = L_4.___x;
 		V_0 = ((float)il2cpp_codegen_multiply(L_2, L_5));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:447>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_6 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7 = L_6.___vb;
 		float L_8 = L_7.___x;
@@ -14704,7 +13227,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = L_9.___vb;
 		float L_11 = L_10.___x;
 		V_1 = ((float)il2cpp_codegen_multiply(L_8, L_11));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:448>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_12 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_13 = L_12.___vc;
 		float L_14 = L_13.___x;
@@ -14712,7 +13234,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_16 = L_15.___vc;
 		float L_17 = L_16.___x;
 		V_2 = ((float)il2cpp_codegen_multiply(L_14, L_17));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:449>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_18 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_19 = L_18.___va;
 		float L_20 = L_19.___y;
@@ -14720,7 +13241,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_22 = L_21.___va;
 		float L_23 = L_22.___y;
 		V_3 = ((float)il2cpp_codegen_multiply(L_20, L_23));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:450>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_24 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_25 = L_24.___vb;
 		float L_26 = L_25.___y;
@@ -14728,7 +13248,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_28 = L_27.___vb;
 		float L_29 = L_28.___y;
 		V_4 = ((float)il2cpp_codegen_multiply(L_26, L_29));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:451>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_30 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_31 = L_30.___vc;
 		float L_32 = L_31.___y;
@@ -14736,7 +13255,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_34 = L_33.___vc;
 		float L_35 = L_34.___y;
 		V_5 = ((float)il2cpp_codegen_multiply(L_32, L_35));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:452>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_36 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_37 = L_36.___vb;
 		float L_38 = L_37.___x;
@@ -14762,7 +13280,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_58 = L_57.___va;
 		float L_59 = L_58.___x;
 		V_6 = ((float)il2cpp_codegen_multiply((2.0f), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_38, L_41)), ((float)il2cpp_codegen_subtract(L_44, L_47)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_50, L_53)), ((float)il2cpp_codegen_subtract(L_56, L_59))))))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:453>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_60 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_61 = L_60.___vc;
 		float L_62 = L_61.___y;
@@ -14785,7 +13302,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE
 		float L_79 = V_3;
 		float L_80 = V_6;
 		V_7 = ((float)(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_62, L_65)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_66, L_67)), L_68)), L_69)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_72, L_75)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_76, L_77)), L_78)), L_79))))))/L_80));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:454>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_81 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_82 = L_81.___va;
 		float L_83 = L_82.___x;
@@ -14808,19 +13324,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE
 		float L_100 = V_3;
 		float L_101 = V_6;
 		V_8 = ((float)(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_83, L_86)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_87, L_88)), L_89)), L_90)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_93, L_96)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_97, L_98)), L_99)), L_100))))))/L_101));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:455>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_102 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_103 = L_102.___va;
 		float L_104 = L_103.___x;
 		float L_105 = V_7;
 		V_9 = ((float)il2cpp_codegen_subtract(L_104, L_105));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:456>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_106 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_107 = L_106.___va;
 		float L_108 = L_107.___y;
 		float L_109 = V_8;
 		V_10 = ((float)il2cpp_codegen_subtract(L_108, L_109));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:457>
 		il2cpp_codegen_initobj((&V_11), sizeof(UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A));
 		float L_110 = V_7;
 		float L_111 = V_8;
@@ -14839,11 +13352,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE
 		return L_118;
 	}
 }
-// Method Definition Index: 95189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideCircle_mF9592EA946B33EDCA961D604545C12A9A095D641 (UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A ___0_c, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_v, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:462>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___1_v;
 		UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A L_1 = ___0_c;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = L_1.___center;
@@ -14854,7 +13365,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideCircle_mF9592EA946B
 		return (bool)((((float)L_3) < ((float)L_5))? 1 : 0);
 	}
 }
-// Method Definition Index: 95190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_TriangleArea_m33666F4D829A98D16C70EE4E4C8861290C84B475 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_va, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_vb, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_vc, const RuntimeMethod* method) 
 {
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
@@ -14864,25 +13374,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_TriangleArea_m33666F4D829A
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:467>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_va;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___0_va;
 		float L_3 = L_2.___y;
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&V_0), L_1, L_3, (0.0f), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:468>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___1_vb;
 		float L_5 = L_4.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___1_vb;
 		float L_7 = L_6.___y;
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&V_1), L_5, L_7, (0.0f), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:469>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8 = ___2_vc;
 		float L_9 = L_8.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = ___2_vc;
 		float L_11 = L_10.___y;
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&V_2), L_9, L_11, (0.0f), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:470>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12 = V_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13 = V_1;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_14;
@@ -14893,18 +13399,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_TriangleArea_m33666F4D829A
 		L_17 = float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_inline(L_15, L_16, NULL);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_18;
 		L_18 = math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_inline(L_14, L_17, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:471>
 		float L_19 = L_18.___z;
 		float L_20;
 		L_20 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_19, NULL);
 		return ((float)il2cpp_codegen_multiply(L_20, (0.5f)));
 	}
 }
-// Method Definition Index: 95191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_Sign_m5AB02A9A8D3D3EAA37F330F89071FCC3EB5CF93A (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_p1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_p2, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_p3, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:476>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_p1;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___2_p3;
@@ -14924,7 +13427,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_Sign_m5AB02A9A8D3D3EAA37F3
 		return ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_9, L_11)), ((float)il2cpp_codegen_subtract(L_13, L_15))))));
 	}
 }
-// Method Definition Index: 95192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideTriangle_m99A27741B6F4ED2BED5895E1447C7159DC19D418 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_pt, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_v1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_v2, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_v3, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14944,28 +13446,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideTriangle_m99A27741B
 	float G_B4_1 = 0.0f;
 	int32_t G_B8_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:484>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___1_v1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___2_v2;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		float L_3;
 		L_3 = ModuleHandle_Sign_m5AB02A9A8D3D3EAA37F330F89071FCC3EB5CF93A(L_0, L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:485>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_5 = ___2_v2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___3_v3;
 		float L_7;
 		L_7 = ModuleHandle_Sign_m5AB02A9A8D3D3EAA37F330F89071FCC3EB5CF93A(L_4, L_5, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:486>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9 = ___3_v3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = ___1_v1;
 		float L_11;
 		L_11 = ModuleHandle_Sign_m5AB02A9A8D3D3EAA37F330F89071FCC3EB5CF93A(L_8, L_9, L_10, NULL);
 		V_1 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:488>
 		float L_12 = L_3;
 		if ((((float)L_12) < ((float)(0.0f))))
 		{
@@ -14999,7 +13497,6 @@ IL_0034:
 IL_0035:
 	{
 		V_2 = (bool)G_B4_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:489>
 		if ((((float)G_B4_1) > ((float)(0.0f))))
 		{
 			goto IL_004f;
@@ -15026,13 +13523,11 @@ IL_004f:
 IL_0050:
 	{
 		V_3 = (bool)G_B8_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:491>
 		bool L_17 = V_2;
 		bool L_18 = V_3;
 		return (bool)((((int32_t)((int32_t)((int32_t)L_17&(int32_t)L_18))) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 95193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideTriangleApproximate_m60CC3CDF6F9B62AB6616A6432AA38AD1E1D4F7DC (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_pt, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_v1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_v2, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_v3, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15046,37 +13541,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideTriangleApproximate
 	float V_2 = 0.0f;
 	float V_3 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:497>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___1_v1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___2_v2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___3_v3;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		float L_3;
 		L_3 = ModuleHandle_TriangleArea_m33666F4D829A98D16C70EE4E4C8861290C84B475(L_0, L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:498>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_5 = ___1_v1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___2_v2;
 		float L_7;
 		L_7 = ModuleHandle_TriangleArea_m33666F4D829A98D16C70EE4E4C8861290C84B475(L_4, L_5, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:499>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9 = ___2_v2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = ___3_v3;
 		float L_11;
 		L_11 = ModuleHandle_TriangleArea_m33666F4D829A98D16C70EE4E4C8861290C84B475(L_8, L_9, L_10, NULL);
 		V_1 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:500>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_12 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_13 = ___3_v3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_14 = ___1_v1;
 		float L_15;
 		L_15 = ModuleHandle_TriangleArea_m33666F4D829A98D16C70EE4E4C8861290C84B475(L_12, L_13, L_14, NULL);
 		V_2 = L_15;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:501>
 		V_3 = (1.11022302E-16f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:502>
 		float L_16 = V_0;
 		float L_17 = V_1;
 		float L_18 = V_2;
@@ -15086,7 +13575,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideTriangleApproximate
 		return (bool)((((float)L_19) < ((float)L_20))? 1 : 0);
 	}
 }
-// Method Definition Index: 95194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideCircle_m9ED59780478804312526D42B8B454AF6D895401E (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_a, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_b, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_c, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_p, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -15103,49 +13591,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideCircle_m9ED59780478
 	memset((&V_10), 0, sizeof(V_10));
 	float V_11 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:507>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_a;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___0_a;
 		float L_2;
 		L_2 = math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_inline(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:508>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_3 = ___1_b;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___1_b;
 		float L_5;
 		L_5 = math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_inline(L_3, L_4, NULL);
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:509>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___2_c;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7 = ___2_c;
 		float L_8;
 		L_8 = math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_inline(L_6, L_7, NULL);
 		V_1 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:511>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9 = ___0_a;
 		float L_10 = L_9.___x;
 		V_2 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:512>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_11 = ___0_a;
 		float L_12 = L_11.___y;
 		V_3 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:513>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_13 = ___1_b;
 		float L_14 = L_13.___x;
 		V_4 = L_14;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:514>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_15 = ___1_b;
 		float L_16 = L_15.___y;
 		V_5 = L_16;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:515>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_17 = ___2_c;
 		float L_18 = L_17.___x;
 		V_6 = L_18;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:516>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_19 = ___2_c;
 		float L_20 = L_19.___y;
 		V_7 = L_20;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:518>
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:519>
 		float L_21 = L_2;
 		float L_22 = V_7;
 		float L_23 = V_5;
@@ -15165,8 +13642,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideCircle_m9ED59780478
 		float L_37 = V_5;
 		float L_38 = V_3;
 		V_8 = ((float)(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_21, ((float)il2cpp_codegen_subtract(L_22, L_23)))), ((float)il2cpp_codegen_multiply(L_24, ((float)il2cpp_codegen_subtract(L_25, L_26)))))), ((float)il2cpp_codegen_multiply(L_27, ((float)il2cpp_codegen_subtract(L_28, L_29))))))/((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_30, ((float)il2cpp_codegen_subtract(L_31, L_32)))), ((float)il2cpp_codegen_multiply(L_33, ((float)il2cpp_codegen_subtract(L_34, L_35)))))), ((float)il2cpp_codegen_multiply(L_36, ((float)il2cpp_codegen_subtract(L_37, L_38))))))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:520>
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:521>
 		float L_39 = V_6;
 		float L_40 = V_4;
 		float L_41 = V_0;
@@ -15185,43 +13660,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideCircle_m9ED59780478
 		float L_54 = V_4;
 		float L_55 = V_2;
 		V_9 = ((float)(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_21, ((float)il2cpp_codegen_subtract(L_39, L_40)))), ((float)il2cpp_codegen_multiply(L_41, ((float)il2cpp_codegen_subtract(L_42, L_43)))))), ((float)il2cpp_codegen_multiply(L_44, ((float)il2cpp_codegen_subtract(L_45, L_46))))))/((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_47, ((float)il2cpp_codegen_subtract(L_48, L_49)))), ((float)il2cpp_codegen_multiply(L_50, ((float)il2cpp_codegen_subtract(L_51, L_52)))))), ((float)il2cpp_codegen_multiply(L_53, ((float)il2cpp_codegen_subtract(L_54, L_55))))))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:523>
 		il2cpp_codegen_initobj((&V_10), sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:524>
 		float L_56 = V_8;
 		(&V_10)->___x = ((float)(L_56/(2.0f)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:525>
 		float L_57 = V_9;
 		(&V_10)->___y = ((float)(L_57/(2.0f)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:526>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_58 = ___0_a;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_59 = V_10;
 		float L_60;
 		L_60 = math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_inline(L_58, L_59, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:527>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_61 = ___3_p;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_62 = V_10;
 		float L_63;
 		L_63 = math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_inline(L_61, L_62, NULL);
 		V_11 = L_63;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:528>
 		float L_64 = V_11;
 		return (bool)((((float)((float)il2cpp_codegen_subtract(L_60, L_64))) > ((float)(9.99999975E-06f)))? 1 : 0);
 	}
 }
-// Method Definition Index: 95195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_GetIntermediate_mE99066B11175C162EC2ACADA908F8E720995CA48 (uint16_t ___0_a, uint16_t ___1_b, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* ___2_res, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:533>
 		uint16_t L_0 = ___0_a;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:533>
 		uint16_t L_1 = ___1_b;
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:534>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_2 = ___2_res;
 		int32_t L_3 = V_0;
 		int32_t L_4 = V_1;
@@ -15232,19 +13697,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_GetIntermediate_mE99066B111
 		int32_t L_8;
 		L_8 = math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline(L_6, L_7, NULL);
 		L_2->___x = ((int32_t)(((int32_t)(L_5<<((int32_t)16)))|L_8));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:535>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_9 = ___2_res;
 		int32_t L_10 = V_0;
 		L_9->___y = L_10;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:536>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_11 = ___2_res;
 		int32_t L_12 = V_1;
 		L_11->___z = L_12;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:537>
 		return;
 	}
 }
-// Method Definition Index: 95196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_RawSort_mF2005DC306AA5DBB9DADE580986C029D1E7BD443 (int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* ___0_data, int32_t ___1_length, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -15253,20 +13714,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_RawSort_mF2005DC306AA5DBB9D
 	int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:541>
 		int32_t L_0 = ___1_length;
 		V_2 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:543>
 		V_0 = 0;
 		goto IL_0076;
 	}
 
 IL_0006:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:545>
 		int32_t L_1 = V_0;
 		V_1 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:546>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_2 = ___0_data;
 		int32_t L_3 = V_0;
 		uint32_t L_4 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
@@ -15277,7 +13734,6 @@ IL_0006:
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:549>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_6 = ___0_data;
 		int32_t L_7 = V_1;
 		uint32_t L_8 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
@@ -15286,14 +13742,12 @@ IL_001d:
 		uint32_t L_11 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_12 = (*(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_9, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_10), (int32_t)L_11)))));
 		*(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_6, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)((int32_t)il2cpp_codegen_add(L_7, 1))), (int32_t)L_8)))) = L_12;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:550>
 		int32_t L_13 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_13, 1));
 	}
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:547>
 		int32_t L_14 = V_1;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
@@ -15316,20 +13770,17 @@ IL_0043:
 
 IL_005f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:552>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_21 = ___0_data;
 		int32_t L_22 = V_1;
 		uint32_t L_23 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_24 = V_3;
 		*(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_21, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)((int32_t)il2cpp_codegen_add(L_22, 1))), (int32_t)L_23)))) = L_24;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:543>
 		int32_t L_25 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_25, 1));
 	}
 
 IL_0076:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:543>
 		int32_t L_26 = V_0;
 		int32_t L_27 = V_2;
 		if ((((int32_t)L_26) < ((int32_t)L_27)))
@@ -15338,11 +13789,9 @@ IL_0076:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:554>
 		return;
 	}
 }
-// Method Definition Index: 95197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ModuleHandle_GenerateOutlineFromTriangleIndices_m242977455513F63511633CB5E31E9873C0BFD0C4 (NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934* ___0_indices, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* ___1_outline, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15380,42 +13829,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ModuleHandle_GenerateOutlineFromTrian
 	int32_t V_18 = 0;
 	int32_t G_B23_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:574>
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934* L_0 = ___0_indices;
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 L_1 = (*(NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934*)L_0);
 		V_3 = L_1;
 		int32_t L_2;
 		L_2 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_3))->___m_Length);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:575>
 		V_1 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:576>
 		int32_t L_3 = V_0;
 		NativeArray_1__ctor_mEFB2363DF23CE325BB07F64D5297DE7530D4A83F((&V_2), ((int32_t)il2cpp_codegen_multiply(L_3, 4)), 2, 0, NativeArray_1__ctor_mEFB2363DF23CE325BB07F64D5297DE7530D4A83F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:580>
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934* L_4 = ___0_indices;
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 L_5 = (*(NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934*)L_4);
 		void* L_6;
 		L_6 = NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m8E5335741788115AF07635B3B9C543C6BA1F2D3C(L_5, NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m8E5335741788115AF07635B3B9C543C6BA1F2D3C_RuntimeMethod_var);
 		V_4 = (uint16_t*)L_6;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:581>
 		NativeArray_1_tA39D7DB71ADA458A72B67FD0C6E1FF021412BA57 L_7 = V_2;
 		void* L_8;
 		L_8 = NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_Tisint3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_m2C7263DAD0382A11B68B4464281E20AF10A4A9BB(L_7, NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_Tisint3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_m2C7263DAD0382A11B68B4464281E20AF10A4A9BB_RuntimeMethod_var);
 		V_5 = (int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)L_8;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:582>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_9 = V_5;
 		int32_t L_10 = V_0;
 		uint32_t L_11 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
 		V_6 = ((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_9, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)((int32_t)il2cpp_codegen_multiply(L_10, 2))), (int32_t)L_11))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:583>
 		V_7 = 0;
 		goto IL_00c5;
 	}
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:585>
 		uint16_t* L_12 = V_4;
 		int32_t L_13 = V_7;
 		int32_t L_14 = (*(((uint16_t*)il2cpp_codegen_add((intptr_t)L_12, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_13), 2))))));
@@ -15427,7 +13868,6 @@ IL_0047:
 		uint32_t L_20 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_GetIntermediate_mE99066B11175C162EC2ACADA908F8E720995CA48((uint16_t)L_14, (uint16_t)L_17, (int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_18, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_19), (int32_t)L_20)))), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:586>
 		uint16_t* L_21 = V_4;
 		int32_t L_22 = V_7;
 		int32_t L_23 = (*(((uint16_t*)il2cpp_codegen_add((intptr_t)L_21, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)((int32_t)il2cpp_codegen_add(L_22, 1))), 2))))));
@@ -15438,7 +13878,6 @@ IL_0047:
 		int32_t L_28 = V_7;
 		uint32_t L_29 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
 		ModuleHandle_GetIntermediate_mE99066B11175C162EC2ACADA908F8E720995CA48((uint16_t)L_23, (uint16_t)L_26, (int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_27, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)((int32_t)il2cpp_codegen_add(L_28, 1))), (int32_t)L_29)))), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:587>
 		uint16_t* L_30 = V_4;
 		int32_t L_31 = V_7;
 		int32_t L_32 = (*(((uint16_t*)il2cpp_codegen_add((intptr_t)L_30, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)((int32_t)il2cpp_codegen_add(L_31, 2))), 2))))));
@@ -15449,14 +13888,12 @@ IL_0047:
 		int32_t L_37 = V_7;
 		uint32_t L_38 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
 		ModuleHandle_GetIntermediate_mE99066B11175C162EC2ACADA908F8E720995CA48((uint16_t)L_32, (uint16_t)L_35, (int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_36, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)((int32_t)il2cpp_codegen_add(L_37, 2))), (int32_t)L_38)))), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:583>
 		int32_t L_39 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_39, 3));
 	}
 
 IL_00c5:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:583>
 		int32_t L_40 = V_7;
 		int32_t L_41 = V_0;
 		if ((((int32_t)L_40) < ((int32_t)L_41)))
@@ -15465,24 +13902,20 @@ IL_00c5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:589>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_42 = V_5;
 		int32_t L_43 = V_0;
 		il2cpp_codegen_initobj((&V_8), sizeof(Int3Compare_t10DC52848F4D5CAF82B3EFB41571C38672BB8AB9));
 		Int3Compare_t10DC52848F4D5CAF82B3EFB41571C38672BB8AB9 L_44 = V_8;
 		NativeSortExtension_Sort_Tisint3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_TisInt3Compare_t10DC52848F4D5CAF82B3EFB41571C38672BB8AB9_m09ACE13CBD42158FB545A2A52CA7A55A64076F47(L_42, L_43, L_44, NativeSortExtension_Sort_Tisint3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_TisInt3Compare_t10DC52848F4D5CAF82B3EFB41571C38672BB8AB9_m09ACE13CBD42158FB545A2A52CA7A55A64076F47_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:591>
 		V_9 = 0;
 		goto IL_0183;
 	}
 
 IL_00e7:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:593>
 		int32_t L_45 = V_9;
 		int32_t L_46 = V_0;
 		V_10 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_45, 1))%L_46));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:595>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_47 = V_5;
 		int32_t L_48 = V_9;
 		uint32_t L_49 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
@@ -15499,7 +13932,6 @@ IL_00e7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:597>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_55 = V_6;
 		int32_t L_56 = V_1;
 		int32_t L_57 = L_56;
@@ -15515,7 +13947,6 @@ IL_00e7:
 
 IL_013e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:601>
 		int32_t L_63 = V_9;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_63, 1));
 		goto IL_0178;
@@ -15523,7 +13954,6 @@ IL_013e:
 
 IL_0146:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:603>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_64 = V_5;
 		int32_t L_65 = V_9;
 		uint32_t L_66 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
@@ -15540,17 +13970,14 @@ IL_0146:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:608>
 		int32_t L_72 = V_9;
 		V_9 = ((int32_t)il2cpp_codegen_add(L_72, 1));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:601>
 		int32_t L_73 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_73, 1));
 	}
 
 IL_0178:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:601>
 		int32_t L_74 = V_11;
 		int32_t L_75 = V_0;
 		if ((((int32_t)L_74) < ((int32_t)L_75)))
@@ -15561,14 +13988,12 @@ IL_0178:
 
 IL_017d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:591>
 		int32_t L_76 = V_9;
 		V_9 = ((int32_t)il2cpp_codegen_add(L_76, 1));
 	}
 
 IL_0183:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:591>
 		int32_t L_77 = V_9;
 		int32_t L_78 = V_0;
 		if ((((int32_t)L_77) < ((int32_t)L_78)))
@@ -15577,16 +14002,13 @@ IL_0183:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:613>
 		V_12 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:613>
 		V_13 = 0;
 		goto IL_02f7;
 	}
 
 IL_0196:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:615>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_79 = V_6;
 		int32_t L_80 = V_12;
 		uint32_t L_81 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
@@ -15598,9 +14020,7 @@ IL_0196:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:617>
 		V_14 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:618>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_83 = V_5;
 		int32_t L_84 = V_13;
 		uint32_t L_85 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
@@ -15609,13 +14029,11 @@ IL_0196:
 		uint32_t L_88 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_89 = (*(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_86, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_87), (int32_t)L_88)))));
 		*(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_83, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_84), (int32_t)L_85)))) = L_89;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:619>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_90 = V_6;
 		int32_t L_91 = V_12;
 		uint32_t L_92 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
 		NullCheck(((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_90, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_91), (int32_t)L_92)))));
 		((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_90, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_91), (int32_t)L_92))))->___x = ((int32_t)2147483647LL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:621>
 		int32_t L_93 = V_12;
 		V_15 = ((int32_t)il2cpp_codegen_add(L_93, 1));
 		goto IL_02c0;
@@ -15623,7 +14041,6 @@ IL_0196:
 
 IL_01fb:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:623>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_94 = V_6;
 		int32_t L_95 = V_15;
 		uint32_t L_96 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
@@ -15635,7 +14052,6 @@ IL_01fb:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:625>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_98 = V_5;
 		int32_t L_99 = V_13;
 		uint32_t L_100 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
@@ -15670,7 +14086,6 @@ IL_01fb:
 
 IL_0263:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:627>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_114 = V_5;
 		int32_t L_115 = V_13;
 		int32_t L_116 = ((int32_t)il2cpp_codegen_add(L_115, 1));
@@ -15681,26 +14096,22 @@ IL_0263:
 		uint32_t L_120 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_121 = (*(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_118, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_119), (int32_t)L_120)))));
 		*(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_114, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_116), (int32_t)L_117)))) = L_121;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:628>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_122 = V_6;
 		int32_t L_123 = V_15;
 		uint32_t L_124 = sizeof(int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF);
 		NullCheck(((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_122, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_123), (int32_t)L_124)))));
 		((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_122, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_123), (int32_t)L_124))))->___x = ((int32_t)2147483647LL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:629>
 		int32_t L_125 = V_12;
 		V_15 = ((int32_t)il2cpp_codegen_add(L_125, 1));
 	}
 
 IL_02a9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:632>
 		V_14 = (bool)0;
 	}
 
 IL_02ac:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:635>
 		bool L_126 = V_14;
 		if (L_126)
 		{
@@ -15722,14 +14133,12 @@ IL_02b4:
 IL_02b8:
 	{
 		V_12 = G_B23_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:621>
 		int32_t L_129 = V_15;
 		V_15 = ((int32_t)il2cpp_codegen_add(L_129, 1));
 	}
 
 IL_02c0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:621>
 		int32_t L_130 = V_15;
 		int32_t L_131 = V_1;
 		if ((((int32_t)L_130) < ((int32_t)L_131)))
@@ -15738,7 +14147,6 @@ IL_02c0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:638>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* L_132 = V_5;
 		int32_t L_133 = V_13;
 		int32_t L_134 = ((int32_t)il2cpp_codegen_add(L_133, 1));
@@ -15753,14 +14161,12 @@ IL_02c0:
 
 IL_02f1:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:613>
 		int32_t L_140 = V_12;
 		V_12 = ((int32_t)il2cpp_codegen_add(L_140, 1));
 	}
 
 IL_02f7:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:613>
 		int32_t L_141 = V_12;
 		int32_t L_142 = V_1;
 		if ((((int32_t)L_141) < ((int32_t)L_142)))
@@ -15769,7 +14175,6 @@ IL_02f7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:645>
 		int32_t L_143 = V_1;
 		if (!L_143)
 		{
@@ -15777,25 +14182,21 @@ IL_02f7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:649>
 		NativeArray_1_tA39D7DB71ADA458A72B67FD0C6E1FF021412BA57 L_144 = V_2;
 		void* L_145;
 		L_145 = NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_Tisint3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_m2C7263DAD0382A11B68B4464281E20AF10A4A9BB(L_144, NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_Tisint3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_m2C7263DAD0382A11B68B4464281E20AF10A4A9BB_RuntimeMethod_var);
 		V_16 = (int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)L_145;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:650>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_146 = ___1_outline;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_147 = (*(NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)L_146);
 		void* L_148;
 		L_148 = NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_m182BF46B9FFF95D0AAD1124A6632E773BEFDF8A9(L_147, NativeArrayUnsafeUtility_GetUnsafeReadOnlyPtr_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_m182BF46B9FFF95D0AAD1124A6632E773BEFDF8A9_RuntimeMethod_var);
 		V_17 = (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A*)L_148;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:651>
 		V_18 = 0;
 		goto IL_0346;
 	}
 
 IL_031c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:652>
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* L_149 = V_17;
 		int32_t L_150 = V_18;
 		uint32_t L_151 = sizeof(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A);
@@ -15805,14 +14206,12 @@ IL_031c:
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_155;
 		L_155 = int3_get_yz_m08ABC3409DBA8D2C4854212514FA02D8C42A0852_inline((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)((int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF*)il2cpp_codegen_add((intptr_t)L_152, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_153), (int32_t)L_154)))), NULL);
 		*(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A*)((int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A*)il2cpp_codegen_add((intptr_t)L_149, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_150), (int32_t)L_151)))) = L_155;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:651>
 		int32_t L_156 = V_18;
 		V_18 = ((int32_t)il2cpp_codegen_add(L_156, 1));
 	}
 
 IL_0346:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:651>
 		int32_t L_157 = V_18;
 		int32_t L_158 = V_1;
 		if ((((int32_t)L_157) < ((int32_t)L_158)))
@@ -15821,18 +14220,15 @@ IL_0346:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:655>
 		int32_t L_159 = V_1;
 		return L_159;
 	}
 
 IL_034d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:657>
 		return 0;
 	}
 }
-// Method Definition Index: 95198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_BuildTriangles_mCE64F77A35EA332A2E0D234A74202B88DA142082 (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___0_vertices, int32_t ___1_vertexCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___2_indices, int32_t ___3_indexCount, NativeArray_1_t9D3993C203DF036C34CDD1F41416541D312F1587* ___4_triangles, int32_t* ___5_triangleCount, float* ___6_maxArea, float* ___7_avgArea, float* ___8_minArea, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15849,52 +14245,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_BuildTriangles_mCE64F77A35E
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:664>
 		V_0 = 0;
 		goto IL_00d1;
 	}
 
 IL_0007:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:666>
 		il2cpp_codegen_initobj((&V_1), sizeof(UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:667>
 		int32_t L_0 = V_0;
 		int32_t L_1;
 		L_1 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, L_0);
 		V_2 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:668>
 		int32_t L_2 = V_0;
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_2, 1)));
 		V_3 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:669>
 		int32_t L_4 = V_0;
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_4, 2)));
 		V_4 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:670>
 		int32_t L_6 = V_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_6);
 		(&V_1)->___va = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:671>
 		int32_t L_8 = V_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9;
 		L_9 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_8);
 		(&V_1)->___vb = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:672>
 		int32_t L_10 = V_4;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_10);
 		(&V_1)->___vc = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:673>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_12 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A L_13;
 		L_13 = ModuleHandle_CircumCircle_m1018DA7F863CEC3CF2E9276A894F126BA9F16410(L_12, NULL);
 		(&V_1)->___c = L_13;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:674>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_14 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_15 = L_14.___va;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_16 = V_1;
@@ -15904,7 +14290,6 @@ IL_0007:
 		float L_20;
 		L_20 = ModuleHandle_TriangleArea_m33666F4D829A98D16C70EE4E4C8861290C84B475(L_15, L_17, L_19, NULL);
 		(&V_1)->___area = L_20;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:675>
 		float* L_21 = ___6_maxArea;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_22 = V_1;
 		float L_23 = L_22.___area;
@@ -15913,7 +14298,6 @@ IL_0007:
 		float L_26;
 		L_26 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_23, L_25, NULL);
 		*((float*)L_21) = (float)L_26;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:676>
 		float* L_27 = ___8_minArea;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_28 = V_1;
 		float L_29 = L_28.___area;
@@ -15922,14 +14306,12 @@ IL_0007:
 		float L_32;
 		L_32 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_29, L_31, NULL);
 		*((float*)L_27) = (float)L_32;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:677>
 		float* L_33 = ___7_avgArea;
 		float* L_34 = ___7_avgArea;
 		float L_35 = *((float*)L_34);
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_36 = V_1;
 		float L_37 = L_36.___area;
 		*((float*)L_33) = (float)((float)il2cpp_codegen_add(L_35, L_37));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:678>
 		NativeArray_1_t9D3993C203DF036C34CDD1F41416541D312F1587* L_38 = ___4_triangles;
 		int32_t* L_39 = ___5_triangleCount;
 		int32_t* L_40 = ___5_triangleCount;
@@ -15940,14 +14322,12 @@ IL_0007:
 		int32_t L_43 = V_5;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_44 = V_1;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E, (L_38)->___m_Buffer, L_43, (L_44));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:664>
 		int32_t L_45 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_45, 3));
 	}
 
 IL_00d1:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:664>
 		int32_t L_46 = V_0;
 		int32_t L_47 = ___3_indexCount;
 		if ((((int32_t)L_46) < ((int32_t)L_47)))
@@ -15956,18 +14336,15 @@ IL_00d1:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:680>
 		float* L_48 = ___7_avgArea;
 		float* L_49 = ___7_avgArea;
 		float L_50 = *((float*)L_49);
 		int32_t* L_51 = ___5_triangleCount;
 		int32_t L_52 = *((int32_t*)L_51);
 		*((float*)L_48) = (float)((float)(L_50/((float)L_52)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:681>
 		return;
 	}
 }
-// Method Definition Index: 95199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_BuildTriangles_mBC0D2742F3949422FB5CE7261A722A4EDED0CFFC (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___0_vertices, int32_t ___1_vertexCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___2_indices, int32_t ___3_indexCount, Array_1_t404092589864A7FBB5B138D37D62E0BCF7CABAAB* ___4_triangles, int32_t* ___5_triangleCount, float* ___6_maxArea, float* ___7_avgArea, float* ___8_minArea, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15985,52 +14362,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_BuildTriangles_mBC0D2742F39
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:686>
 		V_0 = 0;
 		goto IL_00d1;
 	}
 
 IL_0007:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:688>
 		il2cpp_codegen_initobj((&V_1), sizeof(UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:689>
 		int32_t L_0 = V_0;
 		int32_t L_1;
 		L_1 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, L_0);
 		V_2 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:690>
 		int32_t L_2 = V_0;
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_2, 1)));
 		V_3 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:691>
 		int32_t L_4 = V_0;
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_4, 2)));
 		V_4 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:692>
 		int32_t L_6 = V_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_6);
 		(&V_1)->___va = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:693>
 		int32_t L_8 = V_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9;
 		L_9 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_8);
 		(&V_1)->___vb = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:694>
 		int32_t L_10 = V_4;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_10);
 		(&V_1)->___vc = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:695>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_12 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A L_13;
 		L_13 = ModuleHandle_CircumCircle_m1018DA7F863CEC3CF2E9276A894F126BA9F16410(L_12, NULL);
 		(&V_1)->___c = L_13;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:696>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_14 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_15 = L_14.___va;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_16 = V_1;
@@ -16040,7 +14407,6 @@ IL_0007:
 		float L_20;
 		L_20 = ModuleHandle_TriangleArea_m33666F4D829A98D16C70EE4E4C8861290C84B475(L_15, L_17, L_19, NULL);
 		(&V_1)->___area = L_20;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:697>
 		float* L_21 = ___6_maxArea;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_22 = V_1;
 		float L_23 = L_22.___area;
@@ -16049,7 +14415,6 @@ IL_0007:
 		float L_26;
 		L_26 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_23, L_25, NULL);
 		*((float*)L_21) = (float)L_26;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:698>
 		float* L_27 = ___8_minArea;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_28 = V_1;
 		float L_29 = L_28.___area;
@@ -16058,14 +14423,12 @@ IL_0007:
 		float L_32;
 		L_32 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_29, L_31, NULL);
 		*((float*)L_27) = (float)L_32;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:699>
 		float* L_33 = ___7_avgArea;
 		float* L_34 = ___7_avgArea;
 		float L_35 = *((float*)L_34);
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_36 = V_1;
 		float L_37 = L_36.___area;
 		*((float*)L_33) = (float)((float)il2cpp_codegen_add(L_35, L_37));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:700>
 		Array_1_t404092589864A7FBB5B138D37D62E0BCF7CABAAB* L_38 = ___4_triangles;
 		int32_t* L_39 = ___5_triangleCount;
 		int32_t* L_40 = ___5_triangleCount;
@@ -16076,14 +14439,12 @@ IL_0007:
 		int32_t L_43 = V_5;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_44 = V_1;
 		Array_1_set_Item_m2E4FBBA9B656CFDA09AA7D26A0893F1BE171F716(L_38, L_43, L_44, Array_1_set_Item_m2E4FBBA9B656CFDA09AA7D26A0893F1BE171F716_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:686>
 		int32_t L_45 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_45, 3));
 	}
 
 IL_00d1:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:686>
 		int32_t L_46 = V_0;
 		int32_t L_47 = ___3_indexCount;
 		if ((((int32_t)L_46) < ((int32_t)L_47)))
@@ -16092,18 +14453,15 @@ IL_00d1:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:702>
 		float* L_48 = ___7_avgArea;
 		float* L_49 = ___7_avgArea;
 		float L_50 = *((float*)L_49);
 		int32_t* L_51 = ___5_triangleCount;
 		int32_t L_52 = *((int32_t*)L_51);
 		*((float*)L_48) = (float)((float)(L_50/((float)L_52)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:703>
 		return;
 	}
 }
-// Method Definition Index: 95200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_BuildTriangles_mF067D95190D8FDD2ACC8AE717EB313E95799E5DC (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___0_vertices, int32_t ___1_vertexCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___2_indices, int32_t ___3_indexCount, NativeArray_1_t9D3993C203DF036C34CDD1F41416541D312F1587* ___4_triangles, int32_t* ___5_triangleCount, float* ___6_maxArea, float* ___7_avgArea, float* ___8_minArea, float* ___9_maxEdge, float* ___10_avgEdge, float* ___11_minEdge, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16123,52 +14481,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_BuildTriangles_mF067D95190D
 	float V_7 = 0.0f;
 	int32_t V_8 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:708>
 		V_0 = 0;
 		goto IL_0173;
 	}
 
 IL_0007:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:710>
 		il2cpp_codegen_initobj((&V_1), sizeof(UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:711>
 		int32_t L_0 = V_0;
 		int32_t L_1;
 		L_1 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, L_0);
 		V_2 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:712>
 		int32_t L_2 = V_0;
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_2, 1)));
 		V_3 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:713>
 		int32_t L_4 = V_0;
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_4, 2)));
 		V_4 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:714>
 		int32_t L_6 = V_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_6);
 		(&V_1)->___va = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:715>
 		int32_t L_8 = V_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9;
 		L_9 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_8);
 		(&V_1)->___vb = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:716>
 		int32_t L_10 = V_4;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_10);
 		(&V_1)->___vc = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:717>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_12 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A L_13;
 		L_13 = ModuleHandle_CircumCircle_m1018DA7F863CEC3CF2E9276A894F126BA9F16410(L_12, NULL);
 		(&V_1)->___c = L_13;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:719>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_14 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_15 = L_14.___va;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_16 = V_1;
@@ -16178,7 +14526,6 @@ IL_0007:
 		float L_20;
 		L_20 = ModuleHandle_TriangleArea_m33666F4D829A98D16C70EE4E4C8861290C84B475(L_15, L_17, L_19, NULL);
 		(&V_1)->___area = L_20;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:720>
 		float* L_21 = ___6_maxArea;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_22 = V_1;
 		float L_23 = L_22.___area;
@@ -16187,7 +14534,6 @@ IL_0007:
 		float L_26;
 		L_26 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_23, L_25, NULL);
 		*((float*)L_21) = (float)L_26;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:721>
 		float* L_27 = ___8_minArea;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_28 = V_1;
 		float L_29 = L_28.___area;
@@ -16196,14 +14542,12 @@ IL_0007:
 		float L_32;
 		L_32 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_29, L_31, NULL);
 		*((float*)L_27) = (float)L_32;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:722>
 		float* L_33 = ___7_avgArea;
 		float* L_34 = ___7_avgArea;
 		float L_35 = *((float*)L_34);
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_36 = V_1;
 		float L_37 = L_36.___area;
 		*((float*)L_33) = (float)((float)il2cpp_codegen_add(L_35, L_37));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:724>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_38 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_39 = L_38.___va;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_40 = V_1;
@@ -16211,7 +14555,6 @@ IL_0007:
 		float L_42;
 		L_42 = math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_inline(L_39, L_41, NULL);
 		V_5 = L_42;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:725>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_43 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_44 = L_43.___vb;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_45 = V_1;
@@ -16219,7 +14562,6 @@ IL_0007:
 		float L_47;
 		L_47 = math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_inline(L_44, L_46, NULL);
 		V_6 = L_47;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:726>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_48 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_49 = L_48.___vc;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_50 = V_1;
@@ -16227,7 +14569,6 @@ IL_0007:
 		float L_52;
 		L_52 = math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_inline(L_49, L_51, NULL);
 		V_7 = L_52;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:727>
 		float* L_53 = ___9_maxEdge;
 		float L_54 = V_5;
 		float* L_55 = ___9_maxEdge;
@@ -16235,7 +14576,6 @@ IL_0007:
 		float L_57;
 		L_57 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_54, L_56, NULL);
 		*((float*)L_53) = (float)L_57;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:728>
 		float* L_58 = ___9_maxEdge;
 		float L_59 = V_6;
 		float* L_60 = ___9_maxEdge;
@@ -16243,7 +14583,6 @@ IL_0007:
 		float L_62;
 		L_62 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_59, L_61, NULL);
 		*((float*)L_58) = (float)L_62;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:729>
 		float* L_63 = ___9_maxEdge;
 		float L_64 = V_7;
 		float* L_65 = ___9_maxEdge;
@@ -16251,7 +14590,6 @@ IL_0007:
 		float L_67;
 		L_67 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_64, L_66, NULL);
 		*((float*)L_63) = (float)L_67;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:730>
 		float* L_68 = ___11_minEdge;
 		float L_69 = V_5;
 		float* L_70 = ___11_minEdge;
@@ -16259,7 +14597,6 @@ IL_0007:
 		float L_72;
 		L_72 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_69, L_71, NULL);
 		*((float*)L_68) = (float)L_72;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:731>
 		float* L_73 = ___11_minEdge;
 		float L_74 = V_6;
 		float* L_75 = ___11_minEdge;
@@ -16267,7 +14604,6 @@ IL_0007:
 		float L_77;
 		L_77 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_74, L_76, NULL);
 		*((float*)L_73) = (float)L_77;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:732>
 		float* L_78 = ___11_minEdge;
 		float L_79 = V_7;
 		float* L_80 = ___11_minEdge;
@@ -16275,25 +14611,21 @@ IL_0007:
 		float L_82;
 		L_82 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_79, L_81, NULL);
 		*((float*)L_78) = (float)L_82;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:734>
 		float* L_83 = ___10_avgEdge;
 		float* L_84 = ___10_avgEdge;
 		float L_85 = *((float*)L_84);
 		float L_86 = V_5;
 		*((float*)L_83) = (float)((float)il2cpp_codegen_add(L_85, L_86));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:735>
 		float* L_87 = ___10_avgEdge;
 		float* L_88 = ___10_avgEdge;
 		float L_89 = *((float*)L_88);
 		float L_90 = V_6;
 		*((float*)L_87) = (float)((float)il2cpp_codegen_add(L_89, L_90));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:736>
 		float* L_91 = ___10_avgEdge;
 		float* L_92 = ___10_avgEdge;
 		float L_93 = *((float*)L_92);
 		float L_94 = V_7;
 		*((float*)L_91) = (float)((float)il2cpp_codegen_add(L_93, L_94));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:737>
 		NativeArray_1_t9D3993C203DF036C34CDD1F41416541D312F1587* L_95 = ___4_triangles;
 		int32_t* L_96 = ___5_triangleCount;
 		int32_t* L_97 = ___5_triangleCount;
@@ -16304,14 +14636,12 @@ IL_0007:
 		int32_t L_100 = V_8;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_101 = V_1;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E, (L_95)->___m_Buffer, L_100, (L_101));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:708>
 		int32_t L_102 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_102, 3));
 	}
 
 IL_0173:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:708>
 		int32_t L_103 = V_0;
 		int32_t L_104 = ___3_indexCount;
 		if ((((int32_t)L_103) < ((int32_t)L_104)))
@@ -16320,24 +14650,20 @@ IL_0173:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:739>
 		float* L_105 = ___7_avgArea;
 		float* L_106 = ___7_avgArea;
 		float L_107 = *((float*)L_106);
 		int32_t* L_108 = ___5_triangleCount;
 		int32_t L_109 = *((int32_t*)L_108);
 		*((float*)L_105) = (float)((float)(L_107/((float)L_109)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:740>
 		float* L_110 = ___10_avgEdge;
 		float* L_111 = ___10_avgEdge;
 		float L_112 = *((float*)L_111);
 		int32_t L_113 = ___3_indexCount;
 		*((float*)L_110) = (float)((float)(L_112/((float)L_113)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:741>
 		return;
 	}
 }
-// Method Definition Index: 95201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_BuildTrianglesAndEdges_mCF04E3E12DA8E5B16B5DBD03206D8029B94614F2 (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___0_vertices, int32_t ___1_vertexCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___2_indices, int32_t ___3_indexCount, NativeArray_1_t9D3993C203DF036C34CDD1F41416541D312F1587* ___4_triangles, int32_t* ___5_triangleCount, NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* ___6_delaEdges, int32_t* ___7_delaEdgeCount, float* ___8_maxArea, float* ___9_avgArea, float* ___10_minArea, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16354,52 +14680,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_BuildTrianglesAndEdges_mCF0
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:746>
 		V_0 = 0;
 		goto IL_0169;
 	}
 
 IL_0007:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:748>
 		il2cpp_codegen_initobj((&V_1), sizeof(UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:749>
 		int32_t L_0 = V_0;
 		int32_t L_1;
 		L_1 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, L_0);
 		V_2 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:750>
 		int32_t L_2 = V_0;
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_2, 1)));
 		V_3 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:751>
 		int32_t L_4 = V_0;
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_4, 2)));
 		V_4 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:752>
 		int32_t L_6 = V_2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_6);
 		(&V_1)->___va = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:753>
 		int32_t L_8 = V_3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9;
 		L_9 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_8);
 		(&V_1)->___vb = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:754>
 		int32_t L_10 = V_4;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_10);
 		(&V_1)->___vc = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:755>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_12 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		UCircle_tC29A5FA379CDA3DB1DC29260A1A6F2998CFE8C6A L_13;
 		L_13 = ModuleHandle_CircumCircle_m1018DA7F863CEC3CF2E9276A894F126BA9F16410(L_12, NULL);
 		(&V_1)->___c = L_13;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:756>
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_14 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_15 = L_14.___va;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_16 = V_1;
@@ -16409,7 +14725,6 @@ IL_0007:
 		float L_20;
 		L_20 = ModuleHandle_TriangleArea_m33666F4D829A98D16C70EE4E4C8861290C84B475(L_15, L_17, L_19, NULL);
 		(&V_1)->___area = L_20;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:757>
 		float* L_21 = ___8_maxArea;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_22 = V_1;
 		float L_23 = L_22.___area;
@@ -16418,7 +14733,6 @@ IL_0007:
 		float L_26;
 		L_26 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_23, L_25, NULL);
 		*((float*)L_21) = (float)L_26;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:758>
 		float* L_27 = ___10_minArea;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_28 = V_1;
 		float L_29 = L_28.___area;
@@ -16427,14 +14741,12 @@ IL_0007:
 		float L_32;
 		L_32 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_29, L_31, NULL);
 		*((float*)L_27) = (float)L_32;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:759>
 		float* L_33 = ___9_avgArea;
 		float* L_34 = ___9_avgArea;
 		float L_35 = *((float*)L_34);
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_36 = V_1;
 		float L_37 = L_36.___area;
 		*((float*)L_33) = (float)((float)il2cpp_codegen_add(L_35, L_37));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:760>
 		int32_t L_38 = V_2;
 		int32_t L_39 = V_3;
 		int32_t L_40 = V_4;
@@ -16442,7 +14754,6 @@ IL_0007:
 		memset((&L_41), 0, sizeof(L_41));
 		int3__ctor_mE478318DE4CA648614FEF2C1DD438C0455284BF2_inline((&L_41), L_38, L_39, L_40, NULL);
 		(&V_1)->___indices = L_41;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:763>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_42 = ___6_delaEdges;
 		int32_t* L_43 = ___7_delaEdgeCount;
 		int32_t* L_44 = ___7_delaEdgeCount;
@@ -16465,7 +14776,6 @@ IL_0007:
 		memset((&L_56), 0, sizeof(L_56));
 		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_56), L_50, L_53, L_55, (-1), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_42)->___m_Buffer, L_47, (L_56));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:764>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_57 = ___6_delaEdges;
 		int32_t* L_58 = ___7_delaEdgeCount;
 		int32_t* L_59 = ___7_delaEdgeCount;
@@ -16488,7 +14798,6 @@ IL_0007:
 		memset((&L_71), 0, sizeof(L_71));
 		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_71), L_65, L_68, L_70, (-1), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_57)->___m_Buffer, L_62, (L_71));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:765>
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_72 = ___6_delaEdges;
 		int32_t* L_73 = ___7_delaEdgeCount;
 		int32_t* L_74 = ___7_delaEdgeCount;
@@ -16511,7 +14820,6 @@ IL_0007:
 		memset((&L_86), 0, sizeof(L_86));
 		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_86), L_80, L_83, L_85, (-1), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_72)->___m_Buffer, L_77, (L_86));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:766>
 		NativeArray_1_t9D3993C203DF036C34CDD1F41416541D312F1587* L_87 = ___4_triangles;
 		int32_t* L_88 = ___5_triangleCount;
 		int32_t* L_89 = ___5_triangleCount;
@@ -16522,14 +14830,12 @@ IL_0007:
 		int32_t L_92 = V_5;
 		UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E L_93 = V_1;
 		IL2CPP_NATIVEARRAY_SET_ITEM(UTriangle_t8058F44B73B054F659C538A0787B0A3DCEF08A3E, (L_87)->___m_Buffer, L_92, (L_93));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:746>
 		int32_t L_94 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_94, 3));
 	}
 
 IL_0169:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:746>
 		int32_t L_95 = V_0;
 		int32_t L_96 = ___3_indexCount;
 		if ((((int32_t)L_95) < ((int32_t)L_96)))
@@ -16538,18 +14844,15 @@ IL_0169:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:768>
 		float* L_97 = ___9_avgArea;
 		float* L_98 = ___9_avgArea;
 		float L_99 = *((float*)L_98);
 		int32_t* L_100 = ___5_triangleCount;
 		int32_t L_101 = *((int32_t*)L_100);
 		*((float*)L_97) = (float)((float)(L_99/((float)L_101)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:769>
 		return;
 	}
 }
-// Method Definition Index: 95202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_CopyGraph_m7524ECBD453A100BB700B073E6D833C297D8DBB1 (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___0_srcPoints, int32_t ___1_srcPointCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___2_dstPoints, int32_t* ___3_dstPointCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 ___4_srcEdges, int32_t ___5_srcEdgeCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* ___6_dstEdges, int32_t* ___7_dstEdgeCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16561,32 +14864,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_CopyGraph_m7524ECBD453A100B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:773>
 		int32_t* L_0 = ___7_dstEdgeCount;
 		int32_t L_1 = ___5_srcEdgeCount;
 		*((int32_t*)L_0) = (int32_t)L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:774>
 		int32_t* L_2 = ___3_dstPointCount;
 		int32_t L_3 = ___1_srcPointCount;
 		*((int32_t*)L_2) = (int32_t)L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:775>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_4 = ___4_srcEdges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_5 = ___6_dstEdges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_6 = (*(NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)L_5);
 		int32_t L_7 = ___5_srcEdgeCount;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_m87BDB6F48A8290DC95B7D1E15F888FA1FB60C3AE(L_4, L_6, L_7, ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_m87BDB6F48A8290DC95B7D1E15F888FA1FB60C3AE_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:776>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_8 = ___0_srcPoints;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_9 = ___2_dstPoints;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_10 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_9);
 		int32_t L_11 = ___1_srcPointCount;
 		ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_mD5EED246F306E5FB4D3E541BB32CE156941BF022(L_8, L_10, L_11, ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_mD5EED246F306E5FB4D3E541BB32CE156941BF022_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:777>
 		return;
 	}
 }
-// Method Definition Index: 95203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_CopyGeometry_m48670245A1D3128CCD9300CAC9BB9330EE142905 (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___0_srcIndices, int32_t ___1_srcIndexCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___2_dstIndices, int32_t* ___3_dstIndexCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___4_srcVertices, int32_t ___5_srcVertexCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___6_dstVertices, int32_t* ___7_dstVertexCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16598,32 +14895,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_CopyGeometry_m48670245A1D31
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:781>
 		int32_t* L_0 = ___3_dstIndexCount;
 		int32_t L_1 = ___1_srcIndexCount;
 		*((int32_t*)L_0) = (int32_t)L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:782>
 		int32_t* L_2 = ___7_dstVertexCount;
 		int32_t L_3 = ___5_srcVertexCount;
 		*((int32_t*)L_2) = (int32_t)L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:783>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_4 = ___0_srcIndices;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_5 = ___2_dstIndices;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_6 = (*(NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)L_5);
 		int32_t L_7 = ___1_srcIndexCount;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_Copy_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mB90F85F14711F0993D636DE10A4998C5B903267D(L_4, L_6, L_7, ModuleHandle_Copy_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mB90F85F14711F0993D636DE10A4998C5B903267D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:784>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_8 = ___4_srcVertices;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_9 = ___6_dstVertices;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_10 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_9);
 		int32_t L_11 = ___5_srcVertexCount;
 		ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_mD5EED246F306E5FB4D3E541BB32CE156941BF022(L_8, L_10, L_11, ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_mD5EED246F306E5FB4D3E541BB32CE156941BF022_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:785>
 		return;
 	}
 }
-// Method Definition Index: 95204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_TransferOutput_mCA93E15FF7A62178863E3B3FFE2F361CB5EBEE8E (NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 ___0_srcEdges, int32_t ___1_srcEdgeCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* ___2_dstEdges, int32_t* ___3_dstEdgeCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___4_srcIndices, int32_t ___5_srcIndexCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___6_dstIndices, int32_t* ___7_dstIndexCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___8_srcVertices, int32_t ___9_srcVertexCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___10_dstVertices, int32_t* ___11_dstVertexCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16636,42 +14927,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_TransferOutput_mCA93E15FF7A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:789>
 		int32_t* L_0 = ___3_dstEdgeCount;
 		int32_t L_1 = ___1_srcEdgeCount;
 		*((int32_t*)L_0) = (int32_t)L_1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:790>
 		int32_t* L_2 = ___7_dstIndexCount;
 		int32_t L_3 = ___5_srcIndexCount;
 		*((int32_t*)L_2) = (int32_t)L_3;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:791>
 		int32_t* L_4 = ___11_dstVertexCount;
 		int32_t L_5 = ___9_srcVertexCount;
 		*((int32_t*)L_4) = (int32_t)L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:792>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_6 = ___0_srcEdges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_7 = ___2_dstEdges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_8 = (*(NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)L_7);
 		int32_t L_9 = ___1_srcEdgeCount;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_m87BDB6F48A8290DC95B7D1E15F888FA1FB60C3AE(L_6, L_8, L_9, ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_m87BDB6F48A8290DC95B7D1E15F888FA1FB60C3AE_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:793>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_10 = ___4_srcIndices;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_11 = ___6_dstIndices;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_12 = (*(NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)L_11);
 		int32_t L_13 = ___5_srcIndexCount;
 		ModuleHandle_Copy_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mB90F85F14711F0993D636DE10A4998C5B903267D(L_10, L_12, L_13, ModuleHandle_Copy_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mB90F85F14711F0993D636DE10A4998C5B903267D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:794>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_14 = ___8_srcVertices;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_15 = ___10_dstVertices;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_16 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_15);
 		int32_t L_17 = ___9_srcVertexCount;
 		ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_mD5EED246F306E5FB4D3E541BB32CE156941BF022(L_14, L_16, L_17, ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_mD5EED246F306E5FB4D3E541BB32CE156941BF022_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:795>
 		return;
 	}
 }
-// Method Definition Index: 95205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_GraphConditioner_m7CCB383D420BDC3AAD6D9AF9824757BA3348E8E8 (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___0_points, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___1_pgPoints, int32_t* ___2_pgPointCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* ___3_pgEdges, int32_t* ___4_pgEdgeCount, bool ___5_resetTopology, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16695,19 +14978,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_GraphConditioner_m7CCB383D4
 	int32_t G_B6_0 = 0;
 	int32_t* G_B6_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:799>
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&V_0), (std::numeric_limits<float>::infinity()), (std::numeric_limits<float>::infinity()), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:800>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_StaticFields*)il2cpp_codegen_static_fields_for(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_il2cpp_TypeInfo_var))->___zero;
 		V_1 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:801>
 		V_5 = 0;
 		goto IL_0042;
 	}
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:803>
 		int32_t L_1 = V_5;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
 		L_2 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_points))->___m_Buffer, L_1);
@@ -16715,7 +14994,6 @@ IL_001c:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4;
 		L_4 = math_min_m68ED612C41E325FA3446050EA04D0AC0CD191558_inline(L_2, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:804>
 		int32_t L_5 = V_5;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_points))->___m_Buffer, L_5);
@@ -16723,14 +15001,12 @@ IL_001c:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8;
 		L_8 = math_max_mFD64D6399932C2D91018BA7895C06FD055E1361B_inline(L_6, L_7, NULL);
 		V_1 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:801>
 		int32_t L_9 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:801>
 		int32_t L_10 = V_5;
 		int32_t L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_points))->___m_Length);
@@ -16740,18 +15016,14 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:807>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_12 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_13 = V_0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_14;
 		L_14 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_12, L_13, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:808>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_15;
 		L_15 = float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_inline(L_14, (0.5f), NULL);
 		V_2 = L_15;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:809>
 		V_3 = (9.99999975E-05f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:812>
 		int32_t* L_16 = ___2_pgPointCount;
 		bool L_17 = ___5_resetTopology;
 		if (L_17)
@@ -16778,11 +15050,9 @@ IL_006e:
 IL_006f:
 	{
 		*((int32_t*)G_B6_1) = (int32_t)G_B6_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:813>
 		int32_t* L_20 = ___2_pgPointCount;
 		int32_t L_21 = *((int32_t*)L_20);
 		V_4 = L_21;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:814>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_22 = ___1_pgPoints;
 		int32_t* L_23 = ___2_pgPointCount;
 		int32_t* L_24 = ___2_pgPointCount;
@@ -16799,7 +15069,6 @@ IL_006f:
 		memset((&L_32), 0, sizeof(L_32));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_32), L_29, L_31, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_22)->___m_Buffer, L_27, (L_32));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:814>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_33 = ___1_pgPoints;
 		int32_t* L_34 = ___2_pgPointCount;
 		int32_t* L_35 = ___2_pgPointCount;
@@ -16819,7 +15088,6 @@ IL_006f:
 		memset((&L_46), 0, sizeof(L_46));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_46), ((float)il2cpp_codegen_subtract(L_40, L_41)), ((float)il2cpp_codegen_add(L_43, L_45)), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_33)->___m_Buffer, L_38, (L_46));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:814>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_47 = ___1_pgPoints;
 		int32_t* L_48 = ___2_pgPointCount;
 		int32_t* L_49 = ___2_pgPointCount;
@@ -16836,7 +15104,6 @@ IL_006f:
 		memset((&L_57), 0, sizeof(L_57));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_57), L_54, L_56, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_47)->___m_Buffer, L_52, (L_57));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:814>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_58 = ___1_pgPoints;
 		int32_t* L_59 = ___2_pgPointCount;
 		int32_t* L_60 = ___2_pgPointCount;
@@ -16856,7 +15123,6 @@ IL_006f:
 		memset((&L_71), 0, sizeof(L_71));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_71), ((float)il2cpp_codegen_add(L_65, L_67)), ((float)il2cpp_codegen_add(L_69, L_70)), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_58)->___m_Buffer, L_63, (L_71));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:815>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_72 = ___1_pgPoints;
 		int32_t* L_73 = ___2_pgPointCount;
 		int32_t* L_74 = ___2_pgPointCount;
@@ -16873,7 +15139,6 @@ IL_006f:
 		memset((&L_82), 0, sizeof(L_82));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_82), L_79, L_81, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_72)->___m_Buffer, L_77, (L_82));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:815>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_83 = ___1_pgPoints;
 		int32_t* L_84 = ___2_pgPointCount;
 		int32_t* L_85 = ___2_pgPointCount;
@@ -16893,7 +15158,6 @@ IL_006f:
 		memset((&L_96), 0, sizeof(L_96));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_96), ((float)il2cpp_codegen_add(L_90, L_91)), ((float)il2cpp_codegen_add(L_93, L_95)), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_83)->___m_Buffer, L_88, (L_96));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:815>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_97 = ___1_pgPoints;
 		int32_t* L_98 = ___2_pgPointCount;
 		int32_t* L_99 = ___2_pgPointCount;
@@ -16910,7 +15174,6 @@ IL_006f:
 		memset((&L_107), 0, sizeof(L_107));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_107), L_104, L_106, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_97)->___m_Buffer, L_102, (L_107));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:815>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_108 = ___1_pgPoints;
 		int32_t* L_109 = ___2_pgPointCount;
 		int32_t* L_110 = ___2_pgPointCount;
@@ -16930,10 +15193,8 @@ IL_006f:
 		memset((&L_121), 0, sizeof(L_121));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_121), ((float)il2cpp_codegen_add(L_115, L_117)), ((float)il2cpp_codegen_subtract(L_119, L_120)), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_108)->___m_Buffer, L_113, (L_121));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:817>
 		int32_t* L_122 = ___4_pgEdgeCount;
 		*((int32_t*)L_122) = (int32_t)8;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:818>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_123 = ___3_pgEdges;
 		int32_t L_124 = V_4;
 		int32_t L_125 = V_4;
@@ -16941,7 +15202,6 @@ IL_006f:
 		memset((&L_126), 0, sizeof(L_126));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_126), L_124, ((int32_t)il2cpp_codegen_add(L_125, 1)), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_123)->___m_Buffer, 0, (L_126));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:818>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_127 = ___3_pgEdges;
 		int32_t L_128 = V_4;
 		int32_t L_129 = V_4;
@@ -16949,7 +15209,6 @@ IL_006f:
 		memset((&L_130), 0, sizeof(L_130));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_130), ((int32_t)il2cpp_codegen_add(L_128, 1)), ((int32_t)il2cpp_codegen_add(L_129, 2)), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_127)->___m_Buffer, 1, (L_130));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:818>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_131 = ___3_pgEdges;
 		int32_t L_132 = V_4;
 		int32_t L_133 = V_4;
@@ -16957,7 +15216,6 @@ IL_006f:
 		memset((&L_134), 0, sizeof(L_134));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_134), ((int32_t)il2cpp_codegen_add(L_132, 2)), ((int32_t)il2cpp_codegen_add(L_133, 3)), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_131)->___m_Buffer, 2, (L_134));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:818>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_135 = ___3_pgEdges;
 		int32_t L_136 = V_4;
 		int32_t L_137 = V_4;
@@ -16965,7 +15223,6 @@ IL_006f:
 		memset((&L_138), 0, sizeof(L_138));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_138), ((int32_t)il2cpp_codegen_add(L_136, 3)), ((int32_t)il2cpp_codegen_add(L_137, 4)), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_135)->___m_Buffer, 3, (L_138));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:819>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_139 = ___3_pgEdges;
 		int32_t L_140 = V_4;
 		int32_t L_141 = V_4;
@@ -16973,7 +15230,6 @@ IL_006f:
 		memset((&L_142), 0, sizeof(L_142));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_142), ((int32_t)il2cpp_codegen_add(L_140, 4)), ((int32_t)il2cpp_codegen_add(L_141, 5)), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_139)->___m_Buffer, 4, (L_142));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:819>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_143 = ___3_pgEdges;
 		int32_t L_144 = V_4;
 		int32_t L_145 = V_4;
@@ -16981,7 +15237,6 @@ IL_006f:
 		memset((&L_146), 0, sizeof(L_146));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_146), ((int32_t)il2cpp_codegen_add(L_144, 5)), ((int32_t)il2cpp_codegen_add(L_145, 6)), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_143)->___m_Buffer, 5, (L_146));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:819>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_147 = ___3_pgEdges;
 		int32_t L_148 = V_4;
 		int32_t L_149 = V_4;
@@ -16989,7 +15244,6 @@ IL_006f:
 		memset((&L_150), 0, sizeof(L_150));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_150), ((int32_t)il2cpp_codegen_add(L_148, 6)), ((int32_t)il2cpp_codegen_add(L_149, 7)), NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_147)->___m_Buffer, 6, (L_150));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:819>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_151 = ___3_pgEdges;
 		int32_t L_152 = V_4;
 		int32_t L_153 = V_4;
@@ -16997,27 +15251,22 @@ IL_006f:
 		memset((&L_154), 0, sizeof(L_154));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_154), ((int32_t)il2cpp_codegen_add(L_152, 7)), L_153, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_151)->___m_Buffer, 7, (L_154));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:820>
 		return;
 	}
 }
-// Method Definition Index: 95206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_Reorder_m0D8DB6E4777AF650332512ECEFF6E5D181B1A233 (int32_t ___0_startVertexCount, int32_t ___1_index, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___2_indices, int32_t* ___3_indexCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___4_vertices, int32_t* ___5_vertexCount, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:826>
 		V_0 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:828>
 		V_1 = 0;
 		goto IL_0018;
 	}
 
 IL_0006:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:830>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_0 = ___2_indices;
 		int32_t L_1 = V_1;
 		int32_t L_2;
@@ -17029,22 +15278,18 @@ IL_0006:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:831>
 		V_0 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:832>
 		goto IL_001d;
 	}
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:828>
 		int32_t L_4 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_4, 1));
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:828>
 		int32_t L_5 = V_1;
 		int32_t* L_6 = ___3_indexCount;
 		int32_t L_7 = *((int32_t*)L_6);
@@ -17056,7 +15301,6 @@ IL_0018:
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:835>
 		bool L_8 = V_0;
 		if (L_8)
 		{
@@ -17064,12 +15308,10 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:837>
 		int32_t* L_9 = ___5_vertexCount;
 		int32_t* L_10 = ___5_vertexCount;
 		int32_t L_11 = *((int32_t*)L_10);
 		*((int32_t*)L_9) = (int32_t)((int32_t)il2cpp_codegen_subtract(L_11, 1));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:838>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_12 = ___4_vertices;
 		int32_t L_13 = ___1_index;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_14 = ___4_vertices;
@@ -17078,14 +15320,12 @@ IL_001d:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_17;
 		L_17 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_14)->___m_Buffer, L_16);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_12)->___m_Buffer, L_13, (L_17));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:839>
 		V_2 = 0;
 		goto IL_0056;
 	}
 
 IL_003e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:840>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_18 = ___2_indices;
 		int32_t L_19 = V_2;
 		int32_t L_20;
@@ -17098,7 +15338,6 @@ IL_003e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:841>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_23 = ___2_indices;
 		int32_t L_24 = V_2;
 		int32_t L_25 = ___1_index;
@@ -17107,14 +15346,12 @@ IL_003e:
 
 IL_0052:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:839>
 		int32_t L_26 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_26, 1));
 	}
 
 IL_0056:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:839>
 		int32_t L_27 = V_2;
 		int32_t* L_28 = ___3_indexCount;
 		int32_t L_29 = *((int32_t*)L_28);
@@ -17126,11 +15363,9 @@ IL_0056:
 
 IL_005b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:844>
 		return;
 	}
 }
-// Method Definition Index: 95207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_VertexCleanupConditioner_mD6086E9DA27D79B1C91C34FC25B1C6C0BBD94AB7 (int32_t ___0_startVertexCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___1_indices, int32_t* ___2_indexCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___3_vertices, int32_t* ___4_vertexCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17141,7 +15376,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_VertexCleanupConditioner_mD
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:850>
 		int32_t L_0 = ___0_startVertexCount;
 		V_0 = L_0;
 		goto IL_0014;
@@ -17149,7 +15383,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_VertexCleanupConditioner_mD
 
 IL_0004:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:852>
 		int32_t L_1 = ___0_startVertexCount;
 		int32_t L_2 = V_0;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_3 = ___1_indices;
@@ -17158,14 +15391,12 @@ IL_0004:
 		int32_t* L_6 = ___4_vertexCount;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_Reorder_m0D8DB6E4777AF650332512ECEFF6E5D181B1A233(L_1, L_2, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:850>
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:850>
 		int32_t L_8 = V_0;
 		int32_t* L_9 = ___4_vertexCount;
 		int32_t L_10 = *((int32_t*)L_9);
@@ -17175,11 +15406,9 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:855>
 		return;
 	}
 }
-// Method Definition Index: 95208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E ModuleHandle_ConvexQuad_m4A21CDD915DA41A18538FC95EB915DCE7B2E70D0 (int32_t ___0_allocator, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___1_points, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 ___2_edges, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___3_outVertices, int32_t* ___4_outVertexCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___5_outIndices, int32_t* ___6_outIndexCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* ___7_outEdges, int32_t* ___8_outEdgeCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17202,19 +15431,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 	NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:860>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ((float4_t89D9A294E7A79BD81BFBDD18654508532958555E_StaticFields*)il2cpp_codegen_static_fields_for(float4_t89D9A294E7A79BD81BFBDD18654508532958555E_il2cpp_TypeInfo_var))->___zero;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:861>
 		int32_t* L_1 = ___8_outEdgeCount;
 		*((int32_t*)L_1) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:861>
 		int32_t* L_2 = ___6_outIndexCount;
 		*((int32_t*)L_2) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:861>
 		int32_t* L_3 = ___4_outVertexCount;
 		*((int32_t*)L_3) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:862>
 		int32_t L_4;
 		L_4 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_points))->___m_Length);
 		if ((((int32_t)L_4) < ((int32_t)3)))
@@ -17235,30 +15459,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:863>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_7 = V_0;
 		return L_7;
 	}
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:866>
 		V_1 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:866>
 		V_2 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:867>
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		int32_t L_8 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxEdgeCount;
 		int32_t L_9 = ___0_allocator;
 		NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13((&V_3), L_8, L_9, 1, NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:868>
 		int32_t L_10 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxVertexCount;
 		int32_t L_11 = ___0_allocator;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_4), L_10, L_11, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:871>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_12 = ___1_points;
 		ModuleHandle_GraphConditioner_m7CCB383D420BDC3AAD6D9AF9824757BA3348E8E8(L_12, (&V_4), (&V_2), (&V_3), (&V_1), (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:872>
 		int32_t L_13 = ___0_allocator;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_14 = V_4;
 		int32_t L_15 = V_2;
@@ -17270,16 +15487,12 @@ IL_002c:
 		int32_t* L_21 = ___6_outIndexCount;
 		bool L_22;
 		L_22 = Tessellator_Tessellate_m3EB11B589A3E3E8563756605E2C94CEBBC7F2F31(L_13, L_14, L_15, L_16, L_17, L_18, L_19, L_20, L_21, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:875>
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_4), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:876>
 		NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2((&V_3), NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:877>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_23 = V_0;
 		return L_23;
 	}
 }
-// Method Definition Index: 95209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E ModuleHandle_Tessellate_mDCFCA96AD66F268C584B76699ECF5632D0C0E352 (int32_t ___0_allocator, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___1_points, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* ___2_edges, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___3_outVertices, int32_t* ___4_outVertexCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___5_outIndices, int32_t* ___6_outIndexCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* ___7_outEdges, int32_t* ___8_outEdgeCount, bool ___9_runPlanarGraph, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17319,19 +15532,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 	int32_t V_11 = 0;
 	int32_t V_12 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:883>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ((float4_t89D9A294E7A79BD81BFBDD18654508532958555E_StaticFields*)il2cpp_codegen_static_fields_for(float4_t89D9A294E7A79BD81BFBDD18654508532958555E_il2cpp_TypeInfo_var))->___zero;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:884>
 		int32_t* L_1 = ___8_outEdgeCount;
 		*((int32_t*)L_1) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:884>
 		int32_t* L_2 = ___6_outIndexCount;
 		*((int32_t*)L_2) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:884>
 		int32_t* L_3 = ___4_outVertexCount;
 		*((int32_t*)L_3) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:885>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_4 = ___1_points;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_5 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_4);
 		V_7 = L_5;
@@ -17358,22 +15566,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:886>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_11 = V_0;
 		return L_11;
 	}
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:889>
 		V_1 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:889>
 		V_2 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:890>
 		V_3 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:890>
 		V_4 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:891>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_12 = ___2_edges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_13 = (*(NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)L_12);
 		V_8 = L_13;
@@ -17381,7 +15583,6 @@ IL_003c:
 		L_14 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_8))->___m_Length);
 		int32_t L_15 = ___0_allocator;
 		NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13((&V_5), ((int32_t)il2cpp_codegen_multiply(L_14, 8)), L_15, 1, NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:892>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_16 = ___1_points;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_17 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_16);
 		V_7 = L_17;
@@ -17389,7 +15590,6 @@ IL_003c:
 		L_18 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_7))->___m_Length);
 		int32_t L_19 = ___0_allocator;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_6), ((int32_t)il2cpp_codegen_multiply(L_18, 4)), L_19, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:895>
 		bool L_20 = ___9_runPlanarGraph;
 		if (!L_20)
 		{
@@ -17397,7 +15597,6 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:897>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_21 = ___2_edges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_22 = (*(NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)L_21);
 		V_8 = L_22;
@@ -17409,7 +15608,6 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:899>
 		int32_t L_24 = ___0_allocator;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_25 = ___1_points;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_26 = ___1_points;
@@ -17432,28 +15630,24 @@ IL_003c:
 
 IL_00bf:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:905>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_34 = ___2_edges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_35 = (*(NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)L_34);
 		V_8 = L_35;
 		int32_t L_36;
 		L_36 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_8))->___m_Length);
 		V_3 = L_36;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:906>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_37 = ___1_points;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_38 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_37);
 		V_7 = L_38;
 		int32_t L_39;
 		L_39 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_7))->___m_Length);
 		V_4 = L_39;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:907>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_40 = ___2_edges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_41 = (*(NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)L_40);
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_42 = V_5;
 		int32_t L_43 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_m87BDB6F48A8290DC95B7D1E15F888FA1FB60C3AE(L_41, L_42, L_43, ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_m87BDB6F48A8290DC95B7D1E15F888FA1FB60C3AE_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:908>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_44 = ___1_points;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_45 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_44);
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_46 = V_6;
@@ -17463,7 +15657,6 @@ IL_00bf:
 
 IL_00fd:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:923>
 		bool L_48 = V_1;
 		if (L_48)
 		{
@@ -17471,7 +15664,6 @@ IL_00fd:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:925>
 		int32_t* L_49 = ___8_outEdgeCount;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_50 = ___2_edges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_51 = (*(NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)L_50);
@@ -17479,7 +15671,6 @@ IL_00fd:
 		int32_t L_52;
 		L_52 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_8))->___m_Length);
 		*((int32_t*)L_49) = (int32_t)L_52;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:926>
 		int32_t* L_53 = ___4_outVertexCount;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_54 = ___1_points;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_55 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_54);
@@ -17487,7 +15678,6 @@ IL_00fd:
 		int32_t L_56;
 		L_56 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_7))->___m_Length);
 		*((int32_t*)L_53) = (int32_t)L_56;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:927>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_57 = ___2_edges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_58 = (*(NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)L_57);
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_59 = ___7_outEdges;
@@ -17499,7 +15689,6 @@ IL_00fd:
 		L_63 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_8))->___m_Length);
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_m87BDB6F48A8290DC95B7D1E15F888FA1FB60C3AE(L_58, L_60, L_63, ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_m87BDB6F48A8290DC95B7D1E15F888FA1FB60C3AE_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:928>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_64 = ___1_points;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_65 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_64);
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_66 = ___3_outVertices;
@@ -17514,7 +15703,6 @@ IL_00fd:
 
 IL_0165:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:932>
 		int32_t L_71 = V_4;
 		if ((((int32_t)L_71) <= ((int32_t)2)))
 		{
@@ -17529,19 +15717,14 @@ IL_0165:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:935>
 		int32_t L_73 = V_4;
 		int32_t L_74 = ___0_allocator;
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_9), ((int32_t)il2cpp_codegen_multiply(L_73, 8)), L_74, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:936>
 		int32_t L_75 = V_4;
 		int32_t L_76 = ___0_allocator;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_10), ((int32_t)il2cpp_codegen_multiply(L_75, 4)), L_76, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:937>
 		V_11 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:937>
 		V_12 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:938>
 		int32_t L_77 = ___0_allocator;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_78 = V_6;
 		int32_t L_79 = V_4;
@@ -17550,7 +15733,6 @@ IL_0165:
 		bool L_82;
 		L_82 = Tessellator_Tessellate_m3EB11B589A3E3E8563756605E2C94CEBBC7F2F31(L_77, L_78, L_79, L_80, L_81, (&V_10), (&V_12), (&V_9), (&V_11), NULL);
 		V_1 = L_82;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:939>
 		bool L_83 = V_1;
 		if (!L_83)
 		{
@@ -17558,7 +15740,6 @@ IL_0165:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:942>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_84 = V_5;
 		int32_t L_85 = V_3;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_86 = ___7_outEdges;
@@ -17573,7 +15754,6 @@ IL_0165:
 		int32_t* L_95 = ___4_outVertexCount;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_TransferOutput_mCA93E15FF7A62178863E3B3FFE2F361CB5EBEE8E(L_84, L_85, L_86, L_87, L_88, L_89, L_90, L_91, L_92, L_93, L_94, L_95, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:943>
 		bool L_96 = V_2;
 		if (!L_96)
 		{
@@ -17581,31 +15761,24 @@ IL_0165:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:944>
 		int32_t* L_97 = ___8_outEdgeCount;
 		*((int32_t*)L_97) = (int32_t)0;
 	}
 
 IL_01c9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:946>
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_10), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:947>
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_9), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
 	}
 
 IL_01d7:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:951>
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_6), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:952>
 		NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2((&V_5), NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:953>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_98 = V_0;
 		return L_98;
 	}
 }
-// Method Definition Index: 95210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E ModuleHandle_Subdivide_m344F7B51ECF90710B82DAC6C1A756C8CB20FD6F1 (int32_t ___0_allocator, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___1_points, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 ___2_edges, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___3_outVertices, int32_t* ___4_outVertexCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___5_outIndices, int32_t* ___6_outIndexCount, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* ___7_outEdges, int32_t* ___8_outEdgeCount, float ___9_areaFactor, float ___10_targetArea, int32_t ___11_refineIterations, int32_t ___12_smoothenIterations, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17651,19 +15824,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 	memset((&V_17), 0, sizeof(V_17));
 	int32_t G_B7_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:959>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ((float4_t89D9A294E7A79BD81BFBDD18654508532958555E_StaticFields*)il2cpp_codegen_static_fields_for(float4_t89D9A294E7A79BD81BFBDD18654508532958555E_il2cpp_TypeInfo_var))->___zero;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:960>
 		int32_t* L_1 = ___8_outEdgeCount;
 		*((int32_t*)L_1) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:960>
 		int32_t* L_2 = ___6_outIndexCount;
 		*((int32_t*)L_2) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:960>
 		int32_t* L_3 = ___4_outVertexCount;
 		*((int32_t*)L_3) = (int32_t)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:961>
 		int32_t L_4;
 		L_4 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_points))->___m_Length);
 		if ((((int32_t)L_4) < ((int32_t)3)))
@@ -17692,27 +15860,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:962>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8 = V_0;
 		return L_8;
 	}
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:965>
 		V_1 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:965>
 		V_2 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:966>
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		int32_t L_9 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxIndexCount;
 		int32_t L_10 = ___0_allocator;
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_3), L_9, L_10, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:967>
 		int32_t L_11 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxVertexCount;
 		int32_t L_12 = ___0_allocator;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_4), L_11, L_12, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:968>
 		int32_t L_13 = ___0_allocator;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_14 = ___1_points;
 		int32_t L_15;
@@ -17723,9 +15885,7 @@ IL_0035:
 		bool L_18;
 		L_18 = Tessellator_Tessellate_m3EB11B589A3E3E8563756605E2C94CEBBC7F2F31(L_13, L_14, L_15, L_16, L_17, (&V_4), (&V_2), (&V_3), (&V_1), NULL);
 		V_5 = L_18;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:971>
 		V_6 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:972>
 		float L_19 = ___10_targetArea;
 		if ((!(((float)L_19) == ((float)(0.0f)))))
 		{
@@ -17746,7 +15906,6 @@ IL_008f:
 IL_0090:
 	{
 		V_7 = (bool)G_B7_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:973>
 		bool L_21 = V_5;
 		bool L_22 = V_7;
 		if (!((int32_t)((int32_t)L_21&(int32_t)L_22)))
@@ -17755,45 +15914,32 @@ IL_0090:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:976>
 		V_8 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:977>
 		V_9 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:978>
 		V_10 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:978>
 		V_11 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:978>
 		V_12 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:978>
 		V_13 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:979>
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		int32_t L_23 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxEdgeCount;
 		int32_t L_24 = ___0_allocator;
 		NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13((&V_14), L_23, L_24, 1, NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:980>
 		int32_t L_25 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxVertexCount;
 		int32_t L_26 = ___0_allocator;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_15), L_25, L_26, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:981>
 		int32_t L_27 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxIndexCount;
 		int32_t L_28 = ___0_allocator;
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_16), L_27, L_28, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:982>
 		int32_t L_29 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxVertexCount;
 		int32_t L_30 = ___0_allocator;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_17), L_29, L_30, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:983>
 		(&V_0)->___x = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:984>
 		int32_t L_31 = ___11_refineIterations;
 		int32_t L_32 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxRefineIterations;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_33;
 		L_33 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(L_31, L_32, NULL);
 		___11_refineIterations = L_33;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:986>
 		float L_34 = ___10_targetArea;
 		if ((((float)L_34) == ((float)(0.0f))))
 		{
@@ -17801,7 +15947,6 @@ IL_0090:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:989>
 		float L_35 = ___10_targetArea;
 		V_9 = ((float)(L_35/(10.0f)));
 		goto IL_01b4;
@@ -17809,7 +15954,6 @@ IL_0090:
 
 IL_0123:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:994>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_36 = ___1_points;
 		int32_t L_37;
 		L_37 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_points))->___m_Length);
@@ -17818,13 +15962,11 @@ IL_0123:
 		L_39 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_edges))->___m_Length);
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_CopyGraph_m7524ECBD453A100BB700B073E6D833C297D8DBB1(L_36, L_37, (&V_15), (&V_11), L_38, L_39, (&V_14), (&V_10), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:995>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_40 = V_3;
 		int32_t L_41 = V_1;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_42 = V_4;
 		int32_t L_43 = V_2;
 		ModuleHandle_CopyGeometry_m48670245A1D3128CCD9300CAC9BB9330EE142905(L_40, L_41, (&V_16), (&V_12), L_42, L_43, (&V_17), (&V_13), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:996>
 		int32_t L_44 = ___0_allocator;
 		float L_45 = ___9_areaFactor;
 		float L_46 = ___10_targetArea;
@@ -17832,7 +15974,6 @@ IL_0123:
 		bool L_47;
 		L_47 = Refinery_Condition_m6C3A1C309B279D858D172E5E0593673A5912D98E(L_44, L_45, L_46, (&V_15), (&V_11), (&V_14), (&V_10), (&V_17), (&V_13), (&V_16), (&V_12), (&V_8), NULL);
 		V_6 = L_47;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:998>
 		bool L_48 = V_6;
 		if (!L_48)
 		{
@@ -17848,10 +15989,8 @@ IL_0123:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1001>
 		float L_51 = ___9_areaFactor;
 		(&V_0)->___x = L_51;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1002>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_52 = V_14;
 		int32_t L_53 = V_10;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_54 = ___7_outEdges;
@@ -17866,26 +16005,21 @@ IL_0123:
 		int32_t* L_63 = ___4_outVertexCount;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_TransferOutput_mCA93E15FF7A62178863E3B3FFE2F361CB5EBEE8E(L_52, L_53, L_54, L_55, L_56, L_57, L_58, L_59, L_60, L_61, L_62, L_63, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1003>
 		goto IL_02a7;
 	}
 
 IL_01a4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1006>
 		V_6 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1007>
 		float L_64 = ___10_targetArea;
 		float L_65 = V_9;
 		___10_targetArea = ((float)il2cpp_codegen_add(L_64, L_65));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1008>
 		int32_t L_66 = ___11_refineIterations;
 		___11_refineIterations = ((int32_t)il2cpp_codegen_subtract(L_66, 1));
 	}
 
 IL_01b4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:991>
 		float L_67 = ___10_targetArea;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		int32_t L_68 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxArea;
@@ -17907,7 +16041,6 @@ IL_01b4:
 
 IL_01ce:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1012>
 		float L_70 = ___9_areaFactor;
 		if ((((float)L_70) == ((float)(0.0f))))
 		{
@@ -17915,12 +16048,10 @@ IL_01ce:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1015>
 		float L_71 = ___9_areaFactor;
 		float L_72;
 		L_72 = math_lerp_m58A82DB48BBA11871FFA81583C700875B3A9BC84_inline((0.100000001f), (0.540000021f), ((float)(((float)il2cpp_codegen_subtract(L_71, (0.0500000007f)))/(0.449999988f))), NULL);
 		___9_areaFactor = L_72;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1016>
 		float L_73 = ___9_areaFactor;
 		V_9 = ((float)(L_73/(10.0f)));
 		goto IL_0296;
@@ -17928,7 +16059,6 @@ IL_01ce:
 
 IL_0208:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1021>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_74 = ___1_points;
 		int32_t L_75;
 		L_75 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_points))->___m_Length);
@@ -17937,13 +16067,11 @@ IL_0208:
 		L_77 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_edges))->___m_Length);
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_CopyGraph_m7524ECBD453A100BB700B073E6D833C297D8DBB1(L_74, L_75, (&V_15), (&V_11), L_76, L_77, (&V_14), (&V_10), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1022>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_78 = V_3;
 		int32_t L_79 = V_1;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_80 = V_4;
 		int32_t L_81 = V_2;
 		ModuleHandle_CopyGeometry_m48670245A1D3128CCD9300CAC9BB9330EE142905(L_78, L_79, (&V_16), (&V_12), L_80, L_81, (&V_17), (&V_13), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1023>
 		int32_t L_82 = ___0_allocator;
 		float L_83 = ___9_areaFactor;
 		float L_84 = ___10_targetArea;
@@ -17951,7 +16079,6 @@ IL_0208:
 		bool L_85;
 		L_85 = Refinery_Condition_m6C3A1C309B279D858D172E5E0593673A5912D98E(L_82, L_83, L_84, (&V_15), (&V_11), (&V_14), (&V_10), (&V_17), (&V_13), (&V_16), (&V_12), (&V_8), NULL);
 		V_6 = L_85;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1025>
 		bool L_86 = V_6;
 		if (!L_86)
 		{
@@ -17967,10 +16094,8 @@ IL_0208:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1028>
 		float L_89 = ___9_areaFactor;
 		(&V_0)->___x = L_89;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1029>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_90 = V_14;
 		int32_t L_91 = V_10;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_92 = ___7_outEdges;
@@ -17985,26 +16110,21 @@ IL_0208:
 		int32_t* L_101 = ___4_outVertexCount;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_TransferOutput_mCA93E15FF7A62178863E3B3FFE2F361CB5EBEE8E(L_90, L_91, L_92, L_93, L_94, L_95, L_96, L_97, L_98, L_99, L_100, L_101, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1030>
 		goto IL_02a7;
 	}
 
 IL_0286:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1033>
 		V_6 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1034>
 		float L_102 = ___9_areaFactor;
 		float L_103 = V_9;
 		___9_areaFactor = ((float)il2cpp_codegen_add(L_102, L_103));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1035>
 		int32_t L_104 = ___11_refineIterations;
 		___11_refineIterations = ((int32_t)il2cpp_codegen_subtract(L_104, 1));
 	}
 
 IL_0296:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1018>
 		float L_105 = ___9_areaFactor;
 		if ((!(((float)L_105) < ((float)(0.800000012f)))))
 		{
@@ -18021,7 +16141,6 @@ IL_0296:
 
 IL_02a7:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1039>
 		bool L_107 = V_6;
 		if (!L_107)
 		{
@@ -18029,7 +16148,6 @@ IL_02a7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1043>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_108 = V_0;
 		float L_109 = L_108.___x;
 		if ((((float)L_109) == ((float)(0.0f))))
@@ -18038,7 +16156,6 @@ IL_02a7:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1044>
 		int32_t L_110 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_VertexCleanupConditioner_mD6086E9DA27D79B1C91C34FC25B1C6C0BBD94AB7(L_110, (&V_16), (&V_12), (&V_17), (&V_13), NULL);
@@ -18046,9 +16163,7 @@ IL_02a7:
 
 IL_02c9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1048>
 		(&V_0)->___y = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1049>
 		int32_t L_111 = ___12_smoothenIterations;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		int32_t L_112 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxSmoothenIterations;
@@ -18060,7 +16175,6 @@ IL_02c9:
 
 IL_02e6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1052>
 		int32_t L_114 = ___0_allocator;
 		int32_t L_115 = V_11;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_116 = V_14;
@@ -18068,17 +16182,14 @@ IL_02e6:
 		il2cpp_codegen_runtime_class_init_inline(Smoothen_t2669845717E6B60A555F24D6545A373D1F476486_il2cpp_TypeInfo_var);
 		bool L_118;
 		L_118 = Smoothen_Condition_m6DA3DC27448AE26EC40CA95F100303F2BF5AE142(L_114, (&V_15), L_115, L_116, L_117, (&V_17), (&V_13), (&V_16), (&V_12), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1053>
 		if (!L_118)
 		{
 			goto IL_032f;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1056>
 		int32_t L_119 = ___12_smoothenIterations;
 		(&V_0)->___y = ((float)L_119);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1057>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_120 = V_14;
 		int32_t L_121 = V_10;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_122 = ___7_outEdges;
@@ -18093,14 +16204,12 @@ IL_02e6:
 		int32_t* L_131 = ___4_outVertexCount;
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		ModuleHandle_TransferOutput_mCA93E15FF7A62178863E3B3FFE2F361CB5EBEE8E(L_120, L_121, L_122, L_123, L_124, L_125, L_126, L_127, L_128, L_129, L_130, L_131, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1058>
 		int32_t L_132 = ___12_smoothenIterations;
 		___12_smoothenIterations = ((int32_t)il2cpp_codegen_subtract(L_132, 1));
 	}
 
 IL_032a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1050>
 		int32_t L_133 = ___12_smoothenIterations;
 		if ((((int32_t)L_133) > ((int32_t)0)))
 		{
@@ -18110,7 +16219,6 @@ IL_032a:
 
 IL_032f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1063>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_134 = V_0;
 		float L_135 = L_134.___y;
 		if ((((float)L_135) == ((float)(0.0f))))
@@ -18119,7 +16227,6 @@ IL_032f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1064>
 		int32_t L_136 = V_2;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_137 = ___5_outIndices;
 		int32_t* L_138 = ___6_outIndexCount;
@@ -18131,19 +16238,14 @@ IL_032f:
 
 IL_0349:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1067>
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_17), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1068>
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_16), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1069>
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_15), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1070>
 		NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2((&V_14), NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2_RuntimeMethod_var);
 	}
 
 IL_0365:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1074>
 		bool L_141 = V_5;
 		if (!L_141)
 		{
@@ -18158,7 +16260,6 @@ IL_0365:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1077>
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_143 = ___2_edges;
 		int32_t L_144;
 		L_144 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_edges))->___m_Length);
@@ -18178,16 +16279,12 @@ IL_0365:
 
 IL_038a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1081>
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_4), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1082>
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_3), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:1083>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_155 = V_0;
 		return L_155;
 	}
 }
-// Method Definition Index: 95211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle__cctor_mC0B6A682D8EE791793279C92C678083089B93BDC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18197,22 +16294,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle__cctor_mC0B6A682D8EE7917932
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:285>
 		((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxArea = ((int32_t)65536);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:286>
 		((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxEdgeCount = ((int32_t)65536);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:287>
 		((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxIndexCount = ((int32_t)65536);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:288>
 		((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxVertexCount = ((int32_t)65536);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:289>
 		int32_t L_0 = ((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxIndexCount;
 		((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxTriangleCount = ((int32_t)(L_0/3));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:290>
 		((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxRefineIterations = ((int32_t)48);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:291>
 		((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kMaxSmoothenIterations = ((int32_t)256);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:292>
 		((ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var))->___kIncrementAreaFactor = (1.20000005f);
 		return;
 	}
@@ -18225,11 +16314,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle__cctor_mC0B6A682D8EE7917932
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Int3Compare_Compare_m8C8D52B5291F1E303B7EAB49297F98F69E4A24EE (Int3Compare_t10DC52848F4D5CAF82B3EFB41571C38672BB8AB9* __this, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___0_a, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___1_b, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/UTess.cs:560>
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_0 = ___0_a;
 		int32_t L_1 = L_0.___x;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_2 = ___1_b;
@@ -18288,29 +16375,24 @@ IL2CPP_EXTERN_C  int32_t Int3Compare_Compare_m8C8D52B5291F1E303B7EAB49297F98F69E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* RasterUtils_GetPixelOffsetBuffer_mD33579DDAEA701B0D15B46CD16F3C48C7D862BFA (int32_t ___0_offset, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* ___1_pixels, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:37>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* L_0 = ___1_pixels;
 		int32_t L_1 = ___0_offset;
 		uint32_t L_2 = sizeof(Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B);
 		return ((Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_1), (int32_t)L_2))));
 	}
 }
-// Method Definition Index: 95214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B RasterUtils_GetPixel_mC6D1E3241281C9CD7100AB9C70F019A82CA6B17E (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* ___0_pixels, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* ___1_textureCfg, int32_t ___2_x, int32_t ___3_y, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:42>
 		int32_t L_0 = ___2_x;
 		int32_t L_1 = ___3_y;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* L_2 = ___1_textureCfg;
 		int32_t L_3 = L_2->___x;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_0, ((int32_t)il2cpp_codegen_multiply(L_1, L_3))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:43>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* L_4 = ___0_pixels;
 		int32_t L_5 = V_0;
 		uint32_t L_6 = sizeof(Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B);
@@ -18318,7 +16400,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color32_t73C5004937BF5BB8AD55323D51AAA40A898E
 		return L_7;
 	}
 }
-// Method Definition Index: 95215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t RasterUtils_Color32ToByte_mF3B311EDEE8E97F0C0610116B790D9CD46B5C388 (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___0_rgba, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -18338,7 +16419,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t RasterUtils_Color32ToByte_mF3B311EDEE
 	uint8_t G_B9_1 = 0x0;
 	int32_t G_B12_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:48>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_0 = ___0_rgba;
 		uint8_t L_1 = L_0.___r;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_2 = ___0_rgba;
@@ -18367,7 +16447,6 @@ IL_0018:
 		int32_t L_4;
 		L_4 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(((int32_t)il2cpp_codegen_add((int32_t)G_B3_1, G_B3_0)), 3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:49>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_5 = ___0_rgba;
 		uint8_t L_6 = L_5.___g;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_7 = ___0_rgba;
@@ -18396,7 +16475,6 @@ IL_0038:
 		int32_t L_9;
 		L_9 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(((int32_t)il2cpp_codegen_add((int32_t)G_B6_1, G_B6_0)), 3, NULL);
 		V_1 = L_9;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:50>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_10 = ___0_rgba;
 		uint8_t L_11 = L_10.___b;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_12 = ___0_rgba;
@@ -18425,7 +16503,6 @@ IL_0058:
 		int32_t L_14;
 		L_14 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(((int32_t)il2cpp_codegen_add((int32_t)G_B9_1, G_B9_0)), 3, NULL);
 		V_2 = L_14;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:51>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_15 = ___0_rgba;
 		uint8_t L_16 = L_15.___a;
 		if (L_16)
@@ -18445,14 +16522,12 @@ IL_006b:
 
 IL_006c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:52>
 		int32_t L_17 = V_2;
 		int32_t L_18 = V_1;
 		int32_t L_19 = V_0;
 		return (uint8_t)((int32_t)(uint8_t)((int32_t)(((int32_t)(((int32_t)(G_B12_0|((int32_t)(L_17<<2))))|((int32_t)(L_18<<4))))|((int32_t)(L_19<<6)))));
 	}
 }
-// Method Definition Index: 95216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B RasterUtils_ByteToColor32_m9CD9FF9567828A0859CBC2EE9A660BF2ACF0F615 (uint8_t ___0_rgba, const RuntimeMethod* method) 
 {
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B V_0;
@@ -18463,21 +16538,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color32_t73C5004937BF5BB8AD55323D51AAA40A898E
 	int32_t G_B3_0 = 0;
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* G_B3_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:57>
 		il2cpp_codegen_initobj((&V_0), sizeof(Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:58>
 		uint8_t L_0 = ___0_rgba;
 		V_1 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:59>
 		int32_t L_1 = V_1;
 		(&V_0)->___r = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((int32_t)(L_1>>6))&3)), ((int32_t)64))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:60>
 		int32_t L_2 = V_1;
 		(&V_0)->___g = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((int32_t)(L_2>>4))&3)), ((int32_t)64))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:61>
 		int32_t L_3 = V_1;
 		(&V_0)->___b = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((int32_t)(L_3>>2))&3)), ((int32_t)64))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:62>
 		int32_t L_4 = V_1;
 		if (((int32_t)(L_4&3)))
 		{
@@ -18501,23 +16570,19 @@ IL_0044:
 IL_0049:
 	{
 		G_B3_1->___a = (uint8_t)((int32_t)(uint8_t)G_B3_0);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:63>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_5 = V_0;
 		return L_5;
 	}
 }
-// Method Definition Index: 95217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RasterUtils_Min3_m2475FE60E37B7FF228877F9EC66608CE47A27DBB (float ___0_a, float ___1_b, float ___2_c, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:72>
 		float L_0 = ___1_b;
 		float L_1 = ___2_c;
 		float L_2;
 		L_2 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:73>
 		float L_3 = ___0_a;
 		float L_4 = V_0;
 		float L_5;
@@ -18525,18 +16590,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RasterUtils_Min3_m2475FE60E37B7FF228877
 		return L_5;
 	}
 }
-// Method Definition Index: 95218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RasterUtils_Max3_m05BEC67BB96AEA12DCE0444587CAA496698C945D (float ___0_a, float ___1_b, float ___2_c, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:78>
 		float L_0 = ___1_b;
 		float L_1 = ___2_c;
 		float L_2;
 		L_2 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:79>
 		float L_3 = ___0_a;
 		float L_4 = V_0;
 		float L_5;
@@ -18544,11 +16606,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RasterUtils_Max3_m05BEC67BB96AEA12DCE04
 		return L_5;
 	}
 }
-// Method Definition Index: 95219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RasterUtils_Orient2d_m9F74328EA973E7FA4448BC9022B9DD54A57EC070 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_a, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_b, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_c, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:84>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___1_b;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___0_a;
@@ -18568,11 +16628,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RasterUtils_Orient2d_m9F74328EA973E7F
 		return il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_9, L_11)), ((float)il2cpp_codegen_subtract(L_13, L_15)))))));
 	}
 }
-// Method Definition Index: 95220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RasterUtils_IsValidColorByte_m114023A733D15C1B85D785F2B400A4B653402B68 (uint8_t ___0_c, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:89>
 		uint8_t L_0 = ___0_c;
 		if (!((int32_t)((int32_t)L_0&((int32_t)252))))
 		{
@@ -18589,7 +16647,6 @@ IL_0010:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 95221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t RasterUtils_Pixelate_mE1A8EA28DADE1ED72DDBD8F885E5DC714D5B77FF (Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* ___0_pixelMask, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* ___1_textureCfg, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* ___2_pixels, uint8_t ___3_fillColorByte, int32_t ___4_sx, int32_t ___5_sy, int32_t ___6_x, int32_t ___7_y, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -18597,33 +16654,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t RasterUtils_Pixelate_mE1A8EA28DADE1ED
 	uint8_t V_2 = 0x0;
 	uint8_t G_B3_0 = 0x0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:94>
 		int32_t L_0 = ___6_x;
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_1 = ___0_pixelMask;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_2 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_1->___texrect);
 		int32_t L_3 = L_2->___x;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_0, L_3));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:95>
 		int32_t L_4 = ___7_y;
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_5 = ___0_pixelMask;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_6 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_5->___texrect);
 		int32_t L_7 = L_6->___y;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_4, L_7));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:96>
 		uint8_t L_8 = ___3_fillColorByte;
 		V_2 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:97>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* L_9 = ___2_pixels;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* L_10 = ___1_textureCfg;
 		int32_t L_11 = ___4_sx;
 		int32_t L_12 = ___5_sy;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_13;
 		L_13 = RasterUtils_GetPixel_mC6D1E3241281C9CD7100AB9C70F019A82CA6B17E(L_9, L_10, L_11, L_12, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:98>
 		uint8_t L_14;
 		L_14 = RasterUtils_Color32ToByte_mF3B311EDEE8E97F0C0610116B790D9CD46B5C388(L_13, NULL);
 		V_2 = L_14;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:99>
 		uint8_t L_15 = V_2;
 		bool L_16;
 		L_16 = RasterUtils_IsValidColorByte_m114023A733D15C1B85D785F2B400A4B653402B68(L_15, NULL);
@@ -18647,7 +16698,6 @@ IL_003c:
 IL_003d:
 	{
 		V_2 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:100>
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_19 = ___0_pixelMask;
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* L_20 = (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF*)(&L_19->___data);
 		int32_t L_21 = V_1;
@@ -18657,7 +16707,6 @@ IL_003d:
 		int32_t L_25 = V_0;
 		uint8_t L_26 = V_2;
 		IL2CPP_NATIVEARRAY_SET_ITEM(uint8_t, (L_20)->___m_Buffer, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_21, L_24)), L_25)), (L_26));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:101>
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_27 = ___0_pixelMask;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_28 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_27->___minmax);
 		int32_t L_29 = V_0;
@@ -18667,7 +16716,6 @@ IL_003d:
 		int32_t L_33;
 		L_33 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(L_29, L_32, NULL);
 		L_28->___x = L_33;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:102>
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_34 = ___0_pixelMask;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_35 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_34->___minmax);
 		int32_t L_36 = V_1;
@@ -18677,7 +16725,6 @@ IL_003d:
 		int32_t L_40;
 		L_40 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(L_36, L_39, NULL);
 		L_35->___y = L_40;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:103>
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_41 = ___0_pixelMask;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_42 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_41->___minmax);
 		int32_t L_43 = V_0;
@@ -18687,7 +16734,6 @@ IL_003d:
 		int32_t L_47;
 		L_47 = math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline(L_43, L_46, NULL);
 		L_42->___z = L_47;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:104>
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_48 = ___0_pixelMask;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_49 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_48->___minmax);
 		int32_t L_50 = V_1;
@@ -18697,12 +16743,10 @@ IL_003d:
 		int32_t L_54;
 		L_54 = math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline(L_50, L_53, NULL);
 		L_49->___w = L_54;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:105>
 		uint8_t L_55 = V_2;
 		return L_55;
 	}
 }
-// Method Definition Index: 95222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_Pad_m366416BB087A4E5EB3A8D349952DD4E31088CDEC (Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* ___0_pixelMask, uint8_t ___1_srcColorByte, uint8_t ___2_tgtColorByte, int32_t ___3_dx, int32_t ___4_dy, int32_t ___5_padx, int32_t ___6_pady, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -18710,7 +16754,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_Pad_m366416BB087A4E5EB3A8D34
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:110>
 		uint8_t L_0 = ___1_srcColorByte;
 		bool L_1;
 		L_1 = RasterUtils_IsValidColorByte_m114023A733D15C1B85D785F2B400A4B653402B68(L_0, NULL);
@@ -18720,13 +16763,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_Pad_m366416BB087A4E5EB3A8D34
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:111>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:113>
 		int32_t L_2 = ___6_pady;
 		V_0 = ((-L_2));
 		goto IL_0152;
@@ -18734,7 +16775,6 @@ IL_0009:
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:115>
 		int32_t L_3 = ___5_padx;
 		V_1 = ((-L_3));
 		goto IL_0146;
@@ -18742,7 +16782,6 @@ IL_0012:
 
 IL_001b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:117>
 		int32_t L_4 = ___3_dx;
 		int32_t L_5 = V_1;
 		int32_t L_6;
@@ -18756,7 +16795,6 @@ IL_001b:
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_12 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_11->___texrect);
 		int32_t L_13 = L_12->___x;
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_10, L_13));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:118>
 		int32_t L_14 = ___4_dy;
 		int32_t L_15 = V_0;
 		int32_t L_16;
@@ -18770,7 +16808,6 @@ IL_001b:
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_22 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_21->___texrect);
 		int32_t L_23 = L_22->___y;
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_20, L_23));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:119>
 		int32_t L_24 = V_2;
 		if ((((int32_t)L_24) < ((int32_t)0)))
 		{
@@ -18805,7 +16842,6 @@ IL_001b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:122>
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_34 = ___0_pixelMask;
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* L_35 = (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF*)(&L_34->___data);
 		int32_t L_36 = V_3;
@@ -18821,7 +16857,6 @@ IL_001b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:124>
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_42 = ___0_pixelMask;
 		NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* L_43 = (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF*)(&L_42->___data);
 		int32_t L_44 = V_3;
@@ -18831,7 +16866,6 @@ IL_001b:
 		int32_t L_48 = V_2;
 		uint8_t L_49 = ___2_tgtColorByte;
 		IL2CPP_NATIVEARRAY_SET_ITEM(uint8_t, (L_43)->___m_Buffer, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_44, L_47)), L_48)), (L_49));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:125>
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_50 = ___0_pixelMask;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_51 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_50->___minmax);
 		int32_t L_52 = V_2;
@@ -18841,7 +16875,6 @@ IL_001b:
 		int32_t L_56;
 		L_56 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(L_52, L_55, NULL);
 		L_51->___x = L_56;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:126>
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_57 = ___0_pixelMask;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_58 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_57->___minmax);
 		int32_t L_59 = V_3;
@@ -18851,7 +16884,6 @@ IL_001b:
 		int32_t L_63;
 		L_63 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(L_59, L_62, NULL);
 		L_58->___y = L_63;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:127>
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_64 = ___0_pixelMask;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_65 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_64->___minmax);
 		int32_t L_66 = V_2;
@@ -18861,7 +16893,6 @@ IL_001b:
 		int32_t L_70;
 		L_70 = math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline(L_66, L_69, NULL);
 		L_65->___z = L_70;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:128>
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_71 = ___0_pixelMask;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_72 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_71->___minmax);
 		int32_t L_73 = V_3;
@@ -18875,14 +16906,12 @@ IL_001b:
 
 IL_0142:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:115>
 		int32_t L_78 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_78, 1));
 	}
 
 IL_0146:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:115>
 		int32_t L_79 = V_1;
 		int32_t L_80 = ___5_padx;
 		if ((((int32_t)L_79) < ((int32_t)L_80)))
@@ -18891,14 +16920,12 @@ IL_0146:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:113>
 		int32_t L_81 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_81, 1));
 	}
 
 IL_0152:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:113>
 		int32_t L_82 = V_0;
 		int32_t L_83 = ___6_pady;
 		if ((((int32_t)L_82) < ((int32_t)L_83)))
@@ -18907,11 +16934,9 @@ IL_0152:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:132>
 		return;
 	}
 }
-// Method Definition Index: 95223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_RasterizeTriangle_m46DF86E9D68B907B802F449E436F06D67AFB4CF2 (Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* ___0_pixelMask, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* ___1_pixels, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* ___2_textureCfg, uint8_t ___3_fillColorByte, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___4_v0, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___5_v1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___6_v2, int32_t ___7_padx, int32_t ___8_pady, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -18939,7 +16964,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_RasterizeTriangle_m46DF86E9D
 	int32_t V_21 = 0;
 	uint8_t V_22 = 0x0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:137>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_0 = ___4_v0;
 		float L_1 = L_0->___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_2 = ___5_v1;
@@ -18949,7 +16973,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_RasterizeTriangle_m46DF86E9D
 		float L_6;
 		L_6 = RasterUtils_Min3_m2475FE60E37B7FF228877F9EC66608CE47A27DBB(L_1, L_3, L_5, NULL);
 		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_6);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:138>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_7 = ___4_v0;
 		float L_8 = L_7->___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_9 = ___5_v1;
@@ -18959,7 +16982,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_RasterizeTriangle_m46DF86E9D
 		float L_13;
 		L_13 = RasterUtils_Min3_m2475FE60E37B7FF228877F9EC66608CE47A27DBB(L_8, L_10, L_12, NULL);
 		V_1 = il2cpp_codegen_cast_double_to_int<int32_t>(L_13);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:139>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_14 = ___4_v0;
 		float L_15 = L_14->___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_16 = ___5_v1;
@@ -18969,7 +16991,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_RasterizeTriangle_m46DF86E9D
 		float L_20;
 		L_20 = RasterUtils_Max3_m05BEC67BB96AEA12DCE0444587CAA496698C945D(L_15, L_17, L_19, NULL);
 		V_2 = il2cpp_codegen_cast_double_to_int<int32_t>(L_20);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:140>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_21 = ___4_v0;
 		float L_22 = L_21->___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_23 = ___5_v1;
@@ -18979,25 +17000,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_RasterizeTriangle_m46DF86E9D
 		float L_27;
 		L_27 = RasterUtils_Max3_m05BEC67BB96AEA12DCE0444587CAA496698C945D(L_22, L_24, L_26, NULL);
 		V_3 = il2cpp_codegen_cast_double_to_int<int32_t>(L_27);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:143>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_28;
 		memset((&L_28), 0, sizeof(L_28));
 		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_28), (uint8_t)((int32_t)64), (uint8_t)((int32_t)64), (uint8_t)((int32_t)254), (uint8_t)((int32_t)254), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:144>
 		uint8_t L_29;
 		L_29 = RasterUtils_Color32ToByte_mF3B311EDEE8E97F0C0610116B790D9CD46B5C388(L_28, NULL);
 		V_4 = L_29;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:147>
 		int32_t L_30 = V_0;
 		int32_t L_31;
 		L_31 = math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline(L_30, 0, NULL);
 		V_0 = L_31;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:148>
 		int32_t L_32 = V_1;
 		int32_t L_33;
 		L_33 = math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline(L_32, 0, NULL);
 		V_1 = L_33;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:149>
 		int32_t L_34 = V_2;
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_35 = ___0_pixelMask;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_36 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_35->___rect);
@@ -19005,7 +17021,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_RasterizeTriangle_m46DF86E9D
 		int32_t L_38;
 		L_38 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(L_34, ((int32_t)il2cpp_codegen_subtract(L_37, 1)), NULL);
 		V_2 = L_38;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:150>
 		int32_t L_39 = V_3;
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_40 = ___0_pixelMask;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052* L_41 = (int4_tBA77D4945786DE82C3A487B33955EA1004996052*)(&L_40->___rect);
@@ -19013,47 +17028,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_RasterizeTriangle_m46DF86E9D
 		int32_t L_43;
 		L_43 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(L_39, ((int32_t)il2cpp_codegen_subtract(L_42, 1)), NULL);
 		V_3 = L_43;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:153>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_44 = ___4_v0;
 		float L_45 = L_44->___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_46 = ___5_v1;
 		float L_47 = L_46->___y;
 		V_5 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_subtract(L_45, L_47)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:153>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_48 = ___5_v1;
 		float L_49 = L_48->___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_50 = ___4_v0;
 		float L_51 = L_50->___x;
 		V_6 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_subtract(L_49, L_51)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:154>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_52 = ___5_v1;
 		float L_53 = L_52->___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_54 = ___6_v2;
 		float L_55 = L_54->___y;
 		V_7 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_subtract(L_53, L_55)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:154>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_56 = ___6_v2;
 		float L_57 = L_56->___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_58 = ___5_v1;
 		float L_59 = L_58->___x;
 		V_8 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_subtract(L_57, L_59)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:155>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_60 = ___6_v2;
 		float L_61 = L_60->___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_62 = ___4_v0;
 		float L_63 = L_62->___y;
 		V_9 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_subtract(L_61, L_63)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:155>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_64 = ___4_v0;
 		float L_65 = L_64->___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_66 = ___6_v2;
 		float L_67 = L_66->___x;
 		V_10 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_subtract(L_65, L_67)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:158>
 		int32_t L_68 = V_0;
 		int32_t L_69 = V_1;
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&V_11), ((float)L_68), ((float)L_69), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:159>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_70 = ___5_v1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_71 = (*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)L_70);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_72 = ___6_v2;
@@ -19062,7 +17069,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_RasterizeTriangle_m46DF86E9D
 		int32_t L_75;
 		L_75 = RasterUtils_Orient2d_m9F74328EA973E7FA4448BC9022B9DD54A57EC070(L_71, L_73, L_74, NULL);
 		V_12 = L_75;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:160>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_76 = ___6_v2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_77 = (*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)L_76);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_78 = ___4_v0;
@@ -19071,7 +17077,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_RasterizeTriangle_m46DF86E9D
 		int32_t L_81;
 		L_81 = RasterUtils_Orient2d_m9F74328EA973E7FA4448BC9022B9DD54A57EC070(L_77, L_79, L_80, NULL);
 		V_13 = L_81;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:161>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_82 = ___4_v0;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_83 = (*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)L_82);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_84 = ___5_v1;
@@ -19080,7 +17085,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_RasterizeTriangle_m46DF86E9D
 		int32_t L_87;
 		L_87 = RasterUtils_Orient2d_m9F74328EA973E7FA4448BC9022B9DD54A57EC070(L_83, L_85, L_86, NULL);
 		V_14 = L_87;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:164>
 		int32_t L_88 = V_1;
 		V_15 = L_88;
 		goto IL_0210;
@@ -19088,16 +17092,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_RasterizeTriangle_m46DF86E9D
 
 IL_0186:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:167>
 		int32_t L_89 = V_12;
 		V_16 = L_89;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:168>
 		int32_t L_90 = V_13;
 		V_17 = L_90;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:169>
 		int32_t L_91 = V_14;
 		V_18 = L_91;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:171>
 		int32_t L_92 = V_0;
 		V_19 = L_92;
 		goto IL_01f0;
@@ -19105,7 +17105,6 @@ IL_0186:
 
 IL_0197:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:174>
 		int32_t L_93 = V_16;
 		int32_t L_94 = V_17;
 		int32_t L_95 = V_18;
@@ -19115,15 +17114,12 @@ IL_0197:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:176>
 		int32_t L_96 = V_19;
 		int32_t L_97 = ___7_padx;
 		V_20 = ((int32_t)il2cpp_codegen_add(L_96, L_97));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:177>
 		int32_t L_98 = V_15;
 		int32_t L_99 = ___8_pady;
 		V_21 = ((int32_t)il2cpp_codegen_add(L_98, L_99));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:178>
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_100 = ___0_pixelMask;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* L_101 = ___2_textureCfg;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* L_102 = ___1_pixels;
@@ -19135,7 +17131,6 @@ IL_0197:
 		uint8_t L_108;
 		L_108 = RasterUtils_Pixelate_mE1A8EA28DADE1ED72DDBD8F885E5DC714D5B77FF(L_100, L_101, L_102, L_103, L_104, L_105, L_106, L_107, NULL);
 		V_22 = L_108;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:179>
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_109 = ___0_pixelMask;
 		uint8_t L_110 = V_22;
 		uint8_t L_111 = V_4;
@@ -19148,26 +17143,21 @@ IL_0197:
 
 IL_01d5:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:183>
 		int32_t L_116 = V_16;
 		int32_t L_117 = V_7;
 		V_16 = ((int32_t)il2cpp_codegen_add(L_116, L_117));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:184>
 		int32_t L_118 = V_17;
 		int32_t L_119 = V_9;
 		V_17 = ((int32_t)il2cpp_codegen_add(L_118, L_119));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:185>
 		int32_t L_120 = V_18;
 		int32_t L_121 = V_5;
 		V_18 = ((int32_t)il2cpp_codegen_add(L_120, L_121));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:171>
 		int32_t L_122 = V_19;
 		V_19 = ((int32_t)il2cpp_codegen_add(L_122, 1));
 	}
 
 IL_01f0:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:171>
 		int32_t L_123 = V_19;
 		int32_t L_124 = V_2;
 		if ((((int32_t)L_123) <= ((int32_t)L_124)))
@@ -19176,26 +17166,21 @@ IL_01f0:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:189>
 		int32_t L_125 = V_12;
 		int32_t L_126 = V_8;
 		V_12 = ((int32_t)il2cpp_codegen_add(L_125, L_126));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:190>
 		int32_t L_127 = V_13;
 		int32_t L_128 = V_10;
 		V_13 = ((int32_t)il2cpp_codegen_add(L_127, L_128));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:191>
 		int32_t L_129 = V_14;
 		int32_t L_130 = V_6;
 		V_14 = ((int32_t)il2cpp_codegen_add(L_129, L_130));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:164>
 		int32_t L_131 = V_15;
 		V_15 = ((int32_t)il2cpp_codegen_add(L_131, 1));
 	}
 
 IL_0210:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:164>
 		int32_t L_132 = V_15;
 		int32_t L_133 = V_3;
 		if ((((int32_t)L_132) <= ((int32_t)L_133)))
@@ -19204,11 +17189,9 @@ IL_0210:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:193>
 		return;
 	}
 }
-// Method Definition Index: 95224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RasterUtils_Rasterize_m51F0A58B3B0FD195389A0D4F3DED8BCD95EAC9D3 (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* ___0_pixels, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* ___1_textureCfg, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___2_vertices, int32_t ___3_vertexCount, int32_t* ___4_indices, int32_t ___5_indexCount, Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* ___6_pixelMask, int32_t ___7_padx, int32_t ___8_pady, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19229,39 +17212,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RasterUtils_Rasterize_m51F0A58B3B0FD1953
 	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA V_7;
 	memset((&V_7), 0, sizeof(V_7));
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:197>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_StaticFields*)il2cpp_codegen_static_fields_for(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_il2cpp_TypeInfo_var))->___zero;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:199>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline((&L_1), (uint8_t)((int32_t)64), (uint8_t)((int32_t)254), (uint8_t)((int32_t)64), (uint8_t)((int32_t)254), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:200>
 		uint8_t L_2;
 		L_2 = RasterUtils_Color32ToByte_mF3B311EDEE8E97F0C0610116B790D9CD46B5C388(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:202>
 		V_1 = 0;
 		goto IL_00ba;
 	}
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:204>
 		int32_t* L_3 = ___4_indices;
 		int32_t L_4 = V_1;
 		int32_t L_5 = (*(((int32_t*)il2cpp_codegen_add((intptr_t)L_3, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_4), 4))))));
 		V_2 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:205>
 		int32_t* L_6 = ___4_indices;
 		int32_t L_7 = V_1;
 		int32_t L_8 = (*(((int32_t*)il2cpp_codegen_add((intptr_t)L_6, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)((int32_t)il2cpp_codegen_add(L_7, 1))), 4))))));
 		V_3 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:206>
 		int32_t* L_9 = ___4_indices;
 		int32_t L_10 = V_1;
 		int32_t L_11 = (*(((int32_t*)il2cpp_codegen_add((intptr_t)L_9, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)((int32_t)il2cpp_codegen_add(L_10, 2))), 4))))));
 		V_4 = L_11;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:208>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_12 = ___2_vertices;
 		int32_t L_13 = V_2;
 		uint32_t L_14 = sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7);
@@ -19269,7 +17244,6 @@ IL_0026:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_16;
 		L_16 = float2_op_Implicit_m274CE0EFDC0FFD5168817614BF1A3699784DE02B(L_15, NULL);
 		V_5 = L_16;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:209>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_17 = ___2_vertices;
 		int32_t L_18 = V_3;
 		uint32_t L_19 = sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7);
@@ -19277,7 +17251,6 @@ IL_0026:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_21;
 		L_21 = float2_op_Implicit_m274CE0EFDC0FFD5168817614BF1A3699784DE02B(L_20, NULL);
 		V_6 = L_21;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:210>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_22 = ___2_vertices;
 		int32_t L_23 = V_4;
 		uint32_t L_24 = sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7);
@@ -19285,7 +17258,6 @@ IL_0026:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_26;
 		L_26 = float2_op_Implicit_m274CE0EFDC0FFD5168817614BF1A3699784DE02B(L_25, NULL);
 		V_7 = L_26;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:212>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_27 = V_5;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_28 = V_6;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_29 = V_7;
@@ -19297,18 +17269,14 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:214>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_31 = V_5;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:215>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_32 = V_6;
 		V_5 = L_32;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:216>
 		V_6 = L_31;
 	}
 
 IL_00a2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:219>
 		Pixels_t2DAA64ED06CDBF7DF6B6DB9116CF840E50415A33* L_33 = ___6_pixelMask;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* L_34 = ___0_pixels;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* L_35 = ___1_textureCfg;
@@ -19316,14 +17284,12 @@ IL_00a2:
 		int32_t L_37 = ___7_padx;
 		int32_t L_38 = ___8_pady;
 		RasterUtils_RasterizeTriangle_m46DF86E9D68B907B802F449E436F06D67AFB4CF2(L_33, L_34, L_35, L_36, (&V_5), (&V_6), (&V_7), L_37, L_38, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:202>
 		int32_t L_39 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_39, 3));
 	}
 
 IL_00ba:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:202>
 		int32_t L_40 = V_1;
 		int32_t L_41 = ___5_indexCount;
 		if ((((int32_t)L_40) < ((int32_t)L_41)))
@@ -19332,11 +17298,9 @@ IL_00ba:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:222>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 95225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_SaveImage_m26030607416FCD2F5B3BDFE3861961D952613819 (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___0_image, int32_t ___1_w, int32_t ___2_h, String_t* ___3_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19353,24 +17317,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RasterUtils_SaveImage_m26030607416FCD2F5
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_2 = NULL;
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:227>
 		int32_t L_0 = ___1_w;
 		int32_t L_1 = ___2_h;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_2 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
 		Texture2D__ctor_m2E76254260C768B5D64D1664EE3929D198766CEF(L_2, L_0, L_1, 4, 0, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:228>
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_image))->___m_Length);
 		NativeArray_1__ctor_m758EC83047117608085E10546B2054D8300A607A((&V_1), L_3, 4, 1, NativeArray_1__ctor_m758EC83047117608085E10546B2054D8300A607A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:229>
 		V_3 = 0;
 		goto IL_0037;
 	}
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:230>
 		int32_t L_4 = V_3;
 		int32_t L_5 = V_3;
 		uint8_t L_6;
@@ -19378,14 +17338,12 @@ IL_001e:
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_7;
 		L_7 = RasterUtils_ByteToColor32_m9CD9FF9567828A0859CBC2EE9A660BF2ACF0F615(L_6, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B, ((&V_1))->___m_Buffer, L_4, (L_7));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:229>
 		int32_t L_8 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:229>
 		int32_t L_9 = V_3;
 		int32_t L_10;
 		L_10 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_image))->___m_Length);
@@ -19395,21 +17353,17 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:231>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_11 = V_0;
 		NativeArray_1_t0783F5E3C7AF6C600A6A20DA7A32D82CA836528D L_12 = V_1;
 		NullCheck(L_11);
 		Texture2D_SetPixelData_TisColor32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B_m1E8104496568759E1F6097BF6B0CDC87F49E1B41(L_11, L_12, 0, 0, Texture2D_SetPixelData_TisColor32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B_m1E8104496568759E1F6097BF6B0CDC87F49E1B41_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:232>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_13 = V_0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14;
 		L_14 = ImageConversion_EncodeToPNG_m0804AD31B83C653AEBB234F6CC31A02D4FA7C945(L_13, NULL);
 		V_2 = L_14;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:233>
 		String_t* L_15 = ___3_path;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16 = V_2;
 		File_WriteAllBytes_mC491031DA14AA9B591F62D6AD0181D090E081077(L_15, L_16, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/URaster2D/URaster.cs:234>
 		return;
 	}
 }
@@ -19421,7 +17375,6 @@ IL_0037:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float kMeans_CalculateDistance_mB22BCF5FA8FDCD0E0811A4D4DA8183B7CE863FEA (MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D ___0_data, int32_t ___1_dataIndex, MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D ___2_centroid, int32_t ___3_centroidIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19434,16 +17387,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float kMeans_CalculateDistance_mB22BCF5FA8FDC
 	float V_0 = 0.0f;
 	int32_t V_1 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:16>
 		V_0 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:17>
 		V_1 = 0;
 		goto IL_002e;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:18>
 		float L_0 = V_0;
 		int32_t L_1 = ___3_centroidIndex;
 		int32_t L_2 = V_1;
@@ -19456,14 +17406,12 @@ IL_000a:
 		float L_7;
 		L_7 = powf(((float)il2cpp_codegen_subtract(L_3, L_6)), (2.0f));
 		V_0 = ((float)il2cpp_codegen_add(L_0, L_7));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:17>
 		int32_t L_8 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_002e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:17>
 		int32_t L_9 = V_1;
 		int32_t L_10;
 		L_10 = MatrixMxN_1_get_DimensionY_mF28FCA0D0E539D3FC424AE5BF3D158CA0DC29637_inline((&___0_data), MatrixMxN_1_get_DimensionY_mF28FCA0D0E539D3FC424AE5BF3D158CA0DC29637_RuntimeMethod_var);
@@ -19473,14 +17421,12 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:19>
 		float L_11 = V_0;
 		float L_12;
 		L_12 = sqrtf(L_11);
 		return L_12;
 	}
 }
-// Method Definition Index: 95227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float kMeans_CalculateClustering_m3B105366B46A9C6393729435F477E1C362D87154 (MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D ___0_data, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___1_clusters, MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D* ___2_means, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___3_centroids, int32_t ___4_clusterCount, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___5_clusterItems, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19518,7 +17464,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float kMeans_CalculateClustering_m3B105366B46
 	int32_t G_B11_0 = 0;
 	float G_B11_1 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:25>
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D* L_0 = ___2_means;
 		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF L_1;
 		L_1 = MatrixMxN_1_GetArray_mE61D04544D11D44F3C5AE38CA98935D92BFB87AD_inline(L_0, MatrixMxN_1_GetArray_mE61D04544D11D44F3C5AE38CA98935D92BFB87AD_RuntimeMethod_var);
@@ -19530,19 +17475,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float kMeans_CalculateClustering_m3B105366B46
 		int32_t L_5;
 		L_5 = MatrixMxN_1_get_Length_m531DB9117B7CA5F7E3CFD9ECAE20F6E3335ED0F1(L_4, MatrixMxN_1_get_Length_m531DB9117B7CA5F7E3CFD9ECAE20F6E3335ED0F1_RuntimeMethod_var);
 		UnsafeUtility_MemSet_m4CD74CD43260EB2962A46F57E0D93DD5C332FC2B(L_2, (uint8_t)0, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_3, L_5))), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:27>
 		V_2 = 0;
 		goto IL_0078;
 	}
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:29>
 		int32_t L_6 = V_2;
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___1_clusters))->___m_Buffer, L_6);
 		V_3 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:30>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_8 = ___5_clusterItems;
 		int32_t L_9 = V_3;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_10 = ___5_clusterItems;
@@ -19550,21 +17492,18 @@ IL_0022:
 		int32_t L_12;
 		L_12 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_10)->___m_Buffer, L_11);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_8)->___m_Buffer, L_9, (((int32_t)il2cpp_codegen_add(L_12, 1))));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:31>
 		V_4 = 0;
 		goto IL_0069;
 	}
 
 IL_0042:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:33>
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D* L_13 = ___2_means;
 		int32_t L_14 = V_3;
 		int32_t L_15 = V_4;
 		float L_16;
 		L_16 = MatrixMxN_1_Get_m8F7C9C7B8B58D109C883751922BFF2553DCEC7BC(L_13, L_14, L_15, MatrixMxN_1_Get_m8F7C9C7B8B58D109C883751922BFF2553DCEC7BC_RuntimeMethod_var);
 		V_5 = L_16;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:34>
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D* L_17 = ___2_means;
 		int32_t L_18 = V_3;
 		int32_t L_19 = V_4;
@@ -19574,14 +17513,12 @@ IL_0042:
 		L_22 = MatrixMxN_1_Get_m8F7C9C7B8B58D109C883751922BFF2553DCEC7BC((&___0_data), L_20, L_21, MatrixMxN_1_Get_m8F7C9C7B8B58D109C883751922BFF2553DCEC7BC_RuntimeMethod_var);
 		float L_23 = V_5;
 		MatrixMxN_1_Set_m52205E84593140C82A17897C3B62299790D22919(L_17, L_18, L_19, ((float)il2cpp_codegen_add(L_22, L_23)), MatrixMxN_1_Set_m52205E84593140C82A17897C3B62299790D22919_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:31>
 		int32_t L_24 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 	}
 
 IL_0069:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:31>
 		int32_t L_25 = V_4;
 		int32_t L_26;
 		L_26 = MatrixMxN_1_get_DimensionY_mF28FCA0D0E539D3FC424AE5BF3D158CA0DC29637_inline((&___0_data), MatrixMxN_1_get_DimensionY_mF28FCA0D0E539D3FC424AE5BF3D158CA0DC29637_RuntimeMethod_var);
@@ -19591,14 +17528,12 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:27>
 		int32_t L_27 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_0078:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:27>
 		int32_t L_28 = V_2;
 		int32_t L_29;
 		L_29 = MatrixMxN_1_get_DimensionX_m8C6025181DFE84DEE3F2C5BEDE9B124F74AF8F98_inline((&___0_data), MatrixMxN_1_get_DimensionX_m8C6025181DFE84DEE3F2C5BEDE9B124F74AF8F98_RuntimeMethod_var);
@@ -19608,34 +17543,29 @@ IL_0078:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:38>
 		V_6 = 0;
 		goto IL_00d5;
 	}
 
 IL_0087:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:40>
 		V_7 = 0;
 		goto IL_00c5;
 	}
 
 IL_008c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:42>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_30 = ___5_clusterItems;
 		int32_t L_31 = V_6;
 		int32_t L_32;
 		L_32 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_30)->___m_Buffer, L_31);
 		V_8 = L_32;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:43>
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D* L_33 = ___2_means;
 		int32_t L_34 = V_6;
 		int32_t L_35 = V_7;
 		float L_36;
 		L_36 = MatrixMxN_1_Get_m8F7C9C7B8B58D109C883751922BFF2553DCEC7BC(L_33, L_34, L_35, MatrixMxN_1_Get_m8F7C9C7B8B58D109C883751922BFF2553DCEC7BC_RuntimeMethod_var);
 		V_9 = L_36;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:44>
 		float L_37 = V_9;
 		int32_t L_38 = V_8;
 		if ((((int32_t)L_38) > ((int32_t)0)))
@@ -19661,20 +17591,17 @@ IL_00ad:
 IL_00af:
 	{
 		V_9 = ((float)(G_B11_1/((float)G_B11_0)));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:45>
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D* L_40 = ___2_means;
 		int32_t L_41 = V_6;
 		int32_t L_42 = V_7;
 		float L_43 = V_9;
 		MatrixMxN_1_Set_m52205E84593140C82A17897C3B62299790D22919(L_40, L_41, L_42, L_43, MatrixMxN_1_Set_m52205E84593140C82A17897C3B62299790D22919_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:40>
 		int32_t L_44 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_44, 1));
 	}
 
 IL_00c5:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:40>
 		int32_t L_45 = V_7;
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D* L_46 = ___2_means;
 		int32_t L_47;
@@ -19685,14 +17612,12 @@ IL_00c5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:38>
 		int32_t L_48 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_48, 1));
 	}
 
 IL_00d5:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:38>
 		int32_t L_49 = V_6;
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D* L_50 = ___2_means;
 		int32_t L_51;
@@ -19703,29 +17628,23 @@ IL_00d5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:49>
 		V_0 = (0.0f);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:50>
 		int32_t L_52 = ___4_clusterCount;
 		NativeArray_1__ctor_m4D540A81E1062EEC2C4B0697A34A4EEFB9BC9004((&V_1), L_52, 2, 1, NativeArray_1__ctor_m4D540A81E1062EEC2C4B0697A34A4EEFB9BC9004_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:51>
 		V_10 = 0;
 		goto IL_0109;
 	}
 
 IL_00f5:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:52>
 		int32_t L_53 = V_10;
 		IL2CPP_NATIVEARRAY_SET_ITEM(float, ((&V_1))->___m_Buffer, L_53, (((std::numeric_limits<float>::max)())));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:51>
 		int32_t L_54 = V_10;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_54, 1));
 	}
 
 IL_0109:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:51>
 		int32_t L_55 = V_10;
 		int32_t L_56 = ___4_clusterCount;
 		if ((((int32_t)L_55) < ((int32_t)L_56)))
@@ -19734,19 +17653,16 @@ IL_0109:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:54>
 		V_11 = 0;
 		goto IL_015e;
 	}
 
 IL_0114:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:56>
 		int32_t L_57 = V_11;
 		int32_t L_58;
 		L_58 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___1_clusters))->___m_Buffer, L_57);
 		V_12 = L_58;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:57>
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D L_59 = ___0_data;
 		int32_t L_60 = V_11;
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D* L_61 = ___2_means;
@@ -19755,11 +17671,9 @@ IL_0114:
 		float L_64;
 		L_64 = kMeans_CalculateDistance_mB22BCF5FA8FDCD0E0811A4D4DA8183B7CE863FEA(L_59, L_60, L_62, L_63, NULL);
 		V_13 = L_64;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:58>
 		float L_65 = V_0;
 		float L_66 = V_13;
 		V_0 = ((float)il2cpp_codegen_add(L_65, L_66));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:59>
 		float L_67 = V_13;
 		int32_t L_68 = V_12;
 		float L_69;
@@ -19770,11 +17684,9 @@ IL_0114:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:61>
 		int32_t L_70 = V_12;
 		float L_71 = V_13;
 		IL2CPP_NATIVEARRAY_SET_ITEM(float, ((&V_1))->___m_Buffer, L_70, (L_71));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:62>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_72 = ___3_centroids;
 		int32_t L_73 = V_12;
 		int32_t L_74 = V_11;
@@ -19783,14 +17695,12 @@ IL_0114:
 
 IL_0158:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:54>
 		int32_t L_75 = V_11;
 		V_11 = ((int32_t)il2cpp_codegen_add(L_75, 1));
 	}
 
 IL_015e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:54>
 		int32_t L_76 = V_11;
 		int32_t L_77;
 		L_77 = MatrixMxN_1_get_DimensionX_m8C6025181DFE84DEE3F2C5BEDE9B124F74AF8F98_inline((&___0_data), MatrixMxN_1_get_DimensionX_m8C6025181DFE84DEE3F2C5BEDE9B124F74AF8F98_RuntimeMethod_var);
@@ -19800,14 +17710,11 @@ IL_015e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:66>
 		NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6((&V_1), NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:67>
 		float L_78 = V_0;
 		return L_78;
 	}
 }
-// Method Definition Index: 95228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool kMeans_AssignClustering_mD9AC65DDCBF9A8DE38BF02325C1C0EDEAB9543FC (MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D ___0_data, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___1_clusters, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___2_centroidIdx, int32_t ___3_clusterCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19824,33 +17731,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool kMeans_AssignClustering_mD9AC65DDCBF9A8D
 	int32_t V_5 = 0;
 	float V_6 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:72>
 		V_0 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:74>
 		V_1 = 0;
 		goto IL_005d;
 	}
 
 IL_0006:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:76>
 		V_2 = ((std::numeric_limits<float>::max)());
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:77>
 		V_3 = (-1);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:79>
 		V_4 = 0;
 		goto IL_003a;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:81>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_0 = ___2_centroidIdx;
 		int32_t L_1 = V_4;
 		int32_t L_2;
 		L_2 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_0)->___m_Buffer, L_1);
 		V_5 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:82>
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D L_3 = ___0_data;
 		int32_t L_4 = V_1;
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D L_5 = ___0_data;
@@ -19858,7 +17758,6 @@ IL_0013:
 		float L_7;
 		L_7 = kMeans_CalculateDistance_mB22BCF5FA8FDCD0E0811A4D4DA8183B7CE863FEA(L_3, L_4, L_5, L_6, NULL);
 		V_6 = L_7;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:83>
 		float L_8 = V_6;
 		float L_9 = V_2;
 		if ((!(((float)L_8) < ((float)L_9))))
@@ -19867,24 +17766,20 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:85>
 		float L_10 = V_6;
 		V_2 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:86>
 		int32_t L_11 = V_4;
 		V_3 = L_11;
 	}
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:79>
 		int32_t L_12 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_12, 1));
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:79>
 		int32_t L_13 = V_4;
 		int32_t L_14 = ___3_clusterCount;
 		if ((((int32_t)L_13) < ((int32_t)L_14)))
@@ -19893,7 +17788,6 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:90>
 		int32_t L_15 = V_3;
 		if ((((int32_t)L_15) == ((int32_t)(-1))))
 		{
@@ -19911,9 +17805,7 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:92>
 		V_0 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:93>
 		int32_t L_19 = V_1;
 		int32_t L_20 = V_3;
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, ((&___1_clusters))->___m_Buffer, L_19, (L_20));
@@ -19921,14 +17813,12 @@ IL_003a:
 
 IL_0059:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:74>
 		int32_t L_21 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_21, 1));
 	}
 
 IL_005d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:74>
 		int32_t L_22 = V_1;
 		int32_t L_23;
 		L_23 = MatrixMxN_1_get_DimensionX_m8C6025181DFE84DEE3F2C5BEDE9B124F74AF8F98_inline((&___0_data), MatrixMxN_1_get_DimensionX_m8C6025181DFE84DEE3F2C5BEDE9B124F74AF8F98_RuntimeMethod_var);
@@ -19938,12 +17828,10 @@ IL_005d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:97>
 		bool L_24 = V_0;
 		return L_24;
 	}
 }
-// Method Definition Index: 95229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void kMeans_ClusterInternal_m5B6363E85EFDABAFB6684ED7E309901BD684C615 (MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D ___0_data, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___1_clusters, MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D ___2_means, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___3_centroids, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___4_clusterItems, int32_t ___5_clusterCount, int32_t ___6_maxIterations, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19959,33 +17847,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void kMeans_ClusterInternal_m5B6363E85EFDABAF
 	memset((&V_2), 0, sizeof(V_2));
 	int32_t V_3 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:102>
 		V_0 = (bool)1;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:103>
 		V_1 = 0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:105>
 		Random__ctor_m84FE6BF5CD2493F5460F36A914836E3D41B22D94_inline((&V_2), 1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:106>
 		V_3 = 0;
 		goto IL_0026;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:107>
 		int32_t L_0 = V_3;
 		int32_t L_1 = ___5_clusterCount;
 		int32_t L_2;
 		L_2 = Random_NextInt_m794218A3A149A97A6276B37A546E381D44E0222B_inline((&V_2), 0, L_1, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, ((&___1_clusters))->___m_Buffer, L_0, (L_2));
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:106>
 		int32_t L_3 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_3, 1));
 	}
 
 IL_0026:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:106>
 		int32_t L_4 = V_3;
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_clusters))->___m_Length);
@@ -20000,7 +17881,6 @@ IL_0026:
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:110>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_6 = ___4_clusterItems;
 		void* L_7;
 		L_7 = NativeArrayUnsafeUtility_GetUnsafePtr_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD2D9DC546B80A05000B107C8E09FAA4BED3B2144(L_6, NativeArrayUnsafeUtility_GetUnsafePtr_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD2D9DC546B80A05000B107C8E09FAA4BED3B2144_RuntimeMethod_var);
@@ -20008,13 +17888,11 @@ IL_0032:
 		L_8 = UnsafeUtility_SizeOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mED481D505BF43CBD96972069EDD4E3509BE84931_inline(UnsafeUtility_SizeOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mED481D505BF43CBD96972069EDD4E3509BE84931_RuntimeMethod_var);
 		int32_t L_9 = ___5_clusterCount;
 		UnsafeUtility_MemSet_m4CD74CD43260EB2962A46F57E0D93DD5C332FC2B(L_7, (uint8_t)0, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_8, L_9))), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:111>
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D L_10 = ___0_data;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_11 = ___1_clusters;
 		int32_t L_12 = ___5_clusterCount;
 		float L_13;
 		L_13 = kMeans_CalculateClustering_m3B105366B46A9C6393729435F477E1C362D87154(L_10, L_11, (&___2_means), (&___3_centroids), L_12, (&___4_clusterItems), NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:112>
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D L_14 = ___0_data;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_15 = ___1_clusters;
 		int32_t L_16 = ___5_clusterCount;
@@ -20025,7 +17903,6 @@ IL_0032:
 
 IL_0064:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:108>
 		bool L_18 = V_0;
 		if (!L_18)
 		{
@@ -20045,11 +17922,9 @@ IL_0064:
 
 IL_0070:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:114>
 		return;
 	}
 }
-// Method Definition Index: 95230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* kMeans_Cluster3_mE2B12EC7FC744F298D3E728A64408EAC2F739DB7 (NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 ___0_items, int32_t ___1_clusterCount, int32_t ___2_alloc, int32_t ___3_maxIterations, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20075,56 +17950,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F16
 	memset((&V_4), 0, sizeof(V_4));
 	int32_t V_5 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:120>
 		int32_t L_0;
 		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_items))->___m_Length);
 		int32_t L_1 = ___2_alloc;
 		MatrixMxN_1__ctor_m42EE67C3AE34F91BC93CDF9C31BCA817F55658DB((&V_0), L_0, 3, L_1, 0, MatrixMxN_1__ctor_m42EE67C3AE34F91BC93CDF9C31BCA817F55658DB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:121>
 		int32_t L_2;
 		L_2 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_items))->___m_Length);
 		int32_t L_3 = ___2_alloc;
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_1), L_2, L_3, 0, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:122>
 		int32_t L_4 = ___1_clusterCount;
 		int32_t L_5 = ___2_alloc;
 		MatrixMxN_1__ctor_m42EE67C3AE34F91BC93CDF9C31BCA817F55658DB((&V_2), L_4, 3, L_5, 1, MatrixMxN_1__ctor_m42EE67C3AE34F91BC93CDF9C31BCA817F55658DB_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:123>
 		V_5 = 0;
 		goto IL_007f;
 	}
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:125>
 		int32_t L_6 = V_5;
 		int32_t L_7 = V_5;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_8;
 		L_8 = IL2CPP_NATIVEARRAY_GET_ITEM(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, ((&___0_items))->___m_Buffer, L_7);
 		float L_9 = L_8.___x;
 		MatrixMxN_1_Set_m52205E84593140C82A17897C3B62299790D22919((&V_0), L_6, 0, L_9, MatrixMxN_1_Set_m52205E84593140C82A17897C3B62299790D22919_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:126>
 		int32_t L_10 = V_5;
 		int32_t L_11 = V_5;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12;
 		L_12 = IL2CPP_NATIVEARRAY_GET_ITEM(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, ((&___0_items))->___m_Buffer, L_11);
 		float L_13 = L_12.___y;
 		MatrixMxN_1_Set_m52205E84593140C82A17897C3B62299790D22919((&V_0), L_10, 1, L_13, MatrixMxN_1_Set_m52205E84593140C82A17897C3B62299790D22919_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:127>
 		int32_t L_14 = V_5;
 		int32_t L_15 = V_5;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_16;
 		L_16 = IL2CPP_NATIVEARRAY_GET_ITEM(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, ((&___0_items))->___m_Buffer, L_15);
 		float L_17 = L_16.___z;
 		MatrixMxN_1_Set_m52205E84593140C82A17897C3B62299790D22919((&V_0), L_14, 2, L_17, MatrixMxN_1_Set_m52205E84593140C82A17897C3B62299790D22919_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:123>
 		int32_t L_18 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_18, 1));
 	}
 
 IL_007f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:123>
 		int32_t L_19 = V_5;
 		int32_t L_20;
 		L_20 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_items))->___m_Length);
@@ -20134,15 +18000,12 @@ IL_007f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:129>
 		int32_t L_21 = ___1_clusterCount;
 		int32_t L_22 = ___2_alloc;
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_3), L_21, L_22, 0, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:130>
 		int32_t L_23 = ___1_clusterCount;
 		int32_t L_24 = ___2_alloc;
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_4), L_23, L_24, 0, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:132>
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D L_25 = V_0;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_26 = V_1;
 		MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D L_27 = V_2;
@@ -20151,20 +18014,13 @@ IL_007f:
 		int32_t L_30 = ___1_clusterCount;
 		int32_t L_31 = ___3_maxIterations;
 		kMeans_ClusterInternal_m5B6363E85EFDABAFB6684ED7E309901BD684C615(L_25, L_26, L_27, L_28, L_29, L_30, L_31, NULL);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:134>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_32;
 		L_32 = NativeArray_1_ToArray_mE8EF1C5F5517BB045B2BBA5C9D519C3AF4C67ABA((&V_3), NativeArray_1_ToArray_mE8EF1C5F5517BB045B2BBA5C9D519C3AF4C67ABA_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:135>
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_4), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:136>
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_3), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:137>
 		MatrixMxN_1_Dispose_m32C69CB03A52DCA67A787A940C3BF45E626F4E06((&V_2), MatrixMxN_1_Dispose_m32C69CB03A52DCA67A787A940C3BF45E626F4E06_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:138>
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_1), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:139>
 		MatrixMxN_1_Dispose_m32C69CB03A52DCA67A787A940C3BF45E626F4E06((&V_0), MatrixMxN_1_Dispose_m32C69CB03A52DCA67A787A940C3BF45E626F4E06_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/KMeans.cs:140>
 		return L_32;
 	}
 }
@@ -20195,11 +18051,9 @@ IL_007f:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 56204
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_min_m02D43DF516544C279AF660EA4731449C82991849_inline (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:855>
 		int32_t L_0 = ___0_x;
 		int32_t L_1 = ___1_y;
 		if ((((int32_t)L_0) < ((int32_t)L_1)))
@@ -20218,11 +18072,9 @@ IL_0006:
 		return L_3;
 	}
 }
-// Method Definition Index: 56222
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:987>
 		int32_t L_0 = ___0_x;
 		int32_t L_1 = ___1_y;
 		if ((((int32_t)L_0) > ((int32_t)L_1)))
@@ -20241,22 +18093,18 @@ IL_0006:
 		return L_3;
 	}
 }
-// Method Definition Index: 56184
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool math_isinf_m4901864832BAA489A01E23F560733ACEF6E3ED60_inline (double ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:646>
 		double L_0 = ___0_x;
 		double L_1;
 		L_1 = math_abs_mDF669CF3AF2C60713E8E118578461CDA050DAFD0_inline(L_0, NULL);
 		return (bool)((((double)L_1) == ((double)(std::numeric_limits<double>::infinity())))? 1 : 0);
 	}
 }
-// Method Definition Index: 56323
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_abs_mDF669CF3AF2C60713E8E118578461CDA050DAFD0_inline (double ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:1869>
 		double L_0 = ___0_x;
 		uint64_t L_1;
 		L_1 = math_asulong_m2CF160E23B5FF618A85C3C29B2FB1C000E40290F_inline(L_0, NULL);
@@ -20265,25 +18113,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_abs_mDF669CF3AF2C6071
 		return L_2;
 	}
 }
-// Method Definition Index: 61640
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* __this, int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/int2.gen.cs:38>
 		int32_t L_0 = ___0_x;
 		__this->___x = L_0;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/int2.gen.cs:39>
 		int32_t L_1 = ___1_y;
 		__this->___y = L_1;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/int2.gen.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 56604
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_distance_m72BEFBAADFC4404FADD3AD81F7EDD40E32624F4D_inline (double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___0_x, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:3743>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_0 = ___1_y;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_1 = ___0_x;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_2;
@@ -20293,11 +18135,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_distance_m72BEFBAADFC
 		return L_3;
 	}
 }
-// Method Definition Index: 56219
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA math_min_m1D64D6B67B27FD9738D14BCEE6298146CB05CE00_inline (double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___0_x, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:965>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_0 = ___0_x;
 		double L_1 = L_0.___x;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_2 = ___1_y;
@@ -20316,11 +18156,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double2_t0A9854C934D0BBE9DD41F2B3
 		return L_10;
 	}
 }
-// Method Definition Index: 59596
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float2.gen.cs:230>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float L_2 = ___1_rhs;
@@ -20333,11 +18171,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 		return L_6;
 	}
 }
-// Method Definition Index: 58254
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA double2_op_Implicit_m168C031549D6C086B7C49ECA5B18C892B3112F17_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_v, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/double2.gen.cs:215>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_v;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_1;
 		memset((&L_1), 0, sizeof(L_1));
@@ -20345,25 +18181,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double2_t0A9854C934D0BBE9DD41F2B3
 		return L_1;
 	}
 }
-// Method Definition Index: 59571
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float2.gen.cs:38>
 		float L_0 = ___0_x;
 		__this->___x = L_0;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float2.gen.cs:39>
 		float L_1 = ___1_y;
 		__this->___y = L_1;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float2.gen.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 59601
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_lhs, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_rhs, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float2.gen.cs:267>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___1_rhs;
@@ -20378,11 +18208,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 		return L_8;
 	}
 }
-// Method Definition Index: 56634
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool math_any_mCBBE4E2611B227A8AE1A4DA7F104D779203539F9_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:3992>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_x;
 		float L_1 = L_0.___x;
 		if ((!(((float)L_1) == ((float)(0.0f)))))
@@ -20401,11 +18229,9 @@ IL_001e:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 59598
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float2_op_Addition_m718974663A956F64D7C45D06C088550637F13693_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_lhs, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_rhs, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float2.gen.cs:245>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___1_rhs;
@@ -20420,11 +18246,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 		return L_8;
 	}
 }
-// Method Definition Index: 56584
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_length_m3DB47D254C8544FBB740A892B4AE2143E8F45634_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:3612>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___0_x;
 		float L_2;
@@ -20434,11 +18258,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_length_m3DB47D254C8544
 		return L_3;
 	}
 }
-// Method Definition Index: 56314
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_abs_mFF027629978A9039B059528ED3075D775AA0B0AB_inline (int32_t ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:1813>
 		int32_t L_0 = ___0_x;
 		int32_t L_1 = ___0_x;
 		int32_t L_2;
@@ -20446,11 +18268,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_abs_mFF027629978A903
 		return L_2;
 	}
 }
-// Method Definition Index: 56298
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_clamp_mB7233FC9D6C27522014C4E6D4E056D36CE82C97E_inline (float ___0_valueToClamp, float ___1_lowerBound, float ___2_upperBound, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:1699>
 		float L_0 = ___1_lowerBound;
 		float L_1 = ___2_upperBound;
 		float L_2 = ___0_valueToClamp;
@@ -20461,11 +18281,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_clamp_mB7233FC9D6C2752
 		return L_4;
 	}
 }
-// Method Definition Index: 56232
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:1061>
 		float L_0 = ___1_y;
 		bool L_1;
 		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
@@ -20493,31 +18311,23 @@ IL_000e:
 		return L_5;
 	}
 }
-// Method Definition Index: 62407
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline (int4_tBA77D4945786DE82C3A487B33955EA1004996052* __this, int32_t ___0_x, int32_t ___1_y, int32_t ___2_z, int32_t ___3_w, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/int4.gen.cs:44>
 		int32_t L_0 = ___0_x;
 		__this->___x = L_0;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/int4.gen.cs:45>
 		int32_t L_1 = ___1_y;
 		__this->___y = L_1;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/int4.gen.cs:46>
 		int32_t L_2 = ___2_z;
 		__this->___z = L_2;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/int4.gen.cs:47>
 		int32_t L_3 = ___3_w;
 		__this->___w = L_3;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/int4.gen.cs:48>
 		return;
 	}
 }
-// Method Definition Index: 59605
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float2_op_Division_m4AA175CD0895AA1A50F5A73B54722CA53876EE6A_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float2.gen.cs:296>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float L_2 = ___1_rhs;
@@ -20530,11 +18340,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 		return L_6;
 	}
 }
-// Method Definition Index: 56600
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_x, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:3714>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___1_y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___0_x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -20544,22 +18352,17 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_distance_mE5E0FFDD103E
 		return L_3;
 	}
 }
-// Method Definition Index: 95124
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Tessellator_SetAllocator_mD0233B1C112FFE7BFB90F4A13722AAAD49EF3C46_inline (Tessellator_t326D342857583A784CBCDC8732457EEF9291ECC3* __this, int32_t ___0_allocator, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:106>
 		int32_t L_0 = ___0_allocator;
 		__this->___m_Allocator = L_0;
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/Tessellator.cs:107>
 		return;
 	}
 }
-// Method Definition Index: 56319
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline (float ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:1844>
 		float L_0 = ___0_x;
 		uint32_t L_1;
 		L_1 = math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline(L_0, NULL);
@@ -20568,7 +18371,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_abs_m3D9508B36B045BFE7
 		return L_2;
 	}
 }
-// Method Definition Index: 56483
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_pow_m2B2C611A37952CFB13BB0AE800A6A601A2E4A49B_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20578,7 +18380,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_pow_m2B2C611A37952CFB1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:2892>
 		float L_0 = ___0_x;
 		float L_1 = ___1_y;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
@@ -20587,11 +18388,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_pow_m2B2C611A37952CFB1
 		return ((float)L_2);
 	}
 }
-// Method Definition Index: 56336
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_x, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:1960>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_x;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___1_y;
@@ -20603,11 +18402,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mF673D3E5B7D267C0A
 		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7))));
 	}
 }
-// Method Definition Index: 59650
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float2_get_xyx_mBBBD5F2750F0FD078B17C8D9BD024693887A088A_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float2.gen.cs:657>
 		float L_0 = __this->___x;
 		float L_1 = __this->___y;
 		float L_2 = __this->___x;
@@ -20617,11 +18414,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		return L_3;
 	}
 }
-// Method Definition Index: 60044
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float3_get_xy_mFD536022DC4F5162E2FE30328BE2418E4878349A_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float3.gen.cs:1526>
 		float L_0 = __this->___x;
 		float L_1 = __this->___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
@@ -20630,18 +18425,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 		return L_2;
 	}
 }
-// Method Definition Index: 56577
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA math_normalizesafe_m97C40D83EC2D071F43246BA8AEC266C379CF6B74_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_x, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_defaultvalue, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:3526>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___0_x;
 		float L_2;
 		L_2 = math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_inline(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:3527>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_3 = ___1_defaultvalue;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___0_x;
 		float L_5 = V_0;
@@ -20655,7 +18447,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 		return L_9;
 	}
 }
-// Method Definition Index: 56423
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_floor_m0FDF19C33B0B1062079FCB10FB081869AEC1FB48_inline (float ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20665,7 +18456,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_floor_m0FDF19C33B0B106
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:2518>
 		float L_0 = ___0_x;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
@@ -20673,7 +18463,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_floor_m0FDF19C33B0B106
 		return ((float)L_1);
 	}
 }
-// Method Definition Index: 56555
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_inline (float ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20683,7 +18472,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:3382>
 		float L_0 = ___0_x;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
@@ -20691,28 +18479,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009
 		return ((float)L_1);
 	}
 }
-// Method Definition Index: 59866
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float3.gen.cs:41>
 		float L_0 = ___0_x;
 		__this->___x = L_0;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float3.gen.cs:42>
 		float L_1 = ___1_y;
 		__this->___y = L_1;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float3.gen.cs:43>
 		float L_2 = ___2_z;
 		__this->___z = L_2;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float3.gen.cs:44>
 		return;
 	}
 }
-// Method Definition Index: 59898
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float3.gen.cs:305>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_rhs;
@@ -20731,13 +18512,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		return L_12;
 	}
 }
-// Method Definition Index: 56615
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) 
 {
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:3823>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1;
 		L_1 = float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_inline((&___1_y), NULL);
@@ -20756,11 +18535,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		return L_7;
 	}
 }
-// Method Definition Index: 62166
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A int3_get_yz_m08ABC3409DBA8D2C4854212514FA02D8C42A0852_inline (int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/int3.gen.cs:1623>
 		int32_t L_0 = __this->___y;
 		int32_t L_1 = __this->___z;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_2;
@@ -20769,11 +18546,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int2_tF4AC25F87943DC0B2BB3456B0B9
 		return L_2;
 	}
 }
-// Method Definition Index: 56214
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:929>
 		float L_0 = ___1_y;
 		bool L_1;
 		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
@@ -20801,28 +18576,21 @@ IL_000e:
 		return L_5;
 	}
 }
-// Method Definition Index: 61973
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void int3__ctor_mE478318DE4CA648614FEF2C1DD438C0455284BF2_inline (int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* __this, int32_t ___0_x, int32_t ___1_y, int32_t ___2_z, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/int3.gen.cs:41>
 		int32_t L_0 = ___0_x;
 		__this->___x = L_0;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/int3.gen.cs:42>
 		int32_t L_1 = ___1_y;
 		__this->___y = L_1;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/int3.gen.cs:43>
 		int32_t L_2 = ___2_z;
 		__this->___z = L_2;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/int3.gen.cs:44>
 		return;
 	}
 }
-// Method Definition Index: 56215
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA math_min_m68ED612C41E325FA3446050EA04D0AC0CD191558_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_x, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:936>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_x;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___1_y;
@@ -20841,11 +18609,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 		return L_10;
 	}
 }
-// Method Definition Index: 56233
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA math_max_mFD64D6399932C2D91018BA7895C06FD055E1361B_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_x, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:1068>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_x;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___1_y;
@@ -20864,11 +18630,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 		return L_10;
 	}
 }
-// Method Definition Index: 56240
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_lerp_m58A82DB48BBA11871FFA81583C700875B3A9BC84_inline (float ___0_start, float ___1_end, float ___2_t, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:1123>
 		float L_0 = ___0_start;
 		float L_1 = ___2_t;
 		float L_2 = ___1_end;
@@ -20876,11 +18640,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_lerp_m58A82DB48BBA1187
 		return ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(L_1, ((float)il2cpp_codegen_subtract(L_2, L_3))))));
 	}
 }
-// Method Definition Index: 56288
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_clamp_m9EABD008C8EAD9D150062ABE724D96FA2121EE1C_inline (int32_t ___0_valueToClamp, int32_t ___1_lowerBound, int32_t ___2_upperBound, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:1616>
 		int32_t L_0 = ___1_lowerBound;
 		int32_t L_1 = ___2_upperBound;
 		int32_t L_2 = ___0_valueToClamp;
@@ -20891,7 +18653,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_clamp_m9EABD008C8EAD
 		return L_4;
 	}
 }
-// Method Definition Index: 44301
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color32__ctor_mC9C6B443F0C7CA3F8B174158B2AF6F05E18EAC4E_inline (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B* __this, uint8_t ___0_r, uint8_t ___1_g, uint8_t ___2_b, uint8_t ___3_a, const RuntimeMethod* method) 
 {
 	{
@@ -20907,30 +18668,23 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color32__ctor_mC9C6B443F0C7C
 		return;
 	}
 }
-// Method Definition Index: 63185
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Random__ctor_m84FE6BF5CD2493F5460F36A914836E3D41B22D94_inline (Random_tF24B964D3D5DE57D52CCDBF2E91ACE60F01F5F37* __this, uint32_t ___0_seed, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/random.cs:31>
 		uint32_t L_0 = ___0_seed;
 		__this->___state = L_0;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/random.cs:33>
 		uint32_t L_1;
 		L_1 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/random.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 63201
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Random_NextInt_m794218A3A149A97A6276B37A546E381D44E0222B_inline (Random_tF24B964D3D5DE57D52CCDBF2E91ACE60F01F5F37* __this, int32_t ___0_min, int32_t ___1_max, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/random.cs:222>
 		int32_t L_0 = ___1_max;
 		int32_t L_1 = ___0_min;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_0, L_1));
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/random.cs:223>
 		uint32_t L_2;
 		L_2 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_3 = V_0;
@@ -20938,16 +18692,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Random_NextInt_m794218A3A
 		return ((int32_t)il2cpp_codegen_add(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_2)), ((int64_t)(uint64_t)((uint32_t)L_3))))>>((int32_t)32)))), L_4));
 	}
 }
-// Method Definition Index: 95097
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ArraySlice_1_get_Length_m2E6169F57546865A2CFB67F45BFBD823D7F18820_gshared_inline (ArraySlice_1_t173FD3ACCC2631A439B59982D6322FFDC51B753B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UTess2D/ArraySlice.cs:211>
 		int32_t L_0 = __this->___m_Length;
 		return L_0;
 	}
 }
-// Method Definition Index: 42331
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m5BE85069615B49772C9DB202004FA2FD36F418F2_gshared_inline (NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20955,7 +18706,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 42331
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m5C025C1130167400C7A090BCA17032DEC9121068_gshared_inline (NativeArray_1_tD5EA89AF36723354B77FA5C7BF0EDDC7A5947582* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20963,7 +18713,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 42331
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_gshared_inline (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20971,25 +18720,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 95240
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MatrixMxN_1_get_DimensionY_mF28FCA0D0E539D3FC424AE5BF3D158CA0DC29637_gshared_inline (MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/MatrixMxN.cs:69>
 		int32_t L_0 = __this->___m_Height;
 		return L_0;
 	}
 }
-// Method Definition Index: 95234
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF MatrixMxN_1_GetArray_mE61D04544D11D44F3C5AE38CA98935D92BFB87AD_gshared_inline (MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/MatrixMxN.cs:50>
 		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF L_0 = __this->___m_Array;
 		return L_0;
 	}
 }
-// Method Definition Index: 42484
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mED481D505BF43CBD96972069EDD4E3509BE84931_gshared_inline (const RuntimeMethod* method) 
 {
 	{
@@ -20997,38 +18741,30 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisI
 		return (int32_t)L_0;
 	}
 }
-// Method Definition Index: 95239
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MatrixMxN_1_get_DimensionX_m8C6025181DFE84DEE3F2C5BEDE9B124F74AF8F98_gshared_inline (MatrixMxN_1_tCE7536060A541DF76F19476411BF01462801071D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.2d.common@51e9484895c4/Runtime/UAi2D/MatrixMxN.cs:67>
 		int32_t L_0 = __this->___m_Width;
 		return L_0;
 	}
 }
-// Method Definition Index: 56160
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t math_asulong_m2CF160E23B5FF618A85C3C29B2FB1C000E40290F_inline (double ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:423>
 		int64_t L_0 = *((int64_t*)((uintptr_t)(&___0_x)));
 		return L_0;
 	}
 }
-// Method Definition Index: 56171
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_asdouble_m3E7BC790C743E67EA45476AECD6D2D9A9E62E4F2_inline (uint64_t ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:564>
 		double L_0 = *((double*)((uintptr_t)(&___0_x)));
 		return L_0;
 	}
 }
-// Method Definition Index: 58261
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA double2_op_Subtraction_mDAD1E402F52C548544D20D62D7FA098F4F858BC8_inline (double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___0_lhs, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___1_rhs, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/double2.gen.cs:267>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_0 = ___0_lhs;
 		double L_1 = L_0.___x;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_2 = ___1_rhs;
@@ -21043,11 +18779,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double2_t0A9854C934D0BBE9DD41F2B3
 		return L_8;
 	}
 }
-// Method Definition Index: 56588
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_length_mBC9788A14DDEC3FA5794F7F49EDD1516C5EDE4E3_inline (double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:3637>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_0 = ___0_x;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_1 = ___0_x;
 		double L_2;
@@ -21057,11 +18791,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_length_mBC9788A14DDEC
 		return L_3;
 	}
 }
-// Method Definition Index: 56218
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_min_m29A6A5FB36524D911D13DDB4866FF005C7BF00D5_inline (double ___0_x, double ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:958>
 		double L_0 = ___1_y;
 		bool L_1;
 		L_1 = Double_IsNaN_mF2BC6D1FD4813179B2CAE58D29770E42830D0883_inline(L_0, NULL);
@@ -21089,37 +18821,28 @@ IL_000e:
 		return L_5;
 	}
 }
-// Method Definition Index: 58231
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double2__ctor_m4026FE95F69FAEBD29D7092ADAA1CB845A8E859B_inline (double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA* __this, double ___0_x, double ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/double2.gen.cs:38>
 		double L_0 = ___0_x;
 		__this->___x = L_0;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/double2.gen.cs:39>
 		double L_1 = ___1_y;
 		__this->___y = L_1;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/double2.gen.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 58243
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void double2__ctor_m3355A4008574AE2483EAD2841176C67734F10F33_inline (double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_v, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/double2.gen.cs:146>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_v;
 		float L_1 = L_0.___x;
 		__this->___x = ((double)L_1);
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/double2.gen.cs:147>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___0_v;
 		float L_3 = L_2.___y;
 		__this->___y = ((double)L_3);
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/double2.gen.cs:148>
 		return;
 	}
 }
-// Method Definition Index: 2423
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	{
@@ -21129,40 +18852,32 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F76
 		return (bool)((((int32_t)((int32_t)(L_1&((int32_t)2147483647LL)))) > ((int32_t)((int32_t)2139095040)))? 1 : 0);
 	}
 }
-// Method Definition Index: 56153
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline (float ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:351>
 		int32_t L_0 = *((uint32_t*)((uintptr_t)(&___0_x)));
 		return L_0;
 	}
 }
-// Method Definition Index: 56165
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_inline (uint32_t ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:483>
 		float L_0 = *((float*)((uintptr_t)(&___0_x)));
 		return L_0;
 	}
 }
-// Method Definition Index: 56563
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_rsqrt_mC67B3430EAADA7C5347E87B23859C569BC010E72_inline (float ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:3432>
 		float L_0 = ___0_x;
 		float L_1;
 		L_1 = math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_inline(L_0, NULL);
 		return ((float)((1.0f)/L_1));
 	}
 }
-// Method Definition Index: 56672
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA math_select_m4675D9DE2C236DD3DF133361B3293E2DD4CC691A_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_falseValue, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_trueValue, bool ___2_test, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:4286>
 		bool L_0 = ___2_test;
 		if (L_0)
 		{
@@ -21180,11 +18895,9 @@ IL_0005:
 		return L_2;
 	}
 }
-// Method Definition Index: 60028
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float3.gen.cs:1403>
 		float L_0 = __this->___y;
 		float L_1 = __this->___z;
 		float L_2 = __this->___x;
@@ -21194,11 +18907,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		return L_3;
 	}
 }
-// Method Definition Index: 59892
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/float3.gen.cs:261>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_rhs;
@@ -21217,33 +18928,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		return L_12;
 	}
 }
-// Method Definition Index: 63246
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline (Random_tF24B964D3D5DE57D52CCDBF2E91ACE60F01F5F37* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/random.cs:673>
 		uint32_t L_0 = __this->___state;
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/random.cs:674>
 		uint32_t L_1 = __this->___state;
 		uint32_t L_2 = __this->___state;
 		__this->___state = ((int32_t)((int32_t)L_1^((int32_t)((int32_t)L_2<<((int32_t)13)))));
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/random.cs:675>
 		uint32_t L_3 = __this->___state;
 		uint32_t L_4 = __this->___state;
 		__this->___state = ((int32_t)((int32_t)L_3^((int32_t)((uint32_t)L_4>>((int32_t)17)))));
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/random.cs:676>
 		uint32_t L_5 = __this->___state;
 		uint32_t L_6 = __this->___state;
 		__this->___state = ((int32_t)((int32_t)L_5^((int32_t)((int32_t)L_6<<5))));
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/random.cs:677>
 		return L_0;
 	}
 }
-// Method Definition Index: 56340
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_dot_mA992F4ADC67180A7EB3850222857193CD0F6B21E_inline (double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___0_x, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:1989>
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_0 = ___0_x;
 		double L_1 = L_0.___x;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_2 = ___1_y;
@@ -21255,7 +18958,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_dot_mA992F4ADC67180A7
 		return ((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(L_1, L_3)), ((double)il2cpp_codegen_multiply(L_5, L_7))));
 	}
 }
-// Method Definition Index: 56559
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_sqrt_mA3A9D5DFDF6841F8836E3ECD5D83555842383F36_inline (double ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21265,7 +18967,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_sqrt_mA3A9D5DFDF6841F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:3407>
 		double L_0 = ___0_x;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
@@ -21273,7 +18974,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_sqrt_mA3A9D5DFDF6841F
 		return L_1;
 	}
 }
-// Method Definition Index: 1588
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Double_IsNaN_mF2BC6D1FD4813179B2CAE58D29770E42830D0883_inline (double ___0_d, const RuntimeMethod* method) 
 {
 	{
@@ -21283,7 +18983,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Double_IsNaN_mF2BC6D1FD48131
 		return (bool)((((int64_t)((int64_t)(L_1&((int64_t)(std::numeric_limits<int64_t>::max)())))) > ((int64_t)((int64_t)9218868437227405312LL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 1028
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -21291,7 +18990,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt3
 		return L_0;
 	}
 }
-// Method Definition Index: 1027
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t BitConverter_DoubleToInt64Bits_m4F42741818550F9956B5FBAF88C051F4DE5B0AE6_inline (double ___0_value, const RuntimeMethod* method) 
 {
 	{

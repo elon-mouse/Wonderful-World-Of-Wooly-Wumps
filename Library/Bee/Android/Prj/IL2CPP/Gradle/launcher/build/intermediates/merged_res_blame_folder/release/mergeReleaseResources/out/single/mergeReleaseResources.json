@@ -1,22 +1,106 @@
 [
     {
-        "merged": "com.DefaultCompany.Myproject.launcher-release-24:/mipmap-anydpi-v26_app_icon.xml.flat",
-        "source": "com.DefaultCompany.Myproject.launcher-main-25:/mipmap-anydpi-v26/app_icon.xml"
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.DefaultCompany.Myproject.launcher-release-24:/mipmap-mdpi_ic_launcher_background.png.flat",
-        "source": "com.DefaultCompany.Myproject.launcher-main-25:/mipmap-mdpi/ic_launcher_background.png"
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-xxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "com.DefaultCompany.Myproject.launcher-release-24:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.DefaultCompany.Myproject.launcher-main-25:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-xxxhdpi_app_icon.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-xxxhdpi/app_icon.png"
     },
     {
-        "merged": "com.DefaultCompany.Myproject.launcher-release-24:/mipmap-anydpi-v26_app_icon_round.xml.flat",
-        "source": "com.DefaultCompany.Myproject.launcher-main-25:/mipmap-anydpi-v26/app_icon_round.xml"
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-anydpi-v26/app_icon.xml"
     },
     {
-        "merged": "com.DefaultCompany.Myproject.launcher-release-24:/mipmap-mdpi_app_icon.png.flat",
-        "source": "com.DefaultCompany.Myproject.launcher-main-25:/mipmap-mdpi/app_icon.png"
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-xxhdpi_app_icon_round.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-xxhdpi/app_icon_round.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-xxhdpi_app_icon.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-xxhdpi/app_icon.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-xhdpi_app_icon.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-xhdpi/app_icon.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-ldpi_app_icon.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-ldpi/app_icon.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-ldpi_app_icon_round.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-ldpi/app_icon_round.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-hdpi_app_icon_round.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-hdpi/app_icon_round.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-hdpi_app_icon.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-hdpi/app_icon.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-xxxhdpi_app_icon_round.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-xxxhdpi/app_icon_round.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-anydpi-v26/app_icon_round.xml"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-mdpi_app_icon.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-mdpi/app_icon.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-xhdpi_app_icon_round.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-xhdpi/app_icon_round.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-mdpi_app_icon_round.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-mdpi/app_icon_round.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-ldpi_ic_launcher_background.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.elonmouse.woolywumpus.launcher-release-24:/mipmap-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.elonmouse.woolywumpus.launcher-main-25:/mipmap-ldpi/ic_launcher_foreground.png"
     }
 ]

@@ -1,9 +1,9 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.DefaultCompany.Myproject"
+3    package="com.elonmouse.woolywumpus"
 4    android:installLocation="preferExternal"
 5    android:versionCode="1"
-6    android:versionName="1.0" >
+6    android:versionName="0.1.1" >
 7
 8    <uses-sdk
 9        android:minSdkVersion="25"
@@ -76,12 +76,12 @@
 45
 46    <permission
 46-->[androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-47        android:name="com.DefaultCompany.Myproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+47        android:name="com.elonmouse.woolywumpus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 47-->[androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
 48        android:protectionLevel="signature" />
 48-->[androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 49
-50    <uses-permission android:name="com.DefaultCompany.Myproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+50    <uses-permission android:name="com.elonmouse.woolywumpus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 50-->[androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
 50-->[androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 51    <!-- <uses-sdk android:minSdkVersion="14"/> -->
@@ -90,7 +90,7 @@
 52-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/e4334a0ecf7eec4a11972cee70ae15e3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:22-76
 53
 54    <application
-54-->/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-83
+54-->/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-126
 55        android:appCategory="game"
 55-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:25:9-35
 56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -100,221 +100,223 @@
 58        android:extractNativeLibs="true"
 59        android:icon="@mipmap/app_icon"
 59-->/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:16-47
-60        android:label="@string/app_name" >
+60        android:label="@string/app_name"
 60-->/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:48-80
-61        <meta-data
-61-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:28:9-30:33
-62            android:name="unity.splash-mode"
-62-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:29:13-45
-63            android:value="0" />
-63-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:30:13-30
-64        <meta-data
-64-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:31:9-33:36
-65            android:name="unity.splash-enable"
-65-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:32:13-47
-66            android:value="True" />
-66-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:33:13-33
-67        <meta-data
-67-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:34:9-36:36
-68            android:name="unity.launch-fullscreen"
-68-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:35:13-51
-69            android:value="True" />
-69-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:36:13-33
-70        <meta-data
-70-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:37:9-39:36
-71            android:name="unity.render-outside-safearea"
-71-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:38:13-57
-72            android:value="True" />
-72-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:39:13-33
-73        <meta-data
-73-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:40:9-42:50
-74            android:name="notch.config"
-74-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:41:13-40
-75            android:value="portrait|landscape" />
-75-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:42:13-47
-76        <meta-data
-76-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:43:9-45:36
-77            android:name="unity.auto-report-fully-drawn"
-77-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:44:13-57
-78            android:value="true" />
-78-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:45:13-33
-79        <meta-data
-79-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:46:9-48:36
-80            android:name="unity.strip-engine-code"
-80-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:47:13-51
-81            android:value="true" />
-81-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:48:13-33
-82        <meta-data
-82-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:49:9-51:36
-83            android:name="unity.auto-set-game-state"
-83-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:50:13-53
-84            android:value="true" />
-84-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:51:13-33
-85
-86        <activity
-86-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:53:9-88:20
-87            android:name="com.unity3d.player.UnityPlayerGameActivity"
-87-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:54:13-70
-88            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-88-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:55:13-194
-89            android:enabled="true"
-89-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:56:13-35
-90            android:exported="true"
-90-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:57:13-36
-91            android:hardwareAccelerated="false"
-91-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:58:13-48
-92            android:launchMode="singleTask"
-92-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:59:13-44
-93            android:resizeableActivity="true"
-93-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:60:13-46
-94            android:screenOrientation="fullUser"
-94-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:61:13-49
-95            android:theme="@style/BaseUnityGameActivityTheme" >
-95-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:62:13-62
-96            <intent-filter>
-96-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:63:13-67:29
-97                <category android:name="android.intent.category.LAUNCHER" />
-97-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:64:17-77
-97-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:64:27-74
-98
-99                <action android:name="android.intent.action.MAIN" />
-99-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:66:17-69
-99-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:66:25-66
-100            </intent-filter>
-101
-102            <meta-data
-102-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:69:13-71:40
-103                android:name="unityplayer.UnityActivity"
-103-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:70:17-57
-104                android:value="true" />
-104-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:71:17-37
-105            <meta-data
-105-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:72:13-74:40
-106                android:name="android.app.lib_name"
-106-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:73:17-52
-107                android:value="game" />
-107-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:74:17-37
-108            <meta-data
-108-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:75:13-77:71
-109                android:name="WindowManagerPreference:FreeformWindowSize"
-109-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:76:17-74
-110                android:value="@string/FreeformWindowSize_maximize" />
-110-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:77:17-68
-111            <meta-data
-111-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:78:13-80:79
-112                android:name="WindowManagerPreference:FreeformWindowOrientation"
-112-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:79:17-81
-113                android:value="@string/FreeformWindowOrientation_landscape" />
-113-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:80:17-76
-114            <meta-data
-114-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:81:13-83:40
-115                android:name="notch_support"
-115-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:82:17-45
-116                android:value="true" />
-116-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:83:17-37
-117
-118            <layout
-118-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:85:13-87:44
-119                android:minHeight="300px"
-119-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:86:17-42
-120                android:minWidth="400px" />
-120-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:87:17-41
-121        </activity>
-122
-123        <meta-data
-123-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:22:9-24:37
-124            android:name="com.google.android.play.billingclient.version"
-124-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:23:13-73
-125            android:value="8.0.0" />
-125-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:24:13-34
-126
-127        <activity
-127-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:26:9-30:75
-128            android:name="com.android.billingclient.api.ProxyBillingActivity"
-128-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:27:13-78
-129            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-129-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:28:13-96
-130            android:exported="false"
-130-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:29:13-37
-131            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-131-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:30:13-72
-132        <activity
-132-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:31:9-35:75
-133            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
-133-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:32:13-80
-134            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-134-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:33:13-96
-135            android:exported="false"
-135-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:34:13-37
-136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-136-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:35:13-72
-137        <activity
-137-->[com.google.android.gms:play-services-base:18.5.0] /Users/arman/.gradle/caches/8.13/transforms/884666a32c4318700e3ac5b2b87bee37/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
-138            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-138-->[com.google.android.gms:play-services-base:18.5.0] /Users/arman/.gradle/caches/8.13/transforms/884666a32c4318700e3ac5b2b87bee37/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
-139            android:exported="false"
-139-->[com.google.android.gms:play-services-base:18.5.0] /Users/arman/.gradle/caches/8.13/transforms/884666a32c4318700e3ac5b2b87bee37/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
-140            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-140-->[com.google.android.gms:play-services-base:18.5.0] /Users/arman/.gradle/caches/8.13/transforms/884666a32c4318700e3ac5b2b87bee37/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
-141
-142        <meta-data
-142-->[com.google.android.gms:play-services-basement:18.4.0] /Users/arman/.gradle/caches/8.13/transforms/d6b1c1895621d594ff59084a9397c3ea/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
-143            android:name="com.google.android.gms.version"
-143-->[com.google.android.gms:play-services-basement:18.4.0] /Users/arman/.gradle/caches/8.13/transforms/d6b1c1895621d594ff59084a9397c3ea/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
-144            android:value="@integer/google_play_services_version" />
-144-->[com.google.android.gms:play-services-basement:18.4.0] /Users/arman/.gradle/caches/8.13/transforms/d6b1c1895621d594ff59084a9397c3ea/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
-145
-146        <provider
-146-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-147            android:name="androidx.startup.InitializationProvider"
-147-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-148            android:authorities="com.DefaultCompany.Myproject.androidx-startup"
-148-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-149            android:exported="false" >
-149-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-150            <meta-data
-150-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-151                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-151-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-152                android:value="androidx.startup" />
-152-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-153            <meta-data
-153-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/arman/.gradle/caches/8.13/transforms/37b02677db764a861e1f57aff5615844/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-154                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-154-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/arman/.gradle/caches/8.13/transforms/37b02677db764a861e1f57aff5615844/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-155                android:value="androidx.startup" />
-155-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/arman/.gradle/caches/8.13/transforms/37b02677db764a861e1f57aff5615844/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-156        </provider>
-157
-158        <service
-158-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/e4334a0ecf7eec4a11972cee70ae15e3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
-159            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-159-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/e4334a0ecf7eec4a11972cee70ae15e3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
-160            android:exported="false" >
-160-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/e4334a0ecf7eec4a11972cee70ae15e3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
-161            <meta-data
-161-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/e4334a0ecf7eec4a11972cee70ae15e3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
-162                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-162-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/e4334a0ecf7eec4a11972cee70ae15e3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
-163                android:value="cct" />
-163-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/e4334a0ecf7eec4a11972cee70ae15e3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
-164        </service>
-165        <service
-165-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/31c13f671ae35e5473ca51ea27894e64/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
-166            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-166-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/31c13f671ae35e5473ca51ea27894e64/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
-167            android:exported="false"
-167-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/31c13f671ae35e5473ca51ea27894e64/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
-168            android:permission="android.permission.BIND_JOB_SERVICE" >
-168-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/31c13f671ae35e5473ca51ea27894e64/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
-169        </service>
-170
-171        <receiver
-171-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/31c13f671ae35e5473ca51ea27894e64/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
-172            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-172-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/31c13f671ae35e5473ca51ea27894e64/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
-173            android:exported="false" />
-173-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/31c13f671ae35e5473ca51ea27894e64/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
-174    </application>
-175
-176</manifest>
+61        android:roundIcon="@mipmap/app_icon_round" >
+61-->/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:81-123
+62        <meta-data
+62-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:28:9-30:33
+63            android:name="unity.splash-mode"
+63-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:29:13-45
+64            android:value="0" />
+64-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:30:13-30
+65        <meta-data
+65-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:31:9-33:36
+66            android:name="unity.splash-enable"
+66-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:32:13-47
+67            android:value="True" />
+67-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:33:13-33
+68        <meta-data
+68-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:34:9-36:36
+69            android:name="unity.launch-fullscreen"
+69-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:35:13-51
+70            android:value="True" />
+70-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:36:13-33
+71        <meta-data
+71-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:37:9-39:36
+72            android:name="unity.render-outside-safearea"
+72-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:38:13-57
+73            android:value="True" />
+73-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:39:13-33
+74        <meta-data
+74-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:40:9-42:50
+75            android:name="notch.config"
+75-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:41:13-40
+76            android:value="portrait|landscape" />
+76-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:42:13-47
+77        <meta-data
+77-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:43:9-45:36
+78            android:name="unity.auto-report-fully-drawn"
+78-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:44:13-57
+79            android:value="true" />
+79-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:45:13-33
+80        <meta-data
+80-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:46:9-48:36
+81            android:name="unity.strip-engine-code"
+81-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:47:13-51
+82            android:value="true" />
+82-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:48:13-33
+83        <meta-data
+83-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:49:9-51:36
+84            android:name="unity.auto-set-game-state"
+84-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:50:13-53
+85            android:value="true" />
+85-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:51:13-33
+86
+87        <activity
+87-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:53:9-88:20
+88            android:name="com.unity3d.player.UnityPlayerGameActivity"
+88-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:54:13-70
+89            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+89-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:55:13-194
+90            android:enabled="true"
+90-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:56:13-35
+91            android:exported="true"
+91-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:57:13-36
+92            android:hardwareAccelerated="false"
+92-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:58:13-48
+93            android:launchMode="singleTask"
+93-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:59:13-44
+94            android:resizeableActivity="true"
+94-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:60:13-46
+95            android:screenOrientation="userLandscape"
+95-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:61:13-54
+96            android:theme="@style/BaseUnityGameActivityTheme" >
+96-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:62:13-62
+97            <intent-filter>
+97-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:63:13-67:29
+98                <category android:name="android.intent.category.LAUNCHER" />
+98-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:64:17-77
+98-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:64:27-74
+99
+100                <action android:name="android.intent.action.MAIN" />
+100-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:66:17-69
+100-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:66:25-66
+101            </intent-filter>
+102
+103            <meta-data
+103-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:69:13-71:40
+104                android:name="unityplayer.UnityActivity"
+104-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:70:17-57
+105                android:value="true" />
+105-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:71:17-37
+106            <meta-data
+106-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:72:13-74:40
+107                android:name="android.app.lib_name"
+107-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:73:17-52
+108                android:value="game" />
+108-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:74:17-37
+109            <meta-data
+109-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:75:13-77:71
+110                android:name="WindowManagerPreference:FreeformWindowSize"
+110-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:76:17-74
+111                android:value="@string/FreeformWindowSize_maximize" />
+111-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:77:17-68
+112            <meta-data
+112-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:78:13-80:79
+113                android:name="WindowManagerPreference:FreeformWindowOrientation"
+113-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:79:17-81
+114                android:value="@string/FreeformWindowOrientation_landscape" />
+114-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:80:17-76
+115            <meta-data
+115-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:81:13-83:40
+116                android:name="notch_support"
+116-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:82:17-45
+117                android:value="true" />
+117-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:83:17-37
+118
+119            <layout
+119-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:85:13-87:44
+120                android:minHeight="300px"
+120-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:86:17-42
+121                android:minWidth="400px" />
+121-->[:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:87:17-41
+122        </activity>
+123
+124        <meta-data
+124-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:22:9-24:37
+125            android:name="com.google.android.play.billingclient.version"
+125-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:23:13-73
+126            android:value="8.0.0" />
+126-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:24:13-34
+127
+128        <activity
+128-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:26:9-30:75
+129            android:name="com.android.billingclient.api.ProxyBillingActivity"
+129-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:27:13-78
+130            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+130-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:28:13-96
+131            android:exported="false"
+131-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:29:13-37
+132            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+132-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:30:13-72
+133        <activity
+133-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:31:9-35:75
+134            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+134-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:32:13-80
+135            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+135-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:33:13-96
+136            android:exported="false"
+136-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:34:13-37
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.android.billingclient:billing:8.0.0] /Users/arman/.gradle/caches/8.13/transforms/8c96a100540fa05455083e692edb53f5/transformed/jetified-billing-8.0.0/AndroidManifest.xml:35:13-72
+138        <activity
+138-->[com.google.android.gms:play-services-base:18.5.0] /Users/arman/.gradle/caches/8.13/transforms/884666a32c4318700e3ac5b2b87bee37/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+139            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+139-->[com.google.android.gms:play-services-base:18.5.0] /Users/arman/.gradle/caches/8.13/transforms/884666a32c4318700e3ac5b2b87bee37/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+140            android:exported="false"
+140-->[com.google.android.gms:play-services-base:18.5.0] /Users/arman/.gradle/caches/8.13/transforms/884666a32c4318700e3ac5b2b87bee37/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+141-->[com.google.android.gms:play-services-base:18.5.0] /Users/arman/.gradle/caches/8.13/transforms/884666a32c4318700e3ac5b2b87bee37/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+142
+143        <meta-data
+143-->[com.google.android.gms:play-services-basement:18.4.0] /Users/arman/.gradle/caches/8.13/transforms/d6b1c1895621d594ff59084a9397c3ea/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+144            android:name="com.google.android.gms.version"
+144-->[com.google.android.gms:play-services-basement:18.4.0] /Users/arman/.gradle/caches/8.13/transforms/d6b1c1895621d594ff59084a9397c3ea/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+145            android:value="@integer/google_play_services_version" />
+145-->[com.google.android.gms:play-services-basement:18.4.0] /Users/arman/.gradle/caches/8.13/transforms/d6b1c1895621d594ff59084a9397c3ea/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+146
+147        <provider
+147-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+148            android:name="androidx.startup.InitializationProvider"
+148-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+149            android:authorities="com.elonmouse.woolywumpus.androidx-startup"
+149-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+150            android:exported="false" >
+150-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+151            <meta-data
+151-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+152                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+152-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+153                android:value="androidx.startup" />
+153-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+154            <meta-data
+154-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/arman/.gradle/caches/8.13/transforms/37b02677db764a861e1f57aff5615844/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+155                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+155-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/arman/.gradle/caches/8.13/transforms/37b02677db764a861e1f57aff5615844/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+156                android:value="androidx.startup" />
+156-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/arman/.gradle/caches/8.13/transforms/37b02677db764a861e1f57aff5615844/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+157        </provider>
+158
+159        <service
+159-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/e4334a0ecf7eec4a11972cee70ae15e3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+160            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+160-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/e4334a0ecf7eec4a11972cee70ae15e3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+161            android:exported="false" >
+161-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/e4334a0ecf7eec4a11972cee70ae15e3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+162            <meta-data
+162-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/e4334a0ecf7eec4a11972cee70ae15e3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+163                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+163-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/e4334a0ecf7eec4a11972cee70ae15e3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+164                android:value="cct" />
+164-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/e4334a0ecf7eec4a11972cee70ae15e3/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+165        </service>
+166        <service
+166-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/31c13f671ae35e5473ca51ea27894e64/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+167            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+167-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/31c13f671ae35e5473ca51ea27894e64/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+168            android:exported="false"
+168-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/31c13f671ae35e5473ca51ea27894e64/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+169            android:permission="android.permission.BIND_JOB_SERVICE" >
+169-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/31c13f671ae35e5473ca51ea27894e64/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+170        </service>
+171
+172        <receiver
+172-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/31c13f671ae35e5473ca51ea27894e64/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+173            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+173-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/31c13f671ae35e5473ca51ea27894e64/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+174            android:exported="false" />
+174-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/arman/.gradle/caches/8.13/transforms/31c13f671ae35e5473ca51ea27894e64/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+175    </application>
+176
+177</manifest>

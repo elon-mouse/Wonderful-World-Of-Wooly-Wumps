@@ -59,8 +59,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/arman/.gr
 	android:installLocation
 		ADDED from /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:2:11-51
 application
-ADDED from /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-83
-INJECTED from /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-83
+ADDED from /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-126
+INJECTED from /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-126
 MERGED from [:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:24:5-89:19
 MERGED from [:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:24:5-89:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/arman/.gradle/caches/8.13/transforms/820611b18378119586e2be1f10d19307/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -100,6 +100,8 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/arman/.gradle/caches
 		ADDED from /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:48-80
 	android:appCategory
 		ADDED from [:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:25:9-35
+	android:roundIcon
+		ADDED from /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:81-123
 	android:icon
 		ADDED from /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:16-47
 	android:enableOnBackInvokedCallback
@@ -293,7 +295,7 @@ ADDED from [:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/B
 activity#com.unity3d.player.UnityPlayerGameActivity
 ADDED from [:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:53:9-88:20
 	android:screenOrientation
-		ADDED from [:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:61:13-49
+		ADDED from [:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:61:13-54
 	android:enabled
 		ADDED from [:unityLibrary] /Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:56:13-35
 	android:launchMode
@@ -440,7 +442,7 @@ ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transform
 		ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-permission#com.DefaultCompany.Myproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.elonmouse.woolywumpus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
@@ -450,7 +452,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
-uses-permission#com.DefaultCompany.Myproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.elonmouse.woolywumpus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:26:22-94

@@ -110,10 +110,10 @@
 59-->/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:280-311
 60            android:resizeableActivity="true"
 60-->/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:370-403
-61            android:screenOrientation="fullUser"
-61-->/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:404-440
+61            android:screenOrientation="userLandscape"
+61-->/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:404-445
 62            android:theme="@style/BaseUnityGameActivityTheme" >
-62-->/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:441-490
+62-->/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:446-495
 63            <intent-filter>
 63-->/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:7-22:23
 64                <category android:name="android.intent.category.LAUNCHER" />

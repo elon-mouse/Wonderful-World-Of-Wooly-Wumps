@@ -1,4 +1,7 @@
 <linker>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="Terresquall.Devices.VirtualJoystick" preserve="all"/>
+  </assembly>
   <assembly fullname="Unity.InputSystem">
     <type fullname="Unity.XR.GoogleVr.DaydreamController" preserve="all"/>
     <type fullname="Unity.XR.GoogleVr.DaydreamHMD" preserve="all"/>

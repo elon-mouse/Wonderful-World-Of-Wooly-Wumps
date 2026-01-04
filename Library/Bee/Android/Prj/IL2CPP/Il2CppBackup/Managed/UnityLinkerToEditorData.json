@@ -498,12 +498,6 @@
             "icon": "package/com.unity.modules.audio"
           },
           {
-            "name": "Required by CrashReporting Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.crashreporting"
-          },
-          {
             "name": "Required by GraphicsStateCollectionSerializer Module",
             "scenes": [],
             "dependencyType": 2,
@@ -562,12 +556,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.inputlegacy"
-          },
-          {
-            "name": "Required by Insights Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.insights"
           },
           {
             "name": "Required by JSONSerialize Module",
@@ -678,28 +666,10 @@
             "icon": "package/com.unity.modules.uielements"
           },
           {
-            "name": "Required by UnityAnalytics Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.unityanalytics"
-          },
-          {
             "name": "Required by UnityAnalyticsCommon Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.unityanalyticscommon"
-          },
-          {
-            "name": "Required by UnityConnect Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.unityconnect"
-          },
-          {
-            "name": "Required by UnityConsent Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.unityconsent"
           },
           {
             "name": "Required by UnityWebRequest Module",
@@ -724,17 +694,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.xr"
-          }
-        ]
-      },
-      {
-        "name": "CrashReporting",
-        "dependencies": [
-          {
-            "name": "Required by Crash Reporting Service (See Services Window)",
-            "scenes": [],
-            "dependencyType": 3,
-            "icon": "class/PlayerSettings"
           }
         ]
       },
@@ -807,20 +766,7 @@
       },
       {
         "name": "Identifiers",
-        "dependencies": [
-          {
-            "name": "Required by CrashReporting Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.crashreporting"
-          },
-          {
-            "name": "Required by Insights Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.insights"
-          }
-        ]
+        "dependencies": []
       },
       {
         "name": "ImageConversion",
@@ -884,25 +830,8 @@
         ]
       },
       {
-        "name": "Insights",
-        "dependencies": [
-          {
-            "name": "Force included module",
-            "scenes": [],
-            "dependencyType": 3,
-            "icon": null
-          }
-        ]
-      },
-      {
         "name": "JSONSerialize",
         "dependencies": [
-          {
-            "name": "Required by CrashReporting Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.crashreporting"
-          },
           {
             "name": "Required by GraphicsStateCollectionSerializer Module",
             "scenes": [],
@@ -914,12 +843,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.input"
-          },
-          {
-            "name": "Required by Insights Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.insights"
           },
           {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
@@ -938,18 +861,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.uielements"
-          },
-          {
-            "name": "Required by UnityAnalytics Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.unityanalytics"
-          },
-          {
-            "name": "Required by UnityConsent Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.unityconsent"
           },
           {
             "name": "Required by VR Module",
@@ -1134,12 +1045,6 @@
             "icon": "package/com.unity.modules.core"
           },
           {
-            "name": "Required by CrashReporting Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.crashreporting"
-          },
-          {
             "name": "Required by GraphicsStateCollectionSerializer Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1198,12 +1103,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.inputlegacy"
-          },
-          {
-            "name": "Required by Insights Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.insights"
           },
           {
             "name": "Required by JSONSerialize Module",
@@ -1314,28 +1213,10 @@
             "icon": "package/com.unity.modules.uielements"
           },
           {
-            "name": "Required by UnityAnalytics Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.unityanalytics"
-          },
-          {
             "name": "Required by UnityAnalyticsCommon Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.unityanalyticscommon"
-          },
-          {
-            "name": "Required by UnityConnect Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.unityconnect"
-          },
-          {
-            "name": "Required by UnityConsent Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.unityconsent"
           },
           {
             "name": "Required by UnityWebRequest Module",
@@ -1398,24 +1279,6 @@
       {
         "name": "TLS",
         "dependencies": [
-          {
-            "name": "Required by CrashReporting Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.crashreporting"
-          },
-          {
-            "name": "Required by Insights Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.insights"
-          },
-          {
-            "name": "Required by UnityAnalytics Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.unityanalytics"
-          },
           {
             "name": "Required by UnityWebRequest Module",
             "scenes": [],
@@ -1586,23 +1449,6 @@
         ]
       },
       {
-        "name": "UnityAnalytics",
-        "dependencies": [
-          {
-            "name": "Required by CrashReporting Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.crashreporting"
-          },
-          {
-            "name": "Required by UnityAnalytics (See Services Window)",
-            "scenes": [],
-            "dependencyType": 3,
-            "icon": "class/PlayerSettings"
-          }
-        ]
-      },
-      {
         "name": "UnityAnalyticsCommon",
         "dependencies": [
           {
@@ -1610,12 +1456,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.subsystems"
-          },
-          {
-            "name": "Required by UnityAnalytics Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.unityanalytics"
           },
           {
             "name": "Required by VR Module",
@@ -1626,73 +1466,8 @@
         ]
       },
       {
-        "name": "UnityConnect",
-        "dependencies": [
-          {
-            "name": "UnityConnectSettings",
-            "scenes": [],
-            "dependencyType": 1,
-            "icon": null
-          },
-          {
-            "name": "Required by CrashReporting Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.crashreporting"
-          },
-          {
-            "name": "Required by Insights Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.insights"
-          },
-          {
-            "name": "Required by UnityAnalytics (See Services Window)",
-            "scenes": [],
-            "dependencyType": 3,
-            "icon": "class/PlayerSettings"
-          },
-          {
-            "name": "Required by UnityAnalytics Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.unityanalytics"
-          }
-        ]
-      },
-      {
-        "name": "UnityConsent",
-        "dependencies": [
-          {
-            "name": "Required by Insights Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.insights"
-          }
-        ]
-      },
-      {
         "name": "UnityWebRequest",
-        "dependencies": [
-          {
-            "name": "Required by CrashReporting Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.crashreporting"
-          },
-          {
-            "name": "Required by Insights Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.insights"
-          },
-          {
-            "name": "Required by UnityAnalytics Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.unityanalytics"
-          }
-        ]
+        "dependencies": []
       },
       {
         "name": "VFX",

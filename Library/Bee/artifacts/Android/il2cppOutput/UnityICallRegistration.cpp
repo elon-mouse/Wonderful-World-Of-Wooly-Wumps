@@ -8352,14 +8352,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.UISystemProfilerApi
 
-	//Start Registrations for type : UnityEngine.UnityConsent.EndUserConsent
-
-		//System.Void UnityEngine.UnityConsent.EndUserConsent::GetConsentState_Injected(UnityEngine.UnityConsent.ConsentState&)
-		void Register_UnityEngine_UnityConsent_EndUserConsent_GetConsentState_Injected();
-		Register_UnityEngine_UnityConsent_EndUserConsent_GetConsentState_Injected();
-
-	//End Registrations for type : UnityEngine.UnityConsent.EndUserConsent
-
 	//Start Registrations for type : UnityEngine.UnityLogWriter
 
 		//System.Void UnityEngine.UnityLogWriter::WriteStringToUnityLogImpl_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)

@@ -58,7 +58,7 @@
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
             android:resizeableActivity="true"
-            android:screenOrientation="fullUser"
+            android:screenOrientation="userLandscape"
             android:theme="@style/BaseUnityGameActivityTheme" >
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />

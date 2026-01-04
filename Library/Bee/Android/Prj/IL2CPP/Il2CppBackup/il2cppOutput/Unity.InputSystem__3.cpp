@@ -1675,7 +1675,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControl_set_isButton_m862BB994D08F3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 31589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FastKeyboard__ctor_m6F80B480E318C8B26CA29CBEF7FAE0BA0F05E7F7 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1853,14 +1852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FastKeyboard__ctor_m6F80B480E318C8B26CA2
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_137;
 	memset((&V_137), 0, sizeof(V_137));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:27>
 		Keyboard__ctor_m2B58419F882AE21EADD736429B12945AE5C5B293(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:29>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:30>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:31>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:32>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:33>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:34>
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_0;
 		L_0 = InputControlExtensions_Setup_m4760089D238ED18D5A857C38E992A0E9E9633822(__this, ((int32_t)131), ((int32_t)15), 7, NULL);
 		V_136 = L_0;
@@ -1890,1812 +1882,1433 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FastKeyboard__ctor_m6F80B480E318C8B26CA2
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_8;
 		L_8 = DeviceBuilder_WithStateBlock_mB1B5E1A98A0E205BD74AB0513E86A380A0FE731D_inline((&V_136), L_7, NULL);
 		V_0 = L_8;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:36>
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&V_1), _stringLiteral7348E969150769A75AF7801C5E009E8E6EC276EF, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:37>
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&V_2), _stringLiteralB720A9AE58815DFF5576319E5228D318E7899C07, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:38>
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&V_3), _stringLiteralC099423F69D278B508E17A8BA5BDA35BB6E29C08, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:39>
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&V_4), _stringLiteral7DE03E5EBA0308517D1762F2C0DF3B9E2A2F1870, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:42>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_9 = V_1;
 		AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14* L_10;
 		L_10 = FastKeyboard_Initialize_ctrlKeyboardanyKey_mA9F3B12351CA0D1B57599FEFF82FC5787489BC41(__this, L_9, __this, NULL);
 		V_5 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:45>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_11 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_12;
 		L_12 = FastKeyboard_Initialize_ctrlKeyboardescape_m5E50F1A0667D9C29CDFBA27457125C9B5553B2F9(__this, L_11, __this, NULL);
 		V_6 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:48>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_13 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_14;
 		L_14 = FastKeyboard_Initialize_ctrlKeyboardspace_m8E9F1A91000906C6FE460967B855C54B3B80722D(__this, L_13, __this, NULL);
 		V_7 = L_14;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:51>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_15 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_16;
 		L_16 = FastKeyboard_Initialize_ctrlKeyboardenter_m4F14DA8FBDB16EF44D8D181FBA74AD4C21CE8118(__this, L_15, __this, NULL);
 		V_8 = L_16;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:54>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_17 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_18;
 		L_18 = FastKeyboard_Initialize_ctrlKeyboardtab_m2F7A71730043684000C1C79B2D1CCB50807171C6(__this, L_17, __this, NULL);
 		V_9 = L_18;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:57>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_19 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_20;
 		L_20 = FastKeyboard_Initialize_ctrlKeyboardbackquote_m9E7CA97B0855C3737E095A82D84F771131AE2C66(__this, L_19, __this, NULL);
 		V_10 = L_20;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:60>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_21 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_22;
 		L_22 = FastKeyboard_Initialize_ctrlKeyboardquote_m2CD2BC91D9E741BA3BC79574B41C66A5D73CCC2B(__this, L_21, __this, NULL);
 		V_11 = L_22;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:63>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_23 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_24;
 		L_24 = FastKeyboard_Initialize_ctrlKeyboardsemicolon_m7A70BD84F2498C3379D3C9077A4EC033A4EEEC22(__this, L_23, __this, NULL);
 		V_12 = L_24;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:66>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_25 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_26;
 		L_26 = FastKeyboard_Initialize_ctrlKeyboardcomma_m925E827058E1D7E743329114B9ADC935ECFC1DD3(__this, L_25, __this, NULL);
 		V_13 = L_26;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:69>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_27 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_28;
 		L_28 = FastKeyboard_Initialize_ctrlKeyboardperiod_mA9A4A699F0912EBADA1FCCAD7896C850765AC0EE(__this, L_27, __this, NULL);
 		V_14 = L_28;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:72>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_29 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_30;
 		L_30 = FastKeyboard_Initialize_ctrlKeyboardslash_m9B1ECD90E13A9CAFD7C11142C8B0723962E1B8AD(__this, L_29, __this, NULL);
 		V_15 = L_30;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:75>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_31 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_32;
 		L_32 = FastKeyboard_Initialize_ctrlKeyboardbackslash_m066D85EB65BC9C641887B2B7787DF9C4CB748D0C(__this, L_31, __this, NULL);
 		V_16 = L_32;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:78>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_33 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_34;
 		L_34 = FastKeyboard_Initialize_ctrlKeyboardleftBracket_m6883CEE4B8E44F68C59A9FB4AB762DC4EA9FF3CE(__this, L_33, __this, NULL);
 		V_17 = L_34;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:81>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_35 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_36;
 		L_36 = FastKeyboard_Initialize_ctrlKeyboardrightBracket_mC574E33AB72E57FF24AF05D5F6A7153D0A4F9690(__this, L_35, __this, NULL);
 		V_18 = L_36;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:84>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_37 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_38;
 		L_38 = FastKeyboard_Initialize_ctrlKeyboardminus_mA53B51FAD96DC5924EE8021A285C1A180CA9CB93(__this, L_37, __this, NULL);
 		V_19 = L_38;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:87>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_39 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_40;
 		L_40 = FastKeyboard_Initialize_ctrlKeyboardequals_mB3C1B9BC34E758AEE51D51F56B03AD2193DE6E70(__this, L_39, __this, NULL);
 		V_20 = L_40;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:90>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_41 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_42;
 		L_42 = FastKeyboard_Initialize_ctrlKeyboardupArrow_m1EE5D649753D3A89EA32B1EB8E93CFA268F53A2B(__this, L_41, __this, NULL);
 		V_21 = L_42;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:93>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_43 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_44;
 		L_44 = FastKeyboard_Initialize_ctrlKeyboarddownArrow_m2734D9A9A7C2E6E227F999B38B7D19775576D98E(__this, L_43, __this, NULL);
 		V_22 = L_44;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:96>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_45 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_46;
 		L_46 = FastKeyboard_Initialize_ctrlKeyboardleftArrow_m14669E2E2A396CA49856CA0326D89C178ECFABCB(__this, L_45, __this, NULL);
 		V_23 = L_46;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:99>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_47 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_48;
 		L_48 = FastKeyboard_Initialize_ctrlKeyboardrightArrow_mD78D624F19092393A528C404C5D1E2CE77E26EE2(__this, L_47, __this, NULL);
 		V_24 = L_48;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:102>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_49 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_50;
 		L_50 = FastKeyboard_Initialize_ctrlKeyboarda_m6BE97A5294EB0EFA3CAAFDCD7BCAE2404C9CD557(__this, L_49, __this, NULL);
 		V_25 = L_50;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:105>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_51 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_52;
 		L_52 = FastKeyboard_Initialize_ctrlKeyboardb_m21BBCD21F4AE65AAAF5DAC4F84EC92F4356BBE5B(__this, L_51, __this, NULL);
 		V_26 = L_52;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:108>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_53 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_54;
 		L_54 = FastKeyboard_Initialize_ctrlKeyboardc_m1E9AF3782E1CC183F0AF965555AC0DCC49C6360D(__this, L_53, __this, NULL);
 		V_27 = L_54;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:111>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_55 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_56;
 		L_56 = FastKeyboard_Initialize_ctrlKeyboardd_mC25AE965F4D5B9B30F7CDCA79FE87D4C99BAC32C(__this, L_55, __this, NULL);
 		V_28 = L_56;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:114>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_57 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_58;
 		L_58 = FastKeyboard_Initialize_ctrlKeyboarde_mF7898CFE0DEF370F30782EFF5CCDF3439B96100C(__this, L_57, __this, NULL);
 		V_29 = L_58;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:117>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_59 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_60;
 		L_60 = FastKeyboard_Initialize_ctrlKeyboardf_m13EB5B7FA4F04F8050F398C809E4C1AF6F284E75(__this, L_59, __this, NULL);
 		V_30 = L_60;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:120>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_61 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_62;
 		L_62 = FastKeyboard_Initialize_ctrlKeyboardg_m3E7A6E6BADCC8879D343A6535141D53DC24ED71B(__this, L_61, __this, NULL);
 		V_31 = L_62;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:123>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_63 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_64;
 		L_64 = FastKeyboard_Initialize_ctrlKeyboardh_m1A395246155CEB8E3E252FCC78426C4157FB050C(__this, L_63, __this, NULL);
 		V_32 = L_64;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:126>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_65 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_66;
 		L_66 = FastKeyboard_Initialize_ctrlKeyboardi_m63E0537E5B15E346FA5D9210001A903D531B083E(__this, L_65, __this, NULL);
 		V_33 = L_66;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:129>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_67 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_68;
 		L_68 = FastKeyboard_Initialize_ctrlKeyboardj_m434F261ACBD3920F4599825814C6AA80ECACA35C(__this, L_67, __this, NULL);
 		V_34 = L_68;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:132>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_69 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_70;
 		L_70 = FastKeyboard_Initialize_ctrlKeyboardk_m0E8D5123177B1654E66F5B2C84037F1CD1846331(__this, L_69, __this, NULL);
 		V_35 = L_70;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:135>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_71 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_72;
 		L_72 = FastKeyboard_Initialize_ctrlKeyboardl_m0D98753CF551E205D590611A2002F82D94EED7E2(__this, L_71, __this, NULL);
 		V_36 = L_72;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:138>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_73 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_74;
 		L_74 = FastKeyboard_Initialize_ctrlKeyboardm_mCA30A11971424C5022F5B620879991C6D64452EA(__this, L_73, __this, NULL);
 		V_37 = L_74;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:141>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_75 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_76;
 		L_76 = FastKeyboard_Initialize_ctrlKeyboardn_m31A589CF5FF6BB201FAB53C20ACA220B9D58654C(__this, L_75, __this, NULL);
 		V_38 = L_76;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:144>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_77 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_78;
 		L_78 = FastKeyboard_Initialize_ctrlKeyboardo_mD690AB733F442903A6C881A0C3018641214D7DB3(__this, L_77, __this, NULL);
 		V_39 = L_78;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:147>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_79 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_80;
 		L_80 = FastKeyboard_Initialize_ctrlKeyboardp_m95EB08CD1C9C710DF3D383C4E4F6A4BF0E802B5E(__this, L_79, __this, NULL);
 		V_40 = L_80;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:150>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_81 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_82;
 		L_82 = FastKeyboard_Initialize_ctrlKeyboardq_m180737ED5824AA5A64EA30650E0BE586AC3F1329(__this, L_81, __this, NULL);
 		V_41 = L_82;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:153>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_83 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_84;
 		L_84 = FastKeyboard_Initialize_ctrlKeyboardr_m39AF23E41EB3DF305757ABA70F08E33CA547F786(__this, L_83, __this, NULL);
 		V_42 = L_84;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:156>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_85 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_86;
 		L_86 = FastKeyboard_Initialize_ctrlKeyboards_m2CC333F9A3D8001CBCAA30BFC398F944004CAB47(__this, L_85, __this, NULL);
 		V_43 = L_86;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:159>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_87 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_88;
 		L_88 = FastKeyboard_Initialize_ctrlKeyboardt_mD3BE40E00C75538E0BBFC99C736140E18A6C1C80(__this, L_87, __this, NULL);
 		V_44 = L_88;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:162>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_89 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_90;
 		L_90 = FastKeyboard_Initialize_ctrlKeyboardu_m4346350CFCD7B3F4D88DF06A979194EF9A9425C6(__this, L_89, __this, NULL);
 		V_45 = L_90;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:165>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_91 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_92;
 		L_92 = FastKeyboard_Initialize_ctrlKeyboardv_mC23456551D23792AB9B38271E7BDB0D0797B96C9(__this, L_91, __this, NULL);
 		V_46 = L_92;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:168>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_93 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_94;
 		L_94 = FastKeyboard_Initialize_ctrlKeyboardw_m46184E662B43C2F47A17F122EB05B205BA2BD79B(__this, L_93, __this, NULL);
 		V_47 = L_94;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:171>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_95 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_96;
 		L_96 = FastKeyboard_Initialize_ctrlKeyboardx_m91A5577425E136D306A2ACDF0E0CCF80089D4B01(__this, L_95, __this, NULL);
 		V_48 = L_96;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:174>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_97 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_98;
 		L_98 = FastKeyboard_Initialize_ctrlKeyboardy_mB29606EF7494AB7A2B4DE396B47C2B2C317B65FA(__this, L_97, __this, NULL);
 		V_49 = L_98;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:177>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_99 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_100;
 		L_100 = FastKeyboard_Initialize_ctrlKeyboardz_m98D15DCD21BD6EBAE78E126CB8350A4AE20321CF(__this, L_99, __this, NULL);
 		V_50 = L_100;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:180>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_101 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_102;
 		L_102 = FastKeyboard_Initialize_ctrlKeyboard1_m11B29F949785664265BEBB8FFC2761E9C52AE742(__this, L_101, __this, NULL);
 		V_51 = L_102;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:183>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_103 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_104;
 		L_104 = FastKeyboard_Initialize_ctrlKeyboard2_m711AE810D56EBEA6F3588126EEE7CE87CEFAD420(__this, L_103, __this, NULL);
 		V_52 = L_104;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:186>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_105 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_106;
 		L_106 = FastKeyboard_Initialize_ctrlKeyboard3_m0CB12774E09B5B7DCDFE46011154BBB378EEB180(__this, L_105, __this, NULL);
 		V_53 = L_106;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:189>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_107 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_108;
 		L_108 = FastKeyboard_Initialize_ctrlKeyboard4_m12145A7DED21E2619ED08D4EF62C16F94CCFB0F3(__this, L_107, __this, NULL);
 		V_54 = L_108;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:192>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_109 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_110;
 		L_110 = FastKeyboard_Initialize_ctrlKeyboard5_mCA146FE2079618FA336B63DD94F0E544EEDAF944(__this, L_109, __this, NULL);
 		V_55 = L_110;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:195>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_111 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_112;
 		L_112 = FastKeyboard_Initialize_ctrlKeyboard6_m8424BA8A0B6C2514F62AF2048CC044EAF299C0BA(__this, L_111, __this, NULL);
 		V_56 = L_112;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:198>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_113 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_114;
 		L_114 = FastKeyboard_Initialize_ctrlKeyboard7_mB208281402E16B4AEE104BA8F3846CEE62059B65(__this, L_113, __this, NULL);
 		V_57 = L_114;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:201>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_115 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_116;
 		L_116 = FastKeyboard_Initialize_ctrlKeyboard8_mDB78A7F564962E440089B66A06FAB24F87AB0C91(__this, L_115, __this, NULL);
 		V_58 = L_116;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:204>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_117 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_118;
 		L_118 = FastKeyboard_Initialize_ctrlKeyboard9_m6500F55EC8F085F9FC1836D2FA4F028899C8FE05(__this, L_117, __this, NULL);
 		V_59 = L_118;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:207>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_119 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_120;
 		L_120 = FastKeyboard_Initialize_ctrlKeyboard0_m197315D863629E6CA84C0A5EA38EA186486F28FB(__this, L_119, __this, NULL);
 		V_60 = L_120;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:210>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_121 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_122;
 		L_122 = FastKeyboard_Initialize_ctrlKeyboardleftShift_mD1418732F4F28C89F4676A429057615147FCF98C(__this, L_121, __this, NULL);
 		V_61 = L_122;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:213>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_123 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_124;
 		L_124 = FastKeyboard_Initialize_ctrlKeyboardrightShift_m01FE27420BAB023CBF3B3C1E41918BAA484C7959(__this, L_123, __this, NULL);
 		V_62 = L_124;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:216>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_125 = V_3;
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_126;
 		L_126 = FastKeyboard_Initialize_ctrlKeyboardshift_mF6E94F3328055FC07659F062D7432032EBA37109(__this, L_125, __this, NULL);
 		V_63 = L_126;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:219>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_127 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_128;
 		L_128 = FastKeyboard_Initialize_ctrlKeyboardleftAlt_m61D7E13A6F98FB0BDB9D056F7E4C97938060AF46(__this, L_127, __this, NULL);
 		V_64 = L_128;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:222>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_129 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_130;
 		L_130 = FastKeyboard_Initialize_ctrlKeyboardrightAlt_mEDFFC459C2FB0DF45E9C8737AEDFE6A40597BF7C(__this, L_129, __this, NULL);
 		V_65 = L_130;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:225>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_131 = V_3;
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_132;
 		L_132 = FastKeyboard_Initialize_ctrlKeyboardalt_mD05DC8F0A4E944E82E37B7FD039333F4DF58E09E(__this, L_131, __this, NULL);
 		V_66 = L_132;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:228>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_133 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_134;
 		L_134 = FastKeyboard_Initialize_ctrlKeyboardleftCtrl_m9888650A9A499A0B9C5D1320775199FB2F2FDD91(__this, L_133, __this, NULL);
 		V_67 = L_134;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:231>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_135 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_136;
 		L_136 = FastKeyboard_Initialize_ctrlKeyboardrightCtrl_mF3A4DF1E74E9EBA7F3A01E59DDA4D7F631C107B9(__this, L_135, __this, NULL);
 		V_68 = L_136;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:234>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_137 = V_3;
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_138;
 		L_138 = FastKeyboard_Initialize_ctrlKeyboardctrl_mEDD76EF2D931AD7433739D336F18B57A824482A3(__this, L_137, __this, NULL);
 		V_69 = L_138;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:237>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_139 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_140;
 		L_140 = FastKeyboard_Initialize_ctrlKeyboardleftMeta_m7EE2593BC9817C3C4D6D4EED580B9A8E8AFBA63B(__this, L_139, __this, NULL);
 		V_70 = L_140;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:240>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_141 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_142;
 		L_142 = FastKeyboard_Initialize_ctrlKeyboardrightMeta_mBB0153758E5ABF0D58BD937FB0AC143CF116EBCF(__this, L_141, __this, NULL);
 		V_71 = L_142;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:243>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_143 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_144;
 		L_144 = FastKeyboard_Initialize_ctrlKeyboardcontextMenu_m0ABD27FBCA4B4CBD7131FD10B65FC22C8A1E0728(__this, L_143, __this, NULL);
 		V_72 = L_144;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:246>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_145 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_146;
 		L_146 = FastKeyboard_Initialize_ctrlKeyboardbackspace_m58A28952812F6263D81A74697A0444B29236CE03(__this, L_145, __this, NULL);
 		V_73 = L_146;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:249>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_147 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_148;
 		L_148 = FastKeyboard_Initialize_ctrlKeyboardpageDown_mC349FAA02E76CA3FBBB6D37D3BE294E0107FEBC6(__this, L_147, __this, NULL);
 		V_74 = L_148;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:252>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_149 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_150;
 		L_150 = FastKeyboard_Initialize_ctrlKeyboardpageUp_mC772095C4641AC118F9F9DE53054562F79141A40(__this, L_149, __this, NULL);
 		V_75 = L_150;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:255>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_151 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_152;
 		L_152 = FastKeyboard_Initialize_ctrlKeyboardhome_mC730E90F117158FF27131D33D218790BA08E9488(__this, L_151, __this, NULL);
 		V_76 = L_152;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:258>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_153 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_154;
 		L_154 = FastKeyboard_Initialize_ctrlKeyboardend_mB6FFD7B6E1F2AE10C35D27569A6AB09F0B65FD84(__this, L_153, __this, NULL);
 		V_77 = L_154;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:261>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_155 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_156;
 		L_156 = FastKeyboard_Initialize_ctrlKeyboardinsert_mD91B56AECA31C43767288BDA7DD23DFFFAD2643E(__this, L_155, __this, NULL);
 		V_78 = L_156;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:264>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_157 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_158;
 		L_158 = FastKeyboard_Initialize_ctrlKeyboarddelete_m819117F248C52DEF805A29E0E858172B485ABC70(__this, L_157, __this, NULL);
 		V_79 = L_158;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:267>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_159 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_160;
 		L_160 = FastKeyboard_Initialize_ctrlKeyboardcapsLock_m167BE5602211D0F41074B1C33E79D574A6E13925(__this, L_159, __this, NULL);
 		V_80 = L_160;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:270>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_161 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_162;
 		L_162 = FastKeyboard_Initialize_ctrlKeyboardnumLock_m1FCEA3742C107DB129918534CBD7BEC78854046B(__this, L_161, __this, NULL);
 		V_81 = L_162;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:273>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_163 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_164;
 		L_164 = FastKeyboard_Initialize_ctrlKeyboardprintScreen_m83DF85EDAFA58A943E4C99E843806B6012C01261(__this, L_163, __this, NULL);
 		V_82 = L_164;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:276>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_165 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_166;
 		L_166 = FastKeyboard_Initialize_ctrlKeyboardscrollLock_m542EF8E8CF7428E504C6135CDC543A5660F5188B(__this, L_165, __this, NULL);
 		V_83 = L_166;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:279>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_167 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_168;
 		L_168 = FastKeyboard_Initialize_ctrlKeyboardpause_m2F76B984D0681E4B78E27FAE675AD4C8F10E4560(__this, L_167, __this, NULL);
 		V_84 = L_168;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:282>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_169 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_170;
 		L_170 = FastKeyboard_Initialize_ctrlKeyboardnumpadEnter_m4E63592CFB6A2D2146E38B5D04BEEDB324CFDEAA(__this, L_169, __this, NULL);
 		V_85 = L_170;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:285>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_171 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_172;
 		L_172 = FastKeyboard_Initialize_ctrlKeyboardnumpadDivide_m5EDC65E26B7746216AC72CCCB3838AF235F51DC8(__this, L_171, __this, NULL);
 		V_86 = L_172;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:288>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_173 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_174;
 		L_174 = FastKeyboard_Initialize_ctrlKeyboardnumpadMultiply_mA1379D492A7ED5A0E7744FDD7D87D55BF204D4E2(__this, L_173, __this, NULL);
 		V_87 = L_174;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:291>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_175 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_176;
 		L_176 = FastKeyboard_Initialize_ctrlKeyboardnumpadPlus_m7DB8421F8206608803D1A144AA2FEB19BFB170E7(__this, L_175, __this, NULL);
 		V_88 = L_176;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:294>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_177 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_178;
 		L_178 = FastKeyboard_Initialize_ctrlKeyboardnumpadMinus_m47D2CE0FC25346DB813E893748EBBBFD914EFFB9(__this, L_177, __this, NULL);
 		V_89 = L_178;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:297>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_179 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_180;
 		L_180 = FastKeyboard_Initialize_ctrlKeyboardnumpadPeriod_m6F162BC640B7041E3DFC39C04391539AB14C2D77(__this, L_179, __this, NULL);
 		V_90 = L_180;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:300>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_181 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_182;
 		L_182 = FastKeyboard_Initialize_ctrlKeyboardnumpadEquals_m9C8AD1F7F6CCF824CF974F77604CBF12F70E1DA2(__this, L_181, __this, NULL);
 		V_91 = L_182;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:303>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_183 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_184;
 		L_184 = FastKeyboard_Initialize_ctrlKeyboardnumpad1_m64F89C4A83488969355BE9A942C957526537B0CA(__this, L_183, __this, NULL);
 		V_92 = L_184;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:306>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_185 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_186;
 		L_186 = FastKeyboard_Initialize_ctrlKeyboardnumpad2_mF1761C4924922A3D9F983CED36CA79EDAC5E79EB(__this, L_185, __this, NULL);
 		V_93 = L_186;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:309>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_187 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_188;
 		L_188 = FastKeyboard_Initialize_ctrlKeyboardnumpad3_m596D19FF5BC77A2B85B74C45C26A3A27E2182654(__this, L_187, __this, NULL);
 		V_94 = L_188;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:312>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_189 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_190;
 		L_190 = FastKeyboard_Initialize_ctrlKeyboardnumpad4_mE8E30A4C6BCD8B434AB7F9D0354F127DFFB66023(__this, L_189, __this, NULL);
 		V_95 = L_190;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:315>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_191 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_192;
 		L_192 = FastKeyboard_Initialize_ctrlKeyboardnumpad5_m4E16143A0F17EC3CBB4598E263722B9F25E50775(__this, L_191, __this, NULL);
 		V_96 = L_192;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:318>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_193 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_194;
 		L_194 = FastKeyboard_Initialize_ctrlKeyboardnumpad6_mC5E8949659691FFE47990A0844D7018E9A0BE0A4(__this, L_193, __this, NULL);
 		V_97 = L_194;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:321>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_195 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_196;
 		L_196 = FastKeyboard_Initialize_ctrlKeyboardnumpad7_mB0074B0C219BB1148860A0AC7BC5FBF0367AD00A(__this, L_195, __this, NULL);
 		V_98 = L_196;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:324>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_197 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_198;
 		L_198 = FastKeyboard_Initialize_ctrlKeyboardnumpad8_m7AA765F6CC8A0684AC2ABF97FD713B7D05567E1D(__this, L_197, __this, NULL);
 		V_99 = L_198;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:327>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_199 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_200;
 		L_200 = FastKeyboard_Initialize_ctrlKeyboardnumpad9_mBA466E460B1DFB45DCF9E8AA21480537F6029F58(__this, L_199, __this, NULL);
 		V_100 = L_200;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:330>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_201 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_202;
 		L_202 = FastKeyboard_Initialize_ctrlKeyboardnumpad0_m5870FD587C9088B032FB41AF4D7181868CCA7552(__this, L_201, __this, NULL);
 		V_101 = L_202;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:333>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_203 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_204;
 		L_204 = FastKeyboard_Initialize_ctrlKeyboardf1_m22FBBB392AF9A46D7B1173C788BF12FE3DE295E3(__this, L_203, __this, NULL);
 		V_102 = L_204;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:336>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_205 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_206;
 		L_206 = FastKeyboard_Initialize_ctrlKeyboardf2_m89393E6E968234B31C3307BADB5220E648A74B65(__this, L_205, __this, NULL);
 		V_103 = L_206;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:339>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_207 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_208;
 		L_208 = FastKeyboard_Initialize_ctrlKeyboardf3_m6407D43FC943C68660EA3EDF291FFFBD4C72E444(__this, L_207, __this, NULL);
 		V_104 = L_208;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:342>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_209 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_210;
 		L_210 = FastKeyboard_Initialize_ctrlKeyboardf4_mA2EBEDE3E6442E87A41578A91102058F438C924C(__this, L_209, __this, NULL);
 		V_105 = L_210;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:345>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_211 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_212;
 		L_212 = FastKeyboard_Initialize_ctrlKeyboardf5_m1B7EA2DCCD1D3C82B0A007315D8A9932AD001DD7(__this, L_211, __this, NULL);
 		V_106 = L_212;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:348>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_213 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_214;
 		L_214 = FastKeyboard_Initialize_ctrlKeyboardf6_m7460C9A39B1CD38119F95B5BDA6078257123DD9C(__this, L_213, __this, NULL);
 		V_107 = L_214;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:351>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_215 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_216;
 		L_216 = FastKeyboard_Initialize_ctrlKeyboardf7_mF847D270DA61D9BD050920A5C315BA29F71BC169(__this, L_215, __this, NULL);
 		V_108 = L_216;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:354>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_217 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_218;
 		L_218 = FastKeyboard_Initialize_ctrlKeyboardf8_mC429A23AFCFDFB66903E48D378680ED382E91B4A(__this, L_217, __this, NULL);
 		V_109 = L_218;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:357>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_219 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_220;
 		L_220 = FastKeyboard_Initialize_ctrlKeyboardf9_m00B86A238F5BD7B6E974F665D050C36609F26105(__this, L_219, __this, NULL);
 		V_110 = L_220;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:360>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_221 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_222;
 		L_222 = FastKeyboard_Initialize_ctrlKeyboardf10_mF0115A09106548DDEB56AF481A31FC459EAA0CFD(__this, L_221, __this, NULL);
 		V_111 = L_222;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:363>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_223 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_224;
 		L_224 = FastKeyboard_Initialize_ctrlKeyboardf11_mD57A8878BDD2A99E42B1C054825162041C27AA27(__this, L_223, __this, NULL);
 		V_112 = L_224;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:366>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_225 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_226;
 		L_226 = FastKeyboard_Initialize_ctrlKeyboardf12_m53888F35B7822246C4C9B53049E8AD1F95892AD2(__this, L_225, __this, NULL);
 		V_113 = L_226;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:369>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_227 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_228;
 		L_228 = FastKeyboard_Initialize_ctrlKeyboardOEM1_m28559EF6003DD9C84EABB0D1482EEE907AA244A2(__this, L_227, __this, NULL);
 		V_114 = L_228;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:372>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_229 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_230;
 		L_230 = FastKeyboard_Initialize_ctrlKeyboardOEM2_m138A1243DD3C807E4149826C70D593E9D2723F0D(__this, L_229, __this, NULL);
 		V_115 = L_230;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:375>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_231 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_232;
 		L_232 = FastKeyboard_Initialize_ctrlKeyboardOEM3_m7547EF7064838343D76326346D27C62668ABE607(__this, L_231, __this, NULL);
 		V_116 = L_232;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:378>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_233 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_234;
 		L_234 = FastKeyboard_Initialize_ctrlKeyboardOEM4_m2A6BAB46BC8DBE7D3CAE3D7266D9C41FA8626913(__this, L_233, __this, NULL);
 		V_117 = L_234;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:381>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_235 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_236;
 		L_236 = FastKeyboard_Initialize_ctrlKeyboardOEM5_m0A7D2E86690242F3E895E203C7E8339B5679E707(__this, L_235, __this, NULL);
 		V_118 = L_236;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:384>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_237 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_238;
 		L_238 = FastKeyboard_Initialize_ctrlKeyboardf13_m5DF4BAA705A6B7FE16A8F0C3B9892342C566AE2C(__this, L_237, __this, NULL);
 		V_119 = L_238;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:387>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_239 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_240;
 		L_240 = FastKeyboard_Initialize_ctrlKeyboardf14_m3B978839B00659C487FF3C9920CD9CC3984CAC65(__this, L_239, __this, NULL);
 		V_120 = L_240;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:390>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_241 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_242;
 		L_242 = FastKeyboard_Initialize_ctrlKeyboardf15_m76007C718AA8635DAF1C45DEDBAAA10665B202A2(__this, L_241, __this, NULL);
 		V_121 = L_242;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:393>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_243 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_244;
 		L_244 = FastKeyboard_Initialize_ctrlKeyboardf16_m7EA185F77F79D9E6C88BA37A89F03B78E5B59DB1(__this, L_243, __this, NULL);
 		V_122 = L_244;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:396>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_245 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_246;
 		L_246 = FastKeyboard_Initialize_ctrlKeyboardf17_mF250F6803A9DCF0D296925C62AC4298363A087A2(__this, L_245, __this, NULL);
 		V_123 = L_246;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:399>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_247 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_248;
 		L_248 = FastKeyboard_Initialize_ctrlKeyboardf18_m9FB881F07727DD1211AF422AC91E7871C0DEF522(__this, L_247, __this, NULL);
 		V_124 = L_248;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:402>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_249 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_250;
 		L_250 = FastKeyboard_Initialize_ctrlKeyboardf19_m4AB500C9CFD1D0FD0AB6A6A7227972325934CBE2(__this, L_249, __this, NULL);
 		V_125 = L_250;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:405>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_251 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_252;
 		L_252 = FastKeyboard_Initialize_ctrlKeyboardf20_m406F718965584462689D7D23C9FA1D3788961CCA(__this, L_251, __this, NULL);
 		V_126 = L_252;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:408>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_253 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_254;
 		L_254 = FastKeyboard_Initialize_ctrlKeyboardf21_m3509FD426A1E363463E0B8DDE0576BB4895C6810(__this, L_253, __this, NULL);
 		V_127 = L_254;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:411>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_255 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_256;
 		L_256 = FastKeyboard_Initialize_ctrlKeyboardf22_m400340CADE2FFD6BCDD036E70682C51D7E8C5831(__this, L_255, __this, NULL);
 		V_128 = L_256;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:414>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_257 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_258;
 		L_258 = FastKeyboard_Initialize_ctrlKeyboardf23_m49D86877550B519BBA70ED17B5AA3BD98CD0CED1(__this, L_257, __this, NULL);
 		V_129 = L_258;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:417>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_259 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_260;
 		L_260 = FastKeyboard_Initialize_ctrlKeyboardf24_m2CB15CC5BE46686E873A0B50E89BFE505D7B3FDD(__this, L_259, __this, NULL);
 		V_130 = L_260;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:420>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_261 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_262;
 		L_262 = FastKeyboard_Initialize_ctrlKeyboardmediaPlayPause_m587246EB306CB50BF64CB682010BAA745039BEAF(__this, L_261, __this, NULL);
 		V_131 = L_262;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:423>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_263 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_264;
 		L_264 = FastKeyboard_Initialize_ctrlKeyboardmediaRewind_mBC954F4919695C3F93B9442F210D3038CF2E68F5(__this, L_263, __this, NULL);
 		V_132 = L_264;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:426>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_265 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_266;
 		L_266 = FastKeyboard_Initialize_ctrlKeyboardmediaForward_m8DFF907D4ED1AA0AA2640A4812EB2057D6E7025D(__this, L_265, __this, NULL);
 		V_133 = L_266;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:429>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_267 = V_4;
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_268;
 		L_268 = FastKeyboard_Initialize_ctrlKeyboardIMESelected_mB1A88861AF58D24760A678A780A411DDDBDC518B(__this, L_267, __this, NULL);
 		V_134 = L_268;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:432>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_269 = V_2;
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_270;
 		L_270 = FastKeyboard_Initialize_ctrlKeyboardIMESelectedObsoleteKey_m4774F1874F38309BA48C711D892E5C70219D4AA7(__this, L_269, __this, NULL);
 		V_135 = L_270;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:435>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_271;
 		memset((&L_271), 0, sizeof(L_271));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_271), _stringLiteral4A261EB7E7319776625F5A015EA18053797E6890, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_272 = V_6;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_273;
 		L_273 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), 0, L_271, L_272, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:436>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_274;
 		memset((&L_274), 0, sizeof(L_274));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_274), _stringLiteral93717CD8FCD45BAB4F15D3BACC989A6A93BA2674, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_275 = V_6;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_276;
 		L_276 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), 1, L_274, L_275, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:437>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_277;
 		memset((&L_277), 0, sizeof(L_277));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_277), _stringLiteral190CDBBC7377A308B78E27EF91319FD2DA386895, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_278 = V_8;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_279;
 		L_279 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), 2, L_277, L_278, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:438>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_280;
 		memset((&L_280), 0, sizeof(L_280));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_280), _stringLiteralBF50C818C48FE06268F52652FD752EA6BEE4326F, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_281 = V_61;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_282;
 		L_282 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), 3, L_280, L_281, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:439>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_283;
 		memset((&L_283), 0, sizeof(L_283));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_283), _stringLiteralBF50C818C48FE06268F52652FD752EA6BEE4326F, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_284 = V_62;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_285;
 		L_285 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), 4, L_283, L_284, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:440>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_286;
 		memset((&L_286), 0, sizeof(L_286));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_286), _stringLiteralBF50C818C48FE06268F52652FD752EA6BEE4326F, NULL);
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_287 = V_63;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_288;
 		L_288 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), 5, L_286, L_287, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:441>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_289;
 		memset((&L_289), 0, sizeof(L_289));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_289), _stringLiteralBF50C818C48FE06268F52652FD752EA6BEE4326F, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_290 = V_64;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_291;
 		L_291 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), 6, L_289, L_290, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:442>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_292;
 		memset((&L_292), 0, sizeof(L_292));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_292), _stringLiteralBF50C818C48FE06268F52652FD752EA6BEE4326F, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_293 = V_65;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_294;
 		L_294 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), 7, L_292, L_293, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:443>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_295;
 		memset((&L_295), 0, sizeof(L_295));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_295), _stringLiteralBF50C818C48FE06268F52652FD752EA6BEE4326F, NULL);
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_296 = V_66;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_297;
 		L_297 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), 8, L_295, L_296, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:444>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_298;
 		memset((&L_298), 0, sizeof(L_298));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_298), _stringLiteralBF50C818C48FE06268F52652FD752EA6BEE4326F, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_299 = V_67;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_300;
 		L_300 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), ((int32_t)9), L_298, L_299, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:445>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_301;
 		memset((&L_301), 0, sizeof(L_301));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_301), _stringLiteralBF50C818C48FE06268F52652FD752EA6BEE4326F, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_302 = V_68;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_303;
 		L_303 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), ((int32_t)10), L_301, L_302, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:446>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_304;
 		memset((&L_304), 0, sizeof(L_304));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_304), _stringLiteralBF50C818C48FE06268F52652FD752EA6BEE4326F, NULL);
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_305 = V_69;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_306;
 		L_306 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), ((int32_t)11), L_304, L_305, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:447>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_307;
 		memset((&L_307), 0, sizeof(L_307));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_307), _stringLiteralBF50C818C48FE06268F52652FD752EA6BEE4326F, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_308 = V_70;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_309;
 		L_309 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), ((int32_t)12), L_307, L_308, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:448>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_310;
 		memset((&L_310), 0, sizeof(L_310));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_310), _stringLiteralBF50C818C48FE06268F52652FD752EA6BEE4326F, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_311 = V_71;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_312;
 		L_312 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), ((int32_t)13), L_310, L_311, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:449>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_313;
 		memset((&L_313), 0, sizeof(L_313));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_313), _stringLiteralBF50C818C48FE06268F52652FD752EA6BEE4326F, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_314 = V_72;
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_315;
 		L_315 = DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline((&V_0), ((int32_t)14), L_313, L_314, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:452>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_316;
 		memset((&L_316), 0, sizeof(L_316));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_316), _stringLiteral999968AE2506D98CE60190E8ED152705CDFF64F8, NULL);
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_317;
 		L_317 = DeviceBuilder_WithControlAlias_mBAC72EDB7F19F7675A18FFE490DB8D8194EA1EB9_inline((&V_0), 0, L_316, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:453>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_318;
 		memset((&L_318), 0, sizeof(L_318));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_318), _stringLiteral0C134FA750E6780D1EE2FD609D331227073E6F03, NULL);
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_319;
 		L_319 = DeviceBuilder_WithControlAlias_mBAC72EDB7F19F7675A18FFE490DB8D8194EA1EB9_inline((&V_0), 1, L_318, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:454>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_320;
 		memset((&L_320), 0, sizeof(L_320));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_320), _stringLiteralA9046C270B75CC3941D233020C76D414361EA8B6, NULL);
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_321;
 		L_321 = DeviceBuilder_WithControlAlias_mBAC72EDB7F19F7675A18FFE490DB8D8194EA1EB9_inline((&V_0), 2, L_320, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:455>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_322;
 		memset((&L_322), 0, sizeof(L_322));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_322), _stringLiteralA64ED612DDE22BD1F25A52892EB3DC2243BD33BA, NULL);
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_323;
 		L_323 = DeviceBuilder_WithControlAlias_mBAC72EDB7F19F7675A18FFE490DB8D8194EA1EB9_inline((&V_0), 3, L_322, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:456>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_324;
 		memset((&L_324), 0, sizeof(L_324));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_324), _stringLiteralE065FD1C2A055845311E541E6094DD926CF1A39D, NULL);
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_325;
 		L_325 = DeviceBuilder_WithControlAlias_mBAC72EDB7F19F7675A18FFE490DB8D8194EA1EB9_inline((&V_0), 4, L_324, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:457>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_326;
 		memset((&L_326), 0, sizeof(L_326));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_326), _stringLiteral540F43C0841AF7C73EF4EA1310A1276C8FC21B92, NULL);
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_327;
 		L_327 = DeviceBuilder_WithControlAlias_mBAC72EDB7F19F7675A18FFE490DB8D8194EA1EB9_inline((&V_0), 5, L_326, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:458>
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_328;
 		memset((&L_328), 0, sizeof(L_328));
 		InternedString__ctor_m2E9672D46D84C82F705DE799CE8B6123EB95E935((&L_328), _stringLiteral99C024D97BD4584DAFF06337CEE028FDF73910C8, NULL);
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_329;
 		L_329 = DeviceBuilder_WithControlAlias_mBAC72EDB7F19F7675A18FFE490DB8D8194EA1EB9_inline((&V_0), 6, L_328, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:461>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_330 = (KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA*)(KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA*)SZArrayNew(KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA_il2cpp_TypeInfo_var, (uint32_t)((int32_t)126));
 		Keyboard_set_keys_m0182B12C60B17A40B2F45E21791545C222E8E657_inline(__this, L_330, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:462>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_331;
 		L_331 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_332 = V_7;
 		NullCheck(L_331);
 		ArrayElementTypeCheck (L_331, L_332);
 		(L_331)->SetAt(static_cast<il2cpp_array_size_t>(0), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_332);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:463>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_333;
 		L_333 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_334 = V_8;
 		NullCheck(L_333);
 		ArrayElementTypeCheck (L_333, L_334);
 		(L_333)->SetAt(static_cast<il2cpp_array_size_t>(1), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_334);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:464>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_335;
 		L_335 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_336 = V_9;
 		NullCheck(L_335);
 		ArrayElementTypeCheck (L_335, L_336);
 		(L_335)->SetAt(static_cast<il2cpp_array_size_t>(2), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_336);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:465>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_337;
 		L_337 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_338 = V_10;
 		NullCheck(L_337);
 		ArrayElementTypeCheck (L_337, L_338);
 		(L_337)->SetAt(static_cast<il2cpp_array_size_t>(3), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_338);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:466>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_339;
 		L_339 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_340 = V_11;
 		NullCheck(L_339);
 		ArrayElementTypeCheck (L_339, L_340);
 		(L_339)->SetAt(static_cast<il2cpp_array_size_t>(4), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_340);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:467>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_341;
 		L_341 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_342 = V_12;
 		NullCheck(L_341);
 		ArrayElementTypeCheck (L_341, L_342);
 		(L_341)->SetAt(static_cast<il2cpp_array_size_t>(5), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_342);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:468>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_343;
 		L_343 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_344 = V_13;
 		NullCheck(L_343);
 		ArrayElementTypeCheck (L_343, L_344);
 		(L_343)->SetAt(static_cast<il2cpp_array_size_t>(6), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_344);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:469>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_345;
 		L_345 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_346 = V_14;
 		NullCheck(L_345);
 		ArrayElementTypeCheck (L_345, L_346);
 		(L_345)->SetAt(static_cast<il2cpp_array_size_t>(7), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_346);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:470>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_347;
 		L_347 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_348 = V_15;
 		NullCheck(L_347);
 		ArrayElementTypeCheck (L_347, L_348);
 		(L_347)->SetAt(static_cast<il2cpp_array_size_t>(8), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_348);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:471>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_349;
 		L_349 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_350 = V_16;
 		NullCheck(L_349);
 		ArrayElementTypeCheck (L_349, L_350);
 		(L_349)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_350);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:472>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_351;
 		L_351 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_352 = V_17;
 		NullCheck(L_351);
 		ArrayElementTypeCheck (L_351, L_352);
 		(L_351)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)10)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_352);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:473>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_353;
 		L_353 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_354 = V_18;
 		NullCheck(L_353);
 		ArrayElementTypeCheck (L_353, L_354);
 		(L_353)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)11)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_354);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:474>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_355;
 		L_355 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_356 = V_19;
 		NullCheck(L_355);
 		ArrayElementTypeCheck (L_355, L_356);
 		(L_355)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)12)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_356);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:475>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_357;
 		L_357 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_358 = V_20;
 		NullCheck(L_357);
 		ArrayElementTypeCheck (L_357, L_358);
 		(L_357)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)13)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_358);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:476>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_359;
 		L_359 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_360 = V_25;
 		NullCheck(L_359);
 		ArrayElementTypeCheck (L_359, L_360);
 		(L_359)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_360);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:477>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_361;
 		L_361 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_362 = V_26;
 		NullCheck(L_361);
 		ArrayElementTypeCheck (L_361, L_362);
 		(L_361)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_362);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:478>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_363;
 		L_363 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_364 = V_27;
 		NullCheck(L_363);
 		ArrayElementTypeCheck (L_363, L_364);
 		(L_363)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)16)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_364);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:479>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_365;
 		L_365 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_366 = V_28;
 		NullCheck(L_365);
 		ArrayElementTypeCheck (L_365, L_366);
 		(L_365)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)17)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_366);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:480>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_367;
 		L_367 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_368 = V_29;
 		NullCheck(L_367);
 		ArrayElementTypeCheck (L_367, L_368);
 		(L_367)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)18)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_368);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:481>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_369;
 		L_369 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_370 = V_30;
 		NullCheck(L_369);
 		ArrayElementTypeCheck (L_369, L_370);
 		(L_369)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)19)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_370);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:482>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_371;
 		L_371 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_372 = V_31;
 		NullCheck(L_371);
 		ArrayElementTypeCheck (L_371, L_372);
 		(L_371)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)20)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_372);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:483>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_373;
 		L_373 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_374 = V_32;
 		NullCheck(L_373);
 		ArrayElementTypeCheck (L_373, L_374);
 		(L_373)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)21)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_374);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:484>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_375;
 		L_375 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_376 = V_33;
 		NullCheck(L_375);
 		ArrayElementTypeCheck (L_375, L_376);
 		(L_375)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)22)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_376);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:485>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_377;
 		L_377 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_378 = V_34;
 		NullCheck(L_377);
 		ArrayElementTypeCheck (L_377, L_378);
 		(L_377)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)23)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_378);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:486>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_379;
 		L_379 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_380 = V_35;
 		NullCheck(L_379);
 		ArrayElementTypeCheck (L_379, L_380);
 		(L_379)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)24)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_380);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:487>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_381;
 		L_381 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_382 = V_36;
 		NullCheck(L_381);
 		ArrayElementTypeCheck (L_381, L_382);
 		(L_381)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)25)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_382);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:488>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_383;
 		L_383 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_384 = V_37;
 		NullCheck(L_383);
 		ArrayElementTypeCheck (L_383, L_384);
 		(L_383)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)26)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_384);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:489>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_385;
 		L_385 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_386 = V_38;
 		NullCheck(L_385);
 		ArrayElementTypeCheck (L_385, L_386);
 		(L_385)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)27)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_386);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:490>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_387;
 		L_387 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_388 = V_39;
 		NullCheck(L_387);
 		ArrayElementTypeCheck (L_387, L_388);
 		(L_387)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)28)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_388);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:491>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_389;
 		L_389 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_390 = V_40;
 		NullCheck(L_389);
 		ArrayElementTypeCheck (L_389, L_390);
 		(L_389)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)29)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_390);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:492>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_391;
 		L_391 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_392 = V_41;
 		NullCheck(L_391);
 		ArrayElementTypeCheck (L_391, L_392);
 		(L_391)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)30)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_392);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:493>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_393;
 		L_393 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_394 = V_42;
 		NullCheck(L_393);
 		ArrayElementTypeCheck (L_393, L_394);
 		(L_393)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)31)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_394);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:494>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_395;
 		L_395 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_396 = V_43;
 		NullCheck(L_395);
 		ArrayElementTypeCheck (L_395, L_396);
 		(L_395)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)32)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_396);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:495>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_397;
 		L_397 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_398 = V_44;
 		NullCheck(L_397);
 		ArrayElementTypeCheck (L_397, L_398);
 		(L_397)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)33)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_398);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:496>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_399;
 		L_399 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_400 = V_45;
 		NullCheck(L_399);
 		ArrayElementTypeCheck (L_399, L_400);
 		(L_399)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)34)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_400);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:497>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_401;
 		L_401 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_402 = V_46;
 		NullCheck(L_401);
 		ArrayElementTypeCheck (L_401, L_402);
 		(L_401)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)35)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_402);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:498>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_403;
 		L_403 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_404 = V_47;
 		NullCheck(L_403);
 		ArrayElementTypeCheck (L_403, L_404);
 		(L_403)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)36)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_404);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:499>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_405;
 		L_405 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_406 = V_48;
 		NullCheck(L_405);
 		ArrayElementTypeCheck (L_405, L_406);
 		(L_405)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)37)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_406);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:500>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_407;
 		L_407 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_408 = V_49;
 		NullCheck(L_407);
 		ArrayElementTypeCheck (L_407, L_408);
 		(L_407)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)38)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_408);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:501>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_409;
 		L_409 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_410 = V_50;
 		NullCheck(L_409);
 		ArrayElementTypeCheck (L_409, L_410);
 		(L_409)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)39)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_410);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:502>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_411;
 		L_411 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_412 = V_51;
 		NullCheck(L_411);
 		ArrayElementTypeCheck (L_411, L_412);
 		(L_411)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)40)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_412);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:503>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_413;
 		L_413 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_414 = V_52;
 		NullCheck(L_413);
 		ArrayElementTypeCheck (L_413, L_414);
 		(L_413)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)41)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_414);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:504>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_415;
 		L_415 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_416 = V_53;
 		NullCheck(L_415);
 		ArrayElementTypeCheck (L_415, L_416);
 		(L_415)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)42)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_416);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:505>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_417;
 		L_417 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_418 = V_54;
 		NullCheck(L_417);
 		ArrayElementTypeCheck (L_417, L_418);
 		(L_417)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)43)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_418);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:506>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_419;
 		L_419 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_420 = V_55;
 		NullCheck(L_419);
 		ArrayElementTypeCheck (L_419, L_420);
 		(L_419)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)44)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_420);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:507>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_421;
 		L_421 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_422 = V_56;
 		NullCheck(L_421);
 		ArrayElementTypeCheck (L_421, L_422);
 		(L_421)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)45)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_422);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:508>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_423;
 		L_423 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_424 = V_57;
 		NullCheck(L_423);
 		ArrayElementTypeCheck (L_423, L_424);
 		(L_423)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)46)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_424);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:509>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_425;
 		L_425 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_426 = V_58;
 		NullCheck(L_425);
 		ArrayElementTypeCheck (L_425, L_426);
 		(L_425)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)47)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_426);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:510>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_427;
 		L_427 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_428 = V_59;
 		NullCheck(L_427);
 		ArrayElementTypeCheck (L_427, L_428);
 		(L_427)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)48)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_428);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:511>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_429;
 		L_429 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_430 = V_60;
 		NullCheck(L_429);
 		ArrayElementTypeCheck (L_429, L_430);
 		(L_429)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)49)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_430);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:512>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_431;
 		L_431 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_432 = V_61;
 		NullCheck(L_431);
 		ArrayElementTypeCheck (L_431, L_432);
 		(L_431)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)50)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_432);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:513>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_433;
 		L_433 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_434 = V_62;
 		NullCheck(L_433);
 		ArrayElementTypeCheck (L_433, L_434);
 		(L_433)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)51)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_434);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:514>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_435;
 		L_435 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_436 = V_64;
 		NullCheck(L_435);
 		ArrayElementTypeCheck (L_435, L_436);
 		(L_435)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)52)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_436);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:515>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_437;
 		L_437 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_438 = V_65;
 		NullCheck(L_437);
 		ArrayElementTypeCheck (L_437, L_438);
 		(L_437)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)53)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_438);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:516>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_439;
 		L_439 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_440 = V_67;
 		NullCheck(L_439);
 		ArrayElementTypeCheck (L_439, L_440);
 		(L_439)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)54)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_440);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:517>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_441;
 		L_441 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_442 = V_68;
 		NullCheck(L_441);
 		ArrayElementTypeCheck (L_441, L_442);
 		(L_441)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)55)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_442);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:518>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_443;
 		L_443 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_444 = V_70;
 		NullCheck(L_443);
 		ArrayElementTypeCheck (L_443, L_444);
 		(L_443)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)56)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_444);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:519>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_445;
 		L_445 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_446 = V_71;
 		NullCheck(L_445);
 		ArrayElementTypeCheck (L_445, L_446);
 		(L_445)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)57)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_446);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:520>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_447;
 		L_447 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_448 = V_72;
 		NullCheck(L_447);
 		ArrayElementTypeCheck (L_447, L_448);
 		(L_447)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)58)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_448);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:521>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_449;
 		L_449 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_450 = V_6;
 		NullCheck(L_449);
 		ArrayElementTypeCheck (L_449, L_450);
 		(L_449)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)59)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_450);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:522>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_451;
 		L_451 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_452 = V_23;
 		NullCheck(L_451);
 		ArrayElementTypeCheck (L_451, L_452);
 		(L_451)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)60)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_452);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:523>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_453;
 		L_453 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_454 = V_24;
 		NullCheck(L_453);
 		ArrayElementTypeCheck (L_453, L_454);
 		(L_453)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)61)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_454);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:524>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_455;
 		L_455 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_456 = V_21;
 		NullCheck(L_455);
 		ArrayElementTypeCheck (L_455, L_456);
 		(L_455)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)62)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_456);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:525>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_457;
 		L_457 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_458 = V_22;
 		NullCheck(L_457);
 		ArrayElementTypeCheck (L_457, L_458);
 		(L_457)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)63)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_458);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:526>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_459;
 		L_459 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_460 = V_73;
 		NullCheck(L_459);
 		ArrayElementTypeCheck (L_459, L_460);
 		(L_459)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)64)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_460);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:527>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_461;
 		L_461 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_462 = V_74;
 		NullCheck(L_461);
 		ArrayElementTypeCheck (L_461, L_462);
 		(L_461)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)65)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_462);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:528>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_463;
 		L_463 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_464 = V_75;
 		NullCheck(L_463);
 		ArrayElementTypeCheck (L_463, L_464);
 		(L_463)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)66)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_464);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:529>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_465;
 		L_465 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_466 = V_76;
 		NullCheck(L_465);
 		ArrayElementTypeCheck (L_465, L_466);
 		(L_465)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)67)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_466);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:530>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_467;
 		L_467 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_468 = V_77;
 		NullCheck(L_467);
 		ArrayElementTypeCheck (L_467, L_468);
 		(L_467)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)68)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_468);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:531>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_469;
 		L_469 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_470 = V_78;
 		NullCheck(L_469);
 		ArrayElementTypeCheck (L_469, L_470);
 		(L_469)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)69)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_470);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:532>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_471;
 		L_471 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_472 = V_79;
 		NullCheck(L_471);
 		ArrayElementTypeCheck (L_471, L_472);
 		(L_471)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)70)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_472);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:533>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_473;
 		L_473 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_474 = V_80;
 		NullCheck(L_473);
 		ArrayElementTypeCheck (L_473, L_474);
 		(L_473)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)71)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_474);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:534>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_475;
 		L_475 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_476 = V_81;
 		NullCheck(L_475);
 		ArrayElementTypeCheck (L_475, L_476);
 		(L_475)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)72)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_476);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:535>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_477;
 		L_477 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_478 = V_82;
 		NullCheck(L_477);
 		ArrayElementTypeCheck (L_477, L_478);
 		(L_477)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)73)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_478);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:536>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_479;
 		L_479 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_480 = V_83;
 		NullCheck(L_479);
 		ArrayElementTypeCheck (L_479, L_480);
 		(L_479)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)74)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_480);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:537>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_481;
 		L_481 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_482 = V_84;
 		NullCheck(L_481);
 		ArrayElementTypeCheck (L_481, L_482);
 		(L_481)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)75)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_482);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:538>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_483;
 		L_483 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_484 = V_85;
 		NullCheck(L_483);
 		ArrayElementTypeCheck (L_483, L_484);
 		(L_483)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)76)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_484);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:539>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_485;
 		L_485 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_486 = V_86;
 		NullCheck(L_485);
 		ArrayElementTypeCheck (L_485, L_486);
 		(L_485)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)77)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_486);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:540>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_487;
 		L_487 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_488 = V_87;
 		NullCheck(L_487);
 		ArrayElementTypeCheck (L_487, L_488);
 		(L_487)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)78)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_488);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:541>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_489;
 		L_489 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_490 = V_88;
 		NullCheck(L_489);
 		ArrayElementTypeCheck (L_489, L_490);
 		(L_489)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)79)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_490);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:542>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_491;
 		L_491 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_492 = V_89;
 		NullCheck(L_491);
 		ArrayElementTypeCheck (L_491, L_492);
 		(L_491)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)80)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_492);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:543>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_493;
 		L_493 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_494 = V_90;
 		NullCheck(L_493);
 		ArrayElementTypeCheck (L_493, L_494);
 		(L_493)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)81)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_494);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:544>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_495;
 		L_495 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_496 = V_91;
 		NullCheck(L_495);
 		ArrayElementTypeCheck (L_495, L_496);
 		(L_495)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)82)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_496);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:545>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_497;
 		L_497 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_498 = V_101;
 		NullCheck(L_497);
 		ArrayElementTypeCheck (L_497, L_498);
 		(L_497)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)83)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_498);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:546>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_499;
 		L_499 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_500 = V_92;
 		NullCheck(L_499);
 		ArrayElementTypeCheck (L_499, L_500);
 		(L_499)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)84)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_500);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:547>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_501;
 		L_501 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_502 = V_93;
 		NullCheck(L_501);
 		ArrayElementTypeCheck (L_501, L_502);
 		(L_501)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)85)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_502);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:548>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_503;
 		L_503 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_504 = V_94;
 		NullCheck(L_503);
 		ArrayElementTypeCheck (L_503, L_504);
 		(L_503)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)86)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_504);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:549>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_505;
 		L_505 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_506 = V_95;
 		NullCheck(L_505);
 		ArrayElementTypeCheck (L_505, L_506);
 		(L_505)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)87)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_506);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:550>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_507;
 		L_507 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_508 = V_96;
 		NullCheck(L_507);
 		ArrayElementTypeCheck (L_507, L_508);
 		(L_507)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)88)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_508);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:551>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_509;
 		L_509 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_510 = V_97;
 		NullCheck(L_509);
 		ArrayElementTypeCheck (L_509, L_510);
 		(L_509)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)89)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_510);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:552>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_511;
 		L_511 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_512 = V_98;
 		NullCheck(L_511);
 		ArrayElementTypeCheck (L_511, L_512);
 		(L_511)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)90)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_512);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:553>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_513;
 		L_513 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_514 = V_99;
 		NullCheck(L_513);
 		ArrayElementTypeCheck (L_513, L_514);
 		(L_513)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)91)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_514);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:554>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_515;
 		L_515 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_516 = V_100;
 		NullCheck(L_515);
 		ArrayElementTypeCheck (L_515, L_516);
 		(L_515)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)92)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_516);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:555>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_517;
 		L_517 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_518 = V_102;
 		NullCheck(L_517);
 		ArrayElementTypeCheck (L_517, L_518);
 		(L_517)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)93)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_518);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:556>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_519;
 		L_519 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_520 = V_103;
 		NullCheck(L_519);
 		ArrayElementTypeCheck (L_519, L_520);
 		(L_519)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)94)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_520);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:557>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_521;
 		L_521 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_522 = V_104;
 		NullCheck(L_521);
 		ArrayElementTypeCheck (L_521, L_522);
 		(L_521)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)95)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_522);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:558>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_523;
 		L_523 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_524 = V_105;
 		NullCheck(L_523);
 		ArrayElementTypeCheck (L_523, L_524);
 		(L_523)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)96)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_524);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:559>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_525;
 		L_525 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_526 = V_106;
 		NullCheck(L_525);
 		ArrayElementTypeCheck (L_525, L_526);
 		(L_525)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)97)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_526);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:560>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_527;
 		L_527 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_528 = V_107;
 		NullCheck(L_527);
 		ArrayElementTypeCheck (L_527, L_528);
 		(L_527)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)98)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_528);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:561>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_529;
 		L_529 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_530 = V_108;
 		NullCheck(L_529);
 		ArrayElementTypeCheck (L_529, L_530);
 		(L_529)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)99)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_530);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:562>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_531;
 		L_531 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_532 = V_109;
 		NullCheck(L_531);
 		ArrayElementTypeCheck (L_531, L_532);
 		(L_531)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)100)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_532);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:563>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_533;
 		L_533 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_534 = V_110;
 		NullCheck(L_533);
 		ArrayElementTypeCheck (L_533, L_534);
 		(L_533)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)101)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_534);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:564>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_535;
 		L_535 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_536 = V_111;
 		NullCheck(L_535);
 		ArrayElementTypeCheck (L_535, L_536);
 		(L_535)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)102)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_536);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:565>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_537;
 		L_537 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_538 = V_112;
 		NullCheck(L_537);
 		ArrayElementTypeCheck (L_537, L_538);
 		(L_537)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)103)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_538);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:566>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_539;
 		L_539 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_540 = V_113;
 		NullCheck(L_539);
 		ArrayElementTypeCheck (L_539, L_540);
 		(L_539)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)104)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_540);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:567>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_541;
 		L_541 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_542 = V_114;
 		NullCheck(L_541);
 		ArrayElementTypeCheck (L_541, L_542);
 		(L_541)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)105)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_542);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:568>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_543;
 		L_543 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_544 = V_115;
 		NullCheck(L_543);
 		ArrayElementTypeCheck (L_543, L_544);
 		(L_543)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)106)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_544);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:569>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_545;
 		L_545 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_546 = V_116;
 		NullCheck(L_545);
 		ArrayElementTypeCheck (L_545, L_546);
 		(L_545)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)107)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_546);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:570>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_547;
 		L_547 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_548 = V_117;
 		NullCheck(L_547);
 		ArrayElementTypeCheck (L_547, L_548);
 		(L_547)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)108)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_548);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:571>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_549;
 		L_549 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_550 = V_118;
 		NullCheck(L_549);
 		ArrayElementTypeCheck (L_549, L_550);
 		(L_549)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)109)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_550);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:572>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_551;
 		L_551 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_552 = V_135;
 		NullCheck(L_551);
 		ArrayElementTypeCheck (L_551, L_552);
 		(L_551)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)110)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_552);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:573>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_553;
 		L_553 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_554 = V_119;
 		NullCheck(L_553);
 		ArrayElementTypeCheck (L_553, L_554);
 		(L_553)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)111)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_554);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:574>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_555;
 		L_555 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_556 = V_120;
 		NullCheck(L_555);
 		ArrayElementTypeCheck (L_555, L_556);
 		(L_555)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)112)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_556);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:575>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_557;
 		L_557 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_558 = V_121;
 		NullCheck(L_557);
 		ArrayElementTypeCheck (L_557, L_558);
 		(L_557)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)113)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_558);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:576>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_559;
 		L_559 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_560 = V_122;
 		NullCheck(L_559);
 		ArrayElementTypeCheck (L_559, L_560);
 		(L_559)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)114)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_560);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:577>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_561;
 		L_561 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_562 = V_123;
 		NullCheck(L_561);
 		ArrayElementTypeCheck (L_561, L_562);
 		(L_561)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)115)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_562);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:578>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_563;
 		L_563 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_564 = V_124;
 		NullCheck(L_563);
 		ArrayElementTypeCheck (L_563, L_564);
 		(L_563)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)116)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_564);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:579>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_565;
 		L_565 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_566 = V_125;
 		NullCheck(L_565);
 		ArrayElementTypeCheck (L_565, L_566);
 		(L_565)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)117)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_566);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:580>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_567;
 		L_567 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_568 = V_126;
 		NullCheck(L_567);
 		ArrayElementTypeCheck (L_567, L_568);
 		(L_567)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)118)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_568);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:581>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_569;
 		L_569 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_570 = V_127;
 		NullCheck(L_569);
 		ArrayElementTypeCheck (L_569, L_570);
 		(L_569)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)119)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_570);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:582>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_571;
 		L_571 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_572 = V_128;
 		NullCheck(L_571);
 		ArrayElementTypeCheck (L_571, L_572);
 		(L_571)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)120)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_572);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:583>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_573;
 		L_573 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_574 = V_129;
 		NullCheck(L_573);
 		ArrayElementTypeCheck (L_573, L_574);
 		(L_573)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)121)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_574);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:584>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_575;
 		L_575 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_576 = V_130;
 		NullCheck(L_575);
 		ArrayElementTypeCheck (L_575, L_576);
 		(L_575)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)122)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_576);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:585>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_577;
 		L_577 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_578 = V_131;
 		NullCheck(L_577);
 		ArrayElementTypeCheck (L_577, L_578);
 		(L_577)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)123)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_578);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:586>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_579;
 		L_579 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_580 = V_132;
 		NullCheck(L_579);
 		ArrayElementTypeCheck (L_579, L_580);
 		(L_579)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)124)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_580);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:587>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_581;
 		L_581 = Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline(__this, NULL);
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_582 = V_133;
 		NullCheck(L_581);
 		ArrayElementTypeCheck (L_581, L_582);
 		(L_581)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)125)), (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)L_582);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:588>
 		AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14* L_583 = V_5;
 		Keyboard_set_anyKey_m0899947E20A7AE7619621838EEAD156DEC48E6A9_inline(__this, L_583, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:589>
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_584 = V_63;
 		Keyboard_set_shiftKey_m5EDBC8DA6545EF41CBBB5C34E9643424361D0131_inline(__this, L_584, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:590>
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_585 = V_69;
 		Keyboard_set_ctrlKey_m0ADFD4E0EF0DD87C1172A830F9974C57D2CB99AD_inline(__this, L_585, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:591>
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_586 = V_66;
 		Keyboard_set_altKey_m9E7D88FF8A887EAA4D0718029EE8ED5B91517359_inline(__this, L_586, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:592>
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_587 = V_134;
 		Keyboard_set_imeSelected_mE0660BE4C1EEB634D8FDBFA93E20D30C570FE651_inline(__this, L_587, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:595>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:596>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:597>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:598>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:599>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:600>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:601>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:602>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:603>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:604>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:605>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:606>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:607>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:608>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:609>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:610>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:611>
 		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_588 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)(UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)SZArrayNew(UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA_il2cpp_TypeInfo_var, (uint32_t)((int32_t)131));
 		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_589 = L_588;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_590 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tF62B85DD2C59D87BA6C8DA02965E1F3203A64E53____1745EBE5DFFCC4D567882C3B52CB4E10CEB57FBD5CA407931A64BD8DBE85630D_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_589, L_590, NULL);
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_591;
 		L_591 = DeviceBuilder_WithStateOffsetToControlIndexMap_m5C180F0BE65CD62017E4662DC59DB56677B5F39A_inline((&V_0), L_589, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:613>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:614>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:615>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:616>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:617>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:618>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:619>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:620>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:621>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:622>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:623>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:624>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:625>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:626>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:627>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:628>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:629>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:630>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:631>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:632>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:633>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:634>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:635>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:636>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:637>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:638>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:639>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:640>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:641>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:642>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:643>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:644>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:645>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:646>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:647>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:648>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:649>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:650>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:651>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:652>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:653>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:654>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:655>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:656>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:657>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:658>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:659>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:660>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:661>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:662>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:663>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:664>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:665>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:666>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:667>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:668>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:669>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:670>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:671>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:672>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:673>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:674>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:675>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:676>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:677>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:678>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:679>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:680>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:681>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:682>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:683>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:684>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:685>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_592 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1799));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_593 = L_592;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_594 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tF62B85DD2C59D87BA6C8DA02965E1F3203A64E53____7619441E4544473D511AB44A1F083EB52B0A196E9F36F980C7A82060AF644331_FieldInfo_var) };
@@ -3706,13 +3319,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FastKeyboard__ctor_m6F80B480E318C8B26CA2
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_596, L_597, NULL);
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_598;
 		L_598 = DeviceBuilder_WithControlTree_mF526DB544EB8F876A093A03119ED6AABD0642E2F_inline((&V_0), L_593, L_596, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:687>
 		DeviceBuilder_Finish_mA2C52B2A38B0618CAA4737DB610C65F385957F65_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:688>
 		return;
 	}
 }
-// Method Definition Index: 31590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14* FastKeyboard_Initialize_ctrlKeyboardanyKey_mA9F3B12351CA0D1B57599FEFF82FC5787489BC41 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kAnyKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3729,26 +3339,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:692>
 		AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14* L_0 = (AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14*)il2cpp_codegen_object_new(AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14_il2cpp_TypeInfo_var);
 		AnyKeyControl__ctor_mAFE1F38BFFB85D3DCBDB986878BBD1795341DD05(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:693>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:694>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:695>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:696>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:697>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:698>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:699>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:700>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:701>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:702>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:703>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:704>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:705>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:706>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:707>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:708>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:709>
 		AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -3797,11 +3389,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:710>
 		return L_1;
 	}
 }
-// Method Definition Index: 31591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardescape_m5E50F1A0667D9C29CDFBA27457125C9B5553B2F9 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3818,26 +3408,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:715>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:716>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:717>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:718>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:719>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:720>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:721>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:722>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:723>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:724>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:725>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:726>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:727>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:728>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:729>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:730>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:731>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:732>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -3886,15 +3458,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:733>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_18 = L_1;
 		NullCheck(L_18);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_18, ((int32_t)60), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:734>
 		return L_18;
 	}
 }
-// Method Definition Index: 31592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardspace_m8E9F1A91000906C6FE460967B855C54B3B80722D (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3911,25 +3480,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:739>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:740>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:741>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:742>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:743>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:744>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:745>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:746>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:747>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:748>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:749>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:750>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:751>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:752>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:753>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:754>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:755>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -3975,15 +3527,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:756>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, 1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:757>
 		return L_17;
 	}
 }
-// Method Definition Index: 31593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardenter_m4F14DA8FBDB16EF44D8D181FBA74AD4C21CE8118 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4000,26 +3549,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:762>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:763>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:764>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:765>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:766>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:767>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:768>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:769>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:770>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:771>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:772>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:773>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:774>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:775>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:776>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:777>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:778>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:779>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -4068,15 +3599,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:780>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_18 = L_1;
 		NullCheck(L_18);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_18, 2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:781>
 		return L_18;
 	}
 }
-// Method Definition Index: 31594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardtab_m2F7A71730043684000C1C79B2D1CCB50807171C6 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4093,25 +3621,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:786>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:787>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:788>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:789>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:790>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:791>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:792>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:793>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:794>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:795>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:796>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:797>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:798>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:799>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:800>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:801>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:802>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -4157,15 +3668,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:803>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, 3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:804>
 		return L_17;
 	}
 }
-// Method Definition Index: 31595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardbackquote_m9E7CA97B0855C3737E095A82D84F771131AE2C66 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4182,25 +3690,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:809>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:810>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:811>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:812>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:813>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:814>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:815>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:816>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:817>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:818>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:819>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:820>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:821>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:822>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:823>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:824>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:825>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -4246,15 +3737,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:826>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, 4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:827>
 		return L_17;
 	}
 }
-// Method Definition Index: 31596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardquote_m2CD2BC91D9E741BA3BC79574B41C66A5D73CCC2B (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4271,25 +3759,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:832>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:833>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:834>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:835>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:836>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:837>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:838>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:839>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:840>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:841>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:842>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:843>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:844>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:845>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:846>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:847>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:848>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -4335,15 +3806,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:849>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, 5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:850>
 		return L_17;
 	}
 }
-// Method Definition Index: 31597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardsemicolon_m7A70BD84F2498C3379D3C9077A4EC033A4EEEC22 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4360,25 +3828,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:855>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:856>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:857>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:858>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:859>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:860>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:861>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:862>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:863>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:864>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:865>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:866>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:867>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:868>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:869>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:870>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:871>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -4424,15 +3875,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:872>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, 6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:873>
 		return L_17;
 	}
 }
-// Method Definition Index: 31598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardcomma_m925E827058E1D7E743329114B9ADC935ECFC1DD3 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4449,25 +3897,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:878>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:879>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:880>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:881>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:882>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:883>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:884>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:885>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:886>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:887>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:888>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:889>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:890>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:891>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:892>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:893>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:894>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -4513,15 +3944,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:895>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, 7, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:896>
 		return L_17;
 	}
 }
-// Method Definition Index: 31599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardperiod_mA9A4A699F0912EBADA1FCCAD7896C850765AC0EE (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4538,25 +3966,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:901>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:902>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:903>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:904>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:905>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:906>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:907>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:908>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:909>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:910>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:911>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:912>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:913>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:914>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:915>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:916>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:917>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -4602,15 +4013,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:918>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, 8, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:919>
 		return L_17;
 	}
 }
-// Method Definition Index: 31600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardslash_m9B1ECD90E13A9CAFD7C11142C8B0723962E1B8AD (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4627,25 +4035,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:924>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:925>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:926>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:927>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:928>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:929>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:930>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:931>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:932>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:933>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:934>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:935>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:936>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:937>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:938>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:939>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:940>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -4691,15 +4082,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:941>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)9), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:942>
 		return L_17;
 	}
 }
-// Method Definition Index: 31601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardbackslash_m066D85EB65BC9C641887B2B7787DF9C4CB748D0C (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4716,25 +4104,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:947>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:948>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:949>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:950>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:951>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:952>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:953>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:954>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:955>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:956>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:957>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:958>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:959>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:960>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:961>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:962>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:963>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -4780,15 +4151,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:964>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)10), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:965>
 		return L_17;
 	}
 }
-// Method Definition Index: 31602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardleftBracket_m6883CEE4B8E44F68C59A9FB4AB762DC4EA9FF3CE (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4805,25 +4173,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:970>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:971>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:972>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:973>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:974>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:975>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:976>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:977>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:978>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:979>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:980>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:981>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:982>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:983>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:984>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:985>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:986>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -4869,15 +4220,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:987>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)11), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:988>
 		return L_17;
 	}
 }
-// Method Definition Index: 31603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardrightBracket_mC574E33AB72E57FF24AF05D5F6A7153D0A4F9690 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4894,25 +4242,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:993>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:994>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:995>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:996>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:997>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:998>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:999>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1000>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1001>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1002>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1003>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1004>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1005>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1006>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1007>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1008>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1009>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -4958,15 +4289,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1010>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)12), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1011>
 		return L_17;
 	}
 }
-// Method Definition Index: 31604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardminus_mA53B51FAD96DC5924EE8021A285C1A180CA9CB93 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4983,25 +4311,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1016>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1017>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1018>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1019>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1020>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1021>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1022>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1023>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1024>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1025>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1026>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1027>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1028>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1029>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1030>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1031>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1032>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -5047,15 +4358,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1033>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)13), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1034>
 		return L_17;
 	}
 }
-// Method Definition Index: 31605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardequals_mB3C1B9BC34E758AEE51D51F56B03AD2193DE6E70 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5072,25 +4380,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1039>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1040>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1041>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1042>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1043>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1044>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1045>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1046>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1047>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1048>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1049>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1050>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1051>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1052>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1053>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1054>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1055>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -5136,15 +4427,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1056>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)14), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1057>
 		return L_17;
 	}
 }
-// Method Definition Index: 31606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardupArrow_m1EE5D649753D3A89EA32B1EB8E93CFA268F53A2B (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5161,25 +4449,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1062>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1063>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1064>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1065>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1066>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1067>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1068>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1069>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1070>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1071>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1072>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1073>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1074>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1075>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1076>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1077>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1078>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -5225,15 +4496,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1079>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)63), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1080>
 		return L_17;
 	}
 }
-// Method Definition Index: 31607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboarddownArrow_m2734D9A9A7C2E6E227F999B38B7D19775576D98E (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5250,25 +4518,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1085>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1086>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1087>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1088>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1089>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1090>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1091>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1092>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1093>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1094>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1095>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1096>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1097>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1098>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1099>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1100>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1101>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -5314,15 +4565,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1102>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)64), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1103>
 		return L_17;
 	}
 }
-// Method Definition Index: 31608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardleftArrow_m14669E2E2A396CA49856CA0326D89C178ECFABCB (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5339,25 +4587,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1108>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1109>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1110>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1111>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1112>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1113>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1114>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1115>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1116>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1117>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1118>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1119>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1120>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1121>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1122>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1123>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1124>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -5403,15 +4634,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1125>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)61), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1126>
 		return L_17;
 	}
 }
-// Method Definition Index: 31609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardrightArrow_mD78D624F19092393A528C404C5D1E2CE77E26EE2 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5428,25 +4656,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1131>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1132>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1133>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1134>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1135>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1136>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1137>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1138>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1139>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1140>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1141>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1142>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1143>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1144>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1145>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1146>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1147>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -5492,15 +4703,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1148>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)62), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1149>
 		return L_17;
 	}
 }
-// Method Definition Index: 31610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboarda_m6BE97A5294EB0EFA3CAAFDCD7BCAE2404C9CD557 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5517,25 +4725,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1154>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1155>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1156>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1157>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1158>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1159>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1160>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1161>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1162>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1163>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1164>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1165>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1166>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1167>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1168>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1169>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1170>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -5581,15 +4772,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1171>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)15), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1172>
 		return L_17;
 	}
 }
-// Method Definition Index: 31611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardb_m21BBCD21F4AE65AAAF5DAC4F84EC92F4356BBE5B (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5606,25 +4794,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1177>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1178>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1179>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1180>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1181>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1182>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1183>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1184>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1185>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1186>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1187>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1188>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1189>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1190>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1191>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1192>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1193>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -5670,15 +4841,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1194>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)16), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1195>
 		return L_17;
 	}
 }
-// Method Definition Index: 31612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardc_m1E9AF3782E1CC183F0AF965555AC0DCC49C6360D (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5695,25 +4863,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1200>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1201>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1202>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1203>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1204>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1205>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1206>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1207>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1208>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1209>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1210>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1211>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1212>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1213>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1214>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1215>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1216>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -5759,15 +4910,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1217>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)17), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1218>
 		return L_17;
 	}
 }
-// Method Definition Index: 31613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardd_mC25AE965F4D5B9B30F7CDCA79FE87D4C99BAC32C (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5784,25 +4932,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1223>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1224>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1225>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1226>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1227>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1228>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1229>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1230>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1231>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1232>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1233>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1234>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1235>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1236>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1237>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1238>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1239>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -5848,15 +4979,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1240>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)18), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1241>
 		return L_17;
 	}
 }
-// Method Definition Index: 31614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboarde_mF7898CFE0DEF370F30782EFF5CCDF3439B96100C (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5873,25 +5001,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1246>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1247>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1248>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1249>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1250>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1251>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1252>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1253>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1254>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1255>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1256>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1257>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1258>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1259>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1260>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1261>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1262>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -5937,15 +5048,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1263>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)19), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1264>
 		return L_17;
 	}
 }
-// Method Definition Index: 31615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf_m13EB5B7FA4F04F8050F398C809E4C1AF6F284E75 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5962,25 +5070,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1269>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1270>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1271>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1272>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1273>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1274>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1275>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1276>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1277>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1278>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1279>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1280>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1281>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1282>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1283>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1284>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1285>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6026,15 +5117,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1286>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)20), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1287>
 		return L_17;
 	}
 }
-// Method Definition Index: 31616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardg_m3E7A6E6BADCC8879D343A6535141D53DC24ED71B (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6051,25 +5139,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1292>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1293>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1294>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1295>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1296>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1297>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1298>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1299>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1300>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1301>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1302>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1303>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1304>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1305>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1306>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1307>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1308>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6115,15 +5186,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1309>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)21), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1310>
 		return L_17;
 	}
 }
-// Method Definition Index: 31617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardh_m1A395246155CEB8E3E252FCC78426C4157FB050C (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6140,25 +5208,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1315>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1316>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1317>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1318>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1319>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1320>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1321>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1322>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1323>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1324>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1325>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1326>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1327>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1328>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1329>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1330>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1331>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6204,15 +5255,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1332>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)22), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1333>
 		return L_17;
 	}
 }
-// Method Definition Index: 31618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardi_m63E0537E5B15E346FA5D9210001A903D531B083E (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6229,25 +5277,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1338>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1339>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1340>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1341>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1342>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1343>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1344>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1345>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1346>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1347>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1348>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1349>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1350>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1351>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1352>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1353>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1354>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6293,15 +5324,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1355>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)23), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1356>
 		return L_17;
 	}
 }
-// Method Definition Index: 31619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardj_m434F261ACBD3920F4599825814C6AA80ECACA35C (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6318,25 +5346,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1361>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1362>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1363>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1364>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1365>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1366>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1367>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1368>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1369>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1370>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1371>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1372>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1373>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1374>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1375>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1376>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1377>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6382,15 +5393,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1378>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)24), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1379>
 		return L_17;
 	}
 }
-// Method Definition Index: 31620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardk_m0E8D5123177B1654E66F5B2C84037F1CD1846331 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6407,25 +5415,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1384>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1385>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1386>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1387>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1388>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1389>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1390>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1391>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1392>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1393>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1394>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1395>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1396>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1397>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1398>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1399>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1400>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6471,15 +5462,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1401>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)25), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1402>
 		return L_17;
 	}
 }
-// Method Definition Index: 31621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardl_m0D98753CF551E205D590611A2002F82D94EED7E2 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6496,25 +5484,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1407>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1408>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1409>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1410>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1411>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1412>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1413>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1414>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1415>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1416>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1417>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1418>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1419>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1420>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1421>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1422>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1423>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6560,15 +5531,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1424>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)26), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1425>
 		return L_17;
 	}
 }
-// Method Definition Index: 31622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardm_mCA30A11971424C5022F5B620879991C6D64452EA (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6585,25 +5553,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1430>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1431>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1432>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1433>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1434>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1435>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1436>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1437>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1438>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1439>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1440>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1441>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1442>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1443>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1444>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1445>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1446>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6649,15 +5600,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1447>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)27), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1448>
 		return L_17;
 	}
 }
-// Method Definition Index: 31623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardn_m31A589CF5FF6BB201FAB53C20ACA220B9D58654C (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6674,25 +5622,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1453>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1454>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1455>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1456>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1457>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1458>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1459>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1460>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1461>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1462>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1463>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1464>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1465>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1466>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1467>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1468>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1469>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6738,15 +5669,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1470>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)28), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1471>
 		return L_17;
 	}
 }
-// Method Definition Index: 31624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardo_mD690AB733F442903A6C881A0C3018641214D7DB3 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6763,25 +5691,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1476>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1477>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1478>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1479>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1480>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1481>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1482>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1483>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1484>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1485>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1486>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1487>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1488>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1489>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1490>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1491>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1492>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6827,15 +5738,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1493>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)29), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1494>
 		return L_17;
 	}
 }
-// Method Definition Index: 31625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardp_m95EB08CD1C9C710DF3D383C4E4F6A4BF0E802B5E (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6852,25 +5760,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1499>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1500>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1501>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1502>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1503>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1504>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1505>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1506>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1507>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1508>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1509>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1510>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1511>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1512>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1513>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1514>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1515>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -6916,15 +5807,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1516>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)30), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1517>
 		return L_17;
 	}
 }
-// Method Definition Index: 31626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardq_m180737ED5824AA5A64EA30650E0BE586AC3F1329 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6941,25 +5829,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1522>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1523>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1524>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1525>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1526>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1527>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1528>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1529>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1530>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1531>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1532>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1533>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1534>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1535>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1536>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1537>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1538>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7005,15 +5876,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1539>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)31), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1540>
 		return L_17;
 	}
 }
-// Method Definition Index: 31627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardr_m39AF23E41EB3DF305757ABA70F08E33CA547F786 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7030,25 +5898,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1545>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1546>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1547>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1548>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1549>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1550>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1551>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1552>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1553>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1554>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1555>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1556>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1557>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1558>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1559>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1560>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1561>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7094,15 +5945,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1562>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)32), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1563>
 		return L_17;
 	}
 }
-// Method Definition Index: 31628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboards_m2CC333F9A3D8001CBCAA30BFC398F944004CAB47 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7119,25 +5967,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1568>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1569>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1570>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1571>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1572>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1573>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1574>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1575>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1576>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1577>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1578>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1579>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1580>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1581>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1582>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1583>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1584>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7183,15 +6014,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1585>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)33), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1586>
 		return L_17;
 	}
 }
-// Method Definition Index: 31629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardt_mD3BE40E00C75538E0BBFC99C736140E18A6C1C80 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7208,25 +6036,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1591>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1592>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1593>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1594>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1595>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1596>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1597>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1598>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1599>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1600>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1601>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1602>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1603>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1604>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1605>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1606>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1607>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7272,15 +6083,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1608>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)34), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1609>
 		return L_17;
 	}
 }
-// Method Definition Index: 31630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardu_m4346350CFCD7B3F4D88DF06A979194EF9A9425C6 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7297,25 +6105,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1614>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1615>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1616>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1617>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1618>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1619>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1620>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1621>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1622>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1623>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1624>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1625>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1626>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1627>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1628>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1629>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1630>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7361,15 +6152,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1631>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)35), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1632>
 		return L_17;
 	}
 }
-// Method Definition Index: 31631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardv_mC23456551D23792AB9B38271E7BDB0D0797B96C9 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7386,25 +6174,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1637>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1638>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1639>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1640>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1641>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1642>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1643>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1644>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1645>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1646>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1647>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1648>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1649>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1650>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1651>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1652>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1653>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7450,15 +6221,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1654>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)36), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1655>
 		return L_17;
 	}
 }
-// Method Definition Index: 31632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardw_m46184E662B43C2F47A17F122EB05B205BA2BD79B (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7475,25 +6243,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1660>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1661>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1662>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1663>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1664>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1665>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1666>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1667>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1668>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1669>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1670>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1671>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1672>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1673>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1674>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1675>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1676>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7539,15 +6290,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1677>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)37), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1678>
 		return L_17;
 	}
 }
-// Method Definition Index: 31633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardx_m91A5577425E136D306A2ACDF0E0CCF80089D4B01 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7564,25 +6312,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1683>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1684>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1685>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1686>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1687>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1688>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1689>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1690>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1691>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1692>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1693>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1694>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1695>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1696>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1697>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1698>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1699>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7628,15 +6359,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1700>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)38), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1701>
 		return L_17;
 	}
 }
-// Method Definition Index: 31634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardy_mB29606EF7494AB7A2B4DE396B47C2B2C317B65FA (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7653,25 +6381,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1706>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1707>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1708>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1709>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1710>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1711>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1712>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1713>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1714>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1715>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1716>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1717>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1718>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1719>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1720>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1721>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1722>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7717,15 +6428,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1723>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)39), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1724>
 		return L_17;
 	}
 }
-// Method Definition Index: 31635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardz_m98D15DCD21BD6EBAE78E126CB8350A4AE20321CF (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7742,25 +6450,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1729>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1730>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1731>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1732>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1733>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1734>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1735>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1736>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1737>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1738>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1739>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1740>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1741>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1742>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1743>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1744>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1745>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7806,15 +6497,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1746>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)40), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1747>
 		return L_17;
 	}
 }
-// Method Definition Index: 31636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboard1_m11B29F949785664265BEBB8FFC2761E9C52AE742 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7830,25 +6518,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1752>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1753>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1754>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1755>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1756>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1757>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1758>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1759>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1760>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1761>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1762>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1763>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1764>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1765>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1766>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1767>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1768>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7894,15 +6565,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1769>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)41), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1770>
 		return L_17;
 	}
 }
-// Method Definition Index: 31637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboard2_m711AE810D56EBEA6F3588126EEE7CE87CEFAD420 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7918,25 +6586,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1775>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1776>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1777>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1778>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1779>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1780>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1781>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1782>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1783>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1784>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1785>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1786>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1787>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1788>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1789>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1790>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1791>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -7982,15 +6633,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1792>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)42), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1793>
 		return L_17;
 	}
 }
-// Method Definition Index: 31638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboard3_m0CB12774E09B5B7DCDFE46011154BBB378EEB180 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8006,25 +6654,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1798>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1799>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1800>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1801>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1802>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1803>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1804>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1805>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1806>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1807>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1808>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1809>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1810>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1811>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1812>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1813>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1814>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8070,15 +6701,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1815>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)43), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1816>
 		return L_17;
 	}
 }
-// Method Definition Index: 31639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboard4_m12145A7DED21E2619ED08D4EF62C16F94CCFB0F3 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8094,25 +6722,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1821>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1822>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1823>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1824>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1825>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1826>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1827>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1828>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1829>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1830>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1831>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1832>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1833>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1834>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1835>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1836>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1837>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8158,15 +6769,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1838>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)44), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1839>
 		return L_17;
 	}
 }
-// Method Definition Index: 31640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboard5_mCA146FE2079618FA336B63DD94F0E544EEDAF944 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8182,25 +6790,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1844>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1845>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1846>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1847>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1848>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1849>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1850>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1851>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1852>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1853>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1854>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1855>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1856>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1857>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1858>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1859>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1860>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8246,15 +6837,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1861>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)45), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1862>
 		return L_17;
 	}
 }
-// Method Definition Index: 31641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboard6_m8424BA8A0B6C2514F62AF2048CC044EAF299C0BA (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8270,25 +6858,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1867>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1868>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1869>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1870>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1871>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1872>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1873>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1874>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1875>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1876>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1877>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1878>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1879>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1880>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1881>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1882>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1883>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8334,15 +6905,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1884>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)46), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1885>
 		return L_17;
 	}
 }
-// Method Definition Index: 31642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboard7_mB208281402E16B4AEE104BA8F3846CEE62059B65 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8358,25 +6926,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1890>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1891>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1892>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1893>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1894>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1895>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1896>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1897>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1898>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1899>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1900>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1901>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1902>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1903>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1904>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1905>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1906>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8422,15 +6973,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1907>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)47), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1908>
 		return L_17;
 	}
 }
-// Method Definition Index: 31643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboard8_mDB78A7F564962E440089B66A06FAB24F87AB0C91 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8446,25 +6994,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1913>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1914>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1915>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1916>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1917>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1918>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1919>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1920>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1921>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1922>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1923>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1924>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1925>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1926>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1927>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1928>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1929>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8510,15 +7041,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1930>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)48), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1931>
 		return L_17;
 	}
 }
-// Method Definition Index: 31644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboard9_m6500F55EC8F085F9FC1836D2FA4F028899C8FE05 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8534,25 +7062,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1936>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1937>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1938>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1939>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1940>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1941>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1942>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1943>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1944>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1945>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1946>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1947>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1948>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1949>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1950>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1951>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1952>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8598,15 +7109,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1953>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)49), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1954>
 		return L_17;
 	}
 }
-// Method Definition Index: 31645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboard0_m197315D863629E6CA84C0A5EA38EA186486F28FB (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8622,25 +7130,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1959>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1960>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1961>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1962>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1963>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1964>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1965>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1966>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1967>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1968>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1969>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1970>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1971>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1972>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1973>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1974>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1975>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8686,15 +7177,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1976>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)50), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1977>
 		return L_17;
 	}
 }
-// Method Definition Index: 31646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardleftShift_mD1418732F4F28C89F4676A429057615147FCF98C (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8711,26 +7199,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1982>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1983>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1984>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1985>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1986>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1987>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1988>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1989>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1990>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1991>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1992>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1993>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1994>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1995>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1996>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1997>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1998>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:1999>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8779,15 +7249,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2000>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_18 = L_1;
 		NullCheck(L_18);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_18, ((int32_t)51), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2001>
 		return L_18;
 	}
 }
-// Method Definition Index: 31647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardrightShift_m01FE27420BAB023CBF3B3C1E41918BAA484C7959 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8804,26 +7271,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2006>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2007>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2008>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2009>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2010>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2011>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2012>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2013>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2014>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2015>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2016>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2017>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2018>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2019>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2020>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2021>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2022>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2023>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -8872,15 +7321,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2024>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_18 = L_1;
 		NullCheck(L_18);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_18, ((int32_t)52), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2025>
 		return L_18;
 	}
 }
-// Method Definition Index: 31648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* FastKeyboard_Initialize_ctrlKeyboardshift_mF6E94F3328055FC07659F062D7432032EBA37109 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDiscreteButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8897,7 +7343,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiscreteButtonControl_t3F3349EABF0E553E7E451E
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2030>
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_0 = (DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C*)il2cpp_codegen_object_new(DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C_il2cpp_TypeInfo_var);
 		DiscreteButtonControl__ctor_mC27C8EF4847496114A491CC16705B97F6CFA2056(L_0, NULL);
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_1 = L_0;
@@ -8909,24 +7354,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiscreteButtonControl_t3F3349EABF0E553E7E451E
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___writeMode = 1;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2031>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2032>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2033>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2034>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2035>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2036>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2037>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2038>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2039>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2040>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2041>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2042>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2043>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2044>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2045>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2046>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2047>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2048>
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -8978,11 +7405,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiscreteButtonControl_t3F3349EABF0E553E7E451E
 		L_21 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_19, L_20, NULL);
 		V_0 = L_21;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2049>
 		return L_4;
 	}
 }
-// Method Definition Index: 31649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardleftAlt_m61D7E13A6F98FB0BDB9D056F7E4C97938060AF46 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8999,26 +7424,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2054>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2055>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2056>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2057>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2058>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2059>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2060>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2061>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2062>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2063>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2064>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2065>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2066>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2067>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2068>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2069>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2070>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2071>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9067,15 +7474,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2072>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_18 = L_1;
 		NullCheck(L_18);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_18, ((int32_t)53), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2073>
 		return L_18;
 	}
 }
-// Method Definition Index: 31650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardrightAlt_mEDFFC459C2FB0DF45E9C8737AEDFE6A40597BF7C (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9092,27 +7496,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2078>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2079>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2080>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2081>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2082>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2083>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2084>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2085>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2086>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2087>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2088>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2089>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2090>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2091>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2092>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2093>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2094>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2095>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2096>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9164,15 +7549,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2097>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_19 = L_1;
 		NullCheck(L_19);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_19, ((int32_t)54), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2098>
 		return L_19;
 	}
 }
-// Method Definition Index: 31651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* FastKeyboard_Initialize_ctrlKeyboardalt_mD05DC8F0A4E944E82E37B7FD039333F4DF58E09E (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDiscreteButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9189,7 +7571,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiscreteButtonControl_t3F3349EABF0E553E7E451E
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2103>
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_0 = (DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C*)il2cpp_codegen_object_new(DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C_il2cpp_TypeInfo_var);
 		DiscreteButtonControl__ctor_mC27C8EF4847496114A491CC16705B97F6CFA2056(L_0, NULL);
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_1 = L_0;
@@ -9201,24 +7582,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiscreteButtonControl_t3F3349EABF0E553E7E451E
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___writeMode = 1;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2104>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2105>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2106>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2107>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2108>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2109>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2110>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2111>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2112>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2113>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2114>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2115>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2116>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2117>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2118>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2119>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2120>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2121>
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -9270,11 +7633,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiscreteButtonControl_t3F3349EABF0E553E7E451E
 		L_21 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_19, L_20, NULL);
 		V_0 = L_21;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2122>
 		return L_4;
 	}
 }
-// Method Definition Index: 31652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardleftCtrl_m9888650A9A499A0B9C5D1320775199FB2F2FDD91 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9291,26 +7652,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2127>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2128>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2129>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2130>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2131>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2132>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2133>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2134>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2135>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2136>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2137>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2138>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2139>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2140>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2141>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2142>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2143>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2144>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9359,15 +7702,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2145>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_18 = L_1;
 		NullCheck(L_18);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_18, ((int32_t)55), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2146>
 		return L_18;
 	}
 }
-// Method Definition Index: 31653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardrightCtrl_mF3A4DF1E74E9EBA7F3A01E59DDA4D7F631C107B9 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9384,26 +7724,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2151>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2152>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2153>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2154>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2155>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2156>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2157>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2158>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2159>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2160>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2161>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2162>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2163>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2164>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2165>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2166>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2167>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2168>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9452,15 +7774,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2169>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_18 = L_1;
 		NullCheck(L_18);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_18, ((int32_t)56), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2170>
 		return L_18;
 	}
 }
-// Method Definition Index: 31654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* FastKeyboard_Initialize_ctrlKeyboardctrl_mEDD76EF2D931AD7433739D336F18B57A824482A3 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kDiscreteButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9477,7 +7796,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiscreteButtonControl_t3F3349EABF0E553E7E451E
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2175>
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_0 = (DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C*)il2cpp_codegen_object_new(DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C_il2cpp_TypeInfo_var);
 		DiscreteButtonControl__ctor_mC27C8EF4847496114A491CC16705B97F6CFA2056(L_0, NULL);
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_1 = L_0;
@@ -9489,24 +7807,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiscreteButtonControl_t3F3349EABF0E553E7E451E
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_3 = L_2;
 		NullCheck(L_3);
 		L_3->___writeMode = 1;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2176>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2177>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2178>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2179>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2180>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2181>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2182>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2183>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2184>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2185>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2186>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2187>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2188>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2189>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2190>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2191>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2192>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2193>
 		DiscreteButtonControl_t3F3349EABF0E553E7E451EF43441B8EAF105813C* L_4 = L_3;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_5;
 		L_5 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_4, NULL);
@@ -9558,11 +7858,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DiscreteButtonControl_t3F3349EABF0E553E7E451E
 		L_21 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_19, L_20, NULL);
 		V_0 = L_21;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2194>
 		return L_4;
 	}
 }
-// Method Definition Index: 31655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardleftMeta_m7EE2593BC9817C3C4D6D4EED580B9A8E8AFBA63B (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9579,27 +7877,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2199>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2200>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2201>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2202>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2203>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2204>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2205>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2206>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2207>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2208>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2209>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2210>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2211>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2212>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2213>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2214>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2215>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2216>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2217>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9651,15 +7930,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2218>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_19 = L_1;
 		NullCheck(L_19);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_19, ((int32_t)57), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2219>
 		return L_19;
 	}
 }
-// Method Definition Index: 31656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardrightMeta_mBB0153758E5ABF0D58BD937FB0AC143CF116EBCF (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9676,27 +7952,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2224>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2225>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2226>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2227>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2228>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2229>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2230>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2231>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2232>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2233>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2234>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2235>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2236>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2237>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2238>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2239>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2240>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2241>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2242>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9748,15 +8005,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_18 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_16, L_17, NULL);
 		V_0 = L_18;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2243>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_19 = L_1;
 		NullCheck(L_19);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_19, ((int32_t)58), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2244>
 		return L_19;
 	}
 }
-// Method Definition Index: 31657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardcontextMenu_m0ABD27FBCA4B4CBD7131FD10B65FC22C8A1E0728 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9773,26 +8027,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2249>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2250>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2251>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2252>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2253>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2254>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2255>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2256>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2257>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2258>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2259>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2260>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2261>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2262>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2263>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2264>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2265>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2266>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9841,15 +8077,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2267>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_18 = L_1;
 		NullCheck(L_18);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_18, ((int32_t)59), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2268>
 		return L_18;
 	}
 }
-// Method Definition Index: 31658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardbackspace_m58A28952812F6263D81A74697A0444B29236CE03 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9866,25 +8099,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2273>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2274>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2275>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2276>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2277>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2278>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2279>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2280>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2281>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2282>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2283>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2284>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2285>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2286>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2287>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2288>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2289>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -9930,15 +8146,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2290>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)65), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2291>
 		return L_17;
 	}
 }
-// Method Definition Index: 31659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardpageDown_mC349FAA02E76CA3FBBB6D37D3BE294E0107FEBC6 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9955,25 +8168,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2296>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2297>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2298>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2299>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2300>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2301>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2302>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2303>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2304>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2305>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2306>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2307>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2308>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2309>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2310>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2311>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2312>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10019,15 +8215,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2313>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)66), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2314>
 		return L_17;
 	}
 }
-// Method Definition Index: 31660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardpageUp_mC772095C4641AC118F9F9DE53054562F79141A40 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10044,25 +8237,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2319>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2320>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2321>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2322>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2323>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2324>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2325>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2326>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2327>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2328>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2329>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2330>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2331>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2332>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2333>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2334>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2335>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10108,15 +8284,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2336>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)67), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2337>
 		return L_17;
 	}
 }
-// Method Definition Index: 31661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardhome_mC730E90F117158FF27131D33D218790BA08E9488 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10133,25 +8306,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2342>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2343>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2344>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2345>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2346>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2347>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2348>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2349>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2350>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2351>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2352>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2353>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2354>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2355>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2356>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2357>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2358>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10197,15 +8353,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2359>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)68), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2360>
 		return L_17;
 	}
 }
-// Method Definition Index: 31662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardend_mB6FFD7B6E1F2AE10C35D27569A6AB09F0B65FD84 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10222,25 +8375,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2365>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2366>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2367>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2368>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2369>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2370>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2371>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2372>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2373>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2374>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2375>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2376>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2377>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2378>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2379>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2380>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2381>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10286,15 +8422,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2382>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)69), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2383>
 		return L_17;
 	}
 }
-// Method Definition Index: 31663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardinsert_mD91B56AECA31C43767288BDA7DD23DFFFAD2643E (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10311,25 +8444,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2388>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2389>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2390>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2391>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2392>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2393>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2394>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2395>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2396>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2397>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2398>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2399>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2400>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2401>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2402>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2403>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2404>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10375,15 +8491,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2405>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)70), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2406>
 		return L_17;
 	}
 }
-// Method Definition Index: 31664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboarddelete_m819117F248C52DEF805A29E0E858172B485ABC70 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10400,25 +8513,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2411>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2412>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2413>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2414>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2415>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2416>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2417>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2418>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2419>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2420>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2421>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2422>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2423>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2424>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2425>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2426>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2427>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10464,15 +8560,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2428>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)71), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2429>
 		return L_17;
 	}
 }
-// Method Definition Index: 31665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardcapsLock_m167BE5602211D0F41074B1C33E79D574A6E13925 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10489,25 +8582,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2434>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2435>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2436>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2437>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2438>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2439>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2440>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2441>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2442>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2443>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2444>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2445>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2446>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2447>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2448>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2449>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2450>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10553,15 +8629,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2451>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)72), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2452>
 		return L_17;
 	}
 }
-// Method Definition Index: 31666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumLock_m1FCEA3742C107DB129918534CBD7BEC78854046B (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10578,25 +8651,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2457>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2458>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2459>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2460>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2461>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2462>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2463>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2464>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2465>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2466>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2467>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2468>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2469>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2470>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2471>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2472>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2473>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10642,15 +8698,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2474>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)73), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2475>
 		return L_17;
 	}
 }
-// Method Definition Index: 31667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardprintScreen_m83DF85EDAFA58A943E4C99E843806B6012C01261 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10667,25 +8720,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2480>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2481>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2482>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2483>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2484>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2485>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2486>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2487>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2488>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2489>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2490>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2491>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2492>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2493>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2494>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2495>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2496>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10731,15 +8767,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2497>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)74), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2498>
 		return L_17;
 	}
 }
-// Method Definition Index: 31668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardscrollLock_m542EF8E8CF7428E504C6135CDC543A5660F5188B (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10756,25 +8789,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2503>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2504>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2505>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2506>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2507>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2508>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2509>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2510>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2511>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2512>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2513>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2514>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2515>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2516>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2517>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2518>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2519>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10820,15 +8836,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2520>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)75), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2521>
 		return L_17;
 	}
 }
-// Method Definition Index: 31669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardpause_m2F76B984D0681E4B78E27FAE675AD4C8F10E4560 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10845,25 +8858,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2526>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2527>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2528>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2529>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2530>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2531>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2532>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2533>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2534>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2535>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2536>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2537>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2538>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2539>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2540>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2541>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2542>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10909,15 +8905,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2543>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)76), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2544>
 		return L_17;
 	}
 }
-// Method Definition Index: 31670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpadEnter_m4E63592CFB6A2D2146E38B5D04BEEDB324CFDEAA (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10934,25 +8927,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2549>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2550>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2551>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2552>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2553>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2554>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2555>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2556>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2557>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2558>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2559>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2560>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2561>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2562>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2563>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2564>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2565>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -10998,15 +8974,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2566>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)77), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2567>
 		return L_17;
 	}
 }
-// Method Definition Index: 31671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpadDivide_m5EDC65E26B7746216AC72CCCB3838AF235F51DC8 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11023,25 +8996,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2572>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2573>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2574>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2575>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2576>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2577>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2578>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2579>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2580>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2581>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2582>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2583>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2584>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2585>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2586>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2587>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2588>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11087,15 +9043,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2589>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)78), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2590>
 		return L_17;
 	}
 }
-// Method Definition Index: 31672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpadMultiply_mA1379D492A7ED5A0E7744FDD7D87D55BF204D4E2 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11112,25 +9065,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2595>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2596>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2597>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2598>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2599>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2600>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2601>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2602>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2603>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2604>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2605>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2606>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2607>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2608>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2609>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2610>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2611>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11176,15 +9112,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2612>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)79), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2613>
 		return L_17;
 	}
 }
-// Method Definition Index: 31673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpadPlus_m7DB8421F8206608803D1A144AA2FEB19BFB170E7 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11201,25 +9134,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2618>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2619>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2620>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2621>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2622>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2623>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2624>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2625>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2626>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2627>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2628>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2629>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2630>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2631>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2632>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2633>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2634>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11265,15 +9181,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2635>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)80), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2636>
 		return L_17;
 	}
 }
-// Method Definition Index: 31674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpadMinus_m47D2CE0FC25346DB813E893748EBBBFD914EFFB9 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11290,25 +9203,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2641>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2642>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2643>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2644>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2645>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2646>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2647>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2648>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2649>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2650>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2651>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2652>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2653>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2654>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2655>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2656>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2657>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11354,15 +9250,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2658>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)81), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2659>
 		return L_17;
 	}
 }
-// Method Definition Index: 31675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpadPeriod_m6F162BC640B7041E3DFC39C04391539AB14C2D77 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11379,25 +9272,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2664>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2665>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2666>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2667>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2668>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2669>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2670>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2671>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2672>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2673>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2674>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2675>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2676>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2677>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2678>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2679>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2680>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11443,15 +9319,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2681>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)82), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2682>
 		return L_17;
 	}
 }
-// Method Definition Index: 31676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpadEquals_m9C8AD1F7F6CCF824CF974F77604CBF12F70E1DA2 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11468,25 +9341,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2687>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2688>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2689>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2690>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2691>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2692>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2693>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2694>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2695>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2696>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2697>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2698>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2699>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2700>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2701>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2702>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2703>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11532,15 +9388,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2704>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)83), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2705>
 		return L_17;
 	}
 }
-// Method Definition Index: 31677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpad1_m64F89C4A83488969355BE9A942C957526537B0CA (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11557,25 +9410,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2710>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2711>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2712>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2713>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2714>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2715>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2716>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2717>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2718>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2719>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2720>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2721>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2722>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2723>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2724>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2725>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2726>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11621,15 +9457,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2727>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)85), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2728>
 		return L_17;
 	}
 }
-// Method Definition Index: 31678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpad2_mF1761C4924922A3D9F983CED36CA79EDAC5E79EB (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11646,25 +9479,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2733>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2734>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2735>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2736>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2737>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2738>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2739>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2740>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2741>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2742>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2743>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2744>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2745>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2746>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2747>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2748>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2749>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11710,15 +9526,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2750>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)86), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2751>
 		return L_17;
 	}
 }
-// Method Definition Index: 31679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpad3_m596D19FF5BC77A2B85B74C45C26A3A27E2182654 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11735,25 +9548,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2756>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2757>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2758>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2759>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2760>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2761>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2762>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2763>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2764>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2765>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2766>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2767>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2768>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2769>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2770>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2771>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2772>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11799,15 +9595,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2773>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)87), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2774>
 		return L_17;
 	}
 }
-// Method Definition Index: 31680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpad4_mE8E30A4C6BCD8B434AB7F9D0354F127DFFB66023 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11824,25 +9617,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2779>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2780>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2781>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2782>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2783>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2784>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2785>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2786>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2787>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2788>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2789>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2790>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2791>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2792>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2793>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2794>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2795>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11888,15 +9664,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2796>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)88), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2797>
 		return L_17;
 	}
 }
-// Method Definition Index: 31681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpad5_m4E16143A0F17EC3CBB4598E263722B9F25E50775 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11913,25 +9686,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2802>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2803>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2804>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2805>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2806>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2807>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2808>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2809>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2810>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2811>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2812>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2813>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2814>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2815>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2816>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2817>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2818>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -11977,15 +9733,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2819>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)89), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2820>
 		return L_17;
 	}
 }
-// Method Definition Index: 31682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpad6_mC5E8949659691FFE47990A0844D7018E9A0BE0A4 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12002,25 +9755,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2825>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2826>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2827>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2828>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2829>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2830>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2831>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2832>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2833>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2834>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2835>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2836>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2837>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2838>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2839>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2840>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2841>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12066,15 +9802,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2842>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)90), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2843>
 		return L_17;
 	}
 }
-// Method Definition Index: 31683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpad7_mB0074B0C219BB1148860A0AC7BC5FBF0367AD00A (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12091,25 +9824,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2848>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2849>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2850>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2851>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2852>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2853>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2854>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2855>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2856>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2857>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2858>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2859>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2860>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2861>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2862>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2863>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2864>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12155,15 +9871,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2865>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)91), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2866>
 		return L_17;
 	}
 }
-// Method Definition Index: 31684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpad8_m7AA765F6CC8A0684AC2ABF97FD713B7D05567E1D (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12180,25 +9893,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2871>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2872>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2873>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2874>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2875>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2876>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2877>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2878>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2879>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2880>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2881>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2882>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2883>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2884>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2885>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2886>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2887>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12244,15 +9940,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2888>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)92), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2889>
 		return L_17;
 	}
 }
-// Method Definition Index: 31685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpad9_mBA466E460B1DFB45DCF9E8AA21480537F6029F58 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12269,25 +9962,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2894>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2895>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2896>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2897>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2898>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2899>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2900>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2901>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2902>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2903>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2904>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2905>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2906>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2907>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2908>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2909>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2910>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12333,15 +10009,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2911>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)93), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2912>
 		return L_17;
 	}
 }
-// Method Definition Index: 31686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardnumpad0_m5870FD587C9088B032FB41AF4D7181868CCA7552 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12358,25 +10031,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2917>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2918>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2919>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2920>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2921>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2922>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2923>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2924>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2925>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2926>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2927>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2928>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2929>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2930>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2931>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2932>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2933>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12422,15 +10078,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2934>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)84), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2935>
 		return L_17;
 	}
 }
-// Method Definition Index: 31687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf1_m22FBBB392AF9A46D7B1173C788BF12FE3DE295E3 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12447,25 +10100,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2940>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2941>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2942>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2943>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2944>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2945>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2946>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2947>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2948>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2949>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2950>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2951>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2952>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2953>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2954>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2955>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2956>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12511,15 +10147,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2957>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)94), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2958>
 		return L_17;
 	}
 }
-// Method Definition Index: 31688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf2_m89393E6E968234B31C3307BADB5220E648A74B65 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12536,25 +10169,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2963>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2964>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2965>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2966>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2967>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2968>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2969>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2970>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2971>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2972>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2973>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2974>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2975>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2976>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2977>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2978>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2979>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12600,15 +10216,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2980>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)95), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2981>
 		return L_17;
 	}
 }
-// Method Definition Index: 31689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf3_m6407D43FC943C68660EA3EDF291FFFBD4C72E444 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12625,25 +10238,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2986>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2987>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2988>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2989>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2990>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2991>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2992>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2993>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2994>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2995>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2996>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2997>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2998>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:2999>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3000>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3001>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3002>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12689,15 +10285,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3003>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)96), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3004>
 		return L_17;
 	}
 }
-// Method Definition Index: 31690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf4_mA2EBEDE3E6442E87A41578A91102058F438C924C (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12714,25 +10307,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3009>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3010>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3011>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3012>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3013>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3014>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3015>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3016>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3017>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3018>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3019>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3020>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3021>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3022>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3023>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3024>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3025>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12778,15 +10354,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3026>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)97), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3027>
 		return L_17;
 	}
 }
-// Method Definition Index: 31691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf5_m1B7EA2DCCD1D3C82B0A007315D8A9932AD001DD7 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12803,25 +10376,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3032>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3033>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3034>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3035>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3036>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3037>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3038>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3039>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3040>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3041>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3042>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3043>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3044>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3045>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3046>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3047>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3048>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12867,15 +10423,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3049>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)98), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3050>
 		return L_17;
 	}
 }
-// Method Definition Index: 31692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf6_m7460C9A39B1CD38119F95B5BDA6078257123DD9C (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12892,25 +10445,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3055>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3056>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3057>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3058>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3059>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3060>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3061>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3062>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3063>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3064>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3065>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3066>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3067>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3068>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3069>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3070>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3071>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -12956,15 +10492,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3072>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)99), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3073>
 		return L_17;
 	}
 }
-// Method Definition Index: 31693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf7_mF847D270DA61D9BD050920A5C315BA29F71BC169 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12981,25 +10514,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3078>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3079>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3080>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3081>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3082>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3083>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3084>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3085>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3086>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3087>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3088>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3089>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3090>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3091>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3092>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3093>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3094>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13045,15 +10561,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3095>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)100), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3096>
 		return L_17;
 	}
 }
-// Method Definition Index: 31694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf8_mC429A23AFCFDFB66903E48D378680ED382E91B4A (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13070,25 +10583,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3101>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3102>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3103>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3104>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3105>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3106>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3107>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3108>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3109>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3110>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3111>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3112>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3113>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3114>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3115>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3116>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3117>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13134,15 +10630,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3118>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)101), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3119>
 		return L_17;
 	}
 }
-// Method Definition Index: 31695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf9_m00B86A238F5BD7B6E974F665D050C36609F26105 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13159,25 +10652,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3124>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3125>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3126>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3127>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3128>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3129>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3130>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3131>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3132>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3133>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3134>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3135>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3136>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3137>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3138>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3139>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3140>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13223,15 +10699,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3141>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)102), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3142>
 		return L_17;
 	}
 }
-// Method Definition Index: 31696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf10_mF0115A09106548DDEB56AF481A31FC459EAA0CFD (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13248,25 +10721,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3147>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3148>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3149>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3150>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3151>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3152>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3153>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3154>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3155>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3156>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3157>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3158>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3159>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3160>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3161>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3162>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3163>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13312,15 +10768,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3164>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)103), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3165>
 		return L_17;
 	}
 }
-// Method Definition Index: 31697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf11_mD57A8878BDD2A99E42B1C054825162041C27AA27 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13337,25 +10790,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3170>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3171>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3172>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3173>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3174>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3175>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3176>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3177>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3178>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3179>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3180>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3181>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3182>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3183>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3184>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3185>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3186>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13401,15 +10837,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3187>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)104), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3188>
 		return L_17;
 	}
 }
-// Method Definition Index: 31698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf12_m53888F35B7822246C4C9B53049E8AD1F95892AD2 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13426,25 +10859,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3193>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3194>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3195>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3196>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3197>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3198>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3199>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3200>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3201>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3202>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3203>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3204>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3205>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3206>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3207>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3208>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3209>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13490,15 +10906,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3210>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)105), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3211>
 		return L_17;
 	}
 }
-// Method Definition Index: 31699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardOEM1_m28559EF6003DD9C84EABB0D1482EEE907AA244A2 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13514,25 +10927,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3216>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3217>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3218>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3219>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3220>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3221>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3222>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3223>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3224>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3225>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3226>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3227>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3228>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3229>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3230>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3231>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3232>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13578,15 +10974,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3233>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)106), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3234>
 		return L_17;
 	}
 }
-// Method Definition Index: 31700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardOEM2_m138A1243DD3C807E4149826C70D593E9D2723F0D (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13602,25 +10995,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3239>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3240>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3241>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3242>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3243>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3244>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3245>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3246>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3247>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3248>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3249>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3250>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3251>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3252>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3253>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3254>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3255>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13666,15 +11042,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3256>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)107), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3257>
 		return L_17;
 	}
 }
-// Method Definition Index: 31701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardOEM3_m7547EF7064838343D76326346D27C62668ABE607 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13690,25 +11063,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3262>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3263>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3264>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3265>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3266>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3267>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3268>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3269>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3270>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3271>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3272>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3273>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3274>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3275>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3276>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3277>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3278>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13754,15 +11110,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3279>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)108), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3280>
 		return L_17;
 	}
 }
-// Method Definition Index: 31702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardOEM4_m2A6BAB46BC8DBE7D3CAE3D7266D9C41FA8626913 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13778,25 +11131,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3285>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3286>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3287>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3288>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3289>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3290>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3291>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3292>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3293>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3294>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3295>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3296>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3297>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3298>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3299>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3300>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3301>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13842,15 +11178,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3302>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)109), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3303>
 		return L_17;
 	}
 }
-// Method Definition Index: 31703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardOEM5_m0A7D2E86690242F3E895E203C7E8339B5679E707 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13866,25 +11199,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3308>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3309>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3310>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3311>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3312>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3313>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3314>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3315>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3316>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3317>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3318>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3319>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3320>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3321>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3322>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3323>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3324>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -13930,15 +11246,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3325>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)110), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3326>
 		return L_17;
 	}
 }
-// Method Definition Index: 31704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf13_m5DF4BAA705A6B7FE16A8F0C3B9892342C566AE2C (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13955,25 +11268,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3331>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3332>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3333>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3334>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3335>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3336>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3337>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3338>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3339>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3340>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3341>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3342>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3343>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3344>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3345>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3346>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3347>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14019,15 +11315,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3348>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)112), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3349>
 		return L_17;
 	}
 }
-// Method Definition Index: 31705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf14_m3B978839B00659C487FF3C9920CD9CC3984CAC65 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14044,25 +11337,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3354>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3355>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3356>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3357>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3358>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3359>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3360>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3361>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3362>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3363>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3364>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3365>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3366>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3367>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3368>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3369>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3370>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14108,15 +11384,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3371>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)113), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3372>
 		return L_17;
 	}
 }
-// Method Definition Index: 31706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf15_m76007C718AA8635DAF1C45DEDBAAA10665B202A2 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14133,25 +11406,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3377>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3378>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3379>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3380>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3381>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3382>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3383>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3384>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3385>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3386>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3387>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3388>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3389>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3390>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3391>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3392>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3393>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14197,15 +11453,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3394>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)114), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3395>
 		return L_17;
 	}
 }
-// Method Definition Index: 31707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf16_m7EA185F77F79D9E6C88BA37A89F03B78E5B59DB1 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14222,25 +11475,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3400>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3401>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3402>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3403>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3404>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3405>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3406>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3407>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3408>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3409>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3410>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3411>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3412>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3413>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3414>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3415>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3416>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14286,15 +11522,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3417>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)115), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3418>
 		return L_17;
 	}
 }
-// Method Definition Index: 31708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf17_mF250F6803A9DCF0D296925C62AC4298363A087A2 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14311,25 +11544,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3423>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3424>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3425>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3426>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3427>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3428>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3429>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3430>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3431>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3432>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3433>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3434>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3435>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3436>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3437>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3438>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3439>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14375,15 +11591,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3440>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)116), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3441>
 		return L_17;
 	}
 }
-// Method Definition Index: 31709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf18_m9FB881F07727DD1211AF422AC91E7871C0DEF522 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14400,25 +11613,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3446>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3447>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3448>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3449>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3450>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3451>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3452>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3453>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3454>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3455>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3456>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3457>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3458>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3459>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3460>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3461>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3462>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14464,15 +11660,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3463>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)117), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3464>
 		return L_17;
 	}
 }
-// Method Definition Index: 31710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf19_m4AB500C9CFD1D0FD0AB6A6A7227972325934CBE2 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14489,25 +11682,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3469>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3470>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3471>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3472>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3473>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3474>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3475>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3476>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3477>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3478>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3479>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3480>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3481>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3482>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3483>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3484>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3485>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14553,15 +11729,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3486>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)118), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3487>
 		return L_17;
 	}
 }
-// Method Definition Index: 31711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf20_m406F718965584462689D7D23C9FA1D3788961CCA (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14578,25 +11751,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3492>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3493>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3494>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3495>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3496>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3497>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3498>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3499>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3500>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3501>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3502>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3503>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3504>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3505>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3506>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3507>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3508>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14642,15 +11798,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3509>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)119), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3510>
 		return L_17;
 	}
 }
-// Method Definition Index: 31712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf21_m3509FD426A1E363463E0B8DDE0576BB4895C6810 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14667,25 +11820,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3515>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3516>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3517>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3518>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3519>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3520>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3521>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3522>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3523>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3524>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3525>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3526>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3527>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3528>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3529>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3530>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3531>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14731,15 +11867,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3532>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)120), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3533>
 		return L_17;
 	}
 }
-// Method Definition Index: 31713
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf22_m400340CADE2FFD6BCDD036E70682C51D7E8C5831 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14756,25 +11889,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3538>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3539>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3540>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3541>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3542>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3543>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3544>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3545>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3546>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3547>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3548>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3549>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3550>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3551>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3552>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3553>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3554>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14820,15 +11936,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3555>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)121), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3556>
 		return L_17;
 	}
 }
-// Method Definition Index: 31714
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf23_m49D86877550B519BBA70ED17B5AA3BD98CD0CED1 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14845,25 +11958,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3561>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3562>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3563>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3564>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3565>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3566>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3567>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3568>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3569>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3570>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3571>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3572>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3573>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3574>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3575>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3576>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3577>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14909,15 +12005,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3578>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)122), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3579>
 		return L_17;
 	}
 }
-// Method Definition Index: 31715
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardf24_m2CB15CC5BE46686E873A0B50E89BFE505D7B3FDD (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14934,25 +12027,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3584>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3585>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3586>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3587>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3588>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3589>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3590>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3591>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3592>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3593>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3594>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3595>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3596>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3597>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3598>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3599>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3600>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -14998,15 +12074,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3601>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)123), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3602>
 		return L_17;
 	}
 }
-// Method Definition Index: 31716
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardmediaPlayPause_m587246EB306CB50BF64CB682010BAA745039BEAF (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15023,25 +12096,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3607>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3608>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3609>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3610>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3611>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3612>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3613>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3614>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3615>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3616>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3617>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3618>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3619>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3620>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3621>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3622>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3623>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -15087,15 +12143,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3624>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)124), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3625>
 		return L_17;
 	}
 }
-// Method Definition Index: 31717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardmediaRewind_mBC954F4919695C3F93B9442F210D3038CF2E68F5 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15112,25 +12165,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3630>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3631>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3632>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3633>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3634>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3635>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3636>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3637>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3638>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3639>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3640>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3641>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3642>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3643>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3644>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3645>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3646>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -15176,15 +12212,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3647>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)125), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3648>
 		return L_17;
 	}
 }
-// Method Definition Index: 31718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardmediaForward_m8DFF907D4ED1AA0AA2640A4812EB2057D6E7025D (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15201,25 +12234,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3653>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3654>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3655>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3656>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3657>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3658>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3659>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3660>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3661>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3662>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3663>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3664>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3665>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3666>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3667>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3668>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3669>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -15265,15 +12281,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_16 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_14, L_15, NULL);
 		V_0 = L_16;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3670>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_17 = L_1;
 		NullCheck(L_17);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_17, ((int32_t)126), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3671>
 		return L_17;
 	}
 }
-// Method Definition Index: 31719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* FastKeyboard_Initialize_ctrlKeyboardIMESelected_mB1A88861AF58D24760A678A780A411DDDBDC518B (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kButtonLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15289,26 +12302,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3676>
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)il2cpp_codegen_object_new(ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var);
 		ButtonControl__ctor_mF6F46704B8CC76DA22F543EFF8D136676893ACEB(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3677>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3678>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3679>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3680>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3681>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3682>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3683>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3684>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3685>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3686>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3687>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3688>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3689>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3690>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3691>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3692>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3693>
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -15357,11 +12352,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ButtonControl_t85949109B98AAF5B7ADC0285F0EC98
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3694>
 		return L_1;
 	}
 }
-// Method Definition Index: 31720
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* FastKeyboard_Initialize_ctrlKeyboardIMESelectedObsoleteKey_m4774F1874F38309BA48C711D892E5C70219D4AA7 (FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_kKeyLayout, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___1_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15377,26 +12370,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3699>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_0 = (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0*)il2cpp_codegen_object_new(KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0_il2cpp_TypeInfo_var);
 		KeyControl__ctor_m73F145B86E485B4C152E3FDC7CF0D1FEF5D9C6CE(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3700>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3701>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3702>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3703>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3704>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3705>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3706>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3707>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3708>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3709>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3710>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3711>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3712>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3713>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3714>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3715>
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3716>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_1 = L_0;
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2;
 		L_2 = InputControlExtensions_Setup_mF91CB1EB9FC2B896289D1FD12B6A65901DF53F00(L_1, NULL);
@@ -15445,22 +12420,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99
 		L_17 = ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline((&V_0), L_15, L_16, NULL);
 		V_0 = L_17;
 		ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline((&V_0), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3717>
 		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_18 = L_1;
 		NullCheck(L_18);
 		KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline(L_18, ((int32_t)111), NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Precompiled/FastKeyboard.cs:3718>
 		return L_18;
 	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 31096
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithName_m9CAF681E7BC82E50A1D8D4756736B62BE2E86888_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1802>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		String_t* L_1 = ___0_name;
@@ -15473,16 +12444,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&((InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_0)->___m_Name))->___m_StringLowerCase), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1803>
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_3 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_3;
 	}
 }
-// Method Definition Index: 31097
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithDisplayName_mEF9664AEE5D5410C6F5397CDB4A0DA7C16956F38_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, String_t* ___0_displayName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1813>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		String_t* L_1 = ___0_displayName;
@@ -15494,37 +12462,30 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		NullCheck(L_0);
 		((InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_0)->___m_DisplayNameFromLayout = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_0)->___m_DisplayNameFromLayout), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1814>
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_4 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_4;
 	}
 }
-// Method Definition Index: 31100
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithChildren_mB52CDAE18A90B4B198C055946B55C6FB2C0C6682_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, int32_t ___0_startIndex, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1848>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		int32_t L_1 = ___0_startIndex;
 		NullCheck(L_0);
 		((InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_0)->___m_ChildStartIndex = L_1;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1849>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_2;
 		L_2 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		int32_t L_3 = ___1_count;
 		NullCheck(L_2);
 		((InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_2)->___m_ChildCount = L_3;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1850>
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_4 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_4;
 	}
 }
-// Method Definition Index: 31099
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithLayout_m14B43FBB39236278CC11452BBA6B95398362EF4F_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_layout, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1835>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_1 = ___0_layout;
@@ -15534,62 +12495,49 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&((InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_0)->___m_Layout))->___m_StringLowerCase), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1836>
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_2 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_2;
 	}
 }
-// Method Definition Index: 34969
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FourCC__ctor_mE761C8779BB6DC85BA1662DC9ECEC39D62ED9A56_inline (FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED* __this, int32_t ___0_code, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Utilities/FourCC.cs:30>
 		int32_t L_0 = ___0_code;
 		__this->___m_Code = L_0;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Utilities/FourCC.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 34104
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_format_mC6AA651913216B6B3CEF1031BC8778182009F73A_inline (InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* __this, FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/State/InputStateBlock.cs:229>
 		FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED L_0 = ___0_value;
 		__this->___U3CformatU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 34110
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_sizeInBits_mE7B623711880E0A1C1E563AF809A24A9C63AE115_inline (InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/State/InputStateBlock.cs:258>
 		uint32_t L_0 = ___0_value;
 		__this->___U3CsizeInBitsU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 31101
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithStateBlock_mB1B5E1A98A0E205BD74AB0513E86A380A0FE731D_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 ___0_stateBlock, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1856>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 L_1 = ___0_stateBlock;
 		NullCheck(L_0);
 		((InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_0)->___m_StateBlock = L_1;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1857>
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_2 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_2;
 	}
 }
-// Method Definition Index: 31103
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithControlUsage_m6BC2EC2CA804EDC65D1165C63E403F3E93944714_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, int32_t ___0_controlIndex, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___1_usage, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___2_control, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1878>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		NullCheck(L_0);
@@ -15598,7 +12546,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_3 = ___1_usage;
 		NullCheck(L_1);
 		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(L_2), (InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735)L_3);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1879>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_4;
 		L_4 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		NullCheck(L_4);
@@ -15608,16 +12555,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_7);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(L_6), (InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_7);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1880>
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_8 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_8;
 	}
 }
-// Method Definition Index: 31104
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithControlAlias_mBAC72EDB7F19F7675A18FFE490DB8D8194EA1EB9_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, int32_t ___0_controlIndex, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___1_alias, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1892>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		NullCheck(L_0);
@@ -15626,103 +12570,84 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_3 = ___1_alias;
 		NullCheck(L_1);
 		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(L_2), (InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735)L_3);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1893>
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_4 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_4;
 	}
 }
-// Method Definition Index: 31513
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Keyboard_set_keys_m0182B12C60B17A40B2F45E21791545C222E8E657_inline (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Keyboard.cs:2752>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_0 = ___0_value;
 		__this->___m_Keys = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Keys), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 31512
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* Keyboard_get_keys_mFBD2937C14FA628B7DAFEE536D0A491D3A32DD8D_inline (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Keyboard.cs:2751>
 		KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* L_0 = __this->___m_Keys;
 		return L_0;
 	}
 }
-// Method Definition Index: 31360
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Keyboard_set_anyKey_m0899947E20A7AE7619621838EEAD156DEC48E6A9_inline (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Keyboard.cs:1296>
 		AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14* L_0 = ___0_value;
 		__this->___U3CanyKeyU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CanyKeyU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 31493
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Keyboard_set_shiftKey_m5EDBC8DA6545EF41CBBB5C34E9643424361D0131_inline (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Keyboard.cs:2325>
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = ___0_value;
 		__this->___U3CshiftKeyU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CshiftKeyU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 31495
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Keyboard_set_ctrlKey_m0ADFD4E0EF0DD87C1172A830F9974C57D2CB99AD_inline (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Keyboard.cs:2336>
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = ___0_value;
 		__this->___U3CctrlKeyU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CctrlKeyU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 31497
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Keyboard_set_altKey_m9E7D88FF8A887EAA4D0718029EE8ED5B91517359_inline (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Keyboard.cs:2347>
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = ___0_value;
 		__this->___U3CaltKeyU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CaltKeyU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 31499
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Keyboard_set_imeSelected_mE0660BE4C1EEB634D8FDBFA93E20D30C570FE651_inline (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Devices/Keyboard.cs:2358>
 		ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* L_0 = ___0_value;
 		__this->___U3CimeSelectedU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CimeSelectedU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 31105
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithStateOffsetToControlIndexMap_m5C180F0BE65CD62017E4662DC59DB56677B5F39A_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___0_map, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1899>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_1 = ___0_map;
 		NullCheck(L_0);
 		L_0->___m_StateOffsetToControlMap = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___m_StateOffsetToControlMap), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1900>
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_2 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_2;
 	}
 }
-// Method Definition Index: 31106
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 DeviceBuilder_WithControlTree_mF526DB544EB8F876A093A03119ED6AABD0642E2F_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_controlTreeNodes, UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83* ___1_controlTreeIndicies, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15738,16 +12663,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_3 = NULL;
 	int32_t V_4 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1906>
 		int32_t L_0;
 		L_0 = UnsafeUtility_SizeOf_TisControlBitRangeNode_t21274A438B0E0877F1495EC579EB1DAF81B1A6B0_mFF2E3D043C8370BCBB8CDB8DFA1A5A9C59C15571_inline(UnsafeUtility_SizeOf_TisControlBitRangeNode_t21274A438B0E0877F1495EC579EB1DAF81B1A6B0_mFF2E3D043C8370BCBB8CDB8DFA1A5A9C59C15571_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1907>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_controlTreeNodes;
 		NullCheck(L_1);
 		int32_t L_2 = V_0;
 		V_1 = ((int32_t)(((int32_t)(((RuntimeArray*)L_1)->max_length))/L_2));
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1908>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_3;
 		L_3 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		int32_t L_4 = V_1;
@@ -15755,7 +12677,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeviceBuilder_t3D3A66799A2B6B6282
 		NullCheck(L_3);
 		L_3->___m_ControlTreeNodes = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___m_ControlTreeNodes), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1909>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = ___0_controlTreeNodes;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = L_6;
 		V_3 = L_7;
@@ -15788,14 +12709,12 @@ IL_002c:
 
 IL_0035:
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1911>
 		V_4 = 0;
 		goto IL_005d;
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1913>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_10;
 		L_10 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		NullCheck(L_10);
@@ -15807,14 +12726,12 @@ IL_003a:
 		ControlBitRangeNode_t21274A438B0E0877F1495EC579EB1DAF81B1A6B0 L_16 = (*(ControlBitRangeNode_t21274A438B0E0877F1495EC579EB1DAF81B1A6B0*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_13, ((int32_t)il2cpp_codegen_multiply(L_14, L_15)))));
 		NullCheck(L_11);
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(L_12), (ControlBitRangeNode_t21274A438B0E0877F1495EC579EB1DAF81B1A6B0)L_16);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1911>
 		int32_t L_17 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_17, 1));
 	}
 
 IL_005d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1911>
 		int32_t L_18 = V_4;
 		int32_t L_19 = V_1;
 		if ((((int32_t)L_18) < ((int32_t)L_19)))
@@ -15824,19 +12741,16 @@ IL_005d:
 	}
 	{
 		V_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1917>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_20;
 		L_20 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83* L_21 = ___1_controlTreeIndicies;
 		NullCheck(L_20);
 		L_20->___m_ControlTreeIndices = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&L_20->___m_ControlTreeIndices), (void*)L_21);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1918>
 		DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4 L_22 = (*(DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4*)__this);
 		return L_22;
 	}
 }
-// Method Definition Index: 31107
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeviceBuilder_Finish_mA2C52B2A38B0618CAA4737DB610C65F385957F65_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15859,9 +12773,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DeviceBuilder_Finish_mA2C52B
 	ReadOnlyArray_1_tA1DF7A256AD2BF17FB155224CB2611ED215EFCD3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1925>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1926>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0;
 		L_0 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		NullCheck(L_0);
@@ -15890,24 +12802,20 @@ FINALLY_0035:
 
 IL_0018_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1926>
 				InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_3;
 				L_3 = Enumerator_get_Current_m41544A012DB6D430DA27A1A8AA3EB061D804936B((&V_1), Enumerator_get_Current_m41544A012DB6D430DA27A1A8AA3EB061D804936B_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1929>
 				if (!((ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF*)IsInstClass((RuntimeObject*)L_3, ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_il2cpp_TypeInfo_var)))
 				{
 					goto IL_002a_1;
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1930>
 				int32_t L_4 = V_0;
 				V_0 = ((int32_t)il2cpp_codegen_add(L_4, 1));
 			}
 
 IL_002a_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1926>
 				bool L_5;
 				L_5 = Enumerator_MoveNext_mA0F54BBB859772E40488DDEAB062E59A054C4BCD((&V_1), Enumerator_MoveNext_mA0F54BBB859772E40488DDEAB062E59A054C4BCD_RuntimeMethod_var);
 				if (L_5)
@@ -15927,7 +12835,6 @@ IL_002a_1:
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1933>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_6;
 		L_6 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		int32_t L_7 = V_0;
@@ -15936,7 +12843,6 @@ IL_0043:
 		NullCheck(L_6);
 		L_6->___m_ButtonControlsCheckingPressState = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&L_6->___m_ButtonControlsCheckingPressState), (void*)L_8);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1934>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_9;
 		L_9 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		int32_t L_10 = V_0;
@@ -15945,20 +12851,16 @@ IL_0043:
 		NullCheck(L_9);
 		L_9->___m_UpdatedButtons = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&L_9->___m_UpdatedButtons), (void*)L_11);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1936>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_12;
 		L_12 = DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline(__this, NULL);
 		NullCheck(L_12);
 		InputControl_set_isSetupFinished_m261F46AF1FA214549675E23394E2820E6D09D7C9(L_12, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1937>
 		return;
 	}
 }
-// Method Definition Index: 31076
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_At_mC5ADE238272B7B90A730AB2B6C54CEACD9A4B800_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___0_device, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1612>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0 = ___0_device;
 		NullCheck(L_0);
 		InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* L_1 = L_0->___m_ChildrenForEachControl;
@@ -15968,39 +12870,32 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		NullCheck(L_1);
 		ArrayElementTypeCheck (L_1, L_3);
 		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(L_2), (InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1613>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_4;
 		L_4 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_5 = ___0_device;
 		NullCheck(L_4);
 		L_4->___m_Device = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___m_Device), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1614>
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_6 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_6;
 	}
 }
-// Method Definition Index: 31077
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithParent_m443238A4D9A120F991A0DD0D3CE792E2CA5D0C80_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___0_parent, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1626>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_1 = ___0_parent;
 		NullCheck(L_0);
 		L_0->___m_Parent = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___m_Parent), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1627>
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_2;
 	}
 }
-// Method Definition Index: 31078
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithName_m7506A150252C16D8EA717AD106D03779395C5ADA_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1637>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		String_t* L_1 = ___0_name;
@@ -16013,16 +12908,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&L_0->___m_Name))->___m_StringLowerCase), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1638>
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_3 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_3;
 	}
 }
-// Method Definition Index: 31079
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithDisplayName_m325CFB598477C68D7122784B4B93116E9701C290_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, String_t* ___0_displayName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1648>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		String_t* L_1 = ___0_displayName;
@@ -16034,16 +12926,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		NullCheck(L_0);
 		L_0->___m_DisplayNameFromLayout = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___m_DisplayNameFromLayout), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1649>
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_4;
 	}
 }
-// Method Definition Index: 31081
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithLayout_mE69F50DB223B391FD9CB7835460004D9A7AA80AA_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_layout, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1670>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_1 = ___0_layout;
@@ -16053,182 +12942,145 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&L_0->___m_Layout))->___m_StringLowerCase), (void*)NULL);
 		#endif
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1671>
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_2;
 	}
 }
-// Method Definition Index: 31090
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_IsSynthetic_m4555CF5C808F396EFC65892D90CC98911037C22F_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1764>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		bool L_1 = ___0_value;
 		NullCheck(L_0);
 		InputControl_set_synthetic_mC788F8B981CCA27755D02DFCD46C0FDC9FD77B5B(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1765>
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_2;
 	}
 }
-// Method Definition Index: 31092
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_IsButton_mCF3AD67106B0EC5A7FF0CB8CC0BD8F126D5205BF_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1780>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		bool L_1 = ___0_value;
 		NullCheck(L_0);
 		InputControl_set_isButton_m862BB994D08F3488611839657F2381B12976C661(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1781>
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_2;
 	}
 }
-// Method Definition Index: 34106
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_byteOffset_mC5776F9F286F0658100E92A75A60EB25A1DDBD40_inline (InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/State/InputStateBlock.cs:242>
 		uint32_t L_0 = ___0_value;
 		__this->___m_ByteOffset = L_0;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/State/InputStateBlock.cs:243>
 		return;
 	}
 }
-// Method Definition Index: 34108
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputStateBlock_set_bitOffset_mB4F67CC1BF4EBB3152CEC64BECFF724C1416A163_inline (InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/State/InputStateBlock.cs:251>
 		uint32_t L_0 = ___0_value;
 		__this->___U3CbitOffsetU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 31085
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithStateBlock_m79CAB3553C883060988D202D5A9E266538FD5789_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 ___0_stateBlock, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1719>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 L_1 = ___0_stateBlock;
 		NullCheck(L_0);
 		L_0->___m_StateBlock = L_1;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1720>
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_2 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_2;
 	}
 }
-// Method Definition Index: 31087
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithMinAndMax_m8F5E297F1E17D475B156203F6D6C812032BE69A2_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___0_min, PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___1_max, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1734>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 L_1 = ___0_min;
 		NullCheck(L_0);
 		L_0->___m_MinValue = L_1;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1735>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_2;
 		L_2 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 L_3 = ___1_max;
 		NullCheck(L_2);
 		L_2->___m_MaxValue = L_3;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1736>
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_4;
 	}
 }
-// Method Definition Index: 31093
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ControlBuilder_Finish_m16789C23501E86888660478C4BB5CB70B74D1DBA_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1787>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		NullCheck(L_0);
 		InputControl_set_isSetupFinished_m261F46AF1FA214549675E23394E2820E6D09D7C9(L_0, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1788>
 		return;
 	}
 }
-// Method Definition Index: 31082
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithUsages_mF3CB62381A394ACAB421BE7378E63A211787B9C1_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, int32_t ___0_startIndex, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1683>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		int32_t L_1 = ___0_startIndex;
 		NullCheck(L_0);
 		L_0->___m_UsageStartIndex = L_1;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1684>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_2;
 		L_2 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		int32_t L_3 = ___1_count;
 		NullCheck(L_2);
 		L_2->___m_UsageCount = L_3;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1685>
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_4;
 	}
 }
-// Method Definition Index: 34736
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KeyControl_set_keyCode_mC5A750983557C0CD8818BCE6189F8F6293948394_inline (KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/KeyControl.cs:47>
 		int32_t L_0 = ___0_value;
 		__this->___U3CkeyCodeU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 31083
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 ControlBuilder_WithAliases_mF016A1F936DF5CEB94202923788ABE9591F8F976_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, int32_t ___0_startIndex, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1697>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0;
 		L_0 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		int32_t L_1 = ___0_startIndex;
 		NullCheck(L_0);
 		L_0->___m_AliasStartIndex = L_1;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1698>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_2;
 		L_2 = ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline(__this, NULL);
 		int32_t L_3 = ___1_count;
 		NullCheck(L_2);
 		L_2->___m_AliasCount = L_3;
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1699>
 		ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15 L_4 = (*(ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15*)__this);
 		return L_4;
 	}
 }
-// Method Definition Index: 31094
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* DeviceBuilder_get_device_m3D80AEE1900BA7EFE23D943080C3DA9A2D8268AB_inline (DeviceBuilder_t3D3A66799A2B6B6282AC2FB71B1DE5034E668CC4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1793>
 		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_0 = __this->___U3CdeviceU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 31074
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ControlBuilder_get_control_m988C5EFC6631CDE6987FCC3C314FBDA9C37E0E30_inline (ControlBuilder_t9531519F44B76B04B9128FFF514E806FCCA1BB15* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.inputsystem@02433b2481ab/InputSystem/Controls/InputControlExtensions.cs:1601>
 		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_0 = __this->___U3CcontrolU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 42484
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisControlBitRangeNode_t21274A438B0E0877F1495EC579EB1DAF81B1A6B0_mFF2E3D043C8370BCBB8CDB8DFA1A5A9C59C15571_gshared_inline (const RuntimeMethod* method) 
 {
 	{

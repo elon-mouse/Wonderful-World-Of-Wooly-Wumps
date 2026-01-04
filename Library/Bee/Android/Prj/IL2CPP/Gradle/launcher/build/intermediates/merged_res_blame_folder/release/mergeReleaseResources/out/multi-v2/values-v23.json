@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.DefaultCompany.Myproject.launcher-mergeReleaseResources-22:/values-v23/values-v23.xml",
+            "outputFile": "com.elonmouse.woolywumpus.launcher-mergeReleaseResources-22:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/Users/arman/.gradle/caches/8.13/transforms/aac72809cb194a002ddca35567c7ba34/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",

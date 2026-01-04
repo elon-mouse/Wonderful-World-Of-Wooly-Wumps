@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.DefaultCompany.Myproject.launcher-mergeReleaseResources-22:/values-th/values-th.xml",
+            "outputFile": "com.elonmouse.woolywumpus.launcher-mergeReleaseResources-22:/values-th/values-th.xml",
             "map": [
                 {
                     "source": "/Users/arman/.gradle/caches/8.13/transforms/d6b1c1895621d594ff59084a9397c3ea/transformed/jetified-play-services-basement-18.4.0/res/values-th/values.xml",
