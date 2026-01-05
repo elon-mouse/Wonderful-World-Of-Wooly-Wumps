@@ -510,8 +510,6 @@
 "Assets/Scripts/playemovement.cs"
 "Assets/Scripts/playerAttack.cs"
 "Assets/Scripts/PlayerRespawn.cs"
-"Assets/VirtualJoystick/Scripts/Devices/VirtualJoystick.cs"
-"Assets/VirtualJoystick/Scripts/VirtualJoystick.cs"
 -langversion:9.0
 /deterministic
 /optimize+

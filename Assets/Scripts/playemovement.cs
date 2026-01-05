@@ -23,26 +23,13 @@ public class PlayerMovement : MonoBehaviour
 
         if (playerInput == null)
         {
-            Debug.LogError("❌ PlayerInput component missing!");
-            enabled = false;
-            return;
-        }
-
-        if (playerInput.actions == null)
-        {
-            Debug.LogError("❌ PlayerInput has no Input Actions assigned!");
+            Debug.LogError("PlayerInput missing!");
             enabled = false;
             return;
         }
 
         moveAction = playerInput.actions["Move"];
         jumpAction = playerInput.actions["Jump"];
-
-        if (moveAction == null || jumpAction == null)
-        {
-            Debug.LogError("❌ Move or Jump action not found. Check Action Map name!");
-            enabled = false;
-        }
     }
 
     private void OnEnable()
@@ -65,9 +52,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (moveAction == null) return;
-
-        horizontal = moveAction.ReadValue<Vector2>().x;
+        Vector2 moveInput = moveAction.ReadValue<Vector2>();
+        horizontal = moveInput.x;
         Flip();
     }
 
@@ -89,6 +75,15 @@ public class PlayerMovement : MonoBehaviour
         if (rb.linearVelocity.y > 0f)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+        }
+    }
+
+    // Optional fallback if you ever use Button.OnClick
+    public void MobileJump()
+    {
+        if (IsGrounded())
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
         }
     }
 
