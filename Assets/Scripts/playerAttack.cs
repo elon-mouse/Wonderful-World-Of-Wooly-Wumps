@@ -1,44 +1,52 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(PlayerInput))]
 public class PlayerAttack : MonoBehaviour
 {
-    public float damage = 20f;
-    public float attackRange = 1.5f;
-    public KeyCode attackKey = KeyCode.E;
-    public LayerMask enemyLayer; // Assign in Inspector
+    [Header("Attack")]
+    [SerializeField] float damage = 20f;
+    [SerializeField] float range = 1.5f;
+    [SerializeField] LayerMask enemyLayer;
 
-    void Update()
+    PlayerInput playerInput;
+    InputAction attackAction;
+
+    void Awake()
     {
-        if (Input.GetKeyDown(attackKey))
-        {
-            Debug.Log("Player pressed attack key");
-            Attack();
-        }
+        playerInput = GetComponent<PlayerInput>();
+        attackAction = playerInput.actions["Attack"];
     }
 
-    void Attack()
+    void OnEnable()
     {
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position, attackRange, enemyLayer);
-        Debug.Log("Attack triggered. Detected " + hitEnemies.Length + " targets.");
+        attackAction.performed += OnAttack;
+    }
 
-        foreach (Collider2D enemy in hitEnemies)
+    void OnDisable()
+    {
+        attackAction.performed -= OnAttack;
+    }
+
+    void OnAttack(InputAction.CallbackContext ctx)
+    {
+        Collider2D[] hits = Physics2D.OverlapCircleAll(
+            transform.position,
+            range,
+            enemyLayer
+        );
+
+        foreach (Collider2D hit in hits)
         {
-            Debug.Log("Hit " + enemy.name);
-            HealthSystem h = enemy.GetComponent<HealthSystem>();
+            HealthSystem h = hit.GetComponent<HealthSystem>();
             if (h != null)
-            {
                 h.TakeDamage(damage);
-            }
-            else
-            {
-                Debug.LogWarning(enemy.name + " has no HealthSystem component!");
-            }
         }
     }
 
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackRange);
+        Gizmos.DrawWireSphere(transform.position, range);
     }
 }

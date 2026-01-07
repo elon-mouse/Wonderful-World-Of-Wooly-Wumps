@@ -3362,10 +3362,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Input_CheckDisabled();
 		Register_UnityEngine_Input_CheckDisabled();
 
-		//System.Boolean UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)
-		void Register_UnityEngine_Input_GetKeyDownInt();
-		Register_UnityEngine_Input_GetKeyDownInt();
-
 		//System.Boolean UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)
 		void Register_UnityEngine_Input_GetKeyInt();
 		Register_UnityEngine_Input_GetKeyInt();
@@ -3457,10 +3453,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Internal.InputUnsafeUtility::GetButtonDown_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
 		void Register_UnityEngine_Internal_InputUnsafeUtility_GetButtonDown_Injected();
 		Register_UnityEngine_Internal_InputUnsafeUtility_GetButtonDown_Injected();
-
-		//System.Boolean UnityEngine.Internal.InputUnsafeUtility::GetButtonUp_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
-		void Register_UnityEngine_Internal_InputUnsafeUtility_GetButtonUp_Injected();
-		Register_UnityEngine_Internal_InputUnsafeUtility_GetButtonUp_Injected();
 
 		//System.Boolean UnityEngine.Internal.InputUnsafeUtility::GetButtonUp__Unmanaged(System.Byte*,System.Int32)
 		void Register_UnityEngine_Internal_InputUnsafeUtility_GetButtonUp__Unmanaged();

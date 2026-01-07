@@ -1,9 +1,9 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.elonmouse.woolywumpus"
+3    package="com.elonmouse.WonderfulWorldOfWoolyWompus"
 4    android:installLocation="preferExternal"
-5    android:versionCode="1"
-6    android:versionName="0.1.1" >
+5    android:versionCode="2"
+6    android:versionName="0.1.2" >
 7
 8    <uses-sdk
 9        android:minSdkVersion="25"
@@ -76,12 +76,12 @@
 45
 46    <permission
 46-->[androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-47        android:name="com.elonmouse.woolywumpus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+47        android:name="com.elonmouse.WonderfulWorldOfWoolyWompus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 47-->[androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
 48        android:protectionLevel="signature" />
 48-->[androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 49
-50    <uses-permission android:name="com.elonmouse.woolywumpus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+50    <uses-permission android:name="com.elonmouse.WonderfulWorldOfWoolyWompus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 50-->[androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
 50-->[androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 51    <!-- <uses-sdk android:minSdkVersion="14"/> -->
@@ -270,7 +270,7 @@
 147-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 148            android:name="androidx.startup.InitializationProvider"
 148-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-149            android:authorities="com.elonmouse.woolywumpus.androidx-startup"
+149            android:authorities="com.elonmouse.WonderfulWorldOfWoolyWompus.androidx-startup"
 149-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 150            android:exported="false" >
 150-->[androidx.emoji2:emoji2:1.2.0] /Users/arman/.gradle/caches/8.13/transforms/2913b8afe4715d12e594686c39a3893b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37

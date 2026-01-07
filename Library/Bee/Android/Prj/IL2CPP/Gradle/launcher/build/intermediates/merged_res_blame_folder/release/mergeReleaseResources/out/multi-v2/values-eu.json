@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.elonmouse.woolywumpus.launcher-mergeReleaseResources-22:/values-eu/values-eu.xml",
+            "outputFile": "com.elonmouse.WonderfulWorldOfWoolyWompus.launcher-mergeReleaseResources-22:/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "/Users/arman/.gradle/caches/8.13/transforms/884666a32c4318700e3ac5b2b87bee37/transformed/jetified-play-services-base-18.5.0/res/values-eu/values.xml",

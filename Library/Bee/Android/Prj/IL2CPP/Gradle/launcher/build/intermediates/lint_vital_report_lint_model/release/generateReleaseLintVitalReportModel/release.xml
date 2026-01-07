@@ -1,6 +1,6 @@
 <variant
     name="release"
-    package="com.elonmouse.woolywumpus"
+    package="com.elonmouse.WonderfulWorldOfWoolyWompus"
     minSdkVersion="25"
     targetSdkVersion="36"
     mergedManifest="build/intermediates/merged_manifest/release/processReleaseMainManifest/AndroidManifest.xml"
@@ -23,7 +23,7 @@
   <artifact
       classOutputs="build/intermediates/javac/release/compileReleaseJavaWithJavac/classes:build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/processReleaseResources/R.jar"
       type="MAIN"
-      applicationId="com.elonmouse.woolywumpus"
+      applicationId="com.elonmouse.WonderfulWorldOfWoolyWompus"
       generatedSourceFolders="build/generated/ap_generated_sources/release/out"
       generatedResourceFolders="build/generated/res/resValues/release"
       desugaredMethodsFiles="/Users/arman/.gradle/caches/8.13/transforms/d10a0a20ecb0148b8a4dedc0b2aef95b/transformed/D8BackportedDesugaredMethods.txt">

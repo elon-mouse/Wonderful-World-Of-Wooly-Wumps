@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.elonmouse.woolywumpus.launcher-mergeReleaseResources-22:/values-nl/values-nl.xml",
+            "outputFile": "com.elonmouse.WonderfulWorldOfWoolyWompus.launcher-mergeReleaseResources-22:/values-nl/values-nl.xml",
             "map": [
                 {
                     "source": "/Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/res/values-nl/values-nl.xml",

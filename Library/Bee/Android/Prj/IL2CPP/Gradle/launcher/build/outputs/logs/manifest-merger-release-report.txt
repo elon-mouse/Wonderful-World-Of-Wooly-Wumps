@@ -442,7 +442,7 @@ ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transform
 		ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-permission#com.elonmouse.woolywumpus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.elonmouse.WonderfulWorldOfWoolyWompus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
@@ -452,7 +452,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
-uses-permission#com.elonmouse.woolywumpus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.elonmouse.WonderfulWorldOfWoolyWompus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] /Users/arman/.gradle/caches/8.13/transforms/be77c46ed06dff3978acddc251705f26/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
