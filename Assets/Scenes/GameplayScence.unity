@@ -1120,8 +1120,8 @@ GameObject:
   - component: {fileID: 622771914}
   - component: {fileID: 622771912}
   - component: {fileID: 622771911}
-  - component: {fileID: 622771910}
   - component: {fileID: 622771915}
+  - component: {fileID: 622771910}
   - component: {fileID: 622771917}
   - component: {fileID: 622771916}
   - component: {fileID: 622771918}
@@ -1147,7 +1147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   speed: 10
-  jumpingPower: 12
+  jumpingPower: 35
   groundCheck: {fileID: 1205714559}
   groundLayer:
     serializedVersion: 2
@@ -1307,16 +1307,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622771909}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 966b9a77c7930446ea3e323ac228b0cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
   damage: 20
-  range: 1.5
+  attackRange: 1.5
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
 --- !u!114 &622771917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2476,7 +2476,7 @@ PrefabInstance:
       objectReference: {fileID: 949128030}
     - target: {fileID: 114344768413473294, guid: 05f32eddd3e41fd4597ada617b785928, type: 3}
       propertyPath: m_ControlPath
-      value: <Gamepad>/buttonEast
+      value: <Keyboard>/e
       objectReference: {fileID: 0}
     - target: {fileID: 114826362001716654, guid: 05f32eddd3e41fd4597ada617b785928, type: 3}
       propertyPath: m_Type

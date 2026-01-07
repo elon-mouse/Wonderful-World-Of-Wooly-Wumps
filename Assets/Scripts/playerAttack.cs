@@ -4,49 +4,70 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(PlayerInput))]
 public class PlayerAttack : MonoBehaviour
 {
-    [Header("Attack")]
-    [SerializeField] float damage = 20f;
-    [SerializeField] float range = 1.5f;
-    [SerializeField] LayerMask enemyLayer;
+    [Header("Attack Settings")]
+    [SerializeField] private float damage = 20f;
+    [SerializeField] private float attackRange = 1.5f;
+    [SerializeField] private LayerMask enemyLayer;
 
-    PlayerInput playerInput;
-    InputAction attackAction;
+    private PlayerInput playerInput;
+    private InputAction attackAction;
 
-    void Awake()
+    private void Awake()
     {
         playerInput = GetComponent<PlayerInput>();
         attackAction = playerInput.actions["Attack"];
+
+        Debug.Log("PlayerAttack initialized. Attack action found: " + (attackAction != null));
     }
 
-    void OnEnable()
+    private void OnEnable()
     {
         attackAction.performed += OnAttack;
     }
 
-    void OnDisable()
+    private void OnDisable()
     {
         attackAction.performed -= OnAttack;
     }
 
-    void OnAttack(InputAction.CallbackContext ctx)
+    // 🔥 CALLED BY INPUT SYSTEM
+    private void OnAttack(InputAction.CallbackContext context)
     {
-        Collider2D[] hits = Physics2D.OverlapCircleAll(
-            transform.position,
-            range,
-            enemyLayer
-        );
+        PerformAttack();
+    }
 
-        foreach (Collider2D hit in hits)
+    // 🔥 ACTUAL ATTACK LOGIC
+    private void PerformAttack()
+    {
+        Vector2 direction = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
+        Vector2 attackCenter = (Vector2)transform.position + direction * attackRange;
+
+        Collider2D[] hitEnemies =
+            Physics2D.OverlapCircleAll(attackCenter, attackRange, enemyLayer);
+
+        Debug.Log($"Attack triggered. Hit count: {hitEnemies.Length}");
+
+        foreach (Collider2D enemy in hitEnemies)
         {
-            HealthSystem h = hit.GetComponent<HealthSystem>();
-            if (h != null)
-                h.TakeDamage(damage);
+            HealthSystem health = enemy.GetComponent<HealthSystem>();
+            if (health != null)
+            {
+                health.TakeDamage(damage);
+                Debug.Log("Damaged: " + enemy.name);
+            }
+            else
+            {
+                Debug.LogWarning(enemy.name + " has no HealthSystem!");
+            }
         }
     }
 
-    void OnDrawGizmosSelected()
+    // 🎯 VISUAL DEBUG
+    private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, range);
+        Vector2 direction = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
+        Vector2 center = (Vector2)transform.position + direction * attackRange;
+        Gizmos.DrawWireSphere(center, attackRange);
     }
 }
