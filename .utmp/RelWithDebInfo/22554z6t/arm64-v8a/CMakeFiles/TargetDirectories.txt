@@ -1,8 +1,0 @@
-C:/Users/Arman/OneDrive/Documents/code files/Wonderful-World-Of-Wooly-Wumps/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/22554z6t/arm64-v8a/CMakeFiles/edit_cache.dir
-C:/Users/Arman/OneDrive/Documents/code files/Wonderful-World-Of-Wooly-Wumps/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/22554z6t/arm64-v8a/CMakeFiles/rebuild_cache.dir
-C:/Users/Arman/OneDrive/Documents/code files/Wonderful-World-Of-Wooly-Wumps/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/22554z6t/arm64-v8a/GameActivity/CMakeFiles/game.dir
-C:/Users/Arman/OneDrive/Documents/code files/Wonderful-World-Of-Wooly-Wumps/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/22554z6t/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
-C:/Users/Arman/OneDrive/Documents/code files/Wonderful-World-Of-Wooly-Wumps/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/22554z6t/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
-C:/Users/Arman/OneDrive/Documents/code files/Wonderful-World-Of-Wooly-Wumps/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/22554z6t/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
-C:/Users/Arman/OneDrive/Documents/code files/Wonderful-World-Of-Wooly-Wumps/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/22554z6t/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
-C:/Users/Arman/OneDrive/Documents/code files/Wonderful-World-Of-Wooly-Wumps/Wonderful-World-Of-Wooly-Wumps/.utmp/RelWithDebInfo/22554z6t/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

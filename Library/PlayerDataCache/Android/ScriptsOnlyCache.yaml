@@ -13,7 +13,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.DeformationManager
     - UnityEngine.U2D.Animation.DeformationManagerUpdater
     Unity.2D.IK.Editor.dll:
@@ -2247,4 +2246,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/_Recovery/GameplayScence.unity
-  playerPath: /Users/arman/Desktop/Wooly-Wumpus-Android/0.1.2/Wooly-Wumpus-Android.aab
+  playerPath: /Users/arman/Desktop/Wooly-Wumpus-Android/0.1.3/Wooly-Wumpus-Android.apk

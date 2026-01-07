@@ -2,8 +2,8 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.elonmouse.WonderfulWorldOfWoolyWompus"
 4    android:installLocation="preferExternal"
-5    android:versionCode="2"
-6    android:versionName="0.1.2" >
+5    android:versionCode="3"
+6    android:versionName="0.1.3" >
 7
 8    <uses-sdk
 9        android:minSdkVersion="25"

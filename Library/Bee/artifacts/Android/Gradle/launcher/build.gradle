@@ -21,10 +21,10 @@ android {
 
     defaultConfig {
         applicationId "com.elonmouse.WonderfulWorldOfWoolyWompus"
-        versionName "0.1.2"
+        versionName "0.1.3"
         minSdk 25
         targetSdk 36
-        versionCode 2
+        versionCode 3
 
         ndk {
             abiFilters "arm64-v8a"
@@ -47,27 +47,18 @@ android {
         }
     }
 
-    signingConfigs {
-        release {
-            storeFile file('/Users/arman/Library/Mobile Documents/com~apple~CloudDocs/Documents/user.keystore')
-            storePassword 'BlueMouse'
-            keyAlias 'wooly-wumpus'
-            keyPassword 'BlueMouse'
-        }
-    }
-
     buildTypes {
         debug {
             minifyEnabled = false
             proguardFiles getDefaultProguardFile('proguard-android.txt')
             jniDebuggable = true
-            signingConfig signingConfigs.release
+            signingConfig signingConfigs.debug
         }
 
         release {
             minifyEnabled = false
             proguardFiles getDefaultProguardFile('proguard-android.txt')
-            signingConfig signingConfigs.release
+            signingConfig signingConfigs.debug
         }
     }
 

@@ -1,10 +1,10 @@
 <libraries>
   <library
       name=":@@:unityLibrary::release"
-      jars="/Users/arman/.gradle/caches/8.13/transforms/bb33694d5258dc4d69cc860a7c54ac6a/transformed/out/jars/classes.jar:/Users/arman/.gradle/caches/8.13/transforms/bb33694d5258dc4d69cc860a7c54ac6a/transformed/out/jars/libs/R.jar:/Users/arman/.gradle/caches/8.13/transforms/bb33694d5258dc4d69cc860a7c54ac6a/transformed/out/jars/libs/unity-classes.jar"
+      jars="/Users/arman/.gradle/caches/8.13/transforms/f25b30729f3c6a46cb2072245b5e7110/transformed/out/jars/classes.jar:/Users/arman/.gradle/caches/8.13/transforms/f25b30729f3c6a46cb2072245b5e7110/transformed/out/jars/libs/R.jar:/Users/arman/.gradle/caches/8.13/transforms/f25b30729f3c6a46cb2072245b5e7110/transformed/out/jars/libs/unity-classes.jar"
       resolved="Gradle:unityLibrary:unspecified"
       partialResultsDir="/Users/arman/Wonderful-World-Of-Wooly-Wumps/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
-      folder="/Users/arman/.gradle/caches/8.13/transforms/bb33694d5258dc4d69cc860a7c54ac6a/transformed/out"
+      folder="/Users/arman/.gradle/caches/8.13/transforms/f25b30729f3c6a46cb2072245b5e7110/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

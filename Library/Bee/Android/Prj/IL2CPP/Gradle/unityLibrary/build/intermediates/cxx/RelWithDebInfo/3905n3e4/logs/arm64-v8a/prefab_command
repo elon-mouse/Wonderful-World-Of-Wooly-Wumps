@@ -15,6 +15,6 @@
   --ndk-version \
   27 \
   --output \
-  /var/folders/b0/lqsr4t550_s91m7bcfshysj40000gn/T/agp-prefab-staging4639277525454821106/staged-cli-output \
+  /var/folders/b0/lqsr4t550_s91m7bcfshysj40000gn/T/agp-prefab-staging8370268275718505720/staged-cli-output \
   /Users/arman/.gradle/caches/8.13/transforms/1e7cc65d4e74b23bd94dca9ec0ac2eb3/transformed/jetified-games-activity-3.0.5/prefab \
   /Users/arman/.gradle/caches/8.13/transforms/6553fed145da0193876e5b502bd35441/transformed/jetified-games-frame-pacing-2.1.2/prefab
