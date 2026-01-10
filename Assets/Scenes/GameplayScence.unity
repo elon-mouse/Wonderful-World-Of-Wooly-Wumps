@@ -882,6 +882,7 @@ GameObject:
   - component: {fileID: 519056943}
   - component: {fileID: 519056942}
   - component: {fileID: 519056941}
+  - component: {fileID: 519056944}
   - component: {fileID: 519056940}
   m_Layer: 5
   m_Name: OnScreenControls
@@ -975,6 +976,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &519056944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519056938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad2442019f58f4e4f826e9d65f6f65d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HideOSC
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,7 +1158,7 @@ GameObject:
   - component: {fileID: 622771918}
   - component: {fileID: 622771919}
   - component: {fileID: 622771920}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1698,6 +1711,7 @@ GameObject:
   - component: {fileID: 955894864}
   - component: {fileID: 955894863}
   - component: {fileID: 955894862}
+  - component: {fileID: 955894867}
   - component: {fileID: 955894861}
   - component: {fileID: 955894860}
   - component: {fileID: 955894866}
@@ -1884,6 +1898,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &955894867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955894859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c594f877b5b443a925671153e78b92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
+  player: {fileID: 0}
+  moveSpeed: 2
+  chaseRange: 5
+  attackRange: 1
+  attackDamage: 10
+  attackCooldown: 1.2
 --- !u!1 &1093219859
 GameObject:
   m_ObjectHideFlags: 0

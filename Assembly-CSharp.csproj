@@ -48,12 +48,11 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/enemyAI.cs" />
     <Compile Include="Assets/Scripts/Camera.cs" />
+    <Compile Include="Assets/Scripts/EmemyAI.cs" />
     <Compile Include="Assets/Scripts/playerAttack.cs" />
     <Compile Include="Assets/Scripts/HealthBar.cs" />
     <Compile Include="Assets/Scripts/Killbrick.cs" />
-    <Compile Include="Assets/Scripts/enemyattack.cs" />
     <Compile Include="Assets/Scripts/healthsystem.cs" />
     <Compile Include="Assets/Scripts/HideOSC.cs" />
     <Compile Include="Assets/Scripts/PlayerRespawn.cs" />
