@@ -37,13 +37,15 @@ public class PlayerAttack : MonoBehaviour
     }
 
     // 🔥 ACTUAL ATTACK LOGIC
+    [SerializeField] private Transform attackPoint;
+
     private void PerformAttack()
     {
-        Vector2 direction = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
-        Vector2 attackCenter = (Vector2)transform.position + direction * attackRange;
-
-        Collider2D[] hitEnemies =
-            Physics2D.OverlapCircleAll(attackCenter, attackRange, enemyLayer);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(
+            attackPoint.position,
+            attackRange,
+            enemyLayer
+        );
 
         Debug.Log($"Attack triggered. Hit count: {hitEnemies.Length}");
 
@@ -55,12 +57,9 @@ public class PlayerAttack : MonoBehaviour
                 health.TakeDamage(damage);
                 Debug.Log("Damaged: " + enemy.name);
             }
-            else
-            {
-                Debug.LogWarning(enemy.name + " has no HealthSystem!");
-            }
         }
     }
+
 
     // 🎯 VISUAL DEBUG
     private void OnDrawGizmosSelected()
