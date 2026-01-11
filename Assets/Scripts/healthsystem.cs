@@ -5,13 +5,11 @@ public class HealthSystem : MonoBehaviour
     public float maxHealth = 100f;
     private float currentHealth;
 
-    [Header("UI")]
-    public HealthBarUI healthBar; // Optional (player / enemies)
+    public HealthBarUI healthBar;
 
     void Start()
     {
         ResetHealth();
-        Debug.Log(gameObject.name + " health initialized at " + currentHealth);
     }
 
     public void ResetHealth()
@@ -20,38 +18,32 @@ public class HealthSystem : MonoBehaviour
 
         if (healthBar != null)
             healthBar.ResetBar();
-
-        Debug.Log($"[HealthSystem] {name} health reset to {currentHealth}/{maxHealth}");
     }
 
     public void TakeDamage(float amount)
     {
+        if (currentHealth <= 0) return;
+
         currentHealth -= amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
         if (healthBar != null)
             healthBar.SetHealth(currentHealth, maxHealth);
 
-        Debug.Log(gameObject.name + " took " + amount + " damage. Remaining health: " + currentHealth);
-
         if (currentHealth <= 0)
-        {
             Die();
-        }
     }
 
     void Die()
     {
-        Debug.Log(gameObject.name + " died.");
-
-        // Player logic
         if (CompareTag("Player"))
         {
-            Debug.Log("[HealthSystem] Player died — waiting for respawn");
+            PlayerRespawn respawn = GetComponent<PlayerRespawn>();
+            if (respawn != null)
+                respawn.ForceRespawn();
             return;
         }
 
-        // Enemy logic
         Destroy(gameObject);
     }
 }

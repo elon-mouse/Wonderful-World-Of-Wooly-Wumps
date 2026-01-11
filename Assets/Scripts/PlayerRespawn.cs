@@ -28,10 +28,8 @@ public class PlayerRespawn : MonoBehaviour
 
     public void ForceRespawn()
     {
-        Debug.Log("[PlayerRespawn] ForceRespawn called");
-
-        if (!respawning)
-            StartCoroutine(RespawnRoutine());
+        if (respawning) return;
+        StartCoroutine(RespawnRoutine());
     }
 
     IEnumerator RespawnRoutine()
@@ -47,22 +45,12 @@ public class PlayerRespawn : MonoBehaviour
             rb.Sleep();
         }
 
-        Debug.Log($"[PlayerRespawn] Waiting {respawnDelay}s");
         yield return new WaitForSeconds(respawnDelay);
 
         if (respawnPoint != null)
-        {
-            Debug.Log($"[PlayerRespawn] Teleporting to {respawnPoint.position}");
             transform.position = respawnPoint.position;
-        }
-        else
-        {
-            Debug.LogError("[PlayerRespawn] respawnPoint is NULL");
-        }
 
-        // Reset health
         health.ResetHealth();
-
 
         yield return null;
 
@@ -70,6 +58,5 @@ public class PlayerRespawn : MonoBehaviour
         if (col) col.enabled = true;
 
         respawning = false;
-        Debug.Log("[PlayerRespawn] Respawn complete");
     }
 }
