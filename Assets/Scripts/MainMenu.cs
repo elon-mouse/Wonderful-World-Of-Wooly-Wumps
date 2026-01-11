@@ -6,4 +6,8 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync("LevelOne");
     }
+        public void GameControls()
+    {
+        SceneManager.LoadSceneAsync("Controls");
+    }
 }
