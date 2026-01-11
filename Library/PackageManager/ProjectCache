@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639030176610000000
-    m_Hash: 2694537020
+      ticks: 639037596940000000
+    m_Hash: 186978669
   m_LockFileStatus:
     m_FilePath: /Users/arman/Wonderful-World-Of-Wooly-Wumps/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639030176610000000
-    m_Hash: 19739068
+      ticks: 639037596940000000
+    m_Hash: 4173373200
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -2262,6 +2262,7 @@ m_ResolvedPackages:
     - 4.13.2
     - 4.14.0
     - 4.14.1
+    - 4.14.2
     - 5.0.0-pre.1
     - 5.0.0-pre.3
     - 5.0.0-pre.4
@@ -2280,6 +2281,7 @@ m_ResolvedPackages:
     compatible:
     - 4.14.0
     - 4.14.1
+    - 4.14.2
     - 5.0.0-pre.1
     - 5.0.0-pre.3
     - 5.0.0-pre.4
@@ -4877,103 +4879,6 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.modules.uielements@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements
-  assetPath: Packages/com.unity.modules.uielements
-  name: com.unity.modules.uielements
-  displayName: UIElements
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The UIElements module implements the UIElements retained mode UI
-    framework. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIElementsModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.hierarchycore
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.hierarchycore
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.uielementsnative@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -6249,23 +6154,23 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.modules.hierarchycore@1.0.0
+- packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore
-  assetPath: Packages/com.unity.modules.hierarchycore
-  name: com.unity.modules.hierarchycore
-  displayName: Hierarchy Core
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements
+  assetPath: Packages/com.unity.modules.uielements
+  name: com.unity.modules.uielements
+  displayName: UIElements
   author:
     name: 
     email: 
     url: 
   category: 
   type: module
-  description: 'Module that contains a high-performance hierarchy container. Scripting
-    API: https://docs.unity3d.com/ScriptReference/UnityEngine.HierarchyCoreModule.html'
+  description: 'The UIElements module implements the UIElements retained mode UI
+    framework. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIElementsModule.html'
   errors: []
   versions:
     all:
@@ -6274,8 +6179,28 @@ m_ResolvedPackages:
     - 1.0.0
     recommended: 1.0.0
     deprecated: []
-  dependencies: []
-  resolvedDependencies: []
+  dependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
   keywords: []
   registry:
     id: main
@@ -6301,12 +6226,12 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 0
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -7457,10 +7382,12 @@ m_ResolvedPackages:
     - 2.6.0-pre.4
     - 2.6.2
     - 2.6.3
+    - 2.6.4
     compatible:
     - 2.6.2
     - 2.6.3
-    recommended: 2.6.3
+    - 2.6.4
+    recommended: 2.6.4
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -7538,6 +7465,83 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.6.2
     minimumUnityVersion: 2022.3.20f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.hierarchycore@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore
+  assetPath: Packages/com.unity.modules.hierarchycore
+  name: com.unity.modules.hierarchycore
+  displayName: Hierarchy Core
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'Module that contains a high-performance hierarchy container. Scripting
+    API: https://docs.unity3d.com/ScriptReference/UnityEngine.HierarchyCoreModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
   compliance:
     status: 0
     violation:

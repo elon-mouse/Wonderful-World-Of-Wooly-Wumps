@@ -399,14 +399,6 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.modules.uielements@1.0.0": {
-      "name": "com.unity.modules.uielements",
-      "displayName": "UIElements",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements",
-      "version": "1.0.0",
-      "source": "builtin",
-      "testable": false
-    },
     "com.unity.modules.uielementsnative@1.0.0": {
       "name": "com.unity.modules.uielementsnative",
       "displayName": "",
@@ -527,10 +519,10 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.modules.hierarchycore@1.0.0": {
-      "name": "com.unity.modules.hierarchycore",
-      "displayName": "Hierarchy Core",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
+    "com.unity.modules.uielements@1.0.0": {
+      "name": "com.unity.modules.uielements",
+      "displayName": "UIElements",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -633,6 +625,14 @@
       "editorCompatibility": "2022.3.20f1",
       "version": "2.6.2",
       "source": "registry",
+      "testable": false
+    },
+    "com.unity.modules.hierarchycore@1.0.0": {
+      "name": "com.unity.modules.hierarchycore",
+      "displayName": "Hierarchy Core",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
+      "version": "1.0.0",
+      "source": "builtin",
       "testable": false
     },
     "com.unity.searcher@4.9.4": {
