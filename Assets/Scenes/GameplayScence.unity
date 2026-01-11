@@ -1569,6 +1569,7 @@ GameObject:
   - component: {fileID: 955894862}
   - component: {fileID: 955894860}
   - component: {fileID: 955894867}
+  - component: {fileID: 955894868}
   - component: {fileID: 955894866}
   m_Layer: 3
   m_Name: Super-Surperent
@@ -1589,7 +1590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 587ee829dca4f4fda86ae66403409988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 100
+  maxHealth: 30
   healthBar: {fileID: 1658877419}
 --- !u!61 &955894862
 BoxCollider2D:
@@ -1722,8 +1723,8 @@ Rigidbody2D:
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
+  m_UseAutoMass: 1
+  m_Mass: 269.5783
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 500
@@ -1751,8 +1752,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
   player: {fileID: 622771914}
-  speed: 10
+  speed: 5
   distanceBetween: 60
+--- !u!114 &955894868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955894859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241ff475e7c934d1a971659367d13ec7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
+  damage: 10
+  attackRange: 20
+  attackRate: 1
+  player: {fileID: 622771914}
 --- !u!1 &1093219859
 GameObject:
   m_ObjectHideFlags: 0
