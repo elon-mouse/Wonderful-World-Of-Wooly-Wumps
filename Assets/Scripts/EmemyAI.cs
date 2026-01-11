@@ -1,74 +1,38 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
-public class EnemyAI : MonoBehaviour
+public class EmemyAI : MonoBehaviour
 {
-    public Transform player;
-    public float moveSpeed = 2f;
-    public float chaseRange = 5f;
-    public float attackRange = 1f;
-    public float attackDamage = 10f;
-    public float attackCooldown = 1.2f;
+    public GameObject player;
+    public float speed;
+    public float distanceBetween;
 
-    private Rigidbody2D rb;
-    private float lastAttackTime;
+    private float distance;
 
-    private void Awake()
+    // Start is called before the first frame update
+    void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = 0;
-        rb.freezeRotation = true;
+        
     }
 
-    private void Start()
+    // Update is called once per frame
+    void Update()
     {
-        if (player == null)
-            player = GameObject.FindGameObjectWithTag("Player")?.transform;
-    }
+        distance = Vector2.Distance(transform.position, player.transform.position);
 
-    private void FixedUpdate()
-    {
-        if (player == null) return;
+        Vector2 direction = player.transform.position - transform.position;
+        direction.Normalize();
 
-        float dx = player.position.x - transform.position.x;
-        float distance = Mathf.Abs(dx);
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
-        if (distance <= attackRange)
+        if (distance < distanceBetween)
         {
-            TryAttack();
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            transform.position = Vector2.MoveTowards(
+                this.transform.position,
+                player.transform.position,
+                speed * Time.deltaTime
+            );
+
+            transform.rotation = Quaternion.Euler(Vector3.forward * angle);
         }
-        else if (distance <= chaseRange)
-        {
-            rb.linearVelocity = new Vector2(Mathf.Sign(dx) * moveSpeed, rb.linearVelocity.y);
-            transform.localScale = new Vector3(Mathf.Sign(dx), 1, 1);
-        }
-        else
-        {
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
-        }
-    }
-
-    private void TryAttack()
-    {
-        if (Time.time - lastAttackTime < attackCooldown) return;
-
-        lastAttackTime = Time.time;
-
-        HealthSystem health = player.GetComponent<HealthSystem>();
-        if (health != null)
-        {
-            Debug.Log($"{name} attacks player");
-            health.TakeDamage(attackDamage);
-        }
-    }
-
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, chaseRange);
-
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
 }
