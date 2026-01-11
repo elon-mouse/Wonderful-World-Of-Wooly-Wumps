@@ -10,4 +10,8 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync("Controls");
     }
+            public void Home()
+    {
+        SceneManager.LoadSceneAsync("MainMenu");
+    }
 }

@@ -490,6 +490,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Scripts/Button.cs"
 "Assets/Scripts/Camera.cs"
 "Assets/Scripts/EmemyAI.cs"
 "Assets/Scripts/enemyattack.cs"
@@ -498,7 +499,6 @@
 "Assets/Scripts/HideOSC.cs"
 "Assets/Scripts/Killbrick.cs"
 "Assets/Scripts/MainMenu.cs"
-"Assets/Scripts/playemovement.cs"
 "Assets/Scripts/playerAttack.cs"
 "Assets/Scripts/PlayerRespawn.cs"
 -langversion:9.0

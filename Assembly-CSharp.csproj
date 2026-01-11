@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/Camera.cs" />
+    <Compile Include="Assets/Scripts/Button.cs" />
     <Compile Include="Assets/Scripts/EmemyAI.cs" />
     <Compile Include="Assets/Scripts/MainMenu.cs" />
     <Compile Include="Assets/Scripts/playerAttack.cs" />
@@ -58,7 +59,6 @@
     <Compile Include="Assets/Scripts/healthsystem.cs" />
     <Compile Include="Assets/Scripts/HideOSC.cs" />
     <Compile Include="Assets/Scripts/PlayerRespawn.cs" />
-    <Compile Include="Assets/Scripts/playemovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
