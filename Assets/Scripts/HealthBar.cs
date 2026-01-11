@@ -1,80 +1,37 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthBarFollow : MonoBehaviour
+public class HealthBarUI : MonoBehaviour
 {
-    [Header("Health Settings")]
-    public float maxHealth = 100f;
-    public float currentHealth;
+    public Image healthFill;   // Green (top)
+    public Image damageFill;   // Red (middle)
 
-    [Header("UI Settings")]
-    public Slider healthBarPrefab;  // Assign your Slider prefab in the inspector
-    public Vector3 offset = new Vector3(0, 1, 0); // Position above the object
+    public float damageSpeed = 1.5f;
 
-    private Slider healthBarInstance;
-    private UnityEngine.Camera cam; // Fully qualified to avoid conflicts
-
-    void Start()
-    {
-        currentHealth = maxHealth;
-
-        // Cache the main camera
-        cam = UnityEngine.Camera.main;
-        if (cam == null)
-        {
-            Debug.LogError("No camera tagged MainCamera found in the scene!");
-        }
-
-        // Instantiate health bar UI
-        if (healthBarPrefab != null)
-        {
-            // Make sure there is a Canvas in the scene
-            GameObject canvasObj = GameObject.Find("Canvas");
-            if (canvasObj == null)
-            {
-                Debug.LogError("No Canvas found in the scene! Create one first.");
-                return;
-            }
-
-            healthBarInstance = Instantiate(healthBarPrefab, canvasObj.transform);
-            healthBarInstance.maxValue = maxHealth;
-            healthBarInstance.value = currentHealth;
-        }
-        else
-        {
-            Debug.LogError("Assign a HealthBar prefab in the inspector!");
-        }
-    }
+    private float targetFill = 1f;
 
     void Update()
     {
-        // Make health bar follow the object
-        if (healthBarInstance != null && cam != null)
+        if (damageFill.fillAmount > targetFill)
         {
-            Vector3 screenPos = cam.WorldToScreenPoint(transform.position + offset);
-            healthBarInstance.transform.position = screenPos;
+            damageFill.fillAmount = Mathf.MoveTowards(
+                damageFill.fillAmount,
+                targetFill,
+                damageSpeed * Time.deltaTime
+            );
         }
     }
 
-    // Call this to reduce health
-    public void TakeDamage(float damage)
+    public void SetHealth(float current, float max)
     {
-        currentHealth -= damage;
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-        UpdateHealthBar();
+        targetFill = current / max;
+        healthFill.fillAmount = targetFill;
     }
 
-    // Call this to heal
-    public void Heal(float amount)
+    public void ResetBar()
     {
-        currentHealth += amount;
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-        UpdateHealthBar();
-    }
-
-    private void UpdateHealthBar()
-    {
-        if (healthBarInstance != null)
-            healthBarInstance.value = currentHealth;
+        targetFill = 1f;
+        healthFill.fillAmount = 1f;
+        damageFill.fillAmount = 1f;
     }
 }
