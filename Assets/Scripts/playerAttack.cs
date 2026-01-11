@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(PlayerInput))]
+[RequireComponent(typeof(Animator))]
 public class PlayerAttack : MonoBehaviour
 {
     [Header("Attack Settings")]
@@ -9,12 +10,17 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float attackRange = 1.5f;
     [SerializeField] private LayerMask enemyLayer;
 
+    [Header("Attack Point")]
+    [SerializeField] private Transform attackPoint;
+
     private PlayerInput playerInput;
     private InputAction attackAction;
+    private Animator animator;
 
     private void Awake()
     {
         playerInput = GetComponent<PlayerInput>();
+        animator = GetComponent<Animator>();
         attackAction = playerInput.actions["Attack"];
 
         Debug.Log("PlayerAttack initialized. Attack action found: " + (attackAction != null));
@@ -33,12 +39,16 @@ public class PlayerAttack : MonoBehaviour
     // 🔥 CALLED BY INPUT SYSTEM
     private void OnAttack(InputAction.CallbackContext context)
     {
+        animator.SetBool("isAttacking", true);
+        Invoke(nameof(ResetAttack), 0.2f);
         PerformAttack();
+    }
+    private void ResetAttack()
+    {
+        animator.SetBool("isAttacking", false);
     }
 
     // 🔥 ACTUAL ATTACK LOGIC
-    [SerializeField] private Transform attackPoint;
-
     private void PerformAttack()
     {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(
@@ -60,13 +70,12 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-
     // 🎯 VISUAL DEBUG
     private void OnDrawGizmosSelected()
     {
+        if (attackPoint == null) return;
+
         Gizmos.color = Color.red;
-        Vector2 direction = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
-        Vector2 center = (Vector2)transform.position + direction * attackRange;
-        Gizmos.DrawWireSphere(center, attackRange);
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }
