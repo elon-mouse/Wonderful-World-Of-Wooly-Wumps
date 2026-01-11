@@ -53,6 +53,7 @@
     <Compile Include="Assets/Scripts/playerAttack.cs" />
     <Compile Include="Assets/Scripts/HealthBar.cs" />
     <Compile Include="Assets/Scripts/Killbrick.cs" />
+    <Compile Include="Assets/Scripts/enemyattack.cs" />
     <Compile Include="Assets/Scripts/healthsystem.cs" />
     <Compile Include="Assets/Scripts/HideOSC.cs" />
     <Compile Include="Assets/Scripts/PlayerRespawn.cs" />

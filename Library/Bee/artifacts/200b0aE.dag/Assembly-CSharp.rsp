@@ -492,6 +492,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/Camera.cs"
 "Assets/Scripts/EmemyAI.cs"
+"Assets/Scripts/enemyattack.cs"
 "Assets/Scripts/HealthBar.cs"
 "Assets/Scripts/healthsystem.cs"
 "Assets/Scripts/HideOSC.cs"
