@@ -2,33 +2,71 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
+    [Header("References")]
     public Transform player;
-    public float speed = 2f;
-    public float distanceBetween = 5f;
+    public Animator animator;
 
-    private float distance;
+    [Header("Movement")]
+    public float speed = 2f;
+    public float chaseDistance = 5f;
+    public float attackDistance = 1.2f;
+
+    [Header("Attack")]
+    public float attackCooldown = 1f;
+
+    private float lastAttackTime;
 
     void Update()
     {
-        distance = Vector2.Distance(transform.position, player.position);
+        if (!player) return;
 
-        if (distance < distanceBetween)
+        float distance = Vector2.Distance(transform.position, player.position);
+
+        // ATTACK
+        if (distance <= attackDistance)
         {
-            // Move ONLY on X axis
-            float directionX = Mathf.Sign(player.position.x - transform.position.x);
+            animator.SetBool("isWalking", false);
 
-            transform.position = new Vector2(
-                transform.position.x + directionX * speed * Time.deltaTime,
-                transform.position.y
-            );
-
-            // Optional: flip sprite
-            if (directionX != 0)
+            if (Time.time >= lastAttackTime + attackCooldown)
             {
-                Vector3 scale = transform.localScale;
-                scale.x = Mathf.Abs(scale.x) * directionX;
-                transform.localScale = scale;
+                Attack();
+                lastAttackTime = Time.time;
             }
+
+            return;
         }
+
+        // CHASE
+        if (distance <= chaseDistance)
+        {
+            MoveTowardPlayer();
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+        }
+    }
+
+    void MoveTowardPlayer()
+    {
+        float directionX = Mathf.Sign(player.position.x - transform.position.x);
+
+        transform.position = new Vector2(
+            transform.position.x + directionX * speed * Time.deltaTime,
+            transform.position.y
+        );
+
+        animator.SetBool("isWalking", true);
+
+        // Flip sprite
+        Vector3 scale = transform.localScale;
+        scale.x = Mathf.Abs(scale.x) * directionX;
+        transform.localScale = scale;
+    }
+
+    void Attack()
+    {
+        animator.SetTrigger("attack");
+        // Damage logic goes here (overlap circle, raycast, etc.)
     }
 }
