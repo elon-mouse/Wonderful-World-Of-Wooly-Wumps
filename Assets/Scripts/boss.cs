@@ -4,29 +4,35 @@ using UnityEngine.SceneManagement;
 
 public class BossFight : MonoBehaviour
 {
-    [Header("Boss Settings")]
-    public int bossHealth = 3;
-    public float vulnerableTime = 30f;
-    public float timeBetweenPhases = 60f;
-
-    [Header("Teleport Points")]
-    public Transform[] teleportPlatforms;
-
-    [Header("Obstacle Phases")]
-    public GameObject miniCourseTrigger;
-    public GameObject rollingSawSpawner;
-    public GameObject jumpAttackTrigger;
-
     [Header("References")]
+    public Transform player;
     public Animator animator;
     public Collider2D bossHitbox;
 
-    private int currentPhase = 0;
+    [Header("Teleport Points (ORDER MATTERS)")]
+    public Transform[] playerTeleportPoints;
+    public Transform[] bossTeleportPoints;
+
+    [Header("Obstacles")]
+    public GameObject miniCourseObstacle;
+    public GameObject sawObstacle;
+    public BossJumpAttack jumpAttack; // IMPORTANT CHANGE
+
+    [Header("Boss Settings")]
+    public int bossHealth = 3;
+    public float obstacleDuration = 15f;
+    public float vulnerableTime = 30f;
+    public float timeBetweenStages = 60f;
+
+    private int stageIndex = 0;
     private bool canBeHit = false;
     private bool wasHit = false;
+    private bool hitLocked = false;
 
     void Start()
     {
+        bossHitbox.enabled = false;
+        DisableAllObstacles();
         StartCoroutine(BossLoop());
     }
 
@@ -34,51 +40,59 @@ public class BossFight : MonoBehaviour
     {
         while (bossHealth > 0)
         {
-            yield return new WaitForSeconds(timeBetweenPhases);
+            yield return new WaitForSeconds(timeBetweenStages);
 
-            TeleportToPlatform();
-            yield return StartCoroutine(DoObstaclePhase());
+            TeleportBoss();
+            TeleportPlayer();
 
-            yield return StartCoroutine(VulnerablePhase());
+            yield return RunObstacle();
+
+            yield return VulnerablePhase();
 
             if (!wasHit)
-            {
-                // Repeat same obstacle
-                continue;
-            }
+                continue; // repeat stage
 
             wasHit = false;
-            currentPhase = (currentPhase + 1) % 3;
+            hitLocked = false;
+            stageIndex = (stageIndex + 1) % playerTeleportPoints.Length;
         }
 
         Die();
     }
 
-    void TeleportToPlatform()
+    void TeleportBoss()
     {
-        int index = Random.Range(0, teleportPlatforms.Length);
-        transform.position = teleportPlatforms[index].position;
+        if (bossTeleportPoints.Length == 0) return;
+
+        transform.position = bossTeleportPoints[stageIndex].position;
         animator.SetTrigger("Teleport");
     }
 
-    IEnumerator DoObstaclePhase()
+    void TeleportPlayer()
+    {
+        if (playerTeleportPoints.Length == 0 || player == null) return;
+
+        player.position = playerTeleportPoints[stageIndex].position;
+    }
+
+    IEnumerator RunObstacle()
     {
         DisableAllObstacles();
 
-        if (currentPhase == 0)
+        if (stageIndex == 0 && miniCourseObstacle != null)
         {
-            miniCourseTrigger.SetActive(true);
+            miniCourseObstacle.SetActive(true);
         }
-        else if (currentPhase == 1)
+        else if (stageIndex == 1 && sawObstacle != null)
         {
-            rollingSawSpawner.SetActive(true);
+            sawObstacle.SetActive(true);
         }
-        else if (currentPhase == 2)
+        else if (stageIndex == 2 && jumpAttack != null)
         {
-            jumpAttackTrigger.SetActive(true);
+            jumpAttack.JumpAtPlayer();
         }
 
-        yield return new WaitForSeconds(15f); // obstacle duration
+        yield return new WaitForSeconds(obstacleDuration);
 
         DisableAllObstacles();
         animator.SetTrigger("JumpDown");
@@ -91,11 +105,9 @@ public class BossFight : MonoBehaviour
         animator.SetBool("Vulnerable", true);
 
         float timer = 0f;
-        while (timer < vulnerableTime)
-        {
-            if (wasHit)
-                break;
 
+        while (timer < vulnerableTime && !wasHit)
+        {
             timer += Time.deltaTime;
             yield return null;
         }
@@ -107,17 +119,19 @@ public class BossFight : MonoBehaviour
 
     void DisableAllObstacles()
     {
-        miniCourseTrigger.SetActive(false);
-        rollingSawSpawner.SetActive(false);
-        jumpAttackTrigger.SetActive(false);
+        if (miniCourseObstacle) miniCourseObstacle.SetActive(false);
+        if (sawObstacle) sawObstacle.SetActive(false);
     }
 
     public void TakeHit()
     {
-        if (!canBeHit) return;
+        if (!canBeHit || hitLocked) return;
 
+        hitLocked = true;
         wasHit = true;
         bossHealth--;
+
+        bossHitbox.enabled = false; // prevent double hits
         animator.SetTrigger("Hit");
     }
 
