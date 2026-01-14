@@ -1805,6 +1805,7 @@ GameObject:
   - component: {fileID: 983534311}
   - component: {fileID: 983534312}
   - component: {fileID: 983534313}
+  - component: {fileID: 983534315}
   - component: {fileID: 983534314}
   m_Layer: 0
   m_Name: enemy
@@ -1903,8 +1904,8 @@ Transform:
   m_GameObject: {fileID: 983534307}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 139.76357, y: 5, z: 0}
-  m_LocalScale: {x: 0.74367, y: 0.74367, z: 0.74367}
+  m_LocalPosition: {x: 139.76357, y: 3.32, z: 0}
+  m_LocalScale: {x: 0.44737634, y: 0.44737634, z: 0.44737634}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1985,7 +1986,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 71.07137
+  m_Mass: 25.72055
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
@@ -2013,9 +2014,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
   damage: 10
-  attackRange: 20
+  attackRange: 10
   attackRate: 1
   player: {fileID: 622771914}
+--- !u!114 &983534315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983534307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 587ee829dca4f4fda86ae66403409988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthSystem
+  maxHealth: 100
+  healthBar: {fileID: 0}
 --- !u!1 &1093219859
 GameObject:
   m_ObjectHideFlags: 0
