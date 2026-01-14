@@ -16,7 +16,13 @@ public class PlayerAttack : MonoBehaviour
     private PlayerInput playerInput;
     private InputAction attackAction;
     private Animator animator;
-
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Boss"))
+        {
+            other.GetComponent<BossFight>()?.TakeHit();
+        }
+    }
     private void Awake()
     {
         playerInput = GetComponent<PlayerInput>();
@@ -60,6 +66,7 @@ public class PlayerAttack : MonoBehaviour
         Debug.Log($"Attack triggered. Hit count: {hitEnemies.Length}");
 
         foreach (Collider2D enemy in hitEnemies)
+        
         {
             HealthSystem health = enemy.GetComponent<HealthSystem>();
             if (health != null)
