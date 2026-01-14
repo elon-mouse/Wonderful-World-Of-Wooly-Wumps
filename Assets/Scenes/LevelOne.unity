@@ -1202,7 +1202,7 @@ Transform:
   m_GameObject: {fileID: 622771909}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.6, y: -0.4, z: 0}
+  m_LocalPosition: {x: 105.9, y: 9.7, z: 0}
   m_LocalScale: {x: 1.5809968, y: 1.3724096, z: 1.5429}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1804,6 +1804,8 @@ GameObject:
   - component: {fileID: 983534308}
   - component: {fileID: 983534311}
   - component: {fileID: 983534312}
+  - component: {fileID: 983534313}
+  - component: {fileID: 983534314}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -1921,9 +1923,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
   player: {fileID: 622771914}
   animator: {fileID: 983534308}
-  speed: 2
-  chaseDistance: 5
-  attackDistance: 1.2
+  speed: 4
+  chaseDistance: 60
+  attackDistance: 10
   attackCooldown: 1
 --- !u!61 &983534312
 BoxCollider2D:
@@ -1971,6 +1973,49 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 14.67, y: 8.76}
   m_EdgeRadius: 0
+--- !u!50 &983534313
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983534307}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 71.07137
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &983534314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983534307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241ff475e7c934d1a971659367d13ec7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
+  damage: 10
+  attackRange: 20
+  attackRate: 1
+  player: {fileID: 622771914}
 --- !u!1 &1093219859
 GameObject:
   m_ObjectHideFlags: 0
