@@ -43,7 +43,7 @@ public class PlayerAttack : MonoBehaviour
     }
 
     // 🔥 CALLED BY INPUT SYSTEM
-    private void OnAttack(InputAction.CallbackContext context)
+    public void OnAttack(InputAction.CallbackContext context)
     {
         animator.SetBool("isAttacking", true);
         Invoke(nameof(ResetAttack), 0.2f);
