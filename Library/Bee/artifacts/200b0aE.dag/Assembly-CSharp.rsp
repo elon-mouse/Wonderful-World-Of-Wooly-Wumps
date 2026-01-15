@@ -491,6 +491,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.3.2f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/boss.cs"
+"Assets/Scripts/BossJumpAttack.cs"
 "Assets/Scripts/Camera.cs"
 "Assets/Scripts/EmemyAI.cs"
 "Assets/Scripts/enemyattack.cs"
